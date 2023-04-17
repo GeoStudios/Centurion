@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author LWAbe
- *
- */
-module Centurion {
-}
