@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ */
+
 package java.base.aix.classes.sun.nio.ch;
 
 import java.nio.channels.*;
