@@ -1,7 +1,4 @@
 # Centurion (JDK)
-![GitHub license](https://img.shields.io/github/license/https://github.com/GeoStudios/Centurion.svg)
-![GitHub issues](https://img.shields.io/github/issues/https://github.com/GeoStudios/Centurion.svg)
-![GitHub tag](https://img.shields.io/github/tag/https://github.com/GeoStudios/Centurion.svg)
 
 Centurion is a Heavy JDK to supply the user with great library of Java tools and enhancements 
 for the java enviorment.
@@ -10,6 +7,9 @@ for the java enviorment.
 
 We will be making a site for the devlopment which will have all the downloads and extra info you to see.
 
+## Devlopers
+
+[M4ximumpizza](https://github.com/M4ximumPizza) is the Project Maintainer and main author.
 ## Installation
 
 On May 10th, i will be posting Java 1 so then i will add the installation guide for Centurion.
