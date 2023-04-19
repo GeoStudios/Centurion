@@ -19,8 +19,6 @@
 #include <dlfcn.h>
 #include <errno.h>
 
-
-
 /*
  * Initially copied from src/solaris/native/sun/nio/ch/nio_util.h
  * @since Pre Java 1
