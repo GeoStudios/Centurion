@@ -48,6 +48,7 @@ import java.util.*;
 final class ProcessEnvironment extends HashMap<String,String>
 {
 
+	
     private static final long serialVersionUID = -8017839552603542824L;
 
     private static String validateName(String name) {
