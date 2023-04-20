@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.base.windows.classes.sun.www.protocol.file;
+package java.base.windows.classes.sun.net.www.protocol.file;
 
 import java.net.URLConnection;
 import java.net.URL;

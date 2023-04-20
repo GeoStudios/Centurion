@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.base.windows.classes.sun.www.protocol.jar;
+package java.base.windows.classes.sun.net.www.protocol.jar;
 
 import java.io.IOException;
 import java.io.FileNotFoundException;
