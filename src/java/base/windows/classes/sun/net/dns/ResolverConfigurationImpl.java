@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.base.windows.classes.sun.dns;
+package java.base.windows.classes.sun.net.dns;
 
 import java.util.ArrayList;
 import java.util.List;
