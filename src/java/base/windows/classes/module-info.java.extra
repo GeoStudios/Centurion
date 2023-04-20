@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ */
+ 
+ /*
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 19/4/2023
+ */
+
+exports sun.security.rsa to jdk.crypto.mscapi;
+exports sun.security.internal.spec to jdk.crypto.mscapi;
+exports sun.security.util to jdk.crypto.mscapi;
