@@ -12,7 +12,7 @@ We will be making a site for the devlopment which will have all the downloads an
 [M4ximumpizza](https://github.com/M4ximumPizza) is the Project Maintainer and main author.
 ## Installation
 
-On May 10th, i will be posting Java 1 so then i will add the installation guide for Centurion.
+Go to the version you want to install, download the EXE file, then run it on your computer. (In the future, there will be more OS version downloads).
 
 ### Requirements
 
