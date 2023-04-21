@@ -12,7 +12,7 @@ We will be making a site for the devlopment which will have all the downloads an
 [M4ximumpizza](https://github.com/M4ximumPizza) is the Project Maintainer and main author.
 ## Installation
 
-Go to the version you want to install, download the EXE file, then run it on your computer. (In the future, there will be more OS version downloads).
+Download the Version Jar you want, then put it into any external library inside your code editor.
 
 ### Requirements
 
