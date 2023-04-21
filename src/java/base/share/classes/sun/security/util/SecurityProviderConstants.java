@@ -13,7 +13,7 @@ import java.security.ProviderException;
 import java.security.NoSuchAlgorithmException;
 import javax.crypto.Cipher;
 import javax.crypto.spec.DHParameterSpec;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Various constants such as version number, default key length, used by

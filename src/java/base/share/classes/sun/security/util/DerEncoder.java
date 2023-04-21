@@ -8,7 +8,9 @@ package java.base.share.classes.sun.security.util;
  * Interface to an object that knows how to write its own DER
  * encoding to an output stream.
  *
- * @author D. N. Hoover
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public interface DerEncoder {
 

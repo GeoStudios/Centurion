@@ -8,6 +8,12 @@ import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
+ */
+
 public class IOUtils {
 
     /**
@@ -25,6 +31,8 @@ public class IOUtils {
      * @throws IOException if an I/O error occurs or {@code length} is negative
      * @throws OutOfMemoryError if an array of the required size cannot be
      *         allocated.
+     *         
+     * 
      */
     public static byte[] readExactlyNBytes(InputStream is, int length)
             throws IOException {

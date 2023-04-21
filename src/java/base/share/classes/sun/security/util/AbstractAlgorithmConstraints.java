@@ -15,6 +15,10 @@ import java.util.TreeSet;
 
 /**
  * The class contains common functionality for algorithm constraints classes.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public abstract class AbstractAlgorithmConstraints
         implements AlgorithmConstraints {

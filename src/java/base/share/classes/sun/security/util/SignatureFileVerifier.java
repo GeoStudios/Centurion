@@ -15,9 +15,9 @@ import java.util.*;
 import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 
-import sun.security.jca.Providers;
-import sun.security.pkcs.PKCS7;
-import sun.security.pkcs.SignerInfo;
+import java.base.share.classes.sun.security.jca.Providers;
+import java.base.share.classes.sun.security.pkcs.PKCS7;
+import java.base.share.classes.sun.security.pkcs.SignerInfo;
 
 /**
  * @since Pre Java 1

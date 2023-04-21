@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.security.util;
 
-import sun.security.validator.Validator;
+import java.base.share.classes.sun.security.validator.Validator;
 
 import java.lang.ref.SoftReference;
 import java.security.AlgorithmParameters;
@@ -42,6 +42,10 @@ import java.util.regex.Matcher;
  *
  * See the "jdk.certpath.disabledAlgorithms" specification in java.security
  * for the syntax of the disabled algorithm string.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class DisabledAlgorithmConstraints extends AbstractAlgorithmConstraints {
     private static final Debug debug = Debug.getInstance("certpath");

@@ -9,6 +9,10 @@ import javax.crypto.SecretKey;
 
 /**
  * Special interface for additional MessageDigestSpi method(s).
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public interface MessageDigestSpi2 {
 

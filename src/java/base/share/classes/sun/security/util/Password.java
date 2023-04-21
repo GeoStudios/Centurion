@@ -8,7 +8,7 @@ import java.io.*;
 import java.nio.*;
 import java.nio.charset.*;
 import java.util.Arrays;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * A utility class for reading passwords

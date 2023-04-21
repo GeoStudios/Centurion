@@ -6,6 +6,10 @@ package java.base.share.classes.sun.security.util;
 
 /**
  * A time-instance comparison of two byte arrays.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class ByteArrays {
     // See the MessageDigest.isEqual(byte[] digesta, byte[] digestb)

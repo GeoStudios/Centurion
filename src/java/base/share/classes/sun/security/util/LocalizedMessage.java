@@ -13,10 +13,14 @@ package java.base.share.classes.sun.security.util;
  * code that is contained in this class.
  */
 
-/*
+/**
  * Some of this code is executed before the VM is fully booted. Some import
  * statements have been omitted to help prevent accidental use of classes that
  * may not be available during boot.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class LocalizedMessage {

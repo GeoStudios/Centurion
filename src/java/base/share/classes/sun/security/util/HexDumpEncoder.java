@@ -25,7 +25,9 @@ import static java.nio.charset.StandardCharsets.ISO_8859_1;
  * by ascii coded hexadecimal bytes followed by the ASCII representation of
  * the bytes or '.' if they are not valid bytes.
  *
- * @author      Chuck McManis
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class HexDumpEncoder {

@@ -6,10 +6,14 @@ package java.base.share.classes.sun.security.util;
 
 import java.io.FilePermission;
 import java.security.Permission;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * Take care of FilePermission compatibility after JDK-8164705.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class FilePermCompat {
     /**

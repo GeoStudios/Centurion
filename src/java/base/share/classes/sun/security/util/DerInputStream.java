@@ -30,9 +30,9 @@ import java.util.function.Predicate;
  * most X.509 certificates.
  *
  *
- * @author David Brownell
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class DerInputStream {
 

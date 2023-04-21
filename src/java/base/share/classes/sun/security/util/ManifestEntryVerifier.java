@@ -9,11 +9,15 @@ import java.security.*;
 import java.util.*;
 import java.util.jar.*;
 
-import sun.security.jca.Providers;
+import java.base.share.classes.sun.security.jca.Providers;
 
 /**
  * This class is used to verify each entry in a jar file with its
  * manifest value.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class ManifestEntryVerifier {

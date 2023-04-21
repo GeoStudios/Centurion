@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.security.util;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -14,6 +14,11 @@ import java.security.spec.*;
 import java.util.Arrays;
 import java.util.Objects;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
+ */
 public final class ECUtil {
 
     // Used by SunEC

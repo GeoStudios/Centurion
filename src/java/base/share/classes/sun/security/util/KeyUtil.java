@@ -18,10 +18,14 @@ import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
 import javax.crypto.spec.DHPublicKeySpec;
 
-import sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
 /**
  * A utility class to get key length, validate keys, etc.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public final class KeyUtil {
 

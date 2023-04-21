@@ -14,8 +14,9 @@ import java.util.*;
  * Repository for well-known Elliptic Curve parameters. It is used by both
  * the SunPKCS11 and SunJSSE code.
  *
- * @since   1.6
- * @author  Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class CurveDB {
     private static final int P  = 1; // prime curve

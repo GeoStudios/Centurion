@@ -9,6 +9,10 @@ import java.util.regex.Pattern;
 
 /**
  * The class decomposes standard algorithms into sub-elements.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class AlgorithmDecomposer {
 

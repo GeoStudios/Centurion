@@ -18,6 +18,10 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * This class is used to compute digests on sections of the Manifest.
  * Please note that multiple sections might have the same name, and they
  * all belong to a single Entry.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class ManifestDigester {
 

@@ -10,6 +10,10 @@ package java.base.share.classes.sun.security.util;
  * Listener uses setReportListener() to register for listening to an event,
  * and uses clearReportListener() to unregister a listening session.
  * Listener should implement the event handling of the Reporter interface.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public final class Event {
     private Event() {}

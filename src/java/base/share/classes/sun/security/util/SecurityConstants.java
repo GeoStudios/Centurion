@@ -9,7 +9,7 @@ import java.net.NetPermission;
 import java.net.SocketPermission;
 import java.security.AllPermission;
 import java.security.SecurityPermission;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Permission constants and string constants used to create permissions

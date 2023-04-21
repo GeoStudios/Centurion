@@ -6,6 +6,11 @@ package java.base.share.classes.sun.security.util;
 
 import java.util.Comparator;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
+ */
 public class ByteArrayTagOrder implements Comparator<byte[]> {
 
     /**

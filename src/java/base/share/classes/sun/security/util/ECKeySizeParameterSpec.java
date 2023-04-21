@@ -13,6 +13,9 @@ import java.security.spec.AlgorithmParameterSpec;
  *
  * @see AlgorithmParameterSpec
  * @see ECGenParameterSpec
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class ECKeySizeParameterSpec implements AlgorithmParameterSpec {
 

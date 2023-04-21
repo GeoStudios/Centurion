@@ -48,8 +48,9 @@ import java.security.spec.*;
  *    ECPoint ::= OCTET STRING
  * </pre>
  *
- * @since   1.6
- * @author  Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public final class ECParameters extends AlgorithmParametersSpi {
 

@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.security.util;
 
-import jdk.internal.util.ArraysSupport;
-import sun.nio.cs.UTF_32BE;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.sun.nio.cs.UTF_32BE;
 import sun.util.calendar.CalendarDate;
 import sun.util.calendar.CalendarSystem;
 
@@ -38,9 +38,9 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * ISO-8859-1 characters only.
  *
  *
- * @author David Brownell
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class DerValue {
 

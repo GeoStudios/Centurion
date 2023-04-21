@@ -19,6 +19,10 @@ import java.util.Enumeration;
  * to read from the given {@code CodeSource} at first use, i.e., when either of
  * {@link #elements}, {@link #implies} or {@link #toString} is called, or when
  * the collection is serialized.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public final class LazyCodeSourcePermissionCollection
         extends PermissionCollection

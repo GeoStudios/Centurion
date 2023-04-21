@@ -13,6 +13,10 @@ import java.util.concurrent.ConcurrentHashMap;
  * NOTE: for 100% backward compatibility, the standard name for the enum
  * is determined by existing usage and may be in lowercase/uppercase in
  * order to match existing output.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public enum KnownOIDs {
 

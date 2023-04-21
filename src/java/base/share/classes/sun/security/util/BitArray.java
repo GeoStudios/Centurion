@@ -6,13 +6,14 @@ package java.base.share.classes.sun.security.util;
 
 import java.io.ByteArrayOutputStream;
 
-import jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.util.Preconditions;
 
 /**
  * A packed array of booleans.
  *
- * @author Joshua Bloch
- * @author Douglas Hoover
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class BitArray {

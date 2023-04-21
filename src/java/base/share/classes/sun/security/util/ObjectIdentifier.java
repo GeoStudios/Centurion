@@ -25,9 +25,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * hierarchy, and other organizations can easily acquire the ability
  * to assign such unique identifiers.
  *
- * @author David Brownell
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public final class ObjectIdentifier implements Serializable {

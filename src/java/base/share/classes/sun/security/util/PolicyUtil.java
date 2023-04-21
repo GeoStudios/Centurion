@@ -9,7 +9,7 @@ import java.net.*;
 import java.security.*;
 import java.util.Arrays;
 
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 
 /**

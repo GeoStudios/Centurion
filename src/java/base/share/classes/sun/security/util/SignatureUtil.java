@@ -12,9 +12,9 @@ import java.security.interfaces.RSAKey;
 import java.security.spec.*;
 import java.util.Locale;
 
-import sun.security.rsa.RSAUtil;
-import jdk.internal.access.SharedSecrets;
-import sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.rsa.RSAUtil;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
 
 /**
  * Utility class for Signature related operations. Currently used by various

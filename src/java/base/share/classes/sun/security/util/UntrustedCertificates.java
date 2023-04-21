@@ -10,8 +10,8 @@ import java.security.PrivilegedAction;
 import java.security.cert.X509Certificate;
 import java.util.Properties;
 
-import jdk.internal.util.StaticProperty;
-import sun.security.x509.X509CertImpl;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
 /**
  * A utility class to check if a certificate is untrusted. This is an internal

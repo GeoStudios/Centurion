@@ -23,7 +23,9 @@ import javax.crypto.spec.GCMParameterSpec;
  *
  * </pre>
  *
- * @since 13
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public final class GCMParameters extends AlgorithmParametersSpi {
 

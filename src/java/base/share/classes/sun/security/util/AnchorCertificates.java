@@ -16,11 +16,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 import javax.security.auth.x500.X500Principal;
-import sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
 /**
  * The purpose of this class is to determine the trust anchor certificates is in
  * the cacerts file.  This is used for PKIX CertPath checking.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class AnchorCertificates {
 

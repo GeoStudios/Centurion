@@ -15,14 +15,17 @@ import java.util.*;
 import javax.security.auth.x500.X500Principal;
 import javax.net.ssl.SNIHostName;
 
-import sun.net.util.IPAddressUtil;
-import sun.security.x509.X500Name;
-import sun.security.ssl.SSLLogger;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.ssl.SSLLogger;
 
 /**
  * Class to check hostnames against the names specified in a certificate as
  * required for TLS and LDAP.
- *
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class HostnameChecker {
 

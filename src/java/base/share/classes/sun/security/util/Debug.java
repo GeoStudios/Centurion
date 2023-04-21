@@ -10,12 +10,14 @@ import java.util.HexFormat;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.Locale;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * A utility class for debugging.
  *
- * @author Roland Schemers
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class Debug {
 

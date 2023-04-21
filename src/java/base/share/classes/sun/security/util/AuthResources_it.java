@@ -13,6 +13,9 @@ package java.base.share.classes.sun.security.util;
  * <li> com.sun.security.auth.login
  * </ol>
  *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class AuthResources_it extends java.util.ListResourceBundle {
 

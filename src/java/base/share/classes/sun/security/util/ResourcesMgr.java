@@ -7,7 +7,7 @@ package java.base.share.classes.sun.security.util;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.concurrent.ConcurrentHashMap;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * @since Pre Java 1

@@ -13,12 +13,16 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import sun.security.validator.Validator;
+import java.base.share.classes.sun.security.validator.Validator;
 
 /**
  * This class contains parameters for checking signed JARs against
  * constraints specified in the jdk.jar.disabledAlgorithms security
  * property.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class JarConstraintsParameters implements ConstraintsParameters {
 
