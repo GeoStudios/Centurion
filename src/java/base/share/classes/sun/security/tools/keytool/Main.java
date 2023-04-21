@@ -1,29 +1,8 @@
 /*
- * Copyright (c) 1997, 2023, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.security.tools.keytool;
+package java.base.share.classes.sun.security.tools.keytool;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -60,49 +39,49 @@ import javax.security.auth.x500.X500Principal;
 import java.util.Base64;
 
 import sun.security.pkcs12.PKCS12KeyStore;
-import sun.security.provider.certpath.CertPathConstraintsParameters;
-import sun.security.util.ConstraintsParameters;
-import sun.security.util.ECKeySizeParameterSpec;
-import sun.security.util.KeyUtil;
-import sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.provider.certpath.CertPathConstraintsParameters;
+import java.base.share.classes.sun.security.util.ConstraintsParameters;
+import java.base.share.classes.sun.security.util.ECKeySizeParameterSpec;
+import java.base.share.classes.sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
 import sun.security.pkcs10.PKCS10;
 import sun.security.pkcs10.PKCS10Attribute;
-import sun.security.provider.X509Factory;
-import sun.security.provider.certpath.ssl.SSLServerCertStore;
-import sun.security.util.KnownOIDs;
-import sun.security.util.Password;
-import sun.security.util.SecurityProperties;
-import sun.security.util.SecurityProviderConstants;
-import sun.security.util.SignatureUtil;
+import java.base.share.classes.sun.security.provider.X509Factory;
+import java.base.share.classes.sun.security.provider.certpath.ssl.SSLServerCertStore;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.Password;
+import java.base.share.classes.sun.security.util.SecurityProperties;
+import java.base.share.classes.sun.security.util.SecurityProviderConstants;
+import java.base.share.classes.sun.security.util.SignatureUtil;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
-import sun.security.pkcs.PKCS9Attribute;
-import sun.security.tools.KeyStoreUtil;
-import sun.security.tools.PathList;
-import sun.security.util.DerValue;
-import sun.security.util.Pem;
-import sun.security.validator.Validator;
-import sun.security.x509.*;
+import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
+import java.base.share.classes.sun.security.tools.KeyStoreUtil;
+import java.base.share.classes.sun.security.tools.PathList;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.Pem;
+import java.base.share.classes.sun.security.validator.Validator;
+import java.base.share.classes.sun.security.x509.*;
 
 import static java.security.KeyStore.*;
-import static sun.security.tools.keytool.Main.Command.*;
-import static sun.security.tools.keytool.Main.Option.*;
-import sun.security.util.DisabledAlgorithmConstraints;
+import static java.base.share.classes.sun.security.tools.keytool.Main.Command.*;
+import static java.base.share.classes.sun.security.tools.keytool.Main.Option.*;
+import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
 
 /**
  * This tool manages keystores.
  *
- * @author Jan Luehe
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  *
  * @see java.security.KeyStore
  * @see sun.security.provider.KeyProtector
  * @see sun.security.provider.JavaKeyStore
  *
- * @since 1.2
  */
 public final class Main {
 
