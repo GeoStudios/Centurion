@@ -68,9 +68,9 @@ import sun.security.util.DerValue;
  * performance reasons. It is the responsibility of the consumer to ensure
  * that no mutable elements are modified.
  *
- * @author Anne Anderson
- * @author Andreas Sterbenz
- * @since 1.4.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  * @see CRLDistributionPointsExtension
  */
 public class DistributionPoint implements DerEncoder {

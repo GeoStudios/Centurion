@@ -32,7 +32,9 @@ import sun.security.util.*;
  * provided, it is used when parsing X.509 keys.  If one is not provided,
  * the key still parses correctly.
  *
- * @author David Brownell
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class X509Key implements PublicKey, DerEncoder {
 

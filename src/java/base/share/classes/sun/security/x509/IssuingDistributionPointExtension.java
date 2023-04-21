@@ -40,7 +40,9 @@ import sun.security.util.DerValue;
  * </pre>
  *
  * @see DistributionPoint
- * @since 1.6
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class IssuingDistributionPointExtension extends Extension {
 

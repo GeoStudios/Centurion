@@ -31,7 +31,9 @@ import sun.security.util.*;
  *
  * SkipCerts ::= INTEGER (0..MAX)
  * }</pre>
- * @author Anne Anderson
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  * @see Extension
  */
 public class InhibitAnyPolicyExtension extends Extension {

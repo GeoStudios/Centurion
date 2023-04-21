@@ -18,9 +18,9 @@ import sun.security.util.*;
  * </pre>
  *
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
- * @author Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class GeneralSubtrees implements Cloneable, DerEncoder {
 

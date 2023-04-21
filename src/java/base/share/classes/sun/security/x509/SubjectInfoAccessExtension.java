@@ -42,6 +42,9 @@ import sun.security.util.DerValue;
  * </pre>
  *
  * @see Extension
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class SubjectInfoAccessExtension extends Extension {

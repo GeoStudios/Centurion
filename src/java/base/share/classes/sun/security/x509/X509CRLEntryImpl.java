@@ -64,7 +64,9 @@ import sun.security.util.HexDumpEncoder;
  * }
  * </pre>
  *
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 
 public class X509CRLEntryImpl extends X509CRLEntry

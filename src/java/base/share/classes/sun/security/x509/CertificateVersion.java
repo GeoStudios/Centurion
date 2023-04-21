@@ -12,8 +12,9 @@ import sun.security.util.*;
 /**
  * This class defines the version of the X509 Certificate.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  * @see DerEncoder
  */
 public class CertificateVersion implements DerEncoder {

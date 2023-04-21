@@ -18,7 +18,9 @@ import sun.security.util.*;
  *     partyName     [1]  DirectoryString }
  * </pre>
  *
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  * @see GeneralName
  * @see GeneralNames
  * @see GeneralNameInterface

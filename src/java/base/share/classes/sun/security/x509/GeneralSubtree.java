@@ -19,8 +19,9 @@ import sun.security.util.*;
  * }
  * BaseDistance ::= INTEGER (0..MAX)
  * </pre>
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class GeneralSubtree implements DerEncoder {
     private static final byte TAG_MIN = 0;

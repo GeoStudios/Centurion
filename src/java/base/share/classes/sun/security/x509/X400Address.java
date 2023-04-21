@@ -305,8 +305,9 @@ import sun.security.util.DerOutputStream;
  * -- bound should be allowed.
  * </pre>
  *
- * @author Anne Anderson
- * @since       1.4
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  * @see GeneralName
  * @see GeneralNames
  * @see GeneralNameInterface

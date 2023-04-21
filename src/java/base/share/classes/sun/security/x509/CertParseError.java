@@ -9,7 +9,9 @@ package java.base.share.classes.sun.security.x509;
  * @deprecated use one of the Exceptions defined in the
  * java.security.cert package.
  *
- * @author David Brownell
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 @Deprecated
 class CertParseError extends CertException

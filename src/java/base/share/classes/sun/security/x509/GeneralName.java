@@ -25,8 +25,9 @@ import sun.security.util.*;
  *    registeredID                    [8]     OBJECT IDENTIFIER
  * }
  * </pre>
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 public class GeneralName implements DerEncoder {
 

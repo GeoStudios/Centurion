@@ -13,8 +13,9 @@ import sun.security.util.*;
 /**
  * This class defines the SerialNumber class used by certificates.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class SerialNumber {
     private BigInteger  serialNum;

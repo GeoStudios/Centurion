@@ -36,8 +36,9 @@ import sun.security.util.*;
  * }</pre>
  * where the Object is typically an array of DER encoded bytes.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 public class Extension implements java.security.cert.Extension, DerEncoder {
 

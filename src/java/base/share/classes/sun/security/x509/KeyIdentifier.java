@@ -15,8 +15,9 @@ import sun.security.util.*;
 /**
  * Represent the Key Identifier ASN.1 object.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class KeyIdentifier {
     private final byte[] octetString;

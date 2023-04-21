@@ -10,6 +10,10 @@ import sun.security.util.HexDumpEncoder;
 /**
  * An extension that cannot be parsed due to decoding errors or invalid
  * content.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 class UnparseableExtension extends Extension {
     private String name;

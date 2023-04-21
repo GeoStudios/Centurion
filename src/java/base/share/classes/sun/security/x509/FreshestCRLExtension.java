@@ -29,7 +29,9 @@ import java.util.List;
  *     FreshestCRL ::= CRLDistributionPoints
  * </pre>
  *
- * @since 1.6
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 public class FreshestCRLExtension extends CRLDistributionPointsExtension {
 

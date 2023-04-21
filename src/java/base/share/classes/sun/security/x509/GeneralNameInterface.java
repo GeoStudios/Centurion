@@ -10,8 +10,9 @@ import sun.security.util.*;
  * This interface specifies the abstract methods which have to be
  * implemented by all the members of the GeneralNames ASN.1 object.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public interface GeneralNameInterface extends DerEncoder {
     /**

@@ -34,7 +34,9 @@ import java.math.BigInteger;
  *     CRLNumber ::= INTEGER (0..MAX)
  * </pre>
  *
- * @since 1.6
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 public class DeltaCRLIndicatorExtension extends CRLNumberExtension {
 

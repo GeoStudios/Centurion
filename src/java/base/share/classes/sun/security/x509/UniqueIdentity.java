@@ -14,8 +14,9 @@ import sun.security.util.DerValue;
 /**
  * This class defines the UniqueIdentity class used by certificates.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class UniqueIdentity {
     // Private data members

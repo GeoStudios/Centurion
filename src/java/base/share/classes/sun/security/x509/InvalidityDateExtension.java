@@ -32,7 +32,9 @@ import sun.security.util.*;
  * invalidityDate ::=  GeneralizedTime
  * </pre>
  *
- * @author Sean Mullan
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 public class InvalidityDateExtension extends Extension {
 

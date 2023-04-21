@@ -33,8 +33,9 @@ import sun.security.pkcs.PKCS9Attribute;
  * GeneralSubtrees ::= SEQUENCE SIZE (1..MAX) OF GeneralSubtree
  * </pre>
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  * @see Extension
  */
 public class NameConstraintsExtension extends Extension

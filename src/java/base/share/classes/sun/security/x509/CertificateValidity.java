@@ -14,8 +14,9 @@ import sun.security.util.*;
 /**
  * This class defines the interval for which the certificate is valid.
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  * @see DerEncoder
  */
 public class CertificateValidity implements DerEncoder {

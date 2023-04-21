@@ -24,8 +24,9 @@ import sun.security.util.*;
  * be treated as being critical and the extension value itself (this is again
  * a DER encoding of the extension value).
  *
- * @author Amit Kapoor
- * @author Hemma Prafullchandra
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  * @see Extension
  */
 public class SubjectKeyIdentifierExtension extends Extension {

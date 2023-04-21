@@ -22,7 +22,9 @@ import java.io.IOException;
  * id-pkix-ocsp-nocheck OBJECT IDENTIFIER ::= { id-pkix-ocsp 5 }
  * </pre>
  *
- * @author Xuelei Fan
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  * @see Extension
  */
 public class OCSPNoCheckExtension extends Extension {

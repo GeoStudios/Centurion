@@ -53,7 +53,9 @@ import sun.security.util.ObjectIdentifier;
  * consistent with both fields, then the certificate MUST NOT be used
  * for any purpose.
  *
- * @since       1.4
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 20/4/2023 
  */
 public class ExtendedKeyUsageExtension extends Extension {
 
