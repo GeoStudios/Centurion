@@ -1,29 +1,8 @@
 /*
- * Copyright (c) 2015, 2022, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -42,20 +21,25 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.SSLPeerUnverifiedException;
 
-import jdk.internal.event.EventHelper;
-import jdk.internal.event.TLSHandshakeEvent;
-import sun.security.internal.spec.TlsPrfParameterSpec;
-import sun.security.ssl.CipherSuite.HashAlg;
-import static sun.security.ssl.CipherSuite.HashAlg.H_NONE;
-import sun.security.ssl.SSLBasicKeyDerivation.SecretSizeSpec;
-import sun.security.ssl.SSLCipher.SSLReadCipher;
-import sun.security.ssl.SSLCipher.SSLWriteCipher;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.jdk.internal.event.EventHelper;
+import java.base.share.classes.jdk.internal.event.TLSHandshakeEvent;
+import java.base.share.classes.sun.security.internal.spec.TlsPrfParameterSpec;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+import static java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg.H_NONE;
+import java.base.share.classes.sun.security.ssl.SSLBasicKeyDerivation.SecretSizeSpec;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
 
 /**
  * Pack of the Finished handshake message.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
+
 final class Finished {
     static final SSLConsumer t12HandshakeConsumer =
         new T12FinishedConsumer();
