@@ -1,29 +1,8 @@
 /*
- * Copyright (c) 2006, 2022, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
 import java.io.InputStream;
 import java.io.IOException;
@@ -50,12 +29,12 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
-import sun.security.action.GetIntegerAction;
-import sun.security.x509.AccessDescription;
-import sun.security.x509.GeneralNameInterface;
-import sun.security.x509.URIName;
-import sun.security.util.Cache;
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.x509.AccessDescription;
+import java.base.share.classes.sun.security.x509.GeneralNameInterface;
+import java.base.share.classes.sun.security.x509.URIName;
+import java.base.share.classes.sun.security.util.Cache;
+import java.base.share.classes.sun.security.util.Debug;
 
 /**
  * A <code>CertStore</code> that retrieves <code>Certificates</code> or
@@ -81,9 +60,9 @@ import sun.security.util.Debug;
  * The URICertStore is not currently a standard CertStore type. We should
  * consider adding a standard "URI" CertStore type.
  *
- * @author Andreas Sterbenz
- * @author Sean Mullan
- * @since 1.7
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 21/4/2023 
  */
 class URICertStore extends CertStoreSpi {
 
