@@ -1,3 +1,5 @@
+<img src="assets/Centurion.png" width="128">
+
 # Centurion (JDK)
 
 Centurion is a Heavy JDK to supply the user with great library of Java tools and enhancements 
