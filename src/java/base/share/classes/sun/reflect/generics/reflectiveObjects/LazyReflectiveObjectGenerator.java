@@ -18,6 +18,9 @@ import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
  * provided when the instance is initialized.
  * The factory should be cached.
  *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
 */
 public abstract class LazyReflectiveObjectGenerator {
     private final GenericsFactory factory; // cached factory

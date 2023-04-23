@@ -27,6 +27,10 @@ import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 /**
  * Implementation of {@code java.lang.reflect.TypeVariable} interface
  * for core reflection.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
  */
 public class TypeVariableImpl<D extends GenericDeclaration>
     extends LazyReflectiveObjectGenerator implements TypeVariable<D> {

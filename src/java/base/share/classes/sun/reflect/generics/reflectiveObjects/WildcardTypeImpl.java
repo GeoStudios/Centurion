@@ -16,6 +16,10 @@ import java.util.StringJoiner;
 
 /**
  * Implementation of WildcardType interface for core reflection.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
  */
 public class WildcardTypeImpl extends LazyReflectiveObjectGenerator
     implements WildcardType {

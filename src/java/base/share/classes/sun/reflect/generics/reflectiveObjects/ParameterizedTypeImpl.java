@@ -15,7 +15,11 @@ import java.util.Arrays;
 import java.util.StringJoiner;
 import java.util.Objects;
 
-/** Implementing class for ParameterizedType interface. */
+/** Implementing class for ParameterizedType interface. 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
+*/
 
 public class ParameterizedTypeImpl implements ParameterizedType {
     private final Type[] actualTypeArguments;
