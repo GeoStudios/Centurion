@@ -4,6 +4,12 @@
 
 package jdk.internal.platform.cgroupv1;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 public class CgroupV1MemorySubSystemController extends CgroupV1SubsystemController {
 
     private boolean hierarchical;

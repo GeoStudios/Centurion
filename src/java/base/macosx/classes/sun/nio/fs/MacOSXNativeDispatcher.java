@@ -6,6 +6,10 @@ package sun.nio.fs;
 
 /**
  * MacOSX specific system calls.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class MacOSXNativeDispatcher extends BsdNativeDispatcher {

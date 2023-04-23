@@ -33,7 +33,9 @@ import sun.util.spi.CalendarProvider;
 /**
  * LocaleProviderAdapter implementation for the Mac OS X locale data
  *
- * @author Naoto Sato
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public class HostLocaleProviderAdapterImpl {
 

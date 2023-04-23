@@ -1,53 +1,5 @@
 /*
- * Copyright (c) 1998, 2004, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
- */
-
-/* __ieee754_atan2(y,x)
- * Method :
- *      1. Reduce y to positive by atan2(y,x)=-atan2(-y,x).
- *      2. Reduce x to positive by (if x and y are unexceptional):
- *              ARG (x+iy) = arctan(y/x)           ... if x > 0,
- *              ARG (x+iy) = pi - arctan[y/(-x)]   ... if x < 0,
- *
- * Special cases:
- *
- *      ATAN2((anything), NaN ) is NaN;
- *      ATAN2(NAN , (anything) ) is NaN;
- *      ATAN2(+-0, +(anything but NaN)) is +-0  ;
- *      ATAN2(+-0, -(anything but NaN)) is +-pi ;
- *      ATAN2(+-(anything but 0 and NaN), 0) is +-pi/2;
- *      ATAN2(+-(anything but INF and NaN), +INF) is +-0 ;
- *      ATAN2(+-(anything but INF and NaN), -INF) is +-pi;
- *      ATAN2(+-INF,+INF ) is +-pi/4 ;
- *      ATAN2(+-INF,-INF ) is +-3pi/4;
- *      ATAN2(+-INF, (anything but,0,NaN, and INF)) is +-pi/2;
- *
- * Constants:
- * The hexadecimal values are the intended ones for the following
- * constants. The decimal values may be used, provided that the
- * compiler will convert from decimal to binary accurately enough
- * to produce the hexadecimal values shown.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
 #include "fdlibm.h"

@@ -1,58 +1,6 @@
 /*
- * Copyright (c) 1998, 2001, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-
-/* __ieee754_asin(x)
- * Method :
- *      Since  asin(x) = x + x^3/6 + x^5*3/40 + x^7*15/336 + ...
- *      we approximate asin(x) on [0,0.5] by
- *              asin(x) = x + x*x^2*R(x^2)
- *      where
- *              R(x^2) is a rational approximation of (asin(x)-x)/x^3
- *      and its remez error is bounded by
- *              |(asin(x)-x)/x^3 - R(x^2)| < 2^(-58.75)
- *
- *      For x in [0.5,1]
- *              asin(x) = pi/2-2*asin(sqrt((1-x)/2))
- *      Let y = (1-x), z = y/2, s := sqrt(z), and pio2_hi+pio2_lo=pi/2;
- *      then for x>0.98
- *              asin(x) = pi/2 - 2*(s+s*z*R(z))
- *                      = pio2_hi - (2*(s+s*z*R(z)) - pio2_lo)
- *      For x<=0.98, let pio4_hi = pio2_hi/2, then
- *              f = hi part of s;
- *              c = sqrt(z) - f = (z-f*f)/(s+f)         ...f+c=sqrt(z)
- *      and
- *              asin(x) = pi/2 - 2*(s+s*z*R(z))
- *                      = pio4_hi+(pio4-2s)-(2s*z*R(z)-pio2_lo)
- *                      = pio4_hi+(pio4-2f)-(2s*z*R(z)-(pio2_lo+2c))
- *
- * Special cases:
- *      if x is NaN, return x itself;
- *      if |x|>1, return NaN with invalid signal.
- *
- */
-
 
 #include "fdlibm.h"
 

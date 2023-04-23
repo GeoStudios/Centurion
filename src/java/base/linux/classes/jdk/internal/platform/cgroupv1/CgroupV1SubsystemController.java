@@ -7,6 +7,12 @@ package jdk.internal.platform.cgroupv1;
 import jdk.internal.platform.CgroupSubsystem;
 import jdk.internal.platform.CgroupSubsystemController;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 public class CgroupV1SubsystemController implements CgroupSubsystemController {
 
     private static final double DOUBLE_RETVAL_UNLIMITED = CgroupSubsystem.LONG_RETVAL_UNLIMITED;

@@ -11,6 +11,10 @@ import sun.security.action.GetPropertyAction;
 
 /**
  * MacOSX implementation of FileSystemProvider
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class MacOSXFileSystemProvider extends BsdFileSystemProvider {

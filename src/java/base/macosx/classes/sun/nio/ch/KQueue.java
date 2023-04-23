@@ -9,6 +9,10 @@ import jdk.internal.misc.Unsafe;
 
 /**
  * Provides access to the BSD kqueue facility.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class KQueue {

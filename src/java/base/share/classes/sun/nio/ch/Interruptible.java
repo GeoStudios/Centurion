@@ -2,11 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-/**
- * An object that interrupts a thread blocked in an I/O operation.
- */
-
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
 
 public interface Interruptible {
 

@@ -19,6 +19,10 @@ import static sun.nio.fs.UnixConstants.*;
  * mechanism. Requests to add or remove a watch, or close the watch service,
  * cause the thread to wakeup and process the request. Events are processed
  * by the thread which causes it to signal/queue the corresponding watch keys.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class LinuxWatchService

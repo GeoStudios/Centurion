@@ -10,6 +10,12 @@ import java.util.concurrent.TimeUnit;
 import static sun.nio.fs.BsdNativeDispatcher.*;
 import static sun.nio.fs.UnixNativeDispatcher.lutimes;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 class BsdFileAttributeViews {
     //
     // Use setattrlist(2) system call which can set creation, modification,

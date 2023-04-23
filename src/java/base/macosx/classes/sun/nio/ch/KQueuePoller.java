@@ -8,6 +8,10 @@ import static sun.nio.ch.KQueue.*;
 
 /**
  * Poller implementation based on the kqueue facility.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 class KQueuePoller extends Poller {
     private static final int MAX_EVENTS_TO_POLL = 512;

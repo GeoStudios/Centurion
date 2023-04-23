@@ -24,6 +24,10 @@ import sun.security.x509.*;
  * This class provides the keystore implementation referred to as "KeychainStore".
  * It uses the current user's keychain as its backing storage, and does NOT support
  * a file-based implementation.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 public final class KeychainStore extends KeyStoreSpi {

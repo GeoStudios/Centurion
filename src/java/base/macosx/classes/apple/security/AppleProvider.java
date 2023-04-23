@@ -15,6 +15,10 @@ import static sun.security.util.SecurityConstants.PROVIDER_VER;
  * Defines the Apple provider.
  *
  * This provider only exists to provide access to the Apple keychain-based KeyStore implementation
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 @SuppressWarnings("serial") // JDK implementation class
 public final class AppleProvider extends Provider {

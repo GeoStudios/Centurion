@@ -17,6 +17,10 @@ import static sun.nio.fs.UnixConstants.*;
  * Linux implementation of DosFileAttributeView for use on file systems such
  * as ext3 that have extended attributes enabled and SAMBA configured to store
  * DOS attributes.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class LinuxDosFileAttributeView

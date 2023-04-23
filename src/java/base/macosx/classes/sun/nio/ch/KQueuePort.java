@@ -17,6 +17,10 @@ import static sun.nio.ch.KQueue.EV_ONESHOT;
 
 /**
  * AsynchronousChannelGroup implementation based on the BSD kqueue facility.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 final class KQueuePort

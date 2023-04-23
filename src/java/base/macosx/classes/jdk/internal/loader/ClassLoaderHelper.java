@@ -8,6 +8,12 @@ import java.io.File;
 import java.util.ArrayList;
 import sun.security.action.GetPropertyAction;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 class ClassLoaderHelper {
     private static final boolean hasDynamicLoaderCache;
     static {

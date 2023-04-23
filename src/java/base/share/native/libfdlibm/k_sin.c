@@ -1,54 +1,5 @@
 /*
- * Copyright (c) 1998, 2001, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
- */
-
-/* __kernel_sin( x, y, iy)
- * kernel sin function on [-pi/4, pi/4], pi/4 ~ 0.7854
- * Input x is assumed to be bounded by ~pi/4 in magnitude.
- * Input y is the tail of x.
- * Input iy indicates whether y is 0. (if iy=0, y assume to be 0).
- *
- * Algorithm
- *      1. Since sin(-x) = -sin(x), we need only to consider positive x.
- *      2. if x < 2^-27 (hx<0x3e400000 0), return x with inexact if x!=0.
- *      3. sin(x) is approximated by a polynomial of degree 13 on
- *         [0,pi/4]
- *                               3            13
- *              sin(x) ~ x + S1*x + ... + S6*x
- *         where
- *
- *      |sin(x)         2     4     6     8     10     12  |     -58
- *      |----- - (1+S1*x +S2*x +S3*x +S4*x +S5*x  +S6*x   )| <= 2
- *      |  x                                               |
- *
- *      4. sin(x+y) = sin(x) + sin'(x')*y
- *                  ~ sin(x) + (1-x*x/2)*y
- *         For better accuracy, let
- *                   3      2      2      2      2
- *              r = x *(S2+x *(S3+x *(S4+x *(S5+x *S6))))
- *         then                   3    2
- *              sin(x) = x + (S1*x + (x *(r-y/2)+y))
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
 #include "fdlibm.h"

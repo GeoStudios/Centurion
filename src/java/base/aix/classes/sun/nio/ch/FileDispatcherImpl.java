@@ -7,7 +7,7 @@ package java.base.aix.classes.sun.nio.ch;
 import java.io.FileDescriptor;
 import java.io.IOException;
 
-/*
+/**
  * This Java class FileDispatcherImpl provides methods for performing I/O operations on files. 
  * It extends the UnixFileDispatcherImpl class and includes two methods named force() and 
  * transferTo() which allow a user to force any changes made to a file to be written to disk 

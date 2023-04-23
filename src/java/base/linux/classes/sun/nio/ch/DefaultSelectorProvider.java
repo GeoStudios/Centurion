@@ -9,6 +9,10 @@ import java.security.PrivilegedAction;
 
 /**
  * Creates this platform's default SelectorProvider
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 @SuppressWarnings("removal")

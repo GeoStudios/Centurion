@@ -11,6 +11,12 @@ import jdk.internal.platform.CgroupSubsystem;
 import jdk.internal.platform.CgroupSubsystemController;
 import jdk.internal.platform.CgroupV1Metrics;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
     private CgroupV1MemorySubSystemController memory;
     private CgroupV1SubsystemController cpu;

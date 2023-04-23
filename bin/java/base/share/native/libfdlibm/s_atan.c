@@ -1,46 +1,5 @@
 /*
- * Copyright (c) 1998, 2001, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
- */
-
-/* atan(x)
- * Method
- *   1. Reduce x to positive by atan(x) = -atan(-x).
- *   2. According to the integer k=4t+0.25 chopped, t=x, the argument
- *      is further reduced to one of the following intervals and the
- *      arctangent of t is evaluated by the corresponding formula:
- *
- *      [0,7/16]      atan(x) = t-t^3*(a1+t^2*(a2+...(a10+t^2*a11)...)
- *      [7/16,11/16]  atan(x) = atan(1/2) + atan( (t-0.5)/(1+t/2) )
- *      [11/16.19/16] atan(x) = atan( 1 ) + atan( (t-1)/(1+t) )
- *      [19/16,39/16] atan(x) = atan(3/2) + atan( (t-1.5)/(1+1.5t) )
- *      [39/16,INF]   atan(x) = atan(INF) + atan( -1/t )
- *
- * Constants:
- * The hexadecimal values are the intended ones for the following
- * constants. The decimal values may be used, provided that the
- * compiler will convert from decimal to binary accurately enough
- * to produce the hexadecimal values shown.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
 #include "fdlibm.h"

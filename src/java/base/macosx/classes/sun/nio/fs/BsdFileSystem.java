@@ -21,6 +21,10 @@ import static sun.nio.fs.UnixNativeDispatcher.unlink;
 
 /**
  * Bsd implementation of FileSystem
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class BsdFileSystem extends UnixFileSystem {
