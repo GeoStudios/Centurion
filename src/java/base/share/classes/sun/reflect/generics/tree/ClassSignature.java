@@ -6,6 +6,12 @@ package java.base.share.classes.sun.reflect.generics.tree;
 
 import java.base.share.classes.sun.reflect.generics.visitor.Visitor;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
+ */
+
 public class ClassSignature implements Signature {
     private final FormalTypeParameter[] formalTypeParams;
     private final ClassTypeSignature superclass;

@@ -7,5 +7,9 @@ package java.base.share.classes.sun.reflect.generics.tree;
 /** Common supertype for all possible type arguments in the
  * generic signature AST. Corresponds to the production TypeArgument
  * in the JVMS.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
  */
 public interface TypeArgument extends TypeTree {}

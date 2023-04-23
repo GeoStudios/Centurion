@@ -6,7 +6,14 @@ package java.base.share.classes.sun.reflect.generics.tree;
 
 import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
 
-/** AST that represents the type boolean. */
+/** 
+ * AST that represents the type boolean.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
+ */
+
 public class BooleanSignature implements BaseType {
     private static final BooleanSignature singleton = new BooleanSignature();
 

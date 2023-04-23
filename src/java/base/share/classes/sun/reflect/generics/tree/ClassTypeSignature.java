@@ -9,6 +9,10 @@ import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
 
 /**
  * AST representing class types.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
  */
 public class ClassTypeSignature implements FieldTypeSignature {
     private final List<SimpleClassTypeSignature> path;

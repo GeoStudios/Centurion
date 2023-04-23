@@ -9,6 +9,11 @@ package java.base.share.classes.sun.reflect.generics.tree;
  * type.
  * Corresponds to the production of the same name in the JVMS
  * section on signatures.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 22/4/2023 
  */
+
 public interface FieldTypeSignature
     extends BaseType, TypeSignature, TypeArgument {}
