@@ -1,55 +1,6 @@
 /*
- * Copyright (c) 1995, 2022, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
- *
- * This code is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
- * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
- *
- * This code is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * version 2 for more details (a copy is included in the LICENSE file that
- * accompanied this code).
- *
- * You should have received a copy of the GNU General Public License version
- * 2 along with this work; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
- * or visit www.oracle.com if you need additional information or have any
- * questions.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-
-/*
- * Shared source for 'java' command line tool.
- *
- * If JAVA_ARGS is defined, then acts as a launcher for applications. For
- * instance, the JDK command line tools such as javac and javadoc (see
- * makefiles for more details) are built with this program.  Any arguments
- * prefixed with '-J' will be passed directly to the 'java' command.
- */
-
-/*
- * One job of the launcher is to remove command line options which the
- * vm does not understand and will not process.  These options include
- * options which select which style of vm is run (e.g. -client and
- * -server) as well as options which select the data model to use.
- * Additionally, for tools which invoke an underlying vm "-J-foo"
- * options are turned into "-foo" options to the vm.  This option
- * filtering is handled in a number of places in the launcher, some of
- * it in machine-dependent code.  In this file, the function
- * CheckJvmType removes vm style options and TranslateApplicationArgs
- * removes "-J" prefixes.  The CreateExecutionEnvironment function processes
- * and removes -d<n> options. On unix, there is a possibility that the running
- * data model may not match to the desired data model, in this case an exec is
- * required to start the desired model. If the data models match, then
- * ParseArguments will remove the -d<n> flags. If the data models do not match
- * the CreateExecutionEnviroment will remove the -d<n> flags.
- */
-
 
 #include <assert.h>
 
