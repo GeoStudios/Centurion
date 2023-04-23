@@ -18,7 +18,7 @@ Download the Version Jar you want, then put it into any external library inside 
 
 ### Requirements
 
-This will be running on Java 20 but in the future there will be a gradle for this use.
+This will be running on Java 20. Gradle has been recently added!
 
 ### License
 
