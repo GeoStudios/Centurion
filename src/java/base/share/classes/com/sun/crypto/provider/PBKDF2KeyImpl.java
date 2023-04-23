@@ -30,8 +30,9 @@ import jdk.internal.ref.CleanerFactory;
  *    to bytes using UTF-8 character encoding.
  * 2) salt, iteration count, and to be derived key length are supplied
  *
- * @author Valerie Peng
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class PBKDF2KeyImpl implements javax.crypto.interfaces.PBEKey {
 

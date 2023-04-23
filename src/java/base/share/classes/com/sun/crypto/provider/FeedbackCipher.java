@@ -13,7 +13,9 @@ import javax.crypto.*;
  * a SymmetricCipher maintaining the mode state and providing
  * the capability to encrypt amounts of data larger than a single block.
  *
- * @author Jan Luehe
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  * @see ElectronicCodeBook
  * @see CipherBlockChaining
  * @see CipherFeedback

@@ -68,6 +68,10 @@ import sun.security.util.*;
  * PBES2-Encs ALGORITHM-IDENTIFIER ::= { ... }
  *
  * </pre>
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 abstract class PBES2Parameters extends AlgorithmParametersSpi {
 

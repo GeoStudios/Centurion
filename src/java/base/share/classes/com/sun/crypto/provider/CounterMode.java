@@ -18,8 +18,9 @@ import sun.security.util.ArrayUtil;
  *
  * <p>NOTE: This class does not deal with buffering or padding.
  *
- * @author Andreas Sterbenz
- * @since 1.4.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 class CounterMode extends FeedbackCipher {
 

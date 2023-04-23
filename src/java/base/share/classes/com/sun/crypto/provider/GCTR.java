@@ -24,7 +24,9 @@ import java.util.Arrays;
  *
  * <p>This function is used in the implementation of GCM mode.
  *
- * @since 1.8
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class GCTR extends CounterMode implements GCM {
 

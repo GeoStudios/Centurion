@@ -18,7 +18,9 @@ import javax.crypto.spec.PBEKeySpec;
  * HmacSHA512/224, and HmacSHA512/256 pseudo random function (PRF) as
  * defined in PKCS#5 v2.1.
  *
- * @author Valerie Peng
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  *
  */
 abstract class PBKDF2Core extends SecretKeyFactorySpi {

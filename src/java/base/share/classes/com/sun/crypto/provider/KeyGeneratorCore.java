@@ -20,8 +20,9 @@ import javax.crypto.spec.SecretKeySpec;
  * by the individual implementations. See those further down in this
  * file.
  *
- * @since   1.5
- * @author  Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class KeyGeneratorCore {
 

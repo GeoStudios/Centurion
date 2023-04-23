@@ -23,8 +23,9 @@ import javax.crypto.*;
  * framework. That was designed to simplify implementation of block ciphers
  * and does not offer any advantages for stream ciphers such as ARCFOUR.
  *
- * @since   1.5
- * @author  Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public sealed class ARCFOURCipher extends CipherSpi
         permits PKCS12PBECipherCore.PBEWithSHA1AndRC4 {

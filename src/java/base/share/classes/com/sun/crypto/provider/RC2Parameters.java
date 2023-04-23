@@ -31,8 +31,9 @@ import sun.security.util.*;
  * RC2Version ::= INTEGER -- 1-1024
  * </pre>
  *
- * @author Sean Mullan
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public final class RC2Parameters extends AlgorithmParametersSpi {
 

@@ -24,8 +24,9 @@ import javax.crypto.spec.SecretKeySpec;
  * This class is a helper class which construct key objects
  * from encoded keys.
  *
- * @author Sharon Liu
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 final class ConstructKeys {

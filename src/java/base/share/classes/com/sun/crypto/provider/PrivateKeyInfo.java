@@ -24,7 +24,9 @@ import sun.security.util.*;
  *     attributes   [0] IMPLICIT Attributes OPTIONAL }
  * </pre>
  *
- * @author Jan Luehe
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class PrivateKeyInfo {
 

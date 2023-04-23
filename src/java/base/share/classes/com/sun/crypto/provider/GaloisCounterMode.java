@@ -50,7 +50,9 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * will buffer all processed outputs internally and won't return them
  * until the tag has been successfully verified.
  *
- * @since 1.8
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 abstract class GaloisCounterMode extends CipherSpi {
     static int DEFAULT_IV_LEN = 12; // in bytes

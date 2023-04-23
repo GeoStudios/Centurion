@@ -12,7 +12,7 @@ import javax.crypto.spec.DHGenParameterSpec;
 
 import static sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
 
-/*
+/**
  * This class generates parameters for the Diffie-Hellman algorithm.
  * The parameters are a prime, a base, and optionally the length in bits of
  * the private value.
@@ -20,7 +20,9 @@ import static sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
  * <p>The Diffie-Hellman parameter generation accepts the size in bits of the
  * prime modulus and the size in bits of the random exponent as input.
  *
- * @author Jan Luehe
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  *
  *
  * @see java.security.AlgorithmParameters

@@ -17,8 +17,9 @@ import javax.crypto.spec.*;
  * (<code>PKCS5Padding</code>, <code>NoPadding</code>,
  * <code>ISO10126Padding</code>).
  *
- * @author Gigi Ankeny
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  *
  * @see DESCipher
  */

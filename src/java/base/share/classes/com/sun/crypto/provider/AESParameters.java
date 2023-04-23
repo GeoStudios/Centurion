@@ -18,7 +18,9 @@ import java.security.spec.InvalidParameterSpecException;
  *                         other feedback modes
  * </pre>
  *
- * @author Valerie Peng
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  *
  */
 public final class AESParameters extends AlgorithmParametersSpi {

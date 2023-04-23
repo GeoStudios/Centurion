@@ -27,7 +27,9 @@ import javax.crypto.spec.OAEPParameterSpec;
  * }
  * </pre>
  *
- * @author Valerie Peng
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 public final class OAEPParameters extends AlgorithmParametersSpi {

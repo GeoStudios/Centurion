@@ -18,8 +18,9 @@ import java.security.InvalidKeyException;
  * fairly slow process, we use the int type throughout and manually insert
  * "& 0xffff" where necessary.
  *
- * @since   1.5
- * @author  Andreas Sterbenz
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class RC2Crypt extends SymmetricCipher {
 

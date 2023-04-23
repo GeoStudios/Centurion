@@ -23,8 +23,9 @@ import sun.security.internal.spec.TlsPrfParameterSpec;
  * performance optimizations (e.g. XOR'ing keys with padding doesn't
  * need to be redone for each HMAC operation).
  *
- * @author  Andreas Sterbenz
- * @since   1.6
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 abstract class TlsPrfGenerator extends KeyGeneratorSpi {
 

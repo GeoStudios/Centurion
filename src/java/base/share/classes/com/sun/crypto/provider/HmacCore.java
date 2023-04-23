@@ -28,7 +28,9 @@ import sun.security.x509.AlgorithmId;
  * - HMAC with SHA-3 family of digests, i.e. HmacSHA3-224, HmacSHA3-256,
  *   HmacSHA3-384, HmacSHA3-512
  *
- * @author Jan Luehe
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 abstract class HmacCore extends MacSpi implements Cloneable {
 

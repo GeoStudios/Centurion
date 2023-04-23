@@ -10,6 +10,12 @@ import java.io.*;
 import java.security.*;
 import javax.crypto.*;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 final class SealedObjectForKeyProtector extends SealedObject {
 
     @java.io.Serial

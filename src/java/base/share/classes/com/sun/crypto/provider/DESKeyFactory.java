@@ -16,8 +16,9 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * This class implements the DES key factory of the Sun provider.
  *
- * @author Jan Luehe
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 public final class DESKeyFactory extends SecretKeyFactorySpi {

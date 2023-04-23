@@ -16,6 +16,10 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * <p>
  * Rijndael was designed by <a href="mailto:rijmen@esat.kuleuven.ac.be">Vincent
  * Rijmen</a> and <a href="mailto:Joan.Daemen@village.uunet.be">Joan Daemen</a>.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class AESCrypt extends SymmetricCipher implements AESConstants {
     //

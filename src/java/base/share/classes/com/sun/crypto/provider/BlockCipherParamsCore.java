@@ -21,8 +21,9 @@ import javax.crypto.spec.IvParameterSpec;
  * block ciphers
  * </pre>
  *
- * @author Valerie Peng
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 final class BlockCipherParamsCore {
     private int block_size = 0;

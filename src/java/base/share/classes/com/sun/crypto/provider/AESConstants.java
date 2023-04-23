@@ -7,7 +7,9 @@ package com.sun.crypto.provider;
 /**
  * This class defines the constants used by the AES implementation.
  *
- * @author Valerie Peng
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  *
  *
  * @see AESCipher

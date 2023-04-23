@@ -17,8 +17,9 @@ import java.security.spec.InvalidParameterSpecException;
  * IV ::= OCTET STRING  -- 8 octets
  * </pre>
  *
- * @author Jan Luehe
- *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 public final class DESParameters extends AlgorithmParametersSpi {
