@@ -7,7 +7,7 @@ for the java enviorment.
 
 :warning: Centurion is in alpha stages right now and might have bugs. If any bugs occur, make a [Issue.](https://github.com/GeoStudios/Centurion/issues) 
 
-We will be making a site for the devlopment which will have all the downloads and extra info you to see.
+We will be making a site for the devlopment which will have all the downloads and extra info you to see. Prob this summer!
 
 ## Devlopers
 
