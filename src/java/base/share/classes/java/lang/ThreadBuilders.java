@@ -18,6 +18,10 @@ import jdk.internal.vm.ContinuationSupport;
 
 /**
  * Defines static methods to create platform and virtual thread builders.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 class ThreadBuilders {
 

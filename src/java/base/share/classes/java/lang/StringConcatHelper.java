@@ -15,6 +15,10 @@ import java.lang.invoke.MethodType;
  * Helper for string concatenation. These methods are mostly looked up with private lookups
  * from {@link java.lang.invoke.StringConcatFactory}, and used in {@link java.lang.invoke.MethodHandle}
  * combinators there.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class StringConcatHelper {
 

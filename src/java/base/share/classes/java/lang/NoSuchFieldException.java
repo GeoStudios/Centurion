@@ -7,7 +7,9 @@ package java.lang;
 /**
  * Signals that the class doesn't have a field of a specified name.
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class NoSuchFieldException extends ReflectiveOperationException {
     @java.io.Serial

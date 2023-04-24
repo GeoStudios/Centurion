@@ -6,12 +6,16 @@ package java.lang;
 import java.util.*;
 import java.util.concurrent.RejectedExecutionException;
 
-/*
+/**
  * Class to track and run user level shutdown hooks registered through
  * {@link Runtime#addShutdownHook Runtime.addShutdownHook}.
  *
  * @see java.lang.Runtime#addShutdownHook
- * @see java.lang.Runtime#removeShutdownHook
+ * @see java.lang.Runtime#removeShutdownHook]
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 class ApplicationShutdownHooks {

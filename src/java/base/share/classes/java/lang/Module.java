@@ -75,7 +75,9 @@ import sun.security.util.SecurityConstants;
  * in this class causes a {@link NullPointerException NullPointerException} to
  * be thrown. </p>
  *
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see Class#getModule()
  * @jls 7.7 Module Declarations
  */

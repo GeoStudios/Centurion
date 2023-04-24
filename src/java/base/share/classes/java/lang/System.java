@@ -85,7 +85,9 @@ import sun.security.util.SecurityConstants;
  * variables; a means of loading files and libraries; and a utility
  * method for quickly copying a portion of an array.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class System {
     /* Register the natives via the static initializer.

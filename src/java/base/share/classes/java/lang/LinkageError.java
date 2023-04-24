@@ -9,9 +9,9 @@ package java.lang;
  * some dependency on another class; however, the latter class has
  * incompatibly changed after the compilation of the former class.
  *
- *
- * @author  Frank Yellin
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class LinkageError extends Error {
     @java.io.Serial

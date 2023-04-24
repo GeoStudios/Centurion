@@ -19,7 +19,9 @@ import java.util.function.BiFunction;
  * @param <K1> the type of 1st key in key pair
  * @param <K2> the type of 2nd key in key pair
  * @param <V>  the type of value
- * @author Peter Levart
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class WeakPairMap<K1, K2, V> {
 

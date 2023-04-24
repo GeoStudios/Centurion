@@ -9,7 +9,9 @@ package java.lang;
  * reference to the {@code Class} object representing the Java keyword
  * void.
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final
 class Void {

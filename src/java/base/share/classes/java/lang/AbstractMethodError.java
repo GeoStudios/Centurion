@@ -11,7 +11,9 @@ package java.lang;
  * incompatibly changed since the currently executing method was last
  * compiled.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class AbstractMethodError extends IncompatibleClassChangeError {
     @java.io.Serial

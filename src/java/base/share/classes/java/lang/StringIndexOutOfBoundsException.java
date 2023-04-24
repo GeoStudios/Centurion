@@ -11,7 +11,9 @@ package java.lang;
  * index is equal to the size of the string.
  *
  * @see java.lang.String#charAt(int)
- * @since 1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class StringIndexOutOfBoundsException extends IndexOutOfBoundsException {
     @java.io.Serial

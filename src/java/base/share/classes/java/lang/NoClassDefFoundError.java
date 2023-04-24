@@ -14,7 +14,9 @@ package java.lang;
  * executing class was compiled, but the definition can no longer be
  * found.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class NoClassDefFoundError extends LinkageError {
     @java.io.Serial

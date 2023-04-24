@@ -7,7 +7,9 @@ package java.lang;
 /**
  * Thrown to indicate that a method has been called by an inappropriate caller.
  *
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see StackWalker#getCallerClass
  */
 public class IllegalCallerException extends RuntimeException {

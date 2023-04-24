@@ -12,7 +12,9 @@ package java.io;
  * field. The stream is reset to its initial state and all references
  * to objects already deserialized are discarded.
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class WriteAbortedException extends ObjectStreamException {
     @java.io.Serial

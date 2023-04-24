@@ -7,7 +7,9 @@ package java.lang;
 /**
  * Thrown to indicate that a method has been called on the wrong thread.
  *
- * @since 19
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class WrongThreadException extends RuntimeException {
     @java.io.Serial

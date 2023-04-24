@@ -9,7 +9,9 @@ package java.lang;
  * definition. The definition of some class, on which the currently
  * executing method depends, has since changed.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IncompatibleClassChangeError extends LinkageError {
     @java.io.Serial

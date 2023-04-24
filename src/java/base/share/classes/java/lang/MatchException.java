@@ -43,7 +43,9 @@ import jdk.internal.javac.PreviewFeature;
  * @jls 14.30.2 Pattern Matching
  * @jls 15.28.2 Run-Time Evaluation of switch Expressions
  *
- * @since 19
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @PreviewFeature(feature=PreviewFeature.Feature.SWITCH_PATTERN_MATCHING)
 public final class MatchException extends RuntimeException {

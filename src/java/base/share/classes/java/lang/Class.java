@@ -170,7 +170,9 @@ import sun.reflect.misc.ReflectUtil;
  * unknown.
  *
  * @see     java.lang.ClassLoader#defineClass(byte[], int, int)
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @jls 15.8.2 Class Literals
  */
 public final class Class<T> implements java.io.Serializable,

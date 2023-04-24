@@ -8,7 +8,9 @@ package java.lang;
  * Thrown when the Java Virtual Machine detects a circularity in the
  * superclass hierarchy of a class being loaded.
  *
- * @since      1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ClassCircularityError extends LinkageError {
     @java.io.Serial

@@ -9,7 +9,9 @@ package java.lang;
  * file and determines that the file is malformed or otherwise cannot
  * be interpreted as a class file.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ClassFormatError extends LinkageError {
     @java.io.Serial

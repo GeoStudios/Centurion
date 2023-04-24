@@ -83,10 +83,11 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * See {@link Comparable}, {@link java.util.SortedMap SortedMap}, or
  * {@link java.util.SortedSet SortedSet} for more information.
  *
- * @author      Arthur van Hoff
  * @see     java.lang.StringBuilder
  * @see     java.lang.String
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
  public final class StringBuffer
     extends AbstractStringBuilder

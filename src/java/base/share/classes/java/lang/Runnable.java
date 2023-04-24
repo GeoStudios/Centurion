@@ -10,9 +10,10 @@ package java.lang;
  * <p> This is a {@linkplain java.util.function functional interface}
  * whose functional method is {@link #run()}.
  *
- * @author  Arthur van Hoff
  * @see     java.util.concurrent.Callable
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @FunctionalInterface
 public interface Runnable {

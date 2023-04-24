@@ -24,12 +24,12 @@ package java.lang;
  *
  * See the documentation of a given {@code Number} implementation for
  * conversion details.
- *
- * @author      Lee Boynton
- * @author      Arthur van Hoff
+ * 
  * @jls 5.1.2 Widening Primitive Conversion
  * @jls 5.1.3 Narrowing Primitive Conversion
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract class Number implements java.io.Serializable {
     /**

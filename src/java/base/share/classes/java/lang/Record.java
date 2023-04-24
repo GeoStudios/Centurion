@@ -63,7 +63,9 @@ package java.lang;
  * See {@link Class#isRecord()} and {@link Class#getRecordComponents()} for more details.
  *
  * @jls 8.10 Record Types
- * @since 16
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract class Record {
     /**

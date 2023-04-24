@@ -9,7 +9,9 @@ package java.lang;
  * core reflection.
  *
  * @see LinkageError
- * @since 1.7
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ReflectiveOperationException extends Exception {
     @java.io.Serial

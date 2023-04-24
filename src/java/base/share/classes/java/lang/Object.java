@@ -13,7 +13,9 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * including arrays, implement the methods of this class.
  *
  * @see     java.lang.Class
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class Object {
 

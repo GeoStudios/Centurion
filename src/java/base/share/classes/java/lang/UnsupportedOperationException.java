@@ -11,8 +11,9 @@ package java.lang;
  * <a href="{@docRoot}/java.base/java/util/package-summary.html#CollectionsFramework">
  * Java Collections Framework</a>.
  *
- * @author  Josh Bloch
- * @since   1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UnsupportedOperationException extends RuntimeException {
     /**

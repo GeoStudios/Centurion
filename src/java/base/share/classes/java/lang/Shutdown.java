@@ -11,8 +11,9 @@ import jdk.internal.misc.VM;
  * Package-private utility class containing data structures and logic
  * governing the virtual-machine shutdown sequence.
  *
- * @author   Mark Reinhold
- * @since    1.3
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  *
  * @see java.io.Console
  * @see ApplicationShutdownHooks

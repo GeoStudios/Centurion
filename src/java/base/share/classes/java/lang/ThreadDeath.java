@@ -15,7 +15,9 @@ package java.lang;
  *      {@code Thread.stop} method changed to throw an exception. Consequently,
  *      {@code ThreadDeath} is also deprecated, for removal.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Deprecated(since="20", forRemoval=true)
 public class ThreadDeath extends Error {

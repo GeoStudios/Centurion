@@ -16,10 +16,11 @@ package java.lang;
  * by the execution of the method or constructor and propagate outside
  * the method or constructor boundary.
  *
- * @author  Frank Yellin
  * @see     java.lang.Error
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class Exception extends Throwable {
     @java.io.Serial

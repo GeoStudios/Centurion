@@ -7,10 +7,11 @@ package java.io;
 /**
  * Signals that a sync operation has failed.
  *
- * @author  Ken Arnold
  * @see     java.io.FileDescriptor#sync
  * @see     java.io.IOException
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class SyncFailedException extends IOException {
     @java.io.Serial

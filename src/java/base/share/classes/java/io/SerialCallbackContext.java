@@ -14,6 +14,10 @@ package java.io;
  * or writeFields which must be invoked on the same thread before the class's
  * readObject/writeObject method has returned.
  * If not set to the current thread, the getObj method throws NotActiveException.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class SerialCallbackContext {
     private final Object obj;

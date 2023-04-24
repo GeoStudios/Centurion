@@ -10,6 +10,12 @@ import jdk.internal.vm.ContinuationScope;
 import java.lang.StackWalker.StackFrame;
 import java.lang.invoke.MethodType;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+
 class StackFrameInfo implements StackFrame {
     private static final JavaLangInvokeAccess JLIA =
         SharedSecrets.getJavaLangInvokeAccess();

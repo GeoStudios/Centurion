@@ -17,7 +17,9 @@ package java.lang;
  * <cite>The Java Language Specification</cite>),
  * regardless of the type of <i>expression</i>.
  *
- * @since   1.4
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class AssertionError extends Error {
     @java.io.Serial

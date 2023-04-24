@@ -10,8 +10,9 @@ package java.lang;
  * <p>
  * Applications can subclass this class to indicate similar exceptions.
  *
- * @author Frank Yellin
- * @since 1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IndexOutOfBoundsException extends RuntimeException {
     @java.io.Serial

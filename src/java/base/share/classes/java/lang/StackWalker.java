@@ -65,7 +65,9 @@ import jdk.internal.vm.ContinuationScope;
  * will cause a {@link NullPointerException NullPointerException}
  * to be thrown.
  *
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class StackWalker {
     /**

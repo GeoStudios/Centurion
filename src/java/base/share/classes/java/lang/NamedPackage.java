@@ -18,6 +18,10 @@ import java.net.URI;
  * NamedPackage allows ClassLoader to keep track of the runtime
  * packages with minimal footprint and avoid constructing Package
  * object.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 class NamedPackage {
     private final String name;

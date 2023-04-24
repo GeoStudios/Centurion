@@ -8,7 +8,9 @@ package java.lang;
  * Thrown to indicate that an array has been accessed with an illegal index. The
  * index is either negative or greater than or equal to the size of the array.
  *
- * @since 1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ArrayIndexOutOfBoundsException extends IndexOutOfBoundsException {
     @java.io.Serial

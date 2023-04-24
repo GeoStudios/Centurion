@@ -17,9 +17,10 @@ package java.lang;
  * That is, {@code Error} and its subclasses are regarded as unchecked
  * exceptions for the purposes of compile-time checking of exceptions.
  *
- * @author  Frank Yellin
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class Error extends Throwable {
     @java.io.Serial

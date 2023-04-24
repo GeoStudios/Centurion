@@ -25,8 +25,9 @@ import java.util.Set;
  * this is the point at which the throwable corresponding to the stack trace
  * was created.
  *
- * @since  1.4
- * @author Josh Bloch
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class StackTraceElement implements java.io.Serializable {
 

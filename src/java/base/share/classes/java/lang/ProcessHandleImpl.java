@@ -26,7 +26,9 @@ import java.util.stream.Stream;
  * ProcessHandleImpl is the implementation of ProcessHandle.
  *
  * @see Process
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @jdk.internal.ValueBased
 final class ProcessHandleImpl implements ProcessHandle {

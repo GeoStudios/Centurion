@@ -8,7 +8,9 @@ package java.lang;
  * Thrown to indicate that a method has been passed an illegal or
  * inappropriate argument.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IllegalArgumentException extends RuntimeException {
     /**

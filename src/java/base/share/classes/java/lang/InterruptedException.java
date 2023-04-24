@@ -16,14 +16,15 @@ package java.lang;
  *     throw new InterruptedException();
  * }
  *
- * @author  Frank Yellin
  * @see     java.lang.Object#wait()
  * @see     java.lang.Object#wait(long)
  * @see     java.lang.Object#wait(long, int)
  * @see     java.lang.Thread#sleep(long)
  * @see     java.lang.Thread#interrupt()
  * @see     java.lang.Thread#interrupted()
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class InterruptedException extends Exception {
     @java.io.Serial

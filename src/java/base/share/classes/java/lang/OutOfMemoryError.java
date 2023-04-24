@@ -14,7 +14,9 @@ package java.lang;
  * boolean, boolean) suppression were disabled and/or the stack trace was not
  * writable}.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class OutOfMemoryError extends VirtualMachineError {
     @java.io.Serial

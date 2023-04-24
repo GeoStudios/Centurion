@@ -31,8 +31,9 @@ import java.util.stream.StreamSupport;
  * arbitrary {@code CharSequence} instances as elements in a set or as keys in
  * a map. </p>
  *
- * @author Mike McCloskey
- * @since 1.4
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public interface CharSequence {

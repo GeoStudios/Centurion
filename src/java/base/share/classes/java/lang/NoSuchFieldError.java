@@ -12,7 +12,9 @@ package java.lang;
  * only occur at run time if the definition of a class has
  * incompatibly changed.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class NoSuchFieldError extends IncompatibleClassChangeError {
     @java.io.Serial

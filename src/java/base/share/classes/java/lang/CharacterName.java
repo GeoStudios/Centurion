@@ -14,6 +14,12 @@ import java.util.zip.InflaterInputStream;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+
 class CharacterName {
 
     private static SoftReference<CharacterName> refCharName;

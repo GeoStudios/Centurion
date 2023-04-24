@@ -68,7 +68,9 @@ import java.util.stream.Stream;
  * to compare ProcessHandles.
  *
  * @see Process
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @jdk.internal.ValueBased
 public interface ProcessHandle extends Comparable<ProcessHandle> {

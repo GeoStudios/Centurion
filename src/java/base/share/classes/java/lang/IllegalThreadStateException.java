@@ -9,7 +9,9 @@ package java.lang;
  * for the requested operation.
  *
  * @see Thread#start()
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IllegalThreadStateException extends IllegalArgumentException {
     @java.io.Serial

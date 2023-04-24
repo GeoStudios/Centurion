@@ -32,7 +32,9 @@ package java.lang;
  * @see     java.lang.reflect.Field#getDouble(Object)
  * @see     java.lang.reflect.Method#invoke(Object, Object[])
  * @see     java.lang.reflect.Constructor#newInstance(Object[])
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IllegalAccessException extends ReflectiveOperationException {
     private static final long serialVersionUID = 6616958222490762034L;

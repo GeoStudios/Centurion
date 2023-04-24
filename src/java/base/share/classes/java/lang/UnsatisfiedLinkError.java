@@ -9,7 +9,9 @@ package java.lang;
  * native-language definition of a method declared {@code native}.
  *
  * @see     java.lang.Runtime
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UnsatisfiedLinkError extends LinkageError {
     @java.io.Serial

@@ -32,10 +32,9 @@ import static java.lang.String.checkOffset;
  * or method in this class will cause a {@link NullPointerException} to be
  * thrown.
  *
- * @author      Michael McCloskey
- * @author      Martin Buchholz
- * @author      Ulf Zibis
- * @since       1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 abstract sealed class AbstractStringBuilder implements Appendable, CharSequence
     permits StringBuilder, StringBuffer {
