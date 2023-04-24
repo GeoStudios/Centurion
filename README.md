@@ -22,4 +22,8 @@ This will be running on Java 20. Gradle has been recently added!
 
 ### License
 
-Centurion is licensed under M4x and Zombii Protective License. For more info, please see the [license file](https://github.com/GeoStudios/Centurion/blob/main/License.txt)
+Centurion is licensed under M4x and Zombii Protective License. For more info, please see the [license file](https://github.com/GeoStudios/Centurion/blob/main/License.rtf)
+
+### Wiki
+
+[Centurion Wiki](https://github.com/GeoStudios/Wiki/blob/main/JDK/Centurion/readme.md)
