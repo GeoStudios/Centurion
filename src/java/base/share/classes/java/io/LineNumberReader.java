@@ -23,8 +23,9 @@ package java.io;
  * immediately by a linefeed, or any of the previous terminators followed by
  * end of stream, or end of stream not preceded by another terminator.
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class LineNumberReader extends BufferedReader {

@@ -19,8 +19,9 @@ import java.util.Objects;
  * {@code FilterOutputStream} may further override some of these
  * methods as well as provide additional methods and fields.
  *
- * @author  Jonathan Payne
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class FilterOutputStream extends OutputStream {
     /**

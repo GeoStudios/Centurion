@@ -19,9 +19,10 @@ import java.util.Objects;
  * The line number begins at {@code 0}, and is incremented by
  * {@code 1} when a {@code read} returns a newline character.
  *
- * @author     Arthur van Hoff
  * @see        java.io.LineNumberReader
- * @since      1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @deprecated This class incorrectly assumes that bytes adequately represent
  *             characters.  As of JDK&nbsp;1.1, the preferred way to operate on
  *             character streams is via the new character-stream classes, which

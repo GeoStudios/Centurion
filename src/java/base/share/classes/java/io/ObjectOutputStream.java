@@ -133,16 +133,16 @@ import sun.reflect.misc.ReflectUtil;
  *
  * <p>Records are serialized differently than ordinary serializable or externalizable
  * objects, see <a href="ObjectInputStream.html#record-serialization">record serialization</a>.
- *
- * @author      Mike Warres
- * @author      Roger Riggs
+ * 
  * @see java.io.DataOutput
  * @see java.io.ObjectInputStream
  * @see java.io.Serializable
  * @see java.io.Externalizable
  * @see <a href="{@docRoot}/../specs/serialization/output.html">
  *      <cite>Java Object Serialization Specification,</cite> Section 2, "Object Output Classes"</a>
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ObjectOutputStream
     extends OutputStream implements ObjectOutput, ObjectStreamConstants

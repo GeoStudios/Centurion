@@ -10,8 +10,9 @@ import java.util.Objects;
 /**
  * Piped character-output streams.
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class PipedWriter extends Writer {

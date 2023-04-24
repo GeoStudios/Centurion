@@ -48,8 +48,9 @@ import sun.nio.cs.StreamEncoder;
  * @see OutputStream
  * @see Charset
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class OutputStreamWriter extends Writer {

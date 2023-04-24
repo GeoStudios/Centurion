@@ -19,8 +19,9 @@ import java.util.Objects;
  * and so on, until end of file is reached
  * on the last of the contained input streams.
  *
- * @author  Arthur van Hoff
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class SequenceInputStream extends InputStream {
     private final Enumeration<? extends InputStream> e;

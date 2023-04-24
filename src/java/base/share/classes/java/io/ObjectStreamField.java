@@ -13,10 +13,10 @@ import sun.reflect.misc.ReflectUtil;
  * A description of a Serializable field from a Serializable class.  An array
  * of ObjectStreamFields is used to declare the Serializable fields of a class.
  *
- * @author      Mike Warres
- * @author      Roger Riggs
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see ObjectStreamClass
- * @since 1.2
  */
 public class ObjectStreamField
     implements Comparable<Object>

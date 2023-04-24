@@ -14,8 +14,9 @@ package java.io;
  * inherited by {@code FilterInputStream}, and may also provide additional
  * fields and methods.
  *
- * @author  Jonathan Payne
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class FilterInputStream extends InputStream {
     /**

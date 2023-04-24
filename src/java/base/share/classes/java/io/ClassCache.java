@@ -14,6 +14,14 @@ import java.util.Objects;
 // recomputed the next time it is queried. The mapping is bound to the
 // lifetime of the class: when the class is unloaded, the mapping is
 // removed too.
+
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ * @param <T>
+ */
+
 abstract class ClassCache<T> {
 
     private static class CacheRef<T> extends SoftReference<T> {

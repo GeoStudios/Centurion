@@ -16,7 +16,9 @@ import java.util.Objects;
  * <p> Applications that need to define a subclass of {@code InputStream}
  * must always provide a method that returns the next byte of input.
  *
- * @author  Arthur van Hoff
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see     java.io.BufferedInputStream
  * @see     java.io.ByteArrayInputStream
  * @see     java.io.DataInputStream
@@ -24,7 +26,6 @@ import java.util.Objects;
  * @see     java.io.InputStream#read()
  * @see     java.io.OutputStream
  * @see     java.io.PushbackInputStream
- * @since   1.0
  */
 public abstract class InputStream implements Closeable {
 

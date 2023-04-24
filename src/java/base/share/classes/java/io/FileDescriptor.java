@@ -21,8 +21,9 @@ import jdk.internal.ref.PhantomCleanable;
  * <p>
  * Applications should not create their own file descriptors.
  *
- * @author  Pavani Diwanji
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class FileDescriptor {
 

@@ -21,7 +21,9 @@ package java.io;
  *       is set to 0.
  * </ul>
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class OptionalDataException extends ObjectStreamException {
 

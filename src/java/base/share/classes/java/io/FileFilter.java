@@ -12,7 +12,9 @@ package java.io;
  * {@link File#listFiles(java.io.FileFilter) listFiles(FileFilter)} method
  * of the {@link java.io.File} class.
  *
- * @since 1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @FunctionalInterface
 public interface FileFilter {

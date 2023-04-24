@@ -14,8 +14,9 @@ import jdk.internal.misc.VM;
  * output stream without necessarily causing a call to the underlying
  * system for each byte written.
  *
- * @author  Arthur van Hoff
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public class BufferedOutputStream extends FilterOutputStream {
     private static final int DEFAULT_INITIAL_BUFFER_SIZE = 512;

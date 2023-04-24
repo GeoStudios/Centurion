@@ -26,8 +26,9 @@ import java.nio.charset.Charset;
  * @see FileOutputStream
  * @see Charset#defaultCharset()
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class FileWriter extends OutputStreamWriter {

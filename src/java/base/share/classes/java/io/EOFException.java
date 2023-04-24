@@ -12,10 +12,11 @@ package java.io;
  * stream. Note that many other input operations return a special value on
  * end of stream rather than throwing an exception.
  *
- * @author  Frank Yellin
  * @see     java.io.DataInputStream
  * @see     java.io.IOException
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public class EOFException extends IOException {
     @java.io.Serial

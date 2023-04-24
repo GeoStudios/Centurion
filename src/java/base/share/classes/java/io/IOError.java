@@ -7,8 +7,9 @@ package java.io;
 /**
  * Thrown when a serious I/O error has occurred.
  *
- * @author  Xueming Shen
- * @since   1.6
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IOError extends Error {
     /**

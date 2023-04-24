@@ -240,7 +240,9 @@ import static java.lang.System.Logger.Level.ERROR;
  * {@link NullPointerException} to be thrown.
  *
  * @see ObjectInputStream#setObjectInputFilter(ObjectInputFilter)
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @FunctionalInterface
 public interface ObjectInputFilter {

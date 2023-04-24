@@ -11,8 +11,9 @@ import java.util.Objects;
  * This class implements a character buffer that can be used as a
  * character-input stream.
  *
- * @author      Herb Jellinek
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public class CharArrayReader extends Reader {
     /** The character buffer. */

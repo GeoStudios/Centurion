@@ -39,12 +39,13 @@ import sun.nio.ch.FileChannelImpl;
  * Otherwise, it is implementation specific how the resource cleanup described in
  * {@link #close} is performed.
  *
- * @author  Arthur van Hoff
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see     java.io.File
  * @see     java.io.FileDescriptor
  * @see     java.io.FileInputStream
  * @see     java.nio.file.Files#newOutputStream
- * @since   1.0
  */
 public class FileOutputStream extends OutputStream
 {

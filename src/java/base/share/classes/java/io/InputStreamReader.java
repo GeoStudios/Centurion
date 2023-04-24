@@ -35,8 +35,9 @@ import sun.nio.cs.StreamDecoder;
  * @see InputStream
  * @see Charset
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class InputStreamReader extends Reader {

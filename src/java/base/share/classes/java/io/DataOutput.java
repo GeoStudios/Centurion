@@ -20,10 +20,11 @@ package java.io;
  * a byte cannot be written for any reason,
  * an {@code IOException} is thrown.
  *
- * @author  Frank Yellin
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  * @see     java.io.DataInput
  * @see     java.io.DataOutputStream
- * @since   1.0
  */
 public interface DataOutput {
     /**

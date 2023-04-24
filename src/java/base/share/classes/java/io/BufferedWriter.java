@@ -42,8 +42,9 @@ import jdk.internal.misc.VM;
  * @see OutputStreamWriter
  * @see java.nio.file.Files#newBufferedWriter
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 public class BufferedWriter extends Writer {

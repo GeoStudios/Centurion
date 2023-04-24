@@ -15,14 +15,15 @@ import java.util.Objects;
  * {@code OutputStream} must always provide at least a method
  * that writes one byte of output.
  *
- * @author  Arthur van Hoff
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see     java.io.BufferedOutputStream
  * @see     java.io.ByteArrayOutputStream
  * @see     java.io.DataOutputStream
  * @see     java.io.FilterOutputStream
  * @see     java.io.InputStream
  * @see     java.io.OutputStream#write(int)
- * @since   1.0
  */
 public abstract class OutputStream implements Closeable, Flushable {
     /**
