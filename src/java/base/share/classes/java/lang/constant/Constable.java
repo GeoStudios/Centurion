@@ -40,7 +40,9 @@ import java.util.Optional;
  * @jvms 4.4 The Constant Pool
  * @jvms 4.4.10 The {@code CONSTANT_Dynamic_info} and {@code CONSTANT_InvokeDynamic_info} Structures
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public interface Constable {
     /**

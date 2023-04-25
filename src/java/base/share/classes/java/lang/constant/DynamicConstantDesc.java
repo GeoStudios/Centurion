@@ -33,7 +33,9 @@ import static java.util.stream.Collectors.joining;
  *
  * @param <T> the type of the dynamic constant
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract non-sealed class DynamicConstantDesc<T>
         implements ConstantDesc {

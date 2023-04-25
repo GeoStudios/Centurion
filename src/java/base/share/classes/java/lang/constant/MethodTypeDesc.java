@@ -13,7 +13,9 @@ import java.util.stream.Stream;
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a
  * {@linkplain MethodType} constant.
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public sealed interface MethodTypeDesc
         extends ConstantDesc,

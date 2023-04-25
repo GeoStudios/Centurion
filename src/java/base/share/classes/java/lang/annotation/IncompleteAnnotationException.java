@@ -13,9 +13,10 @@ package java.lang.annotation;
  * java.lang.reflect.AnnotatedElement API used to read annotations
  * reflectively}.
  *
- * @author  Josh Bloch
  * @see     java.lang.reflect.AnnotatedElement
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IncompleteAnnotationException extends RuntimeException {
     @java.io.Serial

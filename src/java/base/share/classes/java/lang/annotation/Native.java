@@ -13,7 +13,9 @@ package java.lang.annotation;
  * header files to determine whether a header file is required, and
  * if so, what declarations it should contain.
  *
- * @since 1.8
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Documented
 @Target(ElementType.FIELD)

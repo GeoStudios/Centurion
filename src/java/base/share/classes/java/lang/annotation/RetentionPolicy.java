@@ -10,8 +10,9 @@ package java.lang.annotation;
  * in conjunction with the {@link Retention} meta-annotation interface to
  * specify how long annotations are to be retained.
  *
- * @author  Joshua Bloch
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public enum RetentionPolicy {
     /**
