@@ -38,6 +38,10 @@ import jdk.internal.javac.PreviewFeature;
  * {@linkplain Linker#downcallHandle(FunctionDescriptor, Linker.Option...) downcall method handles} can accept an additional
  * {@link SegmentAllocator} parameter if the underlying foreign function is known to return a struct by-value. Effectively,
  * the allocator parameter tells the linker runtime where to store the return value of the foreign function.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @FunctionalInterface
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)

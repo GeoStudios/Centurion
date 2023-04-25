@@ -204,6 +204,9 @@
  * restricted methods is only granted to the modules listed by that option. If this option is not specified,
  * access to restricted methods is enabled for all modules, but access to restricted methods will result in runtime warnings.
  *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 package java.lang.foreign;
 

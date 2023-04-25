@@ -59,7 +59,9 @@ import jdk.internal.javac.PreviewFeature;
  * multiple threads need to access the same memory segment concurrently (e.g. in the case of parallel processing).
  * Moreover, a shared arena {@linkplain #isCloseableBy(Thread) can be closed} by any thread.
  *
- * @since 20
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)
 public interface Arena extends SegmentAllocator, AutoCloseable {

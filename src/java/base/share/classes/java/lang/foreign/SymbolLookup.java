@@ -94,6 +94,10 @@ import java.util.function.BiFunction;
  * SymbolLookup stdlib = nativeLinker.defaultLookup();
  * MemorySegment malloc = stdlib.find("malloc").orElseThrow();
  *}
+ *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)
 @FunctionalInterface
