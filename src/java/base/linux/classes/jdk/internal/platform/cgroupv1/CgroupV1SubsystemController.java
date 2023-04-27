@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.platform.cgroupv1;
+package java.base.linux.classes.jdk.internal.platform.cgroupv1;
 
-import jdk.internal.platform.CgroupSubsystem;
-import jdk.internal.platform.CgroupSubsystemController;
+import java.base.linux.classes.jdk.internal.platform.CgroupSubsystem;
+import java.base.linux.classes.jdk.internal.platform.CgroupSubsystemController;
 
 /**
  * @since Pre Java 1

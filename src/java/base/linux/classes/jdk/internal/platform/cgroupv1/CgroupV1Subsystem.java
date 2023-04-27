@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.platform.cgroupv1;
+package java.base.linux.classes.jdk.internal.platform.cgroupv1;
 
 import java.util.Map;
 
-import jdk.internal.platform.CgroupInfo;
-import jdk.internal.platform.CgroupSubsystem;
-import jdk.internal.platform.CgroupSubsystemController;
-import jdk.internal.platform.CgroupV1Metrics;
+import java.base.linux.classes.jdk.internal.platform.CgroupInfo;
+import java.base.linux.classes.jdk.internal.platform.CgroupSubsystem;
+import java.base.linux.classes.jdk.internal.platform.CgroupSubsystemController;
+import java.base.linux.classes.jdk.internal.platform.CgroupV1Metrics;
 
 /**
  * @since Pre Java 1

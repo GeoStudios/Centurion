@@ -10,8 +10,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.io.IOException;
 
-import static sun.nio.fs.WindowsNativeDispatcher.*;
-import static sun.nio.fs.WindowsConstants.*;
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 
 /**
  * Windows implementation of DirectoryStream

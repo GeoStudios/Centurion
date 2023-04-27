@@ -17,7 +17,7 @@ import jdk.internal.access.JavaIOFileDescriptorAccess;
 import jdk.internal.access.SharedSecrets;
 import sun.nio.ch.FileChannelImpl;
 import sun.nio.ch.ThreadPool;
-import sun.nio.ch.WindowsAsynchronousFileChannelImpl;
+import java.base.windows.classes.sun.nio.ch.WindowsAsynchronousFileChannelImpl;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
