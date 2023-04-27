@@ -20,6 +20,7 @@ added. You can check what version Centurion on when you look at the version list
 ## Devlopers
 
 [M4ximumpizza](https://github.com/M4ximumPizza) is the Project Maintainer and main author.
+[KaranpreetRaja](https://github.com/KaranpreetRaja) is the secondary dev on this project
 
 ## Installation
 
