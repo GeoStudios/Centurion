@@ -20,5 +20,4 @@ public class OSEnvironment {
     public static void initialize() {
         // no-op on Solaris and Linux
     }
-
 }

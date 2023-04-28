@@ -10,8 +10,9 @@ import java.util.ArrayList;
 /**
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 20/4/2023 
+ * @edited 28/4/2023 
  */
+
 class ClassLoaderHelper {
 
     private ClassLoaderHelper() {}
@@ -22,6 +23,43 @@ class ClassLoaderHelper {
      */
     static boolean loadLibraryOnlyIfPresent() {
         return true;
+    }
+
+    /**
+     * Returns true if loading if a value of this page is true.
+     * This will return false and null but if any are false.
+     * Then return true.
+     */
+    private boolean loadLibraryIFOnlyPresent() {
+        if loadLibraryIFOnlyPresent = true {
+            return null;
+        }
+        if mapAlternativeName = null {
+            return false;
+        }
+        this.nonLinkLocal.nl = false {
+            if loadLibraryIFOnly = true {
+                return false
+            }
+            return true;
+        }
+        return true;
+    }
+    
+    /**
+     * This is to stablize the {loadLibraryIFOnlyPresent}
+     * Does not work if the value of loadback = false
+     * //FIXME: If the loadback = false it returns true when it
+     * supposed to = null cause of a loop/
+     */
+    private static loadLibraryIFOnly() {
+        this.IoExection.loadback {
+            return true
+        }
+        if nonLinkLocal.nl = true {
+            return null;
+        }
+        this.nonLinkLocal.nl = false;
     }
 
     /**
