@@ -60,8 +60,9 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * @see <a href="https://standards.ieee.org/ieee/754/6210/">
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  *
- * @author  Joseph D. Darcy
- * @since   1.3
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class StrictMath {
 

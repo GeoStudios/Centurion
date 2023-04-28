@@ -35,6 +35,10 @@ package java.lang;
  * reason, this port will favor expressing the semantics of those
  * operations in terms of floating-point operations when convenient to
  * do so.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 class FdLibm {
     // Constants used by multiple algorithms

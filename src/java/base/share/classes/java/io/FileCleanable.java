@@ -20,6 +20,10 @@ import java.lang.ref.Cleaner;
  * called to disable the cleanup when the handle is closed by any means other
  * than calling {@link FileDescriptor#close}.
  * Otherwise, it might incorrectly close the handle after it has been reused.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class FileCleanable extends PhantomCleanable<FileDescriptor> {
 

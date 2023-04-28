@@ -9,7 +9,9 @@ package java.lang;
  * though well formed, contains some sort of internal inconsistency
  * or security problem.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class VerifyError extends LinkageError {
     @java.io.Serial

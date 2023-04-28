@@ -24,8 +24,9 @@ package java.lang;
  * non-I/O-based forms, {@code try}-with-resources blocks are in
  * general unnecessary when using non-I/O-based forms.
  *
- * @author Josh Bloch
- * @since 1.7
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public interface AutoCloseable {
     /**

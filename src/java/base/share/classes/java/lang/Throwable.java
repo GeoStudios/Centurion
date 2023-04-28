@@ -87,10 +87,10 @@ import jdk.internal.misc.InternalLock;
  * {@code String} (the detail message) and a {@code Throwable} (the
  * cause).
  *
- * @author  Josh Bloch (Added exception chaining and programmatic access to
- *          stack trace in 1.4.)
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since 1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class Throwable implements Serializable {
     /** use serialVersionUID from JDK 1.0.2 for interoperability */

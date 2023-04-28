@@ -21,8 +21,9 @@ package java.lang.annotation;
  * from superclasses; annotations on implemented interfaces have no
  * effect.
  *
- * @author  Joshua Bloch
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @jls 9.6.4.3 @Inherited
  */
 @Documented

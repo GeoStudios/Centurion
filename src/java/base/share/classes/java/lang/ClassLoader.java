@@ -204,8 +204,9 @@ import sun.security.util.SecurityConstants;
  * @jls 6.7 Fully Qualified Names
  * @jls 13.1 The Form of a Binary
  * @see      #resolveClass(Class)
- * @since 1.0
- * @revised 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract class ClassLoader {
 

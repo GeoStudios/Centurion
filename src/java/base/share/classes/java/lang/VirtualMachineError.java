@@ -8,9 +8,9 @@ package java.lang;
  * Thrown to indicate that the Java Virtual Machine is broken or has
  * run out of resources necessary for it to continue operating.
  *
- *
- * @author  Frank Yellin
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract class VirtualMachineError extends Error {
     @java.io.Serial

@@ -15,8 +15,9 @@ import java.util.Objects;
  * can be called after the stream has been closed without generating an
  * {@code IOException}.
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class StringWriter extends Writer {

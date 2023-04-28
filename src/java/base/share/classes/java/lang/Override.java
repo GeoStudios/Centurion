@@ -20,12 +20,12 @@ import java.lang.annotation.*;
  * any public method declared in {@linkplain Object}.
  * </li></ul>
  *
- * @author  Peter von der Ah&eacute;
- * @author  Joshua Bloch
  * @jls 8.4.8 Inheritance, Overriding, and Hiding
  * @jls 9.4.1 Inheritance and Overriding
  * @jls 9.6.4.4 @Override
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)

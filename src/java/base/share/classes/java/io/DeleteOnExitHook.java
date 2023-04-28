@@ -11,6 +11,10 @@ import jdk.internal.access.SharedSecrets;
  * This class holds a set of filenames to be deleted on VM exit through a shutdown hook.
  * A set is used both to prevent double-insertion of the same file as well as offer
  * quick removal.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 
 class DeleteOnExitHook {

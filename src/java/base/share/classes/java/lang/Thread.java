@@ -196,7 +196,9 @@ import static java.util.concurrent.TimeUnit.NANOSECONDS;
  *   </tbody>
  * </table>
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class Thread implements Runnable {
     /* Make sure registerNatives is the first thing <clinit> does. */

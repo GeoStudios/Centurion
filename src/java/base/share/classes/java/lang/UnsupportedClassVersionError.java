@@ -9,7 +9,9 @@ package java.lang;
  * file and determines that the major and minor version numbers
  * in the file are not supported.
  *
- * @since   1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UnsupportedClassVersionError extends ClassFormatError {
     @java.io.Serial

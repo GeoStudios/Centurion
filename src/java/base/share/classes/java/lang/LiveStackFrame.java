@@ -20,6 +20,10 @@ import static java.lang.StackWalker.ExtendedOption.LOCALS_AND_OPERANDS;
  * its own operand stack (JVMS section 2.6.2) for a method invocation.
  *
  * @jvms 2.6 Frames
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 /* package-private */
 interface LiveStackFrame extends StackFrame {

@@ -5,6 +5,10 @@ package java.lang;
 
 /**
  * Base class for virtual thread implementations.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 sealed abstract class BaseVirtualThread extends Thread
         permits VirtualThread, ThreadBuilders.BoundVirtualThread {

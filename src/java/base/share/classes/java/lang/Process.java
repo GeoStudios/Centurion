@@ -75,7 +75,9 @@ import java.util.stream.Stream;
  * Delegating to the underlying Process or ProcessHandle is typically
  * easiest and most efficient.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public abstract class Process {
 

@@ -2,7 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
+<<<<<<< HEAD
 package java.base.unix.classes.jdk.internal.loader;
+=======
+package java.base.macosx.classes.jdk.internal.loader;
+>>>>>>> 1329d1203c34285049f99f32cadae5b8fbaa5276
 
 import java.io.File;
 import java.util.ArrayList;

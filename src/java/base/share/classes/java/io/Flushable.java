@@ -11,7 +11,9 @@ import java.io.IOException;
  * flush method is invoked to write any buffered output to the underlying
  * stream.
  *
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public interface Flushable {
 

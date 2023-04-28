@@ -19,6 +19,10 @@ import static java.lang.StackWalker.Option.*;
  *
  * The class maintains a ClassValue with the hashes of stack traces that are pinned by
  * code in that Class. This is used to avoid printing the same stack trace many times.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 class PinnedThreadPrinter {
     static final StackWalker STACK_WALKER;

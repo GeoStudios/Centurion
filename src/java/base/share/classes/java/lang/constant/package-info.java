@@ -70,6 +70,8 @@
  *
  * @jvms 4.4 The Constant Pool
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 package java.lang.constant;

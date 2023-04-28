@@ -14,7 +14,9 @@ package java.lang;
  * @see     java.lang.Object#wait()
  * @see     java.lang.Object#wait(long)
  * @see     java.lang.Object#wait(long, int)
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IllegalMonitorStateException extends RuntimeException {
     @java.io.Serial

@@ -79,9 +79,9 @@ import sun.security.util.SecurityConstants;
  * @see java.security.PermissionCollection
  *
  *
- * @author Marianne Mueller
- * @author Roland Schemers
- * @since 1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  *
  * @serial exclude
  */

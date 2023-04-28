@@ -4,7 +4,6 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.attribute.*;
 import java.util.*;
 import java.io.IOException;

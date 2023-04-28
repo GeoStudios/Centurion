@@ -28,7 +28,9 @@ import static java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;
  *
  * @see ConstantDesc
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class ConstantDescs {
     // No instances

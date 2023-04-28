@@ -53,7 +53,9 @@ import jdk.internal.misc.TerminatingThreadLocal;
  * @param <T> the type of the thread local's value
  *
  * @author  Josh Bloch and Doug Lea
- * @since   1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class ThreadLocal<T> {
     /**

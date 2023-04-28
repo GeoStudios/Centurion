@@ -92,7 +92,9 @@ import jdk.internal.reflect.Reflection;
  * The JAR File Specification: Package Sealing</a>
  * @see ClassLoader#definePackage(String, String, String, String, String, String, String, URL)
  *
- * @since 1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @revised 9
  */
 public class Package extends NamedPackage implements java.lang.reflect.AnnotatedElement {

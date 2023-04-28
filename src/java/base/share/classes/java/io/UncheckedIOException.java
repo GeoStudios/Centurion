@@ -8,7 +8,9 @@ import java.util.Objects;
 /**
  * Wraps an {@link IOException} with an unchecked exception.
  *
- * @since   1.8
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UncheckedIOException extends RuntimeException {
     @java.io.Serial

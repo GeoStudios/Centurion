@@ -8,7 +8,9 @@ package java.lang;
  * Thrown when an unknown but serious exception has occurred in the
  * Java Virtual Machine.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UnknownError extends VirtualMachineError {
     @java.io.Serial

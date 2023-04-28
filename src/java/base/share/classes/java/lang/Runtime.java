@@ -93,7 +93,9 @@ import jdk.internal.reflect.Reflection;
  *
  * @see     java.lang.Runtime#getRuntime()
  * @jls     12.8 Program Exit
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class Runtime {

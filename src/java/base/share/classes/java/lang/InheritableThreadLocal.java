@@ -24,9 +24,10 @@ package java.lang;
  * thread-local variables.
  * @param <T> the type of the inheritable thread local's value
  *
- * @author  Josh Bloch and Doug Lea
  * @see     ThreadLocal
- * @since   1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see Thread.Builder#inheritInheritableThreadLocals(boolean)
  */
 

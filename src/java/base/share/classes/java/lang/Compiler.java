@@ -16,8 +16,9 @@ package java.lang;
  * controllable by implementation-specific mechanisms such as command-line
  * options. This class is subject to removal in a future version of Java SE.
  *
- * @author  Frank Yellin
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Deprecated(since="9", forRemoval=true)
 public final class Compiler  {

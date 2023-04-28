@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.platform.cgroupv1;
+package java.base.linux.classes.jdk.internal.platform.cgroupv1;
 
 /**
  * @since Pre Java 1

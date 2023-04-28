@@ -72,8 +72,9 @@ import java.util.StringTokenizer;
  * @see java.lang.SecurityManager
  *
  *
- * @author Joe Fialli
- * @since 1.2
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 /* code was borrowed originally from java.lang.RuntimePermission. */

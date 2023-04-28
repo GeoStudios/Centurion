@@ -1,7 +1,8 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.nio.ch;
+//package sun.nio.ch;
+package java.base.macosx.classes.sun.nio.ch;
 
 import java.io.IOException;
 

@@ -11,12 +11,12 @@ package java.io;
  * {@code File}, and by the Abstract Window Toolkit's file
  * dialog component.
  *
- * @author  Arthur van Hoff
- * @author  Jonathan Payne
  * @see     java.desktop/java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter)
  * @see     java.io.File
  * @see     java.io.File#list(java.io.FilenameFilter)
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @SuppressWarnings("doclint:reference") // cross-module links
 @FunctionalInterface

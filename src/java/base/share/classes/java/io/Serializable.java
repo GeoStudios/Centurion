@@ -167,7 +167,9 @@ package java.io;
  * @see java.io.Externalizable
  * @see <a href="{@docRoot}/../specs/serialization/index.html">
  *      <cite>Java Object Serialization Specification</cite></a>
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public interface Serializable {
 }

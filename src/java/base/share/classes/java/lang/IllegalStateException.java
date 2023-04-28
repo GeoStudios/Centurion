@@ -10,8 +10,9 @@ package java.lang;
  * Java application is not in an appropriate state for the requested
  * operation.
  *
- * @author  Jonni Kanerva
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class IllegalStateException extends RuntimeException {
     /**

@@ -9,8 +9,9 @@ import java.util.Objects;
 /**
  * A character stream whose source is a string.
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class StringReader extends Reader {

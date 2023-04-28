@@ -24,9 +24,10 @@ import java.util.Objects;
  * thread that was providing data bytes to the connected
  * piped output stream is no longer alive.
  *
- * @author  James Gosling
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see     java.io.PipedOutputStream
- * @since   1.0
  */
 public class PipedInputStream extends InputStream {
     boolean closedByWriter;

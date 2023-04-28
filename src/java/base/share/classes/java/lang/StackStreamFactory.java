@@ -38,6 +38,10 @@ import static java.lang.StackStreamFactory.WalkerState.*;
  * 1. Support traversing Stream<StackFrame>
  * 2. StackWalker::getCallerClass
  * 3. AccessControlContext getting ProtectionDomain
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class StackStreamFactory {
     private StackStreamFactory() {}

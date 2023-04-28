@@ -28,3 +28,6 @@ NashornProfile.txt
 
 # Ignore Gradle build output directory
 build
+
+#Ignore binary files generated from your source code during build
+bin/

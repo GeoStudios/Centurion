@@ -265,8 +265,9 @@ import sun.security.util.SecurityConstants;
  * that require permissions, and for each such method tells
  * which permission it requires.
  *
- * @author  Arthur van Hoff
- * @author  Roland Schemers
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  *
  * @see     java.lang.ClassLoader
  * @see     java.lang.SecurityException
@@ -286,7 +287,6 @@ import sun.security.util.SecurityConstants;
  * @see     java.security.SecurityPermission SecurityPermission
  * @see     java.security.ProtectionDomain
  *
- * @since   1.0
  * @deprecated The Security Manager is deprecated and subject to removal in a
  *       future release. There is no replacement for the Security Manager.
  *       See <a href="https://openjdk.org/jeps/411">JEP 411</a> for

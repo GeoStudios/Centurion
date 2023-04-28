@@ -10,6 +10,10 @@ import jdk.internal.io.JdkConsole;
 /**
  * Console implementation for internal use. Custom Console delegate may be
  * provided with jdk.internal.io.JdkConsoleProvider.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class ProxyingConsole extends Console {
     private final JdkConsole delegate;

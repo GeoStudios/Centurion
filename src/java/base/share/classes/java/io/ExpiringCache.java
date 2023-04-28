@@ -8,6 +8,12 @@ import java.util.Map;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
+ */
+
 final class ExpiringCache {
 
     private static final int QUERY_OVERFLOW = 300;

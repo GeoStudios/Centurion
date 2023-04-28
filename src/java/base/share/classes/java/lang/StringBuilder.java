@@ -62,10 +62,11 @@ import java.io.StreamCorruptedException;
  * See {@link Comparable}, {@link java.util.SortedMap SortedMap}, or
  * {@link java.util.SortedSet SortedSet} for more information.
  *
- * @author      Michael McCloskey
  * @see         java.lang.StringBuffer
  * @see         java.lang.String
- * @since       1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public final class StringBuilder
     extends AbstractStringBuilder

@@ -6,7 +6,8 @@
  * Provides library support for the Java programming language
  * annotation facility.
  *
- * @author Josh Bloch
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 package java.lang.annotation;

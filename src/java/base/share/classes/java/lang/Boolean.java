@@ -33,8 +33,9 @@ import static java.lang.constant.ConstantDescs.CD_Boolean;
  * use instances for synchronization, or unpredictable behavior may
  * occur. For example, in a future release, synchronization may fail.
  *
- * @author  Arthur van Hoff
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @jdk.internal.ValueBased
 public final class Boolean implements java.io.Serializable,

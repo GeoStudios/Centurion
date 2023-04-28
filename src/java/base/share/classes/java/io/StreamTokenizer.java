@@ -35,10 +35,11 @@ import java.util.Arrays;
  * {@code nextToken} method in each iteration of the loop until
  * it returns the value {@code TT_EOF}.
  *
- * @author  James Gosling
  * @see     java.io.StreamTokenizer#nextToken()
  * @see     java.io.StreamTokenizer#TT_EOF
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class StreamTokenizer {

@@ -17,8 +17,9 @@ package java.lang.annotation;
  * compatibility concerns when evolving an annotation interface from being
  * non-repeatable to being repeatable.
  *
- * @author  Josh Bloch
- * @since   1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public interface Annotation {
     /**

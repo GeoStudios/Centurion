@@ -30,7 +30,9 @@ import static java.util.stream.Collectors.joining;
  *
  * @see ConstantDescs
  *
- * @since 12
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public sealed interface ClassDesc
         extends ConstantDesc,

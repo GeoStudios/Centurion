@@ -75,7 +75,9 @@ import java.lang.annotation.*;
  *
  * @see Serializable
  * @see Externalizable
- * @since 14
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Target({ElementType.METHOD, ElementType.FIELD})
 @Retention(RetentionPolicy.SOURCE)

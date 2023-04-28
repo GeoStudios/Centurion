@@ -24,8 +24,9 @@ package java.lang.annotation;
  * in its output while annotations of annotation interfaces without
  * {@code Documented} will not be displayed.
  *
- * @author  Joshua Bloch
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

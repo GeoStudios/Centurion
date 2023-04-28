@@ -15,11 +15,12 @@ package java.io;
  * class description for the format in
  * which modified UTF-8 strings are read and written.
  *
- * @author  Frank Yellin
  * @see     java.io.DataInput
  * @see     java.io.DataInputStream#readUTF(java.io.DataInput)
  * @see     java.io.IOException
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class UTFDataFormatException extends IOException {
     @java.io.Serial

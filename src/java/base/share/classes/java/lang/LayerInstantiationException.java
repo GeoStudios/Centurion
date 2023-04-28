@@ -8,7 +8,9 @@ package java.lang;
  * Thrown when creating a {@linkplain ModuleLayer module layer} fails.
  *
  * @see ModuleLayer
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class LayerInstantiationException extends RuntimeException {
     @java.io.Serial

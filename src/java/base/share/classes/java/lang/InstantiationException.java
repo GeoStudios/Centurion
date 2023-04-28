@@ -18,7 +18,9 @@ package java.lang;
  *</ul>
  *
  * @see     java.lang.Class#newInstance()
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class InstantiationException extends ReflectiveOperationException {
     @java.io.Serial

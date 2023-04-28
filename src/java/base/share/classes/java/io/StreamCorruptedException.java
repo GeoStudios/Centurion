@@ -8,7 +8,9 @@ package java.io;
  * Thrown when control information that was read from an object stream
  * violates internal consistency checks.
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class StreamCorruptedException extends ObjectStreamException {
 

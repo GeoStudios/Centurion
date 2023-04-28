@@ -4,8 +4,13 @@
 
 package java.lang;
 
-/** The CharacterData class encapsulates the large tables found in
-    Java.lang.Character. */
+/** 
+ * The CharacterData class encapsulates the large tables found in
+ * Java.lang.Character.
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
 
 class CharacterDataPrivateUse extends CharacterData {
 

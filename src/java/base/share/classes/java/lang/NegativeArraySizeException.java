@@ -7,7 +7,9 @@ package java.lang;
 /**
  * Thrown if an application tries to create an array with negative size.
  *
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class NegativeArraySizeException extends RuntimeException {
     @java.io.Serial

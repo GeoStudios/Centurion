@@ -41,14 +41,14 @@ import static java.util.Objects.requireNonNull;
  *
  * @param <E> The type of the enum subclass
  * @serial exclude
- * @author  Josh Bloch
- * @author  Neal Gafter
  * @see     Class#getEnumConstants()
  * @see     java.util.EnumSet
  * @see     java.util.EnumMap
  * @jls 8.9 Enum Classes
  * @jls 8.9.3 Enum Members
- * @since   1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @SuppressWarnings("serial") // No serialVersionUID needed due to
                             // special-casing of enum classes.

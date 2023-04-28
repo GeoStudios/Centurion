@@ -18,7 +18,9 @@ package java.io;
  *      Specification</cite>
  * </UL>
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class InvalidClassException extends ObjectStreamException {
 

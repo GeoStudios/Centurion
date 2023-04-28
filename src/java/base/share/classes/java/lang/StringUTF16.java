@@ -19,6 +19,12 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
 import static java.lang.String.UTF16;
 import static java.lang.String.LATIN1;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+
 final class StringUTF16 {
 
     public static byte[] newBytesFor(int len) {

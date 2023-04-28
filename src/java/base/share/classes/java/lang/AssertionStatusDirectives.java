@@ -11,8 +11,9 @@ package java.lang;
  * the {@code java} command line flags {@code -enableassertions}
  * ({@code -ea}) and {@code -disableassertions} ({@code -da}).
  *
- * @since  1.4
- * @author Josh Bloch
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 class AssertionStatusDirectives {
     /**

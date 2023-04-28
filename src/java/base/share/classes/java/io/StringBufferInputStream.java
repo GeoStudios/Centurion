@@ -13,10 +13,11 @@ package java.io;
  * Only the low eight bits of each character in the string are used by
  * this class.
  *
- * @author     Arthur van Hoff
  * @see        java.io.ByteArrayInputStream
  * @see        java.io.StringReader
- * @since      1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @deprecated This class does not properly convert characters into bytes.  As
  *             of JDK&nbsp;1.1, the preferred way to create a stream from a
  *             string is via the {@code StringReader} class.

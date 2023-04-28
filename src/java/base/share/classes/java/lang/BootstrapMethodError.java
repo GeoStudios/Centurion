@@ -15,8 +15,9 @@ package java.lang;
  * or for a dynamic constant the bootstrap method has failed to provide a
  * constant value of the required type.
  *
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class BootstrapMethodError extends LinkageError {
     @java.io.Serial

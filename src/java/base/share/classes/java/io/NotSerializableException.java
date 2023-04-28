@@ -9,7 +9,9 @@ package java.io;
  * The serialization runtime or the class of the instance can throw
  * this exception. The argument should be the name of the class.
  *
- * @since   1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 public class NotSerializableException extends ObjectStreamException {
 

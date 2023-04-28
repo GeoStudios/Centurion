@@ -120,7 +120,9 @@ import sun.security.util.SecurityConstants;
  *     Class<?> c = layer.findLoader("myapp").loadClass("app.Main");
  * }
  *
- * @since 9
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @see Module#getLayer()
  */
 

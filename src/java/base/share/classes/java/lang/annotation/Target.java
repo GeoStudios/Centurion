@@ -49,7 +49,9 @@ package java.lang.annotation;
  *    }
  * </pre>
  *
- * @since 1.5
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  * @jls 9.6.4.1 @Target
  * @jls 9.7.4 Where Annotations May Appear
  * @jls 9.7.5 Multiple Annotations of the Same Interface

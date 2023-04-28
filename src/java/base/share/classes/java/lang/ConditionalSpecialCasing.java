@@ -22,6 +22,10 @@ import sun.text.Normalizer;
  * <p>
  * Note that the unconditional case mappings (including 1:M mappings)
  * are handled in {@code Character.toLower/UpperCase()}.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class ConditionalSpecialCasing {
 

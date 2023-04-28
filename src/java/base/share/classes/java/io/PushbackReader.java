@@ -10,8 +10,9 @@ import java.util.Objects;
  * A character-stream reader that allows characters to be pushed back into the
  * stream.
  *
- * @author      Mark Reinhold
- * @since       1.1
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 
 public class PushbackReader extends FilterReader {

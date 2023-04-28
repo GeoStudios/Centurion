@@ -16,6 +16,10 @@ import java.util.Map;
  * A collection of most specific public methods. Methods are added to it using
  * {@link #merge(Method)} method. Only the most specific methods for a
  * particular signature are kept.
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 final class PublicMethods {
 

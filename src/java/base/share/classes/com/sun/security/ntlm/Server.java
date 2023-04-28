@@ -25,6 +25,10 @@ import java.util.Locale;
  * // Send type2 to client and receive type3
  * verify(type3, nonce);
  * </pre>
+ * 
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public abstract class Server extends NTLM {
     private final String domain;

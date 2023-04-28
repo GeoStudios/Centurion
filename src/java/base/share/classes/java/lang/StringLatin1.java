@@ -19,6 +19,12 @@ import static java.lang.String.UTF16;
 import static java.lang.String.checkIndex;
 import static java.lang.String.checkOffset;
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+
 final class StringLatin1 {
 
     public static char charAt(byte[] value, int index) {

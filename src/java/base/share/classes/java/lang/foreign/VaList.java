@@ -80,7 +80,9 @@ import jdk.internal.reflect.Reflection;
  * This class is not thread safe, and all accesses should occur within a single thread
  * (regardless of the scope used to obtain the variable arity list).
  *
- * @since 19
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)
 public sealed interface VaList permits WinVaList, SysVVaList, LinuxAArch64VaList, MacOsAArch64VaList, LinuxRISCV64VaList, SharedUtils.EmptyVaList {

@@ -29,8 +29,9 @@ import jdk.internal.util.ArraysSupport;
  * reread before new bytes are  taken from
  * the contained input stream.
  *
- * @author  Arthur van Hoff
- * @since   1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 23/4/2023
  */
 public class BufferedInputStream extends FilterInputStream {
 

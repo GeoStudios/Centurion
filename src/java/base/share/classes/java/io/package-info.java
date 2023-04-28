@@ -27,6 +27,8 @@
  *   <li>{@extLink serialver_tool_reference The serialver tool}</li>
  * </ul>
  *
- * @since 1.0
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
  */
 package java.io;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.macosx.classes.java.net;
 
 /**
  * Choose a network interface to be the default for
