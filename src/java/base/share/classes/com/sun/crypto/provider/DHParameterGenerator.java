@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.math.BigInteger;
 import java.security.*;
 import java.security.spec.*;
-import javax.crypto.spec.DHParameterSpec;
-import javax.crypto.spec.DHGenParameterSpec;
+import java.base.share.classes.javax.crypto.spec.DHParameterSpec;
+import java.base.share.classes.javax.crypto.spec.DHGenParameterSpec;
 
-import static sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
 
 /**
  * This class generates parameters for the Diffie-Hellman algorithm.

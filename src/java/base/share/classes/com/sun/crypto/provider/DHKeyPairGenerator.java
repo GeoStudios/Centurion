@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.math.BigInteger;
 import java.security.*;
-import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidParameterSpecException;
-import javax.crypto.spec.DHParameterSpec;
-import javax.crypto.spec.DHGenParameterSpec;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.InvalidParameterSpecException;
+import java.base.share.classes.javax.crypto.spec.DHParameterSpec;
+import java.base.share.classes.javax.crypto.spec.DHGenParameterSpec;
 
-import sun.security.provider.ParameterCache;
-import static sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
-import static sun.security.util.SecurityProviderConstants.getDefDHPrivateExpSize;
+import java.base.share.classes.sun.security.provider.ParameterCache;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getDefDHPrivateExpSize;
 
 /**
  * This class represents the key pair generator for Diffie-Hellman key pairs.
