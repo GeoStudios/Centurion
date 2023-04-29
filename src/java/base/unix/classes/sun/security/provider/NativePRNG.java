@@ -9,7 +9,7 @@ import java.net.*;
 import java.security.*;
 import java.util.Arrays;
 
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.Debug;
 
 /**
  * Native PRNG implementation for Linux/MacOS.

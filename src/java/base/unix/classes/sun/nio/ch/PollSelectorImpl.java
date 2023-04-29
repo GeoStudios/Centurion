@@ -15,7 +15,7 @@ import java.util.Deque;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
-import jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Blocker;
 import jdk.internal.misc.Unsafe;
 
 /**

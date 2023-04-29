@@ -5,19 +5,19 @@
 package java.base.unix.classes.sun.nio.ch;
 
 import java.lang.reflect.Constructor;
-import java.io.FileDescriptor;
-import java.io.IOException;
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.IOException;
 import java.net.InetAddress;
 import java.net.Inet6Address;
 import java.net.InetSocketAddress;
-import java.net.ProtocolFamily;
-import java.net.SocketAddress;
-import java.net.UnixDomainSocketAddress;
-import java.nio.channels.Channel;
-import java.nio.channels.spi.SelectorProvider;
-import static java.net.StandardProtocolFamily.INET6;
-import static java.net.StandardProtocolFamily.INET;
-import static java.net.StandardProtocolFamily.UNIX;
+import java.base.share.classes.java.net.ProtocolFamily;
+import java.base.share.classes.java.net.SocketAddress;
+import java.base.share.classes.java.net.UnixDomainSocketAddress;
+import java.base.share.classes.java.nio.channels.Channel;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
+import static java.base.share.classes.java.net.StandardProtocolFamily.INET6;
+import static java.base.share.classes.java.net.StandardProtocolFamily.INET;
+import static java.base.share.classes.java.net.StandardProtocolFamily.UNIX;
 
 /**
  * @since Pre Java 1

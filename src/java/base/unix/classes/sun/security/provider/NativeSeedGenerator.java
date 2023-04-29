@@ -4,7 +4,7 @@
 
 package java.base.unix.classes.sun.security.provider;
 
-import java.io.IOException;
+import java.base.share.classes.java.io.IOException;
 
 /**
  * Native seed generator for Unix systems. Inherit everything from

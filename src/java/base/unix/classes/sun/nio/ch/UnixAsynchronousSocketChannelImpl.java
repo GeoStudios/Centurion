@@ -11,10 +11,10 @@ import java.util.concurrent.*;
 import java.io.IOException;
 import java.io.FileDescriptor;
 
-import sun.net.ConnectionResetException;
+import java.base.share.classes.sun.net.ConnectionResetException;
 import sun.net.NetHooks;
-import sun.net.util.SocketExceptions;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.util.SocketExceptions;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Unix implementation of AsynchronousSocketChannel
