@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.ShortBufferException;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.ShortBufferException;
 
 /**
  * This class represents ciphers in cipher text stealing (CTS) mode.

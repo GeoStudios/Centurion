@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.*;
 import java.security.spec.*;
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import sun.security.util.*;
 import javax.crypto.*;
 import javax.crypto.spec.*;
-import javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 
 /**
  * This class implements the Blowfish algorithm in its various modes

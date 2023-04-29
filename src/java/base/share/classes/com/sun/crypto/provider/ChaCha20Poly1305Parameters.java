@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.io.IOException;
-import java.security.AlgorithmParametersSpi;
-import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidParameterSpecException;
-import javax.crypto.spec.IvParameterSpec;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.security.AlgorithmParametersSpi;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.InvalidParameterSpecException;
+import java.base.share.classes.javax.crypto.spec.IvParameterSpec;
 import sun.security.util.*;
 
 /**

@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
-import java.util.Objects;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.java.util.Objects;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import sun.security.util.ArrayUtil;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.sun.security.util.ArrayUtil;
 
 
 /**

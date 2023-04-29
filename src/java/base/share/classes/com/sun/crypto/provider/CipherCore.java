@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -11,7 +11,7 @@ import java.security.*;
 import java.security.spec.*;
 import javax.crypto.*;
 import javax.crypto.spec.*;
-import javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 
 /**
  * This class represents the symmetric algorithms in its various modes

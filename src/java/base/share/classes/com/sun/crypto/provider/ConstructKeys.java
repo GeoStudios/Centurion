@@ -2,23 +2,23 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import java.security.Key;
-import java.security.PublicKey;
-import java.security.PrivateKey;
-import java.security.KeyFactory;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.KeyFactory;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import java.util.Arrays;
-import javax.crypto.SecretKey;
-import javax.crypto.Cipher;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 
 /**
  * This class is a helper class which construct key objects

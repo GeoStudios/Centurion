@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.lang.ref.Reference;
-import java.security.MessageDigest;
-import java.security.KeyRep;
-import java.security.InvalidKeyException;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.DESKeySpec;
+import java.base.share.classes.java.security.MessageDigest;
+import java.base.share.classes.java.security.KeyRep;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.DESKeySpec;
 
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
 /**
  * This class represents a DES key.
