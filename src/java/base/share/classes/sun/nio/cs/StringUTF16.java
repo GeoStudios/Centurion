@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-import static jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_OFFSET;
-import static jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;
+import static java.base.share.classes.jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_OFFSET;
+import static java.base.share.classes.jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;
 
 /**
  * @since Pre Java 1
@@ -20,5 +20,5 @@ class StringUTF16 {
                               ARRAY_BYTE_BASE_OFFSET + ARRAY_BYTE_INDEX_SCALE * index * 2L);
     }
 
-    private static final jdk.internal.misc.Unsafe unsafe = jdk.internal.misc.Unsafe.getUnsafe();
+    private static final java.base.share.classes.jdk.internal.misc.Unsafe unsafe = java.base.share.classes.jdk.internal.misc.Unsafe.getUnsafe();
 }

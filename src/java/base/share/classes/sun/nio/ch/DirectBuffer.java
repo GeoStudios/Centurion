@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-import jdk.internal.ref.Cleaner;
+import java.base.share.classes.jdk.internal.ref.Cleaner;
 
 
 public interface DirectBuffer {

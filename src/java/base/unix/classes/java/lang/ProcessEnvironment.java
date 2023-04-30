@@ -6,7 +6,7 @@ package java.base.unix.classes.java.lang;
 
 import java.util.*;
 
-import static java.lang.ProcessImpl.JNU_CHARSET;
+import static java.base.unix.classes.java.lang.ProcessImpl.JNU_CHARSET;
 
 /**
  * @since Pre Java 1

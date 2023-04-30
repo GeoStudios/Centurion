@@ -8,8 +8,8 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.net.NetProperties;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /*
  * @since Pre Java 1

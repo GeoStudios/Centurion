@@ -38,14 +38,14 @@ import java.security.cert.X509CRLSelector;
 import javax.security.auth.x500.X500Principal;
 import java.util.Base64;
 
-import sun.security.pkcs12.PKCS12KeyStore;
+import java.base.share.classes.sun.security.pkcs12.PKCS12KeyStore;
 import java.base.share.classes.sun.security.provider.certpath.CertPathConstraintsParameters;
 import java.base.share.classes.sun.security.util.ConstraintsParameters;
 import java.base.share.classes.sun.security.util.ECKeySizeParameterSpec;
 import java.base.share.classes.sun.security.util.KeyUtil;
 import java.base.share.classes.sun.security.util.ObjectIdentifier;
-import sun.security.pkcs10.PKCS10;
-import sun.security.pkcs10.PKCS10Attribute;
+import java.base.share.classes.sun.security.pkcs10.PKCS10;
+import java.base.share.classes.sun.security.pkcs10.PKCS10Attribute;
 import java.base.share.classes.sun.security.provider.X509Factory;
 import java.base.share.classes.sun.security.provider.certpath.ssl.SSLServerCertStore;
 import java.base.share.classes.sun.security.util.KnownOIDs;

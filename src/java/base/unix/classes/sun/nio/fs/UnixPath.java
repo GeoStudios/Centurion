@@ -18,10 +18,10 @@ import java.nio.file.WatchService;
 import java.nio.file.spi.FileSystemProvider;
 import java.util.Objects;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import static java.base..classes.java.base.unix.classes.sun.nio.fs.UnixConstants.*;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
 
 /**

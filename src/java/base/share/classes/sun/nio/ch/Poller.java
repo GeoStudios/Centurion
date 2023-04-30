@@ -12,10 +12,10 @@ import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.locks.LockSupport;
 import java.util.function.BooleanSupplier;
 import java.util.stream.Stream;
-import jdk.internal.misc.InnocuousThread;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Polls file descriptors. Virtual threads invoke the poll method to park

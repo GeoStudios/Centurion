@@ -4,10 +4,10 @@
 package java.base.share.classes.jdk.internal.vm;
 
 import java.util.concurrent.Callable;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.StructureViolationExceptions;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.StructureViolationExceptions;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
 import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 

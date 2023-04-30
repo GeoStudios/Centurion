@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.sun.net;
 
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 import java.io.*;
 import java.security.AccessController;

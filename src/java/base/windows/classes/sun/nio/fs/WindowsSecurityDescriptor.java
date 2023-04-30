@@ -8,7 +8,7 @@ import java.nio.file.ProviderMismatchException;
 import java.nio.file.attribute.*;
 import java.util.*;
 import java.io.IOException;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;

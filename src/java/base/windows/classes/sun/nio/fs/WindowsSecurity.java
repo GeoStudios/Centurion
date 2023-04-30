@@ -4,8 +4,8 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-import jdk.internal.misc.PreviewFeatures;
-import jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.misc.PreviewFeatures;
+import java.base.share.classes.jdk.internal.vm.Continuation;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;

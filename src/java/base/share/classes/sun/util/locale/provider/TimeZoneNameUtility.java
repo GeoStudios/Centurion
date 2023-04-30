@@ -14,9 +14,9 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.spi.TimeZoneNameProvider;
-import sun.util.calendar.ZoneInfo;
-import sun.util.cldr.CLDRLocaleProviderAdapter;
-import static sun.util.locale.provider.LocaleProviderAdapter.Type;
+import java.base.share.classes.sun.util.calendar.ZoneInfo;
+import java.base.share.classes.sun.util.cldr.CLDRLocaleProviderAdapter;
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;
 
 /**
  * Utility class that deals with the localized time zone names

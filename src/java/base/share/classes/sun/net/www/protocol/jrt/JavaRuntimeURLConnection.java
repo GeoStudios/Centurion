@@ -13,14 +13,14 @@ import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
 
-import jdk.internal.jimage.ImageLocation;
-import jdk.internal.jimage.ImageReader;
-import jdk.internal.jimage.ImageReaderFactory;
+import java.base.share.classes.jdk.internal.jimage.ImageLocation;
+import java.base.share.classes.jdk.internal.jimage.ImageReader;
+import java.base.share.classes.jdk.internal.jimage.ImageReaderFactory;
 
-import jdk.internal.loader.URLClassPath;
-import jdk.internal.loader.Resource;
-import sun.net.www.ParseUtil;
-import sun.net.www.URLConnection;
+import java.base.share.classes.jdk.internal.loader.URLClassPath;
+import java.base.share.classes.jdk.internal.loader.Resource;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.URLConnection;
 
 /**
  * URLConnection implementation that can be used to connect to resources

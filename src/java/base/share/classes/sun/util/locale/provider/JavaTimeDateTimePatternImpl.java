@@ -9,7 +9,7 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
 
 /**
  * Concrete implementation of the {@link sun.text.spi.JavaTimeDateTimePatternProvider

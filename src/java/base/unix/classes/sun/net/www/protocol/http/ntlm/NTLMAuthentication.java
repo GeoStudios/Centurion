@@ -4,8 +4,8 @@
 
 package java.base.unix.classes.sun.net.www.protocol.http.ntlm;
 
-import com.sun.security.ntlm.Client;
-import com.sun.security.ntlm.NTLMException;
+import java.base.share.classes.com.sun.security.ntlm.Client;
+import java.base.share.classes.com.sun.security.ntlm.NTLMException;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.PasswordAuthentication;
@@ -16,11 +16,11 @@ import java.util.Base64;
 import java.util.Objects;
 import java.util.Properties;
 
-import sun.net.www.HeaderParser;
-import sun.net.www.protocol.http.AuthenticationInfo;
-import sun.net.www.protocol.http.AuthScheme;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.net.www.protocol.http.AuthenticationInfo;
+import java.base.share.classes.sun.net.www.protocol.http.AuthScheme;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * NTLMAuthentication:

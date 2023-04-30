@@ -7,8 +7,8 @@ package java.base.share.classes.sun.security.validator;
 import java.util.*;
 
 import java.security.cert.*;
-import sun.security.util.KnownOIDs;
-import sun.security.x509.NetscapeCertTypeExtension;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.x509.NetscapeCertTypeExtension;
 
 /**
  * Class to check if an end entity cert is suitable for use in some

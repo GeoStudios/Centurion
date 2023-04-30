@@ -29,11 +29,11 @@ import java.util.Random;
 import java.util.Set;
 import java.util.function.BiConsumer;
 
-import sun.net.NetProperties;
-import sun.net.www.HeaderParser;
-import sun.nio.cs.ISO_8859_1;
-import sun.security.util.KnownOIDs;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;
 

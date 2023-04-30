@@ -5,7 +5,7 @@
 package java.base.share.classes.sun.nio.ch;                                    // Formerly in sun.misc
 
 import java.nio.ByteOrder;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 
 // ## In the fullness of time, this class will be eliminated

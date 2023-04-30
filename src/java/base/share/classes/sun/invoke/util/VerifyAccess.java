@@ -6,7 +6,7 @@ package java.base.share.classes.sun.invoke.util;
 
 import java.lang.reflect.Modifier;
 import static java.lang.reflect.Modifier.*;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 /**
  * This class centralizes information about the JVM's linkage access control.

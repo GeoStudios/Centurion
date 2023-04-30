@@ -9,8 +9,8 @@ import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Set;
 
-import sun.net.www.*;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * This class is used to parse the information in WWW-Authenticate: and Proxy-Authenticate:

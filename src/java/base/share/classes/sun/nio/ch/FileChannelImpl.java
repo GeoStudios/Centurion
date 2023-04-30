@@ -7,8 +7,8 @@ package java.base.share.classes.sun.nio.ch;
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.UncheckedIOException;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.lang.ref.Cleaner.Cleanable;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
@@ -25,20 +25,20 @@ import java.nio.channels.SelectableChannel;
 import java.nio.channels.WritableByteChannel;
 import java.util.Objects;
 
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.MappedMemorySegmentImpl;
-import jdk.internal.foreign.MemorySessionImpl;
-import jdk.internal.misc.Blocker;
-import jdk.internal.misc.ExtendedMapMode;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.misc.VM;
-import jdk.internal.misc.VM.BufferPool;
-import jdk.internal.ref.Cleaner;
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.MappedMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.ExtendedMapMode;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM.BufferPool;
+import java.base.share.classes.jdk.internal.ref.Cleaner;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
-import jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 
 public class FileChannelImpl
     extends FileChannel

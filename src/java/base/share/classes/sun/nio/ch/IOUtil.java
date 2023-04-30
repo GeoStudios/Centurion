@@ -8,9 +8,9 @@ import java.io.FileDescriptor;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Objects;
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
 
 /**
  * File-descriptor based I/O utilities that are shared by NIO classes.

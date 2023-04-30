@@ -17,7 +17,7 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * @since Pre Java 1

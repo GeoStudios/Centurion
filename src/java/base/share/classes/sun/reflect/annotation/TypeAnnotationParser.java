@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.reflect.ConstantPool;
 import static java.base.share.classes.sun.reflect.annotation.TypeAnnotation.*;
 

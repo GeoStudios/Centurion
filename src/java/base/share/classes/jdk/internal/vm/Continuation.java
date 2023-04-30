@@ -4,11 +4,11 @@
 
 package java.base.share.classes.jdk.internal.vm;
 
-import jdk.internal.misc.PreviewFeatures;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.PreviewFeatures;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -17,8 +17,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * A one-shot delimited continuation.

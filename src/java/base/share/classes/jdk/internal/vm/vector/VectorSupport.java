@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.vm.vector;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import java.util.function.*;
 

@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.text.resources;
 
-import sun.util.resources.OpenListResourceBundle;
+import java.base.share.classes.sun.util.resources.OpenListResourceBundle;
 
 /**
  * @since Pre Java 1

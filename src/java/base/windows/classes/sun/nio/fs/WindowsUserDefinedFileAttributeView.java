@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.io.IOException;
 import java.util.*;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;

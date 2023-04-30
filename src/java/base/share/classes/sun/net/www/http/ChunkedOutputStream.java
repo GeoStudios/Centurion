@@ -7,7 +7,7 @@ import java.io.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import sun.nio.cs.US_ASCII;
+import java.base.share.classes.sun.nio.cs.US_ASCII;
 
 /**
  * OutputStream that sends the output to the underlying stream using chunked

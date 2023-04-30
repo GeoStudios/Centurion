@@ -4,8 +4,8 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-import jdk.internal.misc.Blocker;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 

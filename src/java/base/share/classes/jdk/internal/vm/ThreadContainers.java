@@ -10,10 +10,10 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.LongAdder;
 import java.util.stream.Stream;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.nio.ch.Poller;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.ch.Poller;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * This class consists exclusively of static methods to support debugging and

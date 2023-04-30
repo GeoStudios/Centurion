@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/*
+/**
  * An implementation of sun.net.ResolverConfiguration for Windows.
  * 
  * @since Pre Java 1

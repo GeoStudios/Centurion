@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import jdk.internal.misc.Unsafe;
-import sun.net.util.SocketExceptions;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.sun.net.util.SocketExceptions;
 
 /**
  * Windows implementation of AsynchronousSocketChannel using overlapped I/O.

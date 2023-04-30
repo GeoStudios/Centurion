@@ -5,7 +5,7 @@
 package java.base.windows.classes.sun.nio.ch;
 
 import java.io.IOException;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * Provides access to wepoll.

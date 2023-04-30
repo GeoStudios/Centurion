@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.invoke.util;
 
-import jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
 
 public enum Wrapper {
     //        wrapperType      simple     primitiveType  simple     char  emptyArray     format

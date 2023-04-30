@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.jdk.internal.vm;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
 import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 

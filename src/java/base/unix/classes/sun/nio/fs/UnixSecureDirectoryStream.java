@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 import java.io.IOException;
 
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import static java.base..classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Unix implementation of SecureDirectoryStream.

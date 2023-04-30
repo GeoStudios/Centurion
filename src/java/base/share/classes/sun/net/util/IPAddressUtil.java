@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.net.util;
 
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 import java.io.UncheckedIOException;
 import java.net.Inet6Address;

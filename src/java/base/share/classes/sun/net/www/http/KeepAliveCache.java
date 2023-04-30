@@ -17,10 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
-import jdk.internal.misc.InnocuousThread;
-import sun.security.action.GetIntegerAction;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * A class that implements a cache of idle Http connections for keep-alive

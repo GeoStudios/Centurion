@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
-import sun.reflect.generics.tree.FieldTypeSignature;
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 
 import java.lang.reflect.MalformedParameterizedTypeException;
 import java.lang.reflect.Method;

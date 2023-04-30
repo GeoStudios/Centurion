@@ -10,7 +10,7 @@ import java.util.GregorianCalendar;
 import java.util.Locale;
 import java.util.Map;
 import java.util.TimeZone;
-import sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
 
 /**
  * @since Pre Java 1

@@ -17,9 +17,9 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Consumer;
-import jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Blocker;
 
-import static sun.nio.ch.WEPoll.*;
+import static java.base.windows.classes.sun.nio.ch.WEPoll.*;
 
 /**
  * Windows wepoll based Selector implementation

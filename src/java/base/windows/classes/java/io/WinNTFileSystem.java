@@ -9,8 +9,8 @@ import java.nio.file.Path;
 import java.util.BitSet;
 import java.util.Locale;
 import java.util.Properties;
-import jdk.internal.misc.Blocker;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Unicode-aware FileSystem for Windows NT/2000.

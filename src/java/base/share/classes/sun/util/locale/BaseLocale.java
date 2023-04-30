@@ -4,9 +4,9 @@
 
 package java.base.share.classes.sun.util.locale;
 
-import jdk.internal.misc.CDS;
-import jdk.internal.util.StaticProperty;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 import java.lang.ref.SoftReference;
 import java.util.StringJoiner;

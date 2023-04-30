@@ -16,9 +16,9 @@ import java.util.List;
 import java.util.Optional;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLPeerUnverifiedException;
-import sun.net.www.http.*;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.net.www.protocol.http.HttpCallerInfo;
+import java.base.share.classes.sun.net.www.http.*;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
 
 /**
  * HTTPS URL connection support.

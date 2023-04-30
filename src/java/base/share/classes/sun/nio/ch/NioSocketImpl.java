@@ -30,15 +30,15 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.CleanerFactory;
-import sun.net.ConnectionResetException;
-import sun.net.NetHooks;
-import sun.net.PlatformSocketImpl;
-import sun.net.ResourceManager;
-import sun.net.ext.ExtendedSocketOptions;
-import sun.net.util.SocketExceptions;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.sun.net.ConnectionResetException;
+import java.base.windows.classes.sun.net.NetHooks;
+import java.base.share.classes.sun.net.PlatformSocketImpl;
+import java.base.share.classes.sun.net.ResourceManager;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
+import java.base.share.classes.sun.net.util.SocketExceptions;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;

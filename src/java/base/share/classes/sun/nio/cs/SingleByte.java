@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
@@ -15,7 +15,7 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.util.Arrays;
-import static sun.nio.cs.CharsetMapping.*;
+import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;
 
 /**
  * @since Pre Java 1

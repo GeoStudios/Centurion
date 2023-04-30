@@ -28,8 +28,8 @@ import java.util.SimpleTimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.zip.CRC32;
 
-import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Loads TZDB time-zone rules for j.u.TimeZone

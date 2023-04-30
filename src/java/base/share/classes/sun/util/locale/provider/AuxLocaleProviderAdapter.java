@@ -24,8 +24,8 @@ import java.util.spi.CurrencyNameProvider;
 import java.util.spi.LocaleNameProvider;
 import java.util.spi.LocaleServiceProvider;
 import java.util.spi.TimeZoneNameProvider;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.spi.CalendarProvider;
+import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.share.classes.sun.util.spi.CalendarProvider;
 
 /**
  * An abstract parent class for the

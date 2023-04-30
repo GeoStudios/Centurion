@@ -5,7 +5,7 @@
 package java.base.share.classes.sun.text.resources;
 
 import java.util.ResourceBundle;
-import sun.util.resources.BreakIteratorResourceBundle;
+import java.base.share.classes.sun.util.resources.BreakIteratorResourceBundle;
 
 /**
  * @since Pre Java 1

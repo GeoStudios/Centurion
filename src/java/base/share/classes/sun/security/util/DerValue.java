@@ -6,8 +6,8 @@ package java.base.share.classes.sun.security.util;
 
 import java.base.share.classes.jdk.internal.util.ArraysSupport;
 import java.base.share.classes.sun.nio.cs.UTF_32BE;
-import sun.util.calendar.CalendarDate;
-import sun.util.calendar.CalendarSystem;
+import java.base.share.classes.sun.util.calendar.CalendarDate;
+import java.base.share.classes.sun.util.calendar.CalendarSystem;
 
 import java.io.*;
 import java.math.BigInteger;

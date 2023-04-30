@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.util.concurrent.ExecutionException;
 
 /**

@@ -5,7 +5,7 @@ package java.base.share.classes.sun.nio.ch;
 
 import java.io.IOException;
 import java.util.ServiceConfigurationError;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 abstract class PollerProvider {
     PollerProvider() { }

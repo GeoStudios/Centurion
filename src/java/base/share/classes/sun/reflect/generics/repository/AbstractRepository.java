@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.reflect.generics.repository;
 
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.tree.Tree;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.tree.Tree;
 import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
 
 

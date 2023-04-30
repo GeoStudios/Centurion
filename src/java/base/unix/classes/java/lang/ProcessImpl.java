@@ -27,10 +27,10 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * java.lang.Process subclass in the UNIX environment.

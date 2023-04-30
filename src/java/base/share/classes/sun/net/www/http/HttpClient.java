@@ -12,16 +12,16 @@ import java.util.OptionalInt;
 import java.util.Properties;
 import java.util.concurrent.locks.ReentrantLock;
 
-import sun.net.NetworkClient;
-import sun.net.www.MessageHeader;
-import sun.net.www.HeaderParser;
-import sun.net.www.MeteredStream;
-import sun.net.www.ParseUtil;
-import sun.net.www.protocol.http.AuthenticatorKeys;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.util.logging.PlatformLogger;
-import static sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.NetworkClient;
+import java.base.share.classes.sun.net.www.MessageHeader;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.net.www.MeteredStream;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.protocol.http.AuthenticatorKeys;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * @author Herb Jellinek

@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.security.util.math.intpoly;
 
-import sun.security.util.math.*;
+import java.base.share.classes.sun.security.util.math.*;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

@@ -12,9 +12,9 @@ import java.net.URI;
 import java.util.concurrent.ExecutorService;
 import java.io.*;
 import java.util.*;
-import jdk.internal.util.StaticProperty;
-import sun.nio.ch.ThreadPool;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.nio.ch.ThreadPool;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsSecurity.*;

@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Objects;
 
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
 
 /**

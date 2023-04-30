@@ -18,8 +18,8 @@ import java.util.Objects;
 import java.util.Collections;
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
-import sun.net.NetHooks;
-import sun.net.ext.ExtendedSocketOptions;
+import java.base.windows.classes.sun.net.NetHooks;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
 
 /**
  * Base implementation of AsynchronousSocketChannel

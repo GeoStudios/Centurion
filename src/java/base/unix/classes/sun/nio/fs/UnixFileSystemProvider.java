@@ -37,11 +37,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 
-import jdk.internal.util.StaticProperty;
-import sun.nio.ch.ThreadPool;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.nio.ch.ThreadPool;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import static java.base..classes.java.base.unix.classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Base implementation of FileSystemProvider

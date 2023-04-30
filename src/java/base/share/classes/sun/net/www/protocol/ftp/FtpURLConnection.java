@@ -27,16 +27,16 @@ import java.util.List;
 import java.util.StringTokenizer;
 import java.security.Permission;
 import java.util.Properties;
-import sun.net.NetworkClient;
-import sun.net.util.IPAddressUtil;
-import sun.net.www.MessageHeader;
-import sun.net.www.MeteredStream;
-import sun.net.www.URLConnection;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.net.ftp.FtpClient;
-import sun.net.ftp.FtpProtocolException;
-import sun.net.www.ParseUtil;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.NetworkClient;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.www.MessageHeader;
+import java.base.share.classes.sun.net.www.MeteredStream;
+import java.base.share.classes.sun.net.www.URLConnection;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.net.ftp.FtpClient;
+import java.base.share.classes.sun.net.ftp.FtpProtocolException;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 
 /**

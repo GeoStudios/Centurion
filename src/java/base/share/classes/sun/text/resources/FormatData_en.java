@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.text.resources;
 
-import sun.util.resources.ParallelListResourceBundle;
+import java.base.share.classes.sun.util.resources.ParallelListResourceBundle;
 
 /**
  * @since Pre Java 1

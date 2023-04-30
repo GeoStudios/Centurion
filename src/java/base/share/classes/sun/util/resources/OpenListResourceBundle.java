@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.Set;
-import sun.util.ResourceBundleEnumeration;
+import java.base.share.classes.sun.util.ResourceBundleEnumeration;
 
 /**
  * Subclass of <code>ResourceBundle</code> which mimics

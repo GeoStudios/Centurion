@@ -12,16 +12,16 @@ import java.security.cert.*;
 
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.x509.X509CertImpl;
-import sun.security.x509.KeyIdentifier;
-import sun.security.x509.NetscapeCertTypeExtension;
-import sun.security.util.DerValue;
-import sun.security.util.DerInputStream;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.KeyIdentifier;
+import java.base.share.classes.sun.security.x509.NetscapeCertTypeExtension;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerInputStream;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.util.KnownOIDs;
 
-import sun.security.provider.certpath.AlgorithmChecker;
-import sun.security.provider.certpath.UntrustedChecker;
+import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
+import java.base.share.classes.sun.security.provider.certpath.UntrustedChecker;
 
 /**
  * A simple validator implementation. It is based on code from the JSSE

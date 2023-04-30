@@ -11,8 +11,8 @@ import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.util.jar.Attributes;
 
-import jdk.internal.misc.VM;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /*
  * Support class used by JVMCI, JVMTI and VM attach mechanism.

@@ -6,7 +6,7 @@ package java.base.share.classes.sun.net.www.http;
 
 import java.io.IOException;
 import java.util.LinkedList;
-import sun.net.NetProperties;
+import java.base.share.classes.sun.net.NetProperties;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.concurrent.TimeUnit;

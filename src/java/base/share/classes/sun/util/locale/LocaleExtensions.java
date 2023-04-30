@@ -13,8 +13,8 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import sun.util.locale.InternalLocaleBuilder.CaseInsensitiveChar;
-import sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString;
+import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveChar;
+import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString;
 
 /**
  * @since Pre Java 1

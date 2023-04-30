@@ -7,8 +7,8 @@ package java.base.share.classes.sun.nio.ch;
 import java.nio.channels.*;
 import java.util.concurrent.*;
 import java.security.AccessController;
-import sun.security.action.GetIntegerAction;
-import jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
 
 /**
  * Defines static methods to invoke a completion handler or arbitrary task.

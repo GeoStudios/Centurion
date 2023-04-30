@@ -5,8 +5,8 @@
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
 import java.lang.reflect.Type;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.tree.FieldTypeSignature;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
 
 /**

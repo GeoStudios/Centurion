@@ -14,10 +14,10 @@ import java.net.StandardProtocolFamily;
 import java.net.UnknownHostException;
 import java.nio.channels.UnsupportedAddressTypeException;
 
-import jdk.internal.access.JavaNetInetAddressAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.access.JavaNetInetAddressAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * A native socket address that is the union of struct sockaddr, struct sockaddr_in,

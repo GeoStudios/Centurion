@@ -10,9 +10,9 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
-import jdk.internal.misc.VM;
-import sun.nio.cs.Surrogate;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.sun.nio.cs.Surrogate;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * @since Pre Java 1

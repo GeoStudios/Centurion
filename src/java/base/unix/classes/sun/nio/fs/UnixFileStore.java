@@ -4,9 +4,9 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 import java.nio.file.*;
 import java.nio.file.attribute.*;

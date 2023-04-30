@@ -10,8 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
-import jdk.internal.logger.LazyLoggers;
-import jdk.internal.logger.LoggerWrapper;
+import java.base.share.classes.jdk.internal.logger.LazyLoggers;
+import java.base.share.classes.jdk.internal.logger.LoggerWrapper;
 
 /**
  * Platform logger provides an API for the JRE components to log

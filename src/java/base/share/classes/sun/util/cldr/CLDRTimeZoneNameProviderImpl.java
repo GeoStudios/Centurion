@@ -4,7 +4,7 @@
 
 package java.base.share.classes.sun.util.cldr;
 
-import static sun.util.locale.provider.LocaleProviderAdapter.Type;
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;
 
 import java.text.MessageFormat;
 import java.util.Arrays;
@@ -13,11 +13,11 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.Set;
 import java.util.TimeZone;
-import sun.util.calendar.ZoneInfoFile;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
-import sun.util.locale.provider.TimeZoneNameProviderImpl;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.util.calendar.ZoneInfoFile;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameProviderImpl;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * Concrete implementation of the

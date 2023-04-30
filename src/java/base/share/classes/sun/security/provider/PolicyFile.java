@@ -20,15 +20,15 @@ import javax.security.auth.x500.X500Principal;
 import java.net.SocketPermission;
 import java.net.NetPermission;
 import java.util.concurrent.ConcurrentHashMap;
-import jdk.internal.access.JavaSecurityAccess;
+import java.base.share.classes.jdk.internal.access.JavaSecurityAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.util.StaticProperty;
-import sun.nio.fs.DefaultFileSystemProvider;
+import java.base.windows.classes.sun.nio.fs.DefaultFileSystemProvider;
 import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.net.www.ParseUtil;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
-import static jdk.internal.access.JavaSecurityAccess.ProtectionDomainCache;
+import static java.base.share.classes.jdk.internal.access.JavaSecurityAccess.ProtectionDomainCache;
 
 /**
  * This class represents a default Policy implementation for the

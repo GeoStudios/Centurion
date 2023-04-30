@@ -9,14 +9,14 @@ import java.nio.channels.*;
 import java.io.FileDescriptor;
 import java.util.Set;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import sun.nio.ch.FileChannelImpl;
-import sun.nio.ch.ThreadPool;
-import sun.nio.ch.SimpleAsynchronousFileChannelImpl;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.sun.nio.ch.ThreadPool;
+import java.base.share.classes.sun.nio.ch.SimpleAsynchronousFileChannelImpl;
 
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import static java.base..classes.java.base.unix.classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Factory for FileChannels and AsynchronousFileChannels

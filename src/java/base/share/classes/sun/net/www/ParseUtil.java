@@ -18,7 +18,7 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.util.HexFormat;
 
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
 /**
  * A class that contains useful routines common to java.base.share.classes.sun.net.www

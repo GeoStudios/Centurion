@@ -35,7 +35,7 @@ import java.security.PrivilegedExceptionAction;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantLock;
-import jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Blocker;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 

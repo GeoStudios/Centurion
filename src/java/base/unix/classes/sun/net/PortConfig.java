@@ -4,7 +4,7 @@
 
 package java.base.unix.classes.sun.net;
 
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Determines the ephemeral port range in use on this system.
@@ -24,7 +24,7 @@ public final class PortConfig {
     private PortConfig() {}
 
     static {
-        jdk.internal.loader.BootLoader.loadLibrary("net");
+    	java.base.share.classes.jdk.internal.loader.BootLoader.loadLibrary("net");
         String os = GetPropertyAction.privilegedGetProperty("os.name");
         if (os.startsWith("Linux")) {
             defaultLower = 32768;

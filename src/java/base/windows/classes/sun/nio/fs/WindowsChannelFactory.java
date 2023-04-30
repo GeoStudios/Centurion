@@ -13,10 +13,10 @@ import java.nio.file.OpenOption;
 import java.nio.file.StandardOpenOption;
 import java.util.Set;
 
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.nio.ch.FileChannelImpl;
-import sun.nio.ch.ThreadPool;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.sun.nio.ch.ThreadPool;
 import java.base.windows.classes.sun.nio.ch.WindowsAsynchronousFileChannelImpl;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;

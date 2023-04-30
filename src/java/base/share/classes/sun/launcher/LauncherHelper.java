@@ -56,11 +56,11 @@ import java.util.jar.Manifest;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import jdk.internal.misc.VM;
-import jdk.internal.module.ModuleBootstrap;
-import jdk.internal.module.Modules;
-import jdk.internal.platform.Container;
-import jdk.internal.platform.Metrics;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ModuleBootstrap;
+import java.base.share.classes.jdk.internal.module.Modules;
+import java.base.share.classes.jdk.internal.platform.Container;
+import java.base.share.classes.jdk.internal.platform.Metrics;
 
 /**
  * A utility package for the java(1), javaw(1) launchers.

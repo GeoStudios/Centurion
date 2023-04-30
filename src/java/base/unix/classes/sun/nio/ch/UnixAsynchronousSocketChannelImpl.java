@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.FileDescriptor;
 
 import java.base.share.classes.sun.net.ConnectionResetException;
-import sun.net.NetHooks;
+import java.base.unix.classes.sun.net.NetHooks;
 import java.base.share.classes.sun.net.util.SocketExceptions;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 

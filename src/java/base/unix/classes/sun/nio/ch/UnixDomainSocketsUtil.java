@@ -7,8 +7,8 @@ package java.base.unix.classes.sun.nio.ch;
 import java.nio.charset.Charset;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.net.NetProperties;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * Platform specific utility functions

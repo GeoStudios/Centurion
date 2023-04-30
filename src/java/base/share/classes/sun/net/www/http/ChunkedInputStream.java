@@ -5,8 +5,8 @@ package java.base.share.classes.sun.net.www.http;
 
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
-import sun.net.www.*;
-import sun.nio.cs.US_ASCII;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.nio.cs.US_ASCII;
 
 /**
  * A <code>ChunkedInputStream</code> provides a stream for reading a body of

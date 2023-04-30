@@ -10,11 +10,10 @@ import java.net.SocketPermission;
 import java.io.*;
 import java.security.Permission;
 
-import jdk.internal.util.StaticProperty;
-import sun.net.www.*;
-import sun.net.smtp.SmtpClient;
-import sun.net.www.ParseUtil;
-
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.net.smtp.SmtpClient;
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 /**
  * Handle mailto URLs. To send mail using a mailto URLConnection,

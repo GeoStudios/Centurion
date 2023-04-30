@@ -12,9 +12,9 @@ import java.util.*;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
-import sun.security.action.GetBooleanAction;
-import sun.security.util.*;
-import sun.security.pkcs.PKCS9Attribute;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
 
 
 /**

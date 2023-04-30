@@ -32,8 +32,8 @@ import java.util.spi.CalendarDataProvider;
 import java.util.spi.CalendarNameProvider;
 import java.util.spi.CurrencyNameProvider;
 import java.util.spi.LocaleNameProvider;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.spi.CalendarProvider;
+import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.share.classes.sun.util.spi.CalendarProvider;
 
 /**
  * LocaleProviderdapter implementation for the Windows locale data.

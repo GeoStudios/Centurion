@@ -34,8 +34,8 @@ import static java.net.StandardProtocolFamily.INET;
 import static java.net.StandardProtocolFamily.INET6;
 import static java.net.StandardProtocolFamily.UNIX;
 
-import sun.net.NetHooks;
-import sun.net.ext.ExtendedSocketOptions;
+import java.base.windows.classes.sun.net.NetHooks;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
 
 /**
  * An implementation of ServerSocketChannels

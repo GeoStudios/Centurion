@@ -50,12 +50,12 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Consumer;
 
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.CleanerFactory;
-import sun.net.ResourceManager;
-import sun.net.ext.ExtendedSocketOptions;
-import sun.net.util.IPAddressUtil;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.sun.net.ResourceManager;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
 
 /**
  * An implementation of DatagramChannels.

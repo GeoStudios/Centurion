@@ -14,7 +14,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Function;
 
-import sun.net.www.HeaderParser;
+import java.base.share.classes.sun.net.www.HeaderParser;
 
 
 /**

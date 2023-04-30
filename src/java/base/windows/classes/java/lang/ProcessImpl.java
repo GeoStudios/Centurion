@@ -23,11 +23,11 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.CleanerFactory;
-import jdk.internal.misc.Blocker;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /* This class is for the exclusive use of ProcessBuilder.start() to
  * create new processes.

@@ -7,7 +7,7 @@ import java.net.URL;
 import java.net.PasswordAuthentication;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * Proxy class for loading NTLMAuthentication, so as to remove static

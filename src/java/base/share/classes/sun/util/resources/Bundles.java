@@ -20,8 +20,8 @@ import java.util.ServiceLoader;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.spi.ResourceBundleProvider;
-import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaUtilResourceBundleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * @since Pre Java 1

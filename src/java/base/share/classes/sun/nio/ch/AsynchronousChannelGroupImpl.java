@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.security.PrivilegedAction;
 import java.security.AccessController;
 import java.security.AccessControlContext;
-import sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
 
 /**
  * Base implementation of AsynchronousChannelGroup
@@ -29,7 +29,7 @@ abstract class AsynchronousChannelGroupImpl
     // thread pool. Internal threads do not dispatch to completion handlers.
     @SuppressWarnings("removal")
     private static final int internalThreadCount = AccessController.doPrivileged(
-        new GetIntegerAction("sun.nio.ch.internalThreadPoolSize", 1));
+        new GetIntegerAction("java.base.share.classes.sun.nio.ch.internalThreadPoolSize", 1));
 
     // associated thread pool
     private final ThreadPool pool;

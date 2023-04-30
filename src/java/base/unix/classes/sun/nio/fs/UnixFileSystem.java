@@ -30,11 +30,11 @@ import java.util.Objects;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
-import jdk.internal.misc.Blocker;
-import sun.nio.ch.DirectBuffer;
-import sun.nio.ch.IOStatus;
-import sun.security.action.GetPropertyAction;
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.sun.nio.ch.DirectBuffer;
+import java.base.share.classes.sun.nio.ch.IOStatus;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import static java.base.u.classes.java.base.unix.classes.sun.nio.fs.UnixConstants.*;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
 
 /**

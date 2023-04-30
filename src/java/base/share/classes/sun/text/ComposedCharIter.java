@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.text;
 
-import jdk.internal.icu.impl.NormalizerImpl;
-import jdk.internal.icu.text.NormalizerBase;
+import java.base.share.classes.jdk.internal.icu.impl.NormalizerImpl;
+import java.base.share.classes.jdk.internal.icu.text.NormalizerBase;
 
 /**
  * @since Pre Java 1

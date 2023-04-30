@@ -12,8 +12,8 @@ import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
+import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
 
 /**
  * XML non-validating parser engine.

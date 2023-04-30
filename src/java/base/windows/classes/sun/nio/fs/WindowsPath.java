@@ -11,8 +11,8 @@ import java.net.URI;
 import java.util.*;
 import java.lang.ref.WeakReference;
 
-import static sun.nio.fs.WindowsNativeDispatcher.*;
-import static sun.nio.fs.WindowsConstants.*;
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 
 /**
  * Windows implementation of Path

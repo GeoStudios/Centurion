@@ -18,7 +18,7 @@ import java.nio.file.spi.FileSystemProvider;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Random;
-import sun.nio.fs.AbstractFileSystemProvider;
+import java.base.share.classes.sun.nio.fs.AbstractFileSystemProvider;
 
 class UnixDomainSockets {
     private UnixDomainSockets() { }

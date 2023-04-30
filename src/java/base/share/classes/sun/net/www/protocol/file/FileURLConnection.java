@@ -15,7 +15,7 @@ import java.net.FileNameMap;
 import java.io.*;
 import java.text.Collator;
 import java.security.Permission;
-import sun.net.www.*;
+import java.base.share.classes.sun.net.www.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
 

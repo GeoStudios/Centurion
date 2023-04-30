@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * Windows implementation of AsynchronousServerSocketChannel using overlapped I/O.

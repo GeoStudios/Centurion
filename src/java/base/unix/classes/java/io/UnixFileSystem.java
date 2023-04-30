@@ -5,9 +5,9 @@
 package java.base.unix.classes.java.io;
 
 import java.util.Properties;
-import jdk.internal.misc.Blocker;
-import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * @since Pre Java 1

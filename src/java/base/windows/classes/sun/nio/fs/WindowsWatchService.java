@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;

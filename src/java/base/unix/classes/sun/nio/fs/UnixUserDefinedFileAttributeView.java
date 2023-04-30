@@ -9,11 +9,11 @@ import java.nio.ByteBuffer;
 import java.io.IOException;
 import java.util.*;
 
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
-import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;
+import static java.base..classes.java.base.unix.classes.sun.nio.fs.UnixConstants.*;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
 
 /**

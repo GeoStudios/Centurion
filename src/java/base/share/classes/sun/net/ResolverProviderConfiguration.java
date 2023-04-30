@@ -4,8 +4,8 @@
 
 package java.base.share.classes.sun.net;
 
-import java.net.spi.InetAddressResolver;
-import java.net.spi.InetAddressResolverProvider;
+import java.base.share.classes.java.net.spi.InetAddressResolver;
+import java.base.share.classes.java.net.spi.InetAddressResolverProvider;
 import java.util.function.Supplier;
 
 public final class ResolverProviderConfiguration implements

@@ -4,7 +4,7 @@
 
 package java.base.unix.classes.sun.net.sdp;
 
-import sun.net.NetHooks;
+import java.base.unix.classes.sun.net.NetHooks;
 import java.net.InetAddress;
 import java.net.Inet4Address;
 import java.net.UnknownHostException;
@@ -14,7 +14,7 @@ import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.PrintStream;
 
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * A NetHooks provider that converts sockets from the TCP to SDP protocol prior

@@ -9,7 +9,7 @@ import java.net.URL;
 import java.net.Proxy;
 import java.net.URLStreamHandler;
 import java.io.IOException;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.ParseUtil;
 import java.io.File;
 
 /**

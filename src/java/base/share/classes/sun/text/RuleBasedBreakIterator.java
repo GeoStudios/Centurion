@@ -10,8 +10,8 @@ import java.text.BreakIterator;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 import java.util.MissingResourceException;
-import sun.text.CompactByteArray;
-import sun.text.SupplementaryCharacterData;
+import java.base.share.classes.sun.text.CompactByteArray;
+import java.base.share.classes.sun.text.SupplementaryCharacterData;
 
 /**
  * <p>A subclass of BreakIterator whose behavior is specified using a list of rules.</p>

@@ -16,7 +16,7 @@ import java.nio.channels.SelectableChannel;
 import java.nio.channels.WritableByteChannel;
 import java.util.Arrays;
 import java.util.Objects;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * An InputStream that reads bytes from a channel.

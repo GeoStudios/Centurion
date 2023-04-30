@@ -15,9 +15,9 @@ import java.util.MissingResourceException;
 import java.util.Objects;
 import java.util.Set;
 
-import jdk.internal.util.regex.Grapheme;
-import sun.text.DictionaryBasedBreakIterator;
-import sun.text.RuleBasedBreakIterator;
+import java.base.share.classes.jdk.internal.util.regex.Grapheme;
+import java.base.share.classes.sun.text.DictionaryBasedBreakIterator;
+import java.base.share.classes.sun.text.RuleBasedBreakIterator;
 
 /**
  * Concrete implementation of the  {@link java.text.spi.BreakIteratorProvider

@@ -17,8 +17,8 @@ import java.util.Collections;
 import java.util.concurrent.Future;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import sun.net.NetHooks;
-import sun.net.ext.ExtendedSocketOptions;
+import java.base.share.classes.sun.net.NetHooks;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
 
 /**
  * Base implementation of AsynchronousServerSocketChannel.

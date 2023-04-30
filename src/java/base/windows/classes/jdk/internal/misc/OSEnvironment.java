@@ -4,7 +4,7 @@
 
 package java.base.windows.classes.jdk.internal.misc;
 
-import sun.io.Win32ErrorMode;
+import java.base.windows.classes.sun.io.Win32ErrorMode;
 
 public class OSEnvironment {
 

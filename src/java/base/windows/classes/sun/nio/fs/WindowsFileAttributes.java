@@ -6,8 +6,8 @@ package java.base.windows.classes.sun.nio.fs;
 
 import java.nio.file.attribute.*;
 import java.util.concurrent.TimeUnit;
-import jdk.internal.misc.Unsafe;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;

@@ -11,10 +11,10 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
-import sun.net.www.HeaderParser;
+import java.base.share.classes.sun.net.www.HeaderParser;
 import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
 import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * NegotiateAuthentication:

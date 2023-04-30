@@ -18,7 +18,7 @@ import java.security.cert.Certificate;
 import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 /* URL jar file is a common JarFile subtype used for JarURLConnection */
 public class URLJarFile extends JarFile {

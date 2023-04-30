@@ -29,9 +29,9 @@ import java.security.PrivilegedAction;
 import java.util.Enumeration;
 import java.util.Objects;
 
-import sun.net.ext.ExtendedSocketOptions;
-import sun.net.util.IPAddressUtil;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 public class Net {
 

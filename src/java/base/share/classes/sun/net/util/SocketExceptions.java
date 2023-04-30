@@ -12,7 +12,7 @@ import java.net.SocketAddress;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
-import sun.security.util.SecurityProperties;
+import java.base.share.classes.sun.security.util.SecurityProperties;
 
 public final class SocketExceptions {
     private SocketExceptions() {}

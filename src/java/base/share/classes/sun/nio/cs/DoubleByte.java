@@ -12,12 +12,12 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.util.Arrays;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.nio.cs.Surrogate;
-import sun.nio.cs.ArrayDecoder;
-import sun.nio.cs.ArrayEncoder;
-import static sun.nio.cs.CharsetMapping.*;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.cs.Surrogate;
+import java.base.share.classes.sun.nio.cs.ArrayDecoder;
+import java.base.share.classes.sun.nio.cs.ArrayEncoder;
+import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;
 
 /**
  * Four types of "DoubleByte" charsets are implemented in this class

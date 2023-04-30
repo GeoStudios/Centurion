@@ -16,7 +16,7 @@ import java.security.Principal;
 import java.util.Map;
 import java.util.List;
 import java.util.Optional;
-import sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
 
 /**
  * A class to represent an HTTP connection to a remote object.

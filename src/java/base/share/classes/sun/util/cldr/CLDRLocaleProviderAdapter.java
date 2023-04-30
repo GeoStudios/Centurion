@@ -22,9 +22,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.spi.CalendarDataProvider;
 import java.util.spi.CalendarNameProvider;
 import java.util.spi.TimeZoneNameProvider;
-import sun.util.locale.provider.JRELocaleProviderAdapter;
-import sun.util.locale.provider.LocaleDataMetaInfo;
-import sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.JRELocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleDataMetaInfo;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
 
 /**
  * LocaleProviderAdapter implementation for the CLDR locale data.

@@ -7,9 +7,9 @@ package java.base.share.classes.sun.net.sdp;
 import java.io.IOException;
 import java.io.FileDescriptor;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 
 /**

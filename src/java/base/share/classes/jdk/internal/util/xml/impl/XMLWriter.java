@@ -12,7 +12,7 @@ import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
-import jdk.internal.util.xml.XMLStreamException;
+import java.base.share.classes.jdk.internal.util.xml.XMLStreamException;
 
 /**
  *

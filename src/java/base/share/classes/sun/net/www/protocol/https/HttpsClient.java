@@ -24,16 +24,16 @@ import java.util.Objects;
 import java.util.StringTokenizer;
 
 import javax.net.ssl.*;
-import sun.net.www.http.HttpClient;
-import sun.net.www.protocol.http.AuthenticatorKeys;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.security.action.*;
+import java.base.share.classes.sun.net.www.http.HttpClient;
+import java.base.share.classes.sun.net.www.protocol.http.AuthenticatorKeys;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.security.action.*;
 
-import sun.security.util.HostnameChecker;
-import sun.security.ssl.SSLSocketImpl;
+import java.base.share.classes.sun.security.util.HostnameChecker;
+import java.base.share.classes.sun.security.ssl.SSLSocketImpl;
 
-import sun.util.logging.PlatformLogger;
-import static sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
 
 
 /**

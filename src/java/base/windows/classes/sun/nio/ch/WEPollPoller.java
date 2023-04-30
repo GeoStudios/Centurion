@@ -5,7 +5,7 @@
 package java.base.windows.classes.sun.nio.ch;
 
 import java.io.IOException;
-import static sun.nio.ch.WEPoll.*;
+import static java.base.windows.classes.sun.nio.ch.WEPoll.*;
 
 /**
  * Poller implementation based on wepoll.

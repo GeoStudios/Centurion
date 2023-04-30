@@ -43,15 +43,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
-import sun.net.ftp.FtpDirEntry;
-import sun.net.ftp.FtpDirParser;
-import sun.net.ftp.FtpProtocolException;
-import sun.net.ftp.FtpReplyCode;
-import sun.net.util.IPAddressUtil;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.net.ftp.FtpDirEntry;
+import java.base.share.classes.sun.net.ftp.FtpDirParser;
+import java.base.share.classes.sun.net.ftp.FtpProtocolException;
+import java.base.share.classes.sun.net.ftp.FtpReplyCode;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 
-public class FtpClient extends sun.net.ftp.FtpClient {
+public class FtpClient extends java.base.share.classes.sun.net.ftp.FtpClient {
 
     private static int defaultSoTimeout;
     private static int defaultConnectTimeout;

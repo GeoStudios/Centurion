@@ -38,10 +38,10 @@ import static java.net.StandardProtocolFamily.INET;
 import static java.net.StandardProtocolFamily.INET6;
 import static java.net.StandardProtocolFamily.UNIX;
 
-import sun.net.ConnectionResetException;
-import sun.net.NetHooks;
-import sun.net.ext.ExtendedSocketOptions;
-import sun.net.util.SocketExceptions;
+import java.base.share.classes.sun.net.ConnectionResetException;
+import java.base.windows.classes.sun.net.NetHooks;
+import java.base.share.classes.sun.net.ext.ExtendedSocketOptions;
+import java.base.share.classes.sun.net.util.SocketExceptions;
 
 /**
  * An implementation of SocketChannels
