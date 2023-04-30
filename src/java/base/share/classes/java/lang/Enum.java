@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
-import java.lang.constant.ClassDesc;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDescs;
-import java.lang.constant.DynamicConstantDesc;
-import java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.util.Optional;
 
 import static java.util.Objects.requireNonNull;
@@ -257,7 +257,7 @@ public abstract class Enum<E extends Enum<E>>
      * enum classes cannot have finalize methods.
      *
      * @deprecated Finalization has been deprecated for removal.  See
-     * {@link java.lang.Object#finalize} for background information and details
+     * {@link java.base.share.classes.java.lang.Object#finalize} for background information and details
      * about migration options.
      */
     @Deprecated(since="18", forRemoval=true)

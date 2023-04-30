@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.perf.PerfCounter;
 import jdk.internal.vm.annotation.DontInline;
@@ -18,9 +18,9 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.HashMap;
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**
  * The symbolic, non-executable form of a method handle's invocation semantics.
@@ -805,7 +805,7 @@ class LambdaForm {
 
     private static PerfCounter failedCompilationCounter() {
         if (LF_FAILED == null) {
-            LF_FAILED = PerfCounter.newPerfCounter("java.lang.invoke.failedLambdaFormCompilations");
+            LF_FAILED = PerfCounter.newPerfCounter("java.base.share.classes.java.lang.invoke.failedLambdaFormCompilations");
         }
         return LF_FAILED;
     }

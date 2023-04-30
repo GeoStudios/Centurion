@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 /**
  * {@code FieldPosition} is a simple class used by {@code Format}
@@ -35,7 +35,7 @@ package java.text;
  *
  * @author      Mark Davis
  * @since 1.1
- * @see         java.text.Format
+ * @see         java.base.share.classes.java.text.Format
  */
 public class FieldPosition {
 
@@ -68,10 +68,10 @@ public class FieldPosition {
      * in the various subclasses of Format.
      *
      * @param field the field identifier
-     * @see java.text.NumberFormat#INTEGER_FIELD
-     * @see java.text.NumberFormat#FRACTION_FIELD
-     * @see java.text.DateFormat#YEAR_FIELD
-     * @see java.text.DateFormat#MONTH_FIELD
+     * @see java.base.share.classes.java.text.NumberFormat#INTEGER_FIELD
+     * @see java.base.share.classes.java.text.NumberFormat#FRACTION_FIELD
+     * @see java.base.share.classes.java.text.DateFormat#YEAR_FIELD
+     * @see java.base.share.classes.java.text.DateFormat#MONTH_FIELD
      */
     public FieldPosition(int field) {
         this.field = field;

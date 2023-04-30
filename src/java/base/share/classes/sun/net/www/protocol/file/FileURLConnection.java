@@ -8,7 +8,7 @@
  * @author      Steven B. Byrne
  */
 
-package sun.net.www.protocol.file;
+package java.base.share.classes.sun.net.www.protocol.file;
 
 import java.net.URL;
 import java.net.FileNameMap;

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal;
+package java.base.share.classes.jdk.internal;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

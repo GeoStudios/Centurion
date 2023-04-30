@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
-import java.nio.file.spi.FileSystemProvider;
+import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
 import java.net.URI;
 import java.io.IOException;
 import java.security.AccessController;
@@ -39,7 +39,7 @@ import sun.nio.fs.DefaultFileSystemProvider;
  * system class loader cannot be found then the platform class loader is used.
  * Providers are typically installed by placing them in a JAR file on the
  * application class path, the JAR file contains a
- * provider-configuration file named {@code java.nio.file.spi.FileSystemProvider}
+ * provider-configuration file named {@code java.base.share.classes.java.nio.file.spi.FileSystemProvider}
  * in the resource directory {@code META-INF/services}, and the file lists one or
  * more fully-qualified names of concrete subclass of {@link FileSystemProvider}
  * that have a zero argument constructor.
@@ -92,9 +92,9 @@ public final class FileSystems {
             // start with the platform's default file system provider
             FileSystemProvider provider = DefaultFileSystemProvider.instance();
 
-            // if the property java.nio.file.spi.DefaultFileSystemProvider is
+            // if the property java.base.share.classes.java.nio.file.spi.DefaultFileSystemProvider is
             // set then its value is the name of the default provider (or a list)
-            String prop = "java.nio.file.spi.DefaultFileSystemProvider";
+            String prop = "java.base.share.classes.java.nio.file.spi.DefaultFileSystemProvider";
             String propValue = System.getProperty(prop);
             if (propValue != null) {
                 for (String cn: propValue.split(",")) {
@@ -128,11 +128,11 @@ public final class FileSystems {
      *
      * <p> The first invocation of any of the methods defined by this class
      * locates the default {@link FileSystemProvider provider} object. Where the
-     * system property {@code java.nio.file.spi.DefaultFileSystemProvider} is
+     * system property {@code java.base.share.classes.java.nio.file.spi.DefaultFileSystemProvider} is
      * not defined then the default provider is a system-default provider that
      * is invoked to create the default file system.
      *
-     * <p> If the system property {@code java.nio.file.spi.DefaultFileSystemProvider}
+     * <p> If the system property {@code java.base.share.classes.java.nio.file.spi.DefaultFileSystemProvider}
      * is defined then it is taken to be a list of one or more fully-qualified
      * names of concrete provider classes identified by the URI scheme
      * {@code "file"}. Where the property is a list of more than one name then

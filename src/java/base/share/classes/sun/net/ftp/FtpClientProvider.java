@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.ftp;
+package java.base.share.classes.sun.net.ftp;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -42,7 +42,7 @@ public abstract class FtpClientProvider {
     }
 
     private static boolean loadProviderFromProperty() {
-        String cm = System.getProperty("sun.net.ftpClientProvider");
+        String cm = System.getProperty("java.base.share.classes.sun.net.ftpClientProvider");
         if (cm == null) {
             return false;
         }
@@ -130,7 +130,7 @@ public abstract class FtpClientProvider {
                             if (loadProviderAsService()) {
                                 return provider;
                             }
-                            provider = new sun.net.ftp.impl.DefaultFtpClientProvider();
+                            provider = new java.base.share.classes.sun.net.ftp.impl.DefaultFtpClientProvider();
                             return provider;
                         }
                     });

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;
@@ -149,7 +149,7 @@ public class ByteArrayOutputStream extends OutputStream {
      * output stream is discarded. The output stream can be used again,
      * reusing the already allocated buffer space.
      *
-     * @see     java.io.ByteArrayInputStream#count
+     * @see     java.base.share.classes.java.io.ByteArrayInputStream#count
      */
     public synchronized void reset() {
         count = 0;
@@ -161,7 +161,7 @@ public class ByteArrayOutputStream extends OutputStream {
      * have been copied into it.
      *
      * @return  the current contents of this output stream, as a byte array.
-     * @see     java.io.ByteArrayOutputStream#size()
+     * @see     java.base.share.classes.java.io.ByteArrayOutputStream#size()
      */
     public synchronized byte[] toByteArray() {
         return Arrays.copyOf(buf, count);
@@ -172,7 +172,7 @@ public class ByteArrayOutputStream extends OutputStream {
      *
      * @return  the value of the {@code count} field, which is the number
      *          of valid bytes in this output stream.
-     * @see     java.io.ByteArrayOutputStream#count
+     * @see     java.base.share.classes.java.io.ByteArrayOutputStream#count
      */
     public synchronized int size() {
         return count;
@@ -274,9 +274,9 @@ public class ByteArrayOutputStream extends OutputStream {
      *
      * @param      hibyte    the high byte of each resulting Unicode character.
      * @return     the current contents of the output stream, as a string.
-     * @see        java.io.ByteArrayOutputStream#size()
-     * @see        java.io.ByteArrayOutputStream#toString(String)
-     * @see        java.io.ByteArrayOutputStream#toString()
+     * @see        java.base.share.classes.java.io.ByteArrayOutputStream#size()
+     * @see        java.base.share.classes.java.io.ByteArrayOutputStream#toString(String)
+     * @see        java.base.share.classes.java.io.ByteArrayOutputStream#toString()
      * @see        Charset#defaultCharset()
      */
     @Deprecated

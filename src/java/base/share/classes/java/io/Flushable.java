@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.io.IOException;
+import java.base.share.classes.java.io.IOException;
 
 /**
  * A {@code Flushable} is a destination of data that can be flushed.  The

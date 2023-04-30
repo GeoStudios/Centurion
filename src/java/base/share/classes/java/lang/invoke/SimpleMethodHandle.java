@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.vm.annotation.Stable;
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**
  * A method handle whose behavior is determined only by its LambdaForm.

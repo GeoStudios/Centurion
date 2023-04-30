@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.LocalTime.MINUTES_PER_HOUR;
-import static java.time.LocalTime.NANOS_PER_MILLI;
-import static java.time.LocalTime.NANOS_PER_SECOND;
-import static java.time.LocalTime.SECONDS_PER_DAY;
-import static java.time.LocalTime.SECONDS_PER_HOUR;
-import static java.time.LocalTime.SECONDS_PER_MINUTE;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.NANOS;
-import static java.time.temporal.ChronoUnit.SECONDS;
+import static java.base.share.classes.java.time.LocalTime.MINUTES_PER_HOUR;
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MILLI;
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_SECOND;
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_DAY;
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_HOUR;
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_MINUTE;
+import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_SECOND;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.NANOS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.SECONDS;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -24,13 +24,13 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -1476,7 +1476,7 @@ public final class Duration
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(1);  // identifies a Duration

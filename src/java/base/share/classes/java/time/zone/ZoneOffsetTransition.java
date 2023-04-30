@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -133,10 +133,10 @@ public final class ZoneOffsetTransition
 
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.zone.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.Ser">dedicated serialized form</a>.
      * @serialData
      * Refer to the serialized form of
-     * <a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneRules">ZoneRules.writeReplace</a>
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneRules">ZoneRules.writeReplace</a>
      * for the encoding of epoch seconds and offsets.
      * <pre style="font-size:1.0em">{@code
      *

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
 /**
  * The constant pool entries, the BootstrapMethods attribute entries and the (ASM specific) type

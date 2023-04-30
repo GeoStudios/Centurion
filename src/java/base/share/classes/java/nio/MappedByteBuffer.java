@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio;
+package java.base.share.classes.java.nio;
 
 import java.io.FileDescriptor;
 import java.io.UncheckedIOException;
@@ -19,7 +19,7 @@ import jdk.internal.misc.Unsafe;
  * A direct byte buffer whose content is a memory-mapped region of a file.
  *
  * <p> Mapped byte buffers are created via the {@link
- * java.nio.channels.FileChannel#map FileChannel.map} method.  This class
+ * java.base.share.classes.java.nio.channels.FileChannel#map FileChannel.map} method.  This class
  * extends the {@link ByteBuffer} class with operations that are specific to
  * memory-mapped file regions.
  *
@@ -126,7 +126,7 @@ public abstract sealed class MappedByteBuffer
      * ExtendedMapModeMapMode#READ_ONLY_SYNC} or {@link
      * jdk.nio.mapmode.ExtendedMapMode#READ_ONLY_SYNC
      * ExtendedMapMode#READ_WRITE_SYNC} in the call to {@link
-     * java.nio.channels.FileChannel#map FileChannel.map} or was
+     * java.base.share.classes.java.nio.channels.FileChannel#map FileChannel.map} or was
      * mapped by passing one of the other map modes.
      *
      * @return true if the file was mapped using one of the sync map
@@ -209,7 +209,7 @@ public abstract sealed class MappedByteBuffer
      * is made.
      *
      * <p> If this buffer was not mapped in read/write mode ({@link
-     * java.nio.channels.FileChannel.MapMode#READ_WRITE}) then
+     * java.base.share.classes.java.nio.channels.FileChannel.MapMode#READ_WRITE}) then
      * invoking this method may have no effect. In particular, the
      * method has no effect for buffers mapped in read-only or private
      * mapping modes. This method may or may not have an effect for
@@ -251,7 +251,7 @@ public abstract sealed class MappedByteBuffer
      * guarantee is made.
      *
      * <p> If this buffer was not mapped in read/write mode ({@link
-     * java.nio.channels.FileChannel.MapMode#READ_WRITE}) then
+     * java.base.share.classes.java.nio.channels.FileChannel.MapMode#READ_WRITE}) then
      * invoking this method may have no effect. In particular, the
      * method has no effect for buffers mapped in read-only or private
      * mapping modes. This method may or may not have an effect for

@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.*;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.random.RandomGenerator;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.random.RandomGenerator;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
 
 import jdk.internal.util.random.RandomSupport.*;
 
@@ -41,14 +41,14 @@ import jdk.internal.misc.Unsafe;
  * <p>
  * Many applications will find the method {@link Math#random} simpler to use.
  *
- * <p>Instances of {@code java.util.Random} are threadsafe.
- * However, the concurrent use of the same {@code java.util.Random}
+ * <p>Instances of {@code java.base.share.classes.java.util.Random} are threadsafe.
+ * However, the concurrent use of the same {@code java.base.share.classes.java.util.Random}
  * instance across threads may encounter contention and consequent
  * poor performance. Consider instead using
- * {@link java.util.concurrent.ThreadLocalRandom} in multithreaded
+ * {@link java.base.share.classes.java.util.concurrent.ThreadLocalRandom} in multithreaded
  * designs.
  *
- * <p>Instances of {@code java.util.Random} are not cryptographically
+ * <p>Instances of {@code java.base.share.classes.java.util.Random} are not cryptographically
  * secure.  Consider instead using {@link java.security.SecureRandom} to
  * get a cryptographically secure pseudo-random number generator for use
  * by security-sensitive applications.
@@ -64,8 +64,8 @@ import jdk.internal.misc.Unsafe;
 public class Random implements RandomGenerator, java.io.Serializable {
 
     /**
-     * Class used to wrap a {@link java.util.random.RandomGenerator} to
-     * {@link java.util.Random}.
+     * Class used to wrap a {@link java.base.share.classes.java.util.random.RandomGenerator} to
+     * {@link java.base.share.classes.java.util.Random}.
      */
 
     @SuppressWarnings("serial")
@@ -100,7 +100,7 @@ public class Random implements RandomGenerator, java.io.Serializable {
         }
 
         /**
-         * setSeed does not exist in {@link java.util.random.RandomGenerator} so can't
+         * setSeed does not exist in {@link java.base.share.classes.java.util.random.RandomGenerator} so can't
          * use it.
          */
         @Override

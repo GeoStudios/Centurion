@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 
 /**
  * A filter for abstract pathnames.
  *
  * <p> Instances of this interface may be passed to the
- * {@link File#listFiles(java.io.FileFilter) listFiles(FileFilter)} method
- * of the {@link java.io.File} class.
+ * {@link File#listFiles(java.base.share.classes.java.io.FileFilter) listFiles(FileFilter)} method
+ * of the {@link java.base.share.classes.java.io.File} class.
  *
  * @since Pre Java 1
  * @author Logan Abernathy

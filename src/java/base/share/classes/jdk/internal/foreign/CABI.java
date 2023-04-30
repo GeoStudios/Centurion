@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign;
+package java.base.share.classes.jdk.internal.foreign;
 
 import static java.lang.foreign.ValueLayout.ADDRESS;
 import static sun.security.action.GetPropertyAction.privilegedGetProperty;

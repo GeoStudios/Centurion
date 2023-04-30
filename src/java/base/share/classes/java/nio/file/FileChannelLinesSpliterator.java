@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 import sun.nio.cs.ISO_8859_1;
 import sun.nio.cs.UTF_8;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
 import java.io.InputStream;
 import java.io.IOException;
@@ -2169,7 +2169,7 @@ public class ModuleDescriptor
          * has not been declared (the exception is when building a module named
          * "{@code java.base}" as it cannot require itself). The dependence on
          * "{@code java.base}" will have the {@link
-         * java.lang.module.ModuleDescriptor.Requires.Modifier#MANDATED MANDATED}
+         * java.base.share.classes.java.lang.module.ModuleDescriptor.Requires.Modifier#MANDATED MANDATED}
          * modifier if the dependence was not declared. </p>
          *
          * @return The module descriptor
@@ -2651,7 +2651,7 @@ public class ModuleDescriptor
     static {
         /**
          * Setup the shared secret to allow code in other packages access
-         * private package methods in java.lang.module.
+         * private package methods in java.base.share.classes.java.lang.module.
          */
         jdk.internal.access.SharedSecrets
             .setJavaLangModuleAccess(new jdk.internal.access.JavaLangModuleAccess() {

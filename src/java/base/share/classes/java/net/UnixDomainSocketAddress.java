@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
-import java.net.SocketAddress;
+import java.base.share.classes.java.net.SocketAddress;
 import java.nio.channels.SocketChannel;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
@@ -69,7 +69,7 @@ public final class UnixDomainSocketAddress extends SocketAddress {
 
     /**
      * Returns a
-     * <a href="{@docRoot}/serialized-form.html#java.net.UnixDomainSocketAddress.Ser">
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.net.UnixDomainSocketAddress.Ser">
      * Ser</a> containing the path name of this instance.
      *
      * @return a {@link Ser} representing the path name of this instance

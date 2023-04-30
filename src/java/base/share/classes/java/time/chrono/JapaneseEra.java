@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
-import static java.time.chrono.JapaneseDate.MEIJI_6_ISODATE;
+import static java.base.share.classes.java.time.chrono.JapaneseDate.MEIJI_6_ISODATE;
 import static java.time.temporal.ChronoField.ERA;
 
 import java.io.DataInput;
@@ -378,7 +378,7 @@ public final class JapaneseEra
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(5);        // identifies a JapaneseEra

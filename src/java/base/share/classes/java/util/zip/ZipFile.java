@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.io.Closeable;
 import java.io.InputStream;
@@ -50,8 +50,8 @@ import sun.nio.cs.UTF_8;
 import sun.nio.fs.DefaultFileSystemProvider;
 import sun.security.util.SignatureFileVerifier;
 
-import static java.util.zip.ZipConstants64.*;
-import static java.util.zip.ZipUtils.*;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;
+import static java.base.share.classes.java.util.zip.ZipUtils.*;
 
 /**
  * This class is used to read entries from a zip file.
@@ -323,8 +323,8 @@ public class ZipFile implements ZipConstants, Closeable {
      * have been returned by invocations of this method.
      *
      * @apiNote The {@code InputStream} returned by this method can wrap an
-     * {@link java.util.zip.InflaterInputStream InflaterInputStream}, whose
-     * {@link java.util.zip.InflaterInputStream#read(byte[], int, int)
+     * {@link java.base.share.classes.java.util.zip.InflaterInputStream InflaterInputStream}, whose
+     * {@link java.base.share.classes.java.util.zip.InflaterInputStream#read(byte[], int, int)
      * read(byte[], int, int)} method can modify any element of the output
      * buffer.
      *

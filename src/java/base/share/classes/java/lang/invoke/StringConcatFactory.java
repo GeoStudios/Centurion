@@ -2,17 +2,17 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.Wrapper;
 
-import java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.util.Objects;
 
-import static java.lang.invoke.MethodType.methodType;
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
 
 /**
  * <p>Methods to facilitate the creation of String concatenation methods, that
@@ -45,9 +45,9 @@ import static java.lang.invoke.MethodType.methodType;
  * </ol>
  *
  * <p> This class provides two forms of linkage methods: a simple version
- * ({@link #makeConcat(java.lang.invoke.MethodHandles.Lookup, String,
+ * ({@link #makeConcat(java.base.share.classes.java.lang.invoke.MethodHandles.Lookup, String,
  * MethodType)}) using only the dynamic arguments, and an advanced version
- * ({@link #makeConcatWithConstants(java.lang.invoke.MethodHandles.Lookup,
+ * ({@link #makeConcatWithConstants(java.base.share.classes.java.lang.invoke.MethodHandles.Lookup,
  * String, MethodType, String, Object...)} using the advanced forms of capturing
  * the constant arguments. The advanced strategy can produce marginally better
  * invocation bytecode, at the expense of exploding the number of shapes of
@@ -95,7 +95,7 @@ public final class StringConcatFactory {
     private static final JavaLangAccess JLA = SharedSecrets.getJavaLangAccess();
 
     // StringConcatFactory bootstrap methods are startup sensitive, and may be
-    // special cased in java.lang.invoke.BootstrapMethodInvoker to ensure
+    // special cased in java.base.share.classes.java.lang.invoke.BootstrapMethodInvoker to ensure
     // methods are invoked with exact type information to avoid generating
     // code for runtime checks. Take care any changes or additions here are
     // reflected there as appropriate.

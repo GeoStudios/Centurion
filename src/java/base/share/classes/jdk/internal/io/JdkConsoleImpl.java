@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.io;
+package java.base.share.classes.jdk.internal.io;
 
 import java.io.IOError;
 import java.io.IOException;

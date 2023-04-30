@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util;
+package java.base.share.classes.jdk.internal.util;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.util.Objects;
 
@@ -103,7 +103,7 @@ class DatagramPacket {
      *          greater than the length of the packet's given buffer,
      *          or if the port is out of range.
      *
-     * @see     java.net.InetAddress
+     * @see     java.base.share.classes.java.net.InetAddress
      *
      * @since   1.2
      */
@@ -131,7 +131,7 @@ class DatagramPacket {
      *          negative, or if the length plus the offset is greater
      *          than the length of the packet's given buffer.
      *
-     * @see     java.net.InetAddress
+     * @see     java.base.share.classes.java.net.InetAddress
      *
      * @since   1.4
      */
@@ -155,7 +155,7 @@ class DatagramPacket {
      *          or if the length is greater than the length of the
      *          packet's given buffer, or if the port is out of range.
      *
-     * @see     java.net.InetAddress
+     * @see     java.base.share.classes.java.net.InetAddress
      */
     public DatagramPacket(byte[] buf, int length,
                           InetAddress address, int port) {
@@ -177,7 +177,7 @@ class DatagramPacket {
      *          is greater than the length of the packet's given buffer, or
      *          if the port is out of range.
      *
-     * @see     java.net.InetAddress
+     * @see     java.base.share.classes.java.net.InetAddress
      *
      * @since   1.4
      */
@@ -192,8 +192,8 @@ class DatagramPacket {
      *
      * @return  the IP address of the machine to which this datagram is being
      *          sent or from which the datagram was received.
-     * @see     java.net.InetAddress
-     * @see #setAddress(java.net.InetAddress)
+     * @see     java.base.share.classes.java.net.InetAddress
+     * @see #setAddress(java.base.share.classes.java.net.InetAddress)
      */
     public synchronized InetAddress getAddress() {
         return address;

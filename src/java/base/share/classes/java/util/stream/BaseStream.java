@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.stream;
+package java.base.share.classes.java.util.stream;
 
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -27,7 +27,7 @@ import java.util.function.Predicate;
  * }</pre>
  *
  * See the class documentation for {@link Stream} and the package documentation
- * for <a href="package-summary.html">java.util.stream</a> for additional
+ * for <a href="package-summary.html">java.base.share.classes.java.util.stream</a> for additional
  * specification of streams, stream operations, stream pipelines, and
  * parallelism, which governs the behavior of all stream types.
  *
@@ -38,7 +38,7 @@ import java.util.function.Predicate;
  * @see IntStream
  * @see LongStream
  * @see DoubleStream
- * @see <a href="package-summary.html">java.util.stream</a>
+ * @see <a href="package-summary.html">java.base.share.classes.java.util.stream</a>
  */
 public interface BaseStream<T, S extends BaseStream<T, S>>
         extends AutoCloseable {

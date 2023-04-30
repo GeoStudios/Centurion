@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
+package java.base.share.classes.java.util.concurrent.atomic;
 
 import java.io.Serializable;
 
@@ -222,7 +222,7 @@ public class LongAdder extends Striped64 implements Serializable {
 
     /**
      * Returns a
-     * <a href="{@docRoot}/serialized-form.html#java.util.concurrent.atomic.LongAdder.SerializationProxy">
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.util.concurrent.atomic.LongAdder.SerializationProxy">
      * SerializationProxy</a>
      * representing the state of this instance.
      *

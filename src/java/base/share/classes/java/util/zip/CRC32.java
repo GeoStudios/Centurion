@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.nio.ByteBuffer;
 import java.util.Objects;
@@ -11,7 +11,7 @@ import sun.nio.ch.DirectBuffer;
 import jdk.internal.util.Preconditions;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static java.util.zip.ZipUtils.NIO_ACCESS;
+import static java.base.share.classes.java.util.zip.ZipUtils.NIO_ACCESS;
 
 /**
  * A class that can be used to compute the CRC-32 of a data stream.

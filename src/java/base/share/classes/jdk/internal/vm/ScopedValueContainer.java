@@ -1,15 +1,15 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 import java.util.concurrent.Callable;
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.StructureViolationExceptions;
 import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.ReservedStackAccess;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 
 /**
  * A StackableScope to represent scoped-value bindings.

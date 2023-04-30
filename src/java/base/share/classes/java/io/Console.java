@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -81,7 +81,7 @@ public sealed class Console implements Flushable permits ProxyingConsole {
     Console() {}
 
     /**
-     * Retrieves the unique {@link java.io.PrintWriter PrintWriter} object
+     * Retrieves the unique {@link java.base.share.classes.java.io.PrintWriter PrintWriter} object
      * associated with this console.
      *
      * @return  The printwriter associated with this console
@@ -91,7 +91,7 @@ public sealed class Console implements Flushable permits ProxyingConsole {
     }
 
     /**
-     * Retrieves the unique {@link java.io.Reader Reader} object associated
+     * Retrieves the unique {@link java.base.share.classes.java.io.Reader Reader} object associated
      * with this console.
      * <p>
      * This method is intended to be used by sophisticated applications, for
@@ -108,9 +108,9 @@ public sealed class Console implements Flushable permits ProxyingConsole {
      * For simple applications requiring only line-oriented reading, use
      * {@link #readLine}.
      * <p>
-     * The bulk read operations {@link java.io.Reader#read(char[]) read(char[]) },
-     * {@link java.io.Reader#read(char[], int, int) read(char[], int, int) } and
-     * {@link java.io.Reader#read(java.nio.CharBuffer) read(java.nio.CharBuffer)}
+     * The bulk read operations {@link java.base.share.classes.java.io.Reader#read(char[]) read(char[]) },
+     * {@link java.base.share.classes.java.io.Reader#read(char[], int, int) read(char[], int, int) } and
+     * {@link java.base.share.classes.java.io.Reader#read(java.nio.CharBuffer) read(java.nio.CharBuffer)}
      * on the returned object will not read in characters beyond the line
      * bound for each invocation, even if the destination buffer has space for
      * more characters. The {@code Reader}'s {@code read} methods may block if a

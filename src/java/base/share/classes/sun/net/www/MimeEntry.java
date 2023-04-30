@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 import java.io.*;
 import java.util.StringJoiner;
 import java.util.StringTokenizer;

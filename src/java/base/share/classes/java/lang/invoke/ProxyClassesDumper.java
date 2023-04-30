@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.util.logging.PlatformLogger;
 

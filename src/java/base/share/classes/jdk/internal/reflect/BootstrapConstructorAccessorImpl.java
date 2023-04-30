@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Constructor;

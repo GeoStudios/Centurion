@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import jdk.internal.access.SharedSecrets;
 

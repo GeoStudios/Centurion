@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.Serializable;
 import java.util.Enumeration;
@@ -38,8 +38,8 @@ import java.util.Properties;
  *
  * @deprecated This class is deprecated and subject to removal in a future
  *     version of Java SE. It has been replaced by
- *     {@code java.security.KeyStore}, the {@code java.security.cert} package,
- *     and {@code java.security.Principal}.
+ *     {@code java.base.share.classes.java.security.KeyStore}, the {@code java.base.share.classes.java.security.cert} package,
+ *     and {@code java.base.share.classes.java.security.Principal}.
  */
 @Deprecated(since="1.2", forRemoval=true)
 @SuppressWarnings("removal")

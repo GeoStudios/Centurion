@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -69,9 +69,9 @@ final class Ser implements Externalizable {
      * serialized form for the value of the type and sequence of values for the type.
      *
      * <ul>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneRules">ZoneRules.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneOffsetTransition">ZoneOffsetTransition.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneOffsetTransitionRule">ZoneOffsetTransitionRule.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneRules">ZoneRules.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneOffsetTransition">ZoneOffsetTransition.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneOffsetTransitionRule">ZoneOffsetTransitionRule.writeReplace</a>
      * </ul>
      *
      * @param out  the data stream to write to, not null
@@ -112,11 +112,11 @@ final class Ser implements Externalizable {
      * {@code Ser} object.
      *
      * <ul>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneRules">ZoneRules</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneRules">ZoneRules</a>
      * - {@code ZoneRules.of(standardTransitions, standardOffsets, savingsInstantTransitions, wallOffsets, lastRules);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneOffsetTransition">ZoneOffsetTransition</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneOffsetTransition">ZoneOffsetTransition</a>
      * - {@code ZoneOffsetTransition of(LocalDateTime.ofEpochSecond(epochSecond), offsetBefore, offsetAfter);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.zone.ZoneOffsetTransitionRule">ZoneOffsetTransitionRule</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.ZoneOffsetTransitionRule">ZoneOffsetTransitionRule</a>
      * - {@code ZoneOffsetTransitionRule.of(month, dom, dow, time, timeEndOfDay, timeDefinition, standardOffset, offsetBefore, offsetAfter);}
      * </ul>
      * @param in  the data to read, not null

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * The class {@code Exception} and its subclasses are a form of
@@ -16,7 +16,7 @@ package java.lang;
  * by the execution of the method or constructor and propagate outside
  * the method or constructor boundary.
  *
- * @see     java.lang.Error
+ * @see     java.base.share.classes.java.lang.Error
  * @jls 11.2 Compile-Time Checking of Exceptions
  * @since Pre Java 1
  * @author Logan Abernathy

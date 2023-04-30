@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.FileDescriptor;
 import java.io.IOException;
@@ -40,11 +40,11 @@ import sun.net.PlatformSocketImpl;
  * </thead>
  * <tbody>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
  *     <td> The size of the socket receive buffer </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
  *     <td> Re-use address </td>
  *   </tr>
  * </tbody>
@@ -52,7 +52,7 @@ import sun.net.PlatformSocketImpl;
  * </blockquote>
  * Additional (implementation specific) options may also be supported.
  *
- * @see     java.net.SocketImpl
+ * @see     java.base.share.classes.java.net.SocketImpl
  * @see     java.nio.channels.ServerSocketChannel
  * @since   1.0
  */
@@ -143,7 +143,7 @@ public class ServerSocket implements java.io.Closeable {
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
      *
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkListen
      */
     public ServerSocket(int port) throws IOException {
@@ -194,7 +194,7 @@ public class ServerSocket implements java.io.Closeable {
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
      *
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkListen
      */
     public ServerSocket(int port, int backlog) throws IOException {
@@ -783,7 +783,7 @@ public class ServerSocket implements java.io.Closeable {
      * specified timeout, in milliseconds.  With this option set to a positive
      * timeout value, a call to accept() for this ServerSocket
      * will block for only this amount of time.  If the timeout expires,
-     * a <B>java.net.SocketTimeoutException</B> is raised, though the
+     * a <B>java.base.share.classes.java.net.SocketTimeoutException</B> is raised, though the
      * ServerSocket is still valid. A timeout of zero is interpreted as an
      * infinite timeout.
      * The option <B>must</B> be enabled prior to entering the blocking
@@ -936,7 +936,7 @@ public class ServerSocket implements java.io.Closeable {
      * @throws     SocketException  if the factory has already been defined.
      * @throws     SecurityException  if a security manager exists and its
      *             {@code checkSetFactory} method doesn't allow the operation.
-     * @see        java.net.SocketImplFactory#createSocketImpl()
+     * @see        java.base.share.classes.java.net.SocketImplFactory#createSocketImpl()
      * @see        SecurityManager#checkSetFactory
      * @deprecated Use a {@link javax.net.ServerSocketFactory} and subclass {@code ServerSocket}
      *    directly.
@@ -1097,7 +1097,7 @@ public class ServerSocket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @since 9
@@ -1130,7 +1130,7 @@ public class ServerSocket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @since 9

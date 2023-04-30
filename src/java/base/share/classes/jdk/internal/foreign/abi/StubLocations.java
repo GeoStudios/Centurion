@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi;
+package java.base.share.classes.jdk.internal.foreign.abi;
 
 // must keep in sync with StubLocations in VM code
 public enum StubLocations {

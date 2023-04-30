@@ -21,4 +21,4 @@
  *
  * @since 1.1
  */
-package java.math;
+package java.base.share.classes.java.math;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
 
 import java.util.*;
 import java.io.IOException;
@@ -37,7 +37,7 @@ import sun.security.util.ResourcesMgr;
  * <pre>
  *
  *    grant {
- *      permission javax.security.auth.PrivateCredentialPermission
+ *      permission java.base.share.classes.javax.security.auth.PrivateCredentialPermission
  *              "com.sun.PrivateCredential com.sun.Principal \"duke\"",
  *              "read";
  *    };
@@ -55,7 +55,7 @@ import sun.security.util.ResourcesMgr;
  *
  * <pre>
  *    grant {
- *      permission javax.security.auth.PrivateCredentialPermission
+ *      permission java.base.share.classes.javax.security.auth.PrivateCredentialPermission
  *              "a.b.Credential a.b.Principal "*"",
  *              "read";
  *    };
@@ -69,7 +69,7 @@ import sun.security.util.ResourcesMgr;
  *
  * <pre>
  *    grant {
- *      permission javax.security.auth.PrivateCredentialPermission
+ *      permission java.base.share.classes.javax.security.auth.PrivateCredentialPermission
  *              "a.b.Credential a.b.Principal "duke" c.d.Principal "dukette"",
  *              "read";
  *    };

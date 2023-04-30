@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
 import jdk.internal.access.SharedSecrets;
@@ -42,9 +42,9 @@ import sun.nio.ch.FileChannelImpl;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.File
- * @see     java.io.FileDescriptor
- * @see     java.io.FileInputStream
+ * @see     java.base.share.classes.java.io.File
+ * @see     java.base.share.classes.java.io.FileDescriptor
+ * @see     java.base.share.classes.java.io.FileInputStream
  * @see     java.nio.file.Files#newOutputStream
  */
 public class FileOutputStream extends OutputStream
@@ -157,7 +157,7 @@ public class FileOutputStream extends OutputStream
      * @throws     SecurityException  if a security manager exists and its
      *               {@code checkWrite} method denies write access
      *               to the file.
-     * @see        java.io.File#getPath()
+     * @see        java.base.share.classes.java.io.File#getPath()
      * @see        java.lang.SecurityException
      * @see        java.lang.SecurityManager#checkWrite(java.lang.String)
      */
@@ -189,7 +189,7 @@ public class FileOutputStream extends OutputStream
      * @throws     SecurityException  if a security manager exists and its
      *               {@code checkWrite} method denies write access
      *               to the file.
-     * @see        java.io.File#getPath()
+     * @see        java.base.share.classes.java.io.File#getPath()
      * @see        java.lang.SecurityException
      * @see        java.lang.SecurityManager#checkWrite(java.lang.String)
      * @since 1.4
@@ -230,7 +230,7 @@ public class FileOutputStream extends OutputStream
      * is thrown.
      * <p>
      * This constructor does not throw an exception if {@code fdObj}
-     * is {@link java.io.FileDescriptor#valid() invalid}.
+     * is {@link java.base.share.classes.java.io.FileDescriptor#valid() invalid}.
      * However, if the methods are invoked on the resulting stream to attempt
      * I/O on the stream, an {@code IOException} is thrown.
      *
@@ -238,7 +238,7 @@ public class FileOutputStream extends OutputStream
      * @throws     SecurityException  if a security manager exists and its
      *               {@code checkWrite} method denies
      *               write access to the file descriptor
-     * @see        java.lang.SecurityManager#checkWrite(java.io.FileDescriptor)
+     * @see        java.lang.SecurityManager#checkWrite(java.base.share.classes.java.io.FileDescriptor)
      */
     public FileOutputStream(FileDescriptor fdObj) {
         @SuppressWarnings("removal")
@@ -410,7 +410,7 @@ public class FileOutputStream extends OutputStream
      *          by this {@code FileOutputStream} object.
      *
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FileDescriptor
+     * @see        java.base.share.classes.java.io.FileDescriptor
      */
      public final FileDescriptor getFD()  throws IOException {
         if (fd != null) {

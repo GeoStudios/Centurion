@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.MethodHandles;
 
-import static java.lang.constant.ConstantUtils.dropFirstAndLastChar;
-import static java.lang.constant.ConstantUtils.internalToBinary;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.dropFirstAndLastChar;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.internalToBinary;
 import static java.util.Objects.requireNonNull;
 
 /**

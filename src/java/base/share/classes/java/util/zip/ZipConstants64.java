@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 /*
  * This class defines the constants that are used by the classes

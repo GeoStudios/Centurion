@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectStreamException;
 
-import static java.time.LocalTime.NANOS_PER_MINUTE;
-import static java.time.LocalTime.NANOS_PER_SECOND;
-import static java.time.LocalTime.NANOS_PER_MILLI;
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MINUTE;
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_SECOND;
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MILLI;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.TimeZone;

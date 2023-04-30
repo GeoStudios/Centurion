@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 import jdk.internal.misc.PreviewFeatures;
 import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.security.action.GetPropertyAction;
 
 import java.lang.invoke.MethodHandles;

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -13,7 +13,7 @@ import java.util.stream.Stream;
  * ProcessHandle identifies and provides control of native processes. Each
  * individual process can be monitored for liveness, list its children,
  * get information about the process or destroy it.
- * By comparison, {@link java.lang.Process Process} instances were started
+ * By comparison, {@link java.base.share.classes.java.lang.Process Process} instances were started
  * by the current process and additionally provide access to the process
  * input, output, and error streams.
  * <p>
@@ -53,8 +53,8 @@ import java.util.stream.Stream;
  *
  * @implSpec
  * In the case where ProcessHandles cannot be supported then the factory
- * methods must consistently throw {@link java.lang.UnsupportedOperationException}.
- * The methods of this class throw {@link java.lang.UnsupportedOperationException}
+ * methods must consistently throw {@link java.base.share.classes.java.lang.UnsupportedOperationException}.
+ * The methods of this class throw {@link java.base.share.classes.java.lang.UnsupportedOperationException}
  * if the operating system does not allow access to query or kill a process.
  *
  * <p>

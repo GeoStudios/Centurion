@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -34,9 +34,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * Subclasses may implement actions on top of {@code BasicPermission},
  * if desired.
  *
- * @see java.security.Permission
- * @see java.security.Permissions
- * @see java.security.PermissionCollection
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
+ * @see java.base.share.classes.java.security.PermissionCollection
  * @see java.lang.SecurityManager
  *
  * @author Marianne Mueller
@@ -277,8 +277,8 @@ public abstract class BasicPermission extends Permission
  * A {@code BasicPermissionCollection} handles comparing a permission
  * like "a.b.c.d.e" with a {@code Permission} such as "a.b.*", or "*".
  *
- * @see java.security.Permission
- * @see java.security.Permissions
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
  *
  *
  * @author Roland Schemers

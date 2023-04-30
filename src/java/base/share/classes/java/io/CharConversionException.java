@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Base class for character conversion exceptions.
@@ -11,9 +11,9 @@ package java.io;
  * @edited 23/4/2023
  */
 public class CharConversionException
-    extends java.io.IOException
+    extends java.base.share.classes.java.io.IOException
 {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -8680016352018427031L;
 
     /**

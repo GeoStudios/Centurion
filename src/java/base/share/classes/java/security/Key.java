@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * The {@code Key} interface is the top-level interface for all keys. It
@@ -71,7 +71,7 @@ package java.security;
  * @see KeyPairGenerator
  * @see KeyFactory
  * @see KeyRep
- * @see java.security.spec.KeySpec
+ * @see java.base.share.classes.java.security.spec.KeySpec
  *
  * @author Benjamin Renaud
  * @since 1.1

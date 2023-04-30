@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels.spi;
+package java.base.share.classes.java.nio.channels.spi;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -88,7 +88,7 @@ public abstract class SelectorProvider {
         }
 
         private static SelectorProvider loadProviderFromProperty() {
-            String cn = System.getProperty("java.nio.channels.spi.SelectorProvider");
+            String cn = System.getProperty("java.base.share.classes.java.nio.channels.spi.SelectorProvider");
             if (cn == null)
                 return null;
             try {
@@ -133,7 +133,7 @@ public abstract class SelectorProvider {
      * <ol>
      *
      *   <li><p> If the system property
-     *   {@systemProperty java.nio.channels.spi.SelectorProvider} is defined
+     *   {@systemProperty java.base.share.classes.java.nio.channels.spi.SelectorProvider} is defined
      *   then it is taken to be the fully-qualified name of a concrete provider
      *   class. The class is loaded and instantiated; if this process fails then
      *   an unspecified error is thrown.  </p></li>
@@ -141,7 +141,7 @@ public abstract class SelectorProvider {
      *   <li><p> If a provider class has been installed in a jar file that is
      *   visible to the system class loader, and that jar file contains a
      *   provider-configuration file named
-     *   {@code java.nio.channels.spi.SelectorProvider} in the resource
+     *   {@code java.base.share.classes.java.nio.channels.spi.SelectorProvider} in the resource
      *   directory {@code META-INF/services}, then the first class name
      *   specified in that file is taken.  The class is loaded and
      *   instantiated; if this process fails then an unspecified error is

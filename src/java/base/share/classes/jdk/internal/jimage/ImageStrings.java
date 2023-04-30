@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.jimage;
+package java.base.share.classes.jdk.internal.jimage;
 
 /**
  * @implNote This interface needs to maintain JDK 8 source compatibility.

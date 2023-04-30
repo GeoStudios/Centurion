@@ -6,7 +6,7 @@
  * Plain text file handler.
  * @author  Steven B. Byrne
  */
-package sun.net.www.content.text;
+package java.base.share.classes.sun.net.www.content.text;
 import java.net.*;
 import java.io.InputStream;
 import java.io.IOException;

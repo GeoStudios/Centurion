@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -41,7 +41,7 @@ import jdk.internal.jimage.ImageReaderFactory;
 import jdk.internal.access.JavaNetUriAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
-import jdk.internal.module.ModuleHashes.HashSupplier;
+import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 
 /**
  * The factory for SystemModules objects and for creating ModuleFinder objects

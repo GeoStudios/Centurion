@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.lang.ref.SoftReference;
-import java.text.spi.DateFormatSymbolsProvider;
+import java.base.share.classes.java.text.spi.DateFormatSymbolsProvider;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Objects;
@@ -79,7 +79,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
      * locale. This constructor can only
      * construct instances for the locales supported by the Java
      * runtime environment, not for those supported by installed
-     * {@link java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
      * implementations. For full locale coverage, use the
      * {@link #getInstance(Locale) getInstance} method.
      * <p>This is equivalent to calling
@@ -102,7 +102,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
      * resources for the given locale. This constructor can only
      * construct instances for the locales supported by the Java
      * runtime environment, not for those supported by installed
-     * {@link java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
      * implementations. For full locale coverage, use the
      * {@link #getInstance(Locale) getInstance} method.
      *
@@ -264,7 +264,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
      * localized instances.
      * The returned array represents the union of locales supported by the
      * Java runtime and by installed
-     * {@link java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
      * implementations. At a minimum, the returned array must contain a
      * {@code Locale} instance equal to {@link Locale#ROOT Locale.ROOT} and
      * a {@code Locale} instance equal to {@link Locale#US Locale.US}.
@@ -284,7 +284,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
      * locale.  This method provides access to {@code DateFormatSymbols}
      * instances for locales supported by the Java runtime itself as well
      * as for those supported by installed
-     * {@link java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
      * implementations.
      * <p>This is equivalent to calling {@link #getInstance(Locale)
      *     getInstance(Locale.getDefault(Locale.Category.FORMAT))}.
@@ -302,7 +302,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
      * locale.  This method provides access to {@code DateFormatSymbols}
      * instances for locales supported by the Java runtime itself as well
      * as for those supported by installed
-     * {@link java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DateFormatSymbolsProvider DateFormatSymbolsProvider}
      * implementations.
      * @param locale the given locale.
      * @return a {@code DateFormatSymbols} instance.
@@ -795,7 +795,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
 
     /**
      * Wrapper method to the getZoneStrings(), which is called from inside
-     * the java.text package and not to mutate the returned arrays, so that
+     * the java.base.share.classes.java.text package and not to mutate the returned arrays, so that
      * it does not need to create a defensive copy.
      */
     final String[][] getZoneStringsWrapper() {
@@ -824,7 +824,7 @@ public class DateFormatSymbols implements Serializable, Cloneable {
     }
 
     private boolean isSubclassObject() {
-        return !getClass().getName().equals("java.text.DateFormatSymbols");
+        return !getClass().getName().equals("java.base.share.classes.java.text.DateFormatSymbols");
     }
 
     /**

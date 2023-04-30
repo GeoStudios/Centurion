@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.Closeable;
 import java.io.IOException;
-import java.nio.channels.spi.SelectorProvider;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 import java.util.Objects;
 import java.util.Set;
 import java.util.function.Consumer;
@@ -17,9 +17,9 @@ import java.util.function.Consumer;
  *
  * <p> A selector may be created by invoking the {@link #open open} method of
  * this class, which will use the system's default {@link
- * java.nio.channels.spi.SelectorProvider selector provider} to
+ * java.base.share.classes.java.nio.channels.spi.SelectorProvider selector provider} to
  * create a new selector.  A selector may also be created by invoking the
- * {@link java.nio.channels.spi.SelectorProvider#openSelector openSelector}
+ * {@link java.base.share.classes.java.nio.channels.spi.SelectorProvider#openSelector openSelector}
  * method of a custom selector provider.  A selector remains open until it is
  * closed via its {@link #close close} method.
  *
@@ -261,9 +261,9 @@ public abstract class Selector implements Closeable {
      * Opens a selector.
      *
      * <p> The new selector is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openSelector openSelector} method
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openSelector openSelector} method
      * of the system-wide default {@link
-     * java.nio.channels.spi.SelectorProvider} object.  </p>
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider} object.  </p>
      *
      * @return  A new selector
      *

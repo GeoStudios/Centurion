@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.ftp;
+package java.base.share.classes.sun.net.ftp;
 
 /**
  * This interface describes a parser for the FtpClient class. Such a parser is

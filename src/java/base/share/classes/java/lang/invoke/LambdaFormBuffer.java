@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
 
 /** Working storage for an LF that is being transformed.
  *  Similarly to a StringBuffer, the editing can take place in multiple steps.

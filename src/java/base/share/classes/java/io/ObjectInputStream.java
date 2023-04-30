@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.io.ObjectInputFilter.Config;
-import java.io.ObjectStreamClass.RecordSupport;
+import java.base.share.classes.java.io.ObjectInputFilter.Config;
+import java.base.share.classes.java.io.ObjectStreamClass.RecordSupport;
 import java.lang.System.Logger;
 import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Array;
@@ -69,8 +69,8 @@ import sun.security.action.GetIntegerAction;
  * created from the stream match the classes present in the Java Virtual
  * Machine.  Classes are loaded as required using the standard mechanisms.
  *
- * <p>Only objects that support the java.io.Serializable or
- * java.io.Externalizable interface can be read from streams.
+ * <p>Only objects that support the java.base.share.classes.java.io.Serializable or
+ * java.base.share.classes.java.io.Externalizable interface can be read from streams.
  *
  * <p>The method {@code readObject} is used to read an object from the
  * stream.  Java's safe casting should be used to get the desired type.  In
@@ -110,7 +110,7 @@ import sun.security.action.GetIntegerAction;
  * }
  *
  * <p>Classes control how they are serialized by implementing either the
- * java.io.Serializable or java.io.Externalizable interfaces.
+ * java.base.share.classes.java.io.Serializable or java.base.share.classes.java.io.Externalizable interfaces.
  *
  * <p>Implementing the Serializable interface allows object serialization to
  * save and restore the entire state of the object and it allows classes to
@@ -123,9 +123,9 @@ import sun.security.action.GetIntegerAction;
  * with the following signatures:
  *
  * {@snippet lang="java":
- *     private void writeObject(java.io.ObjectOutputStream stream)
+ *     private void writeObject(java.base.share.classes.java.io.ObjectOutputStream stream)
  *         throws IOException;
- *     private void readObject(java.io.ObjectInputStream stream)
+ *     private void readObject(java.base.share.classes.java.io.ObjectInputStream stream)
  *         throws IOException, ClassNotFoundException;
  *     private void readObjectNoData()
  *         throws ObjectStreamException;
@@ -177,7 +177,7 @@ import sun.security.action.GetIntegerAction;
  * stream.
  *
  * <p>Serialization does not read or assign values to the fields of any object
- * that does not implement the java.io.Serializable interface.  Subclasses of
+ * that does not implement the java.base.share.classes.java.io.Serializable interface.  Subclasses of
  * Objects that are not serializable can be serializable. In this case the
  * non-serializable class must have a no-arg constructor to allow its fields to
  * be initialized.  In this case it is the responsibility of the subclass to
@@ -224,9 +224,9 @@ import sun.security.action.GetIntegerAction;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see java.io.DataInput
- * @see java.io.ObjectOutputStream
- * @see java.io.Serializable
+ * @see java.base.share.classes.java.io.DataInput
+ * @see java.base.share.classes.java.io.ObjectOutputStream
+ * @see java.base.share.classes.java.io.Serializable
  * @see <a href="{@docRoot}/../specs/serialization/input.html">
  *      <cite>Java Object Serialization Specification,</cite> Section 3, "Object Input Classes"</a>
  */
@@ -303,7 +303,7 @@ public class ObjectInputStream
         static final System.Logger filterLogger;
 
         static {
-            Logger filterLog = System.getLogger("java.io.serialization");
+            Logger filterLog = System.getLogger("java.base.share.classes.java.io.serialization");
             filterLogger = (filterLog.isLoggable(Logger.Level.DEBUG)
                     || filterLog.isLoggable(Logger.Level.TRACE)) ? filterLog : null;
         }
@@ -421,7 +421,7 @@ public class ObjectInputStream
      * @throws  IllegalStateException if the initialization of {@link ObjectInputFilter.Config}
      *      fails due to invalid serial filter or serial filter factory properties.
      * @see SecurityManager#checkPermission
-     * @see java.io.SerializablePermission
+     * @see java.base.share.classes.java.io.SerializablePermission
      */
     protected ObjectInputStream() throws IOException, SecurityException {
         @SuppressWarnings("removal")
@@ -928,7 +928,7 @@ public class ObjectInputStream
      *          {@code checkPermission} method denies enabling the stream
      *          to do replacement of objects read from the stream.
      * @see SecurityManager#checkPermission
-     * @see java.io.SerializablePermission
+     * @see java.base.share.classes.java.io.SerializablePermission
      */
     protected boolean enableResolveObject(boolean enable)
         throws SecurityException
@@ -982,7 +982,7 @@ public class ObjectInputStream
      * @throws  IOException If an I/O error has occurred.
      * @throws  ClassNotFoundException If the Class of a serialized object used
      *          in the class descriptor representation cannot be found
-     * @see java.io.ObjectOutputStream#writeClassDescriptor(java.io.ObjectStreamClass)
+     * @see java.base.share.classes.java.io.ObjectOutputStream#writeClassDescriptor(java.base.share.classes.java.io.ObjectStreamClass)
      * @since 1.3
      */
     protected ObjectStreamClass readClassDescriptor()
@@ -1006,7 +1006,7 @@ public class ObjectInputStream
 
     /**
      * Reads into an array of bytes.  This method will block until some input
-     * is available. Consider using java.io.DataInputStream.readFully to read
+     * is available. Consider using java.base.share.classes.java.io.DataInputStream.readFully to read
      * exactly 'length' bytes.
      *
      * @param   buf the buffer into which the data is read
@@ -1020,7 +1020,7 @@ public class ObjectInputStream
      *          {@code len} is negative, or {@code len} is greater than
      *          {@code buf.length - off}.
      * @throws  IOException If an I/O error has occurred.
-     * @see java.io.DataInputStream#readFully(byte[],int,int)
+     * @see java.base.share.classes.java.io.DataInputStream#readFully(byte[],int,int)
      */
     @Override
     public int read(byte[] buf, int off, int len) throws IOException {

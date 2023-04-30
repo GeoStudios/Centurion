@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,13 +19,13 @@ import java.util.Objects;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.BufferedInputStream
- * @see     java.io.ByteArrayInputStream
- * @see     java.io.DataInputStream
- * @see     java.io.FilterInputStream
- * @see     java.io.InputStream#read()
- * @see     java.io.OutputStream
- * @see     java.io.PushbackInputStream
+ * @see     java.base.share.classes.java.io.BufferedInputStream
+ * @see     java.base.share.classes.java.io.ByteArrayInputStream
+ * @see     java.base.share.classes.java.io.DataInputStream
+ * @see     java.base.share.classes.java.io.FilterInputStream
+ * @see     java.base.share.classes.java.io.InputStream#read()
+ * @see     java.base.share.classes.java.io.OutputStream
+ * @see     java.base.share.classes.java.io.PushbackInputStream
  */
 public abstract class InputStream implements Closeable {
 
@@ -191,7 +191,7 @@ public abstract class InputStream implements Closeable {
      *             other than the end of the file, if the input stream has been
      *             closed, or if some other I/O error occurs.
      * @throws     NullPointerException  if {@code b} is {@code null}.
-     * @see        java.io.InputStream#read(byte[], int, int)
+     * @see        java.base.share.classes.java.io.InputStream#read(byte[], int, int)
      */
     public int read(byte[] b) throws IOException {
         return read(b, 0, b.length);
@@ -253,7 +253,7 @@ public abstract class InputStream implements Closeable {
      * @throws     IndexOutOfBoundsException If {@code off} is negative,
      *             {@code len} is negative, or {@code len} is greater than
      *             {@code b.length - off}
-     * @see        java.io.InputStream#read()
+     * @see        java.base.share.classes.java.io.InputStream#read()
      */
     public int read(byte[] b, int off, int len) throws IOException {
         Objects.checkFromIndexSize(off, len, b.length);
@@ -512,7 +512,7 @@ public abstract class InputStream implements Closeable {
      * @param      n   the number of bytes to be skipped.
      * @return     the actual number of bytes skipped which might be zero.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.InputStream#skipNBytes(long)
+     * @see        java.base.share.classes.java.io.InputStream#skipNBytes(long)
      */
     public long skip(long n) throws IOException {
         long remaining = n;
@@ -574,7 +574,7 @@ public abstract class InputStream implements Closeable {
      *             when this method was invoked.
      * @throws     IOException  if the stream cannot be positioned properly or
      *             if an I/O error occurs.
-     * @see        java.io.InputStream#skip(long)
+     * @see        java.base.share.classes.java.io.InputStream#skip(long)
      *
      * @since 12
      */
@@ -665,7 +665,7 @@ public abstract class InputStream implements Closeable {
      *
      * @param   readlimit   the maximum limit of bytes that can be read before
      *                      the mark position becomes invalid.
-     * @see     java.io.InputStream#reset()
+     * @see     java.base.share.classes.java.io.InputStream#reset()
      */
     public void mark(int readlimit) {}
 
@@ -711,8 +711,8 @@ public abstract class InputStream implements Closeable {
      *
      * @throws  IOException  if this stream has not been marked or if the
      *          mark has been invalidated.
-     * @see     java.io.InputStream#mark(int)
-     * @see     java.io.IOException
+     * @see     java.base.share.classes.java.io.InputStream#mark(int)
+     * @see     java.base.share.classes.java.io.IOException
      */
     public void reset() throws IOException {
         throw new IOException("mark/reset not supported");
@@ -730,8 +730,8 @@ public abstract class InputStream implements Closeable {
      *
      * @return  {@code true} if this stream instance supports the mark
      *          and reset methods; {@code false} otherwise.
-     * @see     java.io.InputStream#mark(int)
-     * @see     java.io.InputStream#reset()
+     * @see     java.base.share.classes.java.io.InputStream#mark(int)
+     * @see     java.base.share.classes.java.io.InputStream#reset()
      */
     public boolean markSupported() {
         return false;

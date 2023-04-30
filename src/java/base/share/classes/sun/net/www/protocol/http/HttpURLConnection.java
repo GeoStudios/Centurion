@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.security.PrivilegedAction;
 import java.util.Arrays;
@@ -63,12 +63,12 @@ import java.util.Objects;
 import java.util.Properties;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static sun.net.www.protocol.http.AuthScheme.BASIC;
-import static sun.net.www.protocol.http.AuthScheme.DIGEST;
-import static sun.net.www.protocol.http.AuthScheme.NTLM;
-import static sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
-import static sun.net.www.protocol.http.AuthScheme.KERBEROS;
-import static sun.net.www.protocol.http.AuthScheme.UNKNOWN;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.BASIC;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.DIGEST;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NTLM;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.UNKNOWN;
 import sun.security.action.GetIntegerAction;
 import sun.security.action.GetPropertyAction;
 
@@ -409,7 +409,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
 
     /* Logging support */
     private static final PlatformLogger logger =
-            PlatformLogger.getLogger("sun.net.www.protocol.http.HttpURLConnection");
+            PlatformLogger.getLogger("java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection");
 
     /* Lock */
     private final ReentrantLock connectionLock = new ReentrantLock();

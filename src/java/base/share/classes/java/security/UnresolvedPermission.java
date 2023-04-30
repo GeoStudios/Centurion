@@ -2,17 +2,17 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import sun.security.util.IOUtils;
 
 import java.io.IOException;
 import java.io.ByteArrayInputStream;
-import java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.Certificate;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.lang.reflect.*;
-import java.security.cert.*;
+import java.base.share.classes.java.security.cert.*;
 import java.util.List;
 
 /**
@@ -72,10 +72,10 @@ import java.util.List;
  * {@code type} (class name) for the underlying permission
  * that has not been resolved.
  *
- * @see java.security.Permission
- * @see java.security.Permissions
- * @see java.security.PermissionCollection
- * @see java.security.Policy
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
+ * @see java.base.share.classes.java.security.PermissionCollection
+ * @see java.base.share.classes.java.security.Policy
  *
  *
  * @author Roland Schemers
@@ -115,7 +115,7 @@ implements java.io.Serializable
      */
     private final String actions;
 
-    private transient java.security.cert.Certificate[] certs;
+    private transient java.base.share.classes.java.security.cert.Certificate[] certs;
 
     /**
      * Creates a new {@code UnresolvedPermission} containing the permission
@@ -137,7 +137,7 @@ implements java.io.Serializable
     public UnresolvedPermission(String type,
                                 String name,
                                 String actions,
-                                java.security.cert.Certificate[] certs)
+                                java.base.share.classes.java.security.cert.Certificate[] certs)
     {
         super(type);
 
@@ -186,7 +186,7 @@ implements java.io.Serializable
             }
 
             // extract the signer certs
-            ArrayList<java.security.cert.Certificate> signerCerts =
+            ArrayList<java.base.share.classes.java.security.cert.Certificate> signerCerts =
                 new ArrayList<>();
             i = 0;
             while (i < certs.length) {
@@ -199,7 +199,7 @@ implements java.io.Serializable
                 i++;
             }
             this.certs =
-                new java.security.cert.Certificate[signerCerts.size()];
+                new java.base.share.classes.java.security.cert.Certificate[signerCerts.size()];
             signerCerts.toArray(this.certs);
         }
     }
@@ -213,7 +213,7 @@ implements java.io.Serializable
      * try and resolve this permission using the class loader of the permission
      * that was passed in.
      */
-    Permission resolve(Permission p, java.security.cert.Certificate[] certs) {
+    Permission resolve(Permission p, java.base.share.classes.java.security.cert.Certificate[] certs) {
         if (this.certs != null) {
             // if p wasn't signed, we don't have a match
             if (certs == null) {
@@ -465,7 +465,7 @@ implements java.io.Serializable
      *
      * @since 1.5
      */
-    public java.security.cert.Certificate[] getUnresolvedCerts() {
+    public java.base.share.classes.java.security.cert.Certificate[] getUnresolvedCerts() {
         return (certs == null) ? null : certs.clone();
     }
 
@@ -526,7 +526,7 @@ implements java.io.Serializable
             oos.writeInt(certs.length);
             // write out each cert, including its type
             for (int i=0; i < certs.length; i++) {
-                java.security.cert.Certificate cert = certs[i];
+                java.base.share.classes.java.security.cert.Certificate cert = certs[i];
                 try {
                     oos.writeUTF(cert.getType());
                     byte[] encoded = cert.getEncoded();
@@ -600,7 +600,7 @@ implements java.io.Serializable
         }
         if (certList != null) {
             this.certs = certList.toArray(
-                    new java.security.cert.Certificate[size]);
+                    new java.base.share.classes.java.security.cert.Certificate[size]);
         }
     }
 }

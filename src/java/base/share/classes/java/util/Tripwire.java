@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
 import sun.util.logging.PlatformLogger;
 
@@ -10,8 +10,8 @@ import java.security.PrivilegedAction;
 
 /**
  * Utility class for detecting inadvertent uses of boxing in
- * {@code java.util} classes.  The detection is turned on or off based on
- * whether the system property {@code org.openjdk.java.util.stream.tripwire} is
+ * {@code java.base.share.classes.java.util} classes.  The detection is turned on or off based on
+ * whether the system property {@code org.openjdk.java.base.share.classes.java.util.stream.tripwire} is
  * considered {@code true} according to {@link Boolean#getBoolean(String)}.
  * This should normally be turned off for production use.
  *
@@ -25,7 +25,7 @@ import java.security.PrivilegedAction;
  * @since 1.8
  */
 final class Tripwire {
-    private static final String TRIPWIRE_PROPERTY = "org.openjdk.java.util.stream.tripwire";
+    private static final String TRIPWIRE_PROPERTY = "org.openjdk.java.base.share.classes.java.util.stream.tripwire";
 
     /** Should debugging checks be enabled? */
     @SuppressWarnings("removal")

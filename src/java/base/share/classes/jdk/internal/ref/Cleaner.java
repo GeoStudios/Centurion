@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.ref;
+package java.base.share.classes.jdk.internal.ref;
 
 import java.lang.ref.*;
 import java.security.AccessController;

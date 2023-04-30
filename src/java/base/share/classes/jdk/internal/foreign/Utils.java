@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.foreign;
+package java.base.share.classes.jdk.internal.foreign;
 
 import java.lang.foreign.MemoryLayout;
 import java.lang.foreign.MemorySegment;
@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
 import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.abi.SharedUtils;
+import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
 import jdk.internal.vm.annotation.ForceInline;
 import static java.lang.foreign.ValueLayout.JAVA_BYTE;
 

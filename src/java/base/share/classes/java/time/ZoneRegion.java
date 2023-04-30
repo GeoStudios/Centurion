@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.zone.ZoneRules;
-import java.time.zone.ZoneRulesException;
-import java.time.zone.ZoneRulesProvider;
+import java.base.share.classes.java.time.zone.ZoneRules;
+import java.base.share.classes.java.time.zone.ZoneRulesException;
+import java.base.share.classes.java.time.zone.ZoneRulesProvider;
 import java.util.Objects;
 
 /**
@@ -134,7 +134,7 @@ final class ZoneRegion extends ZoneId implements Serializable {
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(7);  // identifies a ZoneId (not ZoneOffset)

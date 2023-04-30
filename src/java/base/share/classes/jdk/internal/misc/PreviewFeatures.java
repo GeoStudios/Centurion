@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
 /**
  * Defines static methods to test if preview features are enabled at run-time.

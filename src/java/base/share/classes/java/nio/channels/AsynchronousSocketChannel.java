@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
-import java.nio.channels.spi.*;
+import java.base.share.classes.java.nio.channels.spi.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.Future;
 import java.io.IOException;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -119,7 +119,7 @@ public class PushbackInputStream extends FilterInputStream {
      * @throws     IOException  if this input stream has been closed by
      *             invoking its {@link #close()} method,
      *             or an I/O error occurs.
-     * @see        java.io.InputStream#read()
+     * @see        java.base.share.classes.java.io.InputStream#read()
      */
     public int read() throws IOException {
         ensureOpen();
@@ -150,7 +150,7 @@ public class PushbackInputStream extends FilterInputStream {
      * @throws     IOException  if this input stream has been closed by
      *             invoking its {@link #close()} method,
      *             or an I/O error occurs.
-     * @see        java.io.InputStream#read(byte[], int, int)
+     * @see        java.base.share.classes.java.io.InputStream#read(byte[], int, int)
      */
     public int read(byte[] b, int off, int len) throws IOException {
         ensureOpen();
@@ -253,15 +253,15 @@ public class PushbackInputStream extends FilterInputStream {
      *
      * <p> The method returns the sum of the number of bytes that have been
      * pushed back and the value returned by {@link
-     * java.io.FilterInputStream#available available}.
+     * java.base.share.classes.java.io.FilterInputStream#available available}.
      *
      * @return     the number of bytes that can be read (or skipped over) from
      *             the input stream without blocking.
      * @throws     IOException  if this input stream has been closed by
      *             invoking its {@link #close()} method,
      *             or an I/O error occurs.
-     * @see        java.io.FilterInputStream#in
-     * @see        java.io.InputStream#available()
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.InputStream#available()
      */
     public int available() throws IOException {
         ensureOpen();
@@ -290,8 +290,8 @@ public class PushbackInputStream extends FilterInputStream {
      *             invoking its {@link #close()} method,
      *             {@code in.skip(n)} throws an IOException,
      *             or an I/O error occurs.
-     * @see        java.io.FilterInputStream#in
-     * @see        java.io.InputStream#skip(long n)
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.InputStream#skip(long n)
      * @since      1.2
      */
     public long skip(long n) throws IOException {
@@ -320,8 +320,8 @@ public class PushbackInputStream extends FilterInputStream {
      *
      * @return   {@code false}, since this class does not support the
      *           {@code mark} and {@code reset} methods.
-     * @see      java.io.InputStream#mark(int)
-     * @see      java.io.InputStream#reset()
+     * @see      java.base.share.classes.java.io.InputStream#mark(int)
+     * @see      java.base.share.classes.java.io.InputStream#reset()
      */
     public boolean markSupported() {
         return false;
@@ -335,7 +335,7 @@ public class PushbackInputStream extends FilterInputStream {
      *
      * @param   readlimit   the maximum limit of bytes that can be read before
      *                      the mark position becomes invalid.
-     * @see     java.io.InputStream#reset()
+     * @see     java.base.share.classes.java.io.InputStream#reset()
      */
     public void mark(int readlimit) {
     }
@@ -349,8 +349,8 @@ public class PushbackInputStream extends FilterInputStream {
      * {@code IOException}.
      *
      * @throws  IOException  if this method is invoked.
-     * @see     java.io.InputStream#mark(int)
-     * @see     java.io.IOException
+     * @see     java.base.share.classes.java.io.InputStream#mark(int)
+     * @see     java.base.share.classes.java.io.IOException
      */
     public void reset() throws IOException {
         throw new IOException("mark/reset not supported");

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.security.*;
 import java.net.*;
@@ -82,11 +82,11 @@ final class JceSecurityManager {
 
         // Determine the codebase of the caller of the JCE API.
         // This is the codebase of the first class which is not in
-        // javax.crypto.* packages.
-        // NOTE: javax.crypto.* package maybe subject to package
+        // java.base.share.classes.javax.crypto.* packages.
+        // NOTE: java.base.share.classes.javax.crypto.* package maybe subject to package
         // insertion, so need to check its classloader as well.
         return WALKER.walk(s -> s.map(StackFrame::getDeclaringClass)
-                .filter(c -> !c.getPackageName().equals("javax.crypto"))
+                .filter(c -> !c.getPackageName().equals("java.base.share.classes.javax.crypto"))
                 .map(cls -> {
                     URL callerCodeBase = JceSecurity.getCodeBase(cls);
                     return (callerCodeBase != null) ?
@@ -203,7 +203,7 @@ final class JceSecurityManager {
         return (CryptoPermission)enum_.nextElement();
     }
 
-    // Only used by javax.crypto.Cipher constructor to disallow Cipher
+    // Only used by java.base.share.classes.javax.crypto.Cipher constructor to disallow Cipher
     // objects being constructed by untrusted code (See bug 4341369 &
     // 4334690 for more info).
     boolean isCallerTrusted(Class<?> caller, Provider provider) {

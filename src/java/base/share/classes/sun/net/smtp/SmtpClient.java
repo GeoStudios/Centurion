@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.smtp;
+package java.base.share.classes.sun.net.smtp;
 
 import java.io.*;
 import java.net.*;

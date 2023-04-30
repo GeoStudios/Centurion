@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
 import java.security.AccessControlContext;
 import java.security.AccessController;

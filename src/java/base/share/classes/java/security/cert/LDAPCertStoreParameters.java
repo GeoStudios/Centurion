@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 /**
  * Parameters used as input for the LDAP {@code CertStore} algorithm.
@@ -11,7 +11,7 @@ package java.security.cert;
  * name and port number) to implementations of the LDAP {@code CertStore}
  * algorithm. However, if you are retrieving certificates or CRLs from
  * an ldap URI as specified by RFC 5280, use the
- * {@link java.security.cert.URICertStoreParameters URICertStoreParameters}
+ * {@link java.base.share.classes.java.security.cert.URICertStoreParameters URICertStoreParameters}
  * instead, as the URI may contain additional information such as the
  * distinguished name that will help the LDAP CertStore find the specific
  * certificates and CRLs.

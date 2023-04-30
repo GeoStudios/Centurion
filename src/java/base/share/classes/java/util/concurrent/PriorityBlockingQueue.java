@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -28,8 +28,8 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.SortedSet;
 import java.util.Spliterator;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import jdk.internal.access.SharedSecrets;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * A private key.
@@ -11,7 +11,7 @@ package java.security;
  * <p>
  * Note: The specialized private key interfaces extend this interface.
  * See, for example, the {@code DSAPrivateKey} interface in
- * {@link java.security.interfaces}.
+ * {@link java.base.share.classes.java.security.interfaces}.
  * <p>
  * Implementations should override the default {@code destroy} and
  * {@code isDestroyed} methods from the
@@ -25,11 +25,11 @@ package java.security;
  *
  * @see Key
  * @see PublicKey
- * @see java.security.cert.Certificate
+ * @see java.base.share.classes.java.security.cert.Certificate
  * @see Signature#initVerify
- * @see java.security.interfaces.DSAPrivateKey
- * @see java.security.interfaces.RSAPrivateKey
- * @see java.security.interfaces.RSAPrivateCrtKey
+ * @see java.base.share.classes.java.security.interfaces.DSAPrivateKey
+ * @see java.base.share.classes.java.security.interfaces.RSAPrivateKey
+ * @see java.base.share.classes.java.security.interfaces.RSAPrivateCrtKey
  *
  * @author Benjamin Renaud
  * @author Josh Bloch

@@ -5,7 +5,7 @@
 /*
  */
 
-package sun.text.resources;
+package java.base.share.classes.sun.text.resources;
 
 import java.util.ListResourceBundle;
 

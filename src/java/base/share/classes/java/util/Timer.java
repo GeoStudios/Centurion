@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
-import java.util.Date;
-import java.util.concurrent.atomic.AtomicInteger;
+package java.base.share.classes.java.util;
+import java.base.share.classes.java.util.Date;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import java.lang.ref.Cleaner.Cleanable;
 import jdk.internal.ref.CleanerFactory;
 
@@ -42,9 +42,9 @@ import jdk.internal.ref.CleanerFactory;
  * <p>This class does <i>not</i> offer real-time guarantees: it schedules
  * tasks using the {@code Object.wait(long)} method.
  *
- * <p>Java 5.0 introduced the {@code java.util.concurrent} package and
+ * <p>Java 5.0 introduced the {@code java.base.share.classes.java.util.concurrent} package and
  * one of the concurrency utilities therein is the {@link
- * java.util.concurrent.ScheduledThreadPoolExecutor
+ * java.base.share.classes.java.util.concurrent.ScheduledThreadPoolExecutor
  * ScheduledThreadPoolExecutor} which is a thread pool for repeatedly
  * executing tasks at a given rate or delay.  It is effectively a more
  * versatile replacement for the {@code Timer}/{@code TimerTask}

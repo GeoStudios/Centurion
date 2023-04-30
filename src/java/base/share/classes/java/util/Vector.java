@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.StreamCorruptedException;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.UnaryOperator;
 
 import jdk.internal.util.ArraysSupport;
 

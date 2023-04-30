@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.*;
 import java.util.*;
@@ -22,8 +22,8 @@ import jdk.internal.misc.InternalLock;
  * subclass of either {@link RuntimeException} or {@link Error} are
  * regarded as checked exceptions.
  *
- * <p>Instances of two subclasses, {@link java.lang.Error} and
- * {@link java.lang.Exception}, are conventionally used to indicate
+ * <p>Instances of two subclasses, {@link java.base.share.classes.java.lang.Error} and
+ * {@link java.base.share.classes.java.lang.Exception}, are conventionally used to indicate
  * that exceptional situations have occurred. Typically, these instances
  * are freshly created in the context of the exceptional situation so
  * as to include relevant information (such as stack trace data).
@@ -488,7 +488,7 @@ public class Throwable implements Serializable {
      * information depends on the implementation, but the following
      * example may be regarded as typical:
      * <blockquote><pre>
-     * java.lang.NullPointerException
+     * java.base.share.classes.java.lang.NullPointerException
      *         at MyClass.mash(MyClass.java:9)
      *         at MyClass.crunch(MyClass.java:6)
      *         at MyClass.main(MyClass.java:3)
@@ -588,7 +588,7 @@ public class Throwable implements Serializable {
      * regarded as typical:
      *
      * <pre>
-     * Exception in thread "main" java.lang.Exception: Something happened
+     * Exception in thread "main" java.base.share.classes.java.lang.Exception: Something happened
      *         at Foo.bar(Foo.java:10)
      *         at Foo.main(Foo.java:5)
      *         Suppressed: Resource$CloseFailException: Resource ID = 0
@@ -603,7 +603,7 @@ public class Throwable implements Serializable {
      * <p>An exception can have both a cause and one or more suppressed
      * exceptions:
      * <pre>
-     * Exception in thread "main" java.lang.Exception: Main block
+     * Exception in thread "main" java.base.share.classes.java.lang.Exception: Main block
      *         at Foo3.main(Foo3.java:7)
      *         Suppressed: Resource$CloseFailException: Resource ID = 2
      *                 at Resource.close(Resource.java:26)
@@ -611,17 +611,17 @@ public class Throwable implements Serializable {
      *         Suppressed: Resource$CloseFailException: Resource ID = 1
      *                 at Resource.close(Resource.java:26)
      *                 at Foo3.main(Foo3.java:5)
-     * Caused by: java.lang.Exception: I did it
+     * Caused by: java.base.share.classes.java.lang.Exception: I did it
      *         at Foo3.main(Foo3.java:8)
      * </pre>
      * Likewise, a suppressed exception can have a cause:
      * <pre>
-     * Exception in thread "main" java.lang.Exception: Main block
+     * Exception in thread "main" java.base.share.classes.java.lang.Exception: Main block
      *         at Foo4.main(Foo4.java:6)
      *         Suppressed: Resource2$CloseFailException: Resource ID = 1
      *                 at Resource2.close(Resource2.java:20)
      *                 at Foo4.main(Foo4.java:5)
-     *         Caused by: java.lang.Exception: Rats, you caught me
+     *         Caused by: java.base.share.classes.java.lang.Exception: Rats, you caught me
      *                 at Resource2$CloseFailException.&lt;init&gt;(Resource2.java:45)
      *                 ... 2 more
      * </pre>
@@ -791,7 +791,7 @@ public class Throwable implements Serializable {
      * writable}, calling this method has no effect.
      *
      * @return  a reference to this {@code Throwable} instance.
-     * @see     java.lang.Throwable#printStackTrace()
+     * @see     java.base.share.classes.java.lang.Throwable#printStackTrace()
      */
     public synchronized Throwable fillInStackTrace() {
         if (stackTrace != null ||

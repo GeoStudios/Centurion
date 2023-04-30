@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.jar;
+package java.base.share.classes.jdk.internal.util.jar;
 
 /**
  * Thrown if the URLClassLoader finds the INDEX.LIST file of

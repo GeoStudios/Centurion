@@ -1,15 +1,15 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.random.RandomGenerator;
-import java.util.random.RandomGenerator.SplittableGenerator;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.random.RandomGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.SplittableGenerator;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.util.random.RandomSupport;
 import jdk.internal.util.random.RandomSupport.AbstractSplittableGenerator;
 import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
@@ -20,7 +20,7 @@ import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
  * computations that may generate subtasks. Class {@code SplittableRandom}
  * supports methods for producing pseudorandom numbers of type {@code int},
  * {@code long}, and {@code double} with similar usages as for class
- * {@link java.util.Random} but differs in the following ways:
+ * {@link java.base.share.classes.java.util.Random} but differs in the following ways:
  *
  * <ul>
  *
@@ -44,7 +44,7 @@ import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
  *
  * <li>Instances of SplittableRandom are <em>not</em> thread-safe.
  * They are designed to be split, not shared, across threads. For
- * example, a {@link java.util.concurrent.ForkJoinTask
+ * example, a {@link java.base.share.classes.java.util.concurrent.ForkJoinTask
  * fork/join-style} computation using random numbers might include a
  * construction of the form {@code new
  * Subtask(aSplittableRandom.split()).fork()}.
@@ -60,7 +60,7 @@ import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
  * in security-sensitive applications. Additionally,
  * default-constructed instances do not use a cryptographically random
  * seed unless the {@linkplain System#getProperty system property}
- * {@code java.util.secureRandomSeed} is set to {@code true}.
+ * {@code java.base.share.classes.java.util.secureRandomSeed} is set to {@code true}.
  *
  * @author  Guy Steele
  * @author  Doug Lea
@@ -125,7 +125,7 @@ public final class SplittableRandom implements RandomGenerator, SplittableGenera
      * manner, so we use an AtomicLong to represent the seed rather
      * than use an explicit SplittableRandom. To bootstrap the
      * defaultGen, we start off using a seed based on current time
-     * unless the java.util.secureRandomSeed property is set. This
+     * unless the java.base.share.classes.java.util.secureRandomSeed property is set. This
      * serves as a slimmed-down (and insecure) variant of SecureRandom
      * that also avoids stalls that may occur when using /dev/random.
      *
@@ -211,7 +211,7 @@ public final class SplittableRandom implements RandomGenerator, SplittableGenera
         }
 
         @Override
-        public java.util.SplittableRandom split(SplittableGenerator source) {
+        public java.base.share.classes.java.util.SplittableRandom split(SplittableGenerator source) {
             return new SplittableRandom(source.nextLong(), mixGamma(source.nextLong()));
         }
     }

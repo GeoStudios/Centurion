@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.icu.lang;
+package java.base.share.classes.jdk.internal.icu.lang;
 
 import jdk.internal.icu.impl.UBiDiProps;
 import jdk.internal.icu.impl.UCharacterProperty;

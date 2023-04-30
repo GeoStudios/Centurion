@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.*;
-import java.security.cert.Certificate;
-import java.security.cert.X509Certificate;
-import java.security.cert.CertificateException;
-import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.X509Certificate;
+import java.base.share.classes.java.security.cert.CertificateException;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.util.*;
 import javax.crypto.SecretKey;
 
@@ -164,9 +164,9 @@ import sun.security.util.Debug;
  *
  * @author Jan Luehe
  *
- * @see java.security.PrivateKey
+ * @see java.base.share.classes.java.security.PrivateKey
  * @see javax.crypto.SecretKey
- * @see java.security.cert.Certificate
+ * @see java.base.share.classes.java.security.cert.Certificate
  *
  * @since 1.2
  */
@@ -964,7 +964,7 @@ public class KeyStore {
      * @return the default keystore type as specified by the
      * {@code keystore.type} security property, or the string {@literal "jks"}
      * if no such property exists.
-     * @see java.security.Security security properties
+     * @see java.base.share.classes.java.security.Security security properties
      */
     public static final String getDefaultType() {
         @SuppressWarnings("removal")
@@ -1136,7 +1136,7 @@ public class KeyStore {
      * Assigns the given key to the given alias, protecting it with the given
      * password.
      *
-     * <p>If the given key is of type {@code java.security.PrivateKey},
+     * <p>If the given key is of type {@code java.base.share.classes.java.security.PrivateKey},
      * it must be accompanied by a certificate chain certifying the
      * corresponding public key.
      *
@@ -1149,7 +1149,7 @@ public class KeyStore {
      * @param password the password to protect the key
      * @param chain the certificate chain for the corresponding public
      * key (only required if the given key is of type
-     * {@code java.security.PrivateKey}).
+     * {@code java.base.share.classes.java.security.PrivateKey}).
      *
      * @throws    KeyStoreException if the keystore has not been initialized
      * (loaded), the given key cannot be protected, or this operation fails
@@ -1176,7 +1176,7 @@ public class KeyStore {
      * alias.
      *
      * <p>If the protected key is of type
-     * {@code java.security.PrivateKey}, it must be accompanied by a
+     * {@code java.base.share.classes.java.security.PrivateKey}, it must be accompanied by a
      * certificate chain certifying the corresponding public key. If the
      * underlying keystore implementation is of type {@code jks},
      * {@code key} must be encoded as an
@@ -1190,7 +1190,7 @@ public class KeyStore {
      * @param key the key (in protected format) to be associated with the alias
      * @param chain the certificate chain for the corresponding public
      *          key (only useful if the protected key is of type
-     *          {@code java.security.PrivateKey}).
+     *          {@code java.base.share.classes.java.security.PrivateKey}).
      *
      * @throws    KeyStoreException if the keystore has not been initialized
      * (loaded), or if this operation fails for some other reason.

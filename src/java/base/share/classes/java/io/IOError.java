@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Thrown when a serious I/O error has occurred.
@@ -26,6 +26,6 @@ public class IOError extends Error {
         super(cause);
     }
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 67100927991680413L;
 }

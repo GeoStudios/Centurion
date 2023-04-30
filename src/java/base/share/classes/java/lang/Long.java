@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Native;
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
 import java.math.*;
 import java.util.Objects;
 import java.util.Optional;
@@ -16,9 +16,9 @@ import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static java.lang.String.COMPACT_STRINGS;
-import static java.lang.String.LATIN1;
-import static java.lang.String.UTF16;
+import static java.base.share.classes.java.lang.String.COMPACT_STRINGS;
+import static java.base.share.classes.java.lang.String.LATIN1;
+import static java.base.share.classes.java.lang.String.UTF16;
 
 /**
  * The {@code Long} class wraps a value of the primitive type {@code
@@ -101,7 +101,7 @@ public final class Long extends Number
      * are used as radix-<var>N</var> digits in the order shown. Thus,
      * the digits for hexadecimal (radix 16) are
      * {@code 0123456789abcdef}. If uppercase letters are
-     * desired, the {@link java.lang.String#toUpperCase()} method may
+     * desired, the {@link java.base.share.classes.java.lang.String#toUpperCase()} method may
      * be called on the result:
      *
      * <blockquote>
@@ -111,8 +111,8 @@ public final class Long extends Number
      * @param   i       a {@code long} to be converted to a string.
      * @param   radix   the radix to use in the string representation.
      * @return  a string representation of the argument in the specified radix.
-     * @see     java.lang.Character#MAX_RADIX
-     * @see     java.lang.Character#MIN_RADIX
+     * @see     java.base.share.classes.java.lang.Character#MAX_RADIX
+     * @see     java.base.share.classes.java.lang.Character#MIN_RADIX
      */
     public static String toString(long i, int radix) {
         if (radix < Character.MIN_RADIX || radix > Character.MAX_RADIX)
@@ -260,7 +260,7 @@ public final class Long extends Number
      * These are the characters {@code '\u005Cu0030'} through
      * {@code '\u005Cu0039'} and  {@code '\u005Cu0061'} through
      * {@code '\u005Cu0066'}.  If uppercase letters are desired,
-     * the {@link java.lang.String#toUpperCase()} method may be called
+     * the {@link java.base.share.classes.java.lang.String#toUpperCase()} method may be called
      * on the result:
      *
      * <blockquote>
@@ -584,7 +584,7 @@ public final class Long extends Number
      * Parses the string argument as a signed {@code long} in the
      * radix specified by the second argument. The characters in the
      * string must all be digits of the specified radix (as determined
-     * by whether {@link java.lang.Character#digit(char, int)} returns
+     * by whether {@link java.base.share.classes.java.lang.Character#digit(char, int)} returns
      * a nonnegative value), except that the first character may be an
      * ASCII minus sign {@code '-'} ({@code '\u005Cu002D'}) to
      * indicate a negative value or an ASCII plus sign {@code '+'}
@@ -607,8 +607,8 @@ public final class Long extends Number
      * length zero.
      *
      * <li>The {@code radix} is either smaller than {@link
-     * java.lang.Character#MIN_RADIX} or larger than {@link
-     * java.lang.Character#MAX_RADIX}.
+     * java.base.share.classes.java.lang.Character#MIN_RADIX} or larger than {@link
+     * java.base.share.classes.java.lang.Character#MAX_RADIX}.
      *
      * <li>Any character of the string is not a digit of the specified
      * radix, except that the first character may be a minus sign
@@ -719,8 +719,8 @@ public final class Long extends Number
      * @throws     NumberFormatException  if the {@code CharSequence} does not
      *             contain a parsable {@code long} in the specified
      *             {@code radix}, or if {@code radix} is either smaller than
-     *             {@link java.lang.Character#MIN_RADIX} or larger than
-     *             {@link java.lang.Character#MAX_RADIX}.
+     *             {@link java.base.share.classes.java.lang.Character#MIN_RADIX} or larger than
+     *             {@link java.base.share.classes.java.lang.Character#MAX_RADIX}.
      * @since  9
      */
     public static long parseLong(CharSequence s, int beginIndex, int endIndex, int radix)
@@ -789,7 +789,7 @@ public final class Long extends Number
      * indicate a positive value. The resulting {@code long} value is
      * returned, exactly as if the argument and the radix {@code 10}
      * were given as arguments to the {@link
-     * #parseLong(java.lang.String, int)} method.
+     * #parseLong(java.base.share.classes.java.lang.String, int)} method.
      *
      * <p>Note that neither the character {@code L}
      * ({@code '\u005Cu004C'}) nor {@code l}
@@ -816,7 +816,7 @@ public final class Long extends Number
      *
      * The characters in the string must all be digits of the
      * specified radix (as determined by whether {@link
-     * java.lang.Character#digit(char, int)} returns a nonnegative
+     * java.base.share.classes.java.lang.Character#digit(char, int)} returns a nonnegative
      * value), except that the first character may be an ASCII plus
      * sign {@code '+'} ({@code '\u005Cu002B'}). The resulting
      * integer value is returned.
@@ -828,8 +828,8 @@ public final class Long extends Number
      * length zero.
      *
      * <li>The radix is either smaller than
-     * {@link java.lang.Character#MIN_RADIX} or
-     * larger than {@link java.lang.Character#MAX_RADIX}.
+     * {@link java.base.share.classes.java.lang.Character#MIN_RADIX} or
+     * larger than {@link java.base.share.classes.java.lang.Character#MAX_RADIX}.
      *
      * <li>Any character of the string is not a digit of the specified
      * radix, except that the first character may be a plus sign
@@ -963,8 +963,8 @@ public final class Long extends Number
      * @throws     NumberFormatException  if the {@code CharSequence} does not
      *             contain a parsable unsigned {@code long} in the specified
      *             {@code radix}, or if {@code radix} is either smaller than
-     *             {@link java.lang.Character#MIN_RADIX} or larger than
-     *             {@link java.lang.Character#MAX_RADIX}.
+     *             {@link java.base.share.classes.java.lang.Character#MIN_RADIX} or larger than
+     *             {@link java.base.share.classes.java.lang.Character#MAX_RADIX}.
      * @since  9
      */
     public static long parseUnsignedLong(CharSequence s, int beginIndex, int endIndex, int radix)
@@ -1063,7 +1063,7 @@ public final class Long extends Number
      * '+'} ({@code '\u005Cu002B'}). The resulting integer value
      * is returned, exactly as if the argument and the radix 10 were
      * given as arguments to the {@link
-     * #parseUnsignedLong(java.lang.String, int)} method.
+     * #parseUnsignedLong(java.base.share.classes.java.lang.String, int)} method.
      *
      * @param s   a {@code String} containing the unsigned {@code long}
      *            representation to be parsed
@@ -1083,7 +1083,7 @@ public final class Long extends Number
      * argument is interpreted as representing a signed
      * {@code long} in the radix specified by the second
      * argument, exactly as if the arguments were given to the {@link
-     * #parseLong(java.lang.String, int)} method. The result is a
+     * #parseLong(java.base.share.classes.java.lang.String, int)} method. The result is a
      * {@code Long} object that represents the {@code long}
      * value specified by the string.
      *
@@ -1111,7 +1111,7 @@ public final class Long extends Number
      * of the specified {@code String}. The argument is
      * interpreted as representing a signed decimal {@code long},
      * exactly as if the argument were given to the {@link
-     * #parseLong(java.lang.String)} method. The result is a
+     * #parseLong(java.base.share.classes.java.lang.String)} method. The result is a
      * {@code Long} object that represents the integer value
      * specified by the string.
      *
@@ -1221,7 +1221,7 @@ public final class Long extends Number
      *            value represented by {@code nm}
      * @throws    NumberFormatException  if the {@code String} does not
      *            contain a parsable {@code long}.
-     * @see java.lang.Long#parseLong(String, int)
+     * @see java.base.share.classes.java.lang.Long#parseLong(String, int)
      * @since 1.2
      */
     public static Long decode(String nm) throws NumberFormatException {
@@ -1377,7 +1377,7 @@ public final class Long extends Number
      * {@code Long}'s value.  The value is converted to signed
      * decimal representation and returned as a string, exactly as if
      * the {@code long} value were given as an argument to the
-     * {@link java.lang.Long#toString(long)} method.
+     * {@link java.base.share.classes.java.lang.Long#toString(long)} method.
      *
      * @return  a string representation of the value of this object in
      *          base&nbsp;10.
@@ -1438,7 +1438,7 @@ public final class Long extends Number
      *
      * <p>The first argument is treated as the name of a system
      * property.  System properties are accessible through the {@link
-     * java.lang.System#getProperty(java.lang.String)} method. The
+     * java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)} method. The
      * string value of this property is then interpreted as a {@code
      * long} value using the grammar supported by {@link Long#decode decode}
      * and a {@code Long} object representing this value is returned.
@@ -1459,8 +1459,8 @@ public final class Long extends Number
      * @return  the {@code Long} value of the property.
      * @throws  SecurityException for the same reasons as
      *          {@link System#getProperty(String) System.getProperty}
-     * @see     java.lang.System#getProperty(java.lang.String)
-     * @see     java.lang.System#getProperty(java.lang.String, java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String)
      */
     public static Long getLong(String nm) {
         return getLong(nm, null);
@@ -1472,7 +1472,7 @@ public final class Long extends Number
      *
      * <p>The first argument is treated as the name of a system
      * property.  System properties are accessible through the {@link
-     * java.lang.System#getProperty(java.lang.String)} method. The
+     * java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)} method. The
      * string value of this property is then interpreted as a {@code
      * long} value using the grammar supported by {@link Long#decode decode}
      * and a {@code Long} object representing this value is returned.
@@ -1504,8 +1504,8 @@ public final class Long extends Number
      * @return  the {@code Long} value of the property.
      * @throws  SecurityException for the same reasons as
      *          {@link System#getProperty(String) System.getProperty}
-     * @see     java.lang.System#getProperty(java.lang.String)
-     * @see     java.lang.System#getProperty(java.lang.String, java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String)
      */
     public static Long getLong(String nm, long val) {
         Long result = Long.getLong(nm, null);
@@ -1516,7 +1516,7 @@ public final class Long extends Number
      * Returns the {@code long} value of the system property with
      * the specified name.  The first argument is treated as the name
      * of a system property.  System properties are accessible through
-     * the {@link java.lang.System#getProperty(java.lang.String)}
+     * the {@link java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)}
      * method. The string value of this property is then interpreted
      * as a {@code long} value, as per the
      * {@link Long#decode decode} method, and a {@code Long} object
@@ -1526,15 +1526,15 @@ public final class Long extends Number
      * <li>If the property value begins with the two ASCII characters
      * {@code 0x} or the ASCII character {@code #}, not followed by
      * a minus sign, then the rest of it is parsed as a hexadecimal integer
-     * exactly as for the method {@link #valueOf(java.lang.String, int)}
+     * exactly as for the method {@link #valueOf(java.base.share.classes.java.lang.String, int)}
      * with radix 16.
      * <li>If the property value begins with the ASCII character
      * {@code 0} followed by another character, it is parsed as
      * an octal integer exactly as by the method {@link
-     * #valueOf(java.lang.String, int)} with radix 8.
+     * #valueOf(java.base.share.classes.java.lang.String, int)} with radix 8.
      * <li>Otherwise the property value is parsed as a decimal
      * integer exactly as by the method
-     * {@link #valueOf(java.lang.String, int)} with radix 10.
+     * {@link #valueOf(java.base.share.classes.java.lang.String, int)} with radix 10.
      * </ul>
      *
      * <p>Note that, in every case, neither {@code L}
@@ -1553,8 +1553,8 @@ public final class Long extends Number
      * @return  the {@code Long} value of the property.
      * @throws  SecurityException for the same reasons as
      *          {@link System#getProperty(String) System.getProperty}
-     * @see     System#getProperty(java.lang.String)
-     * @see     System#getProperty(java.lang.String, java.lang.String)
+     * @see     System#getProperty(java.base.share.classes.java.lang.String)
+     * @see     System#getProperty(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String)
      */
     public static Long getLong(String nm, Long val) {
         String v = null;

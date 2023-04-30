@@ -2,17 +2,17 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
-import java.net.spi.InetAddressResolver.LookupPolicy;
+import java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy;
 
 /*
  * Package private interface to "implementation" used by
  * {@link InetAddress}.
  * <p>
- * See {@link java.net.Inet4AddressImp} and
- * {@link java.net.Inet6AddressImp}.
+ * See {@link java.base.share.classes.java.net.Inet4AddressImp} and
+ * {@link java.base.share.classes.java.net.Inet6AddressImp}.
  *
  * @since 1.4
  */

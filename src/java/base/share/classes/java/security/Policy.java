@@ -3,7 +3,7 @@
  */
 
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.util.Enumeration;
 import java.util.WeakHashMap;
@@ -58,10 +58,10 @@ import sun.security.util.SecurityConstants;
  * @author Roland Schemers
  * @author Gary Ellison
  * @since 1.2
- * @see java.security.Provider
- * @see java.security.ProtectionDomain
- * @see java.security.Permission
- * @see java.security.Security security properties
+ * @see java.base.share.classes.java.security.Provider
+ * @see java.base.share.classes.java.security.ProtectionDomain
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Security security properties
  * @deprecated This class is only useful in conjunction with
  *       {@linkplain SecurityManager the Security Manager}, which is deprecated
  *       and subject to removal in a future release. Consequently, this class
@@ -141,7 +141,7 @@ public abstract class Policy {
      *        getting the {@code Policy} object.
      *
      * @see SecurityManager#checkPermission(Permission)
-     * @see #setPolicy(java.security.Policy)
+     * @see #setPolicy(java.base.share.classes.java.security.Policy)
      */
     public static Policy getPolicy()
     {
@@ -718,7 +718,7 @@ public abstract class Policy {
      * @return {@code true} if "permission" is a proper subset of a permission
      * granted to this ProtectionDomain.
      *
-     * @see java.security.ProtectionDomain
+     * @see java.base.share.classes.java.security.ProtectionDomain
      * @since 1.4
      */
     public boolean implies(ProtectionDomain domain, Permission permission) {

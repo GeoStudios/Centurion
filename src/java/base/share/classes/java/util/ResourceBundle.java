@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,12 +21,12 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.jar.JarEntry;
-import java.util.spi.ResourceBundleControlProvider;
-import java.util.spi.ResourceBundleProvider;
-import java.util.stream.Stream;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.jar.JarEntry;
+import java.base.share.classes.java.util.spi.ResourceBundleControlProvider;
+import java.base.share.classes.java.util.spi.ResourceBundleProvider;
+import java.base.share.classes.java.util.stream.Stream;
 
 import jdk.internal.loader.BootLoader;
 import jdk.internal.access.JavaUtilResourceBundleAccess;
@@ -87,7 +87,7 @@ import static sun.security.util.SecurityConstants.GET_CLASSLOADER_PERMISSION;
  * <P>
  * When your program needs a locale-specific object, it loads
  * the {@code ResourceBundle} class using the
- * {@link #getBundle(java.lang.String, java.util.Locale) getBundle}
+ * {@link #getBundle(java.lang.String, java.base.share.classes.java.util.Locale) getBundle}
  * method:
  * <blockquote>
  * <pre>
@@ -425,7 +425,7 @@ public abstract class ResourceBundle {
      * @return The base name of the resource bundle, as provided to and expected
      * by the {@code ResourceBundle.getBundle(...)} methods.
      *
-     * @see #getBundle(java.lang.String, java.util.Locale, java.lang.ClassLoader)
+     * @see #getBundle(java.lang.String, java.base.share.classes.java.util.Locale, java.lang.ClassLoader)
      *
      * @since 1.8
      */
@@ -956,7 +956,7 @@ public abstract class ResourceBundle {
      * equivalent to calling {@link #getBundle(String, Locale, ClassLoader)
      * getBundle(baseName, targetLocale, module.getClassLoader()} to load
      * resource bundles that are visible to the class loader of the given
-     * unnamed module. Custom {@link java.util.spi.ResourceBundleControlProvider}
+     * unnamed module. Custom {@link java.base.share.classes.java.util.spi.ResourceBundleControlProvider}
      * implementations, if present, will only be invoked if the specified
      * module is an unnamed module.
      *
@@ -1057,7 +1057,7 @@ public abstract class ResourceBundle {
      * <b><a id="default_behavior">Resource Bundle Search and Loading Strategy</a></b>
      *
      * <p>{@code getBundle} uses the base name, the specified locale, and
-     * the default locale (obtained from {@link java.util.Locale#getDefault()
+     * the default locale (obtained from {@link java.base.share.classes.java.util.Locale#getDefault()
      * Locale.getDefault}) to generate a sequence of <a
      * id="candidates"><em>candidate bundle names</em></a>.  If the specified
      * locale's language, script, country, and variant are all empty strings,
@@ -1163,7 +1163,7 @@ public abstract class ResourceBundle {
      * looking for a class and then a properties file, as described above).
      *
      * <p>Whenever it succeeds, it calls the previously instantiated resource
-     * bundle's {@link #setParent(java.util.ResourceBundle) setParent} method
+     * bundle's {@link #setParent(java.base.share.classes.java.util.ResourceBundle) setParent} method
      * with the new resource bundle.  This continues until the list of names
      * is exhausted or the current bundle already has a non-null parent.
      *
@@ -2397,8 +2397,8 @@ public abstract class ResourceBundle {
      * up only properties-based resources.
      *
      * <pre>
-     * import java.util.*;
-     * import static java.util.ResourceBundle.Control.*;
+     * import java.base.share.classes.java.util.*;
+     * import static java.base.share.classes.java.util.ResourceBundle.Control.*;
      * ...
      * ResourceBundle bundle =
      *   ResourceBundle.getBundle("MyResources", Locale.forLanguageTag("fr-CH"),
@@ -2493,7 +2493,7 @@ public abstract class ResourceBundle {
      *
      * @since 1.6
      * @revised 9
-     * @see java.util.spi.ResourceBundleProvider
+     * @see java.base.share.classes.java.util.spi.ResourceBundleProvider
      */
     public static class Control {
         /**
@@ -3117,7 +3117,7 @@ public abstract class ResourceBundle {
          * @throws    IOException
          *        if an error occurred when reading resources using
          *        any I/O operations
-         * @see java.util.spi.ResourceBundleProvider#getBundle(String, Locale)
+         * @see java.base.share.classes.java.util.spi.ResourceBundleProvider#getBundle(String, Locale)
          * @revised 9
          */
         public ResourceBundle newBundle(String baseName, Locale locale, String format,
@@ -3420,7 +3420,7 @@ public abstract class ResourceBundle {
          * @throws    NullPointerException
          *        if {@code baseName} or {@code locale}
          *        is {@code null}
-         * @see java.util.spi.AbstractResourceBundleProvider#toBundleName(String, Locale)
+         * @see java.base.share.classes.java.util.spi.AbstractResourceBundleProvider#toBundleName(String, Locale)
          */
         public String toBundleName(String baseName, Locale locale) {
             if (locale == Locale.ROOT) {

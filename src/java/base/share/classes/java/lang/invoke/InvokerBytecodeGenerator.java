@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
@@ -26,12 +26,12 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.*;
 
 /**
  * Code generation backend for LambdaForm.
@@ -1013,7 +1013,7 @@ class InvokerBytecodeGenerator {
         if (!isStaticallyInvocableType(member.getMethodOrFieldType()))
             return false;
         if (!member.isPrivate() && VerifyAccess.isSamePackage(MethodHandle.class, cls))
-            return true;   // in java.lang.invoke package
+            return true;   // in java.base.share.classes.java.lang.invoke package
         if (member.isPublic() && isStaticallyNameable(cls))
             return true;
         return false;

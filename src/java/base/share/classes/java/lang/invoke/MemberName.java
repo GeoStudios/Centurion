@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.VerifyAccess;
 
@@ -13,9 +13,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Objects;
 
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;
 
 /**
  * A {@code MemberName} is a compact symbolic datum which fully characterizes

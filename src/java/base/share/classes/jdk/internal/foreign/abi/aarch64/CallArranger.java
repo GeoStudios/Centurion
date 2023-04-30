@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi.aarch64;
+package java.base.share.classes.jdk.internal.foreign.abi.aarch64;
 
 import java.lang.foreign.FunctionDescriptor;
 import java.lang.foreign.GroupLayout;
@@ -16,8 +16,8 @@ import jdk.internal.foreign.abi.LinkerOptions;
 import jdk.internal.foreign.abi.UpcallLinker;
 import jdk.internal.foreign.abi.SharedUtils;
 import jdk.internal.foreign.abi.VMStorage;
-import jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64CallArranger;
-import jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64CallArranger;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64CallArranger;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64CallArranger;
 import jdk.internal.foreign.Utils;
 
 import java.lang.foreign.SegmentScope;
@@ -27,8 +27,8 @@ import java.util.List;
 import java.util.Optional;
 
 import static jdk.internal.foreign.PlatformLayouts.*;
-import static jdk.internal.foreign.abi.aarch64.AArch64Architecture.*;
-import static jdk.internal.foreign.abi.aarch64.AArch64Architecture.Regs.*;
+import static java.base.share.classes.jdk.internal.foreign.abi.aarch64.AArch64Architecture.*;
+import static java.base.share.classes.jdk.internal.foreign.abi.aarch64.AArch64Architecture.Regs.*;
 
 /**
  * For the AArch64 C ABI specifically, this class uses CallingSequenceBuilder

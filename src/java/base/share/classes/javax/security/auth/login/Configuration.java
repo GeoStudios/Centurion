@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
 import javax.security.auth.AuthPermission;
 
@@ -162,7 +162,7 @@ import sun.security.jca.GetInstance;
  * for a list of standard Configuration types.
  *
  * @since 1.4
- * @see javax.security.auth.login.LoginContext
+ * @see java.base.share.classes.javax.security.auth.login.LoginContext
  * @see java.security.Security security properties
  */
 public abstract class Configuration {

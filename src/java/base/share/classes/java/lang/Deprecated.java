@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import java.base.share.classes.java.lang.annotation.*;
+import static java.base.share.classes.java.lang.annotation.ElementType.*;
 
 /**
  * A program element annotated {@code @Deprecated} is one that programmers

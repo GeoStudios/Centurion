@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 import java.security.*;
 import java.lang.invoke.MethodHandles;
@@ -280,7 +280,7 @@ public class SSLContext {
      * <P>
      * Only the first instance of a particular key and/or trust manager
      * implementation type in the array is used.  (For example, only
-     * the first javax.net.ssl.X509KeyManager in the array will be used.)
+     * the first java.base.share.classes.javax.net.ssl.X509KeyManager in the array will be used.)
      *
      * @param km the sources of authentication keys or null
      * @param tm the sources of peer authentication trust decisions or null

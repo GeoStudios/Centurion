@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.icu.text;
+package java.base.share.classes.jdk.internal.icu.text;
 
 import jdk.internal.icu.impl.CharacterIteratorWrapper;
 import jdk.internal.icu.impl.ReplaceableUCharacterIterator;

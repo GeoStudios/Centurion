@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -269,7 +269,7 @@ public class BufferedWriter extends Writer {
      *
      * @implSpec
      * While the specification of this method in the
-     * {@linkplain java.io.Writer#write(java.lang.String,int,int) superclass}
+     * {@linkplain java.base.share.classes.java.io.Writer#write(java.lang.String,int,int) superclass}
      * recommends that an {@link IndexOutOfBoundsException} be thrown
      * if {@code len} is negative or {@code off + len} is negative,
      * the implementation in this class does not throw such an exception in

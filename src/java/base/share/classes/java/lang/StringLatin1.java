@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -14,10 +14,10 @@ import java.util.stream.StreamSupport;
 import jdk.internal.util.ArraysSupport;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static java.lang.String.LATIN1;
-import static java.lang.String.UTF16;
-import static java.lang.String.checkIndex;
-import static java.lang.String.checkOffset;
+import static java.base.share.classes.java.lang.String.LATIN1;
+import static java.base.share.classes.java.lang.String.UTF16;
+import static java.base.share.classes.java.lang.String.checkIndex;
+import static java.base.share.classes.java.lang.String.checkOffset;
 
 /**
  * @since Pre Java 1

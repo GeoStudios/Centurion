@@ -24,10 +24,10 @@
  * (or values) from being reclaimed, and phantom references are for
  * scheduling post-mortem cleanup actions.
  * Post-mortem cleanup actions can be registered and managed by a
- * {@link java.lang.ref.Cleaner}.
+ * {@link java.base.share.classes.java.lang.ref.Cleaner}.
  *
  * <p> Each reference-object type is implemented by a subclass of the
- * abstract base {@link java.lang.ref.Reference} class.
+ * abstract base {@link java.base.share.classes.java.lang.ref.Reference} class.
  * An instance of one of these subclasses encapsulates a single
  * reference to a particular object, called the <em>referent</em>.
  * Every reference object provides methods for getting and clearing
@@ -49,7 +49,7 @@
  * reference is considered to be <em>enqueued</em>.  The program may remove
  * references from a queue either by polling or by blocking until a
  * reference becomes available.  Reference queues are implemented by
- * the {@link java.lang.ref.ReferenceQueue} class.
+ * the {@link java.base.share.classes.java.lang.ref.ReferenceQueue} class.
  *
  * <p> The relationship between a registered reference object and its
  * queue is one-sided.  That is, a queue does not keep track of the
@@ -67,7 +67,7 @@
  * uses weak references to implement weak keys could poll its
  * reference queue each time the table is accessed.  This is how the
  * {@link java.util.WeakHashMap} class works.  Because
- * the {@link java.lang.ref.ReferenceQueue#poll
+ * the {@link java.base.share.classes.java.lang.ref.ReferenceQueue#poll
  * ReferenceQueue.poll} method simply checks an internal data
  * structure, this check will add little overhead to the hashtable
  * access methods.
@@ -107,4 +107,4 @@
  * @author        Mark Reinhold
  * @since         1.2
  */
-package java.lang.ref;
+package java.base.share.classes.java.lang.ref;

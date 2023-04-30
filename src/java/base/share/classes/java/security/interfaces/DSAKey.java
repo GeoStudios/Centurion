@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.interfaces;
+package java.base.share.classes.java.security.interfaces;
 
 /**
  * The interface to a DSA public or private key. DSA (Digital Signature

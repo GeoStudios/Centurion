@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.foreign.abi.riscv64;
+package java.base.share.classes.jdk.internal.foreign.abi.riscv64;
 
 import jdk.internal.foreign.abi.ABIDescriptor;
 import jdk.internal.foreign.abi.Architecture;
 import jdk.internal.foreign.abi.StubLocations;
 import jdk.internal.foreign.abi.VMStorage;
-import jdk.internal.foreign.abi.riscv64.linux.TypeClass;
+import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.TypeClass;
 
 public class RISCV64Architecture implements Architecture {
     public static final Architecture INSTANCE = new RISCV64Architecture();

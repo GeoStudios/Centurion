@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -24,8 +24,8 @@ import java.io.ObjectStreamField;
  * The <i>wildcard</i> is a special local IP address. It usually means "any"
  * and can only be used for {@code bind} operations.
  *
- * @see java.net.Socket
- * @see java.net.ServerSocket
+ * @see java.base.share.classes.java.net.Socket
+ * @see java.base.share.classes.java.net.ServerSocket
  * @since 1.4
  */
 public class InetSocketAddress
@@ -407,7 +407,7 @@ public class InetSocketAddress
      * @param   obj   the object to compare against.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see java.net.InetAddress#equals(java.lang.Object)
+     * @see java.base.share.classes.java.net.InetAddress#equals(java.lang.Object)
      */
     @Override
     public final boolean equals(Object obj) {

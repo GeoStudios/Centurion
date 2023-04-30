@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.callback;
+package java.base.share.classes.javax.security.auth.callback;
 
 import java.lang.ref.Cleaner;
 import java.util.Arrays;
@@ -15,7 +15,7 @@ import jdk.internal.ref.CleanerFactory;
  * method of a {@code CallbackHandler} to retrieve password information.
  *
  * @since 1.4
- * @see javax.security.auth.callback.CallbackHandler
+ * @see java.base.share.classes.javax.security.auth.callback.CallbackHandler
  */
 public class PasswordCallback implements Callback, java.io.Serializable {
 

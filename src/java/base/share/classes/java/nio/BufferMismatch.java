@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.nio;
+package java.base.share.classes.java.nio;
 
 import jdk.internal.misc.ScopedMemoryAccess;
 import jdk.internal.util.ArraysSupport;

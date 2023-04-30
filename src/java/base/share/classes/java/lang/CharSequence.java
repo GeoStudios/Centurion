@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;
@@ -22,8 +22,8 @@ import java.util.stream.StreamSupport;
  * href="Character.html#unicode">Unicode Character Representation</a> for details.
  *
  * <p> This interface does not refine the general contracts of the {@link
- * java.lang.Object#equals(java.lang.Object) equals} and {@link
- * java.lang.Object#hashCode() hashCode} methods. The result of testing two objects
+ * java.base.share.classes.java.lang.Object#equals(java.base.share.classes.java.lang.Object) equals} and {@link
+ * java.base.share.classes.java.lang.Object#hashCode() hashCode} methods. The result of testing two objects
  * that implement {@code CharSequence} for equality is therefore, in general, undefined.
  * Each object may be implemented by a different class, and there
  * is no guarantee that each class will be capable of testing its instances

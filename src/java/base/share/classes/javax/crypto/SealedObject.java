@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import jdk.internal.access.SharedSecrets;
 
@@ -36,7 +36,7 @@ import java.util.Arrays;
  *
  * <ul>
  *
- * <li>by using the {@link #getObject(javax.crypto.Cipher) getObject}
+ * <li>by using the {@link #getObject(java.base.share.classes.javax.crypto.Cipher) getObject}
  * method that takes a {@code Cipher} object.
  *
  * <p> This method requires a fully initialized {@code Cipher} object,

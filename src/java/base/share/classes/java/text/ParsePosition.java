@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 
 /**
@@ -18,7 +18,7 @@ package java.text;
  *
  * @author      Mark Davis
  * @since 1.1
- * @see         java.text.Format
+ * @see         java.base.share.classes.java.text.Format
  */
 
 public class ParsePosition {

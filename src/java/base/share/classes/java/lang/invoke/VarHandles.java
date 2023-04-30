@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
@@ -18,9 +18,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Stream;
 
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.VAR_HANDLE_IDENTITY_ADAPT;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.VAR_HANDLE_IDENTITY_ADAPT;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
 
 final class VarHandles {
 
@@ -725,7 +725,7 @@ final class VarHandles {
 //         * @param args parameters
 //         */
 //        public static void main(String[] args) {
-//            System.out.println("package java.lang.invoke;");
+//            System.out.println("package java.base.share.classes.java.lang.invoke;");
 //            System.out.println();
 //            System.out.println("import jdk.internal.vm.annotation.ForceInline;");
 //            System.out.println("import jdk.internal.vm.annotation.Hidden;");

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.foreign.abi.riscv64.linux;
+package java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux;
 
 import java.lang.foreign.FunctionDescriptor;
 import java.lang.foreign.GroupLayout;
@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import static jdk.internal.foreign.abi.riscv64.linux.TypeClass.*;
+import static java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.TypeClass.*;
 import static jdk.internal.foreign.abi.riscv64.RISCV64Architecture.*;
 import static jdk.internal.foreign.abi.riscv64.RISCV64Architecture.Regs.*;
 import static jdk.internal.foreign.PlatformLayouts.*;

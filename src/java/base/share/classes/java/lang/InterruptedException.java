@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown when a thread is waiting, sleeping, or otherwise occupied,
@@ -16,12 +16,12 @@ package java.lang;
  *     throw new InterruptedException();
  * }
  *
- * @see     java.lang.Object#wait()
- * @see     java.lang.Object#wait(long)
- * @see     java.lang.Object#wait(long, int)
- * @see     java.lang.Thread#sleep(long)
- * @see     java.lang.Thread#interrupt()
- * @see     java.lang.Thread#interrupted()
+ * @see     java.base.share.classes.java.lang.Object#wait()
+ * @see     java.base.share.classes.java.lang.Object#wait(long)
+ * @see     java.base.share.classes.java.lang.Object#wait(long, int)
+ * @see     java.base.share.classes.java.lang.Thread#sleep(long)
+ * @see     java.base.share.classes.java.lang.Thread#interrupt()
+ * @see     java.base.share.classes.java.lang.Thread#interrupted()
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

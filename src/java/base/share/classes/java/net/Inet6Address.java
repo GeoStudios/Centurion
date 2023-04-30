@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -140,7 +140,7 @@ import java.util.Arrays;
  * tools on the system. Each interface may have multiple values, one for each
  * scope. If the scope is unspecified, then the default value used is zero.</li>
  * <li><i>As a string.</i> This must be the exact string that is returned by
- * {@link java.net.NetworkInterface#getName()} for the particular interface in
+ * {@link java.base.share.classes.java.net.NetworkInterface#getName()} for the particular interface in
  * question. When an Inet6Address is created in this way, the numeric scope-id
  * is determined at the time the object is created by querying the relevant
  * NetworkInterface.</li></ol>
@@ -858,7 +858,7 @@ class Inet6Address extends InetAddress {
      *
      * @return  {@code true} if the objects are the same; {@code false} otherwise.
      *
-     * @see     java.net.InetAddress#getAddress()
+     * @see     java.base.share.classes.java.net.InetAddress#getAddress()
      */
     @Override
     public boolean equals(Object obj) {

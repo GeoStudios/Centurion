@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.jimage;
+package java.base.share.classes.jdk.internal.jimage;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Objects;
 import java.util.stream.IntStream;
-import jdk.internal.jimage.decompressor.Decompressor;
+import java.base.share.classes.jdk.internal.jimage.decompressor.Decompressor;
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

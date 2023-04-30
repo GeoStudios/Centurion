@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.Serializable;
 
@@ -89,11 +89,11 @@ import java.io.Serializable;
  * If multiple threads access a format concurrently, it must be synchronized
  * externally.
  *
- * @see          java.text.ParsePosition
- * @see          java.text.FieldPosition
- * @see          java.text.NumberFormat
- * @see          java.text.DateFormat
- * @see          java.text.MessageFormat
+ * @see          java.base.share.classes.java.text.ParsePosition
+ * @see          java.base.share.classes.java.text.FieldPosition
+ * @see          java.base.share.classes.java.text.NumberFormat
+ * @see          java.base.share.classes.java.text.DateFormat
+ * @see          java.base.share.classes.java.text.MessageFormat
  * @author       Mark Davis
  * @since 1.1
  */

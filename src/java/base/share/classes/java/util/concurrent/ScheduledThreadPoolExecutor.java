@@ -13,10 +13,10 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
-import static java.util.concurrent.TimeUnit.MILLISECONDS;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
+import static java.base.share.classes.java.util.concurrent.TimeUnit.MILLISECONDS;
+import static java.base.share.classes.java.util.concurrent.TimeUnit.NANOSECONDS;
 
 import java.util.AbstractQueue;
 import java.util.Arrays;
@@ -25,9 +25,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 
 /**
  * A {@link ThreadPoolExecutor} that can additionally schedule

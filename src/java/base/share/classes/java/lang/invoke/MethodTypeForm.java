@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
 import java.lang.ref.SoftReference;
 
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
 
 /**
  * Shared information for a group of method types, which differ

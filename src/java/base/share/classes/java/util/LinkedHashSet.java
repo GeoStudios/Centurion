@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * <p>Hash table and linked list implementation of the {@code Set} interface,

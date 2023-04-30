@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.*;
-import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidParameterSpecException;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.InvalidParameterSpecException;
 import java.util.Objects;
 
 /**
@@ -44,8 +44,8 @@ import java.util.Objects;
  * @author Jan Luehe
  *
  *
- * @see java.security.spec.AlgorithmParameterSpec
- * @see java.security.spec.DSAParameterSpec
+ * @see java.base.share.classes.java.security.spec.AlgorithmParameterSpec
+ * @see java.base.share.classes.java.security.spec.DSAParameterSpec
  * @see KeyPairGenerator
  *
  * @since 1.2

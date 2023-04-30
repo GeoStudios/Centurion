@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -83,8 +83,8 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * See {@link Comparable}, {@link java.util.SortedMap SortedMap}, or
  * {@link java.util.SortedSet SortedSet} for more information.
  *
- * @see     java.lang.StringBuilder
- * @see     java.lang.String
+ * @see     java.base.share.classes.java.lang.StringBuilder
+ * @see     java.base.share.classes.java.lang.String
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -154,8 +154,8 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
     /**
      * Compares two {@code StringBuffer} instances lexicographically. This method
      * follows the same rules for lexicographical comparison as defined in the
-     * {@linkplain java.lang.CharSequence#compare(java.lang.CharSequence,
-     * java.lang.CharSequence)  CharSequence.compare(this, another)} method.
+     * {@linkplain java.base.share.classes.java.lang.CharSequence#compare(java.base.share.classes.java.lang.CharSequence,
+     * java.base.share.classes.java.lang.CharSequence)  CharSequence.compare(this, another)} method.
      *
      * <p>
      * For finer-grained, locale-sensitive String comparison, refer to

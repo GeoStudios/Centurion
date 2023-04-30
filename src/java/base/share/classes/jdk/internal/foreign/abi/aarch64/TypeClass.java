@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi.aarch64;
+package java.base.share.classes.jdk.internal.foreign.abi.aarch64;
 
 import java.lang.foreign.GroupLayout;
 import java.lang.foreign.MemoryLayout;

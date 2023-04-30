@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.*;
+import java.base.share.classes.java.lang.annotation.*;
 
 /**
  * An informative annotation type used to indicate that an interface
@@ -12,13 +12,13 @@ import java.lang.annotation.*;
  * defined by the Java Language Specification.
  *
  * Conceptually, a functional interface has exactly one abstract
- * method.  Since {@linkplain java.lang.reflect.Method#isDefault()
+ * method.  Since {@linkplain java.base.share.classes.java.lang.reflect.Method#isDefault()
  * default methods} have an implementation, they are not abstract.  If
  * an interface declares an abstract method overriding one of the
- * public methods of {@code java.lang.Object}, that also does
+ * public methods of {@code java.base.share.classes.java.lang.Object}, that also does
  * <em>not</em> count toward the interface's abstract method count
  * since any implementation of the interface will have an
- * implementation from {@code java.lang.Object} or elsewhere.
+ * implementation from {@code java.base.share.classes.java.lang.Object} or elsewhere.
  *
  * <p>Note that instances of functional interfaces can be created with
  * lambda expressions, method references, or constructor references.

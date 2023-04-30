@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.EPOCH_DAY;
 
@@ -337,7 +337,7 @@ final class ChronoLocalDateTimeImpl<D extends ChronoLocalDate>
     //-----------------------------------------------------------------------
     /**
      * Writes the ChronoLocalDateTime using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(2);              // identifies a ChronoLocalDateTime

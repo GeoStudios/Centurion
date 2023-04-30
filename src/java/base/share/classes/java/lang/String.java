@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.ObjectStreamField;
 import java.io.UnsupportedEncodingException;
-import java.lang.annotation.Native;
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.*;
@@ -72,7 +72,7 @@ import sun.nio.cs.UTF_8;
  * searching strings, for extracting substrings, and for creating a
  * copy of a string with all characters translated to uppercase or to
  * lowercase. Case mapping is based on the Unicode Standard version
- * specified by the {@link java.lang.Character Character} class.
+ * specified by the {@link java.base.share.classes.java.lang.Character Character} class.
  * <p>
  * The Java language provides special support for the string
  * concatenation operator (&nbsp;+&nbsp;), and for conversion of
@@ -102,16 +102,16 @@ import sun.nio.cs.UTF_8;
  * the discretion of a Java compiler, as long as the compiler ultimately conforms
  * to <i>The Java Language Specification</i>. For example, the {@code javac} compiler
  * may implement the operator with {@code StringBuffer}, {@code StringBuilder},
- * or {@code java.lang.invoke.StringConcatFactory} depending on the JDK version. The
+ * or {@code java.base.share.classes.java.lang.invoke.StringConcatFactory} depending on the JDK version. The
  * implementation of string conversion is typically through the method {@code toString},
  * defined by {@code Object} and inherited by all classes in Java.
  *
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.lang.Object#toString()
- * @see     java.lang.StringBuffer
- * @see     java.lang.StringBuilder
+ * @see     java.base.share.classes.java.lang.Object#toString()
+ * @see     java.base.share.classes.java.lang.StringBuffer
+ * @see     java.base.share.classes.java.lang.StringBuilder
  * @see     java.nio.charset.Charset
  * @jls     15.18.1 String Concatenation Operator +
  */
@@ -364,10 +364,10 @@ public final class String
      *          {@code offset} is greater than {@code ascii.length - count}
      *
      * @see  #String(byte[], int)
-     * @see  #String(byte[], int, int, java.lang.String)
+     * @see  #String(byte[], int, int, java.base.share.classes.java.lang.String)
      * @see  #String(byte[], int, int, java.nio.charset.Charset)
      * @see  #String(byte[], int, int)
-     * @see  #String(byte[], java.lang.String)
+     * @see  #String(byte[], java.base.share.classes.java.lang.String)
      * @see  #String(byte[], java.nio.charset.Charset)
      * @see  #String(byte[])
      */
@@ -415,10 +415,10 @@ public final class String
      * @param  hibyte
      *         The top 8 bits of each 16-bit Unicode code unit
      *
-     * @see  #String(byte[], int, int, java.lang.String)
+     * @see  #String(byte[], int, int, java.base.share.classes.java.lang.String)
      * @see  #String(byte[], int, int, java.nio.charset.Charset)
      * @see  #String(byte[], int, int)
-     * @see  #String(byte[], java.lang.String)
+     * @see  #String(byte[], java.base.share.classes.java.lang.String)
      * @see  #String(byte[], java.nio.charset.Charset)
      * @see  #String(byte[])
      */
@@ -2856,7 +2856,7 @@ public final class String
      * <code>
      * {@link java.util.regex.Pattern}.{@link
      * java.util.regex.Pattern#compile(String) compile}(<i>regex</i>).{@link
-     * java.util.regex.Pattern#matcher(java.lang.CharSequence) matcher}(<i>str</i>).{@link
+     * java.util.regex.Pattern#matcher(java.base.share.classes.java.lang.CharSequence) matcher}(<i>str</i>).{@link
      * java.util.regex.Matcher#replaceFirst(String) replaceFirst}(<i>repl</i>)
      * </code>
      * </blockquote>
@@ -2900,7 +2900,7 @@ public final class String
      * <code>
      * {@link java.util.regex.Pattern}.{@link
      * java.util.regex.Pattern#compile(String) compile}(<i>regex</i>).{@link
-     * java.util.regex.Pattern#matcher(java.lang.CharSequence) matcher}(<i>str</i>).{@link
+     * java.util.regex.Pattern#matcher(java.base.share.classes.java.lang.CharSequence) matcher}(<i>str</i>).{@link
      * java.util.regex.Matcher#replaceAll(String) replaceAll}(<i>repl</i>)
      * </code>
      * </blockquote>
@@ -3066,7 +3066,7 @@ public final class String
      * <code>
      * {@link java.util.regex.Pattern}.{@link
      * java.util.regex.Pattern#compile(String) compile}(<i>regex</i>).{@link
-     * java.util.regex.Pattern#split(java.lang.CharSequence,int) split}(<i>str</i>,&nbsp;<i>n</i>)
+     * java.util.regex.Pattern#split(java.base.share.classes.java.lang.CharSequence,int) split}(<i>str</i>,&nbsp;<i>n</i>)
      * </code>
      * </blockquote>
      *
@@ -3334,7 +3334,7 @@ public final class String
     /**
      * Converts all of the characters in this {@code String} to lower
      * case using the rules of the given {@code Locale}.  Case mapping is based
-     * on the Unicode Standard version specified by the {@link java.lang.Character Character}
+     * on the Unicode Standard version specified by the {@link java.base.share.classes.java.lang.Character Character}
      * class. Since case mappings are not always 1:1 char mappings, the resulting {@code String}
      * and this {@code String} may differ in length.
      * <p>
@@ -3380,9 +3380,9 @@ public final class String
      *
      * @param locale use the case transformation rules for this locale
      * @return the {@code String}, converted to lowercase.
-     * @see     java.lang.String#toLowerCase()
-     * @see     java.lang.String#toUpperCase()
-     * @see     java.lang.String#toUpperCase(Locale)
+     * @see     java.base.share.classes.java.lang.String#toLowerCase()
+     * @see     java.base.share.classes.java.lang.String#toUpperCase()
+     * @see     java.base.share.classes.java.lang.String#toUpperCase(Locale)
      * @since   1.1
      */
     public String toLowerCase(Locale locale) {
@@ -3407,7 +3407,7 @@ public final class String
      * {@code toLowerCase(Locale.ROOT)}.
      *
      * @return  the {@code String}, converted to lowercase.
-     * @see     java.lang.String#toLowerCase(Locale)
+     * @see     java.base.share.classes.java.lang.String#toLowerCase(Locale)
      */
     public String toLowerCase() {
         return toLowerCase(Locale.getDefault());
@@ -3416,7 +3416,7 @@ public final class String
     /**
      * Converts all of the characters in this {@code String} to upper
      * case using the rules of the given {@code Locale}. Case mapping is based
-     * on the Unicode Standard version specified by the {@link java.lang.Character Character}
+     * on the Unicode Standard version specified by the {@link java.base.share.classes.java.lang.Character Character}
      * class. Since case mappings are not always 1:1 char mappings, the resulting {@code String}
      * and this {@code String} may differ in length.
      * <p>
@@ -3460,9 +3460,9 @@ public final class String
      * </table>
      * @param locale use the case transformation rules for this locale
      * @return the {@code String}, converted to uppercase.
-     * @see     java.lang.String#toUpperCase()
-     * @see     java.lang.String#toLowerCase()
-     * @see     java.lang.String#toLowerCase(Locale)
+     * @see     java.base.share.classes.java.lang.String#toUpperCase()
+     * @see     java.base.share.classes.java.lang.String#toLowerCase()
+     * @see     java.base.share.classes.java.lang.String#toLowerCase(Locale)
      * @since   1.1
      */
     public String toUpperCase(Locale locale) {
@@ -3487,7 +3487,7 @@ public final class String
      * {@code toUpperCase(Locale.ROOT)}.
      *
      * @return  the {@code String}, converted to uppercase.
-     * @see     java.lang.String#toUpperCase(Locale)
+     * @see     java.base.share.classes.java.lang.String#toUpperCase(Locale)
      */
     public String toUpperCase() {
         return toUpperCase(Locale.getDefault());
@@ -4192,7 +4192,7 @@ public final class String
      *
      * @return  A formatted string
      *
-     * @see  java.lang.String#format(String,Object...)
+     * @see  java.base.share.classes.java.lang.String#format(String,Object...)
      * @see  java.util.Formatter
      *
      * @since 15
@@ -4209,7 +4209,7 @@ public final class String
      * @return  if the argument is {@code null}, then a string equal to
      *          {@code "null"}; otherwise, the value of
      *          {@code obj.toString()} is returned.
-     * @see     java.lang.Object#toString()
+     * @see     java.base.share.classes.java.lang.Object#toString()
      */
     public static String valueOf(Object obj) {
         return (obj == null) ? "null" : obj.toString();
@@ -4316,7 +4316,7 @@ public final class String
      *
      * @param   i   an {@code int}.
      * @return  a string representation of the {@code int} argument.
-     * @see     java.lang.Integer#toString(int, int)
+     * @see     java.base.share.classes.java.lang.Integer#toString(int, int)
      */
     public static String valueOf(int i) {
         return Integer.toString(i);
@@ -4330,7 +4330,7 @@ public final class String
      *
      * @param   l   a {@code long}.
      * @return  a string representation of the {@code long} argument.
-     * @see     java.lang.Long#toString(long)
+     * @see     java.base.share.classes.java.lang.Long#toString(long)
      */
     public static String valueOf(long l) {
         return Long.toString(l);
@@ -4344,7 +4344,7 @@ public final class String
      *
      * @param   f   a {@code float}.
      * @return  a string representation of the {@code float} argument.
-     * @see     java.lang.Float#toString(float)
+     * @see     java.base.share.classes.java.lang.Float#toString(float)
      */
     public static String valueOf(float f) {
         return Float.toString(f);
@@ -4358,7 +4358,7 @@ public final class String
      *
      * @param   d   a {@code double}.
      * @return  a  string representation of the {@code double} argument.
-     * @see     java.lang.Double#toString(double)
+     * @see     java.base.share.classes.java.lang.Double#toString(double)
      */
     public static String valueOf(double d) {
         return Double.toString(d);

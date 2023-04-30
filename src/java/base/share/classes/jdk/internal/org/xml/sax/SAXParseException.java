@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
 
 /**
  * Encapsulate an XML parse error or warning.

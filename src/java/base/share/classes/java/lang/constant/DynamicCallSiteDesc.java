@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
@@ -10,9 +10,9 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-import static java.lang.constant.ConstantDescs.CD_String;
-import static java.lang.constant.ConstantUtils.EMPTY_CONSTANTDESC;
-import static java.lang.constant.ConstantUtils.validateMemberName;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_String;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.EMPTY_CONSTANTDESC;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateMemberName;
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.joining;
 

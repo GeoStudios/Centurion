@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ModuleDescriptor.Exports;
-import java.lang.module.ModuleDescriptor.Opens;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Exports;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Opens;
 import java.io.FileDescriptor;
 import java.io.File;
 import java.io.FilePermission;
@@ -60,11 +60,11 @@ import sun.security.util.SecurityConstants;
  * system property {@systemProperty java.security.manager} on the command line
  * to the class name of the security manager. It can also be set to the empty
  * String ("") or the special token "{@code default}" to use the
- * default {@code java.lang.SecurityManager}. If a class name is specified,
- * it must be {@code java.lang.SecurityManager} or a public subclass and have
+ * default {@code java.base.share.classes.java.lang.SecurityManager}. If a class name is specified,
+ * it must be {@code java.base.share.classes.java.lang.SecurityManager} or a public subclass and have
  * a public no-arg constructor. The class is loaded by the
  * {@linkplain ClassLoader#getSystemClassLoader() built-in system class loader}
- * if it is not {@code java.lang.SecurityManager}. If the
+ * if it is not {@code java.base.share.classes.java.lang.SecurityManager}. If the
  * {@code java.security.manager} system property is not set, the default value
  * is {@code null}, which means a security manager will not be set at startup.
  * <p>
@@ -109,14 +109,14 @@ import sun.security.util.SecurityConstants;
  *
  * <tr>
  *   <th scope="row">empty String ("")</th>
- *   <td>{@code java.lang.SecurityManager}</td>
+ *   <td>{@code java.base.share.classes.java.lang.SecurityManager}</td>
  *   <td>Success or throws {@code SecurityException} if not permitted by
  * the currently installed security manager</td>
  * </tr>
  *
  * <tr>
  *   <th scope="row">"default"</th>
- *   <td>{@code java.lang.SecurityManager}</td>
+ *   <td>{@code java.base.share.classes.java.lang.SecurityManager}</td>
  *   <td>Success or throws {@code SecurityException} if not permitted by
  * the currently installed security manager</td>
  * </tr>
@@ -176,7 +176,7 @@ import sun.security.util.SecurityConstants;
  * <i>different</i> context (for example, from within a worker thread).
  * The {@link SecurityManager#getSecurityContext getSecurityContext} method
  * and the {@link SecurityManager#checkPermission(java.security.Permission,
- * java.lang.Object) checkPermission}
+ * java.base.share.classes.java.lang.Object) checkPermission}
  * method that includes a context argument are provided
  * for this situation. The
  * {@code getSecurityContext} method returns a "snapshot"
@@ -212,10 +212,10 @@ import sun.security.util.SecurityConstants;
  * {@code java.net.SocketPermission},
  * {@code java.net.NetPermission},
  * {@code java.security.SecurityPermission},
- * {@code java.lang.RuntimePermission},
+ * {@code java.base.share.classes.java.lang.RuntimePermission},
  * {@code java.util.PropertyPermission},
  * {@code java.awt.AWTPermission},
- * {@code java.lang.reflect.ReflectPermission}, and
+ * {@code java.base.share.classes.java.lang.reflect.ReflectPermission}, and
  * {@code java.io.SerializablePermission}.
  *
  * <p>All but the first two (FilePermission and SocketPermission) are
@@ -269,10 +269,10 @@ import sun.security.util.SecurityConstants;
  * @author Logan Abernathy
  * @edited 24/4/2023
  *
- * @see     java.lang.ClassLoader
- * @see     java.lang.SecurityException
- * @see     java.lang.System#getSecurityManager() getSecurityManager
- * @see     java.lang.System#setSecurityManager(java.lang.SecurityManager)
+ * @see     java.base.share.classes.java.lang.ClassLoader
+ * @see     java.base.share.classes.java.lang.SecurityException
+ * @see     java.base.share.classes.java.lang.System#getSecurityManager() getSecurityManager
+ * @see     java.base.share.classes.java.lang.System#setSecurityManager(java.base.share.classes.java.lang.SecurityManager)
  *  setSecurityManager
  * @see     java.security.AccessController AccessController
  * @see     java.security.AccessControlContext AccessControlContext
@@ -282,7 +282,7 @@ import sun.security.util.SecurityConstants;
  * @see     java.io.FilePermission
  * @see     java.net.SocketPermission
  * @see     java.util.PropertyPermission
- * @see     java.lang.RuntimePermission
+ * @see     java.base.share.classes.java.lang.RuntimePermission
  * @see     java.security.Policy Policy
  * @see     java.security.SecurityPermission SecurityPermission
  * @see     java.security.ProtectionDomain
@@ -310,12 +310,12 @@ public class SecurityManager {
      * security manager.
      * This may result in throwing a {@code SecurityException}.
      *
-     * @throws     java.lang.SecurityException if a security manager already
+     * @throws     java.base.share.classes.java.lang.SecurityException if a security manager already
      *             exists and its {@code checkPermission} method
      *             doesn't allow creation of a new security manager.
-     * @see        java.lang.System#getSecurityManager()
+     * @see        java.base.share.classes.java.lang.System#getSecurityManager()
      * @see        #checkPermission(java.security.Permission) checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      */
     public SecurityManager() {
         synchronized(SecurityManager.class) {
@@ -359,10 +359,10 @@ public class SecurityManager {
      * @return  an implementation-dependent object that encapsulates
      *          sufficient information about the current execution environment
      *          to perform some security checks later.
-     * @see     java.lang.SecurityManager#checkConnect(java.lang.String, int,
-     *   java.lang.Object) checkConnect
-     * @see     java.lang.SecurityManager#checkRead(java.lang.String,
-     *   java.lang.Object) checkRead
+     * @see     java.base.share.classes.java.lang.SecurityManager#checkConnect(java.base.share.classes.java.lang.String, int,
+     *   java.base.share.classes.java.lang.Object) checkConnect
+     * @see     java.base.share.classes.java.lang.SecurityManager#checkRead(java.base.share.classes.java.lang.String,
+     *   java.base.share.classes.java.lang.Object) checkRead
      * @see     java.security.AccessControlContext AccessControlContext
      */
     @SuppressWarnings("removal")
@@ -417,7 +417,7 @@ public class SecurityManager {
      *             resource specified by the given permission.
      * @throws     NullPointerException if the permission argument is
      *             {@code null}.
-     * @see        java.lang.SecurityManager#getSecurityContext()
+     * @see        java.base.share.classes.java.lang.SecurityManager#getSecurityContext()
      * @see java.security.AccessControlContext#checkPermission(java.security.Permission)
      * @since      1.2
      */
@@ -446,7 +446,7 @@ public class SecurityManager {
      * @throws    SecurityException if the calling thread does not
      *             have permission
      *             to create a new class loader.
-     * @see        java.lang.ClassLoader#ClassLoader()
+     * @see        java.base.share.classes.java.lang.ClassLoader#ClassLoader()
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkCreateClassLoader() {
@@ -501,9 +501,9 @@ public class SecurityManager {
      *             permission to modify the thread.
      * @throws     NullPointerException if the thread argument is
      *             {@code null}.
-     * @see        java.lang.Thread#setDaemon(boolean) setDaemon
-     * @see        java.lang.Thread#setName(java.lang.String) setName
-     * @see        java.lang.Thread#setPriority(int) setPriority
+     * @see        java.base.share.classes.java.lang.Thread#setDaemon(boolean) setDaemon
+     * @see        java.base.share.classes.java.lang.Thread#setName(java.base.share.classes.java.lang.String) setName
+     * @see        java.base.share.classes.java.lang.Thread#setPriority(int) setPriority
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkAccess(Thread t) {
@@ -550,8 +550,8 @@ public class SecurityManager {
      *             permission to modify the thread group.
      * @throws     NullPointerException if the thread group argument is
      *             {@code null}.
-     * @see        java.lang.ThreadGroup#setDaemon(boolean) setDaemon
-     * @see        java.lang.ThreadGroup#setMaxPriority(int) setMaxPriority
+     * @see        java.base.share.classes.java.lang.ThreadGroup#setDaemon(boolean) setDaemon
+     * @see        java.base.share.classes.java.lang.ThreadGroup#setMaxPriority(int) setMaxPriority
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkAccess(ThreadGroup g) {
@@ -587,7 +587,7 @@ public class SecurityManager {
      * @throws    SecurityException if the calling thread does not have
      *              permission to halt the Java Virtual Machine with
      *              the specified status.
-     * @see        java.lang.Runtime#exit(int) exit
+     * @see        java.base.share.classes.java.lang.Runtime#exit(int) exit
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkExit(int status) {
@@ -617,10 +617,10 @@ public class SecurityManager {
      *             permission to create a subprocess.
      * @throws     NullPointerException if the {@code cmd} argument is
      *             {@code null}.
-     * @see     java.lang.Runtime#exec(java.lang.String)
-     * @see     java.lang.Runtime#exec(java.lang.String, java.lang.String[])
-     * @see     java.lang.Runtime#exec(java.lang.String[])
-     * @see     java.lang.Runtime#exec(java.lang.String[], java.lang.String[])
+     * @see     java.base.share.classes.java.lang.Runtime#exec(java.base.share.classes.java.lang.String)
+     * @see     java.base.share.classes.java.lang.Runtime#exec(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String[])
+     * @see     java.base.share.classes.java.lang.Runtime#exec(java.base.share.classes.java.lang.String[])
+     * @see     java.base.share.classes.java.lang.Runtime#exec(java.base.share.classes.java.lang.String[], java.base.share.classes.java.lang.String[])
      * @see     #checkPermission(java.security.Permission) checkPermission
      */
     public void checkExec(String cmd) {
@@ -657,8 +657,8 @@ public class SecurityManager {
      *             permission to dynamically link the library.
      * @throws     NullPointerException if the {@code lib} argument is
      *             {@code null}.
-     * @see        java.lang.Runtime#load(java.lang.String)
-     * @see        java.lang.Runtime#loadLibrary(java.lang.String)
+     * @see        java.base.share.classes.java.lang.Runtime#load(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.Runtime#loadLibrary(java.base.share.classes.java.lang.String)
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkLink(String lib) {
@@ -749,7 +749,7 @@ public class SecurityManager {
      *             to read the specified file.
      * @throws     NullPointerException if the {@code file} argument is
      *             {@code null}.
-     * @see        java.lang.SecurityManager#getSecurityContext()
+     * @see        java.base.share.classes.java.lang.SecurityManager#getSecurityContext()
      * @see        java.security.AccessControlContext#checkPermission(java.security.Permission)
      */
     public void checkRead(String file, Object context) {
@@ -922,7 +922,7 @@ public class SecurityManager {
      *             {@code host} and {@code port}.
      * @throws     NullPointerException if the {@code host} argument is
      *             {@code null}.
-     * @see        java.lang.SecurityManager#getSecurityContext()
+     * @see        java.base.share.classes.java.lang.SecurityManager#getSecurityContext()
      * @see        java.security.AccessControlContext#checkPermission(java.security.Permission)
      */
     public void checkConnect(String host, int port, Object context) {
@@ -1085,8 +1085,8 @@ public class SecurityManager {
      *
      * @throws     SecurityException  if the calling thread does not have
      *             permission to access or modify the system properties.
-     * @see        java.lang.System#getProperties()
-     * @see        java.lang.System#setProperties(java.util.Properties)
+     * @see        java.base.share.classes.java.lang.System#getProperties()
+     * @see        java.base.share.classes.java.lang.System#setProperties(java.util.Properties)
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkPropertiesAccess() {
@@ -1118,7 +1118,7 @@ public class SecurityManager {
      *             {@code null}.
      * @throws     IllegalArgumentException if {@code key} is empty.
      *
-     * @see        java.lang.System#getProperty(java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)
      * @see        #checkPermission(java.security.Permission) checkPermission
      */
     public void checkPropertyAccess(String key) {
@@ -1285,7 +1285,7 @@ public class SecurityManager {
      *             permission to access the specified package.
      * @throws     NullPointerException if the package name argument is
      *             {@code null}.
-     * @see        java.lang.ClassLoader#loadClass(String, boolean) loadClass
+     * @see        java.base.share.classes.java.lang.ClassLoader#loadClass(String, boolean) loadClass
      * @see        java.security.Security#getProperty getProperty
      * @see        #checkPermission(Permission) checkPermission
      */
@@ -1385,7 +1385,7 @@ public class SecurityManager {
      *             permission to define classes in the specified package.
      * @throws     NullPointerException if the package name argument is
      *             {@code null}.
-     * @see        java.lang.ClassLoader#loadClass(String, boolean)
+     * @see        java.base.share.classes.java.lang.ClassLoader#loadClass(String, boolean)
      * @see        java.security.Security#getProperty getProperty
      * @see        #checkPermission(Permission) checkPermission
      */
@@ -1505,7 +1505,7 @@ public class SecurityManager {
      *
      * @return  ThreadGroup that new threads are instantiated into
      * @since   1.1
-     * @see     java.lang.ThreadGroup
+     * @see     java.base.share.classes.java.lang.ThreadGroup
      */
     public ThreadGroup getThreadGroup() {
         return Thread.currentThread().getThreadGroup();

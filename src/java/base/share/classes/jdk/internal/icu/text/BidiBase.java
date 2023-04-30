@@ -18,7 +18,7 @@
  * fallbacks for unsupported combinations.
  */
 
-package jdk.internal.icu.text;
+package java.base.share.classes.jdk.internal.icu.text;
 
 import java.lang.reflect.Array;
 import java.text.AttributedCharacterIterator;

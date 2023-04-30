@@ -2,20 +2,20 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.temporal;
+package java.base.share.classes.java.time.temporal;
 
 import static java.time.DayOfWeek.THURSDAY;
 import static java.time.DayOfWeek.WEDNESDAY;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.EPOCH_DAY;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.FOREVER;
-import static java.time.temporal.ChronoUnit.MONTHS;
-import static java.time.temporal.ChronoUnit.WEEKS;
-import static java.time.temporal.ChronoUnit.YEARS;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.FOREVER;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.WEEKS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.YEARS;
 
 import java.time.DateTimeException;
 import java.time.Duration;

@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
-import java.nio.file.spi.FileSystemProvider;
+import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
@@ -59,7 +59,7 @@ import java.util.Objects;
  *
  * <a id="interop"></a><h2>Interoperability</h2>
  * <p> Paths associated with the default {@link
- * java.nio.file.spi.FileSystemProvider provider} are generally interoperable
+ * java.base.share.classes.java.nio.file.spi.FileSystemProvider provider} are generally interoperable
  * with the {@link java.io.File java.io.File} class. Paths created by other
  * providers are unlikely to be interoperable with the abstract path names
  * represented by {@code java.io.File}. The {@link java.io.File#toPath toPath}

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * <p>A public key. This interface contains no methods or constants.
@@ -11,15 +11,15 @@ package java.security;
  *
  * Note: The specialized public key interfaces extend this interface.
  * See, for example, the DSAPublicKey interface in
- * {@code java.security.interfaces}.
+ * {@code java.base.share.classes.java.security.interfaces}.
  *
  * @since 1.1
  * @see Key
  * @see PrivateKey
- * @see java.security.cert.Certificate
+ * @see java.base.share.classes.java.security.cert.Certificate
  * @see Signature#initVerify
- * @see java.security.interfaces.DSAPublicKey
- * @see java.security.interfaces.RSAPublicKey
+ * @see java.base.share.classes.java.security.interfaces.DSAPublicKey
+ * @see java.base.share.classes.java.security.interfaces.RSAPublicKey
  *
  */
 

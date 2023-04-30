@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.annotation;
+package java.base.share.classes.java.lang.annotation;
 
 /**
  * The constants of this enumerated class provide a simple classification of the
  * syntactic locations where annotations may appear in a Java program. These
- * constants are used in {@link java.lang.annotation.Target Target}
+ * constants are used in {@link java.base.share.classes.java.lang.annotation.Target Target}
  * meta-annotations to specify where it is legal to write annotations of a
  * given type.
  *

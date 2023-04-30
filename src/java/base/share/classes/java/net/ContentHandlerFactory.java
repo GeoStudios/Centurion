@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 /**
  * This interface defines a factory for content handlers. An
@@ -13,8 +13,8 @@ package java.net;
  * to create a {@code ContentHandler} for a MIME type.
  *
  * @author  James Gosling
- * @see     java.net.ContentHandler
- * @see     java.net.URLStreamHandler
+ * @see     java.base.share.classes.java.net.ContentHandler
+ * @see     java.base.share.classes.java.net.URLStreamHandler
  * @since   1.0
  */
 public interface ContentHandlerFactory {
@@ -27,8 +27,8 @@ public interface ContentHandlerFactory {
      *
      * @return  a new {@code ContentHandler} to read an object from a
      *          {@code URLStreamHandler}.
-     * @see     java.net.ContentHandler
-     * @see     java.net.URLStreamHandler
+     * @see     java.base.share.classes.java.net.ContentHandler
+     * @see     java.base.share.classes.java.net.URLStreamHandler
      */
     ContentHandler createContentHandler(String mimetype);
 }

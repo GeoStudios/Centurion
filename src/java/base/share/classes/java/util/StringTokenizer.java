@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.lang.*;
 
@@ -56,7 +56,7 @@ import java.lang.*;
  * {@code StringTokenizer} is a legacy class that is retained for
  * compatibility reasons although its use is discouraged in new code. It is
  * recommended that anyone seeking this functionality use the {@code split}
- * method of {@code String} or the java.util.regex package instead.
+ * method of {@code String} or the java.base.share.classes.java.util.regex package instead.
  * <p>
  * The following example illustrates how the {@code String.split}
  * method can be used to break up a string into its basic tokens:
@@ -363,8 +363,8 @@ public class StringTokenizer implements Enumeration<Object> {
      *
      * @return  {@code true} if there are more tokens;
      *          {@code false} otherwise.
-     * @see     java.util.Enumeration
-     * @see     java.util.StringTokenizer#hasMoreTokens()
+     * @see     java.base.share.classes.java.util.Enumeration
+     * @see     java.base.share.classes.java.util.StringTokenizer#hasMoreTokens()
      */
     public boolean hasMoreElements() {
         return hasMoreTokens();
@@ -379,8 +379,8 @@ public class StringTokenizer implements Enumeration<Object> {
      * @return     the next token in the string.
      * @throws     NoSuchElementException  if there are no more tokens in this
      *               tokenizer's string.
-     * @see        java.util.Enumeration
-     * @see        java.util.StringTokenizer#nextToken()
+     * @see        java.base.share.classes.java.util.Enumeration
+     * @see        java.base.share.classes.java.util.StringTokenizer#nextToken()
      */
     public Object nextElement() {
         return nextToken();
@@ -393,7 +393,7 @@ public class StringTokenizer implements Enumeration<Object> {
      *
      * @return  the number of tokens remaining in the string using the current
      *          delimiter set.
-     * @see     java.util.StringTokenizer#nextToken()
+     * @see     java.base.share.classes.java.util.StringTokenizer#nextToken()
      */
     public int countTokens() {
         int count = 0;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.InvalidObjectException;
 import jdk.internal.access.SharedSecrets;

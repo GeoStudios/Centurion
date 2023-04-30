@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.nio.ByteBuffer;
 import java.nio.file.attribute.FileTime;
@@ -13,7 +13,7 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import static java.util.zip.ZipConstants.ENDHDR;
+import static java.base.share.classes.java.util.zip.ZipConstants.ENDHDR;
 
 import jdk.internal.access.JavaNioAccess;
 import jdk.internal.access.SharedSecrets;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * A collection that contains no duplicate elements.  More formally, sets
@@ -68,7 +68,7 @@ package java.util;
  * about the identity of the returned instances. Factories are free to
  * create new instances or reuse existing ones.
  * <li>They are serialized as specified on the
- * <a href="{@docRoot}/serialized-form.html#java.util.CollSer">Serialized Form</a>
+ * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.util.CollSer">Serialized Form</a>
  * page.
  * </ul>
  *

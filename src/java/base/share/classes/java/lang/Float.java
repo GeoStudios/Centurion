@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
 import java.util.Optional;
 
 import jdk.internal.math.FloatConsts;
@@ -35,7 +35,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * <h2><a id=equivalenceRelation>Floating-point Equality, Equivalence,
  * and Comparison</a></h2>
  *
- * The class {@code java.lang.Double} has a <a
+ * The class {@code java.base.share.classes.java.lang.Double} has a <a
  * href="Double.html#equivalenceRelation">discussion of equality,
  * equivalence, and comparison of floating-point values</a> that is
  * equally applicable to {@code float} values.
@@ -527,7 +527,7 @@ public final class Float extends Number
      * @throws NullPointerException  if the string is null
      * @throws NumberFormatException if the string does not contain a
      *               parsable {@code float}.
-     * @see    java.lang.Float#valueOf(String)
+     * @see    java.base.share.classes.java.lang.Float#valueOf(String)
      * @since 1.2
      */
     public static float parseFloat(String s) throws NumberFormatException {
@@ -677,7 +677,7 @@ public final class Float extends Number
      * {@code toString} of one argument.
      *
      * @return  a {@code String} representation of this object.
-     * @see java.lang.Float#toString(float)
+     * @see java.base.share.classes.java.lang.Float#toString(float)
      */
     public String toString() {
         return Float.toString(value);
@@ -808,7 +808,7 @@ public final class Float extends Number
      * @param obj the object to be compared
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see java.lang.Float#floatToIntBits(float)
+     * @see java.base.share.classes.java.lang.Float#floatToIntBits(float)
      * @jls 15.21.1 Numerical Equality Operators == and !=
      */
     public boolean equals(Object obj) {

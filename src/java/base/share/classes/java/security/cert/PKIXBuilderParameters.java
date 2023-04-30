@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.security.KeyStore;
 import java.security.KeyStoreException;
@@ -75,7 +75,7 @@ public class PKIXBuilderParameters extends PKIXParameters {
      * {@code null}
      * @throws ClassCastException if any of the elements of
      * {@code trustAnchors} are not of type
-     * {@code java.security.cert.TrustAnchor}
+     * {@code java.base.share.classes.java.security.cert.TrustAnchor}
      */
     public PKIXBuilderParameters(Set<TrustAnchor> trustAnchors, CertSelector
         targetConstraints) throws InvalidAlgorithmParameterException

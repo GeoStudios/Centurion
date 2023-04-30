@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -16,9 +16,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * A {@code UnresolvedPermissionCollection} stores a collection
  * of UnresolvedPermission permissions.
  *
- * @see java.security.Permission
- * @see java.security.Permissions
- * @see java.security.UnresolvedPermission
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
+ * @see java.base.share.classes.java.security.UnresolvedPermission
  *
  *
  * @author Roland Schemers

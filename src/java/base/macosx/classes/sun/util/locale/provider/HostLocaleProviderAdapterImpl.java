@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.util.locale.provider;
+package java.base.macosx.classes.sun.util.locale.provider;
 
 import java.lang.ref.SoftReference;
 import java.text.*;

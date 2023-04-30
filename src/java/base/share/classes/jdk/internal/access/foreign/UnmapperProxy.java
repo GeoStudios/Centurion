@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.access.foreign;
+package java.base.share.classes.jdk.internal.access.foreign;
 
 import java.io.FileDescriptor;
 

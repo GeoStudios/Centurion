@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.security.ntlm;
+package java.base.share.classes.com.sun.security.ntlm;
 
 /**
  * @since Pre Java 1

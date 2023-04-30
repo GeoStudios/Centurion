@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto.interfaces;
+package java.base.share.classes.javax.crypto.interfaces;
 
 import java.math.BigInteger;
 

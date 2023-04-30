@@ -3,7 +3,7 @@
  */
 
 
-package javax.security.auth.callback;
+package java.base.share.classes.javax.security.auth.callback;
 
 /**
  * <p> Implementations of this interface are passed to a
@@ -20,13 +20,13 @@ package javax.security.auth.callback;
  * underlying security services.
  *
  * @since 1.4
- * @see javax.security.auth.callback.CallbackHandler
- * @see javax.security.auth.callback.ChoiceCallback
- * @see javax.security.auth.callback.ConfirmationCallback
- * @see javax.security.auth.callback.LanguageCallback
- * @see javax.security.auth.callback.NameCallback
- * @see javax.security.auth.callback.PasswordCallback
- * @see javax.security.auth.callback.TextInputCallback
- * @see javax.security.auth.callback.TextOutputCallback
+ * @see java.base.share.classes.javax.security.auth.callback.CallbackHandler
+ * @see java.base.share.classes.javax.security.auth.callback.ChoiceCallback
+ * @see java.base.share.classes.javax.security.auth.callback.ConfirmationCallback
+ * @see java.base.share.classes.javax.security.auth.callback.LanguageCallback
+ * @see java.base.share.classes.javax.security.auth.callback.NameCallback
+ * @see java.base.share.classes.javax.security.auth.callback.PasswordCallback
+ * @see java.base.share.classes.javax.security.auth.callback.TextInputCallback
+ * @see java.base.share.classes.javax.security.auth.callback.TextOutputCallback
  */
 public interface Callback { }

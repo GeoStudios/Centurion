@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;
@@ -55,7 +55,7 @@ public class DigestOutputStream extends FilterOutputStream {
      * Returns the message digest associated with this stream.
      *
      * @return the message digest associated with this stream.
-     * @see #setMessageDigest(java.security.MessageDigest)
+     * @see #setMessageDigest(java.base.share.classes.java.security.MessageDigest)
      */
     public MessageDigest getMessageDigest() {
         return digest;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * This is the exception for invalid or inappropriate algorithm parameters.
@@ -11,7 +11,7 @@ package java.security;
  *
  *
  * @see AlgorithmParameters
- * @see java.security.spec.AlgorithmParameterSpec
+ * @see java.base.share.classes.java.security.spec.AlgorithmParameterSpec
  *
  * @since 1.2
  */

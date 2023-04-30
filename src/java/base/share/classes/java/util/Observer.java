@@ -1,14 +1,14 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * A class can implement the {@code Observer} interface when it
  * wants to be informed of changes in observable objects.
  *
  * @author  Chris Warth
- * @see     java.util.Observable
+ * @see     java.base.share.classes.java.util.Observable
  * @since   1.0
  *
  * @deprecated

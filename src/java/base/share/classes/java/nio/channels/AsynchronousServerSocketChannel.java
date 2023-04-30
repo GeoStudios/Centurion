@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
-import java.nio.channels.spi.*;
+import java.base.share.classes.java.nio.channels.spi.*;
 import java.net.SocketOption;
 import java.net.SocketAddress;
 import java.util.concurrent.Future;
@@ -103,9 +103,9 @@ public abstract class AsynchronousServerSocketChannel
      * Opens an asynchronous server-socket channel.
      *
      * <p> The new channel is created by invoking the {@link
-     * java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousServerSocketChannel
+     * java.base.share.classes.java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousServerSocketChannel
      * openAsynchronousServerSocketChannel} method on the {@link
-     * java.nio.channels.spi.AsynchronousChannelProvider} object that created
+     * java.base.share.classes.java.nio.channels.spi.AsynchronousChannelProvider} object that created
      * the given group. If the group parameter is {@code null} then the
      * resulting channel is created by the system-wide default provider, and
      * bound to the <em>default group</em>.

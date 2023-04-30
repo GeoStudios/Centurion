@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.io.FilePermission;
 import java.security.AccessController;
@@ -132,7 +132,7 @@ public final class LoggerFinderLoader {
                 // otherwise, log a warning, possibly adding the exception
                 // stack trace (if DEBUG is specified).
                 SimpleConsoleLogger logger =
-                        new SimpleConsoleLogger("jdk.internal.logger", false);
+                        new SimpleConsoleLogger("java.base.share.classes.jdk.internal.logger", false);
                 logger.log(System.Logger.Level.WARNING,
                         "Failed to instantiate LoggerFinder provider; Using default.");
                 if (errorPolicy == ErrorPolicy.DEBUG) {

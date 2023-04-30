@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.HOUR_OF_DAY;
 import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;
@@ -87,7 +87,7 @@ import java.util.Set;
  * <p>
  * To permit the discovery of additional chronologies, the {@link java.util.ServiceLoader ServiceLoader}
  * is used. A file must be added to the {@code META-INF/services} directory with the
- * name 'java.time.chrono.Chronology' listing the implementation classes.
+ * name 'java.base.share.classes.java.time.chrono.Chronology' listing the implementation classes.
  * See the ServiceLoader for more details on service loading.
  * For lookup by id or calendarType, the system provided calendars are found
  * first followed by application provided calendars.

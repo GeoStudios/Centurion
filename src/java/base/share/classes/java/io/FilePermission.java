@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.nio.file.*;
 import java.security.*;
@@ -174,7 +174,7 @@ public final class FilePermission extends Permission implements Serializable {
 //        return sb.toString();
 //    }
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 7930732926638008763L;
 
     /**
@@ -1032,7 +1032,7 @@ public final class FilePermission extends Permission implements Serializable {
      * to a stream. The actions are serialized, and the superclass
      * takes care of the name.
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private void writeObject(ObjectOutputStream s)
         throws IOException
     {
@@ -1047,7 +1047,7 @@ public final class FilePermission extends Permission implements Serializable {
      * readObject is called to restore the state of the FilePermission from
      * a stream.
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private void readObject(ObjectInputStream s)
          throws IOException, ClassNotFoundException
     {
@@ -1194,7 +1194,7 @@ final class FilePermissionCollection extends PermissionCollection
         return perms.elements();
     }
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 2202956749081564585L;
 
     // Need to maintain serialization interoperability with earlier releases,
@@ -1205,7 +1205,7 @@ final class FilePermissionCollection extends PermissionCollection
      * @serialField permissions java.util.Vector
      *     A list of FilePermission objects.
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final ObjectStreamField[] serialPersistentFields = {
         new ObjectStreamField("permissions", Vector.class),
     };
@@ -1220,7 +1220,7 @@ final class FilePermissionCollection extends PermissionCollection
      * @param  out the {@code ObjectOutputStream} to which data is written
      * @throws IOException if an I/O error occurs
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private void writeObject(ObjectOutputStream out) throws IOException {
         // Don't call out.defaultWriteObject()
 
@@ -1239,7 +1239,7 @@ final class FilePermissionCollection extends PermissionCollection
      * @throws IOException if an I/O error occurs
      * @throws ClassNotFoundException if a serialized class cannot be loaded
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private void readObject(ObjectInputStream in)
         throws IOException, ClassNotFoundException
     {

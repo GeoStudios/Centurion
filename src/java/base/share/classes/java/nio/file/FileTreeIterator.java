@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.io.UncheckedIOException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.nio.file.FileTreeWalker.Event;
+import java.base.share.classes.java.nio.file.FileTreeWalker.Event;
 
 /**
  * An {@code Iterator} to iterate over the nodes of a file tree.

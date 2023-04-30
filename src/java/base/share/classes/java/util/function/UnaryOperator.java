@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.function;
+package java.base.share.classes.java.util.function;
 
 /**
  * Represents an operation on a single operand that produces a result of the

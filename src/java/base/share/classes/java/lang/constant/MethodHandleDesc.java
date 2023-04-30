@@ -1,14 +1,14 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 
-import static java.lang.constant.ConstantDescs.CD_void;
-import static java.lang.constant.DirectMethodHandleDesc.Kind.CONSTRUCTOR;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_void;
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.Kind.CONSTRUCTOR;
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a

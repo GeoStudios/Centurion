@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * A class implements the {@code Cloneable} interface to
- * indicate to the {@link java.lang.Object#clone()} method that it
+ * indicate to the {@link java.base.share.classes.java.lang.Object#clone()} method that it
  * is legal for that method to make a
  * field-for-field copy of instances of that class.
  * <p>
@@ -16,7 +16,7 @@ package java.lang;
  * <p>
  * By convention, classes that implement this interface should override
  * {@code Object.clone} (which is protected) with a public method.
- * See {@link java.lang.Object#clone()} for details on overriding this
+ * See {@link java.base.share.classes.java.lang.Object#clone()} for details on overriding this
  * method.
  * <p>
  * Note that this interface does <i>not</i> contain the {@code clone} method.
@@ -24,8 +24,8 @@ package java.lang;
  * fact that it implements this interface.  Even if the clone method is invoked
  * reflectively, there is no guarantee that it will succeed.
  *
- * @see     java.lang.CloneNotSupportedException
- * @see     java.lang.Object#clone()
+ * @see     java.base.share.classes.java.lang.CloneNotSupportedException
+ * @see     java.base.share.classes.java.lang.Object#clone()
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

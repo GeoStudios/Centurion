@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.stream;
+package java.base.share.classes.java.util.stream;
 
 import java.util.AbstractMap;
 import java.util.AbstractSet;
@@ -419,7 +419,7 @@ public final class Collectors {
      * to each input element before accumulation.  The flat mapping function
      * maps an input element to a {@link Stream stream} covering zero or more
      * output elements that are then accumulated downstream.  Each mapped stream
-     * is {@link java.util.stream.BaseStream#close() closed} after its contents
+     * is {@link java.base.share.classes.java.util.stream.BaseStream#close() closed} after its contents
      * have been placed downstream.  (If a mapped stream is {@code null}
      * an empty stream is used, instead.)
      *

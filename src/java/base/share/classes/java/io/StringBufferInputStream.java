@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * This class allows an application to create an input stream in
@@ -13,8 +13,8 @@ package java.io;
  * Only the low eight bits of each character in the string are used by
  * this class.
  *
- * @see        java.io.ByteArrayInputStream
- * @see        java.io.StringReader
+ * @see        java.base.share.classes.java.io.ByteArrayInputStream
+ * @see        java.base.share.classes.java.io.StringReader
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -32,14 +32,14 @@ public class StringBufferInputStream extends InputStream {
     /**
      * The index of the next character to read from the input stream buffer.
      *
-     * @see        java.io.StringBufferInputStream#buffer
+     * @see        java.base.share.classes.java.io.StringBufferInputStream#buffer
      */
     protected int pos;
 
     /**
      * The number of valid characters in the input stream buffer.
      *
-     * @see        java.io.StringBufferInputStream#buffer
+     * @see        java.base.share.classes.java.io.StringBufferInputStream#buffer
      */
     protected int count;
 

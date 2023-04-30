@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.charset;
+package java.base.share.classes.java.nio.charset;
 
 import jdk.internal.misc.ThreadTracker;
 import jdk.internal.misc.VM;
@@ -12,7 +12,7 @@ import sun.nio.cs.ThreadLocalCoders;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
-import java.nio.charset.spi.CharsetProvider;
+import java.base.share.classes.java.nio.charset.spi.CharsetProvider;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Arrays;
@@ -41,7 +41,7 @@ import java.util.TreeMap;
  * constructing a map that contains every charset for which support is
  * available in the current Java virtual machine.  Support for new charsets can
  * be added via the service-provider interface defined in the {@link
- * java.nio.charset.spi.CharsetProvider} class.
+ * java.base.share.classes.java.nio.charset.spi.CharsetProvider} class.
  *
  * <p> All of the methods defined in this class are safe for use by multiple
  * concurrent threads.
@@ -247,7 +247,7 @@ import java.util.TreeMap;
  *
  * @see CharsetDecoder
  * @see CharsetEncoder
- * @see java.nio.charset.spi.CharsetProvider
+ * @see java.base.share.classes.java.nio.charset.spi.CharsetProvider
  * @see java.lang.Character
  */
 

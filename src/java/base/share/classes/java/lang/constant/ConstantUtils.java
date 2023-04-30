@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.Set;
 import static java.util.Objects.requireNonNull;
 
 /**
- * Helper methods for the implementation of {@code java.lang.constant}.
+ * Helper methods for the implementation of {@code java.base.share.classes.java.lang.constant}.
  * 
  * @since Pre Java 1
  * @author Logan Abernathy

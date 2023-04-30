@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * This class is for security permissions. A {@code SecurityPermission}
@@ -48,7 +48,7 @@ package java.security;
  * with a {@code DomainCombiner}.  Extreme care must be taken when
  * granting this permission. Malicious code could create a DomainCombiner
  * that augments the set of permissions granted to code, and even grant the
- * code {@link java.security.AllPermission}.</td>
+ * code {@link java.base.share.classes.java.security.AllPermission}.</td>
  * </tr>
  *
  * <tr>
@@ -196,7 +196,7 @@ package java.security;
  *   <td>Addition of a new provider, with the specified name</td>
  *   <td>Use of this permission is discouraged from further use because it is
  * possible to circumvent the name restrictions by overriding the
- * {@link java.security.Provider#getName} method. Also, there is an equivalent
+ * {@link java.base.share.classes.java.security.Provider#getName} method. Also, there is an equivalent
  * level of risk associated with granting code permission to insert a provider
  * with a specific name, or any name it chooses. Users should use the
  * "insertProvider" permission instead.
@@ -295,10 +295,10 @@ package java.security;
  * Implementations may define additional target names, but should use naming
  * conventions such as reverse domain name notation to avoid name clashes.
  *
- * @see java.security.BasicPermission
- * @see java.security.Permission
- * @see java.security.Permissions
- * @see java.security.PermissionCollection
+ * @see java.base.share.classes.java.security.BasicPermission
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
+ * @see java.base.share.classes.java.security.PermissionCollection
  * @see java.lang.SecurityManager
  *
  *

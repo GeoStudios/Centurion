@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.*;
 import java.util.Date;
@@ -38,8 +38,8 @@ import java.util.Date;
  * @since 1.1
  * @deprecated This class is deprecated and subject to removal in a future
  *     version of Java SE. It has been replaced by
- *     {@code java.security.cert.Certificate} and related classes.
- * @see java.security.cert.Certificate
+ *     {@code java.base.share.classes.java.security.cert.Certificate} and related classes.
+ * @see java.base.share.classes.java.security.cert.Certificate
  */
 @Deprecated(since="1.2", forRemoval=true)
 public interface Certificate {

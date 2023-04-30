@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package apple.security;
+package java.base.macosx.classes.apple.security;
 
 import java.security.*;
 import static sun.security.util.SecurityConstants.PROVIDER_VER;
@@ -65,7 +65,7 @@ public final class AppleProvider extends Provider {
         AccessController.doPrivileged(new PrivilegedAction<Void>() {
             public Void run() {
                 putService(new ProviderService(p, "KeyStore",
-                           "KeychainStore", "apple.security.KeychainStore"));
+                           "KeychainStore", "java.base.macosx.classes.apple.security.KeychainStore"));
                 return null;
             }
         });

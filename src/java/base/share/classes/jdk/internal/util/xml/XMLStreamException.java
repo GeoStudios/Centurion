@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.xml;
+package java.base.share.classes.jdk.internal.util.xml;
 
 public class XMLStreamException extends Exception {
     @java.io.Serial

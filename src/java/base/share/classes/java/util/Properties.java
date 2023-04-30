@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.PrintStream;
@@ -20,10 +20,10 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
 
 import jdk.internal.util.StaticProperty;
 import sun.nio.cs.ISO_8859_1;
@@ -1151,8 +1151,8 @@ public class Properties extends Hashtable<Object,Object> {
      *          the keys in the default property list.
      * @throws  ClassCastException if any key in this property list
      *          is not a string.
-     * @see     java.util.Enumeration
-     * @see     java.util.Properties#defaults
+     * @see     java.base.share.classes.java.util.Enumeration
+     * @see     java.base.share.classes.java.util.Properties#defaults
      * @see     #stringPropertyNames
      */
     public Enumeration<?> propertyNames() {
@@ -1176,7 +1176,7 @@ public class Properties extends Hashtable<Object,Object> {
      * @return  an unmodifiable set of keys in this property list where
      *          the key and its corresponding value are strings,
      *          including the keys in the default property list.
-     * @see     java.util.Properties#defaults
+     * @see     java.base.share.classes.java.util.Properties#defaults
      * @since   1.6
      */
     public Set<String> stringPropertyNames() {

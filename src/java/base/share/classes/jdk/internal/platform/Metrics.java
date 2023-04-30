@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.platform;
+package java.base.share.classes.jdk.internal.platform;
 
 import java.lang.reflect.Method;
 

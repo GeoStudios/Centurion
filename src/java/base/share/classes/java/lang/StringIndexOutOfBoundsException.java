@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown by {@code String} methods to indicate that an index is either negative
@@ -10,7 +10,7 @@ package java.lang;
  * {@link String#charAt charAt} method, this exception also is thrown when the
  * index is equal to the size of the string.
  *
- * @see java.lang.String#charAt(int)
+ * @see java.base.share.classes.java.lang.String#charAt(int)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

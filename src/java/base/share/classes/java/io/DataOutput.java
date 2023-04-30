@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * The {@code DataOutput} interface provides
@@ -23,8 +23,8 @@ package java.io;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023
- * @see     java.io.DataInput
- * @see     java.io.DataOutputStream
+ * @see     java.base.share.classes.java.io.DataInput
+ * @see     java.base.share.classes.java.io.DataOutputStream
  */
 public interface DataOutput {
     /**

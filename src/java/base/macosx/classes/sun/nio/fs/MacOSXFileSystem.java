@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
 
 import java.util.regex.Pattern;
 import sun.security.action.GetPropertyAction;
 
-import static sun.nio.fs.MacOSXNativeDispatcher.*;
+import static java.base.macosx.classes.sun.nio.fs.MacOSXNativeDispatcher.*;
 
 /**
  * MacOS implementation of FileSystem

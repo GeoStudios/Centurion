@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.spi;
+package java.base.share.classes.java.util.spi;
 
 import java.util.Arrays;
 import java.util.Currency;
@@ -16,7 +16,7 @@ import java.util.ResourceBundle.Control;
  * {@link java.util.Currency Currency} class.
  * Note that currency symbols are considered names when determining
  * behaviors described in the
- * {@link java.util.spi.LocaleServiceProvider LocaleServiceProvider}
+ * {@link java.base.share.classes.java.util.spi.LocaleServiceProvider LocaleServiceProvider}
  * specification.
  *
  * @since        1.6
@@ -47,7 +47,7 @@ public abstract class CurrencyNameProvider extends LocaleServiceProvider {
      * @throws    IllegalArgumentException if {@code currencyCode} is not in
      *     the form of three upper-case letters, or {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @see java.util.Currency#getSymbol(java.util.Locale)
      */
@@ -66,7 +66,7 @@ public abstract class CurrencyNameProvider extends LocaleServiceProvider {
      * @throws    IllegalArgumentException if {@code currencyCode} is not in
      *     the form of three upper-case letters, or {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @throws    NullPointerException if {@code currencyCode} or
      *     {@code locale} is {@code null}

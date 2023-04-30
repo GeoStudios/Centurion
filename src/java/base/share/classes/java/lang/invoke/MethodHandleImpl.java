@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.access.JavaLangInvokeAccess;
 import jdk.internal.access.SharedSecrets;
@@ -18,7 +18,7 @@ import sun.invoke.util.ValueConversions;
 import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
 
-import java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -35,10 +35,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
@@ -1023,7 +1023,7 @@ abstract class MethodHandleImpl {
             if (hostClass == null
                 ||    (hostClass.isArray() ||
                        hostClass.isPrimitive() ||
-                       hostClass.getName().startsWith("java.lang.invoke."))) {
+                       hostClass.getName().startsWith("java.base.share.classes.java.lang.invoke."))) {
                 throw new InternalError();  // does not happen, and should not anyway
             }
 

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.io.OutputStream;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.nio.charset.Charset;
 import java.util.Objects;
 import java.util.Vector;
 import java.util.HashSet;
-import static java.util.zip.ZipConstants64.*;
-import static java.util.zip.ZipUtils.*;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;
+import static java.base.share.classes.java.util.zip.ZipUtils.*;
 import sun.nio.cs.UTF_8;
 import sun.security.action.GetBooleanAction;
 

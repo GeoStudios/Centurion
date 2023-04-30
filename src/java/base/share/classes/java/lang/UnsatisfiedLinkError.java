@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown if the Java Virtual Machine cannot find an appropriate
  * native-language definition of a method declared {@code native}.
  *
- * @see     java.lang.Runtime
+ * @see     java.base.share.classes.java.lang.Runtime
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

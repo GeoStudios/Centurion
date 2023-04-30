@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.util.Map;
 import java.util.List;
@@ -17,7 +17,7 @@ import sun.util.logging.PlatformLogger;
  * which manages storage, and a {@link CookiePolicy} object, which makes
  * policy decisions on cookie acceptance/rejection.
  *
- * <p> The HTTP cookie management in java.net package looks like:
+ * <p> The HTTP cookie management in java.base.share.classes.java.net package looks like:
  * <blockquote>
  * <pre>{@code
  *                  use
@@ -238,7 +238,7 @@ public class CookieManager extends CookieHandler
         if (cookieJar == null)
             return;
 
-    PlatformLogger logger = PlatformLogger.getLogger("java.net.CookieManager");
+    PlatformLogger logger = PlatformLogger.getLogger("java.base.share.classes.java.net.CookieManager");
         for (String headerKey : responseHeaders.keySet()) {
             // RFC 2965 3.2.2, key must be 'Set-Cookie2'
             // we also accept 'Set-Cookie' here for backward compatibility

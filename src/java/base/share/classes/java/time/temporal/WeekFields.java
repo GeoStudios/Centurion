@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.temporal;
+package java.base.share.classes.java.time.temporal;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.FOREVER;
-import static java.time.temporal.ChronoUnit.MONTHS;
-import static java.time.temporal.ChronoUnit.WEEKS;
-import static java.time.temporal.ChronoUnit.YEARS;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.FOREVER;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.WEEKS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.YEARS;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -794,7 +794,7 @@ public final class WeekFields implements Serializable {
          * of days.
          * @param temporal  a date of any chronology
          * @return the week of the year
-         * @see #localizedWeekBasedYear(java.time.temporal.TemporalAccessor)
+         * @see #localizedWeekBasedYear(java.base.share.classes.java.time.temporal.TemporalAccessor)
          */
         private int localizedWeekOfWeekBasedYear(TemporalAccessor temporal) {
             int dow = localizedDayOfWeek(temporal);

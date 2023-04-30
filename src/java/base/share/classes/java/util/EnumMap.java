@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import jdk.internal.access.SharedSecrets;
 
@@ -93,7 +93,7 @@ public class EnumMap<K extends Enum<K>, V> extends AbstractMap<K, V>
         }
 
         public String toString() {
-            return "java.util.EnumMap.NULL";
+            return "java.base.share.classes.java.util.EnumMap.NULL";
         }
     };
 

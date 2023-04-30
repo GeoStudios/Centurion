@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
 /**
  * The path to a type argument, wildcard bound, array element type, or static inner type within an

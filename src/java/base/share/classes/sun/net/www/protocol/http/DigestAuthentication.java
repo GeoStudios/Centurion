@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.io.*;
 import java.net.PasswordAuthentication;
@@ -35,7 +35,7 @@ import sun.nio.cs.ISO_8859_1;
 import sun.security.util.KnownOIDs;
 import sun.util.logging.PlatformLogger;
 
-import static sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;
 
 /**
  * DigestAuthentication: Encapsulate an http server authentication using

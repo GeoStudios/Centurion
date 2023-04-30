@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.util.Objects;
 
@@ -12,7 +12,7 @@ import java.util.Objects;
  * an IPv4 one. An IP address and a network prefix length in the case
  * of IPv6 address.
  *
- * @see java.net.NetworkInterface
+ * @see java.base.share.classes.java.net.NetworkInterface
  * @since 1.6
  */
 public class InterfaceAddress {
@@ -77,7 +77,7 @@ public class InterfaceAddress {
      * @param   obj   the object to compare against.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see     java.net.InterfaceAddress#hashCode()
+     * @see     java.base.share.classes.java.net.InterfaceAddress#hashCode()
      */
     public boolean equals(Object obj) {
         return obj instanceof InterfaceAddress cmp &&

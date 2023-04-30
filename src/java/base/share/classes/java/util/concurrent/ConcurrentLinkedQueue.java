@@ -13,7 +13,7 @@
  * at http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;

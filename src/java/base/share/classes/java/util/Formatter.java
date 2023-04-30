@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.BufferedWriter;
 import java.io.Closeable;
@@ -27,8 +27,8 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.text.spi.NumberFormatProvider;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.regex.Pattern;
 
 import java.time.DateTimeException;
 import java.time.Instant;
@@ -109,9 +109,9 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  *
  * <blockquote><pre>
  *   // Format a string containing a date.
- *   import java.util.Calendar;
- *   import java.util.GregorianCalendar;
- *   import static java.util.Calendar.*;
+ *   import java.base.share.classes.java.util.Calendar;
+ *   import java.base.share.classes.java.util.GregorianCalendar;
+ *   import static java.base.share.classes.java.util.Calendar.*;
  *
  *   Calendar c = new GregorianCalendar(1995, MAY, 23);
  *   String s = String.format("Duke's Birthday: %1$tb %1$te, %1$tY", c);
@@ -155,7 +155,7 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  *
  * The argument list consists of all arguments passed to the method after the
  * format string.  In the above example, the argument list is of size one and
- * consists of the {@link java.util.Calendar Calendar} object {@code c}.
+ * consists of the {@link java.base.share.classes.java.util.Calendar Calendar} object {@code c}.
  *
  * <ul>
  *
@@ -264,10 +264,10 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  * {@code 'S'}, {@code 'C'}, {@code 'X'}, {@code 'E'}, {@code 'G'},
  * {@code 'A'}, and {@code 'T'}) are the same as those for the corresponding
  * lower-case conversion characters except that the result is converted to
- * upper case according to the rules of the prevailing {@link java.util.Locale
+ * upper case according to the rules of the prevailing {@link java.base.share.classes.java.util.Locale
  * Locale}. If there is no explicit locale specified, either at the
  * construction of the instance or as a parameter to its method
- * invocation, then the {@link java.util.Locale.Category#FORMAT default locale}
+ * invocation, then the {@link java.base.share.classes.java.util.Locale.Category#FORMAT default locale}
  * is used.
  *
  *
@@ -718,9 +718,9 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  * {@code 'G'}, {@code 'A'}, and {@code 'T'}) are the same as those for the
  * corresponding lower-case conversion characters except that the result is
  * converted to upper case according to the rules of the prevailing {@link
- * java.util.Locale Locale}. If there is no explicit locale specified,
+ * java.base.share.classes.java.util.Locale Locale}. If there is no explicit locale specified,
  * either at the construction of the instance or as a parameter to its method
- * invocation, then the {@link java.util.Locale.Category#FORMAT default locale}
+ * invocation, then the {@link java.base.share.classes.java.util.Locale.Category#FORMAT default locale}
  * is used.
  *
  * <h3><a id="dgen">General</a></h3>
@@ -2105,7 +2105,7 @@ public final class Formatter implements Closeable, Flushable {
      * toString()}.
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      */
@@ -2121,7 +2121,7 @@ public final class Formatter implements Closeable, Flushable {
      *         {@code null} then a {@link StringBuilder} will be created.
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      */
@@ -2216,7 +2216,7 @@ public final class Formatter implements Closeable, Flushable {
      *         charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2254,7 +2254,7 @@ public final class Formatter implements Closeable, Flushable {
      *         A {@linkplain java.nio.charset.Charset charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2360,7 +2360,7 @@ public final class Formatter implements Closeable, Flushable {
      *         charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2398,7 +2398,7 @@ public final class Formatter implements Closeable, Flushable {
      *         A {@linkplain java.nio.charset.Charset charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2498,7 +2498,7 @@ public final class Formatter implements Closeable, Flushable {
      *         charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2523,7 +2523,7 @@ public final class Formatter implements Closeable, Flushable {
      *         A {@linkplain java.nio.charset.Charset charset}
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.
      *
@@ -2537,7 +2537,7 @@ public final class Formatter implements Closeable, Flushable {
     /**
      * Returns the locale set by the construction of this formatter.
      *
-     * <p> The {@link #format(java.util.Locale,String,Object...) format} method
+     * <p> The {@link #format(java.base.share.classes.java.util.Locale,String,Object...) format} method
      * for this object which has a locale argument does not change this value.
      *
      * @return  {@code null} if no localization is applied, otherwise a
@@ -2707,7 +2707,7 @@ public final class Formatter implements Closeable, Flushable {
      * specified locale, format string, and arguments.
      *
      * @param  l
-     *         The {@linkplain java.util.Locale locale} to apply during
+     *         The {@linkplain java.base.share.classes.java.util.Locale locale} to apply during
      *         formatting.  If {@code l} is {@code null} then no localization
      *         is applied.  This does not change this object's locale that was
      *         set during construction.
@@ -4700,7 +4700,7 @@ public final class Formatter implements Closeable, Flushable {
         static final char CHARACTER           = 'c';
         static final char CHARACTER_UPPER     = 'C';
 
-        // java.util.Date, java.util.Calendar, long
+        // java.base.share.classes.java.util.Date, java.base.share.classes.java.util.Calendar, long
         static final char DATE_TIME           = 't';
         static final char DATE_TIME_UPPER     = 'T';
 

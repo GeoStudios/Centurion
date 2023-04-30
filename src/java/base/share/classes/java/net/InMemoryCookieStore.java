@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.net.URI;
-import java.net.CookieStore;
-import java.net.HttpCookie;
-import java.net.URISyntaxException;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.net.CookieStore;
+import java.base.share.classes.java.net.HttpCookie;
+import java.base.share.classes.java.net.URISyntaxException;
 import java.util.List;
 import java.util.Map;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import java.util.Iterator;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * A simple in-memory java.net.CookieStore implementation
+ * A simple in-memory java.base.share.classes.java.net.CookieStore implementation
  *
  * @author Edward Wang
  * @since 1.6

@@ -6,7 +6,7 @@
  * SharedSecrets interface used for the access from java.text.Bidi
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
 public interface JavaAWTFontAccess {
 

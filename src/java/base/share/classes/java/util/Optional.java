@@ -1,13 +1,13 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.Stream;
 
 /**
  * A container object which may or may not contain a non-{@code null} value.

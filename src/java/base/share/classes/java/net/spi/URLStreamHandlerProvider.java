@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net.spi;
+package java.base.share.classes.java.net.spi;
 
 import java.net.URLStreamHandlerFactory;
 
@@ -15,7 +15,7 @@ import java.net.URLStreamHandlerFactory;
  * application class path.
  *
  * <p> A URL stream handler provider identifies itself with a
- * provider-configuration file named java.net.spi.URLStreamHandlerProvider in
+ * provider-configuration file named java.base.share.classes.java.net.spi.URLStreamHandlerProvider in
  * the resource directory META-INF/services. The file should contain a list of
  * fully-qualified concrete URL stream handler provider class names, one per
  * line.

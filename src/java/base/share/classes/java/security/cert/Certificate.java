@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.util.Arrays;
 
@@ -259,7 +259,7 @@ public abstract class Certificate implements java.io.Serializable {
                         (new java.io.ByteArrayInputStream(data));
             } catch (CertificateException e) {
                 throw new java.io.NotSerializableException
-                                ("java.security.cert.Certificate: " +
+                                ("java.base.share.classes.java.security.cert.Certificate: " +
                                 type +
                                 ": " +
                                 e.getMessage());
@@ -285,7 +285,7 @@ public abstract class Certificate implements java.io.Serializable {
             return new CertificateRep(type, getEncoded());
         } catch (CertificateException e) {
             throw new java.io.NotSerializableException
-                                ("java.security.cert.Certificate: " +
+                                ("java.base.share.classes.java.security.cert.Certificate: " +
                                 type +
                                 ": " +
                                 e.getMessage());

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -10,9 +10,9 @@ import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.io.Serializable;
 import java.security.*;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import sun.security.util.SecurityConstants;
 
 /**
@@ -568,7 +568,7 @@ final class PropertyPermissionCollection extends PermissionCollection
     //
     // private Hashtable permissions;
     /**
-     * @serialField permissions java.util.Hashtable
+     * @serialField permissions java.base.share.classes.java.util.Hashtable
      *     A table of the PropertyPermissions.
      * @serialField all_allowed boolean
      *     boolean saying if "*" is in the collection.

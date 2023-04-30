@@ -3,7 +3,7 @@
  */
 
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 import java.util.Enumeration;
 
@@ -136,7 +136,7 @@ public interface SSLSessionContext {
      *
      * @implNote The JDK implementation returns the cache size as set by
      *           the {@code setSessionCacheSize} method, or if not set, the
-     *           value of the {@systemProperty javax.net.ssl.sessionCacheSize}
+     *           value of the {@systemProperty java.base.share.classes.javax.net.ssl.sessionCacheSize}
      *           system property.  If neither is set, it returns a default
      *           value of 20480.
      *

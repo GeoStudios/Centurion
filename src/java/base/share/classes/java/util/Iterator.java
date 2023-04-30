@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Consumer;
 
 /**
  * An iterator over a collection.  {@code Iterator} takes the place of

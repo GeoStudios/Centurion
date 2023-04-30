@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
-import java.nio.file.spi.FileSystemProvider;
+import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
 import java.net.URI;
 
 /**

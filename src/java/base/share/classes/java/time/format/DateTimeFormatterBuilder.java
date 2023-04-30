@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.format;
+package java.base.share.classes.java.time.format;
 
 import static java.time.temporal.ChronoField.DAY_OF_MONTH;
 import static java.time.temporal.ChronoField.HOUR_OF_DAY;
@@ -31,7 +31,7 @@ import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.Chronology;
 import java.time.chrono.Era;
 import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeTextProvider.LocaleStore;
+import java.base.share.classes.java.time.format.DateTimeTextProvider.LocaleStore;
 import java.time.temporal.ChronoField;
 import java.time.temporal.IsoFields;
 import java.time.temporal.JulianFields;

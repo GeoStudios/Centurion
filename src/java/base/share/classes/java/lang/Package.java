@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Annotation;
-import java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
@@ -52,7 +52,7 @@ import jdk.internal.reflect.Reflection;
  * <li>The name of the package is derived from the {@linkplain Class#getName() binary names}
  *     of the classes. Since classes in a named module must be in a named package,
  *     the derived name is never empty.</li>
- * <li>The package is sealed with the {@linkplain java.lang.module.ModuleReference#location()
+ * <li>The package is sealed with the {@linkplain java.base.share.classes.java.lang.module.ModuleReference#location()
  *     module location} as the code source, if known.</li>
  * <li>The specification and implementation titles, versions, and vendors
  *     are unspecified.</li>
@@ -97,13 +97,13 @@ import jdk.internal.reflect.Reflection;
  * @edited 24/4/2023
  * @revised 9
  */
-public class Package extends NamedPackage implements java.lang.reflect.AnnotatedElement {
+public class Package extends NamedPackage implements java.base.share.classes.java.lang.reflect.AnnotatedElement {
     /**
      * Return the name of this package.
      *
      * @return  The fully-qualified name of this package as defined in section {@jls 6.5.3} of
      *          <cite>The Java Language Specification</cite>,
-     *          for example, {@code java.lang}
+     *          for example, {@code java.base.share.classes.java.lang}
      */
     public String getName() {
         return packageName();
@@ -315,7 +315,7 @@ public class Package extends NamedPackage implements java.lang.reflect.Annotated
      * Calling this method is equivalent to calling {@link ClassLoader#getPackage}
      * on a {@code ClassLoader} instance which is the caller's class loader.
      *
-     * @param name A package name, such as "{@code java.lang}".
+     * @param name A package name, such as "{@code java.base.share.classes.java.lang}".
      * @return The {@code Package} of the given name defined by the caller's
      *         class loader or its ancestors, or {@code null} if not found.
      *

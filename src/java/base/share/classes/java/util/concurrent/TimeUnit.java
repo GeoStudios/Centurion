@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
@@ -34,7 +34,7 @@ import java.util.Objects;
  * <p>A {@code TimeUnit} is mainly used to inform time-based methods
  * how a given timing parameter should be interpreted. For example,
  * the following code will timeout in 50 milliseconds if the {@link
- * java.util.concurrent.locks.Lock lock} is not available:
+ * java.base.share.classes.java.util.concurrent.locks.Lock lock} is not available:
  *
  * <pre> {@code
  * Lock lock = ...;

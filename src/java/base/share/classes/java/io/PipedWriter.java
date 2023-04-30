@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 
 import java.util.Objects;
@@ -46,8 +46,8 @@ public class PipedWriter extends Writer {
      * piped reader. It must be connected to a piped reader,
      * either by the receiver or the sender, before being used.
      *
-     * @see     java.io.PipedReader#connect(java.io.PipedWriter)
-     * @see     java.io.PipedWriter#connect(java.io.PipedReader)
+     * @see     java.base.share.classes.java.io.PipedReader#connect(java.base.share.classes.java.io.PipedWriter)
+     * @see     java.base.share.classes.java.io.PipedWriter#connect(java.base.share.classes.java.io.PipedReader)
      */
     public PipedWriter() {
     }
@@ -96,7 +96,7 @@ public class PipedWriter extends Writer {
      * @param   c   the {@code char} to be written.
      * @throws  IOException  if the pipe is
      *          <a href=PipedOutputStream.html#BROKEN> {@code broken}</a>,
-     *          {@link #connect(java.io.PipedReader) unconnected}, closed
+     *          {@link #connect(java.base.share.classes.java.io.PipedReader) unconnected}, closed
      *          or an I/O error occurs.
      */
     public void write(int c)  throws IOException {
@@ -126,7 +126,7 @@ public class PipedWriter extends Writer {
      *
      * @throws  IOException  if the pipe is
      *          <a href=PipedOutputStream.html#BROKEN>{@code broken}</a>,
-     *          {@link #connect(java.io.PipedReader) unconnected}, closed
+     *          {@link #connect(java.base.share.classes.java.io.PipedReader) unconnected}, closed
      *          or an I/O error occurs.
      */
     public void write(char[] cbuf, int off, int len) throws IOException {

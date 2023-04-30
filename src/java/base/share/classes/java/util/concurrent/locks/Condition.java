@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.locks;
+package java.base.share.classes.java.util.concurrent.locks;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

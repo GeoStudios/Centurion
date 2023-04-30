@@ -13,9 +13,9 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
+import static java.base.share.classes.java.util.concurrent.TimeUnit.NANOSECONDS;
 
 import java.util.ArrayList;
 import java.util.Collection;

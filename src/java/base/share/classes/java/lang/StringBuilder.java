@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
@@ -48,7 +48,7 @@ import java.io.StreamCorruptedException;
  *
  * <p>Instances of {@code StringBuilder} are not safe for
  * use by multiple threads. If such synchronization is required then it is
- * recommended that {@link java.lang.StringBuffer} be used.
+ * recommended that {@link java.base.share.classes.java.lang.StringBuffer} be used.
  *
  * <p>Unless otherwise noted, passing a {@code null} argument to a constructor
  * or method in this class will cause a {@link NullPointerException} to be
@@ -62,8 +62,8 @@ import java.io.StreamCorruptedException;
  * See {@link Comparable}, {@link java.util.SortedMap SortedMap}, or
  * {@link java.util.SortedSet SortedSet} for more information.
  *
- * @see         java.lang.StringBuffer
- * @see         java.lang.String
+ * @see         java.base.share.classes.java.lang.StringBuffer
+ * @see         java.base.share.classes.java.lang.String
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -126,8 +126,8 @@ public final class StringBuilder
     /**
      * Compares two {@code StringBuilder} instances lexicographically. This method
      * follows the same rules for lexicographical comparison as defined in the
-     * {@linkplain java.lang.CharSequence#compare(java.lang.CharSequence,
-     * java.lang.CharSequence)  CharSequence.compare(this, another)} method.
+     * {@linkplain java.base.share.classes.java.lang.CharSequence#compare(java.base.share.classes.java.lang.CharSequence,
+     * java.base.share.classes.java.lang.CharSequence)  CharSequence.compare(this, another)} method.
      *
      * <p>
      * For finer-grained, locale-sensitive String comparison, refer to

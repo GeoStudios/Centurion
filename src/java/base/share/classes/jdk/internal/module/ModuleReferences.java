@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 import java.io.File;
 import java.io.IOError;
@@ -28,7 +28,7 @@ import java.util.stream.Stream;
 import java.util.zip.ZipFile;
 
 import jdk.internal.jmod.JmodFile;
-import jdk.internal.module.ModuleHashes.HashSupplier;
+import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 import sun.net.www.ParseUtil;
 
 

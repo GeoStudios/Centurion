@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.text.Normalizer;
+import java.base.share.classes.java.text.Normalizer;
 import java.util.Vector;
 import java.util.Locale;
 
@@ -291,7 +291,7 @@ public class RuleBasedCollator extends Collator{
      *
      * @param source the string to be collated
      * @return a {@code CollationElementIterator} object
-     * @see java.text.CollationElementIterator
+     * @see java.base.share.classes.java.text.CollationElementIterator
      */
     public CollationElementIterator getCollationElementIterator(String source) {
         return new CollationElementIterator( source, this );
@@ -302,7 +302,7 @@ public class RuleBasedCollator extends Collator{
      *
      * @param source the character iterator to be collated
      * @return a {@code CollationElementIterator} object
-     * @see java.text.CollationElementIterator
+     * @see java.base.share.classes.java.text.CollationElementIterator
      * @since 1.2
      */
     public CollationElementIterator getCollationElementIterator(
@@ -532,7 +532,7 @@ public class RuleBasedCollator extends Collator{
 
     /**
      * Transforms the string into a series of characters that can be compared
-     * with CollationKey.compareTo. This overrides java.text.Collator.getCollationKey.
+     * with CollationKey.compareTo. This overrides java.base.share.classes.java.text.Collator.getCollationKey.
      * It can be overridden in a subclass.
      */
     public synchronized CollationKey getCollationKey(String source)

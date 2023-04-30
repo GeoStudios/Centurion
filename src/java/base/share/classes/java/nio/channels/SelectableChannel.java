@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
-import java.nio.channels.spi.AbstractInterruptibleChannel;
-import java.nio.channels.spi.SelectorProvider;
+import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 
 
 /**
@@ -199,7 +199,7 @@ public abstract class SelectableChannel
      * behaves in exactly the same way as the invocation
      *
      * <blockquote>{@code sc.}{@link
-     * #register(java.nio.channels.Selector,int,java.lang.Object)
+     * #register(java.base.share.classes.java.nio.channels.Selector,int,java.lang.Object)
      * register(sel, ops, null)}</blockquote>
      *
      * @param  sel

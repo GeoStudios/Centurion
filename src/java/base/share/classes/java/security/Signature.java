@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.*;
-import java.security.cert.Certificate;
-import java.security.cert.X509Certificate;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.X509Certificate;
 
 import java.nio.ByteBuffer;
 
-import java.security.Provider.Service;
+import java.base.share.classes.java.security.Provider.Service;
 
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -112,7 +112,7 @@ public abstract class Signature extends SignatureSpi {
                 }
                 @Override
                 public void initVerify(Signature s,
-                        java.security.cert.Certificate certificate,
+                        java.base.share.classes.java.security.cert.Certificate certificate,
                         AlgorithmParameterSpec params)
                         throws InvalidKeyException,
                         InvalidAlgorithmParameterException {
@@ -519,7 +519,7 @@ public abstract class Signature extends SignatureSpi {
         // If the certificate is of type X509Certificate,
         // we should check whether it has a Key Usage
         // extension marked as critical.
-        //if (cert instanceof java.security.cert.X509Certificate) {
+        //if (cert instanceof java.base.share.classes.java.security.cert.X509Certificate) {
         if (cert instanceof X509Certificate xcert) {
             // Check whether the cert has a key usage extension
             // marked as a critical extension.
@@ -958,7 +958,7 @@ public abstract class Signature extends SignatureSpi {
      * @see #getParameter
      *
      * @deprecated Use
-     * {@link #setParameter(java.security.spec.AlgorithmParameterSpec)
+     * {@link #setParameter(java.base.share.classes.java.security.spec.AlgorithmParameterSpec)
      * setParameter}.
      */
     @Deprecated

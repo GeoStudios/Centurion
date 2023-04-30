@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.icu.impl;
+package java.base.share.classes.jdk.internal.icu.impl;
 
 import jdk.internal.icu.text.UnicodeSet.SpanCondition;
 import jdk.internal.icu.util.OutputInt;

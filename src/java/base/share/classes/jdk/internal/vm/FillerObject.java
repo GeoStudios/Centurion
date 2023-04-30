@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 /*
  * Support class used for filling small dead areas.

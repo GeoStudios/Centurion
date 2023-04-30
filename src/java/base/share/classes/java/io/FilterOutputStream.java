@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 
@@ -83,7 +83,7 @@ public class FilterOutputStream extends OutputStream {
      *
      * @param      b   the data to be written.
      * @throws     IOException  {@inheritDoc}
-     * @see        java.io.FilterOutputStream#write(byte[], int, int)
+     * @see        java.base.share.classes.java.io.FilterOutputStream#write(byte[], int, int)
      */
     @Override
     public void write(byte[] b) throws IOException {
@@ -109,7 +109,7 @@ public class FilterOutputStream extends OutputStream {
      * @param      len   {@inheritDoc}
      * @throws     IOException  if an I/O error occurs.
      * @throws     IndexOutOfBoundsException {@inheritDoc}
-     * @see        java.io.FilterOutputStream#write(int)
+     * @see        java.base.share.classes.java.io.FilterOutputStream#write(int)
      */
     @Override
     public void write(byte[] b, int off, int len) throws IOException {
@@ -128,7 +128,7 @@ public class FilterOutputStream extends OutputStream {
      * calls the {@code flush} method of its underlying output stream.
      *
      * @throws     IOException  {@inheritDoc}
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     @Override
     public void flush() throws IOException {
@@ -144,8 +144,8 @@ public class FilterOutputStream extends OutputStream {
      * calls the {@code close} method of its underlying output stream.
      *
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#flush()
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#flush()
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     @Override
     public void close() throws IOException {

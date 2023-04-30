@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
@@ -1548,7 +1548,7 @@ public final class Matcher implements MatchResult {
      *
      * @return {@code true} iff this matcher is using transparent bounds,
      *         {@code false} otherwise.
-     * @see java.util.regex.Matcher#useTransparentBounds(boolean)
+     * @see java.base.share.classes.java.util.regex.Matcher#useTransparentBounds(boolean)
      * @since 1.5
      */
     public boolean hasTransparentBounds() {
@@ -1578,7 +1578,7 @@ public final class Matcher implements MatchResult {
      * @param  b a boolean indicating whether to use opaque or transparent
      *         regions
      * @return this matcher
-     * @see java.util.regex.Matcher#hasTransparentBounds
+     * @see java.base.share.classes.java.util.regex.Matcher#hasTransparentBounds
      * @since 1.5
      */
     public Matcher useTransparentBounds(boolean b) {
@@ -1599,7 +1599,7 @@ public final class Matcher implements MatchResult {
      *
      * @return {@code true} iff this matcher is using anchoring bounds,
      *         {@code false} otherwise.
-     * @see java.util.regex.Matcher#useAnchoringBounds(boolean)
+     * @see java.base.share.classes.java.util.regex.Matcher#useAnchoringBounds(boolean)
      * @since 1.5
      */
     public boolean hasAnchoringBounds() {
@@ -1624,7 +1624,7 @@ public final class Matcher implements MatchResult {
      *
      * @param  b a boolean indicating whether or not to use anchoring bounds.
      * @return this matcher
-     * @see java.util.regex.Matcher#hasAnchoringBounds
+     * @see java.base.share.classes.java.util.regex.Matcher#hasAnchoringBounds
      * @since 1.5
      */
     public Matcher useAnchoringBounds(boolean b) {
@@ -1642,7 +1642,7 @@ public final class Matcher implements MatchResult {
      */
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("java.util.regex.Matcher")
+        sb.append("java.base.share.classes.java.util.regex.Matcher")
                 .append("[pattern=").append(pattern())
                 .append(" region=")
                 .append(regionStart()).append(',').append(regionEnd())

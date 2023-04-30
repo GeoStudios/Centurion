@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 /**
  * <p>Performs one or more checks on each {@code Certificate} of a

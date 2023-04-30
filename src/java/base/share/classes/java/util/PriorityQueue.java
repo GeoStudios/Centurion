@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.util.ArraysSupport;
 
@@ -45,7 +45,7 @@ import jdk.internal.util.ArraysSupport;
  * Multiple threads should not access a {@code PriorityQueue}
  * instance concurrently if any of the threads modifies the queue.
  * Instead, use the thread-safe {@link
- * java.util.concurrent.PriorityBlockingQueue} class.
+ * java.base.share.classes.java.util.concurrent.PriorityBlockingQueue} class.
  *
  * <p>Implementation note: this implementation provides
  * O(log(n)) time for the enqueuing and dequeuing methods

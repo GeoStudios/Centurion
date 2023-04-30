@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown when an application tries to access an enum constant by name
  * and the enum type contains no constant with the specified name.
  * This exception can be thrown by the {@linkplain
- * java.lang.reflect.AnnotatedElement API used to read annotations
+ * java.base.share.classes.java.lang.reflect.AnnotatedElement API used to read annotations
  * reflectively}.
  *
- * @see     java.lang.reflect.AnnotatedElement
+ * @see     java.base.share.classes.java.lang.reflect.AnnotatedElement
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

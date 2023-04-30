@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.io;
+package java.base.share.classes.jdk.internal.io;
 
 import java.io.PrintWriter;
 import java.io.Reader;
@@ -10,7 +10,7 @@ import java.nio.charset.Charset;
 /**
  * Delegate interface for custom Console implementations.
  * Methods defined here duplicates the ones in Console class.
- * Providers should implement jdk.internal.io.JdkConsoleProvider
+ * Providers should implement java.base.share.classes.jdk.internal.io.JdkConsoleProvider
  * to instantiate an implementation of this interface.
  */
 public interface JdkConsole {

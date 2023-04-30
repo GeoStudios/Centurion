@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -298,7 +298,7 @@ public class GregorianCalendar extends Calendar {
      * Implementation Notes
      *
      * The epoch is the number of days or milliseconds from some defined
-     * starting point. The epoch for java.util.Date is used here; that is,
+     * starting point. The epoch for java.base.share.classes.java.util.Date is used here; that is,
      * milliseconds from January 1, 1970 (Gregorian), midnight UTC.  Other
      * epochs which are used are January 1, year 1 (Gregorian), which is day 1
      * of the Gregorian calendar, and December 30, year 0 (Gregorian), which is

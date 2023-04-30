@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -289,7 +289,7 @@ public final class AccessController {
      * @see #doPrivileged(PrivilegedAction,AccessControlContext)
      * @see #doPrivileged(PrivilegedExceptionAction)
      * @see #doPrivilegedWithCombiner(PrivilegedAction)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      */
 
     @CallerSensitive
@@ -319,7 +319,7 @@ public final class AccessController {
      * @throws    NullPointerException if the action is {@code null}
      *
      * @see #doPrivileged(PrivilegedAction)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      *
      * @since 1.6
      */
@@ -351,7 +351,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the PrivilegedAction's
@@ -398,7 +398,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the PrivilegedAction's
@@ -463,7 +463,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the PrivilegedAction's
@@ -486,7 +486,7 @@ public final class AccessController {
      *
      * @see #doPrivileged(PrivilegedAction)
      * @see #doPrivileged(PrivilegedExceptionAction,AccessControlContext)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      *
      * @since 1.8
      */
@@ -536,7 +536,7 @@ public final class AccessController {
      * @see #doPrivileged(PrivilegedAction)
      * @see #doPrivileged(PrivilegedExceptionAction,AccessControlContext)
      * @see #doPrivilegedWithCombiner(PrivilegedExceptionAction)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      */
     @CallerSensitive
     public static <T> T
@@ -579,7 +579,7 @@ public final class AccessController {
      *
      * @see #doPrivileged(PrivilegedAction)
      * @see #doPrivileged(PrivilegedExceptionAction,AccessControlContext)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      *
      * @since 1.6
      */
@@ -660,7 +660,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the
@@ -827,7 +827,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the
@@ -894,7 +894,7 @@ public final class AccessController {
      * {@code AccessControlContext} was not created by system code and the
      * caller's {@code ProtectionDomain} has not been granted the
      * {@literal "createAccessControlContext"}
-     * {@link java.security.SecurityPermission}, then the action is performed
+     * {@link java.base.share.classes.java.security.SecurityPermission}, then the action is performed
      * with no permissions.
      *
      * @param <T> the type of the value returned by the
@@ -919,7 +919,7 @@ public final class AccessController {
      *
      * @see #doPrivileged(PrivilegedAction)
      * @see #doPrivileged(PrivilegedAction,AccessControlContext)
-     * @see java.security.DomainCombiner
+     * @see java.base.share.classes.java.security.DomainCombiner
      *
      * @since 1.8
      */

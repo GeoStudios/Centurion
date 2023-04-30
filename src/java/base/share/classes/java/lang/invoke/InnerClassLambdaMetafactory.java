@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.misc.CDS;
 import jdk.internal.org.objectweb.asm.*;
@@ -14,7 +14,7 @@ import sun.security.action.GetBooleanAction;
 import java.io.FilePermission;
 import java.io.Serializable;
 import java.lang.constant.ConstantDescs;
-import java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Modifier;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -23,10 +23,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.PropertyPermission;
 import java.util.Set;
 
-import static java.lang.invoke.MethodHandleStatics.CLASSFILE_VERSION;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;
-import static java.lang.invoke.MethodType.methodType;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.CLASSFILE_VERSION;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**

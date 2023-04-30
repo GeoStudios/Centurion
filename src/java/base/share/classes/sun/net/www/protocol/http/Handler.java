@@ -6,7 +6,7 @@
  *      HTTP stream opener
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.io.IOException;
 import java.net.URL;

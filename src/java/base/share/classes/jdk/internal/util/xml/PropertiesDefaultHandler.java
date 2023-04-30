@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.xml;
+package java.base.share.classes.jdk.internal.util.xml;
 
 import java.io.*;
 import java.nio.charset.Charset;
@@ -14,8 +14,8 @@ import jdk.internal.org.xml.sax.InputSource;
 import jdk.internal.org.xml.sax.SAXException;
 import jdk.internal.org.xml.sax.SAXParseException;
 import jdk.internal.org.xml.sax.helpers.DefaultHandler;
-import jdk.internal.util.xml.impl.SAXParserImpl;
-import jdk.internal.util.xml.impl.XMLStreamWriterImpl;
+import java.base.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
+import java.base.share.classes.jdk.internal.util.xml.impl.XMLStreamWriterImpl;
 
 /**
  * A class used to aid in Properties load and save in XML. This class is

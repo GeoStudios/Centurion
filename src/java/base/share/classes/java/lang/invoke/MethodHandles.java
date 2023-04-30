@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.foreign.Utils;
@@ -27,7 +27,7 @@ import java.lang.foreign.GroupLayout;
 import java.lang.foreign.MemoryLayout;
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.ValueLayout;
-import java.lang.invoke.LambdaForm.BasicType;
+import java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Member;
@@ -46,13 +46,13 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType.V_TYPE;
-import static java.lang.invoke.MethodHandleImpl.Intrinsic;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
-import static java.lang.invoke.MethodType.methodType;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.V_TYPE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.Intrinsic;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
 
 /**
  * This class consists exclusively of static methods that operate on or return
@@ -440,9 +440,9 @@ public class MethodHandles {
      * <a href="MethodHandleInfo.html#directmh">direct method handle</a>.
      * The result is as if the user had obtained a lookup object capable enough
      * to crack the target method handle, called
-     * {@link java.lang.invoke.MethodHandles.Lookup#revealDirect Lookup.revealDirect}
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#revealDirect Lookup.revealDirect}
      * on the target to obtain its symbolic reference, and then called
-     * {@link java.lang.invoke.MethodHandleInfo#reflectAs MethodHandleInfo.reflectAs}
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandleInfo#reflectAs MethodHandleInfo.reflectAs}
      * to resolve the symbolic reference to a member.
      * <p>
      * If there is a security manager, its {@code checkPermission} method
@@ -504,59 +504,59 @@ public class MethodHandles {
      * </thead>
      * <tbody>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findGetter lookup.findGetter(C.class,"f",FT.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findGetter lookup.findGetter(C.class,"f",FT.class)}</th>
      *     <td>{@code FT f;}</td><td>{@code (T) this.f;}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findStaticGetter lookup.findStaticGetter(C.class,"f",FT.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findStaticGetter lookup.findStaticGetter(C.class,"f",FT.class)}</th>
      *     <td>{@code static}<br>{@code FT f;}</td><td>{@code (FT) C.f;}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findSetter lookup.findSetter(C.class,"f",FT.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findSetter lookup.findSetter(C.class,"f",FT.class)}</th>
      *     <td>{@code FT f;}</td><td>{@code this.f = x;}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findStaticSetter lookup.findStaticSetter(C.class,"f",FT.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findStaticSetter lookup.findStaticSetter(C.class,"f",FT.class)}</th>
      *     <td>{@code static}<br>{@code FT f;}</td><td>{@code C.f = arg;}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findVirtual lookup.findVirtual(C.class,"m",MT)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findVirtual lookup.findVirtual(C.class,"m",MT)}</th>
      *     <td>{@code T m(A*);}</td><td>{@code (T) this.m(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findStatic lookup.findStatic(C.class,"m",MT)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findStatic lookup.findStatic(C.class,"m",MT)}</th>
      *     <td>{@code static}<br>{@code T m(A*);}</td><td>{@code (T) C.m(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findSpecial lookup.findSpecial(C.class,"m",MT,this.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findSpecial lookup.findSpecial(C.class,"m",MT,this.class)}</th>
      *     <td>{@code T m(A*);}</td><td>{@code (T) super.m(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findConstructor lookup.findConstructor(C.class,MT)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findConstructor lookup.findConstructor(C.class,MT)}</th>
      *     <td>{@code C(A*);}</td><td>{@code new C(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#unreflectGetter lookup.unreflectGetter(aField)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectGetter lookup.unreflectGetter(aField)}</th>
      *     <td>({@code static})?<br>{@code FT f;}</td><td>{@code (FT) aField.get(thisOrNull);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#unreflectSetter lookup.unreflectSetter(aField)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectSetter lookup.unreflectSetter(aField)}</th>
      *     <td>({@code static})?<br>{@code FT f;}</td><td>{@code aField.set(thisOrNull, arg);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#unreflect lookup.unreflect(aMethod)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect lookup.unreflect(aMethod)}</th>
      *     <td>({@code static})?<br>{@code T m(A*);}</td><td>{@code (T) aMethod.invoke(thisOrNull, arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#unreflectConstructor lookup.unreflectConstructor(aConstructor)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectConstructor lookup.unreflectConstructor(aConstructor)}</th>
      *     <td>{@code C(A*);}</td><td>{@code (C) aConstructor.newInstance(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#unreflectSpecial lookup.unreflectSpecial(aMethod,this.class)}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectSpecial lookup.unreflectSpecial(aMethod,this.class)}</th>
      *     <td>{@code T m(A*);}</td><td>{@code (T) super.m(arg*);}</td>
      * </tr>
      * <tr>
-     *     <th scope="row">{@link java.lang.invoke.MethodHandles.Lookup#findClass lookup.findClass("C")}</th>
+     *     <th scope="row">{@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findClass lookup.findClass("C")}</th>
      *     <td>{@code class C { ... }}</td><td>{@code C.class;}</td>
      * </tr>
      * </tbody>
@@ -1584,13 +1584,13 @@ public class MethodHandles {
          *  and {@linkplain #ORIGINAL ORIGINAL (0x40)}.
          *  <p>
          *  A freshly-created lookup object
-         *  on the {@linkplain java.lang.invoke.MethodHandles#lookup() caller's class} has
+         *  on the {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles#lookup() caller's class} has
          *  all possible bits set, except {@code UNCONDITIONAL}.
          *  A lookup object on a new lookup class
-         *  {@linkplain java.lang.invoke.MethodHandles.Lookup#in created from a previous lookup object}
+         *  {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#in created from a previous lookup object}
          *  may have some mode bits set to zero.
          *  Mode bits can also be
-         *  {@linkplain java.lang.invoke.MethodHandles.Lookup#dropLookupMode directly cleared}.
+         *  {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#dropLookupMode directly cleared}.
          *  Once cleared, mode bits cannot be restored from the downgraded lookup object.
          *  The purpose of this is to restrict access via the new lookup object,
          *  so that it can access only names which can be reached by the original
@@ -2477,7 +2477,7 @@ public class MethodHandles {
 
         private static void checkUnprivilegedlookupClass(Class<?> lookupClass) {
             String name = lookupClass.getName();
-            if (name.startsWith("java.lang.invoke."))
+            if (name.startsWith("java.base.share.classes.java.lang.invoke."))
                 throw newIllegalArgumentException("illegal lookupClass: "+lookupClass);
         }
 
@@ -2503,8 +2503,8 @@ public class MethodHandles {
          * (public, module, package, private, and protected) is allowed.
          * In this case, no suffix is added.
          * This is true only of an object obtained originally from
-         * {@link java.lang.invoke.MethodHandles#lookup MethodHandles.lookup}.
-         * Objects created by {@link java.lang.invoke.MethodHandles.Lookup#in Lookup.in}
+         * {@link java.base.share.classes.java.lang.invoke.MethodHandles#lookup MethodHandles.lookup}.
+         * Objects created by {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#in Lookup.in}
          * always have restricted access, and will display a suffix.
          * <p>
          * (It may seem strange that protected access should be
@@ -2565,8 +2565,8 @@ public class MethodHandles {
          * be initialized, if it has not already been initialized.
          * <p><b>Example:</b>
          * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_asList = publicLookup().findStatic(Arrays.class,
   "asList", methodType(List.class, Object[].class));
@@ -2617,21 +2617,21 @@ assertEquals("[x, y]", MH_asList.invoke("x", "y").toString());
          * if the class is {@code MethodHandle} and the name string is
          * {@code invokeExact} or {@code invoke}, the resulting
          * method handle is equivalent to one produced by
-         * {@link java.lang.invoke.MethodHandles#exactInvoker MethodHandles.exactInvoker} or
-         * {@link java.lang.invoke.MethodHandles#invoker MethodHandles.invoker}
+         * {@link java.base.share.classes.java.lang.invoke.MethodHandles#exactInvoker MethodHandles.exactInvoker} or
+         * {@link java.base.share.classes.java.lang.invoke.MethodHandles#invoker MethodHandles.invoker}
          * with the same {@code type} argument.
          * <p>
          * If the class is {@code VarHandle} and the name string corresponds to
          * the name of a signature-polymorphic access mode method, the resulting
          * method handle is equivalent to one produced by
-         * {@link java.lang.invoke.MethodHandles#varHandleInvoker} with
+         * {@link java.base.share.classes.java.lang.invoke.MethodHandles#varHandleInvoker} with
          * the access mode corresponding to the name string and with the same
          * {@code type} arguments.
          * <p>
          * <b>Example:</b>
          * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_concat = publicLookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -2716,8 +2716,8 @@ assertEquals("", (String) MH_newString.invokeExact());
          * be initialized, if it has not already been initialized.
          * <p><b>Example:</b>
          * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_newArrayList = publicLookup().findConstructor(
   ArrayList.class, methodType(void.class, Collection.class));
@@ -2949,8 +2949,8 @@ assertEquals("[x, y, z]", pb.command().toString());
          * to access instance initialization methods in a safe manner.)</em>
          * <p><b>Example:</b>
          * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 static class Listie extends ArrayList {
   public String toString() { return "[wee Listie]"; }
@@ -3269,8 +3269,8 @@ assertEquals(""+l, (String) MH_this.invokeExact(subl)); // Listie method
          * <p>
          * This is almost equivalent to the following code, with some differences noted below:
          * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle mh0 = lookup().findVirtual(defc, name, type);
 MethodHandle mh1 = mh0.bindTo(receiver);
@@ -4824,8 +4824,8 @@ return invoker;
      * incoming arguments which are not mentioned in the reordering array
      * may be of any type, as determined only by {@code newType}.
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodType intfn1 = methodType(int.class, int.class);
 MethodType intfn2 = methodType(int.class, int.class, int.class);
@@ -5226,8 +5226,8 @@ assert((int)twice.invokeExact(21) == 42);
      * <p>
      * <b>Example:</b>
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5298,8 +5298,8 @@ assertEquals("yz", (String) d0.invokeExact(123, "x", "y", "z"));
      * they will come after.
      * @apiNote
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5416,8 +5416,8 @@ assertEquals("xz", (String) d12.invokeExact("x", 12, true, "z"));
      * Two method handles whose argument lists are "effectively identical" (i.e., identical in a common prefix) may be
      * mutually converted to a common type by two calls to {@code dropArgumentsToMatch}, as follows:
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 ...
 MethodHandle h0 = constant(boolean.class, true);
@@ -5502,8 +5502,8 @@ assertEquals("xy", h3.invoke("x", "y", 1, "a", "b", "c"));
      * which do not correspond to argument positions in the target.
      * <p><b>Example:</b>
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5662,8 +5662,8 @@ assertEquals("XY", (String) f2.invokeExact("x", "y")); // XY
      * {@code pos} must also be less than or equal to the target's arity.
      * <p><b>Example:</b>
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle deepToString = publicLookup()
   .findStatic(Arrays.class, "deepToString", methodType(String.class, Object[].class));
@@ -5796,8 +5796,8 @@ assertEquals("[top, [[up, down, strange], charm], bottom]",
      * return type of the target.
      * <p><b>Example:</b>
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5935,8 +5935,8 @@ System.out.println((int) f0.invokeExact("x", "y")); // 2
      * target.)
      * <p><b>Example:</b>
      * {@snippet lang="java" :
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+import static java.base.share.classes.java.lang.invoke.MethodType.*;
 ...
 MethodHandle trace = publicLookup().findVirtual(java.io.PrintStream.class,
   "println", methodType(void.class, String.class))
@@ -6003,8 +6003,8 @@ assertEquals("boojum", (String) catTrace.invokeExact("boo", "jum"));
      *
      * @apiNote Example:
      * {@snippet lang="java" :
-    import static java.lang.invoke.MethodHandles.*;
-    import static java.lang.invoke.MethodType.*;
+    import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+    import static java.base.share.classes.java.lang.invoke.MethodType.*;
     ...
     MethodHandle trace = publicLookup().findVirtual(java.io.PrintStream.class,
     "println", methodType(void.class, String.class))

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.jrt;
+package java.base.share.classes.sun.net.www.protocol.jrt;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

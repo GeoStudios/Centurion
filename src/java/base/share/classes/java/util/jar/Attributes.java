@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -399,7 +399,7 @@ public class Attributes implements Map<Object,Object>, Cloneable {
             }
             try {
                 if ((putValue(name, value) != null) && (!lineContinued)) {
-                    PlatformLogger.getLogger("java.util.jar").warning(
+                    PlatformLogger.getLogger("java.base.share.classes.java.util.jar").warning(
                                      "Duplicate name in Manifest: " + name
                                      + ".\n"
                                      + "Ensure that the manifest does not "

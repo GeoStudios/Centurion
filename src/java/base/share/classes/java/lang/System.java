@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -13,15 +13,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.lang.annotation.Annotation;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.StringConcatFactory;
-import java.lang.module.ModuleDescriptor;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.StringConcatFactory;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Executable;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
 import java.net.URI;
 import java.net.URL;
 import java.nio.channels.Channel;
@@ -143,8 +143,8 @@ public final class System {
      * @see     java.io.PrintStream#println(float)
      * @see     java.io.PrintStream#println(int)
      * @see     java.io.PrintStream#println(long)
-     * @see     java.io.PrintStream#println(java.lang.Object)
-     * @see     java.io.PrintStream#println(java.lang.String)
+     * @see     java.io.PrintStream#println(java.base.share.classes.java.lang.Object)
+     * @see     java.io.PrintStream#println(java.base.share.classes.java.lang.String)
      * @see     Console#charset()
      * @see     <a href="#stdout.encoding">stdout.encoding</a>
      */
@@ -207,7 +207,7 @@ public final class System {
      *        reassigning of the standard input stream.
      *
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      *
      * @since   1.1
      */
@@ -231,7 +231,7 @@ public final class System {
      *        reassigning of the standard output stream.
      *
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      *
      * @since   1.1
      */
@@ -255,7 +255,7 @@ public final class System {
      *        reassigning of the standard error output stream.
      *
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      *
      * @since   1.1
      */
@@ -375,7 +375,7 @@ public final class System {
      *         to be set dynamically
      * @see #getSecurityManager
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      * @deprecated This method is only useful in conjunction with
      *       {@linkplain SecurityManager the Security Manager}, which is
      *       deprecated and subject to removal in a future release.
@@ -397,7 +397,7 @@ public final class System {
                     source = callerClass.getName() + " (" + url + ")";
                 }
                 initialErrStream.printf("""
-                        WARNING: A terminally deprecated method in java.lang.System has been called
+                        WARNING: A terminally deprecated method in java.base.share.classes.java.lang.System has been called
                         WARNING: System::setSecurityManager has been called by %s
                         WARNING: Please consider reporting this to the maintainers of %s
                         WARNING: System::setSecurityManager will be removed in a future release
@@ -425,7 +425,7 @@ public final class System {
                 // pre-populates the SecurityManager.packageAccess cache
                 // to avoid recursive permission checking issues with custom
                 // SecurityManager implementations
-                sm.checkPackageAccess("java.lang");
+                sm.checkPackageAccess("java.base.share.classes.java.lang");
             } catch (Exception e) {
                 // no-op
             }
@@ -836,8 +836,8 @@ public final class System {
      *             {@code checkPropertiesAccess} method doesn't allow access
      *             to the system properties.
      * @see        #setProperties
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkPropertiesAccess()
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkPropertiesAccess()
      * @see        java.util.Properties
      */
     public static Properties getProperties() {
@@ -890,8 +890,8 @@ public final class System {
      *             to the system properties.
      * @see        #getProperties
      * @see        java.util.Properties
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkPropertiesAccess()
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkPropertiesAccess()
      */
     public static void setProperties(Properties props) {
         @SuppressWarnings("removal")
@@ -934,9 +934,9 @@ public final class System {
      * @throws     NullPointerException if {@code key} is {@code null}.
      * @throws     IllegalArgumentException if {@code key} is empty.
      * @see        #setProperty
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkPropertyAccess(java.lang.String)
-     * @see        java.lang.System#getProperties()
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkPropertyAccess(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#getProperties()
      */
     public static String getProperty(String key) {
         checkKey(key);
@@ -971,8 +971,8 @@ public final class System {
      * @throws     NullPointerException if {@code key} is {@code null}.
      * @throws     IllegalArgumentException if {@code key} is empty.
      * @see        #setProperty
-     * @see        java.lang.SecurityManager#checkPropertyAccess(java.lang.String)
-     * @see        java.lang.System#getProperties()
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkPropertyAccess(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#getProperties()
      */
     public static String getProperty(String key, String def) {
         checkKey(key);
@@ -1012,8 +1012,8 @@ public final class System {
      *             {@code value} is {@code null}.
      * @throws     IllegalArgumentException if {@code key} is empty.
      * @see        #getProperty
-     * @see        java.lang.System#getProperty(java.lang.String)
-     * @see        java.lang.System#getProperty(java.lang.String, java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String)
      * @see        java.util.PropertyPermission
      * @see        SecurityManager#checkPermission
      * @since      1.2
@@ -1056,8 +1056,8 @@ public final class System {
      * @see        #getProperty
      * @see        #setProperty
      * @see        java.util.Properties
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkPropertiesAccess()
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkPropertiesAccess()
      * @since 1.5
      */
     public static String clearProperty(String key) {
@@ -1192,14 +1192,14 @@ public final class System {
      * LoggerFinder} uses.
      *
      * {@code System.Logger} instances are typically obtained from
-     * the {@link java.lang.System System} class, by calling
-     * {@link java.lang.System#getLogger(java.lang.String) System.getLogger(loggerName)}
-     * or {@link java.lang.System#getLogger(java.lang.String, java.util.ResourceBundle)
+     * the {@link java.base.share.classes.java.lang.System System} class, by calling
+     * {@link java.base.share.classes.java.lang.System#getLogger(java.base.share.classes.java.lang.String) System.getLogger(loggerName)}
+     * or {@link java.base.share.classes.java.lang.System#getLogger(java.base.share.classes.java.lang.String, java.util.ResourceBundle)
      * System.getLogger(loggerName, bundle)}.
      *
-     * @see java.lang.System#getLogger(java.lang.String)
-     * @see java.lang.System#getLogger(java.lang.String, java.util.ResourceBundle)
-     * @see java.lang.System.LoggerFinder
+     * @see java.base.share.classes.java.lang.System#getLogger(java.base.share.classes.java.lang.String)
+     * @see java.base.share.classes.java.lang.System#getLogger(java.base.share.classes.java.lang.String, java.util.ResourceBundle)
+     * @see java.base.share.classes.java.lang.System.LoggerFinder
      *
      * @since 9
      */
@@ -1216,8 +1216,8 @@ public final class System {
          * <br>
          * {@link #ALL} and {@link #OFF}
          * are simple markers with severities mapped respectively to
-         * {@link java.lang.Integer#MIN_VALUE Integer.MIN_VALUE} and
-         * {@link java.lang.Integer#MAX_VALUE Integer.MAX_VALUE}.
+         * {@link java.base.share.classes.java.lang.Integer#MIN_VALUE Integer.MIN_VALUE} and
+         * {@link java.base.share.classes.java.lang.Integer#MAX_VALUE Integer.MAX_VALUE}.
          * <p>
          * <b>Severity values and Mapping to {@code java.util.logging.Level}.</b>
          * <p>
@@ -1252,8 +1252,8 @@ public final class System {
          *
          * @since 9
          *
-         * @see java.lang.System.LoggerFinder
-         * @see java.lang.System.Logger
+         * @see java.base.share.classes.java.lang.System.LoggerFinder
+         * @see java.base.share.classes.java.lang.System.Logger
          */
         @SuppressWarnings("doclint:reference") // cross-module links
         public enum Level {
@@ -1356,8 +1356,8 @@ public final class System {
          * @param level the log message level.
          * @param msg the string message (or a key in the message catalog, if
          * this logger is a {@link
-         * LoggerFinder#getLocalizedLogger(java.lang.String,
-         * java.util.ResourceBundle, java.lang.Module) localized logger});
+         * LoggerFinder#getLocalizedLogger(java.base.share.classes.java.lang.String,
+         * java.util.ResourceBundle, java.base.share.classes.java.lang.Module) localized logger});
          * can be {@code null}.
          *
          * @throws NullPointerException if {@code level} is {@code null}.
@@ -1424,8 +1424,8 @@ public final class System {
          * @param level the log message level.
          * @param msg the string message (or a key in the message catalog, if
          * this logger is a {@link
-         * LoggerFinder#getLocalizedLogger(java.lang.String,
-         * java.util.ResourceBundle, java.lang.Module) localized logger});
+         * LoggerFinder#getLocalizedLogger(java.base.share.classes.java.lang.String,
+         * java.util.ResourceBundle, java.base.share.classes.java.lang.Module) localized logger});
          * can be {@code null}.
          * @param thrown a {@code Throwable} associated with the log message;
          *        can be {@code null}.
@@ -1473,8 +1473,8 @@ public final class System {
          * @param format the string message format in {@link
          * java.text.MessageFormat} format, (or a key in the message
          * catalog, if this logger is a {@link
-         * LoggerFinder#getLocalizedLogger(java.lang.String,
-         * java.util.ResourceBundle, java.lang.Module) localized logger});
+         * LoggerFinder#getLocalizedLogger(java.base.share.classes.java.lang.String,
+         * java.util.ResourceBundle, java.base.share.classes.java.lang.Module) localized logger});
          * can be {@code null}.
          * @param params an optional list of parameters to the message (may be
          * none).
@@ -1611,8 +1611,8 @@ public final class System {
      * of corresponding severity - as described in {@link Logger.Level
      * Logger.Level}.
      *
-     * @see java.lang.System
-     * @see java.lang.System.Logger
+     * @see java.base.share.classes.java.lang.System
+     * @see java.base.share.classes.java.lang.System.Logger
      *
      * @since 9
      */
@@ -1679,7 +1679,7 @@ public final class System {
          * message localization.
          *
          * @implSpec By default, this method calls {@link
-         * #getLogger(java.lang.String, java.lang.Module)
+         * #getLogger(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.Module)
          * this.getLogger(name, module)} to obtain a logger, then wraps that
          * logger in a {@link Logger} instance where all methods that do not
          * take a {@link ResourceBundle} as parameter are redirected to one
@@ -1764,8 +1764,8 @@ public final class System {
      *
      * @implSpec
      * Instances returned by this method route messages to loggers
-     * obtained by calling {@link LoggerFinder#getLogger(java.lang.String,
-     * java.lang.Module) LoggerFinder.getLogger(name, module)}, where
+     * obtained by calling {@link LoggerFinder#getLogger(java.base.share.classes.java.lang.String,
+     * java.base.share.classes.java.lang.Module) LoggerFinder.getLogger(name, module)}, where
      * {@code module} is the caller's module.
      * In cases where {@code System.getLogger} is called from a context where
      * there is no caller frame on the stack (e.g when called directly
@@ -1778,7 +1778,7 @@ public final class System {
      *
      * @apiNote
      * This method may defer calling the {@link
-     * LoggerFinder#getLogger(java.lang.String, java.lang.Module)
+     * LoggerFinder#getLogger(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.Module)
      * LoggerFinder.getLogger} method to create an actual logger supplied by
      * the logging backend, for instance, to allow loggers to be obtained during
      * the system initialization time.
@@ -1810,8 +1810,8 @@ public final class System {
      *
      * @implSpec
      * The returned logger will perform message localization as specified
-     * by {@link LoggerFinder#getLocalizedLogger(java.lang.String,
-     * java.util.ResourceBundle, java.lang.Module)
+     * by {@link LoggerFinder#getLocalizedLogger(java.base.share.classes.java.lang.String,
+     * java.util.ResourceBundle, java.base.share.classes.java.lang.Module)
      * LoggerFinder.getLocalizedLogger(name, bundle, module)}, where
      * {@code module} is the caller's module.
      * In cases where {@code System.getLogger} is called from a context where
@@ -1831,7 +1831,7 @@ public final class System {
      * implementation yet.
      * System classes which may be loaded early in the boot sequence and
      * need to log localized messages should create a logger using
-     * {@link #getLogger(java.lang.String)} and then use the log methods that
+     * {@link #getLogger(java.base.share.classes.java.lang.String)} and then use the log methods that
      * take a resource bundle as parameter.
      *
      * @param name    the name of the logger.
@@ -1890,7 +1890,7 @@ public final class System {
      * @throws SecurityException
      *         if a security manager exists and its {@code checkExit} method
      *         doesn't allow exit with the specified status.
-     * @see    java.lang.Runtime#exit(int)
+     * @see    java.base.share.classes.java.lang.Runtime#exit(int)
      */
     public static void exit(int status) {
         Runtime.getRuntime().exit(status);
@@ -1910,7 +1910,7 @@ public final class System {
      * complete at any particular time, if at all, before the method returns or ever.
      * There is also no guarantee that this effort will determine
      * the change of reachability in any particular number of objects,
-     * or that any particular number of {@link java.lang.ref.Reference Reference}
+     * or that any particular number of {@link java.base.share.classes.java.lang.ref.Reference Reference}
      * objects will be cleared and enqueued.
      *
      * <p>
@@ -1920,7 +1920,7 @@ public final class System {
      * Runtime.getRuntime().gc()
      * </pre></blockquote>
      *
-     * @see     java.lang.Runtime#gc()
+     * @see     java.base.share.classes.java.lang.Runtime#gc()
      */
     public static void gc() {
         Runtime.getRuntime().gc();
@@ -1943,13 +1943,13 @@ public final class System {
      * </pre></blockquote>
      *
      * @deprecated Finalization has been deprecated for removal.  See
-     * {@link java.lang.Object#finalize} for background information and details
+     * {@link java.base.share.classes.java.lang.Object#finalize} for background information and details
      * about migration options.
      * <p>
      * When running in a JVM in which finalization has been disabled or removed,
      * no objects will be pending finalization, so this method does nothing.
      *
-     * @see     java.lang.Runtime#runFinalization()
+     * @see     java.base.share.classes.java.lang.Runtime#runFinalization()
      * @jls 12.6 Finalization of Class Instances
      */
     @Deprecated(since="18", forRemoval=true)
@@ -1991,8 +1991,8 @@ public final class System {
      *             linked with the VM, or the library cannot be mapped to
      *             a native library image by the host system.
      * @throws     NullPointerException if {@code filename} is {@code null}
-     * @see        java.lang.Runtime#load(java.lang.String)
-     * @see        java.lang.SecurityManager#checkLink(java.lang.String)
+     * @see        java.base.share.classes.java.lang.Runtime#load(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkLink(java.base.share.classes.java.lang.String)
      */
     @CallerSensitive
     public static void load(String filename) {
@@ -2027,8 +2027,8 @@ public final class System {
      *             linked with the VM,  or the library cannot be mapped to a
      *             native library image by the host system.
      * @throws     NullPointerException if {@code libname} is {@code null}
-     * @see        java.lang.Runtime#loadLibrary(java.lang.String)
-     * @see        java.lang.SecurityManager#checkLink(java.lang.String)
+     * @see        java.base.share.classes.java.lang.Runtime#loadLibrary(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkLink(java.base.share.classes.java.lang.String)
      */
     @CallerSensitive
     public static void loadLibrary(String libname) {
@@ -2042,8 +2042,8 @@ public final class System {
      * @param      libname the name of the library.
      * @return     a platform-dependent native library name.
      * @throws     NullPointerException if {@code libname} is {@code null}
-     * @see        java.lang.System#loadLibrary(java.lang.String)
-     * @see        java.lang.ClassLoader#findLibrary(java.lang.String)
+     * @see        java.base.share.classes.java.lang.System#loadLibrary(java.base.share.classes.java.lang.String)
+     * @see        java.base.share.classes.java.lang.ClassLoader#findLibrary(java.base.share.classes.java.lang.String)
      * @since      1.2
      */
     public static native String mapLibraryName(String libname);
@@ -2104,8 +2104,8 @@ public final class System {
                 // Do not add private system properties to the Properties
                 case "sun.nio.MaxDirectMemorySize":
                 case "sun.nio.PageAlignDirectMemory":
-                    // used by java.lang.Integer.IntegerCache
-                case "java.lang.Integer.IntegerCache.high":
+                    // used by java.base.share.classes.java.lang.Integer.IntegerCache
+                case "java.base.share.classes.java.lang.Integer.IntegerCache.high":
                     // used by sun.launcher.LauncherHelper
                 case "sun.java.launcher.diag":
                     // used by jdk.internal.loader.ClassLoaders
@@ -2181,7 +2181,7 @@ public final class System {
         // start Finalizer and Reference Handler threads
         SharedSecrets.getJavaLangRefAccess().startThreads();
 
-        // system properties, java.lang and other core classes are now initialized
+        // system properties, java.base.share.classes.java.lang and other core classes are now initialized
         VM.initLevel(1);
     }
 
@@ -2312,7 +2312,7 @@ public final class System {
     }
 
     private static void setJavaLangAccess() {
-        // Allow privileged classes outside of java.lang
+        // Allow privileged classes outside of java.base.share.classes.java.lang
         SharedSecrets.setJavaLangAccess(new JavaLangAccess() {
             public List<Method> getDeclaredPublicMethods(Class<?> klass, String name, Class<?>... parameterTypes) {
                 return klass.getDeclaredPublicMethods(name, parameterTypes);

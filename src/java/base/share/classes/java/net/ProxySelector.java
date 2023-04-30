@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,9 +12,9 @@ import sun.security.util.SecurityConstants;
  * Selects the proxy server to use, if any, when connecting to the
  * network resource referenced by a URL. A proxy selector is a
  * concrete sub-class of this class and is registered by invoking the
- * {@link java.net.ProxySelector#setDefault setDefault} method. The
+ * {@link java.base.share.classes.java.net.ProxySelector#setDefault setDefault} method. The
  * currently registered proxy selector can be retrieved by calling
- * {@link java.net.ProxySelector#getDefault getDefault} method.
+ * {@link java.base.share.classes.java.net.ProxySelector#getDefault getDefault} method.
  *
  * <p> When a proxy selector is registered, for instance, a subclass
  * of URLConnection class should call the {@link #select select}
@@ -124,10 +124,10 @@ public abstract class ProxySelector {
      *
      * @return  a List of Proxies. Each element in
      *          the List is of type
-     *          {@link java.net.Proxy Proxy};
+     *          {@link java.base.share.classes.java.net.Proxy Proxy};
      *          when no proxy is available, the list will
      *          contain one element of type
-     *          {@link java.net.Proxy Proxy}
+     *          {@link java.base.share.classes.java.net.Proxy Proxy}
      *          that represents a direct connection.
      * @throws IllegalArgumentException if the argument is null or if
      *         the protocol or host cannot be determined from the provided

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.util.Map;
@@ -116,10 +116,10 @@ public abstract class ResponseCache {
      * @throws  IOException if an I/O error occurs
      * @throws  IllegalArgumentException if any one of the arguments is null
      *
-     * @see     java.net.URLConnection#setUseCaches(boolean)
-     * @see     java.net.URLConnection#getUseCaches()
-     * @see     java.net.URLConnection#setDefaultUseCaches(boolean)
-     * @see     java.net.URLConnection#getDefaultUseCaches()
+     * @see     java.base.share.classes.java.net.URLConnection#setUseCaches(boolean)
+     * @see     java.base.share.classes.java.net.URLConnection#getUseCaches()
+     * @see     java.base.share.classes.java.net.URLConnection#setDefaultUseCaches(boolean)
+     * @see     java.base.share.classes.java.net.URLConnection#getDefaultUseCaches()
      */
     public abstract CacheResponse
         get(URI uri, String rqstMethod, Map<String, List<String>> rqstHeaders)

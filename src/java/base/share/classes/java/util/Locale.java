@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -10,9 +10,9 @@ import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.io.Serializable;
 import java.text.MessageFormat;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.spi.LocaleNameProvider;
-import java.util.stream.Stream;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.spi.LocaleNameProvider;
+import java.base.share.classes.java.util.stream.Stream;
 
 import jdk.internal.vm.annotation.Stable;
 
@@ -953,7 +953,7 @@ public final class Locale implements Cloneable, Serializable {
      * based on the host environment. It is used by many locale-sensitive
      * methods if no locale is explicitly specified.
      * It can be changed using the
-     * {@link #setDefault(java.util.Locale) setDefault} method.
+     * {@link #setDefault(java.base.share.classes.java.util.Locale) setDefault} method.
      *
      * @return the default locale for this instance of the Java Virtual Machine
      */
@@ -1102,7 +1102,7 @@ public final class Locale implements Cloneable, Serializable {
      * @throws NullPointerException if {@code newLocale} is null
      * @param newLocale the new default locale
      * @see SecurityManager#checkPermission
-     * @see java.util.PropertyPermission
+     * @see java.base.share.classes.java.util.PropertyPermission
      */
     public static synchronized void setDefault(Locale newLocale) {
         setDefault(Category.DISPLAY, newLocale);
@@ -1164,7 +1164,7 @@ public final class Locale implements Cloneable, Serializable {
      * Returns an array of all installed locales.
      * The returned array represents the union of locales supported
      * by the Java runtime environment and by installed
-     * {@link java.util.spi.LocaleServiceProvider LocaleServiceProvider}
+     * {@link java.base.share.classes.java.util.spi.LocaleServiceProvider LocaleServiceProvider}
      * implementations. At a minimum, the returned array must contain a
      * {@code Locale} instance equal to {@link Locale#ROOT Locale.ROOT} and
      * a {@code Locale} instance equal to {@link Locale#US Locale.US}.
@@ -1179,7 +1179,7 @@ public final class Locale implements Cloneable, Serializable {
      * Returns a stream of all installed locales.
      * The returned stream represents the union of locales supported
      * by the Java runtime environment and by installed
-     * {@link java.util.spi.LocaleServiceProvider LocaleServiceProvider}
+     * {@link java.base.share.classes.java.util.spi.LocaleServiceProvider LocaleServiceProvider}
      * implementations. At a minimum, the returned stream must contain a
      * {@code Locale} instance equal to {@link Locale#ROOT Locale.ROOT} and
      * a {@code Locale} instance equal to {@link Locale#US Locale.US}.
@@ -1223,7 +1223,7 @@ public final class Locale implements Cloneable, Serializable {
      * Returns a {@code Set} of ISO3166 country codes for the specified type.
      *
      * @param type {@link Locale.IsoCountryCode} specified ISO code type.
-     * @see java.util.Locale.IsoCountryCode
+     * @see java.base.share.classes.java.util.Locale.IsoCountryCode
      * @throws NullPointerException if type is null
      * @return a {@code Set} of ISO country codes for the specified type.
      * @since 9
@@ -1777,7 +1777,7 @@ public final class Locale implements Cloneable, Serializable {
      * @return The locale that best represents the language tag.
      * @throws NullPointerException if {@code languageTag} is {@code null}
      * @see #toLanguageTag()
-     * @see java.util.Locale.Builder#setLanguageTag(String)
+     * @see java.base.share.classes.java.util.Locale.Builder#setLanguageTag(String)
      * @since 1.7
      */
     public static Locale forLanguageTag(String languageTag) {

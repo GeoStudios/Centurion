@@ -2,19 +2,19 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Signals that a sync operation has failed.
  *
- * @see     java.io.FileDescriptor#sync
- * @see     java.io.IOException
+ * @see     java.base.share.classes.java.io.FileDescriptor#sync
+ * @see     java.base.share.classes.java.io.IOException
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
 public class SyncFailedException extends IOException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -2353342684412443330L;
 
     /**

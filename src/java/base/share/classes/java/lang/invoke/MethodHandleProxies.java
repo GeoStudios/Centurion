@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.lang.reflect.*;
 import java.security.AccessController;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
-import static java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**
  * This class consists exclusively of static methods that help adapt

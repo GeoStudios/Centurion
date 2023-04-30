@@ -3,7 +3,7 @@
  */
 
 
-package javax.security.cert;
+package java.base.share.classes.javax.security.cert;
 
 import java.security.PublicKey;
 import java.security.NoSuchAlgorithmException;
@@ -28,7 +28,7 @@ import java.security.SignatureException;
  * sets of information, and they store and retrieve the information in
  * different ways.
  *
- * <p><em>Note: The classes in the package {@code javax.security.cert}
+ * <p><em>Note: The classes in the package {@code java.base.share.classes.javax.security.cert}
  * exist for compatibility with earlier versions of the
  * Java Secure Sockets Extension (JSSE). New applications should instead
  * use the standard Java SE certificate classes located in

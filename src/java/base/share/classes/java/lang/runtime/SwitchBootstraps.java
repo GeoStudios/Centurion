@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.runtime;
+package java.base.share.classes.java.lang.runtime;
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantBootstraps;

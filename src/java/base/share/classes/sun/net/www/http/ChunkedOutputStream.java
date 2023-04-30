@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.www.http;
+package java.base.share.classes.sun.net.www.http;
 
 import java.io.*;
 import java.util.concurrent.locks.Lock;

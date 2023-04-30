@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.temporal;
+package java.base.share.classes.java.time.temporal;
 
 import java.time.DateTimeException;
 
@@ -101,7 +101,7 @@ public interface Temporal extends TemporalAccessor {
      * A simple adjuster might simply set the one of the fields, such as the year field.
      * A more complex adjuster might set the date to the last day of the month.
      * A selection of common adjustments is provided in
-     * {@link java.time.temporal.TemporalAdjusters TemporalAdjusters}.
+     * {@link java.base.share.classes.java.time.temporal.TemporalAdjusters TemporalAdjusters}.
      * These include finding the "last day of the month" and "next Wednesday".
      * The adjuster is responsible for handling special cases, such as the varying
      * lengths of month and leap years.

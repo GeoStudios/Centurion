@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.stream;
+package java.base.share.classes.java.util.stream;
 
 import java.util.Spliterator;
 import java.util.function.Consumer;
@@ -244,8 +244,8 @@ interface Node<T> {
          */
         @Override
         default T[] asArray(IntFunction<T[]> generator) {
-            if (java.util.stream.Tripwire.ENABLED)
-                java.util.stream.Tripwire.trip(getClass(), "{0} calling Node.OfPrimitive.asArray");
+            if (java.base.share.classes.java.util.stream.Tripwire.ENABLED)
+                java.base.share.classes.java.util.stream.Tripwire.trip(getClass(), "{0} calling Node.OfPrimitive.asArray");
 
             long size = count();
             if (size >= Nodes.MAX_ARRAY_SIZE)

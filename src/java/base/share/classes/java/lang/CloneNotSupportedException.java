@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown to indicate that the {@code clone} method in class
@@ -14,8 +14,8 @@ package java.lang;
  * throw this exception to indicate that an object could not or
  * should not be cloned.
  *
- * @see     java.lang.Cloneable
- * @see     java.lang.Object#clone()
+ * @see     java.base.share.classes.java.lang.Cloneable
+ * @see     java.base.share.classes.java.lang.Object#clone()
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

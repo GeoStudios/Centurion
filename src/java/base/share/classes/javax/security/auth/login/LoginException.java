@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
 /**
  * This is the basic login exception.
  *
  * @since 1.4
- * @see javax.security.auth.login.LoginContext
+ * @see java.base.share.classes.javax.security.auth.login.LoginContext
  */
 
 public class LoginException extends java.security.GeneralSecurityException {

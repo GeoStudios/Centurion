@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.spi;
+package java.base.share.classes.sun.net.spi;
 
 import java.net.InetSocketAddress;
 import java.net.Proxy;

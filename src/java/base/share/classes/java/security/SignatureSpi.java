@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import sun.security.jca.JCAUtil;
 
 import java.nio.ByteBuffer;
-import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)
@@ -339,7 +339,7 @@ public abstract class SignatureSpi {
      * and cannot be set again, a security exception occurs, and so on.
      *
      * @deprecated Replaced by {@link
-     * #engineSetParameter(java.security.spec.AlgorithmParameterSpec)
+     * #engineSetParameter(java.base.share.classes.java.security.spec.AlgorithmParameterSpec)
      * engineSetParameter}.
      */
     @Deprecated

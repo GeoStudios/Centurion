@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.locks;
+package java.base.share.classes.java.util.concurrent.locks;
 
 /**
  * A {@code ReadWriteLock} maintains a pair of associated {@link

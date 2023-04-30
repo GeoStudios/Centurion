@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
-import java.util.function.DoubleConsumer;
-import java.util.function.IntConsumer;
-import java.util.function.LongConsumer;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.LongConsumer;
 
 /**
  * Static classes and methods for operating on or creating instances of
@@ -29,7 +29,7 @@ public final class Spliterators {
      *
      * <p>The empty spliterator reports {@link Spliterator#SIZED} and
      * {@link Spliterator#SUBSIZED}.  Calls to
-     * {@link java.util.Spliterator#trySplit()} always return {@code null}.
+     * {@link java.base.share.classes.java.util.Spliterator#trySplit()} always return {@code null}.
      *
      * @param <T> Type of elements
      * @return An empty spliterator
@@ -47,7 +47,7 @@ public final class Spliterators {
      *
      * <p>The empty spliterator reports {@link Spliterator#SIZED} and
      * {@link Spliterator#SUBSIZED}.  Calls to
-     * {@link java.util.Spliterator#trySplit()} always return {@code null}.
+     * {@link java.base.share.classes.java.util.Spliterator#trySplit()} always return {@code null}.
      *
      * @return An empty spliterator
      */
@@ -63,7 +63,7 @@ public final class Spliterators {
      *
      * <p>The empty spliterator reports {@link Spliterator#SIZED} and
      * {@link Spliterator#SUBSIZED}.  Calls to
-     * {@link java.util.Spliterator#trySplit()} always return {@code null}.
+     * {@link java.base.share.classes.java.util.Spliterator#trySplit()} always return {@code null}.
      *
      * @return An empty spliterator
      */
@@ -79,7 +79,7 @@ public final class Spliterators {
      *
      * <p>The empty spliterator reports {@link Spliterator#SIZED} and
      * {@link Spliterator#SUBSIZED}.  Calls to
-     * {@link java.util.Spliterator#trySplit()} always return {@code null}.
+     * {@link java.base.share.classes.java.util.Spliterator#trySplit()} always return {@code null}.
      *
      * @return An empty spliterator
      */
@@ -378,8 +378,8 @@ public final class Spliterators {
 
     /**
      * Creates a {@code Spliterator} using the given collection's
-     * {@link java.util.Collection#iterator() iterator} as the source of elements, and
-     * reporting its {@link java.util.Collection#size() size} as its initial size.
+     * {@link java.base.share.classes.java.util.Collection#iterator() iterator} as the source of elements, and
+     * reporting its {@link java.base.share.classes.java.util.Collection#size() size} as its initial size.
      *
      * <p>The spliterator is
      * <em><a href="Spliterator.html#binding">late-binding</a></em>, inherits
@@ -1323,9 +1323,9 @@ public final class Spliterators {
      * permit limited parallelism.
      *
      * <p>An extending class need only
-     * implement {@link #tryAdvance(java.util.function.Consumer) tryAdvance}.
+     * implement {@link #tryAdvance(java.base.share.classes.java.util.function.Consumer) tryAdvance}.
      * The extending class should override
-     * {@link #forEachRemaining(java.util.function.Consumer) forEachRemaining}
+     * {@link #forEachRemaining(java.base.share.classes.java.util.function.Consumer) forEachRemaining}
      * if it can provide a more performant implementation.
      *
      * @apiNote
@@ -1450,9 +1450,9 @@ public final class Spliterators {
      * permit limited parallelism.
      *
      * <p>To implement a spliterator an extending class need only
-     * implement {@link #tryAdvance(java.util.function.IntConsumer)
+     * implement {@link #tryAdvance(java.base.share.classes.java.util.function.IntConsumer)
      * tryAdvance}.  The extending class should override
-     * {@link #forEachRemaining(java.util.function.IntConsumer) forEachRemaining}
+     * {@link #forEachRemaining(java.base.share.classes.java.util.function.IntConsumer) forEachRemaining}
      * if it can provide a more performant implementation.
      *
      * @apiNote
@@ -1462,12 +1462,12 @@ public final class Spliterators {
      *
      * <p>An alternative to using this class, that also permits limited
      * parallelism, is to create a spliterator from an iterator
-     * (see {@link #spliterator(java.util.PrimitiveIterator.OfInt, long, int)}.
+     * (see {@link #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfInt, long, int)}.
      * Depending on the circumstances using an iterator may be easier or more
      * convenient than extending this class. For example, if there is already an
      * iterator available to use then there is no need to extend this class.
      *
-     * @see #spliterator(java.util.PrimitiveIterator.OfInt, long, int)
+     * @see #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfInt, long, int)
      * @since 1.8
      */
     public abstract static class AbstractIntSpliterator implements Spliterator.OfInt {
@@ -1562,9 +1562,9 @@ public final class Spliterators {
      * to permit limited parallelism.
      *
      * <p>To implement a spliterator an extending class need only
-     * implement {@link #tryAdvance(java.util.function.LongConsumer)
+     * implement {@link #tryAdvance(java.base.share.classes.java.util.function.LongConsumer)
      * tryAdvance}.  The extending class should override
-     * {@link #forEachRemaining(java.util.function.LongConsumer) forEachRemaining}
+     * {@link #forEachRemaining(java.base.share.classes.java.util.function.LongConsumer) forEachRemaining}
      * if it can provide a more performant implementation.
      *
      * @apiNote
@@ -1574,12 +1574,12 @@ public final class Spliterators {
      *
      * <p>An alternative to using this class, that also permits limited
      * parallelism, is to create a spliterator from an iterator
-     * (see {@link #spliterator(java.util.PrimitiveIterator.OfLong, long, int)}.
+     * (see {@link #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfLong, long, int)}.
      * Depending on the circumstances using an iterator may be easier or more
      * convenient than extending this class. For example, if there is already an
      * iterator available to use then there is no need to extend this class.
      *
-     * @see #spliterator(java.util.PrimitiveIterator.OfLong, long, int)
+     * @see #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfLong, long, int)
      * @since 1.8
      */
     public abstract static class AbstractLongSpliterator implements Spliterator.OfLong {
@@ -1674,9 +1674,9 @@ public final class Spliterators {
      * {@code trySplit} to permit limited parallelism.
      *
      * <p>To implement a spliterator an extending class need only
-     * implement {@link #tryAdvance(java.util.function.DoubleConsumer)
+     * implement {@link #tryAdvance(java.base.share.classes.java.util.function.DoubleConsumer)
      * tryAdvance}.  The extending class should override
-     * {@link #forEachRemaining(java.util.function.DoubleConsumer) forEachRemaining}
+     * {@link #forEachRemaining(java.base.share.classes.java.util.function.DoubleConsumer) forEachRemaining}
      * if it can provide a more performant implementation.
      *
      * @apiNote
@@ -1686,12 +1686,12 @@ public final class Spliterators {
      *
      * <p>An alternative to using this class, that also permits limited
      * parallelism, is to create a spliterator from an iterator
-     * (see {@link #spliterator(java.util.PrimitiveIterator.OfDouble, long, int)}.
+     * (see {@link #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfDouble, long, int)}.
      * Depending on the circumstances using an iterator may be easier or more
      * convenient than extending this class. For example, if there is already an
      * iterator available to use then there is no need to extend this class.
      *
-     * @see #spliterator(java.util.PrimitiveIterator.OfDouble, long, int)
+     * @see #spliterator(java.base.share.classes.java.util.PrimitiveIterator.OfDouble, long, int)
      * @since 1.8
      */
     public abstract static class AbstractDoubleSpliterator implements Spliterator.OfDouble {
@@ -1799,8 +1799,8 @@ public final class Spliterators {
 
         /**
          * Creates a spliterator using the given
-         * collection's {@link java.util.Collection#iterator() iterator} for traversal,
-         * and reporting its {@link java.util.Collection#size() size} as its initial
+         * collection's {@link java.base.share.classes.java.util.Collection#iterator() iterator} for traversal,
+         * and reporting its {@link java.base.share.classes.java.util.Collection#size() size} as its initial
          * size.
          *
          * @param collection the collection

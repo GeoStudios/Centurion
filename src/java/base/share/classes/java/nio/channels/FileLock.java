@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -73,7 +73,7 @@ import java.util.Objects;
  * they were advisory locks.
  *
  * <p> On some systems, acquiring a mandatory lock on a region of a file
- * prevents that region from being {@link java.nio.channels.FileChannel#map
+ * prevents that region from being {@link java.base.share.classes.java.nio.channels.FileChannel#map
  * <i>mapped into memory</i>}, and vice versa.  Programs that combine
  * locking and mapping should be prepared for this combination to fail.
  *

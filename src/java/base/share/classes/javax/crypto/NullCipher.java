@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 /**
  * The {@code NullCipher} class is a class that provides an

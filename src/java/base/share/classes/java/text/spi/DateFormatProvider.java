@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text.spi;
+package java.base.share.classes.java.text.spi;
 
 import java.text.DateFormat;
 import java.util.Locale;

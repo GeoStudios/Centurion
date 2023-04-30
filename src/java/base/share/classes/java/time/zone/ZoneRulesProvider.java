@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -34,7 +34,7 @@ import java.util.Collections;
  * directories. Installed providers are loaded using the service-provider loading
  * facility defined by the {@link ServiceLoader} class. A ZoneRulesProvider
  * identifies itself with a provider configuration file named
- * {@code java.time.zone.ZoneRulesProvider} in the resource directory
+ * {@code java.base.share.classes.java.time.zone.ZoneRulesProvider} in the resource directory
  * {@code META-INF/services}. The file should contain a line that specifies the
  * fully qualified concrete zonerules-provider class name.
  * Providers may also be made available by adding them to the class path or by
@@ -42,7 +42,7 @@ import java.util.Collections;
  * <p>
  * The Java virtual machine has a default provider that provides zone rules
  * for the time-zones defined by IANA Time Zone Database (TZDB). If the system
- * property {@systemProperty java.time.zone.DefaultZoneRulesProvider} is defined then
+ * property {@systemProperty java.base.share.classes.java.time.zone.DefaultZoneRulesProvider} is defined then
  * it is taken to be the fully-qualified name of a concrete ZoneRulesProvider
  * class to be loaded as the default provider, using the system class loader.
  * If this system property is not defined, a system-default provider will be
@@ -87,14 +87,14 @@ public abstract class ZoneRulesProvider {
     private static volatile Set<String> ZONE_IDS;
 
     static {
-        // if the property java.time.zone.DefaultZoneRulesProvider is
+        // if the property java.base.share.classes.java.time.zone.DefaultZoneRulesProvider is
         // set then its value is the class name of the default provider
         @SuppressWarnings("removal")
         final List<ZoneRulesProvider> loaded =
                 AccessController.doPrivileged(new PrivilegedAction<List<ZoneRulesProvider>>() {
                     public List<ZoneRulesProvider> run() {
                         List<ZoneRulesProvider> result = new ArrayList<>();
-                        String prop = System.getProperty("java.time.zone.DefaultZoneRulesProvider");
+                        String prop = System.getProperty("java.base.share.classes.java.time.zone.DefaultZoneRulesProvider");
                         if (prop != null) {
                             try {
                                 Class<?> c = Class.forName(prop, true, ClassLoader.getSystemClassLoader());

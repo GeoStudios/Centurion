@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
 
 /**
  * Signals that a {@code destroy} operation failed.

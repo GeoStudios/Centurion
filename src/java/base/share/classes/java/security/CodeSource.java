@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 
 import java.net.URL;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Hashtable;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.security.cert.*;
+import java.base.share.classes.java.security.cert.*;
 import java.util.Objects;
 
 import sun.net.util.URLUtil;
@@ -49,7 +49,7 @@ public class CodeSource implements java.io.Serializable {
     /*
      * The code signers. Certificate chains are concatenated.
      */
-    private transient java.security.cert.Certificate[] certs = null;
+    private transient java.base.share.classes.java.security.cert.Certificate[] certs = null;
 
     // cached SocketPermission used for matchLocation
     private transient SocketPermission sp;
@@ -74,7 +74,7 @@ public class CodeSource implements java.io.Serializable {
      * @param certs the certificate(s). It may be {@code null}. The contents
      * of the array are copied to protect against subsequent modification.
      */
-    public CodeSource(URL url, java.security.cert.Certificate[] certs) {
+    public CodeSource(URL url, java.base.share.classes.java.security.cert.Certificate[] certs) {
         this.location = url;
         if (url != null) {
             this.locationNoFragString = URLUtil.urlNoFragString(url);
@@ -179,20 +179,20 @@ public class CodeSource implements java.io.Serializable {
      * @return a copy of the certificate array, or {@code null} if there
      * is none.
      */
-    public final java.security.cert.Certificate[] getCertificates() {
+    public final java.base.share.classes.java.security.cert.Certificate[] getCertificates() {
         if (certs != null) {
             return certs.clone();
 
         } else if (signers != null) {
             // Convert the code signers to certs
-            ArrayList<java.security.cert.Certificate> certChains =
+            ArrayList<java.base.share.classes.java.security.cert.Certificate> certChains =
                         new ArrayList<>();
             for (int i = 0; i < signers.length; i++) {
                 certChains.addAll(
                     signers[i].getSignerCertPath().getCertificates());
             }
             certs = certChains.toArray(
-                    new java.security.cert.Certificate[0]);
+                    new java.base.share.classes.java.security.cert.Certificate[0]);
             return certs.clone();
 
         } else {
@@ -204,7 +204,7 @@ public class CodeSource implements java.io.Serializable {
      * Returns the code signers associated with this {@code CodeSource}.
      * <p>
      * If this {@code CodeSource} object was created using the
-     * {@link #CodeSource(URL url, java.security.cert.Certificate[] certs)}
+     * {@link #CodeSource(URL url, java.base.share.classes.java.security.cert.Certificate[] certs)}
      * constructor then its certificate chains are extracted and used to
      * create an array of {@code CodeSigner} objects. Note that only X.509
      * certificates are examined - all other certificate types are ignored.
@@ -511,7 +511,7 @@ public class CodeSource implements java.io.Serializable {
             oos.writeInt(certs.length);
             // write out each cert, including its type
             for (int i = 0; i < certs.length; i++) {
-                java.security.cert.Certificate cert = certs[i];
+                java.base.share.classes.java.security.cert.Certificate cert = certs[i];
                 try {
                     oos.writeUTF(cert.getType());
                     byte[] encoded = cert.getEncoded();
@@ -542,7 +542,7 @@ public class CodeSource implements java.io.Serializable {
     {
         CertificateFactory cf;
         Hashtable<String, CertificateFactory> cfs = null;
-        List<java.security.cert.Certificate> certList = null;
+        List<java.base.share.classes.java.security.cert.Certificate> certList = null;
 
         ois.defaultReadObject(); // location
 
@@ -588,7 +588,7 @@ public class CodeSource implements java.io.Serializable {
 
         if (certList != null) {
             this.certs = certList.toArray(
-                    new java.security.cert.Certificate[size]);
+                    new java.base.share.classes.java.security.cert.Certificate[size]);
         }
         // Deserialize array of code signers (if any)
         try {
@@ -610,7 +610,7 @@ public class CodeSource implements java.io.Serializable {
      * @return an array of code signers or {@code null} if none are generated.
      */
     private CodeSigner[] convertCertArrayToSignerArray(
-        java.security.cert.Certificate[] certs) {
+        java.base.share.classes.java.security.cert.Certificate[] certs) {
 
         if (certs == null) {
             return null;
@@ -626,7 +626,7 @@ public class CodeSource implements java.io.Serializable {
             int i = 0;
             List<CodeSigner> signers = new ArrayList<>();
             while (i < certs.length) {
-                List<java.security.cert.Certificate> certChain =
+                List<java.base.share.classes.java.security.cert.Certificate> certChain =
                         new ArrayList<>();
                 certChain.add(certs[i++]); // first cert is an end-entity cert
                 int j = i;

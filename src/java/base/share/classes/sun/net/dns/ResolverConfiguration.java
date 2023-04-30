@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.dns;
+package java.base.share.classes.sun.net.dns;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ public sealed abstract class ResolverConfiguration permits ResolverConfiguration
     public static ResolverConfiguration open() {
         synchronized (lock) {
             if (provider == null) {
-                provider = new sun.net.dns.ResolverConfigurationImpl();
+                provider = new java.base.share.classes.sun.net.dns.ResolverConfigurationImpl();
             }
             return provider;
         }

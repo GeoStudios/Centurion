@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -65,12 +65,12 @@ public final class ObjectStreamClass implements Serializable {
     public static final ObjectStreamField[] NO_FIELDS =
         new ObjectStreamField[0];
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -6120832682080437368L;
     /**
      * {@code ObjectStreamClass} has no fields for default serialization.
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final ObjectStreamField[] serialPersistentFields =
         NO_FIELDS;
 
@@ -215,8 +215,8 @@ public final class ObjectStreamClass implements Serializable {
     /**
      * Find the descriptor for a class that can be serialized.  Creates an
      * ObjectStreamClass instance if one does not exist yet for class. Null is
-     * returned if the specified class does not implement java.io.Serializable
-     * or java.io.Externalizable.
+     * returned if the specified class does not implement java.base.share.classes.java.io.Serializable
+     * or java.base.share.classes.java.io.Externalizable.
      *
      * @param   cl class for which to get the descriptor
      * @return  the class descriptor for the specified class

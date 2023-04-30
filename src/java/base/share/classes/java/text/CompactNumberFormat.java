@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -169,7 +169,7 @@ import java.util.stream.Collectors;
  * For example, patterns used are {@code {"", "", "", 0K, 00K, ...}}. If the pattern
  * selected for formatting a number is {@code "0"} (special pattern),
  * either explicit or defaulted, then the general number formatting provided by
- * {@link java.text.DecimalFormat DecimalFormat}
+ * {@link java.base.share.classes.java.text.DecimalFormat DecimalFormat}
  * for the specified locale is used.
  *
  * <h2>Parsing</h2>
@@ -279,7 +279,7 @@ public final class CompactNumberFormat extends NumberFormat {
      * formatting behavior for the numbers which can't be represented as compact
      * numbers. For example, number matching the special pattern "0" are
      * formatted through general number format pattern provided by
-     * {@link java.text.DecimalFormat DecimalFormat}
+     * {@link java.base.share.classes.java.text.DecimalFormat DecimalFormat}
      * for the specified locale.
      *
      */
@@ -2197,8 +2197,8 @@ public final class CompactNumberFormat extends NumberFormat {
      *
      * @return the grouping size
      * @see #setGroupingSize
-     * @see java.text.NumberFormat#isGroupingUsed
-     * @see java.text.DecimalFormatSymbols#getGroupingSeparator
+     * @see java.base.share.classes.java.text.NumberFormat#isGroupingUsed
+     * @see java.base.share.classes.java.text.DecimalFormatSymbols#getGroupingSeparator
      */
     public int getGroupingSize() {
         return groupingSize;
@@ -2213,8 +2213,8 @@ public final class CompactNumberFormat extends NumberFormat {
      *
      * @param newValue the new grouping size
      * @see #getGroupingSize
-     * @see java.text.NumberFormat#setGroupingUsed
-     * @see java.text.DecimalFormatSymbols#setGroupingSeparator
+     * @see java.base.share.classes.java.text.NumberFormat#setGroupingUsed
+     * @see java.base.share.classes.java.text.DecimalFormatSymbols#setGroupingSeparator
      * @throws IllegalArgumentException if {@code newValue} is negative or
      * larger than 127
      */

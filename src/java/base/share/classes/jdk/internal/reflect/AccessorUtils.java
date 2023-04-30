@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 import java.lang.invoke.WrongMethodTypeException;
 import java.util.Set;
@@ -82,7 +82,7 @@ public class AccessorUtils {
     private static final Set<String> IMPL_PACKAGES = Set.of(
             "java.lang.reflect",
             "java.lang.invoke",
-            "jdk.internal.reflect",
+            "java.base.share.classes.jdk.internal.reflect",
             "sun.invoke.util"
     );
 }

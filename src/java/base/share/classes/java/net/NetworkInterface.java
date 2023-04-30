@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.util.Arrays;
 import java.util.Enumeration;
@@ -563,7 +563,7 @@ public final class NetworkInterface {
      * @param   obj   the object to compare against.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see     java.net.InetAddress#getAddress()
+     * @see     java.base.share.classes.java.net.InetAddress#getAddress()
      */
     public boolean equals(Object obj) {
         if (!(obj instanceof NetworkInterface that)) {

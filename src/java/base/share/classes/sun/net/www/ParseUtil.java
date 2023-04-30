@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -21,7 +21,7 @@ import java.util.HexFormat;
 import sun.nio.cs.UTF_8;
 
 /**
- * A class that contains useful routines common to sun.net.www
+ * A class that contains useful routines common to java.base.share.classes.sun.net.www
  * @author  Mike McCloskey
  */
 

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.annotation;
+package java.base.share.classes.java.lang.annotation;
 
 /**
  * Thrown to indicate that a program has attempted to access an element of

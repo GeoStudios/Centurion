@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import sun.util.ResourceBundleEnumeration;
 
@@ -87,7 +87,7 @@ public abstract class ListResourceBundle extends ResourceBundle {
     public ListResourceBundle() {
     }
 
-    // Implements java.util.ResourceBundle.handleGetObject; inherits javadoc specification.
+    // Implements java.base.share.classes.java.util.ResourceBundle.handleGetObject; inherits javadoc specification.
     public final Object handleGetObject(String key) {
         // lazily load the lookup hashtable.
         if (lookup == null) {

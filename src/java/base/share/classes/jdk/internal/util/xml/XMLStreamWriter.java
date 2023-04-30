@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.xml;
+package java.base.share.classes.jdk.internal.util.xml;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;

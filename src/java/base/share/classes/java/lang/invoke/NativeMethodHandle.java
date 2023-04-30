@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.foreign.abi.NativeEntryPoint;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.LM_TRUSTED;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_invokeStatic;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.LM_TRUSTED;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_invokeStatic;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;
 
 /**
  * This class models a method handle to a native function. A native method handle is made up of a {@link NativeEntryPoint},

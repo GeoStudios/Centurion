@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
@@ -12,11 +12,11 @@ import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.Kind.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
 
 /**
  * Construction and caching of often-used invokers.
@@ -283,7 +283,7 @@ class Invokers {
             if (lform != null)  return lform;
         }
         // exactInvokerForm (Object,Object)Object
-        //   link with java.lang.invoke.MethodHandle.invokeBasic(MethodHandle,Object,Object)Object/invokeSpecial
+        //   link with java.base.share.classes.java.lang.invoke.MethodHandle.invokeBasic(MethodHandle,Object,Object)Object/invokeSpecial
         final int THIS_MH      = 0;
         final int CALL_MH      = THIS_MH + (isLinker ? 0 : 1);
         final int ARG_BASE     = CALL_MH + 1;
@@ -560,7 +560,7 @@ class Invokers {
         LambdaForm lform = mtype.form().cachedLambdaForm(which);
         if (lform != null)  return lform;
         // exactInvokerForm (Object,Object)Object
-        //   link with java.lang.invoke.MethodHandle.invokeBasic(MethodHandle,Object,Object)Object/invokeSpecial
+        //   link with java.base.share.classes.java.lang.invoke.MethodHandle.invokeBasic(MethodHandle,Object,Object)Object/invokeSpecial
         final int ARG_BASE     = 0;
         final int OUTARG_LIMIT = ARG_BASE + mtype.parameterCount();
         final int INARG_LIMIT  = OUTARG_LIMIT + 1;

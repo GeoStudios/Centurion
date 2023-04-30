@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
 import java.util.Optional;
 
 import jdk.internal.math.FloatingDecimal;
@@ -763,7 +763,7 @@ public final class Double extends Number
      * @throws NullPointerException  if the string is null
      * @throws NumberFormatException if the string does not contain
      *         a parsable {@code double}.
-     * @see    java.lang.Double#valueOf(String)
+     * @see    java.base.share.classes.java.lang.Double#valueOf(String)
      * @since 1.2
      */
     public static double parseDouble(String s) throws NumberFormatException {
@@ -896,7 +896,7 @@ public final class Double extends Number
      * {@code toString} of one argument.
      *
      * @return  a {@code String} representation of this object.
-     * @see java.lang.Double#toString(double)
+     * @see java.base.share.classes.java.lang.Double#toString(double)
      */
     public String toString() {
         return toString(value);
@@ -1038,7 +1038,7 @@ public final class Double extends Number
      * href="#equivalenceRelation">this discussion</a> for details of
      * floating-point equality and equivalence.
      *
-     * @see java.lang.Double#doubleToLongBits(double)
+     * @see java.base.share.classes.java.lang.Double#doubleToLongBits(double)
      * @jls 15.21.1 Numerical Equality Operators == and !=
      */
     public boolean equals(Object obj) {

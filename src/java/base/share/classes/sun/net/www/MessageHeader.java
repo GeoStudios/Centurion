@@ -6,7 +6,7 @@
  *      news stream opener
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
 import java.io.*;
 import java.util.Collections;

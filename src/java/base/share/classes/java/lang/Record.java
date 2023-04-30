@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * This is the common base class of all Java language record classes.
@@ -101,7 +101,7 @@ public abstract class Record {
      * <li> If the component is of a primitive type, using the
      * corresponding primitive wrapper class {@code PW} (the
      * corresponding wrapper class for {@code int} is {@code
-     * java.lang.Integer}, and so on), the component is considered
+     * java.base.share.classes.java.lang.Integer}, and so on), the component is considered
      * equal if and only if {@code
      * PW.compare(this.c, r.c)} would return {@code 0}.
      *

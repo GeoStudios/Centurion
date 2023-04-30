@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 
@@ -21,7 +21,7 @@ import java.util.Objects;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.PipedInputStream
+ * @see     java.base.share.classes.java.io.PipedInputStream
  */
 public class PipedOutputStream extends OutputStream {
 
@@ -48,8 +48,8 @@ public class PipedOutputStream extends OutputStream {
      * piped input stream. It must be connected to a piped input stream,
      * either by the receiver or the sender, before being used.
      *
-     * @see     java.io.PipedInputStream#connect(java.io.PipedOutputStream)
-     * @see     java.io.PipedOutputStream#connect(java.io.PipedInputStream)
+     * @see     java.base.share.classes.java.io.PipedInputStream#connect(java.base.share.classes.java.io.PipedOutputStream)
+     * @see     java.base.share.classes.java.io.PipedOutputStream#connect(java.base.share.classes.java.io.PipedInputStream)
      */
     public PipedOutputStream() {
     }
@@ -91,7 +91,7 @@ public class PipedOutputStream extends OutputStream {
      *
      * @param   b   the {@code byte} to be written.
      * @throws  IOException if the pipe is <a href=#BROKEN> broken</a>,
-     *          {@link #connect(java.io.PipedInputStream) unconnected},
+     *          {@link #connect(java.base.share.classes.java.io.PipedInputStream) unconnected},
      *          closed, or if an I/O error occurs.
      */
     @Override
@@ -113,7 +113,7 @@ public class PipedOutputStream extends OutputStream {
      * @param   off   {@inheritDoc}
      * @param   len   {@inheritDoc}
      * @throws  IOException if the pipe is <a href=#BROKEN> broken</a>,
-     *          {@link #connect(java.io.PipedInputStream) unconnected},
+     *          {@link #connect(java.base.share.classes.java.io.PipedInputStream) unconnected},
      *          closed, or if an I/O error occurs.
      * @throws  IndexOutOfBoundsException {@inheritDoc}
      */

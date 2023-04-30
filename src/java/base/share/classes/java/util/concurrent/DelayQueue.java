@@ -13,9 +13,9 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
+import static java.base.share.classes.java.util.concurrent.TimeUnit.NANOSECONDS;
 
 import java.util.AbstractQueue;
 import java.util.Collection;
@@ -23,8 +23,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.PriorityQueue;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 
 /**
  * An unbounded {@linkplain BlockingQueue blocking queue} of

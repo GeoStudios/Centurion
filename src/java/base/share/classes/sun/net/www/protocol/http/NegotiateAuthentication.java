@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.net.URL;
 import java.io.IOException;
@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 import sun.net.www.HeaderParser;
-import static sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
-import static sun.net.www.protocol.http.AuthScheme.KERBEROS;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;
 import sun.security.action.GetPropertyAction;
 
 /**

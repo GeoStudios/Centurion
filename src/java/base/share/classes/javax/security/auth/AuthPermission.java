@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
 
 /**
  * This class is for authentication permissions. An {@code AuthPermission}
@@ -12,8 +12,8 @@ package javax.security.auth;
  * <p> The target name is the name of a security configuration parameter
  * (see below).  Currently, the {@code AuthPermission} object is used to
  * guard access to the {@link Subject},
- * {@link javax.security.auth.login.LoginContext}, and
- * {@link javax.security.auth.login.Configuration} objects.
+ * {@link java.base.share.classes.javax.security.auth.login.LoginContext}, and
+ * {@link java.base.share.classes.javax.security.auth.login.Configuration} objects.
  *
  * <p> The standard target names for an Authentication Permission are:
  *

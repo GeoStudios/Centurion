@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 
 import jdk.internal.misc.VM;
@@ -158,7 +158,7 @@ class Shutdown {
      */
     private static System.Logger getRuntimeExitLogger() {
         try {
-            System.Logger log = System.getLogger("java.lang.Runtime");
+            System.Logger log = System.getLogger("java.base.share.classes.java.lang.Runtime");
             return (log.isLoggable(System.Logger.Level.DEBUG)) ? log : null;
         } catch (Throwable throwable) {
             // Exceptions from locating the Logger are printed but do not prevent exit

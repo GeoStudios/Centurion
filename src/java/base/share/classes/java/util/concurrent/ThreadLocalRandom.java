@@ -16,7 +16,7 @@
  * and to implement the {@link RandomGenerator} interface.
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.io.ObjectStreamField;
 import java.math.BigInteger;
@@ -24,8 +24,8 @@ import java.security.AccessControlContext;
 import java.util.Map;
 import java.util.Random;
 import java.util.Spliterator;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 import java.util.random.RandomGenerator;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.ref;
+package java.base.share.classes.java.lang.ref;
 
 /**
  * An implementation of a ReferenceQueue that uses native monitors.

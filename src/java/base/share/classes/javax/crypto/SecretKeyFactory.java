@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.util.*;
 
@@ -29,7 +29,7 @@ import sun.security.jca.GetInstance.Instance;
  * <P> Application developers should refer to their provider's documentation
  * to find out which key specifications are supported by the
  * {@link #generateSecret(java.security.spec.KeySpec) generateSecret} and
- * {@link #getKeySpec(javax.crypto.SecretKey, java.lang.Class) getKeySpec}
+ * {@link #getKeySpec(java.base.share.classes.javax.crypto.SecretKey, java.lang.Class) getKeySpec}
  * methods.
  * For example, the DESede (Triple DES) secret-key factory supplied by the
  * "SunJCE" provider supports {@code DESedeKeySpec} as a transparent
@@ -50,8 +50,8 @@ import sun.security.jca.GetInstance.Instance;
  * @author Jan Luehe
  *
  * @see SecretKey
- * @see javax.crypto.spec.DESedeKeySpec
- * @see javax.crypto.spec.PBEKeySpec
+ * @see java.base.share.classes.javax.crypto.spec.DESedeKeySpec
+ * @see java.base.share.classes.javax.crypto.spec.PBEKeySpec
  * @since 1.4
  */
 

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 
@@ -27,7 +27,7 @@ import java.util.Objects;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.PipedOutputStream
+ * @see     java.base.share.classes.java.io.PipedOutputStream
  */
 public class PipedInputStream extends InputStream {
     boolean closedByWriter;
@@ -110,10 +110,10 @@ public class PipedInputStream extends InputStream {
 
     /**
      * Creates a {@code PipedInputStream} so
-     * that it is not yet {@linkplain #connect(java.io.PipedOutputStream)
+     * that it is not yet {@linkplain #connect(java.base.share.classes.java.io.PipedOutputStream)
      * connected}.
-     * It must be {@linkplain java.io.PipedOutputStream#connect(
-     * java.io.PipedInputStream) connected} to a
+     * It must be {@linkplain java.base.share.classes.java.io.PipedOutputStream#connect(
+     * java.base.share.classes.java.io.PipedInputStream) connected} to a
      * {@code PipedOutputStream} before being used.
      */
     public PipedInputStream() {
@@ -122,10 +122,10 @@ public class PipedInputStream extends InputStream {
 
     /**
      * Creates a {@code PipedInputStream} so that it is not yet
-     * {@linkplain #connect(java.io.PipedOutputStream) connected} and
+     * {@linkplain #connect(java.base.share.classes.java.io.PipedOutputStream) connected} and
      * uses the specified pipe size for the pipe's buffer.
-     * It must be {@linkplain java.io.PipedOutputStream#connect(
-     * java.io.PipedInputStream)
+     * It must be {@linkplain java.base.share.classes.java.io.PipedOutputStream#connect(
+     * java.base.share.classes.java.io.PipedInputStream)
      * connected} to a {@code PipedOutputStream} before being used.
      *
      * @param      pipeSize the size of the pipe's buffer.
@@ -175,7 +175,7 @@ public class PipedInputStream extends InputStream {
      * available.
      * @param   b the byte being received
      * @throws  IOException If the pipe is <a href="#BROKEN"> {@code broken}</a>,
-     *          {@link #connect(java.io.PipedOutputStream) unconnected},
+     *          {@link #connect(java.base.share.classes.java.io.PipedOutputStream) unconnected},
      *          closed, or if an I/O error occurs.
      * @since   1.1
      */
@@ -201,7 +201,7 @@ public class PipedInputStream extends InputStream {
      * @param    off the start offset of the data
      * @param    len the maximum number of bytes received
      * @throws   IOException If the pipe is <a href="#BROKEN"> broken</a>,
-     *           {@link #connect(java.io.PipedOutputStream) unconnected},
+     *           {@link #connect(java.base.share.classes.java.io.PipedOutputStream) unconnected},
      *           closed, or if an I/O error occurs.
      */
     synchronized void receive(byte[] b, int off, int len)  throws IOException {
@@ -254,7 +254,7 @@ public class PipedInputStream extends InputStream {
             try {
                 wait(1000);
             } catch (InterruptedException ex) {
-                throw new java.io.InterruptedIOException();
+                throw new java.base.share.classes.java.io.InterruptedIOException();
             }
         }
     }
@@ -277,7 +277,7 @@ public class PipedInputStream extends InputStream {
      *
      * @return   {@inheritDoc}
      * @throws   IOException  if the pipe is
-     *           {@link #connect(java.io.PipedOutputStream) unconnected},
+     *           {@link #connect(java.base.share.classes.java.io.PipedOutputStream) unconnected},
      *           <a href="#BROKEN"> {@code broken}</a>, closed,
      *           or if an I/O error occurs.
      */
@@ -307,7 +307,7 @@ public class PipedInputStream extends InputStream {
             try {
                 wait(1000);
             } catch (InterruptedException ex) {
-                throw new java.io.InterruptedIOException();
+                throw new java.base.share.classes.java.io.InterruptedIOException();
             }
         }
         int ret = buffer[out++] & 0xFF;
@@ -339,7 +339,7 @@ public class PipedInputStream extends InputStream {
      * @throws     NullPointerException {@inheritDoc}
      * @throws     IndexOutOfBoundsException {@inheritDoc}
      * @throws     IOException if the pipe is <a href="#BROKEN"> {@code broken}</a>,
-     *           {@link #connect(java.io.PipedOutputStream) unconnected},
+     *           {@link #connect(java.base.share.classes.java.io.PipedOutputStream) unconnected},
      *           closed, or if an I/O error occurs.
      */
     @Override
@@ -396,7 +396,7 @@ public class PipedInputStream extends InputStream {
      * @return the number of bytes that can be read from this input stream
      *         without blocking, or {@code 0} if this input stream has been
      *         closed by invoking its {@link #close()} method, or if the pipe
-     *         is {@link #connect(java.io.PipedOutputStream) unconnected}, or
+     *         is {@link #connect(java.base.share.classes.java.io.PipedOutputStream) unconnected}, or
      *         <a href="#BROKEN"> {@code broken}</a>.
      *
      * @throws IOException  {@inheritDoc}

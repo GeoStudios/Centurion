@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
-import static java.time.temporal.ChronoField.MICRO_OF_DAY;
-import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;
-import static java.time.temporal.ChronoField.NANO_OF_DAY;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoField.SECOND_OF_DAY;
-import static java.time.temporal.ChronoField.SECOND_OF_MINUTE;
-import static java.time.temporal.ChronoUnit.NANOS;
+import static java.base.share.classes.java.time.temporal.ChronoField.HOUR_OF_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.MICRO_OF_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.MINUTE_OF_HOUR;
+import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_SECOND;
+import static java.base.share.classes.java.time.temporal.ChronoField.SECOND_OF_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.SECOND_OF_MINUTE;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.NANOS;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -19,20 +19,20 @@ import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.format.DateTimeFormatter;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
 import java.util.Objects;
 
 /**
@@ -391,7 +391,7 @@ public final class LocalTime
      * Obtains an instance of {@code LocalTime} from a text string such as {@code 10:15}.
      * <p>
      * The string must represent a valid time and is parsed using
-     * {@link java.time.format.DateTimeFormatter#ISO_LOCAL_TIME}.
+     * {@link java.base.share.classes.java.time.format.DateTimeFormatter#ISO_LOCAL_TIME}.
      *
      * @param text  the text to parse such as "10:15:30", not null
      * @return the parsed local time, not null
@@ -1595,7 +1595,7 @@ public final class LocalTime
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * A twos-complement value indicates the remaining values are not in the stream
      * and should be set to zero.

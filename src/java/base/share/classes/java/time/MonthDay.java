@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -13,20 +13,20 @@ import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.chrono.Chronology;
-import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.chrono.Chronology;
+import java.base.share.classes.java.time.chrono.IsoChronology;
+import java.base.share.classes.java.time.format.DateTimeFormatter;
+import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
 import java.util.Objects;
 
 /**
@@ -697,7 +697,7 @@ public final class MonthDay
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(13);  // identifies a MonthDay

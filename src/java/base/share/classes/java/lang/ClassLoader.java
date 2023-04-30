@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.InputStream;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.io.File;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.security.AccessController;
 import java.security.AccessControlContext;
@@ -56,7 +56,7 @@ import sun.security.util.SecurityConstants;
  * typical strategy is to transform the name into a file name and then read a
  * "class file" of that name from a file system.
  *
- * <p> Every {@link java.lang.Class Class} object contains a {@link
+ * <p> Every {@link java.base.share.classes.java.lang.Class Class} object contains a {@link
  * Class#getClassLoader() reference} to the {@code ClassLoader} that defined
  * it.
  *
@@ -190,7 +190,7 @@ import sun.security.util.SecurityConstants;
  *
  * <p> Examples of valid class names include:
  * <blockquote><pre>
- *   "java.lang.String"
+ *   "java.base.share.classes.java.lang.String"
  *   "javax.swing.JSpinner$DefaultEditor"
  *   "java.security.KeyStore$Builder$FileBuilder$1"
  *   "java.net.URLClassLoader$3$1"
@@ -865,7 +865,7 @@ public abstract class ClassLoader {
         if (!checkName(name))
             throw new NoClassDefFoundError("IllegalName: " + name);
 
-        // Note:  Checking logic in java.lang.invoke.MemberName.checkForTypeAlias
+        // Note:  Checking logic in java.base.share.classes.java.lang.invoke.MemberName.checkForTypeAlias
         // relies on the fact that spoofing is impossible if a class has a name
         // of the form "java.*"
         if ((name != null) && name.startsWith("java.")
@@ -1317,7 +1317,7 @@ public abstract class ClassLoader {
      * @throws IOException
      *         If I/O errors occur
      *
-     * @see java.lang.module.ModuleReader#find(String)
+     * @see java.base.share.classes.java.lang.module.ModuleReader#find(String)
      * @since 9
      */
     protected URL findResource(String moduleName, String name) throws IOException {
@@ -1355,7 +1355,7 @@ public abstract class ClassLoader {
      * very unpredictable.
      * When overriding this method it is recommended that an implementation
      * ensures that any delegation is consistent with the {@link
-     * #getResources(java.lang.String) getResources(String)} method.
+     * #getResources(java.base.share.classes.java.lang.String) getResources(String)} method.
      *
      * @param  name
      *         The resource name
@@ -1414,7 +1414,7 @@ public abstract class ClassLoader {
      * then the ordering is not specified and may be very unpredictable.
      * When overriding this method it is recommended that an
      * implementation ensures that any delegation is consistent with the {@link
-     * #getResource(java.lang.String) getResource(String)} method. This should
+     * #getResource(java.base.share.classes.java.lang.String) getResource(String)} method. This should
      * ensure that the first element returned by the Enumeration's
      * {@code nextElement} method is the same resource that the
      * {@code getResource(String)} method would return.
@@ -1478,7 +1478,7 @@ public abstract class ClassLoader {
      *
      * @apiNote When overriding this method it is recommended that an
      * implementation ensures that any delegation is consistent with the {@link
-     * #getResource(java.lang.String) getResource(String)} method. This should
+     * #getResource(java.base.share.classes.java.lang.String) getResource(String)} method. This should
      * ensure that the first element returned by the stream is the same
      * resource that the {@code getResource(String)} method would return.
      *
@@ -1952,7 +1952,7 @@ public abstract class ClassLoader {
      * Initialize the system class loader that may be a custom class on the
      * application class path or application module path.
      *
-     * @see java.lang.System#initPhase3
+     * @see java.base.share.classes.java.lang.System#initPhase3
      */
     static synchronized ClassLoader initSystemClassLoader() {
         if (VM.initLevel() != 3) {
@@ -2376,7 +2376,7 @@ public abstract class ClassLoader {
 
     private final NativeLibraries libraries = NativeLibraries.newInstance(this);
 
-    // Invoked in the java.lang.Runtime class to implement load and loadLibrary.
+    // Invoked in the java.base.share.classes.java.lang.Runtime class to implement load and loadLibrary.
     static NativeLibrary loadLibrary(Class<?> fromClass, File file) {
         ClassLoader loader = (fromClass == null) ? null : fromClass.getClassLoader();
         NativeLibraries libs = loader != null ? loader.libraries : BootLoader.getNativeLibraries();
@@ -2490,7 +2490,7 @@ public abstract class ClassLoader {
      * <p> A subpackage of a package named p is any package whose name begins
      * with "{@code p.}".  For example, {@code javax.swing.text} is a
      * subpackage of {@code javax.swing}, and both {@code java.util} and
-     * {@code java.lang.reflect} are subpackages of {@code java}.
+     * {@code java.base.share.classes.java.lang.reflect} are subpackages of {@code java}.
      *
      * <p> In the event that multiple package defaults apply to a given class,
      * the package default pertaining to the most specific package takes

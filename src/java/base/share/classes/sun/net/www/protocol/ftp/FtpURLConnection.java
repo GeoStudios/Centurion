@@ -6,7 +6,7 @@
  * FTP stream opener.
  */
 
-package sun.net.www.protocol.ftp;
+package java.base.share.classes.sun.net.www.protocol.ftp;
 
 import java.io.IOException;
 import java.io.InputStream;

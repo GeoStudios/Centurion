@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -29,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 import jdk.internal.misc.InnocuousThread;
 import jdk.internal.misc.VM;
 import sun.util.logging.PlatformLogger;
-import jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
+import java.base.share.classes.jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
 
 /**
  * The BootstrapLogger class handles all the logic needed by Lazy Loggers

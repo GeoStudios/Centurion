@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Thrown when control information that was read from an object stream
@@ -14,7 +14,7 @@ package java.io;
  */
 public class StreamCorruptedException extends ObjectStreamException {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 8983558202217591746L;
 
     /**

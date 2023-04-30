@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.DAY_OF_MONTH;
 import static java.time.temporal.ChronoField.ERA;
@@ -638,7 +638,7 @@ public final class IsoChronology extends AbstractChronology implements Serializa
     //-----------------------------------------------------------------------
     /**
      * Writes the Chronology using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(1);     // identifies a Chronology

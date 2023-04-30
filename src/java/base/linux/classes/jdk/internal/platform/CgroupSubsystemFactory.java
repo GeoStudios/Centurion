@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.platform;
+package java.base.linux.classes.jdk.internal.platform;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -21,8 +21,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import jdk.internal.platform.cgroupv1.CgroupV1Subsystem;
-import jdk.internal.platform.cgroupv2.CgroupV2Subsystem;
+import java.base.linux.classes.jdk.internal.platform.cgroupv1.CgroupV1Subsystem;
+import java.base.linux.classes.jdk.internal.platform.cgroupv2.CgroupV2Subsystem;
 
 /**
  * @since Pre Java 1
@@ -89,7 +89,7 @@ public class CgroupSubsystemFactory {
         // not ready to deal with that on a per-controller basis. Return no metrics
         // in that case
         if (result.isAnyCgroupV1Controllers() && result.isAnyCgroupV2Controllers()) {
-            Logger logger = System.getLogger("jdk.internal.platform");
+            Logger logger = System.getLogger("java.base.linux.classes.jdk.internal.platform");
             logger.log(Level.DEBUG, "Mixed cgroupv1 and cgroupv2 not supported. Metrics disabled.");
             return null;
         }

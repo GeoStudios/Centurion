@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.InvalidObjectException;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.math.BigInteger;
 import java.math.RoundingMode;
-import java.text.spi.NumberFormatProvider;
+import java.base.share.classes.java.text.spi.NumberFormatProvider;
 import java.util.Currency;
 import java.util.HashMap;
 import java.util.Locale;
@@ -179,14 +179,14 @@ public abstract class NumberFormat extends Format  {
     /**
      * Field constant used to construct a FieldPosition object. Signifies that
      * the position of the integer part of a formatted number should be returned.
-     * @see java.text.FieldPosition
+     * @see java.base.share.classes.java.text.FieldPosition
      */
     public static final int INTEGER_FIELD = 0;
 
     /**
      * Field constant used to construct a FieldPosition object. Signifies that
      * the position of the fraction part of a formatted number should be returned.
-     * @see java.text.FieldPosition
+     * @see java.base.share.classes.java.text.FieldPosition
      */
     public static final int FRACTION_FIELD = 1;
 
@@ -209,8 +209,8 @@ public abstract class NumberFormat extends Format  {
      * {@link java.math.BigInteger#bitLength() bit length} of less than 64,
      * and {@link java.lang.Number#doubleValue()} for all other types. It
      * then calls
-     * {@link #format(long,java.lang.StringBuffer,java.text.FieldPosition)}
-     * or {@link #format(double,java.lang.StringBuffer,java.text.FieldPosition)}.
+     * {@link #format(long,java.lang.StringBuffer,java.base.share.classes.java.text.FieldPosition)}
+     * or {@link #format(double,java.lang.StringBuffer,java.base.share.classes.java.text.FieldPosition)}.
      * This may result in loss of magnitude information and precision for
      * {@code BigInteger} and {@code BigDecimal} values.
      * @param number     the number to format
@@ -231,7 +231,7 @@ public abstract class NumberFormat extends Format  {
      *                   {@code pos} is null
      * @throws           ArithmeticException if rounding is needed with rounding
      *                   mode being set to RoundingMode.UNNECESSARY
-     * @see              java.text.FieldPosition
+     * @see              java.base.share.classes.java.text.FieldPosition
      */
     @Override
     public StringBuffer format(Object number,
@@ -286,7 +286,7 @@ public abstract class NumberFormat extends Format  {
      * @return the formatted String
      * @throws           ArithmeticException if rounding is needed with rounding
      *                   mode being set to RoundingMode.UNNECESSARY
-     * @see java.text.Format#format
+     * @see java.base.share.classes.java.text.Format#format
      */
     public final String format(double number) {
         // Use fast-path for double result if that works
@@ -311,7 +311,7 @@ public abstract class NumberFormat extends Format  {
      * @return the formatted String
      * @throws           ArithmeticException if rounding is needed with rounding
      *                   mode being set to RoundingMode.UNNECESSARY
-     * @see java.text.Format#format
+     * @see java.base.share.classes.java.text.Format#format
      */
     public final String format(long number) {
         return format(number, new StringBuffer(),
@@ -335,7 +335,7 @@ public abstract class NumberFormat extends Format  {
      * @return the formatted StringBuffer
      * @throws           ArithmeticException if rounding is needed with rounding
      *                   mode being set to RoundingMode.UNNECESSARY
-     * @see java.text.Format#format
+     * @see java.base.share.classes.java.text.Format#format
      */
     public abstract StringBuffer format(double number,
                                         StringBuffer toAppendTo,
@@ -358,7 +358,7 @@ public abstract class NumberFormat extends Format  {
      * @return the formatted StringBuffer
      * @throws           ArithmeticException if rounding is needed with rounding
      *                   mode being set to RoundingMode.UNNECESSARY
-     * @see java.text.Format#format
+     * @see java.base.share.classes.java.text.Format#format
      */
     public abstract StringBuffer format(long number,
                                         StringBuffer toAppendTo,
@@ -376,8 +376,8 @@ public abstract class NumberFormat extends Format  {
      * @param source the String to parse
      * @param parsePosition the parse position
      * @return the parsed value
-     * @see java.text.NumberFormat#isParseIntegerOnly
-     * @see java.text.Format#parseObject
+     * @see java.base.share.classes.java.text.NumberFormat#isParseIntegerOnly
+     * @see java.base.share.classes.java.text.Format#parseObject
      */
     public abstract Number parse(String source, ParsePosition parsePosition);
 
@@ -647,7 +647,7 @@ public abstract class NumberFormat extends Format  {
      * localized instances.
      * The returned array represents the union of locales supported by the Java
      * runtime and by installed
-     * {@link java.text.spi.NumberFormatProvider NumberFormatProvider} implementations.
+     * {@link java.base.share.classes.java.text.spi.NumberFormatProvider NumberFormatProvider} implementations.
      * At a minimum, the returned array must contain a {@code Locale} instance equal to
      * {@link Locale#ROOT Locale.ROOT} and a {@code Locale} instance equal to
      * {@link Locale#US Locale.US}.

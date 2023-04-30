@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.util.jar.JarFile;
@@ -102,8 +102,8 @@ import sun.net.www.ParseUtil;
  *
  * </ul>
  *
- * @see java.net.URL
- * @see java.net.URLConnection
+ * @see java.base.share.classes.java.net.URL
+ * @see java.base.share.classes.java.net.URLConnection
  *
  * @see java.util.jar.JarFile
  * @see java.util.jar.JarInputStream

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.callback;
+package java.base.share.classes.javax.security.auth.callback;
 
 import java.util.Locale;
 
@@ -13,7 +13,7 @@ import java.util.Locale;
  * used for localizing text.
  *
  * @since 1.4
- * @see javax.security.auth.callback.CallbackHandler
+ * @see java.base.share.classes.javax.security.auth.callback.CallbackHandler
  */
 public class LanguageCallback implements Callback, java.io.Serializable {
 

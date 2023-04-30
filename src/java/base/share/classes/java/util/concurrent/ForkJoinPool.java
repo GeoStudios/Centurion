@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.lang.reflect.Field;
@@ -28,10 +28,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.LockSupport;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
 import jdk.internal.access.JavaUtilConcurrentFJPAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
@@ -122,17 +122,17 @@ import jdk.internal.vm.SharedThreadContainer;
  * <p>The parameters used to construct the common pool may be controlled by
  * setting the following {@linkplain System#getProperty system properties}:
  * <ul>
- * <li>{@systemProperty java.util.concurrent.ForkJoinPool.common.parallelism}
+ * <li>{@systemProperty java.base.share.classes.java.util.concurrent.ForkJoinPool.common.parallelism}
  * - the parallelism level, a non-negative integer
- * <li>{@systemProperty java.util.concurrent.ForkJoinPool.common.threadFactory}
+ * <li>{@systemProperty java.base.share.classes.java.util.concurrent.ForkJoinPool.common.threadFactory}
  * - the class name of a {@link ForkJoinWorkerThreadFactory}.
  * The {@linkplain ClassLoader#getSystemClassLoader() system class loader}
  * is used to load this class.
- * <li>{@systemProperty java.util.concurrent.ForkJoinPool.common.exceptionHandler}
+ * <li>{@systemProperty java.base.share.classes.java.util.concurrent.ForkJoinPool.common.exceptionHandler}
  * - the class name of a {@link UncaughtExceptionHandler}.
  * The {@linkplain ClassLoader#getSystemClassLoader() system class loader}
  * is used to load this class.
- * <li>{@systemProperty java.util.concurrent.ForkJoinPool.common.maximumSpares}
+ * <li>{@systemProperty java.base.share.classes.java.util.concurrent.ForkJoinPool.common.maximumSpares}
  * - the maximum number of allowed extra threads to maintain target
  * parallelism (default 256).
  * </ul>
@@ -838,7 +838,7 @@ public class ForkJoinPool extends AbstractExecutorService {
 
     /**
      * The default value for common pool maxSpares.  Overridable using
-     * the "java.util.concurrent.ForkJoinPool.common.maximumSpares"
+     * the "java.base.share.classes.java.util.concurrent.ForkJoinPool.common.maximumSpares"
      * system property.  The default value is far in excess of normal
      * requirements, but also far short of MAX_CAP and typical OS
      * thread limits, so allows JVMs to catch misuse/abuse before
@@ -2719,19 +2719,19 @@ public class ForkJoinPool extends AbstractExecutorService {
         int pc = 0, preset = 0; // nonzero if size set as property
         try {  // ignore exceptions in accessing/parsing properties
             String pp = System.getProperty
-                ("java.util.concurrent.ForkJoinPool.common.parallelism");
+                ("java.base.share.classes.java.util.concurrent.ForkJoinPool.common.parallelism");
             if (pp != null) {
                 pc = Math.max(0, Integer.parseInt(pp));
                 preset = PRESET_SIZE;
             }
             String ms = System.getProperty
-                ("java.util.concurrent.ForkJoinPool.common.maximumSpares");
+                ("java.base.share.classes.java.util.concurrent.ForkJoinPool.common.maximumSpares");
             if (ms != null)
                 maxSpares = Math.clamp(Integer.parseInt(ms), 0, MAX_CAP);
             String sf = System.getProperty
-                ("java.util.concurrent.ForkJoinPool.common.threadFactory");
+                ("java.base.share.classes.java.util.concurrent.ForkJoinPool.common.threadFactory");
             String sh = System.getProperty
-                ("java.util.concurrent.ForkJoinPool.common.exceptionHandler");
+                ("java.base.share.classes.java.util.concurrent.ForkJoinPool.common.exceptionHandler");
             if (sf != null || sh != null) {
                 ClassLoader ldr = ClassLoader.getSystemClassLoader();
                 if (sf != null)
@@ -2943,7 +2943,7 @@ public class ForkJoinPool extends AbstractExecutorService {
      * @throws UnsupportedOperationException this is the{@link
      *         #commonPool()} and parallelism level was set by System
      *         property {@systemProperty
-     *         java.util.concurrent.ForkJoinPool.common.parallelism}.
+     *         java.base.share.classes.java.util.concurrent.ForkJoinPool.common.parallelism}.
      * @throws SecurityException if a security manager exists and
      *         the caller is not permitted to modify threads
      *         because it does not hold {@link

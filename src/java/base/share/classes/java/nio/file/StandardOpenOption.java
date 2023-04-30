@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 /**
  * Defines the standard open options.

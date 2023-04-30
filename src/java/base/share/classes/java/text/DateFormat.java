@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.InvalidObjectException;
-import java.text.spi.DateFormatProvider;
+import java.base.share.classes.java.text.spi.DateFormatProvider;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -294,7 +294,7 @@ public abstract class DateFormat extends Format {
      *         with formatted text appended.
      * @throws    IllegalArgumentException if the {@code Format} cannot format
      *            the given {@code obj}.
-     * @see java.text.Format
+     * @see java.base.share.classes.java.text.Format
      */
     public final StringBuffer format(Object obj, StringBuffer toAppendTo,
                                      FieldPosition fieldPosition)
@@ -601,7 +601,7 @@ public abstract class DateFormat extends Format {
      * localized instances.
      * The returned array represents the union of locales supported by the Java
      * runtime and by installed
-     * {@link java.text.spi.DateFormatProvider DateFormatProvider} implementations.
+     * {@link java.base.share.classes.java.text.spi.DateFormatProvider DateFormatProvider} implementations.
      * At a minimum, the returned array must contain a {@code Locale} instance equal to
      * {@link Locale#ROOT Locale.ROOT} and a {@code Locale} instance equal to
      * {@link Locale#US Locale.US}.

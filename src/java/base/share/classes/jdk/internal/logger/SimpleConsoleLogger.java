@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -229,7 +229,7 @@ public class SimpleConsoleLogger extends LoggerConfiguration
 
         private boolean isLoggerImplFrame(String cname) {
             return (cname.equals("sun.util.logging.PlatformLogger") ||
-                    cname.equals("jdk.internal.logger.SimpleConsoleLogger"));
+                    cname.equals("java.base.share.classes.jdk.internal.logger.SimpleConsoleLogger"));
         }
     }
 
@@ -439,9 +439,9 @@ public class SimpleConsoleLogger extends LoggerConfiguration
                 if (cname.startsWith("sun.rmi.runtime.Log")) return true;
             } else if (c == 'j') {
                 // Message delayed at Bootstrap: no need to go further up.
-                if (cname.startsWith("jdk.internal.logger.BootstrapLogger$LogEvent")) return false;
+                if (cname.startsWith("java.base.share.classes.jdk.internal.logger.BootstrapLogger$LogEvent")) return false;
                 // skip public machinery classes
-                if (cname.startsWith("jdk.internal.logger."))          return true;
+                if (cname.startsWith("java.base.share.classes.jdk.internal.logger."))          return true;
                 if (cname.startsWith("java.util.logging."))            return true;
                 if (cname.startsWith("java.lang.invoke.MethodHandle")) return true;
                 if (cname.startsWith("java.security.AccessController")) return true;

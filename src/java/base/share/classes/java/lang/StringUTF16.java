@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -16,8 +16,8 @@ import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static java.lang.String.UTF16;
-import static java.lang.String.LATIN1;
+import static java.base.share.classes.java.lang.String.UTF16;
+import static java.base.share.classes.java.lang.String.LATIN1;
 
 /**
  * @since Pre Java 1
@@ -242,7 +242,7 @@ final class StringUTF16 {
         }
     }
 
-    /* @see java.lang.String.getBytes(int, int, byte[], int) */
+    /* @see java.base.share.classes.java.lang.String.getBytes(int, int, byte[], int) */
     public static void getBytes(byte[] value, int srcBegin, int srcEnd, byte[] dst, int dstBegin) {
         srcBegin <<= 1;
         srcEnd <<= 1;

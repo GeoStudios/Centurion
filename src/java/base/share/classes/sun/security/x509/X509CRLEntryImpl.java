@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
 import java.io.IOException;
 import java.security.cert.CRLException;

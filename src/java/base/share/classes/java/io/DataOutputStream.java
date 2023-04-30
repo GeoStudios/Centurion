@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import jdk.internal.util.ByteArray;
 
@@ -16,7 +16,7 @@ import jdk.internal.util.ByteArray;
  * thread then access to the data output stream should be controlled
  * by appropriate synchronization.
  *
- * @see     java.io.DataInputStream
+ * @see     java.base.share.classes.java.io.DataInputStream
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023
@@ -42,7 +42,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param   out   the underlying output stream, to be saved for later
      *                use.
-     * @see     java.io.FilterOutputStream#out
+     * @see     java.base.share.classes.java.io.FilterOutputStream#out
      */
     public DataOutputStream(OutputStream out) {
         super(out);
@@ -70,7 +70,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      b   the {@code byte} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public synchronized void write(int b) throws IOException {
         out.write(b);
@@ -88,7 +88,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      * @param      len   the number of bytes to write.
      * @throws     IOException  if an I/O error occurs.
      * @throws     IndexOutOfBoundsException {@inheritDoc}
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public synchronized void write(byte[] b, int off, int len)
         throws IOException
@@ -105,8 +105,8 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      * calls the {@code flush} method of its underlying output stream.
      *
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
-     * @see        java.io.OutputStream#flush()
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.OutputStream#flush()
      */
     public void flush() throws IOException {
         out.flush();
@@ -122,7 +122,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code boolean} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeBoolean(boolean v) throws IOException {
         out.write(v ? 1 : 0);
@@ -136,7 +136,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code byte} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeByte(int v) throws IOException {
         out.write(v);
@@ -150,7 +150,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code short} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeShort(int v) throws IOException {
         ByteArray.setUnsignedShort(writeBuffer, 0, v);
@@ -165,7 +165,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code char} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeChar(int v) throws IOException {
         ByteArray.setUnsignedShort(writeBuffer, 0, v);
@@ -180,7 +180,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   an {@code int} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeInt(int v) throws IOException {
         ByteArray.setInt(writeBuffer, 0, v);
@@ -195,7 +195,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code long} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeLong(long v) throws IOException {
         ByteArray.setLong(writeBuffer, 0, v);
@@ -213,7 +213,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code float} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      * @see        java.lang.Float#floatToIntBits(float)
      */
     public final void writeFloat(float v) throws IOException {
@@ -232,7 +232,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code double} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      * @see        java.lang.Double#doubleToLongBits(double)
      */
     public final void writeDouble(double v) throws IOException {
@@ -250,7 +250,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      s   a string of bytes to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeBytes(String s) throws IOException {
         int len = s.length();
@@ -269,8 +269,8 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      s   a {@code String} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.DataOutputStream#writeChar(int)
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.DataOutputStream#writeChar(int)
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     public final void writeChars(String s) throws IOException {
         int len = s.length();
@@ -395,7 +395,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      * If the counter overflows, it will be wrapped to Integer.MAX_VALUE.
      *
      * @return  the value of the {@code written} field.
-     * @see     java.io.DataOutputStream#written
+     * @see     java.base.share.classes.java.io.DataOutputStream#written
      */
     public final int size() {
         return written;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.ForceInline;
@@ -15,12 +15,12 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.function.Function;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.Kind.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
-import static java.lang.invoke.MethodTypeForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;
+import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;
 
 /**
  * The flavor of method handle which implements a constant reference

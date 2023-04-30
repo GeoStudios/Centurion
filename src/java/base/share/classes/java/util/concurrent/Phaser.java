@@ -13,12 +13,12 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.locks.LockSupport;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicReference;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
 
 /**
  * A reusable synchronization barrier, similar in functionality to
@@ -41,7 +41,7 @@ import java.util.concurrent.locks.LockSupport;
  * <p><b>Synchronization.</b> Like a {@code CyclicBarrier}, a {@code
  * Phaser} may be repeatedly awaited.  Method {@link
  * #arriveAndAwaitAdvance} has effect analogous to {@link
- * java.util.concurrent.CyclicBarrier#await CyclicBarrier.await}. Each
+ * java.base.share.classes.java.util.concurrent.CyclicBarrier#await CyclicBarrier.await}. Each
  * generation of a phaser has an associated phase number. The phase
  * number starts at zero, and advances when all parties arrive at the
  * phaser, wrapping around to zero after reaching {@code

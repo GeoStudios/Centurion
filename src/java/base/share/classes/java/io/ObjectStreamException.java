@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Superclass of all exceptions specific to Object Stream classes.
@@ -13,7 +13,7 @@ package java.io;
  */
 public abstract class ObjectStreamException extends IOException {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 7260898174833392607L;
 
     /**

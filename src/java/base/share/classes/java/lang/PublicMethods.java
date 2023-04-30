@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.reflect.ReflectionFactory;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
 import java.security.AccessController;
 import java.util.Arrays;
 import java.util.LinkedHashMap;

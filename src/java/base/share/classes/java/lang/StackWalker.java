@@ -1,11 +1,11 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.reflect.CallerSensitive;
 
-import java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.MethodType;
 import java.util.EnumSet;
 import java.util.Objects;
 import java.util.Set;
@@ -237,8 +237,8 @@ public final class StackWalker {
          * <p>By default, reflection frames are hidden.  A {@code StackWalker}
          * configured with this {@code SHOW_REFLECT_FRAMES} option
          * will show all reflection frames that
-         * include {@link java.lang.reflect.Method#invoke} and
-         * {@link java.lang.reflect.Constructor#newInstance(Object...)}
+         * include {@link java.base.share.classes.java.lang.reflect.Method#invoke} and
+         * {@link java.base.share.classes.java.lang.reflect.Constructor#newInstance(Object...)}
          * and their reflection implementation classes.
          *
          * <p>The {@link #SHOW_HIDDEN_FRAMES} option can also be used to show all
@@ -597,7 +597,7 @@ public final class StackWalker {
      * that invoked {@code getCallerClass}.
      *
      * <p> This method filters {@linkplain Option#SHOW_REFLECT_FRAMES reflection
-     * frames}, {@link java.lang.invoke.MethodHandle}, and
+     * frames}, {@link java.base.share.classes.java.lang.invoke.MethodHandle}, and
      * {@linkplain Option#SHOW_HIDDEN_FRAMES hidden frames} regardless of the
      * {@link Option#SHOW_REFLECT_FRAMES SHOW_REFLECT_FRAMES}
      * and {@link Option#SHOW_HIDDEN_FRAMES SHOW_HIDDEN_FRAMES} options

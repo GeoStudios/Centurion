@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
 /**
  * An {@link AnnotationVisitor} that generates a corresponding 'annotation' or 'type_annotation'

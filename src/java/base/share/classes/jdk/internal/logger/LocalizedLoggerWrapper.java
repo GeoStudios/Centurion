@@ -3,7 +3,7 @@
  */
 
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.util.ResourceBundle;
 import java.util.function.Supplier;

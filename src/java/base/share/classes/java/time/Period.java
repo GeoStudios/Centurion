@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.MONTHS;
-import static java.time.temporal.ChronoUnit.YEARS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.YEARS;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -14,18 +14,18 @@ import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.chrono.ChronoLocalDate;
-import java.time.chrono.ChronoPeriod;
-import java.time.chrono.Chronology;
-import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.chrono.ChronoLocalDate;
+import java.base.share.classes.java.time.chrono.ChronoPeriod;
+import java.base.share.classes.java.time.chrono.Chronology;
+import java.base.share.classes.java.time.chrono.IsoChronology;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -983,7 +983,7 @@ public final class Period
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(14);  // identifies a Period

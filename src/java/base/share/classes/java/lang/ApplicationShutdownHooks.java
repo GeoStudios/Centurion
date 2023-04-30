@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.*;
 import java.util.concurrent.RejectedExecutionException;
@@ -10,8 +10,8 @@ import java.util.concurrent.RejectedExecutionException;
  * Class to track and run user level shutdown hooks registered through
  * {@link Runtime#addShutdownHook Runtime.addShutdownHook}.
  *
- * @see java.lang.Runtime#addShutdownHook
- * @see java.lang.Runtime#removeShutdownHook]
+ * @see java.base.share.classes.java.lang.Runtime#addShutdownHook
+ * @see java.base.share.classes.java.lang.Runtime#removeShutdownHook]
  * 
  * @since Pre Java 1
  * @author Logan Abernathy

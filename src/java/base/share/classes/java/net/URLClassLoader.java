@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.Closeable;
 import java.io.File;
@@ -39,7 +39,7 @@ import sun.security.util.SecurityConstants;
 /**
  * This class loader is used to load classes and resources from a search
  * path of URLs referring to both JAR files and directories. Any {@code jar:}
- * scheme URL (see {@link java.net.JarURLConnection}) is assumed to refer to a
+ * scheme URL (see {@link java.base.share.classes.java.net.JarURLConnection}) is assumed to refer to a
  * JAR file.  Any {@code file:} scheme URL that ends with a '/' is assumed to
  * refer to a directory. Otherwise, the URL is assumed to refer to a JAR file
  * which will be opened as needed.

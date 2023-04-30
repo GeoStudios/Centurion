@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.regex;
+package java.base.share.classes.jdk.internal.util.regex;
 
 import java.util.Objects;
 

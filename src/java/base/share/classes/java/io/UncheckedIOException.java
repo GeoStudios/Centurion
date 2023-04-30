@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 
@@ -13,7 +13,7 @@ import java.util.Objects;
  * @edited 24/4/2023
  */
 public class UncheckedIOException extends RuntimeException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -8134305061645241065L;
 
     /**
@@ -64,7 +64,7 @@ public class UncheckedIOException extends RuntimeException {
      *          if the object is invalid or has a cause that is not
      *          an {@code IOException}
      */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private void readObject(ObjectInputStream s)
         throws IOException, ClassNotFoundException
     {

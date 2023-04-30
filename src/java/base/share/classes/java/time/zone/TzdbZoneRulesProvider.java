@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
 import jdk.internal.util.StaticProperty;
 

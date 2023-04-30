@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.loader;
+package java.base.share.classes.jdk.internal.loader;
 
 import java.io.EOFException;
 import java.net.URL;

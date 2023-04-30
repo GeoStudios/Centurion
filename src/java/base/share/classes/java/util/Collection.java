@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.IntFunction;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+import java.base.share.classes.java.util.function.IntFunction;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 
 /**
  * The root interface in the <i>collection hierarchy</i>.  A collection

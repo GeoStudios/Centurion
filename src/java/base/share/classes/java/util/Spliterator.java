@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
-import java.util.function.DoubleConsumer;
-import java.util.function.IntConsumer;
-import java.util.function.LongConsumer;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.LongConsumer;
 
 /**
  * An object for traversing and partitioning elements of a source.  The source
@@ -86,20 +86,20 @@ import java.util.function.LongConsumer;
  * <p>Primitive subtype specializations of {@code Spliterator} are provided for
  * {@link OfInt int}, {@link OfLong long}, and {@link OfDouble double} values.
  * The subtype default implementations of
- * {@link Spliterator#tryAdvance(java.util.function.Consumer)}
- * and {@link Spliterator#forEachRemaining(java.util.function.Consumer)} box
+ * {@link Spliterator#tryAdvance(java.base.share.classes.java.util.function.Consumer)}
+ * and {@link Spliterator#forEachRemaining(java.base.share.classes.java.util.function.Consumer)} box
  * primitive values to instances of their corresponding wrapper class.  Such
  * boxing may undermine any performance advantages gained by using the primitive
  * specializations.  To avoid boxing, the corresponding primitive-based methods
  * should be used.  For example,
- * {@link Spliterator.OfInt#tryAdvance(java.util.function.IntConsumer)}
- * and {@link Spliterator.OfInt#forEachRemaining(java.util.function.IntConsumer)}
+ * {@link Spliterator.OfInt#tryAdvance(java.base.share.classes.java.util.function.IntConsumer)}
+ * and {@link Spliterator.OfInt#forEachRemaining(java.base.share.classes.java.util.function.IntConsumer)}
  * should be used in preference to
- * {@link Spliterator.OfInt#tryAdvance(java.util.function.Consumer)} and
- * {@link Spliterator.OfInt#forEachRemaining(java.util.function.Consumer)}.
+ * {@link Spliterator.OfInt#tryAdvance(java.base.share.classes.java.util.function.Consumer)} and
+ * {@link Spliterator.OfInt#forEachRemaining(java.base.share.classes.java.util.function.Consumer)}.
  * Traversal of primitive values using boxing-based methods
  * {@link #tryAdvance tryAdvance()} and
- * {@link #forEachRemaining(java.util.function.Consumer) forEachRemaining()}
+ * {@link #forEachRemaining(java.base.share.classes.java.util.function.Consumer) forEachRemaining()}
  * does not affect the order in which the values, transformed to boxed values,
  * are encountered.
  *
@@ -117,18 +117,18 @@ import java.util.function.LongConsumer;
  * the source is structurally interfered with (elements added, replaced, or
  * removed) between the time that the Spliterator binds to its data source and
  * the end of traversal.  For example, such interference will produce arbitrary,
- * non-deterministic results when using the {@code java.util.stream} framework.
+ * non-deterministic results when using the {@code java.base.share.classes.java.util.stream} framework.
  *
  * <p>Structural interference of a source can be managed in the following ways
  * (in approximate order of decreasing desirability):
  * <ul>
  * <li>The source cannot be structurally interfered with.
  * <br>For example, an instance of
- * {@link java.util.concurrent.CopyOnWriteArrayList} is an immutable source.
+ * {@link java.base.share.classes.java.util.concurrent.CopyOnWriteArrayList} is an immutable source.
  * A Spliterator created from the source reports a characteristic of
  * {@code IMMUTABLE}.</li>
  * <li>The source manages concurrent modifications.
- * <br>For example, a key set of a {@link java.util.concurrent.ConcurrentHashMap}
+ * <br>For example, a key set of a {@link java.base.share.classes.java.util.concurrent.ConcurrentHashMap}
  * is a concurrent source.  A Spliterator created from the source reports a
  * characteristic of {@code CONCURRENT}.</li>
  * <li>The mutable source provides a late-binding and fail-fast Spliterator.
@@ -221,14 +221,14 @@ import java.util.function.LongConsumer;
  * }}</pre>
  *
  * <p>As an example how a parallel computation framework, such as the
- * {@code java.util.stream} package, would use Spliterator in a parallel
+ * {@code java.base.share.classes.java.util.stream} package, would use Spliterator in a parallel
  * computation, here is one way to implement an associated parallel forEach,
  * that illustrates the primary usage idiom of splitting off subtasks until
  * the estimated amount of work is small enough to perform
  * sequentially. Here we assume that the order of processing across
  * subtasks doesn't matter; different (forked) tasks may further split
  * and process elements concurrently in undetermined order.  This
- * example uses a {@link java.util.concurrent.CountedCompleter};
+ * example uses a {@link java.base.share.classes.java.util.concurrent.CountedCompleter};
  * similar usages apply to other parallel task constructions.
  *
  * <pre>{@code
@@ -263,7 +263,7 @@ import java.util.function.LongConsumer;
  * }}</pre>
  *
  * @implNote
- * If the boolean system property {@systemProperty org.openjdk.java.util.stream.tripwire}
+ * If the boolean system property {@systemProperty org.openjdk.java.base.share.classes.java.util.stream.tripwire}
  * is set to {@code true} then diagnostic warnings are reported if boxing of
  * primitive values occur when operating on primitive subtype specializations.
  *
@@ -575,8 +575,8 @@ public interface Spliterator<T> {
      * type must be a wrapper type for a primitive type, such as {@code Integer}
      * for the primitive {@code int} type.
      * @param <T_CONS> the type of primitive consumer.  The type must be a
-     * primitive specialization of {@link java.util.function.Consumer} for
-     * {@code T}, such as {@link java.util.function.IntConsumer} for
+     * primitive specialization of {@link java.base.share.classes.java.util.function.Consumer} for
+     * {@code T}, such as {@link java.base.share.classes.java.util.function.IntConsumer} for
      * {@code Integer}.
      * @param <T_SPLITR> the type of primitive Spliterator.  The type must be
      * a primitive specialization of Spliterator for {@code T}, such as
@@ -657,10 +657,10 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code IntConsumer} then it is cast
          * to {@code IntConsumer} and passed to
-         * {@link #tryAdvance(java.util.function.IntConsumer)}; otherwise
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.IntConsumer)}; otherwise
          * the action is adapted to an instance of {@code IntConsumer}, by
          * boxing the argument of {@code IntConsumer}, and then passed to
-         * {@link #tryAdvance(java.util.function.IntConsumer)}.
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.IntConsumer)}.
          */
         @Override
         default boolean tryAdvance(Consumer<? super Integer> action) {
@@ -680,10 +680,10 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code IntConsumer} then it is cast
          * to {@code IntConsumer} and passed to
-         * {@link #forEachRemaining(java.util.function.IntConsumer)}; otherwise
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.IntConsumer)}; otherwise
          * the action is adapted to an instance of {@code IntConsumer}, by
          * boxing the argument of {@code IntConsumer}, and then passed to
-         * {@link #forEachRemaining(java.util.function.IntConsumer)}.
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.IntConsumer)}.
          */
         @Override
         default void forEachRemaining(Consumer<? super Integer> action) {
@@ -722,10 +722,10 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code LongConsumer} then it is cast
          * to {@code LongConsumer} and passed to
-         * {@link #tryAdvance(java.util.function.LongConsumer)}; otherwise
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.LongConsumer)}; otherwise
          * the action is adapted to an instance of {@code LongConsumer}, by
          * boxing the argument of {@code LongConsumer}, and then passed to
-         * {@link #tryAdvance(java.util.function.LongConsumer)}.
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.LongConsumer)}.
          */
         @Override
         default boolean tryAdvance(Consumer<? super Long> action) {
@@ -745,10 +745,10 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code LongConsumer} then it is cast
          * to {@code LongConsumer} and passed to
-         * {@link #forEachRemaining(java.util.function.LongConsumer)}; otherwise
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.LongConsumer)}; otherwise
          * the action is adapted to an instance of {@code LongConsumer}, by
          * boxing the argument of {@code LongConsumer}, and then passed to
-         * {@link #forEachRemaining(java.util.function.LongConsumer)}.
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.LongConsumer)}.
          */
         @Override
         default void forEachRemaining(Consumer<? super Long> action) {
@@ -787,10 +787,10 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code DoubleConsumer} then it is
          * cast to {@code DoubleConsumer} and passed to
-         * {@link #tryAdvance(java.util.function.DoubleConsumer)}; otherwise
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.DoubleConsumer)}; otherwise
          * the action is adapted to an instance of {@code DoubleConsumer}, by
          * boxing the argument of {@code DoubleConsumer}, and then passed to
-         * {@link #tryAdvance(java.util.function.DoubleConsumer)}.
+         * {@link #tryAdvance(java.base.share.classes.java.util.function.DoubleConsumer)}.
          */
         @Override
         default boolean tryAdvance(Consumer<? super Double> action) {
@@ -810,11 +810,11 @@ public interface Spliterator<T> {
          * @implSpec
          * If the action is an instance of {@code DoubleConsumer} then it is
          * cast to {@code DoubleConsumer} and passed to
-         * {@link #forEachRemaining(java.util.function.DoubleConsumer)};
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.DoubleConsumer)};
          * otherwise the action is adapted to an instance of
          * {@code DoubleConsumer}, by boxing the argument of
          * {@code DoubleConsumer}, and then passed to
-         * {@link #forEachRemaining(java.util.function.DoubleConsumer)}.
+         * {@link #forEachRemaining(java.base.share.classes.java.util.function.DoubleConsumer)}.
          */
         @Override
         default void forEachRemaining(Consumer<? super Double> action) {

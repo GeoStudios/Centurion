@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.perf;
+package java.base.share.classes.jdk.internal.perf;
 
 import java.nio.ByteBuffer;
 import java.security.Permission;
@@ -28,7 +28,7 @@ import jdk.internal.ref.CleanerFactory;
  * @author   Brian Doherty
  * @since    1.4.2
  * @see      #getPerf
- * @see      jdk.internal.perf.Perf.GetPerfAction
+ * @see      java.base.share.classes.jdk.internal.perf.Perf.GetPerfAction
  * @see      java.nio.ByteBuffer
  */
 public final class Perf {
@@ -105,7 +105,7 @@ public final class Perf {
      * @return  A reference to the singleton Perf instance.
      * @throws SecurityException  if a security manager exists and its
      *         <code>checkPermission</code> method doesn't allow access
-     *         to the <em>"jdk.internal.perf.Perf.getPerf""</em> target.
+     *         to the <em>"java.base.share.classes.jdk.internal.perf.Perf.getPerf""</em> target.
      * @see  java.lang.RuntimePermission
      * @see  #attach
      */
@@ -114,7 +114,7 @@ public final class Perf {
         @SuppressWarnings("removal")
         SecurityManager security = System.getSecurityManager();
         if (security != null) {
-            Permission perm = new RuntimePermission("jdk.internal.perf.Perf.getPerf");
+            Permission perm = new RuntimePermission("java.base.share.classes.jdk.internal.perf.Perf.getPerf");
             security.checkPermission(perm);
         }
 

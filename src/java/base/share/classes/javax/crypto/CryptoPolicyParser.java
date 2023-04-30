@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -22,8 +22,8 @@ import java.lang.reflect.*;
  *
  * The jurisdiction policy file has the same syntax as JDK policy files except
  * that JCE has new permission classes called
- * {@code javax.crypto.CryptoPermission} and
- * {@code javax.crypto.CryptoAllPermission}.
+ * {@code java.base.share.classes.javax.crypto.CryptoPermission} and
+ * {@code java.base.share.classes.javax.crypto.CryptoAllPermission}.
  *
  * The format of a permission entry in the jurisdiction policy file is:
  *
@@ -38,9 +38,9 @@ import java.lang.reflect.*;
  *
  * @see java.security.Permissions
  * @see java.security.spec.AlgorithmParameterSpec
- * @see javax.crypto.CryptoPermission
- * @see javax.crypto.CryptoAllPermission
- * @see javax.crypto.CryptoPermissions
+ * @see java.base.share.classes.javax.crypto.CryptoPermission
+ * @see java.base.share.classes.javax.crypto.CryptoAllPermission
+ * @see java.base.share.classes.javax.crypto.CryptoPermissions
  * @since 1.4
  */
 
@@ -171,11 +171,11 @@ final class CryptoPolicyParser {
         match("Permission");
         e.cryptoPermission = match("permission type");
 
-        if (e.cryptoPermission.equals("javax.crypto.CryptoAllPermission")) {
+        if (e.cryptoPermission.equals("java.base.share.classes.javax.crypto.CryptoAllPermission")) {
             /*
-             * This catches while processing the "javax.crypto.CryptoAllPermission"
+             * This catches while processing the "java.base.share.classes.javax.crypto.CryptoAllPermission"
              * entry, but the "processedPermissions" Hashtable already contains
-             * an entry for "javax.crypto.CryptoPermission".
+             * an entry for "java.base.share.classes.javax.crypto.CryptoPermission".
              */
             if (!processedPermissions.isEmpty()) {
                 throw new ParsingException(st.lineno(), "Inconsistent policy");
@@ -453,7 +453,7 @@ final class CryptoPolicyParser {
         for (GrantEntry ge : grantEntries) {
             for (CryptoPermissionEntry pe : ge.permissionEntries) {
                 if (pe.cryptoPermission.equals(
-                                        "javax.crypto.CryptoAllPermission")) {
+                                        "java.base.share.classes.javax.crypto.CryptoAllPermission")) {
                     result.add(CryptoAllPermission.INSTANCE);
                 } else {
                     if (pe.checkParam) {
@@ -481,8 +481,8 @@ final class CryptoPolicyParser {
             exemptionMechanism == null ? "none" : exemptionMechanism;
 
         /*
-         * This catches while processing a "javax.crypto.CryptoPermission" entry, but
-         * "javax.crypto.CryptoAllPermission" entry already exists.
+         * This catches while processing a "java.base.share.classes.javax.crypto.CryptoPermission" entry, but
+         * "java.base.share.classes.javax.crypto.CryptoAllPermission" entry already exists.
          */
         if (allPermEntryFound) {
             return false;
@@ -518,14 +518,14 @@ final class CryptoPolicyParser {
      * For example, the entry
      * <pre>
      *      grant {
-     *       permission javax.crypto.CryptoPermission "DES", 56;
+     *       permission java.base.share.classes.javax.crypto.CryptoPermission "DES", 56;
      *      };
      *
      * </pre>
      * is represented internally
      * <pre>
      *
-     * pe = new CryptoPermissionEntry("javax.crypto.CryptoPermission",
+     * pe = new CryptoPermissionEntry("java.base.share.classes.javax.crypto.CryptoPermission",
      *                           "DES", 56);
      *
      * ge = new GrantEntry();
@@ -535,8 +535,8 @@ final class CryptoPolicyParser {
      * </pre>
      *
      * @see java.security.Permission
-     * @see javax.crypto.CryptoPermission
-     * @see javax.crypto.CryptoPermissions
+     * @see java.base.share.classes.javax.crypto.CryptoPermission
+     * @see java.base.share.classes.javax.crypto.CryptoPermissions
      */
 
     private static class GrantEntry {
@@ -559,18 +559,18 @@ final class CryptoPolicyParser {
      * <p>
      * For example, the entry
      * <pre>
-     *     permission javax.crypto.CryptoPermission "DES", 56;
+     *     permission java.base.share.classes.javax.crypto.CryptoPermission "DES", 56;
      * </pre>
      * is represented internally
      * <pre>
      *
-     * pe = new CryptoPermissionEntry("javax.crypto.cryptoPermission",
+     * pe = new CryptoPermissionEntry("java.base.share.classes.javax.crypto.cryptoPermission",
      *                           "DES", 56);
      * </pre>
      *
      * @see java.security.Permissions
-     * @see javax.crypto.CryptoPermission
-     * @see javax.crypto.CryptoAllPermission
+     * @see java.base.share.classes.javax.crypto.CryptoPermission
+     * @see java.base.share.classes.javax.crypto.CryptoAllPermission
      */
 
     private static class CryptoPermissionEntry {

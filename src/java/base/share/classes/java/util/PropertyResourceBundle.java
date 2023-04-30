@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -80,7 +80,7 @@ import sun.util.ResourceBundleEnumeration;
  * input stream, then the {@code PropertyResourceBundle} instance resets to the state
  * before the exception, re-reads the input stream in {@code ISO-8859-1}, and
  * continues reading. If the system property
- * {@systemProperty java.util.PropertyResourceBundle.encoding} is set to either
+ * {@systemProperty java.base.share.classes.java.util.PropertyResourceBundle.encoding} is set to either
  * "ISO-8859-1" or "UTF-8", the input stream is solely read in that encoding,
  * and throws the exception if it encounters an invalid sequence.
  * If "ISO-8859-1" is specified, characters that cannot be represented in
@@ -106,7 +106,7 @@ public class PropertyResourceBundle extends ResourceBundle {
     // Check whether the strict encoding is specified.
     // The possible encoding is either "ISO-8859-1" or "UTF-8".
     private static final String encoding = GetPropertyAction
-        .privilegedGetProperty("java.util.PropertyResourceBundle.encoding", "")
+        .privilegedGetProperty("java.base.share.classes.java.util.PropertyResourceBundle.encoding", "")
         .toUpperCase(Locale.ROOT);
 
     /**
@@ -117,7 +117,7 @@ public class PropertyResourceBundle extends ResourceBundle {
      * input stream, then the PropertyResourceBundle instance resets to the state
      * before the exception, re-reads the input stream in {@code ISO-8859-1} and
      * continues reading. If the system property
-     * {@code java.util.PropertyResourceBundle.encoding} is set to either
+     * {@code java.base.share.classes.java.util.PropertyResourceBundle.encoding} is set to either
      * "ISO-8859-1" or "UTF-8", the input stream is solely read in that encoding,
      * and throws the exception if it encounters an invalid sequence. Other
      * encoding values are ignored for this system property.
@@ -131,10 +131,10 @@ public class PropertyResourceBundle extends ResourceBundle {
      * @throws IllegalArgumentException if {@code stream} contains a
      *     malformed Unicode escape sequence.
      * @throws MalformedInputException if the system property
-     *     {@code java.util.PropertyResourceBundle.encoding} is set to "UTF-8"
+     *     {@code java.base.share.classes.java.util.PropertyResourceBundle.encoding} is set to "UTF-8"
      *     and {@code stream} contains an invalid UTF-8 byte sequence.
      * @throws UnmappableCharacterException if the system property
-     *     {@code java.util.PropertyResourceBundle.encoding} is set to "UTF-8"
+     *     {@code java.base.share.classes.java.util.PropertyResourceBundle.encoding} is set to "UTF-8"
      *     and {@code stream} contains an unmappable UTF-8 byte sequence.
      */
     @SuppressWarnings({"unchecked", "rawtypes"})
@@ -166,7 +166,7 @@ public class PropertyResourceBundle extends ResourceBundle {
         lookup = new HashMap(properties);
     }
 
-    // Implements java.util.ResourceBundle.handleGetObject; inherits javadoc specification.
+    // Implements java.base.share.classes.java.util.ResourceBundle.handleGetObject; inherits javadoc specification.
     public Object handleGetObject(String key) {
         if (key == null) {
             throw new NullPointerException();

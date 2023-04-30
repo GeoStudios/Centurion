@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.jmod;
+package java.base.share.classes.jdk.internal.jmod;
 
 import java.io.IOException;
 import java.io.InputStream;

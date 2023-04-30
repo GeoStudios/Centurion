@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.net.URI;
 import java.net.URL;
@@ -53,7 +53,7 @@ import jdk.internal.util.StaticProperty;
  * that no other information is required in order to locate the file that it
  * denotes.  A relative pathname, in contrast, must be interpreted in terms of
  * information taken from some other pathname.  By default the classes in the
- * {@code java.io} package always resolve relative pathnames against the
+ * {@code java.base.share.classes.java.io} package always resolve relative pathnames against the
  * current user directory.  This directory is named by the system property
  * {@code user.dir}, and is typically the directory in which the Java
  * virtual machine was invoked.
@@ -113,7 +113,7 @@ import jdk.internal.util.StaticProperty;
  * <p> The <a href="../../java/nio/file/package-summary.html">{@code java.nio.file}</a>
  * package defines interfaces and classes for the Java virtual machine to access
  * files, file attributes, and file systems. This API may be used to overcome
- * many of the limitations of the {@code java.io.File} class.
+ * many of the limitations of the {@code java.base.share.classes.java.io.File} class.
  * The {@link #toPath toPath} method may be used to obtain a {@link
  * Path} that uses the abstract path represented by a {@code File} object to
  * locate a file. The resulting {@code Path} may be used with the {@link
@@ -536,7 +536,7 @@ public class File
      * @throws  SecurityException
      *          If a required system property value cannot be accessed.
      *
-     * @see     java.io.File#isAbsolute()
+     * @see     java.base.share.classes.java.io.File#isAbsolute()
      */
     public String getAbsolutePath() {
         return FS.resolve(this);
@@ -2086,7 +2086,7 @@ public class File
      * <p> If the {@code directory} argument is {@code null} then the
      * system-dependent default temporary-file directory will be used.  The
      * default temporary-file directory is specified by the system property
-     * {@code java.io.tmpdir}.  On UNIX systems the default value of this
+     * {@code java.base.share.classes.java.io.tmpdir}.  On UNIX systems the default value of this
      * property is typically {@code "/tmp"} or {@code "/var/tmp"}; on
      * Microsoft Windows systems it is typically {@code "C:\\WINNT\\TEMP"}.  A different
      * value may be given to this system property when the Java virtual machine
@@ -2169,7 +2169,7 @@ public class File
      * Creates an empty file in the default temporary-file directory, using
      * the given prefix and suffix to generate its name. Invoking this method
      * is equivalent to invoking {@link #createTempFile(java.lang.String,
-     * java.lang.String, java.io.File)
+     * java.lang.String, java.base.share.classes.java.io.File)
      * createTempFile(prefix,&nbsp;suffix,&nbsp;null)}.
      *
      * <p> The {@link
@@ -2297,8 +2297,8 @@ public class File
      * @param  s the {@code ObjectOutputStream} to which data is written
      * @throws IOException if an I/O error occurs
      */
-    @java.io.Serial
-    private synchronized void writeObject(java.io.ObjectOutputStream s)
+    @java.base.share.classes.java.io.Serial
+    private synchronized void writeObject(java.base.share.classes.java.io.ObjectOutputStream s)
         throws IOException
     {
         s.defaultWriteObject();
@@ -2315,8 +2315,8 @@ public class File
      * @throws IOException if an I/O error occurs
      * @throws ClassNotFoundException if a serialized class cannot be loaded
      */
-    @java.io.Serial
-    private synchronized void readObject(java.io.ObjectInputStream s)
+    @java.base.share.classes.java.io.Serial
+    private synchronized void readObject(java.base.share.classes.java.io.ObjectInputStream s)
          throws IOException, ClassNotFoundException
     {
         ObjectInputStream.GetField fields = s.readFields();
@@ -2337,7 +2337,7 @@ public class File
             = UNSAFE.objectFieldOffset(File.class, "prefixLength");
 
     /** use serialVersionUID from JDK 1.0.2 for interoperability */
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 301077366599181567L;
 
     // -- Integration with java.nio.file --

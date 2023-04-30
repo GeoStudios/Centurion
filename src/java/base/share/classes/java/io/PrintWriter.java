@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 import java.util.Formatter;
@@ -149,7 +149,7 @@ public class PrintWriter extends Writer {
         this(new BufferedWriter(new OutputStreamWriter(out, charset)), autoFlush);
 
         // save print stream for error propagation
-        if (out instanceof java.io.PrintStream) {
+        if (out instanceof java.base.share.classes.java.io.PrintStream) {
             psOut = (PrintStream) out;
         }
     }
@@ -346,7 +346,7 @@ public class PrintWriter extends Writer {
     /**
      * Creates a new PrintWriter, without automatic line flushing, with the
      * specified file and charset.  This convenience constructor creates the
-     * necessary intermediate {@link java.io.OutputStreamWriter
+     * necessary intermediate {@link java.base.share.classes.java.io.OutputStreamWriter
      * OutputStreamWriter}, which will encode characters using the provided
      * charset.
      *

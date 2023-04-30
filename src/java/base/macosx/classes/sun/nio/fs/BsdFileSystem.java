@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
 
 import java.io.IOException;
 import java.nio.file.FileStore;
@@ -15,9 +15,9 @@ import java.util.Set;
 import sun.nio.ch.IOStatus;
 import sun.security.action.GetPropertyAction;
 
-import static sun.nio.fs.UnixConstants.*;
-import static sun.nio.fs.UnixNativeDispatcher.chown;
-import static sun.nio.fs.UnixNativeDispatcher.unlink;
+import static java.base.macosx.classes.sun.nio.fs.UnixConstants.*;
+import static java.base.macosx.classes.sun.nio.fs.UnixNativeDispatcher.chown;
+import static java.base.macosx.classes.sun.nio.fs.UnixNativeDispatcher.unlink;
 
 /**
  * Bsd implementation of FileSystem

@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.ReservedStackAccess;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 
 /**
  * A stackable scope to support structured constructs. The push method is used to

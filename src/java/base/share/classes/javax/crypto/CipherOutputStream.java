@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.io.*;
 
@@ -43,8 +43,8 @@ import java.io.*;
  * @author  Li Gong
  * @see     java.io.OutputStream
  * @see     java.io.FilterOutputStream
- * @see     javax.crypto.Cipher
- * @see     javax.crypto.CipherInputStream
+ * @see     java.base.share.classes.javax.crypto.Cipher
+ * @see     java.base.share.classes.javax.crypto.CipherInputStream
  *
  * @since 1.4
  */
@@ -160,7 +160,7 @@ public class CipherOutputStream extends FilterOutputStream {
      * @param      b   the data.
      * @exception  NullPointerException if {@code b} is {@code null}.
      * @exception  IOException  if an I/O error occurs.
-     * @see        javax.crypto.CipherOutputStream#write(byte[], int, int)
+     * @see        java.base.share.classes.javax.crypto.CipherOutputStream#write(byte[], int, int)
      */
     @Override
     public void write(byte[] b) throws IOException {

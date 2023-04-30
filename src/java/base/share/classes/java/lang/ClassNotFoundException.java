@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -21,9 +21,9 @@ import java.io.ObjectStreamField;
  * <p>
  * but no definition for the class with the specified name could be found.
  *
- * @see     java.lang.Class#forName(java.lang.String)
- * @see     java.lang.ClassLoader#findSystemClass(java.lang.String)
- * @see     java.lang.ClassLoader#loadClass(java.lang.String, boolean)
+ * @see     java.base.share.classes.java.lang.Class#forName(java.base.share.classes.java.lang.String)
+ * @see     java.base.share.classes.java.lang.ClassLoader#findSystemClass(java.base.share.classes.java.lang.String)
+ * @see     java.base.share.classes.java.lang.ClassLoader#loadClass(java.base.share.classes.java.lang.String, boolean)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

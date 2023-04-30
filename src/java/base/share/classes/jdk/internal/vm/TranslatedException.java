@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -80,10 +80,10 @@ final class TranslatedException extends Exception {
 
     /**
      * Prints a stack trace for {@code throwable} if the system property
-     * {@code "jdk.internal.vm.TranslatedException.debug"} is true.
+     * {@code "java.base.share.classes.jdk.internal.vm.TranslatedException.debug"} is true.
      */
     private static void debugPrintStackTrace(Throwable throwable) {
-        if (Boolean.getBoolean("jdk.internal.vm.TranslatedException.debug")) {
+        if (Boolean.getBoolean("java.base.share.classes.jdk.internal.vm.TranslatedException.debug")) {
             System.err.print("DEBUG: ");
             throwable.printStackTrace();
         }

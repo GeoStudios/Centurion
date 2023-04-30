@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * The {@code Dictionary} class is the abstract parent of any
@@ -21,10 +21,10 @@ package java.util;
  * @param <K> the type of keys
  * @param <V> the type of mapped values
  *
- * @see     java.util.Map
+ * @see     java.base.share.classes.java.util.Map
  * @see     java.lang.Object#equals(java.lang.Object)
  * @see     java.lang.Object#hashCode()
- * @see     java.util.Hashtable
+ * @see     java.base.share.classes.java.util.Hashtable
  * @since   1.0
  */
 public abstract
@@ -60,8 +60,8 @@ class Dictionary<K,V> {
      * contains entries.
      *
      * @return  an enumeration of the keys in this dictionary.
-     * @see     java.util.Dictionary#elements()
-     * @see     java.util.Enumeration
+     * @see     java.base.share.classes.java.util.Dictionary#elements()
+     * @see     java.base.share.classes.java.util.Enumeration
      */
     public abstract Enumeration<K> keys();
 
@@ -72,8 +72,8 @@ class Dictionary<K,V> {
      * contained in entries in this dictionary.
      *
      * @return  an enumeration of the values in this dictionary.
-     * @see     java.util.Dictionary#keys()
-     * @see     java.util.Enumeration
+     * @see     java.base.share.classes.java.util.Dictionary#keys()
+     * @see     java.base.share.classes.java.util.Enumeration
      */
     public abstract Enumeration<V> elements();
 
@@ -88,7 +88,7 @@ class Dictionary<K,V> {
      *          {@code null} if the key is not mapped to any value in
      *          this dictionary.
      * @throws    NullPointerException if the {@code key} is {@code null}.
-     * @see     java.util.Dictionary#put(java.lang.Object, java.lang.Object)
+     * @see     java.base.share.classes.java.util.Dictionary#put(java.lang.Object, java.lang.Object)
      */
     public abstract V get(Object key);
 
@@ -117,7 +117,7 @@ class Dictionary<K,V> {
      * @throws     NullPointerException  if the {@code key} or
      *               {@code value} is {@code null}.
      * @see        java.lang.Object#equals(java.lang.Object)
-     * @see        java.util.Dictionary#get(java.lang.Object)
+     * @see        java.base.share.classes.java.util.Dictionary#get(java.lang.Object)
      */
     public abstract V put(K key, V value);
 

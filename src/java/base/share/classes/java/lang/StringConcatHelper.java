@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.ForceInline;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodType;
 
 /**
  * Helper for string concatenation. These methods are mostly looked up with private lookups
- * from {@link java.lang.invoke.StringConcatFactory}, and used in {@link java.lang.invoke.MethodHandle}
+ * from {@link java.base.share.classes.java.lang.invoke.StringConcatFactory}, and used in {@link java.base.share.classes.java.lang.invoke.MethodHandle}
  * combinators there.
  * 
  * @since Pre Java 1
@@ -322,7 +322,7 @@ final class StringConcatHelper {
     /**
      * Perform a simple concatenation between two objects. Added for startup
      * performance, but also demonstrates the code that would be emitted by
-     * {@code java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy}
+     * {@code java.base.share.classes.java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy}
      * for two Object arguments.
      *
      * @param first         first argument

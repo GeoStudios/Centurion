@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.io.ObjectStreamField;
 import java.io.Serializable;
@@ -30,9 +30,9 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.Spliterator;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.locks.LockSupport;
-import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicReference;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
@@ -113,7 +113,7 @@ import jdk.internal.misc.Unsafe;
  *
  * <p>A ConcurrentHashMap can be used as a scalable frequency map (a
  * form of histogram or multiset) by using {@link
- * java.util.concurrent.atomic.LongAdder} values and initializing via
+ * java.base.share.classes.java.util.concurrent.atomic.LongAdder} values and initializing via
  * {@link #computeIfAbsent computeIfAbsent}. For example, to add a count
  * to a {@code ConcurrentHashMap<String,LongAdder> freqs}, you can use
  * {@code freqs.computeIfAbsent(key, k -> new LongAdder()).increment();}

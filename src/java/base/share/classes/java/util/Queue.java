@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * A collection designed for holding elements prior to processing.
@@ -68,7 +68,7 @@ package java.util;
  *
  * <p>The {@link #offer offer} method inserts an element if possible,
  * otherwise returning {@code false}.  This differs from the {@link
- * java.util.Collection#add Collection.add} method, which can fail to
+ * java.base.share.classes.java.util.Collection#add Collection.add} method, which can fail to
  * add an element only by throwing an unchecked exception.  The
  * {@code offer} method is designed for use when failure is a normal,
  * rather than exceptional occurrence, for example, in fixed-capacity
@@ -89,7 +89,7 @@ package java.util;
  * <p>The {@code Queue} interface does not define the <i>blocking queue
  * methods</i>, which are common in concurrent programming.  These methods,
  * which wait for elements to appear or for space to become available, are
- * defined in the {@link java.util.concurrent.BlockingQueue} interface, which
+ * defined in the {@link java.base.share.classes.java.util.concurrent.BlockingQueue} interface, which
  * extends this interface.
  *
  * <p>{@code Queue} implementations generally do not allow insertion

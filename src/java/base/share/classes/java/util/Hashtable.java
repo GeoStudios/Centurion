@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.*;
-import java.util.function.BiConsumer;
-import java.util.function.Function;
-import java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.BiFunction;
 import jdk.internal.access.SharedSecrets;
 
 /**
@@ -93,7 +93,7 @@ import jdk.internal.access.SharedSecrets;
  * thread-safe implementation is not needed, it is recommended to use
  * {@link HashMap} in place of {@code Hashtable}.  If a thread-safe
  * highly-concurrent implementation is desired, then it is recommended
- * to use {@link java.util.concurrent.ConcurrentHashMap} in place of
+ * to use {@link java.base.share.classes.java.util.concurrent.ConcurrentHashMap} in place of
  * {@code Hashtable}.
  *
  * @param <K> the type of keys maintained by this map
@@ -260,7 +260,7 @@ public class Hashtable<K,V>
      * over the values then the results of enumerating are undefined.
      *
      * @return  an enumeration of the values in this hashtable.
-     * @see     java.util.Enumeration
+     * @see     java.base.share.classes.java.util.Enumeration
      * @see     #keys()
      * @see     #values()
      * @see     Map
@@ -993,7 +993,7 @@ public class Hashtable<K,V>
      * {@inheritDoc}
      *
      * <p>This method will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if the mapping
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if the mapping
      * function modified this map during computation.
      *
      * @throws ConcurrentModificationException if it is detected that the
@@ -1029,7 +1029,7 @@ public class Hashtable<K,V>
      * {@inheritDoc}
      *
      * <p>This method will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if the remapping
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if the remapping
      * function modified this map during computation.
      *
      * @throws ConcurrentModificationException if it is detected that the
@@ -1071,7 +1071,7 @@ public class Hashtable<K,V>
      * {@inheritDoc}
      *
      * <p>This method will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if the remapping
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if the remapping
      * function modified this map during computation.
      *
      * @throws ConcurrentModificationException if it is detected that the
@@ -1122,7 +1122,7 @@ public class Hashtable<K,V>
      * {@inheritDoc}
      *
      * <p>This method will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if the remapping
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if the remapping
      * function modified this map during computation.
      *
      * @throws ConcurrentModificationException if it is detected that the

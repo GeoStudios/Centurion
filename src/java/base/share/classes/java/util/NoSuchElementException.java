@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * Thrown by various accessor methods to indicate that the element being requested
  * does not exist.
  *
- * @see     java.util.Enumeration#nextElement()
- * @see     java.util.Iterator#next()
+ * @see     java.base.share.classes.java.util.Enumeration#nextElement()
+ * @see     java.base.share.classes.java.util.Iterator#next()
  * @since   1.0
  */
 public class NoSuchElementException extends RuntimeException {

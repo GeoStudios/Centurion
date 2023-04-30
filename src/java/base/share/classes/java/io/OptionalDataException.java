@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Exception indicating the failure of an object read operation due to
@@ -27,7 +27,7 @@ package java.io;
  */
 public class OptionalDataException extends ObjectStreamException {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -8011121865681257820L;
 
     /*

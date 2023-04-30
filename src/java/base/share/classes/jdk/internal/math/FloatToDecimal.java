@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.math;
+package java.base.share.classes.jdk.internal.math;
 
 import java.io.IOException;
 
 import static java.lang.Float.*;
 import static java.lang.Integer.*;
 import static java.lang.Math.multiplyHigh;
-import static jdk.internal.math.MathUtils.*;
+import static java.base.share.classes.jdk.internal.math.MathUtils.*;
 
 /**
  * This class exposes a method to render a {@code float} as a string.

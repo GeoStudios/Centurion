@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.ch;
+package java.base.macosx.classes.sun.nio.ch;
 
 import java.io.IOException;
 import java.nio.channels.ClosedSelectorException;
@@ -17,10 +17,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import jdk.internal.misc.Blocker;
 
-import static sun.nio.ch.KQueue.EVFILT_READ;
-import static sun.nio.ch.KQueue.EVFILT_WRITE;
-import static sun.nio.ch.KQueue.EV_ADD;
-import static sun.nio.ch.KQueue.EV_DELETE;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_READ;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_WRITE;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_ADD;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_DELETE;
 
 /**
  * KQueue based Selector implementation for macOS

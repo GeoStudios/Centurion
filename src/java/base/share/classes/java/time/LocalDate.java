@@ -2,20 +2,20 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.LocalTime.SECONDS_PER_DAY;
-import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;
-import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;
-import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;
-import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_YEAR;
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.EPOCH_DAY;
-import static java.time.temporal.ChronoField.ERA;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.PROLEPTIC_MONTH;
-import static java.time.temporal.ChronoField.YEAR;
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.ERA;
+import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;
+import static java.base.share.classes.java.time.temporal.ChronoField.PROLEPTIC_MONTH;
+import static java.base.share.classes.java.time.temporal.ChronoField.YEAR;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -23,25 +23,25 @@ import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.chrono.ChronoLocalDate;
-import java.time.chrono.IsoEra;
-import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
-import java.time.zone.ZoneOffsetTransition;
-import java.time.zone.ZoneRules;
+import java.base.share.classes.java.time.chrono.ChronoLocalDate;
+import java.base.share.classes.java.time.chrono.IsoEra;
+import java.base.share.classes.java.time.chrono.IsoChronology;
+import java.base.share.classes.java.time.format.DateTimeFormatter;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.zone.ZoneOffsetTransition;
+import java.base.share.classes.java.time.zone.ZoneRules;
 import java.util.Objects;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
@@ -353,7 +353,7 @@ public final class LocalDate
      * Obtains an instance of {@code LocalDate} from a text string such as {@code 2007-12-03}.
      * <p>
      * The string must represent a valid date and is parsed using
-     * {@link java.time.format.DateTimeFormatter#ISO_LOCAL_DATE}.
+     * {@link java.base.share.classes.java.time.format.DateTimeFormatter#ISO_LOCAL_DATE}.
      *
      * @param text  the text to parse such as "2007-12-03", not null
      * @return the parsed local date, not null
@@ -830,17 +830,17 @@ public final class LocalDate
      * A more complex adjuster might set the date to the last day of the month.
      * <p>
      * A selection of common adjustments is provided in
-     * {@link java.time.temporal.TemporalAdjusters TemporalAdjusters}.
+     * {@link java.base.share.classes.java.time.temporal.TemporalAdjusters TemporalAdjusters}.
      * These include finding the "last day of the month" and "next Wednesday".
      * Key date-time classes also implement the {@code TemporalAdjuster} interface,
-     * such as {@link Month} and {@link java.time.MonthDay MonthDay}.
+     * such as {@link Month} and {@link java.base.share.classes.java.time.MonthDay MonthDay}.
      * The adjuster is responsible for handling special cases, such as the varying
      * lengths of month and leap years.
      * <p>
      * For example this code returns a date on the last day of July:
      * <pre>
-     *  import static java.time.Month.*;
-     *  import static java.time.temporal.TemporalAdjusters.*;
+     *  import static java.base.share.classes.java.time.Month.*;
+     *  import static java.base.share.classes.java.time.temporal.TemporalAdjusters.*;
      *
      *  result = localDate.with(JULY).with(lastDayOfMonth());
      * </pre>
@@ -1928,7 +1928,7 @@ public final class LocalDate
      * If all the dates being compared are instances of {@code LocalDate},
      * then the comparison will be entirely based on the date.
      * If some dates being compared are in different chronologies, then the
-     * chronology is also considered, see {@link java.time.chrono.ChronoLocalDate#compareTo}.
+     * chronology is also considered, see {@link java.base.share.classes.java.time.chrono.ChronoLocalDate#compareTo}.
      *
      * @param other  the other date to compare to, not null
      * @return the comparator value, negative if less, positive if greater
@@ -2113,7 +2113,7 @@ public final class LocalDate
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(3);  // identifies a LocalDate

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.misc.Blocker;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
@@ -12,7 +12,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * Every class has {@code Object} as a superclass. All objects,
  * including arrays, implement the methods of this class.
  *
- * @see     java.lang.Class
+ * @see     java.base.share.classes.java.lang.Class
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -77,8 +77,8 @@ public class Object {
      * by class {@code Object} returns distinct integers for distinct objects.
      *
      * @return  a hash code value for this object.
-     * @see     java.lang.Object#equals(java.lang.Object)
-     * @see     java.lang.System#identityHashCode
+     * @see     java.base.share.classes.java.lang.Object#equals(java.base.share.classes.java.lang.Object)
+     * @see     java.base.share.classes.java.lang.System#identityHashCode
      */
     @IntrinsicCandidate
     public native int hashCode();
@@ -204,7 +204,7 @@ public class Object {
      *               that override the {@code clone} method can also
      *               throw this exception to indicate that an instance cannot
      *               be cloned.
-     * @see java.lang.Cloneable
+     * @see java.base.share.classes.java.lang.Cloneable
      */
     @IntrinsicCandidate
     protected native Object clone() throws CloneNotSupportedException;
@@ -267,8 +267,8 @@ public class Object {
      *
      * @throws  IllegalMonitorStateException  if the current thread is not
      *               the owner of this object's monitor.
-     * @see        java.lang.Object#notifyAll()
-     * @see        java.lang.Object#wait()
+     * @see        java.base.share.classes.java.lang.Object#notifyAll()
+     * @see        java.base.share.classes.java.lang.Object#wait()
      */
     @IntrinsicCandidate
     public final native void notify();
@@ -292,8 +292,8 @@ public class Object {
      *
      * @throws  IllegalMonitorStateException  if the current thread is not
      *               the owner of this object's monitor.
-     * @see        java.lang.Object#notify()
-     * @see        java.lang.Object#wait()
+     * @see        java.base.share.classes.java.lang.Object#notify()
+     * @see        java.base.share.classes.java.lang.Object#wait()
      */
     @IntrinsicCandidate
     public final native void notifyAll();
@@ -415,7 +415,7 @@ public class Object {
      * Bloch's <cite>Effective Java, Third Edition</cite> (Addison-Wesley,
      * 2018).
      * <p>
-     * If the current thread is {@linkplain java.lang.Thread#interrupt() interrupted}
+     * If the current thread is {@linkplain java.base.share.classes.java.lang.Thread#interrupt() interrupted}
      * by any thread before or while it is waiting, then an {@code InterruptedException}
      * is thrown.  The <em>interrupted status</em> of the current thread is cleared when
      * this exception is thrown. This exception is not thrown until the lock status of
@@ -524,7 +524,7 @@ public class Object {
      * Classes that embed non-heap resources have many options
      * for cleanup of those resources. The class must ensure that the
      * lifetime of each instance is longer than that of any resource it embeds.
-     * {@link java.lang.ref.Reference#reachabilityFence} can be used to ensure that
+     * {@link java.base.share.classes.java.lang.ref.Reference#reachabilityFence} can be used to ensure that
      * objects remain reachable while resources embedded in the object are in use.
      * <p>
      * A subclass should avoid overriding the {@code finalize} method
@@ -554,8 +554,8 @@ public class Object {
      * <p>
      * Subclasses that override {@code finalize} to perform cleanup should use
      * alternative cleanup mechanisms and remove the {@code finalize} method.
-     * Use {@link java.lang.ref.Cleaner} and
-     * {@link java.lang.ref.PhantomReference} as safer ways to release resources
+     * Use {@link java.base.share.classes.java.lang.ref.Cleaner} and
+     * {@link java.base.share.classes.java.lang.ref.PhantomReference} as safer ways to release resources
      * when an object becomes unreachable. Alternatively, add a {@code close}
      * method to explicitly release resources, and implement
      * {@code AutoCloseable} to enable use of the {@code try}-with-resources
@@ -565,8 +565,8 @@ public class Object {
      * most existing code.
      *
      * @throws Throwable the {@code Exception} raised by this method
-     * @see java.lang.ref.WeakReference
-     * @see java.lang.ref.PhantomReference
+     * @see java.base.share.classes.java.lang.ref.WeakReference
+     * @see java.base.share.classes.java.lang.ref.PhantomReference
      * @jls 12.6 Finalization of Class Instances
      */
     @Deprecated(since="9", forRemoval=true)

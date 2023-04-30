@@ -1,14 +1,14 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.Thread.Builder;
-import java.lang.Thread.Builder.OfPlatform;
-import java.lang.Thread.Builder.OfVirtual;
-import java.lang.Thread.UncaughtExceptionHandler;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.Thread.Builder;
+import java.base.share.classes.java.lang.Thread.Builder.OfPlatform;
+import java.base.share.classes.java.lang.Thread.Builder.OfVirtual;
+import java.base.share.classes.java.lang.Thread.UncaughtExceptionHandler;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.concurrent.Executor;

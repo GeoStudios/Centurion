@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.jimage;
+package java.base.share.classes.jdk.internal.jimage;
 
 import java.lang.ref.WeakReference;
 import java.nio.ByteBuffer;

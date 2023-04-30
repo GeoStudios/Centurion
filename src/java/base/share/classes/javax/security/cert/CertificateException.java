@@ -3,12 +3,12 @@
  */
 
 
-package javax.security.cert;
+package java.base.share.classes.javax.security.cert;
 
 /**
  * This exception indicates one of a variety of certificate problems.
  *
- * <p><em>Note: The classes in the package {@code javax.security.cert}
+ * <p><em>Note: The classes in the package {@code java.base.share.classes.javax.security.cert}
  * exist for compatibility with earlier versions of the
  * Java Secure Sockets Extension (JSSE). New applications should instead
  * use the standard Java SE certificate classes located in

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 class ClassFileAssembler implements ClassFileConstants {
     private ByteVector vec;

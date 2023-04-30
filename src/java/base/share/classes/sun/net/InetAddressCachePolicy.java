@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net;
+package java.base.share.classes.sun.net;
 
 import java.security.PrivilegedAction;
 import java.security.Security;
@@ -13,13 +13,13 @@ public final class InetAddressCachePolicy {
     // Controls the cache policy for successful lookups only
     private static final String cachePolicyProp = "networkaddress.cache.ttl";
     private static final String cachePolicyPropFallback =
-        "sun.net.inetaddr.ttl";
+        "java.base.share.classes.sun.net.inetaddr.ttl";
 
     // Controls the cache policy for negative lookups only
     private static final String negativeCachePolicyProp =
         "networkaddress.cache.negative.ttl";
     private static final String negativeCachePolicyPropFallback =
-        "sun.net.inetaddr.negative.ttl";
+        "java.base.share.classes.sun.net.inetaddr.negative.ttl";
 
     public static final int FOREVER = -1;
     public static final int NEVER = 0;

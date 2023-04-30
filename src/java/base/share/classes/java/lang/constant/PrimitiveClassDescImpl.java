@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.MethodHandles;
 

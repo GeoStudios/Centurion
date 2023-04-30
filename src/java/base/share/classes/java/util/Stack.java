@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * The {@code Stack} class represents a last-in-first-out
@@ -41,7 +41,7 @@ public class Stack<E> extends Vector<E> {
      *
      * @param   item   the item to be pushed onto this stack.
      * @return  the {@code item} argument.
-     * @see     java.util.Vector#addElement
+     * @see     java.base.share.classes.java.util.Vector#addElement
      */
     public E push(E item) {
         addElement(item);

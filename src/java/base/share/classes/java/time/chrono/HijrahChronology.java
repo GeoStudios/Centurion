@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.EPOCH_DAY;
 
@@ -873,7 +873,7 @@ public final class HijrahChronology extends AbstractChronology implements Serial
             }
         } catch (Exception ex) {
             // Log error and throw a DateTimeException
-            PlatformLogger logger = PlatformLogger.getLogger("java.time.chrono");
+            PlatformLogger logger = PlatformLogger.getLogger("java.base.share.classes.java.time.chrono");
             logger.severe("Unable to initialize Hijrah calendar proxy: " + typeId, ex);
             throw new DateTimeException("Unable to initialize HijrahCalendar: " + typeId, ex);
         }
@@ -996,13 +996,13 @@ public final class HijrahChronology extends AbstractChronology implements Serial
                                                 idtype.substring(0, delimiterPos),
                                                 idtype.substring(delimiterPos + 1)));
                                 } else {
-                                    PlatformLogger.getLogger("java.time.chrono")
+                                    PlatformLogger.getLogger("java.base.share.classes.java.time.chrono")
                                             .warning("Hijrah custom config init failed." +
                                                     "'<id>_<type>' name convention not followed: " + idtype);
                                 }
                             });
                     } catch (IOException e) {
-                        PlatformLogger.getLogger("java.time.chrono")
+                        PlatformLogger.getLogger("java.base.share.classes.java.time.chrono")
                                 .warning("Hijrah custom config init failed.", e);
                     }
                 }
@@ -1015,7 +1015,7 @@ public final class HijrahChronology extends AbstractChronology implements Serial
     //-----------------------------------------------------------------------
     /**
      * Writes the Chronology using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(1);     // identifies a Chronology

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Instances of classes that implement this interface are used to
@@ -11,9 +11,9 @@ package java.io;
  * {@code File}, and by the Abstract Window Toolkit's file
  * dialog component.
  *
- * @see     java.desktop/java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter)
- * @see     java.io.File
- * @see     java.io.File#list(java.io.FilenameFilter)
+ * @see     java.desktop/java.awt.FileDialog#setFilenameFilter(java.base.share.classes.java.io.FilenameFilter)
+ * @see     java.base.share.classes.java.io.File
+ * @see     java.base.share.classes.java.io.File#list(java.base.share.classes.java.io.FilenameFilter)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

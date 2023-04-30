@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 
 /**
  * An interface providing full static information about a particular

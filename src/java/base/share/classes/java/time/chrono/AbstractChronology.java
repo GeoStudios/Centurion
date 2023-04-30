@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;
 import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;
@@ -112,7 +112,7 @@ public abstract class AbstractChronology implements Chronology {
     /**
      * Initialization of the maps from id and type to Chronology.
      * The ServiceLoader is used to find and register any implementations
-     * of {@link java.time.chrono.AbstractChronology} found in the bootclass loader.
+     * of {@link java.base.share.classes.java.time.chrono.AbstractChronology} found in the bootclass loader.
      * The built-in chronologies are registered explicitly.
      * Calendars configured via the Thread's context classloader are local
      * to that thread and are ignored.
@@ -140,7 +140,7 @@ public abstract class AbstractChronology implements Chronology {
                 String id = chrono.getId();
                 if (id.equals("ISO") || registerChrono(chrono) != null) {
                     // Log the attempt to replace an existing Chronology
-                    PlatformLogger logger = PlatformLogger.getLogger("java.time.chrono");
+                    PlatformLogger logger = PlatformLogger.getLogger("java.base.share.classes.java.time.chrono");
                     logger.warning("Ignoring duplicate Chronology, from ServiceLoader configuration "  + id);
                 }
             }
@@ -613,7 +613,7 @@ public abstract class AbstractChronology implements Chronology {
      *
      * @implSpec
      * This implementation checks the type and calls
-     * {@link #compareTo(java.time.chrono.Chronology)}.
+     * {@link #compareTo(java.base.share.classes.java.time.chrono.Chronology)}.
      *
      * @param obj  the object to check, null returns false
      * @return true if this is equal to the other chronology
@@ -659,7 +659,7 @@ public abstract class AbstractChronology implements Chronology {
     //-----------------------------------------------------------------------
     /**
      * Writes the Chronology using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * <pre>
      *  out.writeByte(1);  // identifies this as a Chronology
      *  out.writeUTF(getId());

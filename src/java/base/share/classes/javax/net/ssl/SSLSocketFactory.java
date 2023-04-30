@@ -3,7 +3,7 @@
  */
 
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 import java.net.*;
 import javax.net.SocketFactory;

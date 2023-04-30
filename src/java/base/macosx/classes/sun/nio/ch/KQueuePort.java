@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.ch;
+package java.base.macosx.classes.sun.nio.ch;
 
 import java.nio.channels.spi.AsynchronousChannelProvider;
 import java.io.IOException;
@@ -10,10 +10,10 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static sun.nio.ch.KQueue.EVFILT_READ;
-import static sun.nio.ch.KQueue.EVFILT_WRITE;
-import static sun.nio.ch.KQueue.EV_ADD;
-import static sun.nio.ch.KQueue.EV_ONESHOT;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_READ;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_WRITE;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_ADD;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_ONESHOT;
 
 /**
  * AsynchronousChannelGroup implementation based on the BSD kqueue facility.
