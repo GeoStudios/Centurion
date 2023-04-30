@@ -1,8 +1,6 @@
 <img src="https://github.com/GeoStudios/ContentStorage/blob/6b6e5648cb86b7381332d35a7477d6312502eaa1/Centurion_JDK_Logo.png" width="406">
 <br />
 
-# Centurion (JDK)
-
 Centurion is a Heavy JDK to supply the user with great library of Java tools and enhancements 
 for the java enviorment. This has been M4xs project for the last two years building this and soon
 going to be functional.
