@@ -57,6 +57,7 @@ import static java.base.share.classes.java.lang.annotation.ElementType.*;
  * @edited 24/4/2023
  * @jls 9.6.4.6 @Deprecated
  */
+
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value={CONSTRUCTOR, FIELD, LOCAL_VARIABLE, METHOD, PACKAGE, MODULE, PARAMETER, TYPE})
