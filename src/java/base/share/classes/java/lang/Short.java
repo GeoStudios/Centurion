@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.misc.CDS;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 import java.base.share.classes.java.lang.constant.Constable;
 import java.base.share.classes.java.lang.constant.DynamicConstantDesc;

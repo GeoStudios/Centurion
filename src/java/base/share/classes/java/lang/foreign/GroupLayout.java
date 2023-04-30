@@ -19,6 +19,7 @@ import java.base.share.classes.jdk.internal.javac.PreviewFeature;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)
 public sealed interface GroupLayout extends MemoryLayout permits StructLayout, UnionLayout {
 

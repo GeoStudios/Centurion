@@ -21,6 +21,7 @@ package java.base.share.classes.java.lang.annotation;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public interface Annotation {
     /**
      * Returns true if the specified object represents an annotation

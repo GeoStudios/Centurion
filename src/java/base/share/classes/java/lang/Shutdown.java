@@ -5,7 +5,7 @@
 package java.base.share.classes.java.lang;
 
 
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * Package-private utility class containing data structures and logic

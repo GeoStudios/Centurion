@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.util.ValueConversions;
-import sun.invoke.util.VerifyAccess;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.util.ValueConversions;
+import java.base.share.classes.sun.invoke.util.VerifyAccess;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.util.Arrays;
 import java.util.Objects;

@@ -19,7 +19,8 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
-@Deprecated(since="20", forRemoval=true)
+
+@Deprecated(since="1", forRemoval=true)
 public class ThreadDeath extends Error {
     @java.io.Serial
     private static final long serialVersionUID = -4417128565033088268L;

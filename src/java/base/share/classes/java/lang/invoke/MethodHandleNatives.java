@@ -4,9 +4,9 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.misc.VM;
-import jdk.internal.ref.CleanerFactory;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Field;

@@ -12,6 +12,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public abstract class VirtualMachineError extends Error {
     @java.io.Serial
     private static final long serialVersionUID = 4161983926571568670L;

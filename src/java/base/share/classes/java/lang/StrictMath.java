@@ -5,8 +5,8 @@
 package java.base.share.classes.java.lang;
 
 import java.util.Random;
-import jdk.internal.math.DoubleConsts;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.math.DoubleConsts;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * The class {@code StrictMath} contains methods for performing basic
@@ -64,6 +64,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public final class StrictMath {
 
     /**

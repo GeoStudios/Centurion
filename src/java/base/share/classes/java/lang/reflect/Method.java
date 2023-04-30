@@ -4,28 +4,28 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.CallerSensitiveAdapter;
-import jdk.internal.reflect.MethodAccessor;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.Stable;
-import sun.reflect.annotation.ExceptionProxy;
-import sun.reflect.annotation.TypeNotPresentExceptionProxy;
-import sun.reflect.generics.repository.GenericDeclRepository;
-import sun.reflect.generics.repository.MethodRepository;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.scope.MethodScope;
-import sun.reflect.annotation.AnnotationType;
-import sun.reflect.annotation.AnnotationParser;
-import java.lang.annotation.Annotation;
-import java.lang.annotation.AnnotationFormatError;
-import java.nio.ByteBuffer;
-import java.util.StringJoiner;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitiveAdapter;
+import java.base.share.classes.jdk.internal.reflect.MethodAccessor;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.reflect.annotation.ExceptionProxy;
+import java.base.share.classes.sun.reflect.annotation.TypeNotPresentExceptionProxy;
+import java.base.share.classes.sun.reflect.generics.repository.GenericDeclRepository;
+import java.base.share.classes.sun.reflect.generics.repository.MethodRepository;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.scope.MethodScope;
+import java.base.share.classes.sun.reflect.annotation.AnnotationType;
+import java.base.share.classes.sun.reflect.annotation.AnnotationParser;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
+import java.base.windows.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.util.StringJoiner;
 
 /**
  * A {@code Method} provides information about, and access to, a single method

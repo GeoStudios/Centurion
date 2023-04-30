@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.foreign.abi.NativeEntryPoint;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.foreign.abi.NativeEntryPoint;
 
 import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.LM_TRUSTED;

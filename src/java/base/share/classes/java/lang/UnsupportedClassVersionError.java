@@ -13,6 +13,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class UnsupportedClassVersionError extends ClassFormatError {
     @java.io.Serial
     private static final long serialVersionUID = -7123279212883497373L;

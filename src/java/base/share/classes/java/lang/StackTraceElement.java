@@ -4,10 +4,10 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.misc.VM;
-import jdk.internal.module.ModuleHashes;
-import jdk.internal.module.ModuleReferenceImpl;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ModuleHashes;
+import java.base.share.classes.jdk.internal.module.ModuleReferenceImpl;
 
 import java.base.share.classes.java.lang.module.ModuleReference;
 import java.base.share.classes.java.lang.module.ResolvedModule;

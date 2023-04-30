@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * Thrown by a method invocation on a proxy instance if its invocation

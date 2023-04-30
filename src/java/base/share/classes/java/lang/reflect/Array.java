@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * The {@code Array} class provides static methods to dynamically create and

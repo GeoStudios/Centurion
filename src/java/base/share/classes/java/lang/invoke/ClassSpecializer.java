@@ -4,13 +4,13 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.loader.BootLoader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.FieldVisitor;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.util.BytecodeName;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.util.BytecodeName;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -30,7 +30,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_putStatic;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * Class specialization code.

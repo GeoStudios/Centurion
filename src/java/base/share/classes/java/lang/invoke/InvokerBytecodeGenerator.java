@@ -4,16 +4,16 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.FieldVisitor;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import sun.invoke.util.VerifyAccess;
-import sun.invoke.util.VerifyType;
-import sun.invoke.util.Wrapper;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.sun.invoke.util.VerifyAccess;
+import java.base.share.classes.sun.invoke.util.VerifyType;
+import java.base.share.classes.sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 
 import java.io.File;
 import java.io.FileOutputStream;

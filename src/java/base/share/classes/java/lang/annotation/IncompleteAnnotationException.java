@@ -18,6 +18,7 @@ package java.base.share.classes.java.lang.annotation;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class IncompleteAnnotationException extends RuntimeException {
     @java.io.Serial
     private static final long serialVersionUID = 8445097402741811912L;

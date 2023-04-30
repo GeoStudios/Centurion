@@ -16,6 +16,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class NoSuchFieldError extends IncompatibleClassChangeError {
     @java.io.Serial
     private static final long serialVersionUID = -3456430195886129035L;

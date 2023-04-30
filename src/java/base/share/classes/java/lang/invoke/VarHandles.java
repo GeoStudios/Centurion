@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

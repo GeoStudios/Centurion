@@ -4,11 +4,11 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.perf.PerfCounter;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.Hidden;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.perf.PerfCounter;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

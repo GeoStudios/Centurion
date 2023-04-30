@@ -4,10 +4,10 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.util.Objects;

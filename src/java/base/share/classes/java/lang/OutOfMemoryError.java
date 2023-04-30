@@ -18,6 +18,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class OutOfMemoryError extends VirtualMachineError {
     @java.io.Serial
     private static final long serialVersionUID = 8228564086184010517L;

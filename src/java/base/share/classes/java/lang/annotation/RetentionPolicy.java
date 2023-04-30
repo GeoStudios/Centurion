@@ -14,6 +14,7 @@ package java.base.share.classes.java.lang.annotation;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public enum RetentionPolicy {
     /**
      * Annotations are to be discarded by the compiler.

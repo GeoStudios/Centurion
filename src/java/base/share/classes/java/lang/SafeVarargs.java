@@ -68,6 +68,7 @@ import java.base.share.classes.java.lang.annotation.*;
  * @jls 8.4.1 Formal Parameters
  * @jls 9.6.4.7 @SafeVarargs
  */
+
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.CONSTRUCTOR, ElementType.METHOD})

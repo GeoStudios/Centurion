@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.share.classes.java.lang;
 
 /**
@@ -8,6 +9,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 final class LiveStackFrameInfo extends StackFrameInfo implements LiveStackFrame {
     private static Object[] EMPTY_ARRAY = new Object[0];
 

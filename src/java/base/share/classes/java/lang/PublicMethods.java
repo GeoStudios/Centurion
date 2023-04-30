@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.lang;
 
-import jdk.internal.reflect.ReflectionFactory;
+import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
 
 import java.base.share.classes.java.lang.reflect.Method;
 import java.base.share.classes.java.lang.reflect.Modifier;

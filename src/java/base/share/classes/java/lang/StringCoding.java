@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * Utility class for string encoding and decoding.
@@ -13,6 +13,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 class StringCoding {
 
     private StringCoding() { }

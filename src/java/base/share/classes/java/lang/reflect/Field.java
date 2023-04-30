@@ -4,24 +4,24 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.FieldAccessor;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Stable;
-import sun.reflect.generics.repository.FieldRepository;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.scope.ClassScope;
-import java.lang.annotation.Annotation;
-import java.util.Map;
-import java.util.Set;
-import java.util.Objects;
-import sun.reflect.annotation.AnnotationParser;
-import sun.reflect.annotation.AnnotationSupport;
-import sun.reflect.annotation.TypeAnnotation;
-import sun.reflect.annotation.TypeAnnotationParser;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.FieldAccessor;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.reflect.generics.repository.FieldRepository;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import java.base.linux.classes.java.base.share.classes.java.util.Objects;
+import java.base.share.classes.sun.reflect.annotation.AnnotationParser;
+import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotation;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
 
 /**
  * A {@code Field} provides information about, and dynamic access to, a

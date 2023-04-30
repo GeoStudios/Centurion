@@ -11,6 +11,7 @@ package java.base.share.classes.java.lang.module;
  * @see Configuration
  * @since 9
  */
+
 public class ResolutionException extends RuntimeException {
     @java.io.Serial
     private static final long serialVersionUID = -1031186845316729450L;

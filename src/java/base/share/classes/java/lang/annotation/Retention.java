@@ -20,6 +20,7 @@ package java.base.share.classes.java.lang.annotation;
  * @edited 24/4/2023
  * @jls 9.6.4.2 @Retention
  */
+
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.ANNOTATION_TYPE)

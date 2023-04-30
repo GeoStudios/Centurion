@@ -6,8 +6,8 @@ package java.base.share.classes.java.lang;
 
 import java.io.*;
 import java.util.*;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * The {@code Throwable} class is the superclass of all errors and
@@ -92,6 +92,7 @@ import jdk.internal.misc.InternalLock;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class Throwable implements Serializable {
     /** use serialVersionUID from JDK 1.0.2 for interoperability */
     @java.io.Serial

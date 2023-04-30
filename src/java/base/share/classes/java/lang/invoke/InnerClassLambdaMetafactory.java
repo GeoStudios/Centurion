@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.misc.CDS;
-import jdk.internal.org.objectweb.asm.*;
-import sun.invoke.util.BytecodeDescriptor;
-import sun.invoke.util.VerifyAccess;
-import sun.security.action.GetPropertyAction;
-import sun.security.action.GetBooleanAction;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.*;
+import java.base.share.classes.sun.invoke.util.BytecodeDescriptor;
+import java.base.share.classes.sun.invoke.util.VerifyAccess;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
 
 import java.io.FilePermission;
 import java.io.Serializable;
@@ -27,7 +27,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.CLASS
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;
 import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * Lambda metafactory implementation which dynamically creates an

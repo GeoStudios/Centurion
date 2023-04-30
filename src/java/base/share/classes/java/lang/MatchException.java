@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * Thrown to indicate an unexpected failure in pattern matching.

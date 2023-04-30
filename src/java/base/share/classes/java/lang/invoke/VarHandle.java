@@ -14,10 +14,10 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
 

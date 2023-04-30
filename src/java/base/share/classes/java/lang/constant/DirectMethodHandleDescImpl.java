@@ -23,6 +23,7 @@ import static java.util.Objects.requireNonNull;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 final class DirectMethodHandleDescImpl implements DirectMethodHandleDesc {
 
     private final Kind kind;

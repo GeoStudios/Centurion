@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.lang.invoke;
 
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 import java.io.FilePermission;
 import java.nio.file.Files;

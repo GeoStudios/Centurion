@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.share.classes.java.lang;
 
 /**
@@ -11,6 +12,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class SecurityException extends RuntimeException {
 
     @java.io.Serial

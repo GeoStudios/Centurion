@@ -17,6 +17,7 @@ package java.base.share.classes.java.lang.annotation;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @Documented
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.SOURCE)

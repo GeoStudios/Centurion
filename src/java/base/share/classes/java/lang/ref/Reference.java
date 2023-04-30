@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.lang.ref;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.access.JavaLangRefAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.Cleaner;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.access.JavaLangRefAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.Cleaner;
 
 /**
  * Abstract base class for reference objects.  This class defines the

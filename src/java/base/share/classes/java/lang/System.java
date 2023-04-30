@@ -47,33 +47,33 @@ import java.util.function.Supplier;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 
-import jdk.internal.misc.CarrierThreadLocal;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.StaticProperty;
-import jdk.internal.module.ModuleBootstrap;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.logger.LoggerFinderLoader;
-import jdk.internal.logger.LazyLoggers;
-import jdk.internal.logger.LocalizedLoggerWrapper;
-import jdk.internal.util.SystemProps;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
-import jdk.internal.vm.StackableScope;
-import jdk.internal.vm.ThreadContainer;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.Stable;
-import jdk.internal.vm.annotation.ChangesCurrentThread;
-import sun.nio.fs.DefaultFileSystemProvider;
-import sun.reflect.annotation.AnnotationType;
-import sun.nio.ch.Interruptible;
-import sun.nio.cs.UTF_8;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.misc.CarrierThreadLocal;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.module.ModuleBootstrap;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.logger.LoggerFinderLoader;
+import java.base.share.classes.jdk.internal.logger.LazyLoggers;
+import java.base.share.classes.jdk.internal.logger.LocalizedLoggerWrapper;
+import java.base.share.classes.jdk.internal.util.SystemProps;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.vm.StackableScope;
+import java.base.share.classes.jdk.internal.vm.ThreadContainer;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.ChangesCurrentThread;
+import java.base.windows.classes.sun.nio.fs.DefaultFileSystemProvider;
+import java.base.share.classes.sun.reflect.annotation.AnnotationType;
+import java.base.share.classes.sun.nio.ch.Interruptible;
+import java.base.share.classes.sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * The {@code System} class contains several useful class fields
@@ -89,6 +89,7 @@ import sun.security.util.SecurityConstants;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public final class System {
     /* Register the natives via the static initializer.
      *

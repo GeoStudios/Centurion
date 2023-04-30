@@ -1,12 +1,13 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.TypeDescriptor;
 import java.util.stream.Stream;
 
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import static java.base.share.classes.java.lang.constant.ConstantUtils.binaryToInternal;
 import static java.base.share.classes.java.lang.constant.ConstantUtils.dropLastChar;

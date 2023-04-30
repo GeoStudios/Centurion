@@ -18,6 +18,7 @@ import java.lang.reflect.Method;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class AnnotationTypeMismatchException extends RuntimeException {
     @java.io.Serial
     private static final long serialVersionUID = 8125925355765570191L;

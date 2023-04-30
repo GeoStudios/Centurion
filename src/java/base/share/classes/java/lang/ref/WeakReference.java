@@ -4,7 +4,6 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 /**
  * Weak reference objects, which do not prevent their referents from being
  * made finalizable, finalized, and then reclaimed.  Weak references are most

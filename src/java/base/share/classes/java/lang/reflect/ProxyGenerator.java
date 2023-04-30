@@ -4,14 +4,14 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.misc.VM;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import sun.invoke.util.Wrapper;
-import sun.security.action.GetBooleanAction;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
 
 import java.io.IOException;
 import java.lang.invoke.MethodType;
@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * ProxyGenerator contains the code to generate a dynamic proxy class

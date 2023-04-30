@@ -6,9 +6,9 @@ package java.base.share.classes.java.lang;
 
 import java.math.BigDecimal;
 import java.util.Random;
-import jdk.internal.math.FloatConsts;
-import jdk.internal.math.DoubleConsts;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.math.FloatConsts;
+import java.base.share.classes.jdk.internal.math.DoubleConsts;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * The class {@code Math} contains methods for performing basic

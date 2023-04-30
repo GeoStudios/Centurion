@@ -17,12 +17,12 @@ import java.util.stream.Stream;
 import java.base.share.classes.jdk.internal.foreign.LayoutPath;
 import java.base.share.classes.jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
 import java.base.share.classes.jdk.internal.foreign.Utils;
-import jdk.internal.foreign.layout.MemoryLayoutUtil;
-import jdk.internal.foreign.layout.PaddingLayoutImpl;
-import jdk.internal.foreign.layout.SequenceLayoutImpl;
-import jdk.internal.foreign.layout.StructLayoutImpl;
-import jdk.internal.foreign.layout.UnionLayoutImpl;
-import jdk.internal.foreign.layout.ValueLayouts;
+import java.base.share.classes.jdk.internal.foreign.layout.MemoryLayoutUtil;
+import java.base.share.classes.jdk.internal.foreign.layout.PaddingLayoutImpl;
+import java.base.share.classes.jdk.internal.foreign.layout.SequenceLayoutImpl;
+import java.base.share.classes.jdk.internal.foreign.layout.StructLayoutImpl;
+import java.base.share.classes.jdk.internal.foreign.layout.UnionLayoutImpl;
+import java.base.share.classes.jdk.internal.foreign.layout.ValueLayouts;
 import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**

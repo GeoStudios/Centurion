@@ -5,8 +5,8 @@
 package java.base.share.classes.java.lang.invoke;
 
 
-import jdk.internal.loader.ClassLoaders;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 import java.lang.constant.ClassDesc;
 import java.lang.constant.Constable;

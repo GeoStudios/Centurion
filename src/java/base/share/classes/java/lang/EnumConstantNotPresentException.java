@@ -16,6 +16,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @SuppressWarnings("rawtypes") /* rawtypes are part of the public api */
 public class EnumConstantNotPresentException extends RuntimeException {
     @java.io.Serial

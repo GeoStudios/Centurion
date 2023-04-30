@@ -4,11 +4,10 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Comparator;
 
 /**
  * This FinalizerHistogram class is for GC.finalizer_info diagnostic command support.

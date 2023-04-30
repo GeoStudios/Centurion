@@ -3,9 +3,9 @@
  */
 package java.base.share.classes.java.lang;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
 
 import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.base.share.classes.java.lang.invoke.MethodType;

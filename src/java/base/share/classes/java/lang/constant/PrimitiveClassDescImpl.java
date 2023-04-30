@@ -5,7 +5,7 @@ package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.MethodHandles;
 
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import static java.util.Objects.requireNonNull;
 
@@ -17,6 +17,7 @@ import static java.util.Objects.requireNonNull;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 final class PrimitiveClassDescImpl
         extends DynamicConstantDesc<Class<?>> implements ClassDesc {
 

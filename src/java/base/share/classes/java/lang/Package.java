@@ -13,10 +13,9 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Objects;
 
-import jdk.internal.loader.BootLoader;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 /**
  * Represents metadata about a run-time package associated with a class loader.

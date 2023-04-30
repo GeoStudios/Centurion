@@ -8,7 +8,7 @@ import java.lang.invoke.MethodHandleInfo;
 import java.util.OptionalInt;
 import java.util.stream.Stream;
 
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 import static java.lang.invoke.MethodHandleInfo.REF_getField;
 import static java.lang.invoke.MethodHandleInfo.REF_getStatic;
@@ -29,6 +29,7 @@ import static java.lang.invoke.MethodHandleInfo.REF_putStatic;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public sealed interface DirectMethodHandleDesc
         extends MethodHandleDesc
         permits DirectMethodHandleDescImpl {

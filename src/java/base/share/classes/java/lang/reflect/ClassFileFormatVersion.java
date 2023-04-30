@@ -19,6 +19,7 @@ package java.base.share.classes.java.lang.reflect;
  * @see System#getProperties System property {@code java.class.version}
  * @see java.compiler/javax.lang.model.SourceVersion
  */
+
 @SuppressWarnings("doclint:reference") // cross-module links
 public enum ClassFileFormatVersion {
 

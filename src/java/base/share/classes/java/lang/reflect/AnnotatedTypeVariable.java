@@ -12,6 +12,7 @@ package java.base.share.classes.java.lang.reflect;
  * @jls 4.4 Type Variables
  * @since 1.8
  */
+
 public interface AnnotatedTypeVariable extends AnnotatedType {
 
     /**

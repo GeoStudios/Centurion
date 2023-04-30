@@ -13,8 +13,8 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadFactory;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.ContinuationSupport;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.ContinuationSupport;
 
 /**
  * Defines static methods to create platform and virtual thread builders.
@@ -23,6 +23,7 @@ import jdk.internal.vm.ContinuationSupport;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 class ThreadBuilders {
 
     /**

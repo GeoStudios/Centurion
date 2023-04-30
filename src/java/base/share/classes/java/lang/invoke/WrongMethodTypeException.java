@@ -19,6 +19,7 @@ package java.base.share.classes.java.lang.invoke;
  * @author John Rose, JSR 292 EG
  * @since 1.7
  */
+
 public class WrongMethodTypeException extends RuntimeException {
     @java.io.Serial
     private static final long serialVersionUID = 292L;

@@ -11,7 +11,7 @@ import java.io.ObjectStreamField;
 import java.io.Serial;
 import java.io.Serializable;
 import java.io.StreamCorruptedException;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * A thread-safe, mutable sequence of characters.

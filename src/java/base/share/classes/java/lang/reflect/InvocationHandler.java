@@ -4,10 +4,10 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 
 /**
  * {@code InvocationHandler} is the interface implemented by

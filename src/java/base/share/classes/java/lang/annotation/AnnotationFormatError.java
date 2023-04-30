@@ -16,6 +16,7 @@ package java.base.share.classes.java.lang.annotation;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class AnnotationFormatError extends Error {
     @java.io.Serial
     private static final long serialVersionUID = -4256701562333669892L;

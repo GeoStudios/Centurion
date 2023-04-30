@@ -4,11 +4,11 @@
 
 package java.base.share.classes.java.lang.ref;
 
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.function.Consumer;
-import jdk.internal.misc.VM;
+import java.base.share.classes.java.util.concurrent.TimeUnit;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * Reference queues, to which registered reference objects are appended by the

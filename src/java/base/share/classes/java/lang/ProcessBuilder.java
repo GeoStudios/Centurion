@@ -13,8 +13,8 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import jdk.internal.event.ProcessStartEvent;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.event.ProcessStartEvent;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * This class is used to create operating system processes.

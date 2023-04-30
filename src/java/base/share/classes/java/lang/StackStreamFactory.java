@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.java.lang;
 
-import jdk.internal.reflect.MethodAccessor;
-import jdk.internal.reflect.ConstructorAccessor;
+import java.base.share.classes.jdk.internal.reflect.MethodAccessor;
+import java.base.share.classes.jdk.internal.reflect.ConstructorAccessor;
 import java.base.share.classes.java.lang.StackWalker.Option;
 import java.base.share.classes.java.lang.StackWalker.StackFrame;
 
@@ -20,9 +20,9 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 import static java.base.share.classes.java.lang.StackStreamFactory.WalkerState.*;
 

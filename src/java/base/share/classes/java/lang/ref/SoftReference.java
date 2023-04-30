@@ -4,7 +4,6 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 /**
  * Soft reference objects, which are cleared at the discretion of the garbage
  * collector in response to memory demand.  Soft references are most often used

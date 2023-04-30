@@ -19,25 +19,25 @@ import java.util.concurrent.Future;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
-import jdk.internal.event.ThreadSleepEvent;
-import jdk.internal.event.VirtualThreadEndEvent;
-import jdk.internal.event.VirtualThreadPinnedEvent;
-import jdk.internal.event.VirtualThreadStartEvent;
-import jdk.internal.event.VirtualThreadSubmitFailedEvent;
-import jdk.internal.misc.CarrierThread;
-import jdk.internal.misc.InnocuousThread;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
-import jdk.internal.vm.StackableScope;
-import jdk.internal.vm.ThreadContainer;
-import jdk.internal.vm.ThreadContainers;
-import jdk.internal.vm.annotation.ChangesCurrentThread;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Hidden;
-import jdk.internal.vm.annotation.JvmtiMountTransition;
-import sun.nio.ch.Interruptible;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.event.ThreadSleepEvent;
+import java.base.share.classes.jdk.internal.event.VirtualThreadEndEvent;
+import java.base.share.classes.jdk.internal.event.VirtualThreadPinnedEvent;
+import java.base.share.classes.jdk.internal.event.VirtualThreadStartEvent;
+import java.base.share.classes.jdk.internal.event.VirtualThreadSubmitFailedEvent;
+import java.base.share.classes.jdk.internal.misc.CarrierThread;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.vm.StackableScope;
+import java.base.share.classes.jdk.internal.vm.ThreadContainer;
+import java.base.share.classes.jdk.internal.vm.ThreadContainers;
+import java.base.share.classes.jdk.internal.vm.annotation.ChangesCurrentThread;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.jdk.internal.vm.annotation.JvmtiMountTransition;
+import java.base.share.classes.sun.nio.ch.Interruptible;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 import static java.util.concurrent.TimeUnit.*;
 
 /**
@@ -48,6 +48,7 @@ import static java.util.concurrent.TimeUnit.*;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 final class VirtualThread extends BaseVirtualThread {
     private static final Unsafe U = Unsafe.getUnsafe();
     private static final ContinuationScope VTHREAD_SCOPE = new ContinuationScope("VirtualThreads");

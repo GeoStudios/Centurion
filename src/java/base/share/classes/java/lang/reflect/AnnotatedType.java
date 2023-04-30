@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.annotation.Annotation;
 
 /**
  * {@code AnnotatedType} represents the potentially annotated use of a type in

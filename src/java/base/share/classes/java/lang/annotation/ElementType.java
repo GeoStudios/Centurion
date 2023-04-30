@@ -46,11 +46,13 @@ package java.base.share.classes.java.lang.annotation;
  * variables of other classes to be non-null or not non-null based on whether
  * {@code @NonNull} appears at the variable's declaration.
  *
- * @author  Joshua Bloch
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 30/4/2023
  * @jls 9.6.4.1 @Target
  * @jls 4.1 The Kinds of Types and Values
  */
+
 public enum ElementType {
     /** Class, interface (including annotation interface), enum, or record
      * declaration */

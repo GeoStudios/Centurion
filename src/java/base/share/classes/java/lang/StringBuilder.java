@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -68,6 +68,7 @@ import java.io.StreamCorruptedException;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public final class StringBuilder
     extends AbstractStringBuilder
     implements java.io.Serializable, Comparable<StringBuilder>, CharSequence

@@ -12,6 +12,7 @@ package java.base.share.classes.java.lang.reflect;
  * @jls 4.5.1 Type Arguments of Parameterized Types
  * @since 1.8
  */
+
 public interface AnnotatedWildcardType extends AnnotatedType {
 
     /**

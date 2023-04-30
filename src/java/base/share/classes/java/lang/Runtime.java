@@ -13,9 +13,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.StringTokenizer;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 /**
  * Every Java application has a single instance of class

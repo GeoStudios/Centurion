@@ -31,27 +31,27 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.loader.BootLoader;
-import jdk.internal.loader.ClassLoaders;
-import jdk.internal.misc.CDS;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.module.ModuleBootstrap;
-import jdk.internal.module.ModuleLoaderMap;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.module.Resources;
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.Stable;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.module.ModuleBootstrap;
+import java.base.share.classes.jdk.internal.module.ModuleLoaderMap;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.module.Resources;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * Represents a run-time module, either {@link #isNamed() named} or unnamed.

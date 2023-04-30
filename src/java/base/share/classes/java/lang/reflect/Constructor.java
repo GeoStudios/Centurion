@@ -4,23 +4,23 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.ConstructorAccessor;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Stable;
-import sun.reflect.annotation.TypeAnnotation;
-import sun.reflect.annotation.TypeAnnotationParser;
-import sun.reflect.generics.repository.ConstructorRepository;
-import sun.reflect.generics.repository.GenericDeclRepository;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.scope.ConstructorScope;
-import java.lang.annotation.Annotation;
-import java.lang.annotation.AnnotationFormatError;
-import java.util.StringJoiner;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.ConstructorAccessor;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotation;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
+import java.base.share.classes.sun.reflect.generics.repository.ConstructorRepository;
+import java.base.share.classes.sun.reflect.generics.repository.GenericDeclRepository;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.scope.ConstructorScope;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
+import java.base.share.classes.java.util.StringJoiner;
 
 /**
  * {@code Constructor} provides information about, and access to, a single

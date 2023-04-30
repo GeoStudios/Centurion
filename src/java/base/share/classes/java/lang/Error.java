@@ -22,6 +22,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class Error extends Throwable {
     @java.io.Serial
     static final long serialVersionUID = 4980196508277280342L;

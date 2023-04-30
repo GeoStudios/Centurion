@@ -8,14 +8,14 @@ import java.lang.reflect.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
-import jdk.internal.access.JavaLangReflectAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.invoke.WrapperInstance;
+import java.base.share.classes.jdk.internal.access.JavaLangReflectAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.invoke.WrapperInstance;
 import java.util.ArrayList;
 
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**

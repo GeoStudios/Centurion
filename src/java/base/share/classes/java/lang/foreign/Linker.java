@@ -116,6 +116,7 @@ import java.util.stream.Stream;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @PreviewFeature(feature=PreviewFeature.Feature.FOREIGN)
 public sealed interface Linker permits AbstractLinker {
 

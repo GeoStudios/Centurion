@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.Objects;
-import sun.reflect.annotation.AnnotationSupport;
+import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
 
 /**
  * Information about method parameters.

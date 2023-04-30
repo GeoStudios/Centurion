@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.lang;
 
-import jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
 
 import java.base.share.classes.java.lang.annotation.Native;
 import java.security.AccessController;

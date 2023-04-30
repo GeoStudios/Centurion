@@ -25,8 +25,8 @@ import java.util.PropertyPermission;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import jdk.internal.module.ModuleLoaderMap;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.module.ModuleLoaderMap;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * The security manager is a class that allows

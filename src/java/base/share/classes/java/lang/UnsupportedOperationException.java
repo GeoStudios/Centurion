@@ -15,6 +15,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class UnsupportedOperationException extends RuntimeException {
     /**
      * Constructs an UnsupportedOperationException with no detail message.
@@ -46,7 +47,6 @@ public class UnsupportedOperationException extends RuntimeException {
      *         {@link Throwable#getCause()} method).  (A {@code null} value
      *         is permitted, and indicates that the cause is nonexistent or
      *         unknown.)
-     * @since 1.5
      */
     public UnsupportedOperationException(String message, Throwable cause) {
         super(message, cause);
@@ -64,7 +64,6 @@ public class UnsupportedOperationException extends RuntimeException {
      *         {@link Throwable#getCause()} method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
-     * @since  1.5
      */
     public UnsupportedOperationException(Throwable cause) {
         super(cause);

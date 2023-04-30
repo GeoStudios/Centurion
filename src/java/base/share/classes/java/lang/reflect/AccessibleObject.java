@@ -4,18 +4,18 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
-import java.lang.invoke.MethodHandle;
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.security.AccessController;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.reflect.ReflectionFactory;
-import sun.security.action.GetPropertyAction;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * The {@code AccessibleObject} class is the base class for {@code Field},

@@ -10,6 +10,7 @@ package java.base.share.classes.java.lang.ref;
  * such as virtual threads and ForkJoinPool, that might not be appropriate for some
  * low-level mechanisms, in particular MethodType's weak intern set.
  */
+
 final class NativeReferenceQueue<T> extends ReferenceQueue<T> {
     public NativeReferenceQueue() {
         super(0);

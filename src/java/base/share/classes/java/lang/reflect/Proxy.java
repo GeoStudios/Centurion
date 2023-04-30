@@ -27,17 +27,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.BooleanSupplier;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.module.Modules;
-import jdk.internal.misc.VM;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.loader.ClassLoaderValue;
-import jdk.internal.vm.annotation.Stable;
-import sun.reflect.misc.ReflectUtil;
-import sun.security.action.GetPropertyAction;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.module.Modules;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.loader.ClassLoaderValue;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 import static java.lang.invoke.MethodType.methodType;
 import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;

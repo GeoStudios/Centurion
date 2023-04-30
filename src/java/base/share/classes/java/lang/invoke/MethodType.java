@@ -21,12 +21,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Stream;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.util.BytecodeDescriptor;
-import sun.invoke.util.VerifyType;
-import sun.invoke.util.Wrapper;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.util.BytecodeDescriptor;
+import java.base.share.classes.sun.invoke.util.VerifyType;
+import java.base.share.classes.sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;

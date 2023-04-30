@@ -4,7 +4,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
 /**
  * {@code AnnotatedArrayType} represents the potentially annotated use of an
  * array type, whose component type may itself represent the annotated use of a
@@ -13,6 +12,7 @@ package java.base.share.classes.java.lang.reflect;
  * @jls 10.1 Array Types
  * @since 1.8
  */
+
 public interface AnnotatedArrayType extends AnnotatedType {
 
     /**

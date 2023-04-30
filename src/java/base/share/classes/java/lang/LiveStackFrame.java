@@ -6,8 +6,8 @@ package java.base.share.classes.java.lang;
 import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.util.EnumSet;
 import java.util.Set;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
 
 import static java.base.share.classes.java.lang.StackWalker.ExtendedOption.LOCALS_AND_OPERANDS;
 

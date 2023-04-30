@@ -20,6 +20,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class RuntimeException extends Exception {
     @java.io.Serial
     static final long serialVersionUID = -7034897190745766939L;

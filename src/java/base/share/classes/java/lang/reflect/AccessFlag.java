@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import java.util.Collections;
-import java.util.Objects;
-import java.util.Map;
-import java.util.Set;
-import java.util.function.Function;
-import static java.util.Map.entry;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.function.Function;
+import static java.base.share.classes.java.util.Map.entry;
 
 /**
  * Represents a JVM access or module-related flag on a runtime member,

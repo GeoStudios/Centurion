@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.lang.module;
 
-import java.util.Objects;
-import java.util.Set;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.java.util.Set;
 
 /**
  * A module in a graph of <em>resolved modules</em>.

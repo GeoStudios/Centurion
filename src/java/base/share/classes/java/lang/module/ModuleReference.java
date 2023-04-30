@@ -4,10 +4,10 @@
 
 package java.base.share.classes.java.lang.module;
 
-import java.io.IOException;
-import java.net.URI;
-import java.util.Objects;
-import java.util.Optional;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
 
 
 /**

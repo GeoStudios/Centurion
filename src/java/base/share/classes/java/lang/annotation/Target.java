@@ -56,6 +56,7 @@ package java.base.share.classes.java.lang.annotation;
  * @jls 9.7.4 Where Annotations May Appear
  * @jls 9.7.5 Multiple Annotations of the Same Interface
  */
+
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.ANNOTATION_TYPE)

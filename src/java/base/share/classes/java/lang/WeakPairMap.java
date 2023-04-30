@@ -23,6 +23,7 @@ import java.util.function.BiFunction;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 final class WeakPairMap<K1, K2, V> {
 
     private final ConcurrentHashMap<Pair<K1, K2>, V> map = new ConcurrentHashMap<>();

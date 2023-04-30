@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import java.util.Set;
+import java.base.share.classes.java.util.Set;
 
 /**
  * Member is an interface that reflects identifying information about

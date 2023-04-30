@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.lang.invoke;
 
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;
 import static java.util.Objects.requireNonNull;

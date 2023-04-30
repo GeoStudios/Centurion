@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import sun.invoke.util.BytecodeDescriptor;
-import sun.invoke.util.Wrapper;
-import static sun.invoke.util.Wrapper.*;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.sun.invoke.util.BytecodeDescriptor;
+import java.base.share.classes.sun.invoke.util.Wrapper;
+import static java.base.share.classes.sun.invoke.util.Wrapper.*;
 
 class TypeConvertingMethodAdapter extends MethodVisitor {
 

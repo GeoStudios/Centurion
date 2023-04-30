@@ -4,22 +4,22 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Set;
-import java.util.Objects;
-import java.util.StringJoiner;
-import java.util.stream.Collectors;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.java.util.StringJoiner;
+import java.base.share.classes.java.util.stream.Collectors;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.annotation.Stable;
-import sun.reflect.annotation.AnnotationParser;
-import sun.reflect.annotation.AnnotationSupport;
-import sun.reflect.annotation.TypeAnnotationParser;
-import sun.reflect.annotation.TypeAnnotation;
-import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
-import sun.reflect.generics.repository.ConstructorRepository;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.reflect.annotation.AnnotationParser;
+import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotation;
+import java.base.share.classes.sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
+import java.base.share.classes.sun.reflect.generics.repository.ConstructorRepository;
 
 /**
  * A shared superclass for the common functionality of {@link Method}

@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.io.UncheckedIOException;
-import java.lang.reflect.AccessFlag;
+import java.base.share.classes.java.lang.reflect.AccessFlag;
 import java.nio.ByteBuffer;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -28,11 +28,11 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static jdk.internal.module.Checks.*;
+import static java.base.share.classes.jdk.internal.module.Checks.*;
 import static java.util.Objects.*;
 
-import jdk.internal.module.Checks;
-import jdk.internal.module.ModuleInfo;
+import java.base.share.classes.jdk.internal.module.Checks;
+import java.base.share.classes.jdk.internal.module.ModuleInfo;
 
 
 /**

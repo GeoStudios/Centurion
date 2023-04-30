@@ -12,6 +12,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class UnknownError extends VirtualMachineError {
     @java.io.Serial
     private static final long serialVersionUID = 2524784860676771849L;

@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * A thread group represents a set of threads. In addition, a thread group can
@@ -55,6 +55,7 @@ import jdk.internal.misc.VM;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class ThreadGroup implements Thread.UncaughtExceptionHandler {
     /**
      * All fields are accessed directly by the VM and from JVMTI functions.

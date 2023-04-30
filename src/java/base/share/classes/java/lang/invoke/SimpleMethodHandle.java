@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;

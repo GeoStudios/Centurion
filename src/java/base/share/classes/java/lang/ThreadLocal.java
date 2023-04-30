@@ -9,8 +9,8 @@ import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Supplier;
 
-import jdk.internal.misc.CarrierThreadLocal;
-import jdk.internal.misc.TerminatingThreadLocal;
+import java.base.share.classes.jdk.internal.misc.CarrierThreadLocal;
+import java.base.share.classes.jdk.internal.misc.TerminatingThreadLocal;
 
 /**
  * This class provides thread-local variables.  These variables differ from
@@ -57,6 +57,7 @@ import jdk.internal.misc.TerminatingThreadLocal;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class ThreadLocal<T> {
     /**
      * ThreadLocals rely on per-thread linear-probe hash maps attached

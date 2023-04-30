@@ -11,10 +11,10 @@ import java.util.function.Consumer;
 import java.util.function.IntConsumer;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 import static java.base.share.classes.java.lang.String.UTF16;
 import static java.base.share.classes.java.lang.String.LATIN1;

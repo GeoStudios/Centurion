@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.share.classes.java.lang.constant;
 
 import java.lang.Enum.EnumDesc;
@@ -37,6 +38,7 @@ import static java.util.stream.Collectors.joining;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public abstract non-sealed class DynamicConstantDesc<T>
         implements ConstantDesc {
 

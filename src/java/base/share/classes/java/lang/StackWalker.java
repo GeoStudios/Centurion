@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.lang;
 
-import jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
 
 import java.base.share.classes.java.lang.invoke.MethodType;
 import java.util.EnumSet;
@@ -12,8 +12,8 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
 
 /**
  * A stack walker.
@@ -69,6 +69,7 @@ import jdk.internal.vm.ContinuationScope;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public final class StackWalker {
     /**
      * A {@code StackFrame} object represents a method invocation returned by
@@ -78,7 +79,6 @@ public final class StackWalker {
      * by the {@linkplain Option stack walking options} of a {@linkplain
      * StackWalker stack walker}.
      *
-     * @since 9
      * @jvms 2.6
      */
     public interface StackFrame {
@@ -125,7 +125,6 @@ public final class StackWalker {
          *         is not configured with {@link Option#RETAIN_CLASS_REFERENCE
          *         Option.RETAIN_CLASS_REFERENCE}.
          *
-         * @since 10
          */
         public default MethodType getMethodType() {
             throw new UnsupportedOperationException();
@@ -146,7 +145,6 @@ public final class StackWalker {
          * @see MethodType#toMethodDescriptorString()
          * @jvms 4.3.3 Method Descriptor
          *
-         * @since 10
          */
         public default String getDescriptor() {
             throw new UnsupportedOperationException();

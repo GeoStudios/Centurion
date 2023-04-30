@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 import java.base.share.classes.java.lang.invoke.MethodHandle;
 import java.base.share.classes.java.lang.invoke.MethodHandles;

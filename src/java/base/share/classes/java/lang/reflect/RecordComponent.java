@@ -4,14 +4,14 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
-import sun.reflect.annotation.AnnotationParser;
-import sun.reflect.annotation.TypeAnnotation;
-import sun.reflect.annotation.TypeAnnotationParser;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.repository.FieldRepository;
-import sun.reflect.generics.scope.ClassScope;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.reflect.annotation.AnnotationParser;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotation;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.repository.FieldRepository;
+import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
 import java.lang.annotation.Annotation;
 import java.util.Map;
 import java.util.Objects;

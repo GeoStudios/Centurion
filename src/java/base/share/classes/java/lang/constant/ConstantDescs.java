@@ -32,6 +32,7 @@ import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public final class ConstantDescs {
     // No instances
     private ConstantDescs() { }

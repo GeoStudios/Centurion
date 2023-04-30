@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.MethodHandle;
@@ -18,6 +19,7 @@ import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public sealed interface MethodHandleDesc
         extends ConstantDesc
         permits AsTypeMethodHandleDesc,

@@ -23,6 +23,7 @@ import java.net.URI;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 class NamedPackage {
     private final String name;
     private final Module module;

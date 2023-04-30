@@ -15,6 +15,7 @@ import java.io.IOException;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public interface Readable {
 
     /**

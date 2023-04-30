@@ -23,6 +23,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class TypeNotPresentException extends RuntimeException {
     @java.io.Serial
     private static final long serialVersionUID = -5101214195716534496L;

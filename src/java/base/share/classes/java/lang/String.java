@@ -30,17 +30,17 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.util.Preconditions;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.Stable;
-import sun.nio.cs.ArrayDecoder;
-import sun.nio.cs.ArrayEncoder;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.nio.cs.ArrayDecoder;
+import java.base.share.classes.sun.nio.cs.ArrayEncoder;
 
-import sun.nio.cs.ISO_8859_1;
-import sun.nio.cs.US_ASCII;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.nio.cs.US_ASCII;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
 /**
  * The {@code String} class represents character strings. All

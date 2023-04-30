@@ -63,6 +63,7 @@ import static java.base.share.classes.java.lang.annotation.ElementType.*;
  * @jls 5.5 Casting Contexts
  * @jls 9.6.4.5 @SuppressWarnings
  */
+
 // Implicitly target all declaration contexts by omitting a @Target annotation
 @Retention(RetentionPolicy.SOURCE)
 public @interface SuppressWarnings {

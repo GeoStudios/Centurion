@@ -4,19 +4,19 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.abi.NativeEntryPoint;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Hidden;
-import jdk.internal.vm.annotation.Stable;
-import sun.invoke.empty.Empty;
-import sun.invoke.util.ValueConversions;
-import sun.invoke.util.VerifyType;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.foreign.abi.NativeEntryPoint;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.invoke.empty.Empty;
+import java.base.share.classes.sun.invoke.util.ValueConversions;
+import java.base.share.classes.sun.invoke.util.VerifyType;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Array;

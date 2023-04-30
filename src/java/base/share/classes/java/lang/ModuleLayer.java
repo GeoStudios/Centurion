@@ -23,16 +23,16 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.loader.ClassLoaderValue;
-import jdk.internal.loader.Loader;
-import jdk.internal.loader.LoaderPool;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.misc.CDS;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.Stable;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.loader.ClassLoaderValue;
+import java.base.share.classes.jdk.internal.loader.Loader;
+import java.base.share.classes.jdk.internal.loader.LoaderPool;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * A layer of modules in the Java virtual machine.

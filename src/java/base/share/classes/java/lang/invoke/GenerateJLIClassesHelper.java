@@ -4,9 +4,9 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import sun.invoke.util.Wrapper;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.sun.invoke.util.Wrapper;
 
 import java.util.ArrayList;
 import java.util.HashSet;
