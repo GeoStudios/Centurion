@@ -4,8 +4,8 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-import sun.security.util.Debug;
-import sun.security.util.IOUtils;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.IOUtils;
 
 import java.io.*;
 import java.util.*;

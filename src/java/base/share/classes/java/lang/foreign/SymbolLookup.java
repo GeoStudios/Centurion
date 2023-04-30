@@ -4,15 +4,15 @@
 
 package java.base.share.classes.java.lang.foreign;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.MemorySessionImpl;
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.loader.NativeLibrary;
-import jdk.internal.loader.RawNativeLibraries;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.loader.NativeLibrary;
+import java.base.share.classes.jdk.internal.loader.RawNativeLibraries;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 import java.lang.invoke.MethodHandles;
 import java.nio.file.Path;

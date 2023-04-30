@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 import java.base.share.classes.java.lang.constant.Constable;
 import java.base.share.classes.java.lang.constant.ConstantDesc;
@@ -37,6 +37,7 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Boolea
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @jdk.internal.ValueBased
 public final class Boolean implements java.io.Serializable,
                                       Comparable<Boolean>, Constable

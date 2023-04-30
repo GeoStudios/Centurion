@@ -11,10 +11,10 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.util.Arrays;
 import java.util.Objects;
 
-import sun.security.util.math.*;
-import sun.security.util.math.intpoly.*;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.sun.security.util.math.*;
+import java.base.share.classes.sun.security.util.math.intpoly.*;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 /**
  * This class represents the Poly1305 function defined in RFC 7539.

@@ -6,12 +6,11 @@ package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
 
-import jdk.internal.access.JavaIORandomAccessFileAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Blocker;
-import jdk.internal.util.ByteArray;
-import sun.nio.ch.FileChannelImpl;
-
+import java.base.share.classes.jdk.internal.access.JavaIORandomAccessFileAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.util.ByteArray;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
 
 /**
  * Instances of this class support both reading and writing to a

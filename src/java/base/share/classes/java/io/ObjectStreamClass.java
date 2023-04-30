@@ -34,14 +34,14 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.reflect.ReflectionFactory;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaSecurityAccess;
-import jdk.internal.util.ByteArray;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaSecurityAccess;
+import java.base.share.classes.jdk.internal.util.ByteArray;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 
 /**
  * Serialization's descriptor for classes.  It contains the name and

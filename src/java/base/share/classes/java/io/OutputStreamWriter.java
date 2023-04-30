@@ -7,8 +7,8 @@ package java.base.share.classes.java.io;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
-import jdk.internal.misc.InternalLock;
-import sun.nio.cs.StreamEncoder;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
+import java.base.share.classes.sun.nio.cs.StreamEncoder;
 
 /**
  * An OutputStreamWriter is a bridge from character streams to byte streams:

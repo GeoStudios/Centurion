@@ -7,8 +7,8 @@ package java.base.share.classes.java.io;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
-import jdk.internal.misc.InternalLock;
-import sun.nio.cs.StreamDecoder;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
+import java.base.share.classes.sun.nio.cs.StreamDecoder;
 
 /**
  * An InputStreamReader is a bridge from byte streams to character streams: It

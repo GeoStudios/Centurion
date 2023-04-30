@@ -11,7 +11,7 @@ import java.util.Spliterator;
 import java.util.Spliterators;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * Reads text from a character-input stream, buffering characters so as to

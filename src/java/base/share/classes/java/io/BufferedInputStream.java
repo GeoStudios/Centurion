@@ -7,9 +7,9 @@ package java.base.share.classes.java.io;
 import java.util.Arrays;
 import java.util.Objects;
 
-import jdk.internal.misc.InternalLock;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * A {@code BufferedInputStream} adds

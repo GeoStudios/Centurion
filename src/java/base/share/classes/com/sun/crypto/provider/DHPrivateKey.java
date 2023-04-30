@@ -12,7 +12,7 @@ import java.security.KeyRep;
 import java.security.PrivateKey;
 import java.security.InvalidKeyException;
 import javax.crypto.spec.DHParameterSpec;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * A private key in PKCS#8 format for the Diffie-Hellman key agreement

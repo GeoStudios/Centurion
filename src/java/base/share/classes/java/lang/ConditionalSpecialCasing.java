@@ -11,7 +11,6 @@ import java.util.Iterator;
 import java.util.Locale;
 import sun.text.Normalizer;
 
-
 /**
  * This is a utility class for {@code String.toLowerCase()} and
  * {@code String.toUpperCase()}, that handles special casing with

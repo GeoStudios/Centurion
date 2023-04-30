@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.io;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;

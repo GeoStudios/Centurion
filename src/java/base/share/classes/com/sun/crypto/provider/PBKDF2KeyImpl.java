@@ -21,7 +21,7 @@ import javax.crypto.spec.PBEKeySpec;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
 /**
  * This class represents a PBE key derived using PBKDF2 defined

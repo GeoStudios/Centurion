@@ -10,8 +10,8 @@ import java.util.Arrays;
 
 import javax.crypto.*;
 
-import sun.security.internal.interfaces.TlsMasterSecret;
-import sun.security.internal.spec.TlsMasterSecretParameterSpec;
+import java.base.share.classes.sun.security.internal.interfaces.TlsMasterSecret;
+import java.base.share.classes.sun.security.internal.spec.TlsMasterSecretParameterSpec;
 
 import static java.base.share.classes.com.sun.crypto.provider.TlsPrfGenerator.*;
 

@@ -17,10 +17,10 @@ import javax.crypto.*;
 import javax.crypto.spec.PSource;
 import javax.crypto.spec.OAEPParameterSpec;
 
-import sun.security.rsa.*;
-import sun.security.jca.Providers;
-import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
-import sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.rsa.*;
+import java.base.share.classes.sun.security.jca.Providers;
+import java.base.share.classes.sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import java.base.share.classes.sun.security.util.KeyUtil;
 
 /**
  * RSA cipher implementation. Supports RSA en/decryption and signing/verifying

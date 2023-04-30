@@ -11,8 +11,7 @@ import java.security.KeyRep;
 import java.security.InvalidKeyException;
 import java.security.PublicKey;
 import javax.crypto.spec.DHParameterSpec;
-import sun.security.util.*;
-
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * A public key in X.509 format for the Diffie-Hellman key agreement algorithm.

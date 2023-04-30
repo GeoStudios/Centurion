@@ -14,16 +14,16 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
-import jdk.internal.foreign.LayoutPath;
-import jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
-import jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.foreign.LayoutPath;
+import java.base.share.classes.jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
+import java.base.share.classes.jdk.internal.foreign.Utils;
 import jdk.internal.foreign.layout.MemoryLayoutUtil;
 import jdk.internal.foreign.layout.PaddingLayoutImpl;
 import jdk.internal.foreign.layout.SequenceLayoutImpl;
 import jdk.internal.foreign.layout.StructLayoutImpl;
 import jdk.internal.foreign.layout.UnionLayoutImpl;
 import jdk.internal.foreign.layout.ValueLayouts;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * A memory layout describes the contents of a memory segment.

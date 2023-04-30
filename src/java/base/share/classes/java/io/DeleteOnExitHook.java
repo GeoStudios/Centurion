@@ -5,7 +5,7 @@ package java.base.share.classes.java.io;
 
 import java.util.*;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * This class holds a set of filenames to be deleted on VM exit through a shutdown hook.

@@ -5,7 +5,7 @@
 package java.base.share.classes.java.io;
 
 import java.util.Objects;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * Abstract class for writing to character streams.  The only methods that a

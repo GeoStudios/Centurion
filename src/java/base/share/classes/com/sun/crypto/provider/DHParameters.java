@@ -5,7 +5,7 @@
 package java.base.share.classes.com.sun.crypto.provider;
 
 import java.io.*;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 import java.math.BigInteger;
 import java.security.AlgorithmParametersSpi;
 import java.security.spec.AlgorithmParameterSpec;

@@ -14,7 +14,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
 
-import sun.security.internal.spec.TlsPrfParameterSpec;
+import java.base.share.classes.sun.security.internal.spec.TlsPrfParameterSpec;
 
 /**
  * KeyGenerator implementation for the TLS PRF function.

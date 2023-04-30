@@ -4,21 +4,21 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-import javax.crypto.BadPaddingException;
-import javax.crypto.CipherSpi;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
-import javax.crypto.ShortBufferException;
-import java.security.AlgorithmParameters;
-import java.security.GeneralSecurityException;
-import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
-import java.security.ProviderException;
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.CipherSpi;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.NoSuchPaddingException;
+import java.base.share.classes.javax.crypto.ShortBufferException;
+import java.base.share.classes.java.security.AlgorithmParameters;
+import java.base.share.classes.java.security.GeneralSecurityException;
+import java.base.share.classes.java.security.InvalidAlgorithmParameterException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.java.security.SecureRandom;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.util.Arrays;
 
 /**
  * This class implements the AES algorithm in its various modes

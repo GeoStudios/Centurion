@@ -13,7 +13,7 @@ import javax.crypto.SecretKey;
 import java.security.*;
 import java.security.spec.*;
 
-import sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
 
 /**
  * This class constitutes the core of HMAC-<MD> algorithms, where

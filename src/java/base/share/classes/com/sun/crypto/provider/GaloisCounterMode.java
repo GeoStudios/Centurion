@@ -4,12 +4,12 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import sun.nio.ch.DirectBuffer;
-import sun.security.jca.JCAUtil;
-import sun.security.util.ArrayUtil;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.sun.nio.ch.DirectBuffer;
+import java.base.share.classes.sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.util.ArrayUtil;
 
 import javax.crypto.AEADBadTagException;
 import javax.crypto.BadPaddingException;
@@ -37,7 +37,7 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.util.Arrays;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * This class represents ciphers in GaloisCounter (GCM) mode.

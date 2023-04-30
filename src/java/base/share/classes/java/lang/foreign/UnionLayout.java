@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.java.lang.foreign;
 
-import jdk.internal.foreign.layout.UnionLayoutImpl;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.foreign.layout.UnionLayoutImpl;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * A group layout whose member layouts are laid out at the same starting offset.

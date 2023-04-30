@@ -8,7 +8,7 @@ import java.security.*;
 import java.security.spec.*;
 import java.util.Arrays;
 
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 import javax.crypto.*;
 import javax.crypto.spec.*;
 import java.base.share.classes.javax.crypto.BadPaddingException;

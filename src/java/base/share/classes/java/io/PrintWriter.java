@@ -10,9 +10,9 @@ import java.util.Locale;
 import java.nio.charset.Charset;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
-import jdk.internal.access.JavaIOPrintWriterAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.access.JavaIOPrintWriterAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * Prints formatted representations of objects to a text-output stream.  This

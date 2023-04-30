@@ -14,7 +14,7 @@ import java.nio.file.Path;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * An abstract representation of file and directory pathnames.

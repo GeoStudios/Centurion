@@ -33,20 +33,20 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import jdk.internal.loader.BootLoader;
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.loader.ClassLoaders;
-import jdk.internal.loader.NativeLibrary;
-import jdk.internal.loader.NativeLibraries;
-import jdk.internal.perf.PerfCounter;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.misc.VM;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.CallerSensitiveAdapter;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.util.StaticProperty;
-import sun.reflect.misc.ReflectUtil;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.loader.NativeLibrary;
+import java.base.share.classes.jdk.internal.loader.NativeLibraries;
+import java.base.share.classes.jdk.internal.perf.PerfCounter;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitiveAdapter;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * A class loader is an object that is responsible for loading classes. The

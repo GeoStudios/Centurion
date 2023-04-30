@@ -15,10 +15,10 @@ import javax.crypto.*;
 import javax.crypto.spec.*;
 import javax.security.auth.x500.*;
 
-import sun.security.pkcs.*;
-import sun.security.pkcs.EncryptedPrivateKeyInfo;
-import sun.security.util.*;
-import sun.security.x509.*;
+import java.base.share.classes.sun.security.pkcs.*;
+import java.base.share.classes.sun.security.pkcs.EncryptedPrivateKeyInfo;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.*;
 
 /**
  * This class provides the keystore implementation referred to as "KeychainStore".

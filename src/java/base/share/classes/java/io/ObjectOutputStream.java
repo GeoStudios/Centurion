@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.StringJoiner;
 
-import jdk.internal.util.ByteArray;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.util.ByteArray;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 
 /**
  * An ObjectOutputStream writes primitive data types and graphs of Java objects

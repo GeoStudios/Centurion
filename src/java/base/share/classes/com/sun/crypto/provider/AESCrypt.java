@@ -4,9 +4,9 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.InvalidKeyException;
-import java.security.MessageDigest;
-import java.util.Arrays;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.MessageDigest;
+import java.base.share.classes.java.util.Arrays;
 
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 

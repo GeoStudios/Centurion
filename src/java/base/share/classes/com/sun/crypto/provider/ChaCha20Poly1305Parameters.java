@@ -9,7 +9,7 @@ import java.base.share.classes.java.security.AlgorithmParametersSpi;
 import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.java.security.spec.InvalidParameterSpecException;
 import java.base.share.classes.javax.crypto.spec.IvParameterSpec;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * This class implements the parameter set used with the ChaCha20-Poly1305

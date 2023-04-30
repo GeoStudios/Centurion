@@ -5,7 +5,7 @@
 package java.base.share.classes.java.io;
 
 import java.nio.charset.Charset;
-import jdk.internal.io.JdkConsole;
+import java.base.share.classes.jdk.internal.io.JdkConsole;
 
 /**
  * Console implementation for internal use. Custom Console delegate may be

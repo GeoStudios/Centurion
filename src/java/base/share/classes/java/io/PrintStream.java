@@ -9,9 +9,9 @@ import java.util.Locale;
 import java.nio.charset.Charset;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
-import jdk.internal.access.JavaIOPrintStreamAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.access.JavaIOPrintStreamAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * A {@code PrintStream} adds functionality to another output stream,

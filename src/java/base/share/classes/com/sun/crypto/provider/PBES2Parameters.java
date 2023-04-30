@@ -11,7 +11,7 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.PBEParameterSpec;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * This class implements the parameter set used with password-based

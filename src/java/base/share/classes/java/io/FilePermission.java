@@ -12,12 +12,12 @@ import java.util.StringJoiner;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
-import jdk.internal.access.JavaIOFilePermissionAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaIOFilePermissionAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.fs.DefaultFileSystemProvider;
-import sun.security.action.GetPropertyAction;
-import sun.security.util.FilePermCompat;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.FilePermCompat;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * This class represents access to a file or directory.  A FilePermission consists

@@ -10,11 +10,11 @@ import java.nio.ByteOrder;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 import java.util.function.Function;
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.MemorySessionImpl;
-import jdk.internal.foreign.SlicingAllocator;
-import jdk.internal.foreign.Utils;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.foreign.SlicingAllocator;
+import java.base.share.classes.jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * An object that may be used to allocate {@linkplain MemorySegment memory segments}. Clients implementing this interface

@@ -11,7 +11,7 @@ import java.util.Arrays;
 import javax.crypto.*;
 import javax.crypto.spec.*;
 
-import sun.security.internal.spec.*;
+import java.base.share.classes.sun.security.internal.spec.*;
 
 import static java.base.share.classes.com.sun.crypto.provider.TlsPrfGenerator.*;
 

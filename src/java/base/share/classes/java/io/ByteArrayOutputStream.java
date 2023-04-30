@@ -8,7 +8,7 @@ import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.Objects;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * This class implements an output stream in which the data is

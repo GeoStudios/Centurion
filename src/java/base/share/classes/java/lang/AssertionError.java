@@ -21,6 +21,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class AssertionError extends Error {
     @java.io.Serial
     private static final long serialVersionUID = -5013299493970297370L;

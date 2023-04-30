@@ -6,8 +6,8 @@ package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import java.util.Objects;
-import jdk.internal.misc.InternalLock;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * Writes text to a character-output stream, buffering characters so as to

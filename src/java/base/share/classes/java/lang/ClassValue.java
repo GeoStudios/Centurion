@@ -8,7 +8,7 @@ import java.util.WeakHashMap;
 import java.base.share.classes.java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 import static java.base.share.classes.java.lang.ClassValue.ClassValueMap.probeHomeLocation;
 import static java.base.share.classes.java.lang.ClassValue.ClassValueMap.probeBackupLocations;

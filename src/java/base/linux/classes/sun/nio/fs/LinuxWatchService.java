@@ -7,10 +7,10 @@ package java.base.linux.classes.sun.nio.fs;
 import java.nio.file.*;
 import java.util.*;
 import java.io.IOException;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
-import static java.base.linux.classes.sun.nio.fs.UnixNativeDispatcher.*;
-import static java.base.linux.classes.sun.nio.fs.UnixConstants.*;
+import static java.base.share.classes.sun.nio.fs.UnixNativeDispatcher.*;
+import static java.base..classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Linux implementation of WatchService based on inotify.

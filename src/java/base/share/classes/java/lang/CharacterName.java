@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 import java.io.DataInputStream;
 import java.io.InputStream;

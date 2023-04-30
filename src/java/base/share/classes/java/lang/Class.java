@@ -48,27 +48,27 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import jdk.internal.loader.BootLoader;
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.module.Resources;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.CallerSensitiveAdapter;
-import jdk.internal.reflect.ConstantPool;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.reflect.ReflectionFactory;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import sun.invoke.util.Wrapper;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.repository.ClassRepository;
-import sun.reflect.generics.repository.MethodRepository;
-import sun.reflect.generics.repository.ConstructorRepository;
-import sun.reflect.generics.scope.ClassScope;
-import sun.security.util.SecurityConstants;
-import sun.reflect.annotation.*;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.module.Resources;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitiveAdapter;
+import java.base.share.classes.jdk.internal.reflect.ConstantPool;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.sun.invoke.util.Wrapper;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.repository.ClassRepository;
+import java.base.share.classes.sun.reflect.generics.repository.MethodRepository;
+import java.base.share.classes.sun.reflect.generics.repository.ConstructorRepository;
+import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.reflect.annotation.*;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 
 /**
  * Instances of the class {@code Class} represent classes and

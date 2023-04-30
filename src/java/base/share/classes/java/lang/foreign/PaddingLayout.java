@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.java.lang.foreign;
 
-import jdk.internal.foreign.layout.PaddingLayoutImpl;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.foreign.layout.PaddingLayoutImpl;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * A padding layout. A padding layout specifies the size of extra space which is typically not accessed by applications,

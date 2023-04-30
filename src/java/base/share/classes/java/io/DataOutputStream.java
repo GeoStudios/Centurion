@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.io;
 
-import jdk.internal.util.ByteArray;
+import java.base.share.classes.jdk.internal.util.ByteArray;
 
 /**
  * A data output stream lets an application write primitive Java data

@@ -5,7 +5,7 @@
 package java.base.macosx.classes.apple.security;
 
 import java.security.*;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;
 
 /**
  * The Apple Security Provider.

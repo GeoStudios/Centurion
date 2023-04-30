@@ -6,9 +6,9 @@ package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.InvalidKeyException;
 import java.security.ProviderException;
-import sun.security.util.ArrayUtil;
+import java.base.share.classes.sun.security.util.ArrayUtil;
 import java.util.Objects;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * This class represents ciphers in electronic codebook (ECB) mode.

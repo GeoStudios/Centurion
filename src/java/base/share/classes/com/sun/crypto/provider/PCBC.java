@@ -6,8 +6,7 @@ package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.InvalidKeyException;
 import java.security.ProviderException;
-import sun.security.util.ArrayUtil;
-
+import java.base.share.classes.sun.security.util.ArrayUtil;
 
 /**
  * This class represents ciphers in Plaintext Cipher Block Chaining (PCBC)

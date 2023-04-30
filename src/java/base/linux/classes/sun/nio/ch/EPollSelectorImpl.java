@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
-import jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Blocker;
 
 import static java.base.linux.classes.sun.nio.ch.EPoll.EPOLLIN;
 import static java.base.linux.classes.sun.nio.ch.EPoll.EPOLL_CTL_ADD;

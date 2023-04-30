@@ -12,6 +12,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public class ArrayIndexOutOfBoundsException extends IndexOutOfBoundsException {
     @java.io.Serial
     private static final long serialVersionUID = -5116101128118950844L;

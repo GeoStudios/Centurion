@@ -5,9 +5,9 @@
 package java.base.share.classes.java.io;
 
 import java.lang.reflect.Field;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
 
 /**
  * A description of a Serializable field from a Serializable class.  An array

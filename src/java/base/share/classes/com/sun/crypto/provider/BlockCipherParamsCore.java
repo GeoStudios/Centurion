@@ -6,7 +6,7 @@ package java.base.share.classes.com.sun.crypto.provider;
 
 import java.io.*;
 import java.util.Arrays;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
 import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.java.security.spec.InvalidParameterSpecException;

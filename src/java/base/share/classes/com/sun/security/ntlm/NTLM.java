@@ -4,7 +4,7 @@
 
 package java.base.share.classes.com.sun.security.ntlm;
 
-import sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
 
 import static java.base.share.classes.com.sun.security.ntlm.Version.*;
 import java.io.IOException;

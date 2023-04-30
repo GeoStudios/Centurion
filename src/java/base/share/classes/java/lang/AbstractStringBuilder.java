@@ -4,16 +4,16 @@
 
 package java.base.share.classes.java.lang;
 
-import jdk.internal.math.DoubleToDecimal;
-import jdk.internal.math.FloatToDecimal;
+import java.base.share.classes.jdk.internal.math.DoubleToDecimal;
+import java.base.share.classes.jdk.internal.math.FloatToDecimal;
 
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Spliterator;
 import java.util.stream.IntStream;
 import java.util.stream.StreamSupport;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.Preconditions;
 
 import static java.base.share.classes.java.lang.String.COMPACT_STRINGS;
 import static java.base.share.classes.java.lang.String.UTF16;

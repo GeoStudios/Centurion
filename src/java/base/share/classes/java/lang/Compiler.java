@@ -20,6 +20,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 @Deprecated(since="9", forRemoval=true)
 public final class Compiler  {
     private Compiler() {}               // don't make instances

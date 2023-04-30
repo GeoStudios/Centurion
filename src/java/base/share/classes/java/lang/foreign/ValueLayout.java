@@ -7,9 +7,9 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
 
-import jdk.internal.foreign.layout.ValueLayouts;
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.foreign.layout.ValueLayouts;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
 
 /**
  * A layout that models values of basic data types. Examples of values modelled by a value layout are

@@ -5,8 +5,8 @@
 package java.base.share.classes.java.io;
 
 import java.util.Arrays;
-import jdk.internal.misc.InternalLock;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * The class implements a buffered output stream. By setting up such

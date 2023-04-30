@@ -11,7 +11,7 @@ import java.util.Arrays;
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
 
-import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import java.base.share.classes.sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
 
 /**
  * KeyGenerator implementation for the SSL/TLS RSA premaster secret.

@@ -5,11 +5,10 @@
 package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.misc.Blocker;
-import sun.nio.ch.FileChannelImpl;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
 
 /**
  * A file output stream is an output stream for writing data to a

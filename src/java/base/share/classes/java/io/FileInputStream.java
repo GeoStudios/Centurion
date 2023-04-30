@@ -6,9 +6,9 @@ package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
-import jdk.internal.misc.Blocker;
-import jdk.internal.util.ArraysSupport;
-import sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
 
 /**
  * A {@code FileInputStream} obtains input bytes

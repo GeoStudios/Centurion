@@ -11,7 +11,6 @@ import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.sun.security.util.ArrayUtil;
 
-
 /**
  * This class represents ciphers in cipher block chaining (CBC) mode.
  *

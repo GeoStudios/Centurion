@@ -10,8 +10,8 @@ import java.security.SecureRandom;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
 import java.util.List;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
-import static sun.security.util.SecurityProviderConstants.*;
+import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.*;
 
 /**
  * The "SunJCE" Cryptographic Service Provider.

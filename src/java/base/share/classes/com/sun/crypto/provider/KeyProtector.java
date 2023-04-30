@@ -25,11 +25,11 @@ import javax.crypto.SealedObject;
 import javax.crypto.spec.*;
 import javax.security.auth.DestroyFailedException;
 
-import jdk.internal.access.SharedSecrets;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.KnownOIDs;
-import sun.security.util.SecurityProperties;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.SecurityProperties;
 
 /**
  * This class implements a protection mechanism for private keys. In JCE, we

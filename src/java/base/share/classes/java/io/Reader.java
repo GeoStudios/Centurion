@@ -7,7 +7,7 @@ package java.base.share.classes.java.io;
 import java.nio.CharBuffer;
 import java.nio.ReadOnlyBufferException;
 import java.util.Objects;
-import jdk.internal.misc.InternalLock;
+import java.base.share.classes.jdk.internal.misc.InternalLock;
 
 /**
  * Abstract class for reading character streams.  The only methods that a

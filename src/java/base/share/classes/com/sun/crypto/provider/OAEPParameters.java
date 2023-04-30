@@ -6,8 +6,8 @@ package java.base.share.classes.com.sun.crypto.provider;
 
 import java.math.BigInteger;
 import java.io.*;
-import sun.security.util.*;
-import sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.*;
 import java.security.AlgorithmParametersSpi;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.AlgorithmParameterSpec;

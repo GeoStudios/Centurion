@@ -9,8 +9,8 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.List;
 
-import jdk.internal.foreign.FunctionDescriptorImpl;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.foreign.FunctionDescriptorImpl;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * A function descriptor models the signature of foreign functions. A function descriptor is made up of zero or more

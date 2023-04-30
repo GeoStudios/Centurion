@@ -18,17 +18,17 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Spliterator;
 import java.util.stream.Stream;
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.HeapMemorySegmentImpl;
-import jdk.internal.foreign.NativeMemorySegmentImpl;
-import jdk.internal.foreign.Utils;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.layout.ValueLayouts;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.HeapMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import java.base.share.classes.jdk.internal.foreign.layout.ValueLayouts;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 /**
  * A memory segment provides access to a contiguous region of memory.

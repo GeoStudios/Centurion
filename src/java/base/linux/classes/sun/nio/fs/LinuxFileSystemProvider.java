@@ -9,7 +9,7 @@ import java.nio.file.attribute.*;
 import java.nio.file.spi.FileTypeDetector;
 import java.io.IOException;
 
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * Linux implementation of FileSystemProvider

@@ -7,15 +7,15 @@ import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.function.Consumer;
 
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64VaList;
-import jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64VaList;
-import jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64VaList;
-import jdk.internal.foreign.abi.x64.sysv.SysVVaList;
-import jdk.internal.foreign.abi.x64.windows.WinVaList;
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64VaList;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64VaList;
+import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64VaList;
+import java.base.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVVaList;
+import java.base.share.classes.jdk.internal.foreign.abi.x64.windows.WinVaList;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 /**
  * Helper class to create and manipulate variable argument lists, similar in functionality to a C {@code va_list}.

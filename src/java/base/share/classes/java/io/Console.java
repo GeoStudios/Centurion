@@ -8,12 +8,12 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
 import java.nio.charset.Charset;
-import jdk.internal.access.JavaIOAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.io.JdkConsoleImpl;
-import jdk.internal.io.JdkConsoleProvider;
-import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaIOAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.io.JdkConsoleImpl;
+import java.base.share.classes.jdk.internal.io.JdkConsoleProvider;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Methods to access the character-based console device, if any, associated

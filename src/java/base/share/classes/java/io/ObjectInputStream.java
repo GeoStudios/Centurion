@@ -21,13 +21,13 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.Objects;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.event.DeserializationEvent;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ByteArray;
-import sun.reflect.misc.ReflectUtil;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetIntegerAction;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.event.DeserializationEvent;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.ByteArray;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
 
 /**
  * An ObjectInputStream deserializes primitive data and objects previously

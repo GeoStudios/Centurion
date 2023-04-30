@@ -8,9 +8,8 @@ import java.math.*;
 import java.io.*;
 import java.util.Arrays;
 
-import sun.security.x509.AlgorithmId;
-import sun.security.util.*;
-
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * This class implements the <code>PrivateKeyInfo</code> type,

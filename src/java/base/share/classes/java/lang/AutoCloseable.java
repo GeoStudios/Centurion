@@ -28,6 +28,7 @@ package java.base.share.classes.java.lang;
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
+
 public interface AutoCloseable {
     /**
      * Closes this resource, relinquishing any underlying resources.
