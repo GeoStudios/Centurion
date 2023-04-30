@@ -1,4 +1,4 @@
-<img src="https://github.com/GeoStudios/ContentStorage/blob/6b6e5648cb86b7381332d35a7477d6312502eaa1/Centurion_JDK_Logo.png" width="406">
+<img src="https://github.com/GeoStudios/ContentStorage/asssts/Centurion.png" width="406">
 <br />
 
 Centurion is a Heavy JDK to supply the user with great library of Java tools and enhancements 
