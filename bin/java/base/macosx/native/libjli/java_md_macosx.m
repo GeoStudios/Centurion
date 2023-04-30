@@ -2,7 +2,6 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-
 #include "java.h"
 #include "jvm_md.h"
 #include <dirent.h>

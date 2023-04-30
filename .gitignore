@@ -31,3 +31,5 @@ build
 
 #Ignore binary files generated from your source code during build
 bin/
+
+bin
