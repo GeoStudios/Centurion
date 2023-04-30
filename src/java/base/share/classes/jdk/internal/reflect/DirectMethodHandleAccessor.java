@@ -4,11 +4,11 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;

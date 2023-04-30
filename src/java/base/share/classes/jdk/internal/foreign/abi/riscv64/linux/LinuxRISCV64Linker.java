@@ -4,13 +4,13 @@
 
 package java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux;
 
-import jdk.internal.foreign.abi.AbstractLinker;
-import jdk.internal.foreign.abi.LinkerOptions;
+import java.base.share.classes.jdk.internal.foreign.abi.AbstractLinker;
+import java.base.share.classes.jdk.internal.foreign.abi.LinkerOptions;
 
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.FunctionDescriptor;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.VaList;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.VaList;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.function.Consumer;

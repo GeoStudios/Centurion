@@ -42,7 +42,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.regex.Pattern;
-import jdk.internal.jimage.ImageReader.Node;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 import static java.util.stream.Collectors.toList;
 
 /**

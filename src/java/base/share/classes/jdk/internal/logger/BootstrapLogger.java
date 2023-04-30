@@ -26,9 +26,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import jdk.internal.misc.InnocuousThread;
-import jdk.internal.misc.VM;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 import java.base.share.classes.jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
 
 /**

@@ -6,8 +6,8 @@ package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
 import java.util.ArrayList;
 import java.util.List;
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * A node that represents an annotation.

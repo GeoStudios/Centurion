@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * An implementation of {@link System.Logger System.Logger}

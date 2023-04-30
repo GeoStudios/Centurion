@@ -7,7 +7,7 @@ package java.base.share.classes.javax.security.auth.callback;
 import java.lang.ref.Cleaner;
 import java.util.Arrays;
 
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
 /**
  * <p> Underlying security services instantiate and pass a

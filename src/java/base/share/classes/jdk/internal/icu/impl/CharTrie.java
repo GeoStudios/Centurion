@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-import jdk.internal.icu.text.UTF16;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
 
 import java.io.DataInputStream;
 import java.io.InputStream;

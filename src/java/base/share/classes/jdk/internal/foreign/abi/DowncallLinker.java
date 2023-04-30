@@ -3,12 +3,12 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;

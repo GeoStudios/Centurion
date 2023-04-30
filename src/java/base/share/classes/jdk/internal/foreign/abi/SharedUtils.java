@@ -3,26 +3,26 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.CABI;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.foreign.CABI;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
-import java.lang.foreign.Linker;
-import java.lang.foreign.FunctionDescriptor;
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.SegmentAllocator;
-import java.lang.foreign.VaList;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.Linker;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.VaList;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -37,7 +37,7 @@ import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static java.lang.foreign.ValueLayout.*;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.*;
 import static java.lang.invoke.MethodHandles.*;
 import static java.lang.invoke.MethodType.methodType;
 

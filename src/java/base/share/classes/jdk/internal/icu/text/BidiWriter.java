@@ -8,7 +8,7 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-import jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 
 final class BidiWriter {
 

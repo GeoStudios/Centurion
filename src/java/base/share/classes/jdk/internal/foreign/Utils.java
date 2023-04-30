@@ -4,10 +4,10 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentAllocator;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -15,10 +15,10 @@ import java.lang.invoke.VarHandle;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.vm.annotation.ForceInline;
-import static java.lang.foreign.ValueLayout.JAVA_BYTE;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.JAVA_BYTE;
 
 /**
  * This class contains misc helper functions to support creation of memory segments.

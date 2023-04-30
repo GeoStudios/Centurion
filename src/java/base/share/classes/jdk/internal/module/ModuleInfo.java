@@ -26,9 +26,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Supplier;
 
-import jdk.internal.access.JavaLangModuleAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 import static java.base.share.classes.jdk.internal.module.ClassFileConstants.*;
 

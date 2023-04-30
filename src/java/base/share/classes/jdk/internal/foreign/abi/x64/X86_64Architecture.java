@@ -3,10 +3,10 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.x64;
 
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Architecture;
-import jdk.internal.foreign.abi.StubLocations;
-import jdk.internal.foreign.abi.VMStorage;
+import java.base.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import java.base.share.classes.jdk.internal.foreign.abi.Architecture;
+import java.base.share.classes.jdk.internal.foreign.abi.StubLocations;
+import java.base.share.classes.jdk.internal.foreign.abi.VMStorage;
 
 import java.util.stream.IntStream;
 

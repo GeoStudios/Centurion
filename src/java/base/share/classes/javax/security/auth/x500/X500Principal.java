@@ -8,8 +8,8 @@ import java.io.*;
 import java.security.Principal;
 import java.util.Collections;
 import java.util.Map;
-import sun.security.x509.X500Name;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * <p> This class represents an X.500 {@code Principal}.

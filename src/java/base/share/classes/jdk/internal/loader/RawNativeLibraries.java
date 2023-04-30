@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.loader;
 
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 import java.io.IOException;
 import java.lang.invoke.MethodHandles;

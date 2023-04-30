@@ -47,14 +47,14 @@ import java.util.jar.Attributes;
 import java.util.jar.Attributes.Name;
 import java.util.zip.ZipFile;
 
-import jdk.internal.access.JavaNetURLAccess;
-import jdk.internal.access.JavaUtilZipFileAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.jar.InvalidJarIndexError;
-import jdk.internal.util.jar.JarIndex;
-import sun.net.util.URLUtil;
-import sun.net.www.ParseUtil;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaNetURLAccess;
+import java.base.share.classes.jdk.internal.access.JavaUtilZipFileAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.jar.InvalidJarIndexError;
+import java.base.share.classes.jdk.internal.util.jar.JarIndex;
+import java.base.share.classes.sun.net.util.URLUtil;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * This class is used to maintain a search path of URLs for loading classes

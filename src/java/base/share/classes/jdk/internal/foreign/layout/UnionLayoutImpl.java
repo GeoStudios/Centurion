@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.jdk.internal.foreign.layout;
 
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.UnionLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.UnionLayout;
 import java.util.List;
 import java.util.Optional;
 

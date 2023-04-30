@@ -12,11 +12,11 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.locks.LockSupport;
 import java.util.stream.Stream;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.ScopedValueContainer;
-import jdk.internal.vm.ThreadContainer;
-import jdk.internal.vm.ThreadContainers;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.ScopedValueContainer;
+import java.base.share.classes.jdk.internal.vm.ThreadContainer;
+import java.base.share.classes.jdk.internal.vm.ThreadContainers;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
 /**

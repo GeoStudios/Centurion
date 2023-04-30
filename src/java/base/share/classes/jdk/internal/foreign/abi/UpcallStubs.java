@@ -3,10 +3,10 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 
-import jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
 
 public final class UpcallStubs {
 

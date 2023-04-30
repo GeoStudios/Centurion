@@ -4,20 +4,20 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.SymbolLookup;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.SymbolLookup;
 import java.lang.invoke.MethodHandles;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
-import jdk.internal.loader.NativeLibrary;
-import jdk.internal.loader.RawNativeLibraries;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.loader.NativeLibrary;
+import java.base.share.classes.jdk.internal.loader.RawNativeLibraries;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import static java.lang.foreign.ValueLayout.ADDRESS;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.ADDRESS;
 
 public final class SystemLookup implements SymbolLookup {
 

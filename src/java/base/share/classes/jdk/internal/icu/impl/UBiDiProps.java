@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.util.VersionInfo;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

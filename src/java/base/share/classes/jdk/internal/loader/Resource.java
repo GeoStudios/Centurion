@@ -13,7 +13,7 @@ import java.security.CodeSigner;
 import java.util.jar.Manifest;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
-import sun.nio.ByteBuffered;
+import java.base.share.classes.sun.nio.ByteBuffered;
 
 /**
  * This class is used to represent a Resource that has been loaded

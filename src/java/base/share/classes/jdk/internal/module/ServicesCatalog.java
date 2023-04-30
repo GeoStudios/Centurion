@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import jdk.internal.loader.ClassLoaderValue;
+import java.base.share.classes.jdk.internal.loader.ClassLoaderValue;
 
 /**
  * A <em>services catalog</em>. Each {@code ClassLoader} and {@code Layer} has

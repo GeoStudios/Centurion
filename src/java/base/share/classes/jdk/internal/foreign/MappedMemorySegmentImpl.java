@@ -4,10 +4,10 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.nio.ByteBuffer;
-import jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.ScopedMemoryAccess;
 
 /**

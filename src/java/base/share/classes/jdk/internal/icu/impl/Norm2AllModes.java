@@ -6,8 +6,8 @@ package java.base.share.classes.jdk.internal.icu.impl;
 
 import java.io.IOException;
 
-import jdk.internal.icu.text.Normalizer2;
-import jdk.internal.icu.util.VersionInfo;
+import java.base.share.classes.jdk.internal.icu.text.Normalizer2;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
 public final class Norm2AllModes {
     // Public API dispatch via Normalizer2 subclasses -------------------------- ***

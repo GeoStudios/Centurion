@@ -8,7 +8,7 @@ import java.security.*;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.util.Objects;
-import sun.security.jca.GetInstance;
+import java.base.share.classes.sun.security.jca.GetInstance;
 
 /**
  * Instances of this class represent a secure socket protocol

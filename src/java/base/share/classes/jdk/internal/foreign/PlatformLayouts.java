@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 
 public final class PlatformLayouts {
 

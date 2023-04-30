@@ -4,11 +4,11 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.RecordComponentVisitor;
-import jdk.internal.org.objectweb.asm.TypePath;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
 
 /**
  * A {@link RecordComponentVisitor} that prints the record components it visits with a {@link

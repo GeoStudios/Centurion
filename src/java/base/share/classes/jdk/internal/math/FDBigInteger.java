@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.math;
 
-import jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.misc.CDS;
 
 import java.math.BigInteger;
 import java.util.Arrays;

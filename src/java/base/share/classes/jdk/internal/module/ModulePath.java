@@ -41,11 +41,11 @@ import java.util.stream.Stream;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import jdk.internal.jmod.JmodFile;
-import jdk.internal.jmod.JmodFile.Section;
-import jdk.internal.perf.PerfCounter;
+import java.base.share.classes.jdk.internal.jmod.JmodFile;
+import java.base.share.classes.jdk.internal.jmod.JmodFile.Section;
+import java.base.share.classes.jdk.internal.perf.PerfCounter;
 
 /**
  * A {@code ModuleFinder} that locates modules on the file system by searching

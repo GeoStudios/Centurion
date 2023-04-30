@@ -16,8 +16,8 @@ import java.security.AccessController;
 import java.security.CodeSource;
 import java.security.PrivilegedAction;
 
-import jdk.internal.jimage.ImageReader;
-import jdk.internal.jimage.ImageReader.Node;
+import java.base.share.classes.jdk.internal.jimage.ImageReader;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

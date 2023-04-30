@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;

@@ -5,7 +5,7 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
 
 /**
  * An {@link jdk.internal.org.objectweb.asm.Attribute} that can generate the ASM code to create an equivalent

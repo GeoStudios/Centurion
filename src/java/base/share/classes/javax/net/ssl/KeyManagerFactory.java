@@ -8,7 +8,7 @@ import java.security.Security;
 import java.security.*;
 import java.util.Objects;
 
-import sun.security.jca.GetInstance;
+import java.base.share.classes.sun.security.jca.GetInstance;
 
 /**
  * This class acts as a factory for key managers based on a

@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.jdk.internal.foreign.layout;
 
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.SequenceLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.SequenceLayout;
 import java.util.Objects;
 import java.util.Optional;
 

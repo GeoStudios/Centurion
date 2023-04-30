@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.event;
 
-import jdk.internal.access.JavaUtilJarAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaUtilJarAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;

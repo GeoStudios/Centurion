@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 
-import jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
 
 /**
  * Supports the mapping of modules to class loaders. The set of modules mapped

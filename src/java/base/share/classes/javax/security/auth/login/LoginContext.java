@@ -16,8 +16,8 @@ import javax.security.auth.spi.LoginModule;
 import java.security.AccessControlContext;
 import java.util.ServiceLoader;
 
-import sun.security.util.PendingException;
-import sun.security.util.ResourcesMgr;
+import java.base.share.classes.sun.security.util.PendingException;
+import java.base.share.classes.sun.security.util.ResourcesMgr;
 
 import java.util.Set;
 import java.util.WeakHashMap;

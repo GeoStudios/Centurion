@@ -16,7 +16,7 @@ import java.security.Provider;
 import java.security.Security;
 import java.util.Objects;
 
-import sun.security.jca.GetInstance;
+import java.base.share.classes.sun.security.jca.GetInstance;
 
 /**
  * A Configuration object is responsible for specifying which LoginModules

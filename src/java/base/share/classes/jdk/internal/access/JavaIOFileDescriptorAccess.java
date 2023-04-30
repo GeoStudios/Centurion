@@ -6,7 +6,7 @@ package java.base.share.classes.jdk.internal.access;
 import java.io.FileDescriptor;
 import java.io.IOException;
 
-import jdk.internal.ref.PhantomCleanable;
+import java.base.share.classes.jdk.internal.ref.PhantomCleanable;
 
 /*
  * @author Chris Hegarty

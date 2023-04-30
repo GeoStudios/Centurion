@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;

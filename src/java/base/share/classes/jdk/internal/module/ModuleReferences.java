@@ -27,10 +27,9 @@ import java.util.jar.JarFile;
 import java.util.stream.Stream;
 import java.util.zip.ZipFile;
 
-import jdk.internal.jmod.JmodFile;
+import java.base.share.classes.jdk.internal.jmod.JmodFile;
 import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
-import sun.net.www.ParseUtil;
-
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 /**
  * A factory for creating ModuleReference implementations where the modules are

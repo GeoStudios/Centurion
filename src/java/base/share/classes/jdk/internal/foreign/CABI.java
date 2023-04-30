@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.jdk.internal.foreign;
 
-import static java.lang.foreign.ValueLayout.ADDRESS;
-import static sun.security.action.GetPropertyAction.privilegedGetProperty;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.ADDRESS;
+import static java.base.share.classes.sun.security.action.GetPropertyAction.privilegedGetProperty;
 
 public enum CABI {
     SYS_V,

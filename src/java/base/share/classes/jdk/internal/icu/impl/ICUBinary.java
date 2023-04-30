@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
-import jdk.internal.icu.util.VersionInfo;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
 public final class ICUBinary {
 

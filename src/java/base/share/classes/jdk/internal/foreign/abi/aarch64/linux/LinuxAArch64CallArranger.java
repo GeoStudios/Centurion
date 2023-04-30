@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux;
 
-import jdk.internal.foreign.abi.aarch64.CallArranger;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.CallArranger;
 
 /**
  * AArch64 CallArranger specialized for Linux ABI.

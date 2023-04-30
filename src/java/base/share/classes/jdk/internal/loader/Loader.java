@@ -39,8 +39,8 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.module.Resources;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.module.Resources;
 
 /**
  * A class loader that loads classes and resources from a collection of

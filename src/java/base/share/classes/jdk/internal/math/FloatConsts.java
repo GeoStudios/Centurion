@@ -5,7 +5,7 @@
 package java.base.share.classes.jdk.internal.math;
 
 import static java.lang.Float.MIN_EXPONENT;
-import static java.lang.Float.PRECISION;
+import static java.base.share.classes.java.lang.Float.PRECISION;
 import static java.lang.Float.SIZE;
 
 /**

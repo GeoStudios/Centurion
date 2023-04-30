@@ -6,8 +6,8 @@ package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
 import java.util.ArrayList;
 import java.util.List;
-import jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
-import jdk.internal.org.objectweb.asm.tree.LabelNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LabelNode;
 
 /**
  * A method subroutine (corresponds to a JSR instruction).

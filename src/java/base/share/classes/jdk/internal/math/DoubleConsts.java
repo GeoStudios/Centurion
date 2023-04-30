@@ -5,7 +5,7 @@
 package java.base.share.classes.jdk.internal.math;
 
 import static java.lang.Double.MIN_EXPONENT;
-import static java.lang.Double.PRECISION;
+import static java.base.share.classes.java.lang.Double.PRECISION;
 import static java.lang.Double.SIZE;
 
 /**

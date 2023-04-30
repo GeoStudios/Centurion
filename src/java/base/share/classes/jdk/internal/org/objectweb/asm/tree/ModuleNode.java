@@ -6,9 +6,9 @@ package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
 import java.util.ArrayList;
 import java.util.List;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * A node that represents a module declaration.

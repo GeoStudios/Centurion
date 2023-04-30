@@ -11,9 +11,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.vm.annotation.Stable;
-import sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
 
 public class VM {
 

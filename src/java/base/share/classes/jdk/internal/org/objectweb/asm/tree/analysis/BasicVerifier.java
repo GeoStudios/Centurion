@@ -5,12 +5,12 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
 import java.util.List;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.FieldInsnNode;
-import jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
-import jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.FieldInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
 
 /**
  * An extended {@link BasicInterpreter} that checks that bytecode instructions are correctly used.

@@ -7,8 +7,8 @@ package java.base.share.classes.jdk.internal.reflect;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /** Utility class which assists in calling defineClass() by
     creating a new class loader which delegates to the one needed in

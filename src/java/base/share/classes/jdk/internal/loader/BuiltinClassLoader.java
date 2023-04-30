@@ -36,13 +36,12 @@ import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 import java.util.stream.Stream;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.module.ModulePatcher.PatchedModuleReader;
-import jdk.internal.module.Resources;
-import jdk.internal.vm.annotation.Stable;
-import sun.security.util.LazyCodeSourcePermissionCollection;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ModulePatcher.PatchedModuleReader;
+import java.base.share.classes.jdk.internal.module.Resources;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.security.util.LazyCodeSourcePermissionCollection;
 
 /**
  * The platform or application class loader. Resources loaded from modules

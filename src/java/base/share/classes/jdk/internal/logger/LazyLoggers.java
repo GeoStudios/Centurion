@@ -11,8 +11,8 @@ import java.lang.System.LoggerFinder;
 import java.lang.System.Logger;
 import java.lang.ref.WeakReference;
 import java.util.Objects;
-import jdk.internal.misc.VM;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * This class is a factory for Lazy Loggers; only system loggers can be

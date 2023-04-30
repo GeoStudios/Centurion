@@ -5,8 +5,8 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
 import java.util.HashSet;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * A {@link ModuleVisitor} that checks that its methods are properly used.

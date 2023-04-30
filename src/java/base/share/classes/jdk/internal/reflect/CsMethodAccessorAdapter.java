@@ -3,8 +3,8 @@
  */
 package java.base.share.classes.jdk.internal.reflect;
 
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -7,10 +7,10 @@ package java.base.share.classes.jdk.internal.util.xml;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.XMLReader;
-import jdk.internal.org.xml.sax.helpers.DefaultHandler;
+import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
+import java.base.share.classes.jdk.internal.org.xml.sax.XMLReader;
+import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
 
 
 /**

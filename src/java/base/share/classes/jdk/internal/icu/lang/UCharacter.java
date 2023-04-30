@@ -4,11 +4,11 @@
 
 package java.base.share.classes.jdk.internal.icu.lang;
 
-import jdk.internal.icu.impl.UBiDiProps;
-import jdk.internal.icu.impl.UCharacterProperty;
-import jdk.internal.icu.text.Normalizer2;
-import jdk.internal.icu.text.UTF16;
-import jdk.internal.icu.util.VersionInfo;
+import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
+import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
+import java.base.share.classes.jdk.internal.icu.text.Normalizer2;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
 /**
  * <p>The UCharacter class provides extensions to the

@@ -3,30 +3,30 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.aarch64;
 
-import java.lang.foreign.FunctionDescriptor;
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Binding;
-import jdk.internal.foreign.abi.CallingSequence;
-import jdk.internal.foreign.abi.CallingSequenceBuilder;
-import jdk.internal.foreign.abi.DowncallLinker;
-import jdk.internal.foreign.abi.LinkerOptions;
-import jdk.internal.foreign.abi.UpcallLinker;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.VMStorage;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import java.base.share.classes.jdk.internal.foreign.abi.Binding;
+import java.base.share.classes.jdk.internal.foreign.abi.CallingSequence;
+import java.base.share.classes.jdk.internal.foreign.abi.CallingSequenceBuilder;
+import java.base.share.classes.jdk.internal.foreign.abi.DowncallLinker;
+import java.base.share.classes.jdk.internal.foreign.abi.LinkerOptions;
+import java.base.share.classes.jdk.internal.foreign.abi.UpcallLinker;
+import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import java.base.share.classes.jdk.internal.foreign.abi.VMStorage;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64CallArranger;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64CallArranger;
-import jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.foreign.Utils;
 
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.List;
 import java.util.Optional;
 
-import static jdk.internal.foreign.PlatformLayouts.*;
+import static java.base.share.classes.jdk.internal.foreign.PlatformLayouts.*;
 import static java.base.share.classes.jdk.internal.foreign.abi.aarch64.AArch64Architecture.*;
 import static java.base.share.classes.jdk.internal.foreign.abi.aarch64.AArch64Architecture.Regs.*;
 

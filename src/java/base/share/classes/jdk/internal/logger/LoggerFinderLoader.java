@@ -11,9 +11,9 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
-import sun.security.util.SecurityConstants;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Helper class used to load the {@link java.lang.System.LoggerFinder}.

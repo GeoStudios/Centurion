@@ -12,10 +12,10 @@ import java.security.CodeSource;
 import java.security.PermissionCollection;
 import java.util.jar.Manifest;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
 
 /**
  * Creates and provides access to the built-in platform and application class

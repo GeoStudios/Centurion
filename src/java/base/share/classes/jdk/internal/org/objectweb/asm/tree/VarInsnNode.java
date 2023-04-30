@@ -5,7 +5,7 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
 
 /**
  * A node that represents a local variable instruction. A local variable instruction is an

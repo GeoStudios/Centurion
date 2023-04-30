@@ -6,8 +6,8 @@ package java.base.share.classes.jdk.internal.misc;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.RejectedExecutionException;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * Defines static methods to support execution in the context of a virtual thread.

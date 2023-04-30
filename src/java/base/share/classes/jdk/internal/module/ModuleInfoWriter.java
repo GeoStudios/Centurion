@@ -10,12 +10,12 @@ import java.nio.ByteBuffer;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
-import jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * Utility class to write a ModuleDescriptor as a module-info.class.

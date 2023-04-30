@@ -35,12 +35,12 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import jdk.internal.jimage.ImageLocation;
-import jdk.internal.jimage.ImageReader;
-import jdk.internal.jimage.ImageReaderFactory;
-import jdk.internal.access.JavaNetUriAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.jimage.ImageLocation;
+import java.base.share.classes.jdk.internal.jimage.ImageReader;
+import java.base.share.classes.jdk.internal.jimage.ImageReaderFactory;
+import java.base.share.classes.jdk.internal.access.JavaNetUriAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 
 /**

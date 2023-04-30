@@ -3,28 +3,28 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.SegmentAllocator;
-import java.lang.foreign.VaList;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.VaList;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 
-import jdk.internal.foreign.MemorySessionImpl;
-import jdk.internal.foreign.Utils;
-import jdk.internal.foreign.abi.SharedUtils;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
+import java.base.share.classes.jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.foreign.abi.SharedUtils;
 
 import java.lang.invoke.VarHandle;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static jdk.internal.foreign.PlatformLayouts.SysV;
+import static java.base.share.classes.jdk.internal.foreign.PlatformLayouts.SysV;
 
-import static java.lang.foreign.MemoryLayout.PathElement.groupElement;
-import static jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
-import static jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;
+import static java.base.share.classes.java.lang.foreign.MemoryLayout.PathElement.groupElement;
+import static java.base.share.classes.jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
+import static java.base.share.classes.jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;
 
 // See https://software.intel.com/sites/default/files/article/402129/mpx-linux64-abi.pdf "3.5.7 Variable Argument Lists"
 public non-sealed class SysVVaList implements VaList {

@@ -6,10 +6,10 @@ package java.base.share.classes.jdk.internal.icu.impl;
 
 import java.util.ArrayList;
 
-import jdk.internal.icu.text.UTF16;
-import jdk.internal.icu.text.UnicodeSet;
-import jdk.internal.icu.text.UnicodeSet.SpanCondition;
-import jdk.internal.icu.util.OutputInt;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
+import java.base.share.classes.jdk.internal.icu.text.UnicodeSet;
+import java.base.share.classes.jdk.internal.icu.text.UnicodeSet.SpanCondition;
+import java.base.share.classes.jdk.internal.icu.util.OutputInt;
 
 /*
  * Implement span() etc. for a set with strings.

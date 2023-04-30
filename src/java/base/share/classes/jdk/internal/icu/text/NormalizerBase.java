@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-import jdk.internal.icu.impl.Norm2AllModes;
+import java.base.share.classes.jdk.internal.icu.impl.Norm2AllModes;
 
 import java.text.CharacterIterator;
 import java.text.Normalizer;

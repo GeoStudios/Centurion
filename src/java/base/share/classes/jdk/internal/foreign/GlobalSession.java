@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 /**
  * The global, non-closeable, shared session. Similar to a shared session, but its {@link #close()} method throws unconditionally.

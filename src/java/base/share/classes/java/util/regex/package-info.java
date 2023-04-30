@@ -7,7 +7,7 @@
  java.base.share.classes.java.util.regex by regular expressions.
  java.base.share.classes.java.util.regex
  java.base.share.classes.java.util.regex <p> An instance of the {@link java.util.regex.Pattern} class
- java.base.share.classes.java.util.regex represents a regular expression that is specified in string form in
+ java.base.share.classes..base.share.classes..base.share.classes..base.share.classes..base.share.classes.java.util.regex represents a regular expression that is specified in string form in
  java.base.share.classes.java.util.regex a syntax similar to that used by Perl.
  java.base.share.classes.java.util.regex
  java.base.share.classes.java.util.regex <p> Instances of the {@link java.util.regex.Matcher} class are used

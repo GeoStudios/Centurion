@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
 
 public final class SlicingAllocator implements SegmentAllocator {
 

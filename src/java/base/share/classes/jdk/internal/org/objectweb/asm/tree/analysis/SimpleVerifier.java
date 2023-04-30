@@ -5,8 +5,8 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
 import java.util.List;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
 
 /**
  * An extended {@link BasicVerifier} that performs more precise verifications. This verifier

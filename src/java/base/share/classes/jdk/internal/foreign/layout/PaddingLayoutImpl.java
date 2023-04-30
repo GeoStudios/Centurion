@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.foreign.layout;
 
-import java.lang.foreign.PaddingLayout;
+import java.base.share.classes.java.lang.foreign.PaddingLayout;
 import java.util.Objects;
 import java.util.Optional;
 

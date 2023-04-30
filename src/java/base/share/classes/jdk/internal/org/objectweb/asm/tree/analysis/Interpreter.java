@@ -5,10 +5,10 @@
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
 import java.util.List;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
 
 /**
  * A semantic bytecode interpreter. More precisely, this interpreter only manages the computation of

@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * An {@link AnnotationVisitor} that prints the annotations it visits with a {@link Printer}.

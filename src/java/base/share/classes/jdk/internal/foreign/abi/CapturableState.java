@@ -3,11 +3,11 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static java.lang.foreign.ValueLayout.JAVA_INT;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.JAVA_INT;
 
 public enum CapturableState {
     GET_LAST_ERROR    ("GetLastError",    JAVA_INT, 1 << 0),

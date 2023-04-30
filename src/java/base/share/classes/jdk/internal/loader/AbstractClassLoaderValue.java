@@ -4,8 +4,8 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 import java.lang.reflect.UndeclaredThrowableException;
 import java.util.Iterator;

@@ -5,15 +5,16 @@
 package java.base.share.classes.jdk.internal.util.xml;
 
 import java.io.*;
+
 import java.nio.charset.Charset;
 import java.util.InvalidPropertiesFormatException;
 import java.util.Map.Entry;
 import java.util.Properties;
-import jdk.internal.org.xml.sax.Attributes;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.SAXParseException;
-import jdk.internal.org.xml.sax.helpers.DefaultHandler;
+import java.base.share.classes.jdk.internal.org.xml.sax.Attributes;
+import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXParseException;
+import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
 import java.base.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
 import java.base.share.classes.jdk.internal.util.xml.impl.XMLStreamWriterImpl;
 

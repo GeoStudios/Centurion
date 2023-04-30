@@ -20,12 +20,12 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.security.PrivilegedAction;
 import java.util.Properties;
-import jdk.internal.access.JavaLangReflectAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.vm.annotation.Stable;
-import sun.security.action.GetPropertyAction;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.access.JavaLangReflectAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /** <P> The master factory for all reflective objects, both those in
     java.lang.reflect (Fields, Methods, Constructors) as well as their

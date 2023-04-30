@@ -12,19 +12,19 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.InsnList;
-import jdk.internal.org.objectweb.asm.tree.InsnNode;
-import jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
-import jdk.internal.org.objectweb.asm.tree.LabelNode;
-import jdk.internal.org.objectweb.asm.tree.LocalVariableNode;
-import jdk.internal.org.objectweb.asm.tree.LookupSwitchInsnNode;
-import jdk.internal.org.objectweb.asm.tree.MethodNode;
-import jdk.internal.org.objectweb.asm.tree.TableSwitchInsnNode;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.InsnList;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.InsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LabelNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LocalVariableNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LookupSwitchInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TableSwitchInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
 
 /**
  * A {@link jdk.internal.org.objectweb.asm.MethodVisitor} that removes JSR instructions and inlines the

@@ -20,11 +20,11 @@ import java.util.jar.JarInputStream;
 import java.util.jar.Manifest;
 import java.util.stream.Stream;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.module.Modules;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.module.Modules;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * Find resources and packages in modules defined to the boot class loader or

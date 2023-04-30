@@ -7,7 +7,6 @@ package java.base.share.classes.jdk.internal.icu.impl;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-
 /**
  * @author aheninger
  *

@@ -10,7 +10,7 @@ import java.text.MessageFormat;
 import java.security.Permission;
 import java.security.PermissionCollection;
 import java.security.Principal;
-import sun.security.util.ResourcesMgr;
+import java.base.share.classes.sun.security.util.ResourcesMgr;
 
 /**
  * This class is used to protect access to private Credentials

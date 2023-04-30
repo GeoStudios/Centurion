@@ -4,10 +4,10 @@
 
 package java.base.share.classes.jdk.internal.misc;
 
-import jdk.internal.ref.Cleaner;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import sun.nio.ch.DirectBuffer;
+import java.base.share.classes.jdk.internal.ref.Cleaner;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.sun.nio.ch.DirectBuffer;
 
 import java.lang.reflect.Field;
 import java.security.ProtectionDomain;

@@ -3,10 +3,10 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.aarch64;
 
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 
 public enum TypeClass {
     STRUCT_REGISTER,

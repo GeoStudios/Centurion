@@ -3,16 +3,16 @@
  */
 package java.base.share.classes.jdk.internal.foreign.layout;
 
-import jdk.internal.foreign.Utils;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.foreign.Utils;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.SequenceLayout;
-import java.lang.foreign.StructLayout;
-import java.lang.foreign.UnionLayout;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.SequenceLayout;
+import java.base.share.classes.java.lang.foreign.StructLayout;
+import java.base.share.classes.java.lang.foreign.UnionLayout;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.util.Objects;
 import java.util.Optional;
 

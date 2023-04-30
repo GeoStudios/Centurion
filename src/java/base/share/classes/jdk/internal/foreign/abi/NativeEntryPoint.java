@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
 import java.lang.invoke.MethodType;
 import java.lang.ref.Cleaner;

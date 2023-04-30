@@ -3,14 +3,14 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.PaddingLayout;
-import java.lang.foreign.SequenceLayout;
-import java.lang.foreign.StructLayout;
-import java.lang.foreign.ValueLayout;
-import jdk.internal.foreign.Utils;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.PaddingLayout;
+import java.base.share.classes.java.lang.foreign.SequenceLayout;
+import java.base.share.classes.java.lang.foreign.StructLayout;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
+import java.base.share.classes.jdk.internal.foreign.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

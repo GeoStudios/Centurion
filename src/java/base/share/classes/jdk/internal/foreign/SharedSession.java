@@ -8,7 +8,7 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Cleaner;
 import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 /**
  * A shared session, which can be shared across multiple threads. Closing a shared session has to ensure that

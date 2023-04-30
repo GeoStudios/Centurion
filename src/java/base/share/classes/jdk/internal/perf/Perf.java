@@ -8,9 +8,9 @@ import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.io.IOException;
 
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
 /**
  * The Perf class provides the ability to attach to an instrumentation

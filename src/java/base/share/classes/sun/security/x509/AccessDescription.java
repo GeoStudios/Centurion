@@ -6,7 +6,7 @@ package java.base.share.classes.sun.security.x509;
 
 import java.io.IOException;
 
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * @since Pre Java 1

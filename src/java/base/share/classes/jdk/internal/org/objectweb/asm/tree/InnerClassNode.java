@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
-import jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
 
 /**
  * A node that represents an inner class.

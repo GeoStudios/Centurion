@@ -6,7 +6,7 @@ package java.base.share.classes.jdk.internal.jrtfs;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
 import java.util.Formatter;
-import jdk.internal.jimage.ImageReader.Node;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
 /**
  * File attributes implementation for jrt image file system.

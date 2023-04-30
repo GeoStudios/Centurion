@@ -4,10 +4,10 @@
 
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -20,7 +20,7 @@ import static java.lang.invoke.MethodHandles.exactInvoker;
 import static java.lang.invoke.MethodHandles.insertArguments;
 import static java.lang.invoke.MethodHandles.lookup;
 import static java.lang.invoke.MethodType.methodType;
-import static sun.security.action.GetBooleanAction.privilegedGetProperty;
+import static java.base.share.classes.sun.security.action.GetBooleanAction.privilegedGetProperty;
 
 public class UpcallLinker {
     private static final boolean DEBUG =

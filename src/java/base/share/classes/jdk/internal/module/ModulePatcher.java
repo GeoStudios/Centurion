@@ -31,10 +31,10 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.stream.Stream;
 
-import jdk.internal.loader.Resource;
-import jdk.internal.access.JavaLangModuleAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.jdk.internal.loader.Resource;
+import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 
 /**

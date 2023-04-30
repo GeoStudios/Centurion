@@ -7,7 +7,7 @@ package java.base.share.classes.jdk.internal.logger;
 
 import java.util.Objects;
 import java.lang.System.Logger;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * An implementation of {@link Logger} that redirects all calls to a wrapped

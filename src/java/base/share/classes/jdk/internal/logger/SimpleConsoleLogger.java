@@ -18,9 +18,9 @@ import java.util.function.Function;
 import java.lang.System.Logger;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
-import sun.security.action.GetPropertyAction;
-import sun.util.logging.PlatformLogger;
-import sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
 
 /**
  * A simple console logger to emulate the behavior of JUL loggers when

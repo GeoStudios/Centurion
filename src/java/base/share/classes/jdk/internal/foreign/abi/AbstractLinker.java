@@ -3,21 +3,21 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import jdk.internal.foreign.SystemLookup;
+import java.base.share.classes.jdk.internal.foreign.SystemLookup;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
 import java.base.share.classes.jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
-import jdk.internal.foreign.layout.AbstractLayout;
+import java.base.share.classes.jdk.internal.foreign.layout.AbstractLayout;
 
-import java.lang.foreign.GroupLayout;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.FunctionDescriptor;
-import java.lang.foreign.Linker;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SequenceLayout;
+import java.base.share.classes.java.lang.foreign.GroupLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.Linker;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SequenceLayout;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.Objects;

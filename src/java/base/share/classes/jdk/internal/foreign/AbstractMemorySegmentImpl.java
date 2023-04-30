@@ -4,11 +4,11 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentAllocator;
-import java.lang.foreign.SegmentScope;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentAllocator;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.lang.reflect.Array;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
@@ -26,16 +26,16 @@ import java.util.function.Function;
 import java.util.function.IntFunction;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.util.Preconditions;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
-import static java.lang.foreign.ValueLayout.JAVA_BYTE;
+import static java.base.share.classes.java.lang.foreign.ValueLayout.JAVA_BYTE;
 
 /**
  * This abstract class provides an immutable implementation for the {@code MemorySegment} interface. This class contains information

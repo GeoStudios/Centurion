@@ -6,9 +6,9 @@ package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
 import java.util.List;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * A node that represents a LOOKUPSWITCH instruction.

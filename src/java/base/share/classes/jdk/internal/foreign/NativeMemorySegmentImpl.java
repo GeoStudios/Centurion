@@ -4,15 +4,15 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.nio.ByteBuffer;
 import java.util.Optional;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.misc.VM;
-import jdk.internal.vm.annotation.ForceInline;
-import sun.security.action.GetBooleanAction;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
 
 /**
  * Implementation for native memory segments. A native memory segment is essentially a wrapper around

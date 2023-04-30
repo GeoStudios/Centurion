@@ -10,8 +10,8 @@ import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinWorkerThread;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * A ForkJoinWorkerThread that can be used as a carrier thread.

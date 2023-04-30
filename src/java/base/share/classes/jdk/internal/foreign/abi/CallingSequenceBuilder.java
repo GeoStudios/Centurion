@@ -3,13 +3,13 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import jdk.internal.foreign.Utils;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.foreign.Utils;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import java.lang.foreign.FunctionDescriptor;
-import java.lang.foreign.MemoryLayout;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.ValueLayout;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.MemoryLayout;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.ValueLayout;
 import java.lang.invoke.MethodType;
 import java.util.ArrayDeque;
 import java.util.ArrayList;

@@ -4,8 +4,8 @@
 package java.base.share.classes.jdk.internal.loader;
 
 import java.util.Map;
-import jdk.internal.misc.CDS;
-import jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
 
 /**
  * Used to archive the built-in class loaders, their services catalogs, and the

@@ -4,16 +4,16 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.nio.ByteBuffer;
 import java.util.Objects;
 import java.util.Optional;
 
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 /**
  * Implementation for heap memory segments. A heap memory segment is composed by an offset and

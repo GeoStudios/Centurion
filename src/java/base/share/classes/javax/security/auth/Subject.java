@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletionException;
 
-import sun.security.util.ResourcesMgr;
+import java.base.share.classes.sun.security.util.ResourcesMgr;
 
 /**
  * <p> A {@code Subject} represents a grouping of related information

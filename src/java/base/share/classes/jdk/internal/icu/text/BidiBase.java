@@ -24,10 +24,10 @@ import java.lang.reflect.Array;
 import java.text.AttributedCharacterIterator;
 import java.text.Bidi;
 import java.util.Arrays;
-import jdk.internal.access.JavaAWTFontAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.impl.UBiDiProps;
+import java.base.share.classes.jdk.internal.access.JavaAWTFontAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
 
 /**
  *

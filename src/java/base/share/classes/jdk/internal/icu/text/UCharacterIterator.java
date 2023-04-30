@@ -4,9 +4,9 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-import jdk.internal.icu.impl.CharacterIteratorWrapper;
-import jdk.internal.icu.impl.ReplaceableUCharacterIterator;
-import jdk.internal.icu.impl.UCharacterProperty;
+import java.base.share.classes.jdk.internal.icu.impl.CharacterIteratorWrapper;
+import java.base.share.classes.jdk.internal.icu.impl.ReplaceableUCharacterIterator;
+import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
 
 import java.text.CharacterIterator;
 

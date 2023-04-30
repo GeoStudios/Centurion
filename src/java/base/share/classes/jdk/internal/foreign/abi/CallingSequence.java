@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi;
 
-import java.lang.foreign.FunctionDescriptor;
+import java.base.share.classes.java.lang.foreign.FunctionDescriptor;
 
 import java.lang.invoke.MethodType;
 import java.util.List;

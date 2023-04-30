@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import jdk.internal.jimage.ImageReader.Node;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
 /**
  * A jrt file system built on $JAVA_HOME/modules directory ('exploded modules

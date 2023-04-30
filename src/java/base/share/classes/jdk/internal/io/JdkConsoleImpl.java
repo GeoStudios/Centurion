@@ -17,9 +17,9 @@ import java.util.Arrays;
 import java.util.Formatter;
 import java.util.Objects;
 
-import jdk.internal.access.SharedSecrets;
-import sun.nio.cs.StreamDecoder;
-import sun.nio.cs.StreamEncoder;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.cs.StreamDecoder;
+import java.base.share.classes.sun.nio.cs.StreamEncoder;
 
 /**
  * JdkConsole implementation based on the platform's TTY.

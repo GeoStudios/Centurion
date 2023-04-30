@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.foreign;
 
-import sun.nio.ch.DirectBuffer;
+import java.base.share.classes.sun.nio.ch.DirectBuffer;
 
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;

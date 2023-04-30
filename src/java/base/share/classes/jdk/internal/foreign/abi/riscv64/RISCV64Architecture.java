@@ -4,10 +4,10 @@
 
 package java.base.share.classes.jdk.internal.foreign.abi.riscv64;
 
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Architecture;
-import jdk.internal.foreign.abi.StubLocations;
-import jdk.internal.foreign.abi.VMStorage;
+import java.base.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import java.base.share.classes.jdk.internal.foreign.abi.Architecture;
+import java.base.share.classes.jdk.internal.foreign.abi.StubLocations;
+import java.base.share.classes.jdk.internal.foreign.abi.VMStorage;
 import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.TypeClass;
 
 public class RISCV64Architecture implements Architecture {

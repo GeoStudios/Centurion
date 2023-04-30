@@ -12,15 +12,15 @@ package java.base.share.classes.jdk.internal.org.xml.sax.helpers;
 
 import java.io.IOException;
 
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.Locator;
-import jdk.internal.org.xml.sax.Attributes;
-import jdk.internal.org.xml.sax.EntityResolver;
-import jdk.internal.org.xml.sax.DTDHandler;
-import jdk.internal.org.xml.sax.ContentHandler;
-import jdk.internal.org.xml.sax.ErrorHandler;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.SAXParseException;
+import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
+import java.base.share.classes.jdk.internal.org.xml.sax.Locator;
+import java.base.share.classes.jdk.internal.org.xml.sax.Attributes;
+import java.base.share.classes.jdk.internal.org.xml.sax.EntityResolver;
+import java.base.share.classes.jdk.internal.org.xml.sax.DTDHandler;
+import java.base.share.classes.jdk.internal.org.xml.sax.ContentHandler;
+import java.base.share.classes.jdk.internal.org.xml.sax.ErrorHandler;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXParseException;
 
 
 /**

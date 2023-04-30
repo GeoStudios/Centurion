@@ -24,15 +24,15 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.stream.Stream;
 
-import jdk.internal.misc.CarrierThreadLocal;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.reflect.ConstantPool;
-import jdk.internal.vm.Continuation;
-import jdk.internal.vm.ContinuationScope;
-import jdk.internal.vm.StackableScope;
-import jdk.internal.vm.ThreadContainer;
-import sun.reflect.annotation.AnnotationType;
-import sun.nio.ch.Interruptible;
+import java.base.share.classes.jdk.internal.misc.CarrierThreadLocal;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.reflect.ConstantPool;
+import java.base.share.classes.jdk.internal.vm.Continuation;
+import java.base.share.classes.jdk.internal.vm.ContinuationScope;
+import java.base.share.classes.jdk.internal.vm.StackableScope;
+import java.base.share.classes.jdk.internal.vm.ThreadContainer;
+import java.base.share.classes.sun.reflect.annotation.AnnotationType;
+import java.base.share.classes.sun.nio.ch.Interruptible;
 
 public interface JavaLangAccess {
 

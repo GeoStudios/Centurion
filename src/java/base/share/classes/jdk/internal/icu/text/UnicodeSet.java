@@ -8,13 +8,13 @@ import java.text.ParsePosition;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-import jdk.internal.icu.impl.BMPSet;
-import jdk.internal.icu.impl.UCharacterProperty;
-import jdk.internal.icu.impl.UnicodeSetStringSpan;
-import jdk.internal.icu.impl.Utility;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.util.OutputInt;
-import jdk.internal.icu.util.VersionInfo;
+import java.base.share.classes.jdk.internal.icu.impl.BMPSet;
+import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
+import java.base.share.classes.jdk.internal.icu.impl.UnicodeSetStringSpan;
+import java.base.share.classes.jdk.internal.icu.impl.Utility;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.util.OutputInt;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
 /**
  * A mutable set of Unicode characters and multicharacter strings.

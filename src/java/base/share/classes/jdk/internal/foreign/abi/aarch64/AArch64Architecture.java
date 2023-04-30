@@ -3,10 +3,10 @@
  */
 package java.base.share.classes.jdk.internal.foreign.abi.aarch64;
 
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Architecture;
-import jdk.internal.foreign.abi.StubLocations;
-import jdk.internal.foreign.abi.VMStorage;
+import java.base.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import java.base.share.classes.jdk.internal.foreign.abi.Architecture;
+import java.base.share.classes.jdk.internal.foreign.abi.StubLocations;
+import java.base.share.classes.jdk.internal.foreign.abi.VMStorage;
 
 public class AArch64Architecture implements Architecture {
     public static final Architecture INSTANCE = new AArch64Architecture();

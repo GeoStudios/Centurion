@@ -4,9 +4,9 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-import jdk.internal.icu.text.Replaceable;
-import jdk.internal.icu.text.ReplaceableString;
-import jdk.internal.icu.text.UCharacterIterator;
+import java.base.share.classes.jdk.internal.icu.text.Replaceable;
+import java.base.share.classes.jdk.internal.icu.text.ReplaceableString;
+import java.base.share.classes.jdk.internal.icu.text.UCharacterIterator;
 
 /**
  * DLF docs must define behavior when Replaceable is mutated underneath

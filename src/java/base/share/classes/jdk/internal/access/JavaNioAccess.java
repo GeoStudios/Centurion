@@ -5,9 +5,9 @@
 package java.base.share.classes.jdk.internal.access;
 
 import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
-import jdk.internal.misc.VM.BufferPool;
+import java.base.share.classes.jdk.internal.misc.VM.BufferPool;
 
-import java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
 import java.io.FileDescriptor;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;

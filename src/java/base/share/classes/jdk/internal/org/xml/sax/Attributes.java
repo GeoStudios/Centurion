@@ -10,7 +10,6 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax;
 
-
 /**
  * Interface for a list of XML attributes.
  *

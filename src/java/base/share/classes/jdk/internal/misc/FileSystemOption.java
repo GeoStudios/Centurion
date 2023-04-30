@@ -4,7 +4,7 @@
 
 package java.base.share.classes.jdk.internal.misc;
 
-import sun.nio.fs.ExtendedOptions;
+import java.base.share.classes.sun.nio.fs.ExtendedOptions;
 
 import java.nio.file.CopyOption;
 import java.nio.file.OpenOption;
