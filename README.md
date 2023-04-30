@@ -1,4 +1,4 @@
-<img src="asssts/Centurion.png" width="128">
+<img src="assets/Centurion.png" width="128">
 <br />
 
 Centurion is a Heavy JDK to supply the user with great library of Java tools and enhancements 
