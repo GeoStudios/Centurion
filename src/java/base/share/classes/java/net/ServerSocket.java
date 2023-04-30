@@ -12,8 +12,8 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.Collections;
 
-import sun.security.util.SecurityConstants;
-import sun.net.PlatformSocketImpl;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.net.PlatformSocketImpl;
 
 /**
  * This class implements server sockets. A server socket waits for

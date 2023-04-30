@@ -18,11 +18,11 @@ import java.util.concurrent.ForkJoinWorkerThread;
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ThreadLocalRandom;
 
-import jdk.internal.math.DoubleConsts;
-import jdk.internal.math.FloatConsts;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.math.DoubleConsts;
+import java.base.share.classes.jdk.internal.math.FloatConsts;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 /**
  * Immutable arbitrary-precision integers.  All operations behave as if

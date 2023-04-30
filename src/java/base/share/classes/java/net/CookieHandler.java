@@ -7,7 +7,7 @@ package java.base.share.classes.java.net;
 import java.util.Map;
 import java.util.List;
 import java.io.IOException;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * A CookieHandler object provides a callback mechanism to hook up a

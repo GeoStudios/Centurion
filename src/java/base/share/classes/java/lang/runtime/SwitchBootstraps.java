@@ -12,7 +12,7 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.util.stream.Stream;
 
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 import static java.util.Objects.requireNonNull;
 

@@ -7,7 +7,7 @@ package java.base.share.classes.java.net;
 import java.io.IOException;
 import java.util.Map;
 import java.util.List;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * Represents implementations of URLConnection caches. An instance of

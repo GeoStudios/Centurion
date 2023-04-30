@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.net;
 
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 import java.io.InputStream;
 import java.io.InterruptedIOException;

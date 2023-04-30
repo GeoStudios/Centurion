@@ -34,16 +34,16 @@ import java.util.Arrays;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Stream;
 
-import jdk.internal.access.JavaNetInetAddressAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Blocker;
-import jdk.internal.misc.VM;
-import jdk.internal.vm.annotation.Stable;
-import sun.net.ResolverProviderConfiguration;
-import sun.security.action.*;
-import sun.net.InetAddressCachePolicy;
-import sun.net.util.IPAddressUtil;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.access.JavaNetInetAddressAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.net.ResolverProviderConfiguration;
+import java.base.share.classes.sun.security.action.*;
+import java.base.share.classes.sun.net.InetAddressCachePolicy;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
 import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV4;
 import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV4_FIRST;

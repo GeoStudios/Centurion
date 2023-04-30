@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.List;
 import java.util.Comparator;
 import java.io.IOException;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * CookieManager provides a concrete implementation of {@link CookieHandler},

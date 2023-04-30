@@ -6,7 +6,7 @@ package java.base.share.classes.java.net;
 
 import java.util.Objects;
 
-import jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.util.Preconditions;
 
 /**
  * This class represents a datagram packet.

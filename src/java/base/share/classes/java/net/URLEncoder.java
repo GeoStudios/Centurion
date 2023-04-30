@@ -12,7 +12,7 @@ import java.nio.charset.UnsupportedCharsetException ;
 import java.util.BitSet;
 import java.util.Objects;
 
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * Utility class for HTML form encoding. This class contains static methods

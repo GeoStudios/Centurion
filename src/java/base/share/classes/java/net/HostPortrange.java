@@ -7,7 +7,7 @@ package java.base.share.classes.java.net;
 import java.base.share.classes.java.net.*;
 import java.util.Formatter;
 import java.util.Locale;
-import sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
 
 /**
  * Parses a string containing a host/domain name and port range

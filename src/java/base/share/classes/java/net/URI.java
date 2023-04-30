@@ -19,9 +19,9 @@ import java.nio.charset.CodingErrorAction;
 import java.nio.charset.CharacterCodingException;
 import java.nio.file.Path;
 import java.text.Normalizer;
-import jdk.internal.access.JavaNetUriAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.access.JavaNetUriAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
 /**
  * Represents a Uniform Resource Identifier (URI) reference.

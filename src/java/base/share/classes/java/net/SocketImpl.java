@@ -11,8 +11,8 @@ import java.io.OutputStream;
 import java.util.Objects;
 import java.util.Set;
 
-import sun.net.PlatformSocketImpl;
-import sun.nio.ch.NioSocketImpl;
+import java.base.share.classes.sun.net.PlatformSocketImpl;
+import java.base.share.classes.sun.nio.ch.NioSocketImpl;
 
 /**
  * The abstract class {@code SocketImpl} is a common superclass

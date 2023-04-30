@@ -22,13 +22,13 @@ import java.util.NoSuchElementException;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 
-import jdk.internal.access.JavaNetURLAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.ThreadTracker;
-import jdk.internal.misc.VM;
-import sun.net.util.IPAddressUtil;
-import sun.security.util.SecurityConstants;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.jdk.internal.access.JavaNetURLAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.ThreadTracker;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Class {@code URL} represents a Uniform Resource

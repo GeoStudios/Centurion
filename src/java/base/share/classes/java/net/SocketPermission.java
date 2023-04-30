@@ -20,12 +20,11 @@ import java.util.StringJoiner;
 import java.util.StringTokenizer;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
-import sun.net.util.IPAddressUtil;
-import sun.net.PortConfig;
-import sun.security.util.RegisteredDomain;
-import sun.security.util.SecurityConstants;
-import sun.security.util.Debug;
-
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.windows.classes.sun.net.PortConfig;
+import java.base.share.classes.sun.security.util.RegisteredDomain;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.Debug;
 
 /**
  * This class represents access to a network via sockets.

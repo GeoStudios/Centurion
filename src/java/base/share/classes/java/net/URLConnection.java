@@ -21,9 +21,9 @@ import java.util.Map;
 import java.util.List;
 import java.security.Permission;
 import java.security.AccessController;
-import sun.security.util.SecurityConstants;
-import sun.net.www.MessageHeader;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.net.www.MessageHeader;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * The abstract class {@code URLConnection} is the superclass

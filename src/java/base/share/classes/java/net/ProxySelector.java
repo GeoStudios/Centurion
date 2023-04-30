@@ -6,7 +6,7 @@ package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.util.List;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * Selects the proxy server to use, if any, when connecting to the

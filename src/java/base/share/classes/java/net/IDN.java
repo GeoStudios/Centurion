@@ -10,7 +10,7 @@ import java.security.PrivilegedAction;
 
 import jdk.internal.icu.impl.Punycode;
 import jdk.internal.icu.text.StringPrep;
-import jdk.internal.icu.text.UCharacterIterator;
+import java.base.share.classes.jdk.internal.icu.text.UCharacterIterator;
 
 /**
  * Provides methods to convert internationalized domain names (IDNs) between

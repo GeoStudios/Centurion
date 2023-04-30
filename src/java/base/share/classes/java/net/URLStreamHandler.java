@@ -6,7 +6,7 @@ package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.util.Objects;
-import sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
 
 /**
  * The abstract class {@code URLStreamHandler} is the common

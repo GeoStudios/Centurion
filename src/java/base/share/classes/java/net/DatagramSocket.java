@@ -10,7 +10,7 @@ import java.nio.channels.DatagramChannel;
 import java.nio.channels.MulticastChannel;
 import java.util.Objects;
 import java.util.Set;
-import sun.nio.ch.DefaultSelectorProvider;
+import java.base.windows.classes.sun.nio.ch.DefaultSelectorProvider;
 
 /**
  * This class represents a socket for sending and receiving datagram packets.

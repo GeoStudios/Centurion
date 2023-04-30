@@ -11,10 +11,10 @@ import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.util.Iterator;
 
-import jdk.internal.util.StaticProperty;
-import sun.net.SocksProxy;
-import sun.net.spi.DefaultProxySelector;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.net.SocksProxy;
+import java.base.share.classes.sun.net.spi.DefaultProxySelector;
+import java.base.share.classes.sun.net.www.ParseUtil;
 
 /**
  * SOCKS (V4 & V5) TCP socket implementation (RFC 1928).

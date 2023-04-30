@@ -13,8 +13,8 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 import java.util.Objects;
-import jdk.internal.access.JavaNetHttpCookieAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaNetHttpCookieAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * An HttpCookie object represents an HTTP cookie, which carries state

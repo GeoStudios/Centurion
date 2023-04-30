@@ -29,12 +29,12 @@ import java.util.jar.Attributes.Name;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-import jdk.internal.loader.Resource;
-import jdk.internal.loader.URLClassPath;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.perf.PerfCounter;
-import sun.net.www.ParseUtil;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.loader.Resource;
+import java.base.share.classes.jdk.internal.loader.URLClassPath;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.perf.PerfCounter;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * This class loader is used to load classes and resources from a search

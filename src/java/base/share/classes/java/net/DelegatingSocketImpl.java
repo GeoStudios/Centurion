@@ -10,7 +10,7 @@ import java.io.OutputStream;
 import java.util.Objects;
 import java.util.Set;
 
-import sun.net.PlatformSocketImpl;
+import java.base.share.classes.sun.net.PlatformSocketImpl;
 
 /**
  * A SocketImpl that delegates all methods to another SocketImpl.
