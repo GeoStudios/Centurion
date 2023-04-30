@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.util.function.Function;
 import sun.util.logging.PlatformLogger;

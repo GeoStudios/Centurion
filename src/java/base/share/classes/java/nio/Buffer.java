@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio;
+package java.base.share.classes.java.nio;
 
 import jdk.internal.access.JavaNioAccess;
 import jdk.internal.access.SharedSecrets;
@@ -452,7 +452,7 @@ public abstract sealed class Buffer
      * out.write(buf);    // Write header + data to channel</pre></blockquote>
      *
      * <p> This method is often used in conjunction with the {@link
-     * java.nio.ByteBuffer#compact compact} method when transferring data from
+     * java.base.share.classes.java.nio.ByteBuffer#compact compact} method when transferring data from
      * one place to another.  </p>
      *
      * @return  This buffer

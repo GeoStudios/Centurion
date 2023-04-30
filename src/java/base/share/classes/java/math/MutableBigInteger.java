@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
 /**
  * A class used to represent multiprecision integers that makes efficient
@@ -21,8 +21,8 @@ package java.math;
  * @since   1.3
  */
 
-import static java.math.BigDecimal.INFLATED;
-import static java.math.BigInteger.LONG_MASK;
+import static java.base.share.classes.java.math.BigDecimal.INFLATED;
+import static java.base.share.classes.java.math.BigInteger.LONG_MASK;
 import java.util.Arrays;
 
 class MutableBigInteger {

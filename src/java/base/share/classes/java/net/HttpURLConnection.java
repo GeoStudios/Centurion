@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.InputStream;
 import java.io.IOException;
@@ -42,7 +42,7 @@ import java.util.Date;
  * destination, then the caller must also have permission to connect to the
  * redirected host/URL.
  *
- * @see     java.net.HttpURLConnection#disconnect()
+ * @see     java.base.share.classes.java.net.HttpURLConnection#disconnect()
  * @since 1.1
  */
 public abstract class HttpURLConnection extends URLConnection {
@@ -82,11 +82,11 @@ public abstract class HttpURLConnection extends URLConnection {
     protected long fixedContentLengthLong = -1;
 
     /**
-     * Supplies an {@link java.net.Authenticator Authenticator} to be used
+     * Supplies an {@link java.base.share.classes.java.net.Authenticator Authenticator} to be used
      * when authentication is requested through the HTTP protocol for
      * this {@code HttpURLConnection}.
      * If no authenticator is supplied, the
-     * {@linkplain Authenticator#setDefault(java.net.Authenticator) default
+     * {@linkplain Authenticator#setDefault(java.base.share.classes.java.net.Authenticator) default
      * authenticator} will be used.
      *
      * @implSpec The default behavior of this method is to unconditionally
@@ -291,7 +291,7 @@ public abstract class HttpURLConnection extends URLConnection {
      * @param   n   an index, where {@code n>=0}.
      * @return  the value of the {@code n}<sup>th</sup> header field,
      *          or {@code null} if the value does not exist.
-     * @see     java.net.HttpURLConnection#getHeaderFieldKey(int)
+     * @see     java.base.share.classes.java.net.HttpURLConnection#getHeaderFieldKey(int)
      */
     public String getHeaderField(int n) {
         return null;
@@ -331,9 +331,9 @@ public abstract class HttpURLConnection extends URLConnection {
      * Its default value is based on the value of the static followRedirects
      * at HttpURLConnection construction time.
      *
-     * @see     java.net.HttpURLConnection#setInstanceFollowRedirects(boolean)
-     * @see     java.net.HttpURLConnection#getInstanceFollowRedirects()
-     * @see     java.net.HttpURLConnection#setFollowRedirects(boolean)
+     * @see     java.base.share.classes.java.net.HttpURLConnection#setInstanceFollowRedirects(boolean)
+     * @see     java.base.share.classes.java.net.HttpURLConnection#getInstanceFollowRedirects()
+     * @see     java.base.share.classes.java.net.HttpURLConnection#setFollowRedirects(boolean)
      */
     protected boolean instanceFollowRedirects = followRedirects;
 
@@ -402,7 +402,7 @@ public abstract class HttpURLConnection extends URLConnection {
      * @param followRedirects a {@code boolean} indicating
      * whether or not to follow HTTP redirects.
      *
-     * @see    java.net.HttpURLConnection#instanceFollowRedirects
+     * @see    java.base.share.classes.java.net.HttpURLConnection#instanceFollowRedirects
      * @see #getInstanceFollowRedirects
      * @since 1.3
      */
@@ -416,7 +416,7 @@ public abstract class HttpURLConnection extends URLConnection {
      *
      * @return  the value of this {@code HttpURLConnection}'s
      *          {@code instanceFollowRedirects} field.
-     * @see     java.net.HttpURLConnection#instanceFollowRedirects
+     * @see     java.base.share.classes.java.net.HttpURLConnection#instanceFollowRedirects
      * @see #setInstanceFollowRedirects(boolean)
      * @since 1.3
      */

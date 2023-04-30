@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import static java.lang.ref.Reference.reachabilityFence;
 import java.lang.ref.Cleaner.Cleanable;
@@ -25,7 +25,7 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import jdk.internal.javac.PreviewFeature;
 import jdk.internal.ref.CleanerFactory;
 import sun.security.util.SecurityConstants;

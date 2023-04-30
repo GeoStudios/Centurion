@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.lang.constant.ClassDesc;
 import java.lang.constant.Constable;
@@ -19,7 +19,7 @@ import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
 
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
 
 /**
  * A VarHandle is a dynamically strongly typed reference to a variable, or to a
@@ -44,7 +44,7 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * represented by {@code Class} objects.  The list of coordinate types may be
  * empty.
  *
- * <p>Factory methods that produce or {@link java.lang.invoke.MethodHandles.Lookup
+ * <p>Factory methods that produce or {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup
  * lookup} VarHandle instances document the supported variable type and the list
  * of coordinate types.
  *
@@ -162,7 +162,7 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * {@link #getAndBitwiseXorRelease getAndBitwiseXorRelease}.
  * </ul>
  *
- * <p>Factory methods that produce or {@link java.lang.invoke.MethodHandles.Lookup
+ * <p>Factory methods that produce or {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup
  * lookup} VarHandle instances document the set of access modes that are
  * supported, which may also include documenting restrictions based on the
  * variable type and whether a variable is read-only.  If an access mode is not
@@ -373,13 +373,13 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * <h2>VarHandle creation</h2>
  * Java code can create a VarHandle that directly accesses any field that is
  * accessible to that code.  This is done via a reflective, capability-based
- * API called {@link java.lang.invoke.MethodHandles.Lookup
+ * API called {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup
  * MethodHandles.Lookup}.
  * For example, a VarHandle for a non-static field can be obtained
- * from {@link java.lang.invoke.MethodHandles.Lookup#findVarHandle
+ * from {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findVarHandle
  * Lookup.findVarHandle}.
  * There is also a conversion method from Core Reflection API objects,
- * {@link java.lang.invoke.MethodHandles.Lookup#unreflectVarHandle
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectVarHandle
  * Lookup.unreflectVarHandle}.
  * <p>
  * Access to protected field members is restricted to receivers only of the
@@ -390,12 +390,12 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * the type of the accessing class.
  *
  * <h2>Interoperation between VarHandles and the Core Reflection API</h2>
- * Using factory methods in the {@link java.lang.invoke.MethodHandles.Lookup
+ * Using factory methods in the {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup
  * Lookup} API, any field represented by a Core Reflection API object
  * can be converted to a behaviorally equivalent VarHandle.
  * For example, a reflective {@link java.lang.reflect.Field Field} can
  * be converted to a VarHandle using
- * {@link java.lang.invoke.MethodHandles.Lookup#unreflectVarHandle
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflectVarHandle
  * Lookup.unreflectVarHandle}.
  * The resulting VarHandles generally provide more direct and efficient
  * access to the underlying fields.
@@ -414,7 +414,7 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * As with any reflected method, these methods (when reflected) may be invoked
  * directly via {@link java.lang.reflect.Method#invoke java.lang.reflect.Method.invoke},
  * via JNI, or indirectly via
- * {@link java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
  * However, such reflective calls do not result in access mode method
  * invocations.  Such a call, if passed the required argument (a single one, of
  * type {@code Object[]}), will ignore the argument and will throw an
@@ -427,12 +427,12 @@ import static java.lang.invoke.MethodHandleStatics.UNSAFE;
  * {@code Class.getDeclaredMethod}, may be regarded as placeholders only.
  * <p>
  * In order to obtain an invoker method for a particular access mode type,
- * use {@link java.lang.invoke.MethodHandles#varHandleExactInvoker} or
- * {@link java.lang.invoke.MethodHandles#varHandleInvoker}.  The
- * {@link java.lang.invoke.MethodHandles.Lookup#findVirtual Lookup.findVirtual}
+ * use {@link java.base.share.classes.java.lang.invoke.MethodHandles#varHandleExactInvoker} or
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles#varHandleInvoker}.  The
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findVirtual Lookup.findVirtual}
  * API is also able to return a method handle to call an access mode method for
  * any specified access mode type and is equivalent in behavior to
- * {@link java.lang.invoke.MethodHandles#varHandleInvoker}.
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles#varHandleInvoker}.
  *
  * <h2>Interoperation between VarHandles and Java generics</h2>
  * A VarHandle can be obtained for a variable, such as a field, which is

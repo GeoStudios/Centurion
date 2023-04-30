@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 
 /**
@@ -13,7 +13,7 @@ package java.lang.reflect;
  * reflective method, as specified in this package. When a
  * parameterized type p is created, the generic class or interface declaration
  * that p instantiates is resolved, and all type arguments of p are created
- * recursively. See {@link java.lang.reflect.TypeVariable
+ * recursively. See {@link java.base.share.classes.java.lang.reflect.TypeVariable
  * TypeVariable} for details on the creation process for type
  * variables. Repeated creation of a parameterized type has no effect.
  *

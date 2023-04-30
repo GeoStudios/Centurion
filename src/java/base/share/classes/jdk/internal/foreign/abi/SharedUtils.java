@@ -1,17 +1,17 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi;
+package java.base.share.classes.jdk.internal.foreign.abi;
 
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.JavaLangInvokeAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.foreign.CABI;
-import jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
-import jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
-import jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64Linker;
-import jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
-import jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
+import java.base.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
+import java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux.LinuxRISCV64Linker;
+import java.base.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
+import java.base.share.classes.jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
 import jdk.internal.vm.annotation.ForceInline;
 
 import java.lang.foreign.Linker;

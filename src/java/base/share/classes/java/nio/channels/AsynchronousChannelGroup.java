@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
-import java.nio.channels.spi.AsynchronousChannelProvider;
+import java.base.share.classes.java.nio.channels.spi.AsynchronousChannelProvider;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadFactory;
@@ -50,7 +50,7 @@ import java.util.concurrent.TimeUnit;
  *   <tbody>
  *   <tr>
  *     <th scope="row">
- *       {@systemProperty java.nio.channels.DefaultThreadPool.threadFactory}
+ *       {@systemProperty java.base.share.classes.java.nio.channels.DefaultThreadPool.threadFactory}
  *     </th>
  *     <td> The value of this property is taken to be the fully-qualified name
  *     of a concrete {@link java.util.concurrent.ThreadFactory ThreadFactory}
@@ -63,7 +63,7 @@ import java.util.concurrent.TimeUnit;
  *   </tr>
  *   <tr>
  *     <th scope="row">
- *       {@systemProperty java.nio.channels.DefaultThreadPool.initialSize}
+ *       {@systemProperty java.base.share.classes.java.nio.channels.DefaultThreadPool.initialSize}
  *     </th>
  *     <td> The value of the {@code initialSize} parameter for the default
  *     group (see {@link #withCachedThreadPool withCachedThreadPool}).

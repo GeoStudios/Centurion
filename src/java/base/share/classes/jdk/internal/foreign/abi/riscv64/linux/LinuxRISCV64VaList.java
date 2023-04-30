@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.foreign.abi.riscv64.linux;
+package java.base.share.classes.jdk.internal.foreign.abi.riscv64.linux;
 
 import java.lang.foreign.GroupLayout;
 import java.lang.foreign.MemoryLayout;

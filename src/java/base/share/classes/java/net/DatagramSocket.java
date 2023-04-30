@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -58,23 +58,23 @@ import sun.nio.ch.DefaultSelectorProvider;
  * </thead>
  * <tbody>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_SNDBUF SO_SNDBUF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_SNDBUF SO_SNDBUF} </th>
  *     <td> The size of the socket send buffer in bytes </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
  *     <td> The size of the socket receive buffer in bytes </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
  *     <td> Re-use address </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_BROADCAST SO_BROADCAST} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_BROADCAST SO_BROADCAST} </th>
  *     <td> Allow transmission of broadcast datagrams </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#IP_TOS IP_TOS} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#IP_TOS IP_TOS} </th>
  *     <td> The Type of Service (ToS) octet in the Internet Protocol (IP) header </td>
  *   </tr>
  * </tbody>
@@ -100,17 +100,17 @@ import sun.nio.ch.DefaultSelectorProvider;
  * </thead>
  * <tbody>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#IP_MULTICAST_IF IP_MULTICAST_IF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#IP_MULTICAST_IF IP_MULTICAST_IF} </th>
  *     <td> The network interface for Internet Protocol (IP) multicast datagrams </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#IP_MULTICAST_TTL
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#IP_MULTICAST_TTL
  *       IP_MULTICAST_TTL} </th>
  *     <td> The <em>time-to-live</em> for Internet Protocol (IP) multicast
  *       datagrams </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#IP_MULTICAST_LOOP
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#IP_MULTICAST_LOOP
  *       IP_MULTICAST_LOOP} </th>
  *     <td> Loopback for Internet Protocol (IP) multicast datagrams </td>
  *   </tr>
@@ -218,7 +218,7 @@ import sun.nio.ch.DefaultSelectorProvider;
  * </ol>
  *
  * @author  Pavani Diwanji
- * @see     java.net.DatagramPacket
+ * @see     java.base.share.classes.java.net.DatagramPacket
  * @see     java.nio.channels.DatagramChannel
  * @since 1.0
  */
@@ -423,7 +423,7 @@ public class DatagramSocket implements java.io.Closeable {
      * and the socket's address do not match, an {@code IllegalArgumentException}
      * will be thrown. A socket connected to a multicast address may only
      * be used to send packets. Datagrams in the socket's {@linkplain
-     * java.net.StandardSocketOptions#SO_RCVBUF socket receive buffer}, which
+     * java.base.share.classes.java.net.StandardSocketOptions#SO_RCVBUF socket receive buffer}, which
      * have not been {@linkplain #receive(DatagramPacket) received} before invoking
      * this method, may be discarded.
      *
@@ -459,7 +459,7 @@ public class DatagramSocket implements java.io.Closeable {
      * with the given socket addresses IP address and port number, except that the
      * {@code SocketException} that may be raised is not wrapped in an
      * {@code UncheckedIOException}. Datagrams in the socket's {@linkplain
-     * java.net.StandardSocketOptions#SO_RCVBUF socket receive buffer}, which
+     * java.base.share.classes.java.net.StandardSocketOptions#SO_RCVBUF socket receive buffer}, which
      * have not been {@linkplain #receive(DatagramPacket) received} before invoking
      * this method, may be discarded.
      *
@@ -632,7 +632,7 @@ public class DatagramSocket implements java.io.Closeable {
      *             is not set or if its port is <a href="#PortRange">out of
      *             range.</a>
      *
-     * @see        java.net.DatagramPacket
+     * @see        java.base.share.classes.java.net.DatagramPacket
      * @see        SecurityManager#checkMulticast(InetAddress)
      * @see        SecurityManager#checkConnect
      * @revised 1.4
@@ -685,8 +685,8 @@ public class DatagramSocket implements java.io.Closeable {
      * @throws     java.nio.channels.IllegalBlockingModeException
      *             if this socket has an associated channel,
      *             and the channel is in non-blocking mode.
-     * @see        java.net.DatagramPacket
-     * @see        java.net.DatagramSocket
+     * @see        java.base.share.classes.java.net.DatagramPacket
+     * @see        java.base.share.classes.java.net.DatagramSocket
      * @revised 1.4
      */
     public void receive(DatagramPacket p) throws IOException {
@@ -732,7 +732,7 @@ public class DatagramSocket implements java.io.Closeable {
      * milliseconds. With this option set to a positive timeout value,
      * a call to receive() for this DatagramSocket
      * will block for only this amount of time.  If the timeout expires,
-     * a <B>java.net.SocketTimeoutException</B> is raised, though the
+     * a <B>java.base.share.classes.java.net.SocketTimeoutException</B> is raised, though the
      * DatagramSocket is still valid. A timeout of zero is interpreted
      * as an infinite timeout.
      * The option <B>must</B> be enabled prior to entering the blocking
@@ -883,7 +883,7 @@ public class DatagramSocket implements java.io.Closeable {
      * For UDP sockets it may be necessary to bind more than one
      * socket to the same socket address. This is typically for the
      * purpose of receiving multicast packets
-     * (See {@link java.net.MulticastSocket}). The
+     * (See {@link java.base.share.classes.java.net.MulticastSocket}). The
      * {@code SO_REUSEADDR} socket option allows multiple
      * sockets to be bound to the same socket address if the
      * {@code SO_REUSEADDR} socket option is enabled prior
@@ -1122,7 +1122,7 @@ public class DatagramSocket implements java.io.Closeable {
      * @throws     SocketException  if the factory is already defined.
      * @throws     SecurityException  if a security manager exists and its
      *             {@code checkSetFactory} method doesn't allow the operation.
-     * @see       java.net.DatagramSocketImplFactory#createDatagramSocketImpl()
+     * @see       java.base.share.classes.java.net.DatagramSocketImplFactory#createDatagramSocketImpl()
      * @see       SecurityManager#checkSetFactory
      * @since 1.3
      *
@@ -1173,7 +1173,7 @@ public class DatagramSocket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @throws NullPointerException if name is {@code null}
@@ -1205,7 +1205,7 @@ public class DatagramSocket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @since 9
@@ -1361,8 +1361,8 @@ public class DatagramSocket implements java.io.Closeable {
      *                 {@code MulticastSocket.class} when creating a delegate for
      *                 {@code MulticastSocket}.
      * @param <T>      The target type for which the delegate is created.
-     *                 This is either {@code java.net.DatagramSocket} or
-     *                 {@code java.net.MulticastSocket}.
+     *                 This is either {@code java.base.share.classes.java.net.DatagramSocket} or
+     *                 {@code java.base.share.classes.java.net.MulticastSocket}.
      * @return {@code null} if {@code bindaddr == NO_DELEGATE}, otherwise returns a
      * delegate for the requested {@code type}.
      * @throws SocketException if an exception occurs while creating or binding

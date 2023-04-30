@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 /**
  * Indicates that the client and server could not negotiate the

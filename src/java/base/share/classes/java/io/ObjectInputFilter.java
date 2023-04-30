@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
@@ -20,7 +20,7 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import static java.io.ObjectInputFilter.Status.*;
+import static java.base.share.classes.java.io.ObjectInputFilter.Status.*;
 import static java.lang.System.Logger.Level.TRACE;
 import static java.lang.System.Logger.Level.DEBUG;
 import static java.lang.System.Logger.Level.ERROR;
@@ -608,7 +608,7 @@ public interface ObjectInputFilter {
              */
 
             // Initialize the logger.
-            configLog = System.getLogger("java.io.serialization");
+            configLog = System.getLogger("java.base.share.classes.java.io.serialization");
 
             // Get the values of the system properties, if they are defined
             @SuppressWarnings("removal")

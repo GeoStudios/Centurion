@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.annotation;
+package java.base.share.classes.java.lang.annotation;
 
 /**
  * Indicates how long annotations with the annotated interface are to

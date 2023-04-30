@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
 
@@ -136,7 +136,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      * <tr><th scope="row" style="vertical-align:top">{@code "r"}</th>
      *     <td> Open for reading only. Invoking any of the {@code write}
      *     methods of the resulting object will cause an
-     *     {@link java.io.IOException} to be thrown.</td></tr>
+     *     {@link java.base.share.classes.java.io.IOException} to be thrown.</td></tr>
      * <tr><th scope="row" style="vertical-align:top">{@code "rw"}</th>
      *     <td> Open for reading and writing.  If the file does not already
      *     exist then an attempt will be made to create it.</td></tr>
@@ -261,7 +261,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      *
      * @return     the file descriptor object associated with this stream.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FileDescriptor
+     * @see        java.base.share.classes.java.io.FileDescriptor
      */
     public final FileDescriptor getFD() throws IOException {
         return fd;
@@ -918,7 +918,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      * @throws     EOFException  if this file reaches the end before reading
      *             four bytes.
      * @throws     IOException   if an I/O error occurs.
-     * @see        java.io.RandomAccessFile#readInt()
+     * @see        java.base.share.classes.java.io.RandomAccessFile#readInt()
      * @see        java.lang.Float#intBitsToFloat(int)
      */
     public final float readFloat() throws IOException {
@@ -942,7 +942,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      * @throws     EOFException  if this file reaches the end before reading
      *             eight bytes.
      * @throws     IOException   if an I/O error occurs.
-     * @see        java.io.RandomAccessFile#readLong()
+     * @see        java.base.share.classes.java.io.RandomAccessFile#readLong()
      * @see        java.lang.Double#longBitsToDouble(long)
      */
     public final double readDouble() throws IOException {
@@ -1022,7 +1022,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      * @throws     IOException             if an I/O error occurs.
      * @throws     UTFDataFormatException  if the bytes do not represent
      *               valid modified UTF-8 encoding of a Unicode string.
-     * @see        java.io.RandomAccessFile#readUnsignedShort()
+     * @see        java.base.share.classes.java.io.RandomAccessFile#readUnsignedShort()
      */
     public final String readUTF() throws IOException {
         return DataInputStream.readUTF(this);
@@ -1160,7 +1160,7 @@ public class RandomAccessFile implements DataOutput, DataInput, Closeable {
      *
      * @param      s   a {@code String} value to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.RandomAccessFile#writeChar(int)
+     * @see        java.base.share.classes.java.io.RandomAccessFile#writeChar(int)
      */
     public final void writeChars(String s) throws IOException {
         int clen = s.length();

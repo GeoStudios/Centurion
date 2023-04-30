@@ -6,7 +6,7 @@
  *      mailto stream opener
  */
 
-package sun.net.www.protocol.mailto;
+package java.base.share.classes.sun.net.www.protocol.mailto;
 
 import java.net.URL;
 import java.net.URLConnection;

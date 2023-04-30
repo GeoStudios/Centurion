@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 /**
  * Certificate Encoding Exception. This is thrown whenever an error

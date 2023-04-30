@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.util.*;
 
-import java.security.Provider.Service;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.Provider.Service;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 
 import sun.security.util.Debug;
 import sun.security.jca.*;
@@ -65,9 +65,9 @@ import sun.security.jca.GetInstance.Instance;
  * @see Key
  * @see PublicKey
  * @see PrivateKey
- * @see java.security.spec.KeySpec
- * @see java.security.spec.DSAPublicKeySpec
- * @see java.security.spec.X509EncodedKeySpec
+ * @see java.base.share.classes.java.security.spec.KeySpec
+ * @see java.base.share.classes.java.security.spec.DSAPublicKeySpec
+ * @see java.base.share.classes.java.security.spec.X509EncodedKeySpec
  *
  * @since 1.2
  */

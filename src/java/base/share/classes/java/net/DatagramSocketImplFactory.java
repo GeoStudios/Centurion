@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 /**
  * This interface defines a factory for datagram socket implementations. It
@@ -10,7 +10,7 @@ package java.net;
  * implementations.
  *
  * @author  Yingxian Wang
- * @see     java.net.DatagramSocket
+ * @see     java.base.share.classes.java.net.DatagramSocket
  * @since   1.3
  */
 public interface DatagramSocketImplFactory {
@@ -18,7 +18,7 @@ public interface DatagramSocketImplFactory {
      * Creates a new {@code DatagramSocketImpl} instance.
      *
      * @return  a new instance of {@code DatagramSocketImpl}.
-     * @see     java.net.DatagramSocketImpl
+     * @see     java.base.share.classes.java.net.DatagramSocketImpl
      */
     DatagramSocketImpl createDatagramSocketImpl();
 }

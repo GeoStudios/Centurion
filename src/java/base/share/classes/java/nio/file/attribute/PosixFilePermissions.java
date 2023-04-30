@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file.attribute;
+package java.base.share.classes.java.nio.file.attribute;
 
-import static java.nio.file.attribute.PosixFilePermission.*;
+import static java.base.share.classes.java.nio.file.attribute.PosixFilePermission.*;
 import java.util.*;
 
 /**

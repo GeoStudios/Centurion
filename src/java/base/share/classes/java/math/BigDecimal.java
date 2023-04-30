@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
-import static java.math.BigInteger.LONG_MASK;
+import static java.base.share.classes.java.math.BigInteger.LONG_MASK;
 import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
@@ -1967,7 +1967,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      *         rounding mode is {@code UNNECESSARY}, or {@code mc.precision}
      *         {@literal >} 0 and the result of {@code this.divideToIntegralValue(divisor)} would
      *         require a precision of more than {@code mc.precision} digits.
-     * @see    #divideToIntegralValue(java.math.BigDecimal, java.math.MathContext)
+     * @see    #divideToIntegralValue(java.base.share.classes.java.math.BigDecimal, java.base.share.classes.java.math.MathContext)
      * @since  1.5
      */
     public BigDecimal remainder(BigDecimal divisor, MathContext mc) {
@@ -1991,8 +1991,8 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      *         (the result of {@code divideToIntegralValue}) is the initial element
      *         and the remainder is the final element.
      * @throws ArithmeticException if {@code divisor==0}
-     * @see    #divideToIntegralValue(java.math.BigDecimal, java.math.MathContext)
-     * @see    #remainder(java.math.BigDecimal, java.math.MathContext)
+     * @see    #divideToIntegralValue(java.base.share.classes.java.math.BigDecimal, java.base.share.classes.java.math.MathContext)
+     * @see    #remainder(java.base.share.classes.java.math.BigDecimal, java.base.share.classes.java.math.MathContext)
      * @since  1.5
      */
     public BigDecimal[] divideAndRemainder(BigDecimal divisor) {
@@ -2026,8 +2026,8 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      *         rounding mode is {@code UNNECESSARY}, or {@code mc.precision}
      *         {@literal >} 0 and the result of {@code this.divideToIntegralValue(divisor)} would
      *         require a precision of more than {@code mc.precision} digits.
-     * @see    #divideToIntegralValue(java.math.BigDecimal, java.math.MathContext)
-     * @see    #remainder(java.math.BigDecimal, java.math.MathContext)
+     * @see    #divideToIntegralValue(java.base.share.classes.java.math.BigDecimal, java.base.share.classes.java.math.MathContext)
+     * @see    #remainder(java.base.share.classes.java.math.BigDecimal, java.base.share.classes.java.math.MathContext)
      * @since  1.5
      */
     public BigDecimal[] divideAndRemainder(BigDecimal divisor, MathContext mc) {
@@ -3180,7 +3180,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      * @return {@code true} if and only if the specified {@code Object} is a
      *         {@code BigDecimal} whose value and scale are equal to this
      *         {@code BigDecimal}'s.
-     * @see    #compareTo(java.math.BigDecimal)
+     * @see    #compareTo(java.base.share.classes.java.math.BigDecimal)
      * @see    #hashCode
      */
     @Override
@@ -3212,7 +3212,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      *         {@code BigDecimal} and {@code val}.  If they are equal,
      *         as defined by the {@link #compareTo(BigDecimal) compareTo}
      *         method, {@code this} is returned.
-     * @see    #compareTo(java.math.BigDecimal)
+     * @see    #compareTo(java.base.share.classes.java.math.BigDecimal)
      */
     public BigDecimal min(BigDecimal val) {
         return (compareTo(val) <= 0 ? this : val);
@@ -3226,7 +3226,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      *         {@code BigDecimal} and {@code val}.  If they are equal,
      *         as defined by the {@link #compareTo(BigDecimal) compareTo}
      *         method, {@code this} is returned.
-     * @see    #compareTo(java.math.BigDecimal)
+     * @see    #compareTo(java.base.share.classes.java.math.BigDecimal)
      */
     public BigDecimal max(BigDecimal val) {
         return (compareTo(val) >= 0 ? this : val);

@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.util.*;
-import java.text.AttributedCharacterIterator.Attribute;
+import java.base.share.classes.java.text.AttributedCharacterIterator.Attribute;
 
 /**
  * An AttributedString holds text and related attribute information. It
@@ -172,7 +172,7 @@ public class AttributedString {
      * @throws    NullPointerException if {@code text} is null.
      * @throws    IllegalArgumentException if the subrange given by
      * beginIndex and endIndex is out of the text range.
-     * @see java.text.Annotation
+     * @see java.base.share.classes.java.text.Annotation
      */
     public AttributedString(AttributedCharacterIterator text,
                             int beginIndex,
@@ -200,7 +200,7 @@ public class AttributedString {
      * @throws    NullPointerException if {@code text} is null.
      * @throws    IllegalArgumentException if the subrange given by
      * beginIndex and endIndex is out of the text range.
-     * @see java.text.Annotation
+     * @see java.base.share.classes.java.text.Annotation
      */
     public AttributedString(AttributedCharacterIterator text,
                             int beginIndex,

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
 import java.io.PrintWriter;
 import jdk.internal.org.objectweb.asm.AnnotationVisitor;

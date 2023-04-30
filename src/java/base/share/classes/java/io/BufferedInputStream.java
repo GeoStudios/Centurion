@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -87,7 +87,7 @@ public class BufferedInputStream extends FilterInputStream {
      * operation will require more bytes to be
      * read from the contained  input stream.
      *
-     * @see     java.io.BufferedInputStream#buf
+     * @see     java.base.share.classes.java.io.BufferedInputStream#buf
      */
     protected int pos;
 
@@ -115,8 +115,8 @@ public class BufferedInputStream extends FilterInputStream {
      * between {@code pos} and {@code markpos}
      * exceeds {@code marklimit}.
      *
-     * @see     java.io.BufferedInputStream#mark(int)
-     * @see     java.io.BufferedInputStream#pos
+     * @see     java.base.share.classes.java.io.BufferedInputStream#mark(int)
+     * @see     java.base.share.classes.java.io.BufferedInputStream#pos
      */
     protected int markpos = -1;
 
@@ -129,8 +129,8 @@ public class BufferedInputStream extends FilterInputStream {
      * then the  mark may be dropped by setting
      * {@code markpos} to {@code -1}.
      *
-     * @see     java.io.BufferedInputStream#mark(int)
-     * @see     java.io.BufferedInputStream#reset()
+     * @see     java.base.share.classes.java.io.BufferedInputStream#mark(int)
+     * @see     java.base.share.classes.java.io.BufferedInputStream#reset()
      */
     protected int marklimit;
 
@@ -250,7 +250,7 @@ public class BufferedInputStream extends FilterInputStream {
      * @throws     IOException  if this input stream has been closed by
      *                          invoking its {@link #close()} method,
      *                          or an I/O error occurs.
-     * @see        java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
      */
     public int read() throws IOException {
         if (lock != null) {
@@ -433,7 +433,7 @@ public class BufferedInputStream extends FilterInputStream {
      * <p>
      * This method returns the sum of the number of bytes remaining to be read in
      * the buffer ({@code count - pos}) and the result of calling the
-     * {@link java.io.FilterInputStream#in in}{@code .available()}.
+     * {@link java.base.share.classes.java.io.FilterInputStream#in in}{@code .available()}.
      *
      * @return     an estimate of the number of bytes that can be read (or skipped
      *             over) from this input stream without blocking.
@@ -470,7 +470,7 @@ public class BufferedInputStream extends FilterInputStream {
      *
      * @param   readlimit   the maximum limit of bytes that can be read before
      *                      the mark position becomes invalid.
-     * @see     java.io.BufferedInputStream#reset()
+     * @see     java.base.share.classes.java.io.BufferedInputStream#reset()
      */
     public void mark(int readlimit) {
         if (lock != null) {
@@ -506,7 +506,7 @@ public class BufferedInputStream extends FilterInputStream {
      *                  if the mark has been invalidated, or the stream
      *                  has been closed by invoking its {@link #close()}
      *                  method, or an I/O error occurs.
-     * @see        java.io.BufferedInputStream#mark(int)
+     * @see        java.base.share.classes.java.io.BufferedInputStream#mark(int)
      */
     public void reset() throws IOException {
         if (lock != null) {
@@ -538,8 +538,8 @@ public class BufferedInputStream extends FilterInputStream {
      *
      * @return  a {@code boolean} indicating if this stream type supports
      *          the {@code mark} and {@code reset} methods.
-     * @see     java.io.InputStream#mark(int)
-     * @see     java.io.InputStream#reset()
+     * @see     java.base.share.classes.java.io.InputStream#mark(int)
+     * @see     java.base.share.classes.java.io.InputStream#reset()
      */
     public boolean markSupported() {
         return true;

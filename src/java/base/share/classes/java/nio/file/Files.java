@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -23,20 +23,20 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.attribute.BasicFileAttributeView;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.nio.file.attribute.DosFileAttributes;   // javadoc
-import java.nio.file.attribute.FileAttribute;
-import java.nio.file.attribute.FileAttributeView;
-import java.nio.file.attribute.FileOwnerAttributeView;
-import java.nio.file.attribute.FileStoreAttributeView;
-import java.nio.file.attribute.FileTime;
-import java.nio.file.attribute.PosixFileAttributeView;
-import java.nio.file.attribute.PosixFileAttributes;
-import java.nio.file.attribute.PosixFilePermission;
-import java.nio.file.attribute.UserPrincipal;
-import java.nio.file.spi.FileSystemProvider;
-import java.nio.file.spi.FileTypeDetector;
+import java.base.share.classes.java.nio.file.attribute.BasicFileAttributeView;
+import java.base.share.classes.java.nio.file.attribute.BasicFileAttributes;
+import java.base.share.classes.java.nio.file.attribute.DosFileAttributes;   // javadoc
+import java.base.share.classes.java.nio.file.attribute.FileAttribute;
+import java.base.share.classes.java.nio.file.attribute.FileAttributeView;
+import java.base.share.classes.java.nio.file.attribute.FileOwnerAttributeView;
+import java.base.share.classes.java.nio.file.attribute.FileStoreAttributeView;
+import java.base.share.classes.java.nio.file.attribute.FileTime;
+import java.base.share.classes.java.nio.file.attribute.PosixFileAttributeView;
+import java.base.share.classes.java.nio.file.attribute.PosixFileAttributes;
+import java.base.share.classes.java.nio.file.attribute.PosixFilePermission;
+import java.base.share.classes.java.nio.file.attribute.UserPrincipal;
+import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
+import java.base.share.classes.java.nio.file.spi.FileTypeDetector;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.ArrayList;
@@ -1511,7 +1511,7 @@ public final class Files {
      *          installed, the {@link SecurityManager#checkRead(String) checkRead}
      *          method is invoked to check read access to both files.
      *
-     * @see java.nio.file.attribute.BasicFileAttributes#fileKey
+     * @see java.base.share.classes.java.nio.file.attribute.BasicFileAttributes#fileKey
      */
     public static boolean isSameFile(Path path, Path path2) throws IOException {
         return provider(path).isSameFile(path, path2);
@@ -1672,7 +1672,7 @@ public final class Files {
      * loader is used. File type detectors are typically installed
      * by placing them in a JAR file on the application class path,
      * the JAR file contains a provider-configuration file
-     * named {@code java.nio.file.spi.FileTypeDetector} in the resource directory
+     * named {@code java.base.share.classes.java.nio.file.spi.FileTypeDetector} in the resource directory
      * {@code META-INF/services}, and the file lists one or more fully-qualified
      * names of concrete subclass of {@code FileTypeDetector } that have a zero
      * argument constructor. If the process of locating or instantiating the
@@ -2215,7 +2215,7 @@ public final class Files {
      *          method denies write access to the file.
      *
      * @see FileSystem#getUserPrincipalLookupService
-     * @see java.nio.file.attribute.UserPrincipalLookupService
+     * @see java.base.share.classes.java.nio.file.attribute.UserPrincipalLookupService
      */
     public static Path setOwner(Path path, UserPrincipal owner)
         throws IOException
@@ -2662,7 +2662,7 @@ public final class Files {
      * and the error or exception is propagated to the caller of this method.
      *
      * <p> For each file encountered this method attempts to read its {@link
-     * java.nio.file.attribute.BasicFileAttributes}. If the file is not a
+     * java.base.share.classes.java.nio.file.attribute.BasicFileAttributes}. If the file is not a
      * directory then the {@link FileVisitor#visitFile visitFile} method is
      * invoked with the file attributes. If the file attributes cannot be read,
      * due to an I/O exception, then the {@link FileVisitor#visitFileFailed
@@ -2695,7 +2695,7 @@ public final class Files {
      * track of directories visited so that cycles can be detected. A cycle
      * arises when there is an entry in a directory that is an ancestor of the
      * directory. Cycle detection is done by recording the {@link
-     * java.nio.file.attribute.BasicFileAttributes#fileKey file-key} of directories,
+     * java.base.share.classes.java.nio.file.attribute.BasicFileAttributes#fileKey file-key} of directories,
      * or if file keys are not available, by invoking the {@link #isSameFile
      * isSameFile} method to test if a directory is the same file as an
      * ancestor. When a cycle is detected it is treated as an I/O error, and the
@@ -3816,7 +3816,7 @@ public final class Files {
      * track of directories visited so that cycles can be detected. A cycle
      * arises when there is an entry in a directory that is an ancestor of the
      * directory. Cycle detection is done by recording the {@link
-     * java.nio.file.attribute.BasicFileAttributes#fileKey file-key} of directories,
+     * java.base.share.classes.java.nio.file.attribute.BasicFileAttributes#fileKey file-key} of directories,
      * or if file keys are not available, by invoking the {@link #isSameFile
      * isSameFile} method to test if a directory is the same file as an
      * ancestor. When a cycle is detected it is treated as an I/O error with

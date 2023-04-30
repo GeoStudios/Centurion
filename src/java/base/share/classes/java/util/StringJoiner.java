@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.SharedSecrets;
@@ -30,8 +30,8 @@ import jdk.internal.access.SharedSecrets;
  * }</pre>
  * <p>
  * A {@code StringJoiner} may be employed to create formatted output from a
- * {@link java.util.stream.Stream} using
- * {@link java.util.stream.Collectors#joining(CharSequence)}. For example:
+ * {@link java.base.share.classes.java.util.stream.Stream} using
+ * {@link java.base.share.classes.java.util.stream.Collectors#joining(CharSequence)}. For example:
  *
  * <pre> {@code
  * List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
@@ -40,8 +40,8 @@ import jdk.internal.access.SharedSecrets;
  *     .collect(Collectors.joining(", "));
  * }</pre>
  *
- * @see java.util.stream.Collectors#joining(CharSequence)
- * @see java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence)
+ * @see java.base.share.classes.java.util.stream.Collectors#joining(CharSequence)
+ * @see java.base.share.classes.java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence)
  * @since  1.8
 */
 public final class StringJoiner {

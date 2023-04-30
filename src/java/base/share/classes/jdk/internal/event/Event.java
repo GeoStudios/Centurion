@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.event;
+package java.base.share.classes.jdk.internal.event;
 
 /**
  * Base class for events, to be subclassed in order to define events and their

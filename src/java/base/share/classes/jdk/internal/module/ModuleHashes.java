@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -199,7 +199,7 @@ public final class ModuleHashes {
     }
 
     /**
-     * This is used by jdk.internal.module.SystemModules class
+     * This is used by java.base.share.classes.jdk.internal.module.SystemModules class
      * generated at link time.
      */
     public static class Builder {

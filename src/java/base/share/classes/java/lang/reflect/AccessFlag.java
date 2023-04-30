@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import java.util.Collections;
 import java.util.Objects;
@@ -62,7 +62,7 @@ import static java.util.Map.entry;
  * be recognized in the {@linkplain Runtime#version() current
  * version}.
  *
- * @see java.lang.reflect.Modifier
+ * @see java.base.share.classes.java.lang.reflect.Modifier
  * @see java.lang.module.ModuleDescriptor.Modifier
  * @see java.lang.module.ModuleDescriptor.Requires.Modifier
  * @see java.lang.module.ModuleDescriptor.Exports.Modifier

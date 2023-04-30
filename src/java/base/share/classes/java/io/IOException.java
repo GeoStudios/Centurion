@@ -2,21 +2,21 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Signals that an I/O exception of some sort has occurred. This
  * class is the general class of exceptions produced by failed or
  * interrupted I/O operations.
  *
- * @see     java.io.InputStream
- * @see     java.io.OutputStream
+ * @see     java.base.share.classes.java.io.InputStream
+ * @see     java.base.share.classes.java.io.OutputStream
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
 public class IOException extends Exception {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     static final long serialVersionUID = 7818375828146090155L;
 
     /**

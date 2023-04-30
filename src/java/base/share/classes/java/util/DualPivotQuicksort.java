@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.concurrent.CountedCompleter;
-import java.util.concurrent.RecursiveTask;
+import java.base.share.classes.java.util.concurrent.CountedCompleter;
+import java.base.share.classes.java.util.concurrent.RecursiveTask;
 
 /**
  * This class implements powerful and fully optimized versions, both

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
@@ -37,9 +37,9 @@ import sun.nio.ch.FileChannelImpl;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.File
- * @see     java.io.FileDescriptor
- * @see     java.io.FileOutputStream
+ * @see     java.base.share.classes.java.io.File
+ * @see     java.base.share.classes.java.io.FileDescriptor
+ * @see     java.base.share.classes.java.io.FileOutputStream
  * @see     java.nio.file.Files#newInputStream
  */
 public class FileInputStream extends InputStream
@@ -116,7 +116,7 @@ public class FileInputStream extends InputStream
      *             reading.
      * @throws     SecurityException      if a security manager exists and its
      *             {@code checkRead} method denies read access to the file.
-     * @see        java.io.File#getPath()
+     * @see        java.base.share.classes.java.io.File#getPath()
      * @see        java.lang.SecurityManager#checkRead(java.lang.String)
      */
     public FileInputStream(File file) throws FileNotFoundException {
@@ -153,7 +153,7 @@ public class FileInputStream extends InputStream
      * is thrown.
      * <p>
      * This constructor does not throw an exception if {@code fdObj}
-     * is {@link java.io.FileDescriptor#valid() invalid}.
+     * is {@link java.base.share.classes.java.io.FileDescriptor#valid() invalid}.
      * However, if the methods are invoked on the resulting stream to attempt
      * I/O on the stream, an {@code IOException} is thrown.
      *
@@ -161,7 +161,7 @@ public class FileInputStream extends InputStream
      * @throws     SecurityException      if a security manager exists and its
      *             {@code checkRead} method denies read access to the
      *             file descriptor.
-     * @see        SecurityManager#checkRead(java.io.FileDescriptor)
+     * @see        SecurityManager#checkRead(java.base.share.classes.java.io.FileDescriptor)
      */
     public FileInputStream(FileDescriptor fdObj) {
         @SuppressWarnings("removal")
@@ -517,7 +517,7 @@ public class FileInputStream extends InputStream
      *
      * @return     the file descriptor object associated with this stream.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FileDescriptor
+     * @see        java.base.share.classes.java.io.FileDescriptor
      */
     public final FileDescriptor getFD() throws IOException {
         if (fd != null) {

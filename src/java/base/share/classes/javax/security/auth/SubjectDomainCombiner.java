@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
 
 import java.security.AccessController;
 import java.security.Principal;

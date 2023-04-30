@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -20,7 +20,7 @@ import jdk.internal.misc.VM;
 
 import static java.lang.invoke.MethodType.genericMethodType;
 import static java.lang.invoke.MethodType.methodType;
-import static jdk.internal.reflect.MethodHandleAccessorFactory.LazyStaticHolder.*;
+import static java.base.share.classes.jdk.internal.reflect.MethodHandleAccessorFactory.LazyStaticHolder.*;
 
 final class MethodHandleAccessorFactory {
     /**

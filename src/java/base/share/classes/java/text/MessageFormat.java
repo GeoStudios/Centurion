@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.InvalidObjectException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.text.DecimalFormat;
+import java.base.share.classes.java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -821,7 +821,7 @@ public class MessageFormat extends Format {
      * Creates a MessageFormat with the given pattern and uses it
      * to format the given arguments. This is equivalent to
      * <blockquote>
-     *     <code>(new {@link #MessageFormat(String) MessageFormat}(pattern)).{@link #format(java.lang.Object[], java.lang.StringBuffer, java.text.FieldPosition) format}(arguments, new StringBuffer(), null).toString()</code>
+     *     <code>(new {@link #MessageFormat(String) MessageFormat}(pattern)).{@link #format(java.lang.Object[], java.lang.StringBuffer, java.base.share.classes.java.text.FieldPosition) format}(arguments, new StringBuffer(), null).toString()</code>
      * </blockquote>
      *
      * @param pattern   the pattern string
@@ -845,7 +845,7 @@ public class MessageFormat extends Format {
      * provided {@code StringBuffer}.
      * This is equivalent to
      * <blockquote>
-     *     <code>{@link #format(java.lang.Object[], java.lang.StringBuffer, java.text.FieldPosition) format}((Object[]) arguments, result, pos)</code>
+     *     <code>{@link #format(java.lang.Object[], java.lang.StringBuffer, java.base.share.classes.java.text.FieldPosition) format}((Object[]) arguments, result, pos)</code>
      * </blockquote>
      *
      * @param arguments an array of objects to be formatted and substituted.
@@ -874,7 +874,7 @@ public class MessageFormat extends Format {
      * The text of the returned {@code AttributedCharacterIterator} is
      * the same that would be returned by
      * <blockquote>
-     *     <code>{@link #format(java.lang.Object[], java.lang.StringBuffer, java.text.FieldPosition) format}(arguments, new StringBuffer(), null).toString()</code>
+     *     <code>{@link #format(java.lang.Object[], java.lang.StringBuffer, java.base.share.classes.java.text.FieldPosition) format}(arguments, new StringBuffer(), null).toString()</code>
      * </blockquote>
      * <p>
      * In addition, the {@code AttributedCharacterIterator} contains at

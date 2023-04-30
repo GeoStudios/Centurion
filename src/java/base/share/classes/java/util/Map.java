@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
 import java.io.Serializable;
 
 /**
@@ -117,7 +117,7 @@ import java.io.Serializable;
  * about the identity of the returned instances. Factories are free to
  * create new instances or reuse existing ones.
  * <li>They are serialized as specified on the
- * <a href="{@docRoot}/serialized-form.html#java.util.CollSer">Serialized Form</a>
+ * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.util.CollSer">Serialized Form</a>
  * page.
  * </ul>
  *
@@ -1010,7 +1010,7 @@ public interface Map<K, V> {
      * or atomicity properties of this method. Any implementation providing
      * atomicity guarantees must override this method and document its
      * concurrency properties. In particular, all implementations of
-     * subinterface {@link java.util.concurrent.ConcurrentMap} must document
+     * subinterface {@link java.base.share.classes.java.util.concurrent.ConcurrentMap} must document
      * whether the mapping function is applied once atomically only if the value
      * is not present.
      *
@@ -1088,7 +1088,7 @@ public interface Map<K, V> {
      * or atomicity properties of this method. Any implementation providing
      * atomicity guarantees must override this method and document its
      * concurrency properties. In particular, all implementations of
-     * subinterface {@link java.util.concurrent.ConcurrentMap} must document
+     * subinterface {@link java.base.share.classes.java.util.concurrent.ConcurrentMap} must document
      * whether the remapping function is applied once atomically only if the
      * value is not present.
      *
@@ -1174,7 +1174,7 @@ public interface Map<K, V> {
      * or atomicity properties of this method. Any implementation providing
      * atomicity guarantees must override this method and document its
      * concurrency properties. In particular, all implementations of
-     * subinterface {@link java.util.concurrent.ConcurrentMap} must document
+     * subinterface {@link java.base.share.classes.java.util.concurrent.ConcurrentMap} must document
      * whether the remapping function is applied once atomically only if the
      * value is not present.
      *
@@ -1267,7 +1267,7 @@ public interface Map<K, V> {
      * or atomicity properties of this method. Any implementation providing
      * atomicity guarantees must override this method and document its
      * concurrency properties. In particular, all implementations of
-     * subinterface {@link java.util.concurrent.ConcurrentMap} must document
+     * subinterface {@link java.base.share.classes.java.util.concurrent.ConcurrentMap} must document
      * whether the remapping function is applied once atomically only if the
      * value is not present.
      *
@@ -1612,7 +1612,7 @@ public interface Map<K, V> {
      * For example,
      *
      * <pre>{@code
-     *     import static java.util.Map.entry;
+     *     import static java.base.share.classes.java.util.Map.entry;
      *
      *     Map<Integer,String> map = Map.ofEntries(
      *         entry(1, "a"),

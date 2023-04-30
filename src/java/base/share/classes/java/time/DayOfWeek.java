@@ -2,23 +2,23 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoUnit.DAYS;
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;
 
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.format.TextStyle;
-import java.time.temporal.ChronoField;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
-import java.time.temporal.WeekFields;
+import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
+import java.base.share.classes.java.time.format.TextStyle;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.temporal.WeekFields;
 import java.util.Locale;
 
 /**
@@ -144,7 +144,7 @@ public enum DayOfWeek implements TemporalAccessor, TemporalAdjuster {
      * Gets the day-of-week {@code int} value.
      * <p>
      * The values are numbered following the ISO-8601 standard, from 1 (Monday) to 7 (Sunday).
-     * See {@link java.time.temporal.WeekFields#dayOfWeek()} for localized week-numbering.
+     * See {@link java.base.share.classes.java.time.temporal.WeekFields#dayOfWeek()} for localized week-numbering.
      *
      * @return the day-of-week, from 1 (Monday) to 7 (Sunday)
      */
@@ -362,7 +362,7 @@ public enum DayOfWeek implements TemporalAccessor, TemporalAdjuster {
      * The adjustment is equivalent to using {@link Temporal#with(TemporalField, long)}
      * passing {@link ChronoField#DAY_OF_WEEK} as the field.
      * Note that this adjusts forwards or backwards within a Monday to Sunday week.
-     * See {@link java.time.temporal.WeekFields#dayOfWeek()} for localized week start days.
+     * See {@link java.base.share.classes.java.time.temporal.WeekFields#dayOfWeek()} for localized week start days.
      * See {@code TemporalAdjuster} for other adjusters with more control,
      * such as {@code next(MONDAY)}.
      * <p>

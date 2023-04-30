@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.lang.ref.Cleaner.Cleanable;
 import java.nio.ByteBuffer;
@@ -13,14 +13,14 @@ import jdk.internal.ref.CleanerFactory;
 import jdk.internal.util.Preconditions;
 import sun.nio.ch.DirectBuffer;
 
-import static java.util.zip.ZipUtils.NIO_ACCESS;
+import static java.base.share.classes.java.util.zip.ZipUtils.NIO_ACCESS;
 
 /**
  * This class provides support for general purpose compression using the
  * popular ZLIB compression library. The ZLIB compression library was
  * initially developed as part of the PNG graphics standard and is not
  * protected by patents. It is fully described in the specifications at
- * the <a href="package-summary.html#package-description">java.util.zip
+ * the <a href="package-summary.html#package-description">java.base.share.classes.java.util.zip
  * package description</a>.
  * <p>
  * This class deflates sequences of bytes into ZLIB compressed data format.
@@ -58,7 +58,7 @@ import static java.util.zip.ZipUtils.NIO_ACCESS;
  *     String outputString = new String(result, 0, resultLength, "UTF-8");
  * } catch (java.io.UnsupportedEncodingException ex) {
  *     // handle
- * } catch (java.util.zip.DataFormatException ex) {
+ * } catch (java.base.share.classes.java.util.zip.DataFormatException ex) {
  *     // handle
  * }
  * </pre></blockquote>

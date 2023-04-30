@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.InvalidObjectException;
 import java.io.IOException;
@@ -282,22 +282,22 @@ implements Serializable
         if (unresolvedPerms == null)
             return null;
 
-        java.security.cert.Certificate[] certs = null;
+        java.base.share.classes.java.security.cert.Certificate[] certs = null;
 
         Object[] signers = p.getClass().getSigners();
 
         int n = 0;
         if (signers != null) {
             for (int j=0; j < signers.length; j++) {
-                if (signers[j] instanceof java.security.cert.Certificate) {
+                if (signers[j] instanceof java.base.share.classes.java.security.cert.Certificate) {
                     n++;
                 }
             }
-            certs = new java.security.cert.Certificate[n];
+            certs = new java.base.share.classes.java.security.cert.Certificate[n];
             n = 0;
             for (int j=0; j < signers.length; j++) {
-                if (signers[j] instanceof java.security.cert.Certificate) {
-                    certs[n++] = (java.security.cert.Certificate)signers[j];
+                if (signers[j] instanceof java.base.share.classes.java.security.cert.Certificate) {
+                    certs[n++] = (java.base.share.classes.java.security.cert.Certificate)signers[j];
                 }
             }
         }
@@ -332,7 +332,7 @@ implements Serializable
      * @serialField perms java.util.Hashtable
      *     A table of the {@code Permission} classes and
      *     {@code PermissionCollection} objects.
-     * @serialField allPermission java.security.PermissionCollection
+     * @serialField allPermission java.base.share.classes.java.security.PermissionCollection
      */
     @java.io.Serial
     private static final ObjectStreamField[] serialPersistentFields = {

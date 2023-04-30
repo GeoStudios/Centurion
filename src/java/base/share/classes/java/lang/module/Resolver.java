@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
 import java.io.PrintStream;
-import java.lang.module.ModuleDescriptor.Provides;
-import java.lang.module.ModuleDescriptor.Requires.Modifier;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Provides;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Requires.Modifier;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;

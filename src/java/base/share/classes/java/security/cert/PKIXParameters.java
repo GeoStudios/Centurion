@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.KeyStore;
@@ -91,7 +91,7 @@ public class PKIXParameters implements CertPathParameters {
      * @throws NullPointerException if the specified {@code Set} is
      * {@code null}
      * @throws ClassCastException if any of the elements in the {@code Set}
-     * are not of type {@code java.security.cert.TrustAnchor}
+     * are not of type {@code java.base.share.classes.java.security.cert.TrustAnchor}
      */
     public PKIXParameters(Set<TrustAnchor> trustAnchors)
         throws InvalidAlgorithmParameterException
@@ -164,7 +164,7 @@ public class PKIXParameters implements CertPathParameters {
      * @throws NullPointerException if the specified {@code Set} is
      * {@code null}
      * @throws ClassCastException if any of the elements in the set
-     * are not of type {@code java.security.cert.TrustAnchor}
+     * are not of type {@code java.base.share.classes.java.security.cert.TrustAnchor}
      *
      * @see #getTrustAnchors
      */
@@ -182,7 +182,7 @@ public class PKIXParameters implements CertPathParameters {
         for (Object trustAnchor : trustAnchors) {
             if (!(trustAnchor instanceof TrustAnchor)) {
                 throw new ClassCastException("all elements of set must be "
-                    + "of type java.security.cert.TrustAnchor");
+                    + "of type java.base.share.classes.java.security.cert.TrustAnchor");
             }
         }
         this.unmodTrustAnchors = Collections.unmodifiableSet
@@ -252,7 +252,7 @@ public class PKIXParameters implements CertPathParameters {
      * @param stores a {@code List} of {@code CertStore}s (or
      * {@code null})
      * @throws ClassCastException if any of the elements in the list are
-     * not of type {@code java.security.cert.CertStore}
+     * not of type {@code java.base.share.classes.java.security.cert.CertStore}
      *
      * @see #getCertStores
      */
@@ -263,7 +263,7 @@ public class PKIXParameters implements CertPathParameters {
             for (Object store : stores) {
                 if (!(store instanceof CertStore)) {
                     throw new ClassCastException("all elements of list must be "
-                        + "of type java.security.cert.CertStore");
+                        + "of type java.base.share.classes.java.security.cert.CertStore");
                 }
             }
             this.certStores = new ArrayList<>(stores);
@@ -525,7 +525,7 @@ public class PKIXParameters implements CertPathParameters {
      * May be {@code null}, in which case no additional checkers will be
      * used.
      * @throws ClassCastException if any of the elements in the list
-     * are not of type {@code java.security.cert.PKIXCertPathChecker}
+     * are not of type {@code java.base.share.classes.java.security.cert.PKIXCertPathChecker}
      * @see #getCertPathCheckers
      */
     public void setCertPathCheckers(List<PKIXCertPathChecker> checkers) {

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -234,7 +234,7 @@ public final class LambdaMetafactory {
     private static final MethodType[] EMPTY_MT_ARRAY = new MethodType[0];
 
     // LambdaMetafactory bootstrap methods are startup sensitive, and may be
-    // special cased in java.lang.invoke.BootstrapMethodInvoker to ensure
+    // special cased in java.base.share.classes.java.lang.invoke.BootstrapMethodInvoker to ensure
     // methods are invoked with exact type information to avoid generating
     // code for runtime checks. Take care any changes or additions here are
     // reflected there as appropriate.
@@ -329,7 +329,7 @@ public final class LambdaMetafactory {
      * reference expression</em> features of the Java Programming Language.
      *
      * <p>This is the general, more flexible metafactory; a streamlined version
-     * is provided by {@link #metafactory(java.lang.invoke.MethodHandles.Lookup,
+     * is provided by {@link #metafactory(java.base.share.classes.java.lang.invoke.MethodHandles.Lookup,
      * String, MethodType, MethodType, MethodHandle, MethodType)}.
      * A general description of the behavior of this method is provided
      * {@link LambdaMetafactory above}.

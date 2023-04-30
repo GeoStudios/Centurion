@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import sun.net.www.protocol.http.AuthenticatorKeys;
 
@@ -28,8 +28,8 @@ import sun.net.www.protocol.http.AuthenticatorKeys;
  * All methods that request authentication have a default implementation
  * that fails.
  *
- * @see java.net.Authenticator#setDefault(java.net.Authenticator)
- * @see java.net.Authenticator#getPasswordAuthentication()
+ * @see java.base.share.classes.java.net.Authenticator#setDefault(java.base.share.classes.java.net.Authenticator)
+ * @see java.base.share.classes.java.net.Authenticator#getPasswordAuthentication()
  *
  * @author  Bill Foote
  * @since   1.2
@@ -104,7 +104,7 @@ class Authenticator {
      *        setting the default authenticator.
      *
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      */
     public static synchronized void setDefault(Authenticator a) {
         @SuppressWarnings("removal")
@@ -135,7 +135,7 @@ class Authenticator {
      *        requesting password authentication.
      * @since 9
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      */
     public static Authenticator getDefault() {
         @SuppressWarnings("removal")
@@ -161,7 +161,7 @@ class Authenticator {
      *             or null if not known.
      * @param port the port for the requested connection
      * @param protocol The protocol that's requesting the connection
-     *          ({@link java.net.Authenticator#getRequestingProtocol()})
+     *          ({@link java.base.share.classes.java.net.Authenticator#getRequestingProtocol()})
      * @param prompt A prompt string for the user
      * @param scheme The authentication scheme
      *
@@ -173,7 +173,7 @@ class Authenticator {
      *        the password authentication request.
      *
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      */
     public static PasswordAuthentication requestPasswordAuthentication(
                                             InetAddress addr,
@@ -222,7 +222,7 @@ class Authenticator {
      *             or null if not known.
      * @param port the port for the requested connection.
      * @param protocol The protocol that's requesting the connection
-     *          ({@link java.net.Authenticator#getRequestingProtocol()})
+     *          ({@link java.base.share.classes.java.net.Authenticator#getRequestingProtocol()})
      * @param prompt A prompt string for the user which identifies the authentication realm.
      * @param scheme The authentication scheme
      *
@@ -234,7 +234,7 @@ class Authenticator {
      *        the password authentication request.
      *
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      * @since 1.4
      */
     public static PasswordAuthentication requestPasswordAuthentication(
@@ -284,7 +284,7 @@ class Authenticator {
      *             or null if not known.
      * @param port the port for the requested connection
      * @param protocol The protocol that's requesting the connection
-     *          ({@link java.net.Authenticator#getRequestingProtocol()})
+     *          ({@link java.base.share.classes.java.net.Authenticator#getRequestingProtocol()})
      * @param prompt A prompt string for the user
      * @param scheme The authentication scheme
      * @param url The requesting URL that caused the authentication
@@ -299,7 +299,7 @@ class Authenticator {
      *        the password authentication request.
      *
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      *
      * @since 1.5
      */
@@ -343,7 +343,7 @@ class Authenticator {
     /**
      * Ask the given {@code authenticator} for a password. If the given
      * {@code authenticator} is null, the authenticator, if any, that has been
-     * registered with the system using {@link #setDefault(java.net.Authenticator)
+     * registered with the system using {@link #setDefault(java.base.share.classes.java.net.Authenticator)
      * setDefault} is used.
      * <p>
      * First, if there is a security manager, its {@code checkPermission}
@@ -357,7 +357,7 @@ class Authenticator {
      *             or null if not known.
      * @param port the port for the requested connection
      * @param protocol The protocol that's requesting the connection
-     *          ({@link java.net.Authenticator#getRequestingProtocol()})
+     *          ({@link java.base.share.classes.java.net.Authenticator#getRequestingProtocol()})
      * @param prompt A prompt string for the user
      * @param scheme The authentication scheme
      * @param url The requesting URL that caused the authentication
@@ -372,7 +372,7 @@ class Authenticator {
      *        the password authentication request.
      *
      * @see SecurityManager#checkPermission
-     * @see java.net.NetPermission
+     * @see java.base.share.classes.java.net.NetPermission
      *
      * @since 9
      */
@@ -418,7 +418,7 @@ class Authenticator {
      *             or null if not known.
      * @param port the port for the requested connection
      * @param protocol The protocol that's requesting the connection
-     *          ({@link java.net.Authenticator#getRequestingProtocol()})
+     *          ({@link java.base.share.classes.java.net.Authenticator#getRequestingProtocol()})
      * @param prompt A prompt string for the user
      * @param scheme The authentication scheme
      * @param url The requesting URL that caused the authentication
@@ -494,7 +494,7 @@ class Authenticator {
      * @return the protocol, optionally followed by "/version", where
      *          version is a version number.
      *
-     * @see java.net.URL#getProtocol()
+     * @see java.base.share.classes.java.net.URL#getProtocol()
      */
     protected final String getRequestingProtocol() {
         return requestingProtocol;

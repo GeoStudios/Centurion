@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.text.DateFormat;
 import java.io.IOException;
@@ -100,8 +100,8 @@ import sun.util.calendar.ZoneInfo;
  * @author  Arthur van Hoff
  * @author  Alan Liu
  * @see     java.text.DateFormat
- * @see     java.util.Calendar
- * @see     java.util.TimeZone
+ * @see     java.base.share.classes.java.util.Calendar
+ * @see     java.base.share.classes.java.util.TimeZone
  * @since   1.0
  */
 public class Date
@@ -124,7 +124,7 @@ public class Date
     // Initialized just before the value is used. See parse().
     private static int defaultCenturyStart;
 
-    /* use serialVersionUID from modified java.util.Date for
+    /* use serialVersionUID from modified java.base.share.classes.java.util.Date for
      * interoperability with JDK1.1. The Date was modified to write
      * and read only the UTC time.
      */
@@ -164,7 +164,7 @@ public class Date
      * @param   year    the year minus 1900.
      * @param   month   the month between 0-11.
      * @param   date    the day of the month between 1-31.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(year + 1900, month, date)}
      * or {@code GregorianCalendar(year + 1900, month, date)}.
@@ -186,7 +186,7 @@ public class Date
      * @param   date    the day of the month between 1-31.
      * @param   hrs     the hours between 0-23.
      * @param   min     the minutes between 0-59.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(year + 1900, month, date, hrs, min)}
      * or {@code GregorianCalendar(year + 1900, month, date, hrs, min)}.
@@ -209,7 +209,7 @@ public class Date
      * @param   hrs     the hours between 0-23.
      * @param   min     the minutes between 0-59.
      * @param   sec     the seconds between 0-59.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(year + 1900, month, date, hrs, min, sec)}
      * or {@code GregorianCalendar(year + 1900, month, date, hrs, min, sec)}.
@@ -240,7 +240,7 @@ public class Date
      *
      * @param   s   a string representation of the date.
      * @see     java.text.DateFormat
-     * @see     java.util.Date#parse(java.lang.String)
+     * @see     java.base.share.classes.java.util.Date#parse(java.lang.String)
      * @deprecated As of JDK version 1.1,
      * replaced by {@code DateFormat.parse(String s)}.
      */
@@ -281,7 +281,7 @@ public class Date
      * @param   sec     the seconds between 0-59.
      * @return  the number of milliseconds since January 1, 1970, 00:00:00 GMT for
      *          the date and time specified by the arguments.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(year + 1900, month, date, hrs, min, sec)}
      * or {@code GregorianCalendar(year + 1900, month, date, hrs, min, sec)}, using a UTC
@@ -616,7 +616,7 @@ public class Date
      * time zone.
      *
      * @return  the year represented by this date, minus 1900.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.YEAR) - 1900}.
      */
@@ -636,7 +636,7 @@ public class Date
      * on March 1.)
      *
      * @param   year    the year value.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.YEAR, year + 1900)}.
      */
@@ -652,7 +652,7 @@ public class Date
      * with the value {@code 0} representing January.
      *
      * @return  the month represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.MONTH)}.
      */
@@ -671,7 +671,7 @@ public class Date
      * if it were on July 1, because June has only 30 days.
      *
      * @param   month   the month value between 0-11.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.MONTH, int month)}.
      */
@@ -700,7 +700,7 @@ public class Date
      * interpreted in the local time zone.
      *
      * @return  the day of the month represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.DAY_OF_MONTH)}.
      */
@@ -720,7 +720,7 @@ public class Date
      * 30 days.
      *
      * @param   date   the day of the month value between 1-31.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.DAY_OF_MONTH, int date)}.
      */
@@ -739,7 +739,7 @@ public class Date
      * as interpreted in the local time zone.
      *
      * @return  the day of the week represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.DAY_OF_WEEK)}.
      */
@@ -756,7 +756,7 @@ public class Date
      * object, as interpreted in the local time zone.
      *
      * @return  the hour represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.HOUR_OF_DAY)}.
      */
@@ -773,7 +773,7 @@ public class Date
      * local time zone.
      *
      * @param   hours   the hour value.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.HOUR_OF_DAY, int hours)}.
      */
@@ -788,7 +788,7 @@ public class Date
      * The value returned is between {@code 0} and {@code 59}.
      *
      * @return  the number of minutes past the hour represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.MINUTE)}.
      */
@@ -805,7 +805,7 @@ public class Date
      * local time zone.
      *
      * @param   minutes   the value of the minutes.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.MINUTE, int minutes)}.
      */
@@ -821,7 +821,7 @@ public class Date
      * Java Virtual Machines that take leap seconds into account.
      *
      * @return  the number of seconds past the minute represented by this date.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.get(Calendar.SECOND)}.
      */
@@ -838,7 +838,7 @@ public class Date
      * interpreted in the local time zone.
      *
      * @param   seconds   the seconds value.
-     * @see     java.util.Calendar
+     * @see     java.base.share.classes.java.util.Calendar
      * @deprecated As of JDK version 1.1,
      * replaced by {@code Calendar.set(Calendar.SECOND, int seconds)}.
      */
@@ -917,7 +917,7 @@ public class Date
      * @param   obj   the object to compare with.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see     java.util.Date#getTime()
+     * @see     java.base.share.classes.java.util.Date#getTime()
      */
     public boolean equals(Object obj) {
         return obj instanceof Date && getTime() == ((Date) obj).getTime();
@@ -997,8 +997,8 @@ public class Date
      * </ul>
      *
      * @return  a string representation of this date.
-     * @see     java.util.Date#toLocaleString()
-     * @see     java.util.Date#toGMTString()
+     * @see     java.base.share.classes.java.util.Date#toLocaleString()
+     * @see     java.base.share.classes.java.util.Date#toGMTString()
      */
     public String toString() {
         // "EEE MMM dd HH:mm:ss zzz yyyy";
@@ -1047,8 +1047,8 @@ public class Date
      * @return  a string representation of this date, using the locale
      *          conventions.
      * @see     java.text.DateFormat
-     * @see     java.util.Date#toString()
-     * @see     java.util.Date#toGMTString()
+     * @see     java.base.share.classes.java.util.Date#toString()
+     * @see     java.base.share.classes.java.util.Date#toGMTString()
      * @deprecated As of JDK version 1.1,
      * replaced by {@code DateFormat.format(Date date)}.
      */
@@ -1083,8 +1083,8 @@ public class Date
      * @return  a string representation of this date, using the Internet GMT
      *          conventions.
      * @see     java.text.DateFormat
-     * @see     java.util.Date#toString()
-     * @see     java.util.Date#toLocaleString()
+     * @see     java.base.share.classes.java.util.Date#toString()
+     * @see     java.base.share.classes.java.util.Date#toLocaleString()
      * @deprecated As of JDK version 1.1,
      * replaced by {@code DateFormat.format(Date date)}, using a
      * GMT {@code TimeZone}.
@@ -1132,9 +1132,9 @@ public class Date
      * </pre></blockquote>
      *
      * @return  the time-zone offset, in minutes, for the current time zone.
-     * @see     java.util.Calendar#ZONE_OFFSET
-     * @see     java.util.Calendar#DST_OFFSET
-     * @see     java.util.TimeZone#getDefault
+     * @see     java.base.share.classes.java.util.Calendar#ZONE_OFFSET
+     * @see     java.base.share.classes.java.util.Calendar#DST_OFFSET
+     * @see     java.base.share.classes.java.util.TimeZone#getDefault
      * @deprecated As of JDK version 1.1,
      * replaced by {@code -(Calendar.get(Calendar.ZONE_OFFSET) +
      * Calendar.get(Calendar.DST_OFFSET)) / (60 * 1000)}.

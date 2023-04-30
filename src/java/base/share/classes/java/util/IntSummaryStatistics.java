@@ -1,17 +1,17 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.IntConsumer;
-import java.util.stream.Collector;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.Collector;
 
 /**
  * A state object for collecting statistics such as count, min, max, sum, and
  * average.
  *
  * <p>This class is designed to work with (though does not require)
- * {@linkplain java.util.stream streams}. For example, you can compute
+ * {@linkplain java.base.share.classes.java.util.stream streams}. For example, you can compute
  * summary statistics on a stream of ints with:
  * <pre> {@code
  * IntSummaryStatistics stats = intStream.collect(IntSummaryStatistics::new,
@@ -20,8 +20,8 @@ import java.util.stream.Collector;
  * }</pre>
  *
  * <p>{@code IntSummaryStatistics} can be used as a
- * {@linkplain java.util.stream.Stream#collect(Collector) reduction}
- * target for a {@linkplain java.util.stream.Stream stream}. For example:
+ * {@linkplain java.base.share.classes.java.util.stream.Stream#collect(Collector) reduction}
+ * target for a {@linkplain java.base.share.classes.java.util.stream.Stream stream}. For example:
  *
  * <pre> {@code
  * IntSummaryStatistics stats = people.stream()
@@ -32,9 +32,9 @@ import java.util.stream.Collector;
  * maximum, sum, and average of their number of dependents.
  *
  * @implNote This implementation is not thread safe. However, it is safe to use
- * {@link java.util.stream.Collectors#summarizingInt(java.util.function.ToIntFunction)
+ * {@link java.base.share.classes.java.util.stream.Collectors#summarizingInt(java.base.share.classes.java.util.function.ToIntFunction)
  * Collectors.summarizingInt()} on a parallel stream, because the parallel
- * implementation of {@link java.util.stream.Stream#collect Stream.collect()}
+ * implementation of {@link java.base.share.classes.java.util.stream.Stream#collect Stream.collect()}
  * provides the necessary partitioning, isolation, and merging of results for
  * safe and efficient parallel execution.
  *

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -16,7 +16,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.UnsupportedCharsetException;
-import java.nio.channels.spi.AbstractInterruptibleChannel;
+import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
 import java.util.Objects;
 import java.util.concurrent.ExecutionException;
 import sun.nio.cs.StreamDecoder;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.spi;
+package java.base.share.classes.java.util.spi;
 
 import java.util.Locale;
 
@@ -49,7 +49,7 @@ public abstract class TimeZoneNameProvider extends LocaleServiceProvider {
      *     given locale, or null if it's not available.
      * @throws    IllegalArgumentException if {@code style} is invalid,
      *     or {@code locale} isn't one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @throws    NullPointerException if {@code ID} or {@code locale}
      *     is null

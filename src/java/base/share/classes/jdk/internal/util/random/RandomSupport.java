@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.random;
+package java.base.share.classes.jdk.internal.util.random;
 
 import java.lang.annotation.*;
 import java.math.BigInteger;

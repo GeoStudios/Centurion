@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.invoke.empty;
+package java.base.share.classes.sun.invoke.empty;
 
 /**
  * An empty class in an empty package.

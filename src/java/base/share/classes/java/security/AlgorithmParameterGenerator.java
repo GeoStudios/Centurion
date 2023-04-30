@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.util.Objects;
 import sun.security.jca.JCAUtil;
 
@@ -71,7 +71,7 @@ import sun.security.jca.JCAUtil;
  *
  *
  * @see AlgorithmParameters
- * @see java.security.spec.AlgorithmParameterSpec
+ * @see java.base.share.classes.java.security.spec.AlgorithmParameterSpec
  *
  * @since 1.2
  */

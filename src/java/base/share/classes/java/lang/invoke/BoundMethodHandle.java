@@ -2,19 +2,19 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.vm.annotation.Stable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.invoke.LambdaForm.BasicType;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
-import static java.lang.invoke.MethodHandleStatics.uncaughtException;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.uncaughtException;
 
 /**
  * The flavor of method handle which emulates an invoke instruction

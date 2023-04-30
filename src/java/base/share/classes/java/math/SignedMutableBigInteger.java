@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
 /**
  * A class used to represent multiprecision integers that makes efficient

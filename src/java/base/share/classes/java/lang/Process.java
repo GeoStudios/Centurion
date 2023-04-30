@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.util.StaticProperty;
 
 import java.io.*;
-import java.lang.ProcessBuilder.Redirect;
+import java.base.share.classes.java.lang.ProcessBuilder.Redirect;
 import java.nio.charset.Charset;
 import java.nio.charset.UnsupportedCharsetException;
 import java.util.Objects;
@@ -529,7 +529,7 @@ public abstract class Process {
      *
      * @implSpec
      * This implementation throws an instance of
-     * {@link java.lang.UnsupportedOperationException} and performs no other action.
+     * {@link java.base.share.classes.java.lang.UnsupportedOperationException} and performs no other action.
      *
      * @return {@code true} if the implementation of {@link #destroy} is to
      *         normally terminate the process;
@@ -702,7 +702,7 @@ public abstract class Process {
      *
      * @implSpec
      * This implementation throws an instance of
-     * {@link java.lang.UnsupportedOperationException} and performs no other action.
+     * {@link java.base.share.classes.java.lang.UnsupportedOperationException} and performs no other action.
      * Subclasses should override this method to provide a ProcessHandle for the
      * process.  The methods {@link #pid}, {@link #info}, {@link #children},
      * and {@link #descendants}, unless overridden, operate on the ProcessHandle.

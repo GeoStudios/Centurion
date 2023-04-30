@@ -1,16 +1,16 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.reflect.MethodAccessor;
 import jdk.internal.reflect.ConstructorAccessor;
-import java.lang.StackWalker.Option;
-import java.lang.StackWalker.StackFrame;
+import java.base.share.classes.java.lang.StackWalker.Option;
+import java.base.share.classes.java.lang.StackWalker.StackFrame;
 
-import java.lang.annotation.Native;
-import java.lang.reflect.Method;
-import java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Constructor;
 import java.util.HashSet;
 import java.util.NoSuchElementException;
 import java.util.Objects;
@@ -24,7 +24,7 @@ import jdk.internal.vm.Continuation;
 import jdk.internal.vm.ContinuationScope;
 import sun.security.action.GetPropertyAction;
 
-import static java.lang.StackStreamFactory.WalkerState.*;
+import static java.base.share.classes.java.lang.StackStreamFactory.WalkerState.*;
 
 /**
  * StackStreamFactory class provides static factory methods
@@ -1034,7 +1034,7 @@ final class StackStreamFactory {
     // MethodHandle frames are not hidden and CallerClassFinder has
     // to filter them out
     private static boolean isMethodHandleFrame(Class<?> c) {
-        return c.getName().startsWith("java.lang.invoke.");
+        return c.getName().startsWith("java.base.share.classes.java.lang.invoke.");
     }
 
     private static boolean isReflectionFrame(Class<?> c) {
@@ -1043,7 +1043,7 @@ final class StackStreamFactory {
                c == Constructor.class ||
                MethodAccessor.class.isAssignableFrom(c) ||
                ConstructorAccessor.class.isAssignableFrom(c) ||
-               c.getName().startsWith("java.lang.invoke.LambdaForm");
+               c.getName().startsWith("java.base.share.classes.java.lang.invoke.LambdaForm");
     }
 
 }

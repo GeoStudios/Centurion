@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.annotation;
+package java.base.share.classes.java.lang.annotation;
 
 /**
- * The annotation interface {@code java.lang.annotation.Repeatable} is
+ * The annotation interface {@code java.base.share.classes.java.lang.annotation.Repeatable} is
  * used to indicate that the annotation interface whose declaration it
  * (meta-)annotates is <em>repeatable</em>. The value of
  * {@code @Repeatable} indicates the <em>containing annotation

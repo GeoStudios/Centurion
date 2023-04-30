@@ -13,14 +13,14 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 import java.util.Collection;
 import java.util.List;
 import java.util.RandomAccess;
-import java.util.concurrent.locks.LockSupport;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
 import jdk.internal.misc.Unsafe;
 
 /**

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi;
+package java.base.share.classes.jdk.internal.foreign.abi;
 
 import jdk.internal.foreign.Utils;
 import sun.security.action.GetPropertyAction;
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Set;
 
 import static java.lang.invoke.MethodType.methodType;
-import static jdk.internal.foreign.abi.Binding.Tag.*;
+import static java.base.share.classes.jdk.internal.foreign.abi.Binding.Tag.*;
 
 public class CallingSequenceBuilder {
     private static final boolean VERIFY_BINDINGS = Boolean.parseBoolean(

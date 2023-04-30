@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * A {@link SortedMap} extended with navigation methods returning the

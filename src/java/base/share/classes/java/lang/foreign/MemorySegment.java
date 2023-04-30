@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.foreign;
+package java.base.share.classes.java.lang.foreign;
 
 import java.io.UncheckedIOException;
 import java.lang.invoke.MethodHandles;
@@ -339,7 +339,7 @@ import jdk.internal.vm.annotation.ForceInline;
  * ensures that the obtained segment can be passed, opaquely, to other pointer-accepting foreign functions.
  * <p>
  * To access native zero-length memory segments, clients have two options, both of which are <em>unsafe</em>. Clients
- * can {@linkplain java.lang.foreign.MemorySegment#ofAddress(long, long, SegmentScope) obtain}
+ * can {@linkplain java.base.share.classes.java.lang.foreign.MemorySegment#ofAddress(long, long, SegmentScope) obtain}
  * a <em>new</em> native segment, with new spatial and temporal bounds, as follows:
  *
  * {@snippet lang = java:
@@ -349,7 +349,7 @@ import jdk.internal.vm.annotation.ForceInline;
  * int x = segment.get(ValueLayout.JAVA_INT, 0); //ok
  *}
  *
- * Alternatively, clients can obtain an {@linkplain java.lang.foreign.ValueLayout.OfAddress#asUnbounded() unbounded}
+ * Alternatively, clients can obtain an {@linkplain java.base.share.classes.java.lang.foreign.ValueLayout.OfAddress#asUnbounded() unbounded}
  * address value layout. When an access operation, or a function descriptor that is passed to a downcall method handle,
  * uses an unbounded address value layouts, the runtime will wrap any corresponding raw addresses with native segments
  * with <em>maximal</em> size (i.e. {@linkplain java.lang.Long#MAX_VALUE}). As such, these segments can be accessed directly, as follows:

@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import jdk.internal.misc.Unsafe;
 
@@ -210,7 +210,7 @@ import jdk.internal.misc.Unsafe;
  * <p><b>Searching.</b> A tree of CountedCompleters can search for a
  * value or property in different parts of a data structure, and
  * report a result in an {@link
- * java.util.concurrent.atomic.AtomicReference AtomicReference} as
+ * java.base.share.classes.java.util.concurrent.atomic.AtomicReference AtomicReference} as
  * soon as one is found. The others can poll the result to avoid
  * unnecessary work. (You could additionally {@linkplain #cancel
  * cancel} other tasks, but it is usually simpler and more efficient

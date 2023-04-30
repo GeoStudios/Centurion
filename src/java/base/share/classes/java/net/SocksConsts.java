@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.net;
+package java.base.share.classes.java.net;
 
 /**
  * Constants used by the SOCKS protocol implementation.

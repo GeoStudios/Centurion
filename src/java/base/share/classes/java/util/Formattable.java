@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 
 /**
  * The {@code Formattable} interface must be implemented by any class that
  * needs to perform custom formatting using the {@code 's'} conversion
- * specifier of {@link java.util.Formatter}.  This interface allows basic
+ * specifier of {@link java.base.share.classes.java.util.Formatter}.  This interface allows basic
  * control for formatting arbitrary objects.
  *
  * For example, the following class prints out different representations of a
@@ -17,10 +17,10 @@ import java.io.IOException;
  *
  * <pre> {@code
  *   import java.nio.CharBuffer;
- *   import java.util.Formatter;
- *   import java.util.Formattable;
- *   import java.util.Locale;
- *   import static java.util.FormattableFlags.*;
+ *   import java.base.share.classes.java.util.Formatter;
+ *   import java.base.share.classes.java.util.Formattable;
+ *   import java.base.share.classes.java.util.Locale;
+ *   import static java.base.share.classes.java.util.FormattableFlags.*;
  *
  *   ...
  *
@@ -70,7 +70,7 @@ import java.io.IOException;
  *   }
  * }</pre>
  *
- * <p> When used in conjunction with the {@link java.util.Formatter}, the above
+ * <p> When used in conjunction with the {@link java.base.share.classes.java.util.Formatter}, the above
  * class produces the following output for various format strings.
  *
  * <pre> {@code

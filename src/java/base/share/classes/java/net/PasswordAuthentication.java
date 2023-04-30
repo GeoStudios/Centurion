@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 
 /**
  * The class PasswordAuthentication is a data holder that is used by
  * Authenticator.  It is simply a repository for a user name and a password.
  *
- * @see java.net.Authenticator
- * @see java.net.Authenticator#getPasswordAuthentication()
+ * @see java.base.share.classes.java.net.Authenticator
+ * @see java.base.share.classes.java.net.Authenticator#getPasswordAuthentication()
  *
  * @author  Bill Foote
  * @since   1.2

@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.VM.BufferPool;
 
 import java.lang.foreign.MemorySegment;

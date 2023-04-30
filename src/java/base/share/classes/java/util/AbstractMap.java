@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * This class provides a skeletal implementation of the {@code Map}
@@ -284,7 +284,7 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
      * stateless, so there's no reason to create more than one of each.
      *
      * <p>Since there is no synchronization performed while accessing these fields,
-     * it is expected that java.util.Map view classes using these fields have
+     * it is expected that java.base.share.classes.java.util.Map view classes using these fields have
      * no non-final fields (or any fields at all except for outer-this). Adhering
      * to this rule would make the races on these fields benign.
      *

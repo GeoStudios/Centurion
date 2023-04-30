@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.ftp;
+package java.base.share.classes.sun.net.ftp;
 
 /**
  * This class describes a FTP protocol reply code and associates a meaning

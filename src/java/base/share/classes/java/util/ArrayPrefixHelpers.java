@@ -13,14 +13,14 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.concurrent.CountedCompleter;
-import java.util.concurrent.ForkJoinPool;
-import java.util.function.BinaryOperator;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.concurrent.CountedCompleter;
+import java.base.share.classes.java.util.concurrent.ForkJoinPool;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+import java.base.share.classes.java.util.function.IntBinaryOperator;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
 
 /**
  * ForkJoin tasks to perform Arrays.parallelPrefix operations.

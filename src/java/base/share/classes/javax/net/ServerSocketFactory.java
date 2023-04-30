@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.net;
+package java.base.share.classes.javax.net;
 
 import java.io.IOException;
 import java.net.InetAddress;

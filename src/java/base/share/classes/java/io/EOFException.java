@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Signals that an end of file or end of stream has been reached
@@ -12,14 +12,14 @@ package java.io;
  * stream. Note that many other input operations return a special value on
  * end of stream rather than throwing an exception.
  *
- * @see     java.io.DataInputStream
- * @see     java.io.IOException
+ * @see     java.base.share.classes.java.io.DataInputStream
+ * @see     java.base.share.classes.java.io.IOException
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */
 public class EOFException extends IOException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 6433858223774886977L;
 
     /**

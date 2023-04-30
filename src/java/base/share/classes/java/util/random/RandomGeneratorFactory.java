@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.random;
+package java.base.share.classes.java.util.random;
 
 import java.lang.reflect.Constructor;
 import java.math.BigInteger;
@@ -12,11 +12,11 @@ import java.security.PrivilegedExceptionAction;
 import java.util.Objects;
 import java.util.function.Function;
 import java.util.Map;
-import java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
-import java.util.random.RandomGenerator.JumpableGenerator;
-import java.util.random.RandomGenerator.LeapableGenerator;
-import java.util.random.RandomGenerator.SplittableGenerator;
-import java.util.random.RandomGenerator.StreamableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.JumpableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.LeapableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.SplittableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.StreamableGenerator;
 import java.util.ServiceLoader;
 import java.util.ServiceLoader.Provider;
 import java.util.stream.Collectors;
@@ -82,7 +82,7 @@ import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
  *
  * @since 17
  *
- * @see java.util.random
+ * @see java.base.share.classes.java.util.random
  *
  */
 public final class RandomGeneratorFactory<T extends RandomGenerator> {

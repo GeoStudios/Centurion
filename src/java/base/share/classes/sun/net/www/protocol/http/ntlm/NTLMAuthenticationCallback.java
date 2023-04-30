@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.http.ntlm;
+package java.base.share.classes.sun.net.www.protocol.http.ntlm;
 
 import java.net.URL;
 

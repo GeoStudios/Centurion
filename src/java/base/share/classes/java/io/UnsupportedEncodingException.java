@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * The Character Encoding is not supported.
@@ -13,7 +13,7 @@ package java.io;
 public class UnsupportedEncodingException
     extends IOException
 {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -4274276298326136670L;
 
     /**

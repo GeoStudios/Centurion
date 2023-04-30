@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.invoke;
+package java.base.share.classes.sun.invoke;
 
 import java.lang.invoke.MethodHandle;
 

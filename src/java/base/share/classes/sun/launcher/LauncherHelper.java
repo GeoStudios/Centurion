@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.launcher;
+package java.base.share.classes.sun.launcher;
 
 /*
  *
@@ -78,7 +78,7 @@ public final class LauncherHelper {
     private static final String JAVAFX_APPLICATION_CLASS_NAME =
             "javafx.application.Application";
     private static final String JAVAFX_FXHELPER_CLASS_NAME_SUFFIX =
-            "sun.launcher.LauncherHelper$FXHelper";
+            "java.base.share.classes.sun.launcher.LauncherHelper$FXHelper";
     private static final String LAUNCHER_AGENT_CLASS = "Launcher-Agent-Class";
     private static final String MAIN_CLASS = "Main-Class";
     private static final String ADD_EXPORTS = "Add-Exports";
@@ -96,7 +96,7 @@ public final class LauncherHelper {
     static final boolean trace = VM.getSavedProperty(diagprop) != null;
 
     private static final String defaultBundleName =
-            "sun.launcher.resources.launcher";
+            "java.base.share.classes.sun.launcher.resources.launcher";
 
     private static class ResourceBundleHolder {
         private static final ResourceBundle RB =

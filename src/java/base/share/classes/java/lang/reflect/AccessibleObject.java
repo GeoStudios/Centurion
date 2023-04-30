@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import java.lang.annotation.Annotation;
 import java.lang.invoke.MethodHandle;
@@ -84,7 +84,7 @@ public class AccessibleObject implements AnnotatedElement {
      * {@code ReflectPermission("suppressAccessChecks")} permission.
      *
      * <p>A {@code SecurityException} is also thrown if any of the elements of
-     * the input {@code array} is a {@link java.lang.reflect.Constructor}
+     * the input {@code array} is a {@link java.base.share.classes.java.lang.reflect.Constructor}
      * object for the class {@code java.lang.Class} and {@code flag} is true.
      *
      * @param array the array of AccessibleObjects

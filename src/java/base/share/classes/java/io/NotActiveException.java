@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Thrown when serialization or deserialization is not active.
@@ -13,7 +13,7 @@ package java.io;
  */
 public class NotActiveException extends ObjectStreamException {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -3893467273049808895L;
 
     /**

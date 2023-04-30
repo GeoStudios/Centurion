@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net;
+package java.base.share.classes.sun.net;
 
 import java.net.SocketException;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -33,7 +33,7 @@ public class ResourceManager {
 
     static {
         String prop = GetPropertyAction
-                .privilegedGetProperty("sun.net.maxDatagramSockets");
+                .privilegedGetProperty("java.base.share.classes.sun.net.maxDatagramSockets");
         int defmax = DEFAULT_MAX_SOCKETS;
         try {
             if (prop != null) {

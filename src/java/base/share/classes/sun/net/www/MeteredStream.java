@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
-import sun.net.www.http.ChunkedInputStream;
+import java.base.share.classes.sun.net.www.http.ChunkedInputStream;
 
 
 public class MeteredStream extends FilterInputStream {

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.FileDescriptor;
 import java.io.IOException;
@@ -184,9 +184,9 @@ public abstract class SocketImpl implements SocketOptions {
      *
      * @throws    IOException if an I/O error occurs when shutting down this
      * socket.
-     * @see java.net.Socket#shutdownOutput()
-     * @see java.net.Socket#close()
-     * @see java.net.Socket#setSoLinger(boolean, int)
+     * @see java.base.share.classes.java.net.Socket#shutdownOutput()
+     * @see java.base.share.classes.java.net.Socket#close()
+     * @see java.base.share.classes.java.net.Socket#setSoLinger(boolean, int)
      * @since 1.3
      */
     protected void shutdownInput() throws IOException {
@@ -204,9 +204,9 @@ public abstract class SocketImpl implements SocketOptions {
      *
      * @throws    IOException if an I/O error occurs when shutting down this
      * socket.
-     * @see java.net.Socket#shutdownInput()
-     * @see java.net.Socket#close()
-     * @see java.net.Socket#setSoLinger(boolean, int)
+     * @see java.base.share.classes.java.net.Socket#shutdownInput()
+     * @see java.base.share.classes.java.net.Socket#close()
+     * @see java.base.share.classes.java.net.Socket#setSoLinger(boolean, int)
      * @since 1.3
      */
     protected void shutdownOutput() throws IOException {
@@ -217,7 +217,7 @@ public abstract class SocketImpl implements SocketOptions {
      * Returns the value of this socket's {@code fd} field.
      *
      * @return  the value of this socket's {@code fd} field.
-     * @see     java.net.SocketImpl#fd
+     * @see     java.base.share.classes.java.net.SocketImpl#fd
      */
     protected FileDescriptor getFileDescriptor() {
         return fd;
@@ -227,7 +227,7 @@ public abstract class SocketImpl implements SocketOptions {
      * Returns the value of this socket's {@code address} field.
      *
      * @return  the value of this socket's {@code address} field.
-     * @see     java.net.SocketImpl#address
+     * @see     java.base.share.classes.java.net.SocketImpl#address
      */
     protected InetAddress getInetAddress() {
         return address;
@@ -237,7 +237,7 @@ public abstract class SocketImpl implements SocketOptions {
      * Returns the value of this socket's {@code port} field.
      *
      * @return  the value of this socket's {@code port} field.
-     * @see     java.net.SocketImpl#port
+     * @see     java.base.share.classes.java.net.SocketImpl#port
      */
     protected int getPort() {
         return port;
@@ -249,7 +249,7 @@ public abstract class SocketImpl implements SocketOptions {
      * unless the method is overridden in a sub-class
      *
      * @return  true if urgent data supported
-     * @see     java.net.SocketImpl#address
+     * @see     java.base.share.classes.java.net.SocketImpl#address
      * @since 1.4
      */
     protected boolean supportsUrgentData () {
@@ -270,7 +270,7 @@ public abstract class SocketImpl implements SocketOptions {
      * Returns the value of this socket's {@code localport} field.
      *
      * @return  the value of this socket's {@code localport} field.
-     * @see     java.net.SocketImpl#localport
+     * @see     java.base.share.classes.java.net.SocketImpl#localport
      */
     protected int getLocalPort() {
         return localport;

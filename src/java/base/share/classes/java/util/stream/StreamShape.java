@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.stream;
+package java.base.share.classes.java.util.stream;
 
 /**
  * An enum describing the known shape specializations for stream abstractions.

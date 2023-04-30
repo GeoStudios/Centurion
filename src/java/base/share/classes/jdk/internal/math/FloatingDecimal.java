@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.math;
+package java.base.share.classes.jdk.internal.math;
 
 import java.util.Arrays;
 import java.util.regex.*;

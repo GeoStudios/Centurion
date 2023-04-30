@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.io.Serial;
 import java.security.*;
@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.Enumeration;
 import java.util.Vector;
 
-import javax.crypto.spec.*;
+import java.base.share.classes.javax.crypto.spec.*;
 
 /**
  * The {@code CryptoPermission} class extends the

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
 import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
 import static java.time.temporal.ChronoUnit.DAYS;
@@ -301,7 +301,7 @@ final class ChronoPeriodImpl
     //-----------------------------------------------------------------------
     /**
      * Writes the Chronology using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.chrono.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.chrono.Ser">dedicated serialized form</a>.
      * <pre>
      *  out.writeByte(12);  // identifies this as a ChronoPeriodImpl
      *  out.writeUTF(getId());  // the chronology

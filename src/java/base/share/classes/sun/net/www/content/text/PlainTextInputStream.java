@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.content.text;
+package java.base.share.classes.sun.net.www.content.text;
 import java.io.InputStream;
 import java.io.FilterInputStream;
 

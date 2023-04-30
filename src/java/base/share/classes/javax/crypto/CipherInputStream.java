@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
@@ -47,8 +47,8 @@ import java.io.InputStream;
  * @author  Li Gong
  * @see     java.io.InputStream
  * @see     java.io.FilterInputStream
- * @see     javax.crypto.Cipher
- * @see     javax.crypto.CipherOutputStream
+ * @see     java.base.share.classes.javax.crypto.Cipher
+ * @see     java.base.share.classes.javax.crypto.CipherOutputStream
  *
  * @since 1.4
  */

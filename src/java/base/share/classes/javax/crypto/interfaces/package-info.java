@@ -40,4 +40,4 @@
  *
  * @since 1.4
  */
-package javax.crypto.interfaces;
+package java.base.share.classes.javax.crypto.interfaces;

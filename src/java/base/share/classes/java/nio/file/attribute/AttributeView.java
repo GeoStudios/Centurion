@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file.attribute;
+package java.base.share.classes.java.nio.file.attribute;
 
 /**
  * An object that provides a read-only or updatable <em>view</em> of non-opaque

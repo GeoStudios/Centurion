@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Signals that one of the ObjectStreamExceptions was thrown during a
@@ -17,7 +17,7 @@ package java.io;
  * @edited 24/4/2023
  */
 public class WriteAbortedException extends ObjectStreamException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -3326426625597282442L;
 
     /**

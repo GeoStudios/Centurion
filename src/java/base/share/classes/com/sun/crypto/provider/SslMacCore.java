@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.nio.ByteBuffer;
 
@@ -11,7 +11,7 @@ import javax.crypto.SecretKey;
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 
-import static com.sun.crypto.provider.TlsPrfGenerator.genPad;
+import static java.base.share.classes.com.sun.crypto.provider.TlsPrfGenerator.genPad;
 
 /**
  * This file contains the code for the SslMacMD5 and SslMacSHA1 implementations.

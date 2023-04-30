@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.jimage.decompressor;
+package java.base.share.classes.jdk.internal.jimage.decompressor;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Properties;
-import jdk.internal.jimage.decompressor.ResourceDecompressor.StringsProvider;
+import java.base.share.classes.jdk.internal.jimage.decompressor.ResourceDecompressor.StringsProvider;
 
 /**
  * Entry point to decompress resources.

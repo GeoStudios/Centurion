@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown to indicate that an {@code invokedynamic} instruction or a dynamic
  * constant failed to resolve its bootstrap method and arguments,
  * or for {@code invokedynamic} instruction the bootstrap method has failed to
  * provide a
- * {@linkplain java.lang.invoke.CallSite call site} with a
- * {@linkplain java.lang.invoke.CallSite#getTarget target}
- * of the correct {@linkplain java.lang.invoke.MethodHandle#type() method type},
+ * {@linkplain java.base.share.classes.java.lang.invoke.CallSite call site} with a
+ * {@linkplain java.base.share.classes.java.lang.invoke.CallSite#getTarget target}
+ * of the correct {@linkplain java.base.share.classes.java.lang.invoke.MethodHandle#type() method type},
  * or for a dynamic constant the bootstrap method has failed to provide a
  * constant value of the required type.
  *

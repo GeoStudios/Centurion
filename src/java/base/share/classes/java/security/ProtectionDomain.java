@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -467,7 +467,7 @@ public class ProtectionDomain {
 
         @SuppressWarnings("removal")
         PermissionCollection perms =
-            java.security.AccessController.doPrivileged
+            java.base.share.classes.java.security.AccessController.doPrivileged
             ((PrivilegedAction<PermissionCollection>) () ->
                 Policy.getPolicyNoCheck().getPermissions(ProtectionDomain.this));
 

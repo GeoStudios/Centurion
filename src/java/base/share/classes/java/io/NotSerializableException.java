@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Thrown when an instance is required to have a Serializable interface.
@@ -15,7 +15,7 @@ package java.io;
  */
 public class NotSerializableException extends ObjectStreamException {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 2906642554793891381L;
 
     /**

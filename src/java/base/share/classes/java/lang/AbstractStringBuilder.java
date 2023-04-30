@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.math.DoubleToDecimal;
 import jdk.internal.math.FloatToDecimal;
@@ -15,11 +15,11 @@ import java.util.stream.StreamSupport;
 import jdk.internal.util.ArraysSupport;
 import jdk.internal.util.Preconditions;
 
-import static java.lang.String.COMPACT_STRINGS;
-import static java.lang.String.UTF16;
-import static java.lang.String.LATIN1;
-import static java.lang.String.checkIndex;
-import static java.lang.String.checkOffset;
+import static java.base.share.classes.java.lang.String.COMPACT_STRINGS;
+import static java.base.share.classes.java.lang.String.UTF16;
+import static java.base.share.classes.java.lang.String.LATIN1;
+import static java.base.share.classes.java.lang.String.checkIndex;
+import static java.base.share.classes.java.lang.String.checkOffset;
 
 /**
  * A mutable sequence of characters.

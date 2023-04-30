@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.ext;
+package java.base.share.classes.sun.net.ext;
 
 import java.io.FileDescriptor;
 import java.net.SocketException;

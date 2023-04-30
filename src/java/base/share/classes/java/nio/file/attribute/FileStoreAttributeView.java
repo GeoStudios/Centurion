@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file.attribute;
+package java.base.share.classes.java.nio.file.attribute;
 
 /**
  * An attribute view that is a read-only or updatable view of the attributes of

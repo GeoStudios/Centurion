@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
 import jdk.internal.ref.Cleaner;
 import jdk.internal.vm.annotation.ForceInline;
@@ -12,7 +12,7 @@ import sun.nio.ch.DirectBuffer;
 import java.lang.reflect.Field;
 import java.security.ProtectionDomain;
 
-import static jdk.internal.misc.UnsafeConstants.*;
+import static java.base.share.classes.jdk.internal.misc.UnsafeConstants.*;
 
 /**
  * A collection of methods for performing low-level, unsafe operations.

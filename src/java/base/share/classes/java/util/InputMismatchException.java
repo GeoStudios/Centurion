@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * Thrown by a {@code Scanner} to indicate that the token
  * retrieved does not match the pattern for the expected type, or
  * that the token is out of range for the expected type.
  *
- * @see     java.util.Scanner
+ * @see     java.base.share.classes.java.util.Scanner
  * @since   1.5
  */
 public class InputMismatchException extends NoSuchElementException {

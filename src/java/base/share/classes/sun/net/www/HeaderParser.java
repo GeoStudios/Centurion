@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
 import java.util.Iterator;
 import java.util.OptionalInt;

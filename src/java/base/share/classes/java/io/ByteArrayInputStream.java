@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -18,7 +18,7 @@ import java.util.Objects;
  * this class can be called after the stream has been closed without
  * generating an {@code IOException}.
  *
- * @see     java.io.StringBufferInputStream
+ * @see     java.base.share.classes.java.io.StringBufferInputStream
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023

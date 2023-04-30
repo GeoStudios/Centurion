@@ -3,7 +3,7 @@
  */
 
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
 import java.util.Objects;
 import java.lang.System.Logger;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.security.*;
 import java.util.ArrayList;
@@ -34,7 +34,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * is called on the {@code CryptoPermission} or {@code CryptoAllPermission} class to
  * create the {@code PermissionCollection} and add it to the {@code Permissions} object.
  *
- * @see javax.crypto.CryptoPermission
+ * @see java.base.share.classes.javax.crypto.CryptoPermission
  * @see java.security.PermissionCollection
  * @see java.security.Permissions
  *

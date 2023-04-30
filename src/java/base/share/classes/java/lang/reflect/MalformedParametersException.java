@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 /**
- * Thrown when {@link java.lang.reflect.Executable#getParameters the
- * java.lang.reflect package} attempts to read method parameters from
+ * Thrown when {@link java.base.share.classes.java.lang.reflect.Executable#getParameters the
+ * java.base.share.classes.java.lang.reflect package} attempts to read method parameters from
  * a class file and determines that one or more parameters are
  * malformed.
  *
@@ -21,10 +21,10 @@ package java.lang.reflect;
  *     FINAL, SYNTHETIC, or MANDATED)
  * </ul>
  *
- * See {@link java.lang.reflect.Executable#getParameters} for more
+ * See {@link java.base.share.classes.java.lang.reflect.Executable#getParameters} for more
  * information.
  *
- * @see java.lang.reflect.Executable#getParameters
+ * @see java.base.share.classes.java.lang.reflect.Executable#getParameters
  * @since 1.8
  */
 public class MalformedParametersException extends RuntimeException {

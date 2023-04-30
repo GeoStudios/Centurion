@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 /**
  * This class is generated/overridden at link time to return the names of the

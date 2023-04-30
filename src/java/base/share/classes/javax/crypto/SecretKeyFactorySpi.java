@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.security.*;
 import java.security.spec.*;
@@ -25,8 +25,8 @@ import java.security.spec.*;
  * @author Jan Luehe
  *
  * @see SecretKey
- * @see javax.crypto.spec.DESKeySpec
- * @see javax.crypto.spec.DESedeKeySpec
+ * @see java.base.share.classes.javax.crypto.spec.DESKeySpec
+ * @see java.base.share.classes.javax.crypto.spec.DESedeKeySpec
  * @since 1.4
  */
 

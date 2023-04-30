@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.security.cert.CertPath;
-import java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.CertPath;
+import java.base.share.classes.java.security.cert.Certificate;
 import java.util.Date;
 import java.util.List;
 

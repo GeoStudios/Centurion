@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.util;
+package java.base.share.classes.sun.net.util;
 
 import java.io.IOException;
 import java.net.URL;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
 import java.nio.file.attribute.*;
 import java.util.Map;
@@ -10,8 +10,8 @@ import java.util.Set;
 import java.io.IOException;
 import jdk.internal.misc.Unsafe;
 
-import static sun.nio.fs.UnixNativeDispatcher.*;
-import static sun.nio.fs.UnixConstants.*;
+import static java.base.linux.classes.sun.nio.fs.UnixNativeDispatcher.*;
+import static java.base.linux.classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Linux implementation of DosFileAttributeView for use on file systems such

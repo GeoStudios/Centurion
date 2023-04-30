@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.net.spi.InetAddressResolver;
-import java.net.spi.InetAddressResolverProvider;
-import java.net.spi.InetAddressResolver.LookupPolicy;
+import java.base.share.classes.java.net.spi.InetAddressResolver;
+import java.base.share.classes.java.net.spi.InetAddressResolverProvider;
+import java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.List;
@@ -45,10 +45,10 @@ import sun.net.InetAddressCachePolicy;
 import sun.net.util.IPAddressUtil;
 import sun.nio.cs.UTF_8;
 
-import static java.net.spi.InetAddressResolver.LookupPolicy.IPV4;
-import static java.net.spi.InetAddressResolver.LookupPolicy.IPV4_FIRST;
-import static java.net.spi.InetAddressResolver.LookupPolicy.IPV6;
-import static java.net.spi.InetAddressResolver.LookupPolicy.IPV6_FIRST;
+import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV4;
+import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV4_FIRST;
+import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV6;
+import static java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy.IPV6_FIRST;
 
 /**
  * This class represents an Internet Protocol (IP) address.
@@ -196,11 +196,11 @@ import static java.net.spi.InetAddressResolver.LookupPolicy.IPV6_FIRST;
  * </dl>
  *
  * @author  Chris Warth
- * @see     java.net.InetAddress#getByAddress(byte[])
- * @see     java.net.InetAddress#getByAddress(java.lang.String, byte[])
- * @see     java.net.InetAddress#getAllByName(java.lang.String)
- * @see     java.net.InetAddress#getByName(java.lang.String)
- * @see     java.net.InetAddress#getLocalHost()
+ * @see     java.base.share.classes.java.net.InetAddress#getByAddress(byte[])
+ * @see     java.base.share.classes.java.net.InetAddress#getByAddress(java.lang.String, byte[])
+ * @see     java.base.share.classes.java.net.InetAddress#getAllByName(java.lang.String)
+ * @see     java.base.share.classes.java.net.InetAddress#getByName(java.lang.String)
+ * @see     java.base.share.classes.java.net.InetAddress#getLocalHost()
  * @since 1.0
  * @sealedGraph
  */
@@ -305,10 +305,10 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
     @java.io.Serial
     private static final long serialVersionUID = 3286316764910316507L;
 
-    // "java.net.preferIPv4Stack" system property value
+    // "java.base.share.classes.java.net.preferIPv4Stack" system property value
     private static final String PREFER_IPV4_STACK_VALUE;
 
-    // "java.net.preferIPv6Addresses" system property value
+    // "java.base.share.classes.java.net.preferIPv6Addresses" system property value
     private static final String PREFER_IPV6_ADDRESSES_VALUE;
 
     // "jdk.net.hosts.file" system property value
@@ -319,9 +319,9 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
      */
     static {
         PREFER_IPV4_STACK_VALUE =
-                GetPropertyAction.privilegedGetProperty("java.net.preferIPv4Stack");
+                GetPropertyAction.privilegedGetProperty("java.base.share.classes.java.net.preferIPv4Stack");
         PREFER_IPV6_ADDRESSES_VALUE =
-                GetPropertyAction.privilegedGetProperty("java.net.preferIPv6Addresses");
+                GetPropertyAction.privilegedGetProperty("java.base.share.classes.java.net.preferIPv6Addresses");
         HOSTS_FILE_NAME =
                 GetPropertyAction.privilegedGetProperty("jdk.net.hosts.file");
         jdk.internal.loader.BootLoader.loadLibrary("net");
@@ -344,8 +344,8 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
     }
 
     /**
-     * Creates an address lookup policy from {@code "java.net.preferIPv4Stack"},
-     * {@code "java.net.preferIPv6Addresses"} system property values, and O/S configuration.
+     * Creates an address lookup policy from {@code "java.base.share.classes.java.net.preferIPv4Stack"},
+     * {@code "java.base.share.classes.java.net.preferIPv6Addresses"} system property values, and O/S configuration.
      */
     private static final LookupPolicy initializePlatformLookupPolicy() {
         // Calculate AddressFamily value first
@@ -874,7 +874,7 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
      * @param   obj   the object to compare against.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see     java.net.InetAddress#getAddress()
+     * @see     java.base.share.classes.java.net.InetAddress#getAddress()
      */
     public boolean equals(Object obj) {
         return false;
@@ -1265,8 +1265,8 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
     static final InetAddressImpl  impl;
 
     /**
-     * Platform-wide {@code LookupPolicy} initialized from {@code "java.net.preferIPv4Stack"},
-     * {@code "java.net.preferIPv6Addresses"} system properties.
+     * Platform-wide {@code LookupPolicy} initialized from {@code "java.base.share.classes.java.net.preferIPv4Stack"},
+     * {@code "java.base.share.classes.java.net.preferIPv6Addresses"} system properties.
      */
     static final LookupPolicy PLATFORM_LOOKUP_POLICY;
 
@@ -1723,7 +1723,7 @@ public sealed class InetAddress implements Serializable permits Inet4Address, In
      *             be resolved into an address.
      *
      * @see SecurityManager#checkConnect
-     * @see java.net.InetAddress#getByName(java.lang.String)
+     * @see java.base.share.classes.java.net.InetAddress#getByName(java.lang.String)
      */
     public static InetAddress getLocalHost() throws UnknownHostException {
 

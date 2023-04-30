@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -232,7 +232,7 @@ public final class FileDescriptor {
 
     /**
      * Register a cleanup for the current handle.
-     * Used directly in java.io and indirectly via fdAccess.
+     * Used directly in java.base.share.classes.java.io and indirectly via fdAccess.
      * The cleanup should be registered after the handle is set in the FileDescriptor.
      * @param cleanable a PhantomCleanable to register
      */
@@ -246,7 +246,7 @@ public final class FileDescriptor {
 
     /**
      * Unregister a cleanup for the current raw fd or handle.
-     * Used directly in java.io and indirectly via fdAccess.
+     * Used directly in java.base.share.classes.java.io and indirectly via fdAccess.
      * Normally {@link #close()} should be used except in cases where
      * it is certain the caller will close the raw fd and the cleanup
      * must not close the raw fd.  {@link #unregisterCleanup()} must be
@@ -265,7 +265,7 @@ public final class FileDescriptor {
      * Close the raw file descriptor or handle, if it has not already been closed.
      * The native code sets the fd and handle to -1.
      * Clear the cleaner so the close does not happen twice.
-     * Package private to allow it to be used in java.io.
+     * Package private to allow it to be used in java.base.share.classes.java.io.
      * @throws IOException if close fails
      */
     synchronized void close() throws IOException {

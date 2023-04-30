@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.net.*;
+import java.base.share.classes.java.net.*;
 import java.util.Formatter;
 import java.util.Locale;
 import sun.net.util.IPAddressUtil;

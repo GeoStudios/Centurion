@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Serializability of a class is enabled by the class implementing the
- * java.io.Serializable interface.
+ * java.base.share.classes.java.io.Serializable interface.
  *
  * <p><strong>Warning: Deserialization of untrusted data is inherently dangerous
  * and should be avoided. Untrusted data should be carefully validated according to the
@@ -46,9 +46,9 @@ package java.io;
  * signatures:
  *
  * <PRE>
- * private void writeObject(java.io.ObjectOutputStream out)
+ * private void writeObject(java.base.share.classes.java.io.ObjectOutputStream out)
  *     throws IOException
- * private void readObject(java.io.ObjectInputStream in)
+ * private void readObject(java.base.share.classes.java.io.ObjectInputStream in)
  *     throws IOException, ClassNotFoundException;
  * private void readObjectNoData()
  *     throws ObjectStreamException;
@@ -160,11 +160,11 @@ package java.io;
  * the default computed value, but the requirement for matching
  * serialVersionUID values is waived for array classes.
  *
- * @see java.io.ObjectOutputStream
- * @see java.io.ObjectInputStream
- * @see java.io.ObjectOutput
- * @see java.io.ObjectInput
- * @see java.io.Externalizable
+ * @see java.base.share.classes.java.io.ObjectOutputStream
+ * @see java.base.share.classes.java.io.ObjectInputStream
+ * @see java.base.share.classes.java.io.ObjectOutput
+ * @see java.base.share.classes.java.io.ObjectInput
+ * @see java.base.share.classes.java.io.Externalizable
  * @see <a href="{@docRoot}/../specs/serialization/index.html">
  *      <cite>Java Object Serialization Specification</cite></a>
  * @since Pre Java 1

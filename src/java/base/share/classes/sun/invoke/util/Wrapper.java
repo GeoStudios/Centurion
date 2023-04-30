@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.invoke.util;
+package java.base.share.classes.sun.invoke.util;
 
 import jdk.internal.vm.annotation.DontInline;
 

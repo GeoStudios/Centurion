@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net;
+package java.base.share.classes.sun.net;
 
 import java.io.*;
 import java.util.Vector;
@@ -12,8 +12,8 @@ import java.util.Vector;
  * It is used by subclasses implementing specific protocols.
  *
  * @author      Jonathan Payne
- * @see         sun.net.ftp.FtpClient
- * @see         sun.net.nntp.NntpClient
+ * @see         java.base.share.classes.sun.net.ftp.FtpClient
+ * @see         java.base.share.classes.sun.net.nntp.NntpClient
  */
 
 public class TransferProtocolClient extends NetworkClient {

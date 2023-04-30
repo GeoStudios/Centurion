@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.util.*;
 
-import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 
-import java.security.Provider.Service;
+import java.base.share.classes.java.security.Provider.Service;
 
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.Instance;
@@ -35,7 +35,7 @@ import sun.security.util.Debug;
  * algorithms (e.g., in the case of the <i>DSA</i> algorithm, the keysize
  * corresponds to the length of the modulus).
  * There is an
- * {@link #initialize(int, java.security.SecureRandom) initialize}
+ * {@link #initialize(int, java.base.share.classes.java.security.SecureRandom) initialize}
  * method in this {@code KeyPairGenerator} class that takes these two universally
  * shared types of arguments. There is also one that takes just a
  * {@code keysize} argument, and uses the {@code SecureRandom}
@@ -61,7 +61,7 @@ import sun.security.util.Debug;
  * <li><b>Algorithm-Specific Initialization</b>
  * <p>For situations where a set of algorithm-specific parameters already
  * exists (e.g., so-called <i>community parameters</i> in DSA), there are two
- * {@link #initialize(java.security.spec.AlgorithmParameterSpec)
+ * {@link #initialize(java.base.share.classes.java.security.spec.AlgorithmParameterSpec)
  * initialize} methods that have an {@code AlgorithmParameterSpec}
  * argument. One also has a {@code SecureRandom} argument, while
  * the other uses the {@code SecureRandom}
@@ -109,7 +109,7 @@ import sun.security.util.Debug;
  * @author Benjamin Renaud
  * @since 1.1
  *
- * @see java.security.spec.AlgorithmParameterSpec
+ * @see java.base.share.classes.java.security.spec.AlgorithmParameterSpec
  */
 
 public abstract class KeyPairGenerator extends KeyPairGeneratorSpi {
@@ -396,8 +396,8 @@ public abstract class KeyPairGenerator extends KeyPairGeneratorSpi {
      * abstract class.
      * This method calls the KeyPairGeneratorSpi
      * {@link KeyPairGeneratorSpi#initialize(
-     * java.security.spec.AlgorithmParameterSpec,
-     * java.security.SecureRandom) initialize} method,
+     * java.base.share.classes.java.security.spec.AlgorithmParameterSpec,
+     * java.base.share.classes.java.security.SecureRandom) initialize} method,
      * passing it {@code params} and a source of randomness (obtained
      * from the highest-priority installed provider or system-provided if none
      * of the installed providers supply one).
@@ -424,8 +424,8 @@ public abstract class KeyPairGenerator extends KeyPairGeneratorSpi {
      * abstract class.
      * This method calls the KeyPairGeneratorSpi {@link
      * KeyPairGeneratorSpi#initialize(
-     * java.security.spec.AlgorithmParameterSpec,
-     * java.security.SecureRandom) initialize} method,
+     * java.base.share.classes.java.security.spec.AlgorithmParameterSpec,
+     * java.base.share.classes.java.security.SecureRandom) initialize} method,
      * passing it {@code params} and {@code random}.
      * That {@code initialize}
      * method always throws an {@code UnsupportedOperationException}

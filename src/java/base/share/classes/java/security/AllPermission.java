@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import sun.security.util.SecurityConstants;
 
@@ -20,10 +20,10 @@ import java.util.Enumeration;
  * completely trusted and adding the necessary permissions to the policy
  * is prohibitively cumbersome.
  *
- * @see java.security.Permission
- * @see java.security.AccessController
- * @see java.security.Permissions
- * @see java.security.PermissionCollection
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.AccessController
+ * @see java.base.share.classes.java.security.Permissions
+ * @see java.base.share.classes.java.security.PermissionCollection
  * @see java.lang.SecurityManager
  *
  *
@@ -120,8 +120,8 @@ public final class AllPermission extends Permission {
  * order, but enable the implies function to evaluate the implies
  * method in an efficient (and consistent) manner.
  *
- * @see java.security.Permission
- * @see java.security.Permissions
+ * @see java.base.share.classes.java.security.Permission
+ * @see java.base.share.classes.java.security.Permissions
  *
  *
  * @author Roland Schemers

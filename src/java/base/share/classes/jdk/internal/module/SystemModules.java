@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 import java.lang.module.ModuleDescriptor;
 import java.util.Map;

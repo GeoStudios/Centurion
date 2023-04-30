@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.vm;
+package java.base.share.classes.jdk.internal.vm;
 
 import java.util.Objects;
 

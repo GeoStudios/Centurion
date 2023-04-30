@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -64,7 +64,7 @@ import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
  * A method invocation on a proxy instance through one of its proxy
  * interfaces will be dispatched to the {@link InvocationHandler#invoke
  * invoke} method of the instance's invocation handler, passing the proxy
- * instance, a {@code java.lang.reflect.Method} object identifying
+ * instance, a {@code java.base.share.classes.java.lang.reflect.Method} object identifying
  * the method that was invoked, and an array of type {@code Object}
  * containing the arguments.  The invocation handler processes the
  * encoded method invocation as appropriate and the result that it
@@ -83,7 +83,7 @@ import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
  *
  * <li>A proxy class is <em>final and non-abstract</em>.
  *
- * <li>A proxy class extends {@code java.lang.reflect.Proxy}.
+ * <li>A proxy class extends {@code java.base.share.classes.java.lang.reflect.Proxy}.
  *
  * <li>A proxy class implements exactly the interfaces specified at its
  * creation, in the same order. Invoking {@link Class#getInterfaces() getInterfaces}

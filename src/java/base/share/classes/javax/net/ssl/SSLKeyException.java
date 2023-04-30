@@ -3,7 +3,7 @@
  */
 
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 /**
  * Reports a bad SSL key.  Normally, this indicates misconfiguration

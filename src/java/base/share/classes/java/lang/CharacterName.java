@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.util.ArraysSupport;
 
 import java.io.DataInputStream;
 import java.io.InputStream;
-import java.lang.ref.SoftReference;
+import java.base.share.classes.java.lang.ref.SoftReference;
 import java.util.Arrays;
 import java.util.zip.InflaterInputStream;
 import java.security.AccessController;

@@ -2,19 +2,19 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.annotation.Annotation;
-import java.lang.module.Configuration;
-import java.lang.module.ModuleReference;
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ModuleDescriptor.Exports;
-import java.lang.module.ModuleDescriptor.Opens;
-import java.lang.module.ModuleDescriptor.Version;
-import java.lang.module.ResolvedModule;
-import java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.module.Configuration;
+import java.base.share.classes.java.lang.module.ModuleReference;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Exports;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Opens;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Version;
+import java.base.share.classes.java.lang.module.ResolvedModule;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
 import java.net.URI;
 import java.net.URL;
 import java.security.AccessController;
@@ -69,7 +69,7 @@ import sun.security.util.SecurityConstants;
  * <p> The package names that are parameters or returned by methods defined in
  * this class are the fully-qualified names of the packages as defined in
  * section {@jls 6.5.3} of <cite>The Java Language Specification</cite>, for
- * example, {@code "java.lang"}. </p>
+ * example, {@code "java.base.share.classes.java.lang"}. </p>
  *
  * <p> Unless otherwise specified, passing a {@code null} argument to a method
  * in this class causes a {@link NullPointerException NullPointerException} to
@@ -223,7 +223,7 @@ public final class Module implements AnnotatedElement {
      *
      * @return The module layer that contains this module
      *
-     * @see java.lang.reflect.Proxy
+     * @see java.base.share.classes.java.lang.reflect.Proxy
      */
     public ModuleLayer getLayer() {
         if (isNamed()) {
@@ -585,11 +585,11 @@ public final class Module implements AnnotatedElement {
      * <p> This method does not check if the given module reads this module. </p>
      *
      * @apiNote A package {@code p} opened to module {@code M} allows code in
-     * {@code M} do {@linkplain java.lang.reflect.AccessibleObject#setAccessible(boolean)
+     * {@code M} do {@linkplain java.base.share.classes.java.lang.reflect.AccessibleObject#setAccessible(boolean)
      * deep reflection} on all types in the package.
      * Further, if {@code M} reads this module, it can obtain a
-     * {@link java.lang.invoke.MethodHandles.Lookup Lookup} object that is allowed to
-     * {@link java.lang.invoke.MethodHandles.Lookup#defineClass(byte[]) define classes}
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup Lookup} object that is allowed to
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineClass(byte[]) define classes}
      * in package {@code p}.
      *
      * @param  pn
@@ -602,8 +602,8 @@ public final class Module implements AnnotatedElement {
      *
      * @see ModuleDescriptor#opens()
      * @see #addOpens(String,Module)
-     * @see java.lang.reflect.AccessibleObject#setAccessible(boolean)
-     * @see java.lang.invoke.MethodHandles#privateLookupIn
+     * @see java.base.share.classes.java.lang.reflect.AccessibleObject#setAccessible(boolean)
+     * @see java.base.share.classes.java.lang.invoke.MethodHandles#privateLookupIn
      */
     public boolean isOpen(String pn, Module other) {
         Objects.requireNonNull(pn);
@@ -646,11 +646,11 @@ public final class Module implements AnnotatedElement {
      * <p> This method does not check if the given module reads this module. </p>
      *
      * @apiNote A package {@code p} opened to module {@code M} allows code in
-     * {@code M} do {@linkplain java.lang.reflect.AccessibleObject#setAccessible(boolean)
+     * {@code M} do {@linkplain java.base.share.classes.java.lang.reflect.AccessibleObject#setAccessible(boolean)
      * deep reflection} on all types in the package.
      * Further, if {@code M} reads this module, it can obtain a
-     * {@link java.lang.invoke.MethodHandles.Lookup Lookup} object that is allowed to
-     * {@link java.lang.invoke.MethodHandles.Lookup#defineClass(byte[]) define classes}
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup Lookup} object that is allowed to
+     * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineClass(byte[]) define classes}
      * in package {@code p}.
      *
      * @param  pn
@@ -660,8 +660,8 @@ public final class Module implements AnnotatedElement {
      *         unconditionally
      *
      * @see ModuleDescriptor#opens()
-     * @see java.lang.reflect.AccessibleObject#setAccessible(boolean)
-     * @see java.lang.invoke.MethodHandles#privateLookupIn
+     * @see java.base.share.classes.java.lang.reflect.AccessibleObject#setAccessible(boolean)
+     * @see java.base.share.classes.java.lang.invoke.MethodHandles#privateLookupIn
      */
     public boolean isOpen(String pn) {
         Objects.requireNonNull(pn);
@@ -882,8 +882,8 @@ public final class Module implements AnnotatedElement {
      *         package to at least the caller's module
      *
      * @see #isOpen(String,Module)
-     * @see java.lang.reflect.AccessibleObject#setAccessible(boolean)
-     * @see java.lang.invoke.MethodHandles#privateLookupIn
+     * @see java.base.share.classes.java.lang.reflect.AccessibleObject#setAccessible(boolean)
+     * @see java.base.share.classes.java.lang.invoke.MethodHandles#privateLookupIn
      */
     @CallerSensitive
     public Module addOpens(String pn, Module other) {

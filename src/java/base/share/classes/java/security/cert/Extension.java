@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -36,7 +36,7 @@ import java.io.OutputStream;
  *
  * <p>
  * This interface is designed to provide access to a single extension,
- * unlike {@link java.security.cert.X509Extension} which is more suitable
+ * unlike {@link java.base.share.classes.java.security.cert.X509Extension} which is more suitable
  * for accessing a set of extensions.
  *
  * @since 1.7

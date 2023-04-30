@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 /**
  * Signals that an error has been reached unexpectedly
  * while parsing.
  * @see java.lang.Exception
- * @see java.text.Format
- * @see java.text.FieldPosition
+ * @see java.base.share.classes.java.text.Format
+ * @see java.base.share.classes.java.text.FieldPosition
  * @author      Mark Davis
  * @since 1.1
  */

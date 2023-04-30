@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.Serializable;
-import java.util.function.Function;
-import java.util.function.ToIntFunction;
-import java.util.function.ToLongFunction;
-import java.util.function.ToDoubleFunction;
-import java.util.Comparators;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.ToIntFunction;
+import java.base.share.classes.java.util.function.ToLongFunction;
+import java.base.share.classes.java.util.function.ToDoubleFunction;
+import java.base.share.classes.java.util.Comparators;
 
 /**
  * A comparison function, which imposes a <i>total ordering</i> on

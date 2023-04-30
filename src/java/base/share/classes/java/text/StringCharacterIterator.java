@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 /**
  * {@code StringCharacterIterator} implements the
@@ -70,7 +70,7 @@ public final class StringCharacterIterator implements CharacterIterator
 
     /**
      * Reset this iterator to point to a new string.  This package-visible
-     * method is used by other java.text classes that want to avoid allocating
+     * method is used by other java.base.share.classes.java.text classes that want to avoid allocating
      * new StringCharacterIterator objects every time their setText method
      * is called.
      *

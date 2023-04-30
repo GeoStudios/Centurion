@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
-import static java.text.DateFormatSymbols.*;
+import static java.base.share.classes.java.text.DateFormatSymbols.*;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -478,7 +478,7 @@ public class SimpleDateFormat extends DateFormat {
     /**
      * Locale dependent digit zero.
      * @see #zeroPaddingNumber
-     * @see java.text.DecimalFormatSymbols#getZeroDigit
+     * @see java.base.share.classes.java.text.DecimalFormatSymbols#getZeroDigit
      */
     private transient char zeroDigit;
 
@@ -486,7 +486,7 @@ public class SimpleDateFormat extends DateFormat {
      * The symbols used by this formatter for week names, month names,
      * etc.  May not be null.
      * @serial
-     * @see java.text.DateFormatSymbols
+     * @see java.base.share.classes.java.text.DateFormatSymbols
      */
     private DateFormatSymbols formatData;
 

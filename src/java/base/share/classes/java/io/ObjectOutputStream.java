@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -22,7 +22,7 @@ import sun.reflect.misc.ReflectUtil;
  * using a file for the stream.  If the stream is a network socket stream, the
  * objects can be reconstituted on another host or in another process.
  *
- * <p>Only objects that support the java.io.Serializable interface can be
+ * <p>Only objects that support the java.base.share.classes.java.io.Serializable interface can be
  * written to streams.  The class of each serializable object is encoded
  * including the class name and signature of the class, the values of the
  * object's fields and arrays, and the closure of any other objects referenced
@@ -63,9 +63,9 @@ import sun.reflect.misc.ReflectUtil;
  * with the following signatures:
  *
  * {@snippet lang="java":
- *     private void readObject(java.io.ObjectInputStream stream)
+ *     private void readObject(java.base.share.classes.java.io.ObjectInputStream stream)
  *         throws IOException, ClassNotFoundException;
- *     private void writeObject(java.io.ObjectOutputStream stream)
+ *     private void writeObject(java.base.share.classes.java.io.ObjectOutputStream stream)
  *         throws IOException;
  *     private void readObjectNoData()
  *         throws ObjectStreamException;
@@ -86,7 +86,7 @@ import sun.reflect.misc.ReflectUtil;
  * supported by DataOutput.
  *
  * <p>Serialization does not write out the fields of any object that does not
- * implement the java.io.Serializable interface.  Subclasses of Objects that
+ * implement the java.base.share.classes.java.io.Serializable interface.  Subclasses of Objects that
  * are not serializable can be serializable. In this case the non-serializable
  * class must have a no-arg constructor to allow its fields to be initialized.
  * In this case it is the responsibility of the subclass to save and restore
@@ -134,10 +134,10 @@ import sun.reflect.misc.ReflectUtil;
  * <p>Records are serialized differently than ordinary serializable or externalizable
  * objects, see <a href="ObjectInputStream.html#record-serialization">record serialization</a>.
  * 
- * @see java.io.DataOutput
- * @see java.io.ObjectInputStream
- * @see java.io.Serializable
- * @see java.io.Externalizable
+ * @see java.base.share.classes.java.io.DataOutput
+ * @see java.base.share.classes.java.io.ObjectInputStream
+ * @see java.base.share.classes.java.io.Serializable
+ * @see java.base.share.classes.java.io.Externalizable
  * @see <a href="{@docRoot}/../specs/serialization/output.html">
  *      <cite>Java Object Serialization Specification,</cite> Section 2, "Object Output Classes"</a>
  * @since Pre Java 1
@@ -254,7 +254,7 @@ public class ObjectOutputStream
      *          subclassing.
      * @throws  IOException if an I/O error occurs while creating this stream
      * @see SecurityManager#checkPermission
-     * @see java.io.SerializablePermission
+     * @see java.base.share.classes.java.io.SerializablePermission
      */
     protected ObjectOutputStream() throws IOException, SecurityException {
         @SuppressWarnings("removal")
@@ -280,13 +280,13 @@ public class ObjectOutputStream
      * backwards incompatibilities; however, sometimes there is no
      * other alternative.
      *
-     * @param   version use ProtocolVersion from java.io.ObjectStreamConstants.
+     * @param   version use ProtocolVersion from java.base.share.classes.java.io.ObjectStreamConstants.
      * @throws  IllegalStateException if called after any objects
      *          have been serialized.
      * @throws  IllegalArgumentException if invalid version is passed in.
      * @throws  IOException if I/O errors occur
-     * @see java.io.ObjectStreamConstants#PROTOCOL_VERSION_1
-     * @see java.io.ObjectStreamConstants#PROTOCOL_VERSION_2
+     * @see java.base.share.classes.java.io.ObjectStreamConstants#PROTOCOL_VERSION_1
+     * @see java.base.share.classes.java.io.ObjectStreamConstants#PROTOCOL_VERSION_2
      * @since   1.2
      */
     public void useProtocolVersion(int version) throws IOException {
@@ -323,7 +323,7 @@ public class ObjectOutputStream
      * @throws  InvalidClassException Something is wrong with a class used by
      *          serialization.
      * @throws  NotSerializableException Some object to be serialized does not
-     *          implement the java.io.Serializable interface.
+     *          implement the java.base.share.classes.java.io.Serializable interface.
      * @throws  IOException Any exception thrown by the underlying
      *          OutputStream.
      */
@@ -596,7 +596,7 @@ public class ObjectOutputStream
      *          {@code checkPermission} method denies enabling the stream
      *          to do replacement of objects written to the stream.
      * @see SecurityManager#checkPermission
-     * @see java.io.SerializablePermission
+     * @see java.base.share.classes.java.io.SerializablePermission
      */
     protected boolean enableReplaceObject(boolean enable)
         throws SecurityException
@@ -649,9 +649,9 @@ public class ObjectOutputStream
      *
      * @param   desc class descriptor to write to the stream
      * @throws  IOException If an I/O error has occurred.
-     * @see java.io.ObjectInputStream#readClassDescriptor()
+     * @see java.base.share.classes.java.io.ObjectInputStream#readClassDescriptor()
      * @see #useProtocolVersion(int)
-     * @see java.io.ObjectStreamConstants#PROTOCOL_VERSION_1
+     * @see java.base.share.classes.java.io.ObjectStreamConstants#PROTOCOL_VERSION_1
      * @since 1.3
      */
     protected void writeClassDescriptor(ObjectStreamClass desc)
@@ -1000,7 +1000,7 @@ public class ObjectOutputStream
          *         {@code PutField} object in a proper format, and may
          *         result in corruption of the serialization stream.  The
          *         correct way to write {@code PutField} data is by
-         *         calling the {@link java.io.ObjectOutputStream#writeFields()}
+         *         calling the {@link java.base.share.classes.java.io.ObjectOutputStream#writeFields()}
          *         method.
          */
         @Deprecated

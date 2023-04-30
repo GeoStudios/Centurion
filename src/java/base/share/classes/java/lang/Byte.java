@@ -2,19 +2,19 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import java.lang.constant.Constable;
-import java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
 import java.util.Optional;
 
-import static java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
-import static java.lang.constant.ConstantDescs.CD_byte;
-import static java.lang.constant.ConstantDescs.CD_int;
-import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_byte;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;
 
 /**
  *
@@ -33,7 +33,7 @@ import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
  * use instances for synchronization, or unpredictable behavior may
  * occur. For example, in a future release, synchronization may fail.
  *
- * @see     java.lang.Number
+ * @see     java.base.share.classes.java.lang.Number
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -66,7 +66,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      *
      * @param b the {@code byte} to be converted
      * @return the string representation of the specified {@code byte}
-     * @see java.lang.Integer#toString(int)
+     * @see java.base.share.classes.java.lang.Integer#toString(int)
      */
     public static String toString(byte b) {
         return Integer.toString(b);
@@ -130,7 +130,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * Parses the string argument as a signed {@code byte} in the
      * radix specified by the second argument. The characters in the
      * string must all be digits, of the specified radix (as
-     * determined by whether {@link java.lang.Character#digit(char,
+     * determined by whether {@link java.base.share.classes.java.lang.Character#digit(char,
      * int)} returns a nonnegative value) except that the first
      * character may be an ASCII minus sign {@code '-'}
      * ({@code '\u005Cu002D'}) to indicate a negative value or an
@@ -145,8 +145,8 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * length zero.
      *
      * <li> The radix is either smaller than {@link
-     * java.lang.Character#MIN_RADIX} or larger than {@link
-     * java.lang.Character#MAX_RADIX}.
+     * java.base.share.classes.java.lang.Character#MIN_RADIX} or larger than {@link
+     * java.base.share.classes.java.lang.Character#MAX_RADIX}.
      *
      * <li> Any character of the string is not a digit of the
      * specified radix, except that the first character may be a minus
@@ -185,7 +185,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * ({@code '\u005Cu002B'}) to indicate a positive value. The
      * resulting {@code byte} value is returned, exactly as if the
      * argument and the radix 10 were given as arguments to the {@link
-     * #parseByte(java.lang.String, int)} method.
+     * #parseByte(java.base.share.classes.java.lang.String, int)} method.
      *
      * @param s         a {@code String} containing the
      *                  {@code byte} representation to be parsed
@@ -204,7 +204,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * with the radix given by the second argument. The first argument
      * is interpreted as representing a signed {@code byte} in
      * the radix specified by the second argument, exactly as if the
-     * argument were given to the {@link #parseByte(java.lang.String,
+     * argument were given to the {@link #parseByte(java.base.share.classes.java.lang.String,
      * int)} method. The result is a {@code Byte} object that
      * represents the {@code byte} value specified by the string.
      *
@@ -233,7 +233,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * given by the specified {@code String}. The argument is
      * interpreted as representing a signed decimal {@code byte},
      * exactly as if the argument were given to the {@link
-     * #parseByte(java.lang.String)} method. The result is a
+     * #parseByte(java.base.share.classes.java.lang.String)} method. The result is a
      * {@code Byte} object that represents the {@code byte}
      * value specified by the string.
      *
@@ -294,7 +294,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      *          value represented by {@code nm}
      * @throws  NumberFormatException  if the {@code String} does not
      *            contain a parsable {@code byte}.
-     * @see java.lang.Byte#parseByte(java.lang.String, int)
+     * @see java.base.share.classes.java.lang.Byte#parseByte(java.base.share.classes.java.lang.String, int)
      */
     public static Byte decode(String nm) throws NumberFormatException {
         int i = Integer.decode(nm);
@@ -410,7 +410,7 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
      * {@code Byte}'s value.  The value is converted to signed
      * decimal representation and returned as a string, exactly as if
      * the {@code byte} value were given as an argument to the
-     * {@link java.lang.Byte#toString(byte)} method.
+     * {@link java.base.share.classes.java.lang.Byte#toString(byte)} method.
      *
      * @return  a string representation of the value of this object in
      *          base&nbsp;10.

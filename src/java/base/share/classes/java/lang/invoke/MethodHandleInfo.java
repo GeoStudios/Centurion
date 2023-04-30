@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.lang.reflect.*;
 import java.util.*;
-import java.lang.invoke.MethodHandleNatives.Constants;
-import java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandleStatics.*;
+import java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**
  * A symbolic reference obtained by cracking a direct method handle
@@ -47,7 +47,7 @@ import static java.lang.invoke.MethodHandleStatics.*;
  * <p>
  * If the underlying method is <a href="MethodHandles.Lookup.html#callsens">caller sensitive</a>,
  * the direct method handle will have been "bound" to a particular caller class, the
- * {@linkplain java.lang.invoke.MethodHandles.Lookup#lookupClass() lookup class}
+ * {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#lookupClass() lookup class}
  * of the lookup object used to create it.
  * Cracking this method handle with a different lookup class will fail
  * even if the underlying method is public (like {@code Class.forName}).
@@ -55,7 +55,7 @@ import static java.lang.invoke.MethodHandleStatics.*;
  * The requirement of lookup object matching provides a "fast fail" behavior
  * for programs which may otherwise trust erroneous revelation of a method
  * handle with symbolic information (or caller binding) from an unexpected scope.
- * Use {@link java.lang.invoke.MethodHandles#reflectAs} to override this limitation.
+ * Use {@link java.base.share.classes.java.lang.invoke.MethodHandles#reflectAs} to override this limitation.
  *
  * <h2><a id="refkinds"></a>Reference kinds</h2>
  * The <a href="MethodHandles.Lookup.html#lookups">Lookup Factory Methods</a>

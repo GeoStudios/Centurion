@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * The {@code DataInput} interface provides
@@ -128,8 +128,8 @@ package java.io;
  * <li><a href="../lang/Character.html#unicode">Supplementary characters</a>
  *     are represented in the form of surrogate pairs.
  * </ul>
- * @see     java.io.DataInputStream
- * @see     java.io.DataOutput
+ * @see     java.base.share.classes.java.io.DataInputStream
+ * @see     java.base.share.classes.java.io.DataOutput
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023

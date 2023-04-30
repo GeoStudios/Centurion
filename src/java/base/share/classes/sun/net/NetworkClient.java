@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net;
+package java.base.share.classes.sun.net;
 
 import java.io.*;
 import java.net.Socket;
@@ -51,8 +51,8 @@ public class NetworkClient {
         AccessController.doPrivileged(
                 new PrivilegedAction<>() {
                     public Void run() {
-                        vals[0] = Integer.getInteger("sun.net.client.defaultReadTimeout", 0).intValue();
-                        vals[1] = Integer.getInteger("sun.net.client.defaultConnectTimeout", 0).intValue();
+                        vals[0] = Integer.getInteger("java.base.share.classes.sun.net.client.defaultReadTimeout", 0).intValue();
+                        vals[1] = Integer.getInteger("java.base.share.classes.sun.net.client.defaultConnectTimeout", 0).intValue();
                         encs[0] = System.getProperty("file.encoding", "ISO8859_1");
                         return null;
             }

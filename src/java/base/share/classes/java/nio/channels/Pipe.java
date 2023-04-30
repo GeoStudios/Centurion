@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
-import java.nio.channels.spi.*;
+import java.base.share.classes.java.nio.channels.spi.*;
 
 
 /**
@@ -121,8 +121,8 @@ public abstract class Pipe {
      * Opens a pipe.
      *
      * <p> The new pipe is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openPipe openPipe} method of the
-     * system-wide default {@link java.nio.channels.spi.SelectorProvider}
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openPipe openPipe} method of the
+     * system-wide default {@link java.base.share.classes.java.nio.channels.spi.SelectorProvider}
      * object.  </p>
      *
      * @return  A new pipe

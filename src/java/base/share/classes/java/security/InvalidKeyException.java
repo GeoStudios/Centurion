@@ -3,7 +3,7 @@
  */
 
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * This is the exception for invalid Keys (invalid encoding, wrong

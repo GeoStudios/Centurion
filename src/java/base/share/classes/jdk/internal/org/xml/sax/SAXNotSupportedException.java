@@ -8,7 +8,7 @@
 // NO WARRANTY!  This class is in the Public Domain.
 // $Id: SAXNotSupportedException.java,v 1.4 2004/11/03 22:55:32 jsuttor Exp $
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
 
 /**
  * Exception class for an unsupported operation.

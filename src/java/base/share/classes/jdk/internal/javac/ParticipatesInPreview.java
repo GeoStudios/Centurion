@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.javac;
+package java.base.share.classes.jdk.internal.javac;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

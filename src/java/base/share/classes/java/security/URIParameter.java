@@ -3,7 +3,7 @@
  */
 
 
-package java.security;
+package java.base.share.classes.java.security;
 
 /**
  * A parameter that contains a URI pointing to data intended for a

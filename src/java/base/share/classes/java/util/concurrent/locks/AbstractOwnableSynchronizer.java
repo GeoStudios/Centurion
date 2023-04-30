@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.locks;
+package java.base.share.classes.java.util.concurrent.locks;
 
 /**
  * A synchronizer that may be exclusively owned by a thread.  This

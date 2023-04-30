@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.net.MalformedURLException;
 import java.util.*;
@@ -26,7 +26,7 @@ import sun.security.jca.*;
  *
  * <p>The default values of security properties are read from an
  * implementation-specific location, which is typically the properties file
- * {@code conf/security/java.security} in the Java installation directory.
+ * {@code conf/security/java.base.share.classes.java.security} in the Java installation directory.
  *
  * @implNote If the properties file fails to load, the JDK implementation will
  * throw an unspecified error when initializing the {@code Security} class.
@@ -41,7 +41,7 @@ public final class Security {
     private static final Debug sdebug =
                         Debug.getInstance("properties");
 
-    /* The java.security properties */
+    /* The java.base.share.classes.java.security properties */
     private static Properties props;
 
     /* cache a copy for recording purposes */
@@ -78,17 +78,17 @@ public final class Security {
 
         // first load the system properties file
         // to determine the value of security.overridePropertiesFile
-        File propFile = securityPropFile("java.security");
+        File propFile = securityPropFile("java.base.share.classes.java.security");
         boolean success = loadProps(propFile, null, false);
         if (!success) {
-            throw new InternalError("Error loading java.security file");
+            throw new InternalError("Error loading java.base.share.classes.java.security file");
         }
 
         if ("true".equalsIgnoreCase(props.getProperty
                 ("security.overridePropertiesFile"))) {
 
             String extraPropFile = System.getProperty
-                    ("java.security.properties");
+                    ("java.base.share.classes.java.security.properties");
             if (extraPropFile != null && extraPropFile.startsWith("=")) {
                 overrideAll = true;
                 extraPropFile = extraPropFile.substring(1);
@@ -138,13 +138,13 @@ public final class Security {
                 // ExceptionInInitializerError if masterFile.getName() is
                 // called here (NPE!). Leave as is (and few lines down)
                 sdebug.println("reading security properties file: " +
-                        masterFile == null ? extraPropFile : "java.security");
+                        masterFile == null ? extraPropFile : "java.base.share.classes.java.security");
             }
             return true;
         } catch (IOException | PropertyExpander.ExpandException e) {
             if (sdebug != null) {
                 sdebug.println("unable to load security properties from " +
-                        masterFile == null ? extraPropFile : "java.security");
+                        masterFile == null ? extraPropFile : "java.base.share.classes.java.security");
                 e.printStackTrace();
             }
             return false;
@@ -309,7 +309,7 @@ public final class Security {
      *
      * @see #getProvider
      * @see #removeProvider
-     * @see java.security.SecurityPermission
+     * @see java.base.share.classes.java.security.SecurityPermission
      */
     public static synchronized int insertProviderAt(Provider provider,
             int position) {
@@ -349,7 +349,7 @@ public final class Security {
      *
      * @see #getProvider
      * @see #removeProvider
-     * @see java.security.SecurityPermission
+     * @see java.base.share.classes.java.security.SecurityPermission
      */
     public static int addProvider(Provider provider) {
         /*
@@ -431,7 +431,7 @@ public final class Security {
      * specified selection criterion, or {@code null} if no such providers
      * have been installed. The returned providers are ordered
      * according to their
-     * {@linkplain #insertProviderAt(java.security.Provider, int) preference order}.
+     * {@linkplain #insertProviderAt(java.base.share.classes.java.security.Provider, int) preference order}.
      *
      * <p> A cryptographic service is always associated with a particular
      * algorithm or type. For example, a digital signature service is
@@ -516,7 +516,7 @@ public final class Security {
      * specified selection criteria, or {@code null} if no such providers have
      * been installed. The returned providers are ordered
      * according to their
-     * {@linkplain #insertProviderAt(java.security.Provider, int)
+     * {@linkplain #insertProviderAt(java.base.share.classes.java.security.Provider, int)
      * preference order}.
      *
      * <p>The selection criteria are represented by a map.
@@ -602,7 +602,7 @@ public final class Security {
 
     /**
      * Return the Class object for the given engine type
-     * (e.g. "MessageDigest"). Works for Spis in the java.security package
+     * (e.g. "MessageDigest"). Works for Spis in the java.base.share.classes.java.security package
      * only.
      */
     private static Class<?> getSpiClass(String type) {
@@ -611,7 +611,7 @@ public final class Security {
             return clazz;
         }
         try {
-            clazz = Class.forName("java.security." + type + "Spi");
+            clazz = Class.forName("java.base.share.classes.java.security." + type + "Spi");
             spiMap.put(type, clazz);
             return clazz;
         } catch (ClassNotFoundException e) {
@@ -675,7 +675,7 @@ public final class Security {
      *
      * <p>First, if there is a security manager, its
      * {@code checkPermission}  method is called with a
-     * {@code java.security.SecurityPermission("getProperty."+key)}
+     * {@code java.base.share.classes.java.security.SecurityPermission("getProperty."+key)}
      * permission to see if it's ok to retrieve the specified
      * security property value.
      *
@@ -691,7 +691,7 @@ public final class Security {
      * @throws  NullPointerException is key is {@code null}
      *
      * @see #setProperty
-     * @see java.security.SecurityPermission
+     * @see java.base.share.classes.java.security.SecurityPermission
      */
     public static String getProperty(String key) {
         @SuppressWarnings("removal")
@@ -711,7 +711,7 @@ public final class Security {
      *
      * <p>First, if there is a security manager, its
      * {@code checkPermission} method is called with a
-     * {@code java.security.SecurityPermission("setProperty."+key)}
+     * {@code java.base.share.classes.java.security.SecurityPermission("setProperty."+key)}
      * permission to see if it's ok to set the specified
      * security property value.
      *
@@ -726,7 +726,7 @@ public final class Security {
      * @throws  NullPointerException if key or datum is {@code null}
      *
      * @see #getProperty
-     * @see java.security.SecurityPermission
+     * @see java.base.share.classes.java.security.SecurityPermission
      */
     public static void setProperty(String key, String datum) {
         check("setProperty." + key);

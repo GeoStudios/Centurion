@@ -2,19 +2,19 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import java.lang.constant.Constable;
-import java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
 import java.util.Optional;
 
-import static java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
-import static java.lang.constant.ConstantDescs.CD_int;
-import static java.lang.constant.ConstantDescs.CD_short;
-import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_short;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;
 
 /**
  * The {@code Short} class wraps a value of primitive type {@code
@@ -32,7 +32,7 @@ import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
  * use instances for synchronization, or unpredictable behavior may
  * occur. For example, in a future release, synchronization may fail.
  *
- * @see     java.lang.Number
+ * @see     java.base.share.classes.java.lang.Number
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -65,7 +65,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      *
      * @param s the {@code short} to be converted
      * @return the string representation of the specified {@code short}
-     * @see java.lang.Integer#toString(int)
+     * @see java.base.share.classes.java.lang.Integer#toString(int)
      */
     public static String toString(short s) {
         return Integer.toString(s);
@@ -75,7 +75,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * Parses the string argument as a signed {@code short} in the
      * radix specified by the second argument. The characters in the
      * string must all be digits, of the specified radix (as
-     * determined by whether {@link java.lang.Character#digit(char,
+     * determined by whether {@link java.base.share.classes.java.lang.Character#digit(char,
      * int)} returns a nonnegative value) except that the first
      * character may be an ASCII minus sign {@code '-'}
      * ({@code '\u005Cu002D'}) to indicate a negative value or an
@@ -90,8 +90,8 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * length zero.
      *
      * <li> The radix is either smaller than {@link
-     * java.lang.Character#MIN_RADIX} or larger than {@link
-     * java.lang.Character#MAX_RADIX}.
+     * java.base.share.classes.java.lang.Character#MIN_RADIX} or larger than {@link
+     * java.base.share.classes.java.lang.Character#MAX_RADIX}.
      *
      * <li> Any character of the string is not a digit of the
      * specified radix, except that the first character may be a minus
@@ -129,7 +129,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * ({@code '\u005Cu002B'}) to indicate a positive value.  The
      * resulting {@code short} value is returned, exactly as if the
      * argument and the radix 10 were given as arguments to the {@link
-     * #parseShort(java.lang.String, int)} method.
+     * #parseShort(java.base.share.classes.java.lang.String, int)} method.
      *
      * @param s a {@code String} containing the {@code short}
      *          representation to be parsed
@@ -148,7 +148,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * with the radix given by the second argument. The first argument
      * is interpreted as representing a signed {@code short} in
      * the radix specified by the second argument, exactly as if the
-     * argument were given to the {@link #parseShort(java.lang.String,
+     * argument were given to the {@link #parseShort(java.base.share.classes.java.lang.String,
      * int)} method. The result is a {@code Short} object that
      * represents the {@code short} value specified by the string.
      *
@@ -177,7 +177,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * value given by the specified {@code String}. The argument
      * is interpreted as representing a signed decimal
      * {@code short}, exactly as if the argument were given to
-     * the {@link #parseShort(java.lang.String)} method. The result is
+     * the {@link #parseShort(java.base.share.classes.java.lang.String)} method. The result is
      * a {@code Short} object that represents the
      * {@code short} value specified by the string.
      *
@@ -299,7 +299,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      *            value represented by {@code nm}
      * @throws    NumberFormatException  if the {@code String} does not
      *            contain a parsable {@code short}.
-     * @see java.lang.Short#parseShort(java.lang.String, int)
+     * @see java.base.share.classes.java.lang.Short#parseShort(java.base.share.classes.java.lang.String, int)
      */
     public static Short decode(String nm) throws NumberFormatException {
         int i = Integer.decode(nm);
@@ -415,7 +415,7 @@ public final class Short extends Number implements Comparable<Short>, Constable 
      * {@code Short}'s value.  The value is converted to signed
      * decimal representation and returned as a string, exactly as if
      * the {@code short} value were given as an argument to the
-     * {@link java.lang.Short#toString(short)} method.
+     * {@link java.base.share.classes.java.lang.Short#toString(short)} method.
      *
      * @return  a string representation of the value of this object in
      *          base&nbsp;10.

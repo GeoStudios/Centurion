@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.foreign;
+package java.base.share.classes.jdk.internal.foreign;
 
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.SegmentScope;
@@ -25,7 +25,7 @@ public sealed class NativeMemorySegmentImpl extends AbstractMemorySegmentImpl pe
     // The maximum alignment supported by malloc - typically 16 on
     // 64-bit platforms and 8 on 32-bit platforms.
     private static final long MAX_MALLOC_ALIGN = Unsafe.ADDRESS_SIZE == 4 ? 8 : 16;
-    private static final boolean SKIP_ZERO_MEMORY = GetBooleanAction.privilegedGetProperty("jdk.internal.foreign.skipZeroMemory");
+    private static final boolean SKIP_ZERO_MEMORY = GetBooleanAction.privilegedGetProperty("java.base.share.classes.jdk.internal.foreign.skipZeroMemory");
 
     final long min;
 

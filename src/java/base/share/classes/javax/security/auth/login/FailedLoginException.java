@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
 /**
  * Signals that user authentication failed.

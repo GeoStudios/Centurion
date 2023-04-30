@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -14,8 +14,8 @@ import java.net.SocketOption;
 import java.net.SocketAddress;
 import java.net.UnixDomainSocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.spi.AbstractSelectableChannel;
-import java.nio.channels.spi.SelectorProvider;
+import java.base.share.classes.java.nio.channels.spi.AbstractSelectableChannel;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 import static java.util.Objects.requireNonNull;
 
 /**
@@ -155,9 +155,9 @@ public abstract class SocketChannel
      * Opens a socket channel for an <i>Internet protocol</i> socket.
      *
      * <p> The new channel is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openSocketChannel
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openSocketChannel
      * openSocketChannel} method of the system-wide default {@link
-     * java.nio.channels.spi.SelectorProvider} object.  </p>
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider} object.  </p>
      *
      * @return  A new socket channel
      *
@@ -176,9 +176,9 @@ public abstract class SocketChannel
      * {@link ProtocolFamily protocol family} of the channel's socket.
      *
      * <p> The new channel is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openSocketChannel(ProtocolFamily)
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openSocketChannel(ProtocolFamily)
      * openSocketChannel(ProtocolFamily)} method of the system-wide default.
-     * {@link java.nio.channels.spi.SelectorProvider} object.</p>
+     * {@link java.base.share.classes.java.nio.channels.spi.SelectorProvider} object.</p>
      *
      * @param   family
      *          The protocol family

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.*;
 import java.math.BigInteger;
@@ -91,7 +91,7 @@ import jdk.internal.reflect.Reflection;
  * typically terminate the OS process hosting the JVM and do not interact with the JNI Invocation
  * API.
  *
- * @see     java.lang.Runtime#getRuntime()
+ * @see     java.base.share.classes.java.lang.Runtime#getRuntime()
  * @jls     12.8 Program Exit
  * @since Pre Java 1
  * @author Logan Abernathy
@@ -137,7 +137,7 @@ public class Runtime {
      * conventional and convenient means of invoking this method.
      *
      * @implNote
-     * If the {@linkplain System#getLogger(String) system logger} for {@code java.lang.Runtime}
+     * If the {@linkplain System#getLogger(String) system logger} for {@code java.base.share.classes.java.lang.Runtime}
      * is enabled with logging level {@link System.Logger.Level#DEBUG Level.DEBUG} the stack trace
      * of the call to {@code Runtime.exit()} is logged.
      *
@@ -150,8 +150,8 @@ public class Runtime {
      *         {@link SecurityManager#checkExit checkExit} method does not permit
      *         exiting with the specified status
      *
-     * @see java.lang.SecurityException
-     * @see java.lang.SecurityManager#checkExit(int)
+     * @see java.base.share.classes.java.lang.SecurityException
+     * @see java.base.share.classes.java.lang.SecurityManager#checkExit(int)
      * @see #addShutdownHook
      * @see #removeShutdownHook
      * @see #halt(int)
@@ -673,7 +673,7 @@ public class Runtime {
     /**
      * Returns the maximum amount of memory that the Java virtual machine
      * will attempt to use.  If there is no inherent limit then the value
-     * {@link java.lang.Long#MAX_VALUE} will be returned.
+     * {@link java.base.share.classes.java.lang.Long#MAX_VALUE} will be returned.
      *
      * @return  the maximum amount of memory that the virtual machine will
      *          attempt to use, measured in bytes
@@ -695,7 +695,7 @@ public class Runtime {
      * complete at any particular time, if at all, before the method returns or ever.
      * There is also no guarantee that this effort will determine
      * the change of reachability in any particular number of objects,
-     * or that any particular number of {@link java.lang.ref.Reference Reference}
+     * or that any particular number of {@link java.base.share.classes.java.lang.ref.Reference Reference}
      * objects will be cleared and enqueued.
      * <p>
      * The name {@code gc} stands for "garbage
@@ -725,13 +725,13 @@ public class Runtime {
      * and convenient means of invoking this method.
      *
      * @deprecated Finalization has been deprecated for removal.  See
-     * {@link java.lang.Object#finalize} for background information and details
+     * {@link java.base.share.classes.java.lang.Object#finalize} for background information and details
      * about migration options.
      * <p>
      * When running in a JVM in which finalization has been disabled or removed,
      * no objects will be pending finalization, so this method does nothing.
      *
-     * @see     java.lang.Object#finalize()
+     * @see     java.base.share.classes.java.lang.Object#finalize()
      * @jls 12.6 Finalization of Class Instances
      */
     @Deprecated(since="18", forRemoval=true)
@@ -779,9 +779,9 @@ public class Runtime {
      *             a native library image by the host system.
      * @throws     NullPointerException if {@code filename} is
      *             {@code null}
-     * @see        java.lang.Runtime#getRuntime()
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkLink(java.lang.String)
+     * @see        java.base.share.classes.java.lang.Runtime#getRuntime()
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkLink(java.base.share.classes.java.lang.String)
      */
     @CallerSensitive
     public void load(String filename) {
@@ -844,8 +844,8 @@ public class Runtime {
      *             native library image by the host system.
      * @throws     NullPointerException if {@code libname} is
      *             {@code null}
-     * @see        java.lang.SecurityException
-     * @see        java.lang.SecurityManager#checkLink(java.lang.String)
+     * @see        java.base.share.classes.java.lang.SecurityException
+     * @see        java.base.share.classes.java.lang.SecurityManager#checkLink(java.base.share.classes.java.lang.String)
      */
     @CallerSensitive
     public void loadLibrary(String libname) {

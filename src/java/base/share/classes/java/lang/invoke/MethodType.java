@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import java.lang.constant.ClassDesc;
 import java.lang.constant.Constable;
@@ -28,9 +28,9 @@ import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
 import sun.security.util.SecurityConstants;
 
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.lang.invoke.MethodType.fromDescriptor;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
+import static java.base.share.classes.java.lang.invoke.MethodType.fromDescriptor;
 
 /**
  * A method type represents the arguments and return type accepted and

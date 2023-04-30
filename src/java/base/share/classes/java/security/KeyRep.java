@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import javax.crypto.spec.SecretKeySpec;
 import java.io.NotSerializableException;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
 import java.util.Locale;
 
 /**
@@ -26,8 +26,8 @@ import java.util.Locale;
  * @see Key
  * @see KeyFactory
  * @see javax.crypto.spec.SecretKeySpec
- * @see java.security.spec.X509EncodedKeySpec
- * @see java.security.spec.PKCS8EncodedKeySpec
+ * @see java.base.share.classes.java.security.spec.X509EncodedKeySpec
+ * @see java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec
  *
  * @since 1.5
  */
@@ -160,7 +160,7 @@ public class KeyRep implements Serializable {
             throw nse;
         } catch (Exception e) {
             NotSerializableException nse = new NotSerializableException
-                                        ("java.security.Key: " +
+                                        ("java.base.share.classes.java.security.Key: " +
                                         "[" + type + "] " +
                                         "[" + algorithm + "] " +
                                         "[" + format + "]");

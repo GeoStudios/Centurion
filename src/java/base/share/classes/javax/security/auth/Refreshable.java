@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
 
 /**
  * Objects such as credentials may optionally implement this
@@ -12,7 +12,7 @@ package javax.security.auth;
  * for which it is valid.
  *
  * @since 1.4
- * @see javax.security.auth.Subject
+ * @see java.base.share.classes.javax.security.auth.Subject
  */
 public interface Refreshable {
 

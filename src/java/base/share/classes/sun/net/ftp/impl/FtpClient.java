@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.ftp.impl;
+package java.base.share.classes.sun.net.ftp.impl;
 
 
 

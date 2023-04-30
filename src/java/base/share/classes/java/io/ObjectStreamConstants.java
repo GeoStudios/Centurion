@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Constants written into the Object Serialization Stream.
@@ -163,8 +163,8 @@ public interface ObjectStreamConstants {
      * Enable substitution of one object for another during
      * serialization/deserialization.
      *
-     * @see java.io.ObjectOutputStream#enableReplaceObject(boolean)
-     * @see java.io.ObjectInputStream#enableResolveObject(boolean)
+     * @see java.base.share.classes.java.io.ObjectOutputStream#enableReplaceObject(boolean)
+     * @see java.base.share.classes.java.io.ObjectInputStream#enableResolveObject(boolean)
      * @since 1.2
      */
     static final SerializablePermission SUBSTITUTION_PERMISSION =
@@ -173,8 +173,8 @@ public interface ObjectStreamConstants {
     /**
      * Enable overriding of readObject and writeObject.
      *
-     * @see java.io.ObjectOutputStream#writeObjectOverride(Object)
-     * @see java.io.ObjectInputStream#readObjectOverride()
+     * @see java.base.share.classes.java.io.ObjectOutputStream#writeObjectOverride(Object)
+     * @see java.base.share.classes.java.io.ObjectInputStream#readObjectOverride()
      * @since 1.2
      */
     static final SerializablePermission SUBCLASS_IMPLEMENTATION_PERMISSION =
@@ -183,7 +183,7 @@ public interface ObjectStreamConstants {
     /**
      * Enable setting the system-wide serial filter.
      *
-     * @see java.io.ObjectInputFilter.Config#setSerialFilter(ObjectInputFilter)
+     * @see java.base.share.classes.java.io.ObjectInputFilter.Config#setSerialFilter(ObjectInputFilter)
      * @since 9
      */
     static final SerializablePermission SERIAL_FILTER_PERMISSION =
@@ -197,7 +197,7 @@ public interface ObjectStreamConstants {
     * streams containing Externalizable data that can be read by
     * pre-JDK 1.1.6 JVMs.
     *
-    * @see java.io.ObjectOutputStream#useProtocolVersion(int)
+    * @see java.base.share.classes.java.io.ObjectOutputStream#useProtocolVersion(int)
     * @since 1.2
     */
     public static final int PROTOCOL_VERSION_1 = 1;
@@ -217,7 +217,7 @@ public interface ObjectStreamConstants {
     * stream. The serialVersionUID of a nonSerializable class is
     * set to 0L.
     *
-    * @see java.io.ObjectOutputStream#useProtocolVersion(int)
+    * @see java.base.share.classes.java.io.ObjectOutputStream#useProtocolVersion(int)
     * @see #SC_BLOCK_DATA
     * @since 1.2
     */

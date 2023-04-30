@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -38,7 +38,7 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.concurrent.atomic.LongAdder;
+import java.base.share.classes.java.util.concurrent.atomic.LongAdder;
 
 /**
  * A scalable concurrent {@link ConcurrentNavigableMap} implementation.

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * <p>
@@ -19,8 +19,8 @@ package java.util;
  * concurrently.
  * </p>
  *
- * @see java.util.EventObject
- * @see java.util.EventListener
+ * @see java.base.share.classes.java.util.EventObject
+ * @see java.base.share.classes.java.util.EventListener
  *
  * @author Laurence P. G. Cable
  * @since  1.1

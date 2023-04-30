@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -316,7 +316,7 @@ public class BufferedReader extends Reader {
      *             any line-termination characters, or null if the end of the
      *             stream has been reached without reading any characters
      *
-     * @see        java.io.LineNumberReader#readLine()
+     * @see        java.base.share.classes.java.io.LineNumberReader#readLine()
      *
      * @throws     IOException  If an I/O error occurs
      */

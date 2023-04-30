@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
 import java.io.DataInput;
 import java.io.DataInputStream;
@@ -30,7 +30,7 @@ import jdk.internal.access.JavaLangModuleAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 
-import static jdk.internal.module.ClassFileConstants.*;
+import static java.base.share.classes.jdk.internal.module.ClassFileConstants.*;
 
 
 /**

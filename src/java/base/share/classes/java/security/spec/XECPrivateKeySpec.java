@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
 
 import java.util.Objects;
 

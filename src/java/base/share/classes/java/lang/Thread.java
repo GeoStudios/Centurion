@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.ref.Reference;
-import java.lang.reflect.Field;
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.lang.reflect.Field;
 import java.security.AccessController;
 import java.security.AccessControlContext;
 import java.security.Permission;
@@ -2001,7 +2001,7 @@ public class Thread implements Runnable {
     /**
      * Copies into the specified array every {@linkplain #isAlive() live}
      * platform thread in the current thread's thread group and its subgroups.
-     * This method simply invokes the {@link java.lang.ThreadGroup#enumerate(Thread[])}
+     * This method simply invokes the {@link java.base.share.classes.java.lang.ThreadGroup#enumerate(Thread[])}
      * method of the current thread's thread group. Virtual threads are
      * not enumerated by this method.
      *
@@ -2022,7 +2022,7 @@ public class Thread implements Runnable {
      * @return  the number of threads put into the array
      *
      * @throws  SecurityException
-     *          if {@link java.lang.ThreadGroup#checkAccess} determines that
+     *          if {@link java.base.share.classes.java.lang.ThreadGroup#checkAccess} determines that
      *          the current thread cannot access its thread group
      */
     public static int enumerate(Thread[] tarray) {

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -288,7 +288,7 @@ public final class ZoneRules implements Serializable {
 
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.zone.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.zone.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre style="font-size:1.0em">{@code
      *

@@ -1,11 +1,11 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
-import static java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;
 import static java.util.Objects.requireNonNull;
 
 /**

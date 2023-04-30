@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
 
 import java.io.IOException;
 import java.io.OutputStream;

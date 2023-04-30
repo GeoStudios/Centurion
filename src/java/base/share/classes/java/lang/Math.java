@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.math.BigDecimal;
 import java.util.Random;
@@ -16,7 +16,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * square root, and trigonometric functions.
  *
  * <p>Unlike some of the numeric methods of class
- * {@link java.lang.StrictMath StrictMath}, all implementations of the equivalent
+ * {@link java.base.share.classes.java.lang.StrictMath StrictMath}, all implementations of the equivalent
  * functions of class {@code Math} are not defined to return the
  * bit-for-bit same results.  This relaxation permits
  * better-performing implementations where strict reproducibility is
@@ -748,8 +748,8 @@ public final class Math {
      * @param   a   a floating-point value to be rounded to an integer.
      * @return  the value of the argument rounded to the nearest
      *          {@code int} value.
-     * @see     java.lang.Integer#MAX_VALUE
-     * @see     java.lang.Integer#MIN_VALUE
+     * @see     java.base.share.classes.java.lang.Integer#MAX_VALUE
+     * @see     java.base.share.classes.java.lang.Integer#MIN_VALUE
      */
     @IntrinsicCandidate
     public static int round(float a) {
@@ -798,8 +798,8 @@ public final class Math {
      *          {@code long}.
      * @return  the value of the argument rounded to the nearest
      *          {@code long} value.
-     * @see     java.lang.Long#MAX_VALUE
-     * @see     java.lang.Long#MIN_VALUE
+     * @see     java.base.share.classes.java.lang.Long#MAX_VALUE
+     * @see     java.base.share.classes.java.lang.Long#MIN_VALUE
      */
     @IntrinsicCandidate
     public static long round(double a) {

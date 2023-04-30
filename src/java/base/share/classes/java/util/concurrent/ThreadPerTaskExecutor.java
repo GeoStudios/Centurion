@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -12,9 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
-import java.util.concurrent.locks.LockSupport;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
 import java.util.stream.Stream;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
+import static java.base.share.classes.java.util.concurrent.TimeUnit.NANOSECONDS;
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.vm.ThreadContainer;

@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * ObjectOutput extends the DataOutput interface to include writing of objects.
  * DataOutput includes methods for output of primitive types, ObjectOutput
  * extends that interface to include objects, arrays, and Strings.
  *
- * @see java.io.InputStream
- * @see java.io.ObjectOutputStream
- * @see java.io.ObjectInputStream
+ * @see java.base.share.classes.java.io.InputStream
+ * @see java.base.share.classes.java.io.ObjectOutputStream
+ * @see java.base.share.classes.java.io.ObjectInputStream
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

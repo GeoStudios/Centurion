@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.abi;
+package java.base.share.classes.jdk.internal.foreign.abi;
 
 import jdk.internal.foreign.AbstractMemorySegmentImpl;
 import jdk.internal.foreign.MemorySessionImpl;
@@ -45,9 +45,9 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
 public class BindingSpecializer {
     private static final String DUMP_CLASSES_DIR
-        = GetPropertyAction.privilegedGetProperty("jdk.internal.foreign.abi.Specializer.DUMP_CLASSES_DIR");
+        = GetPropertyAction.privilegedGetProperty("java.base.share.classes.jdk.internal.foreign.abi.Specializer.DUMP_CLASSES_DIR");
     private static final boolean PERFORM_VERIFICATION
-        = GetBooleanAction.privilegedGetProperty("jdk.internal.foreign.abi.Specializer.PERFORM_VERIFICATION");
+        = GetBooleanAction.privilegedGetProperty("java.base.share.classes.jdk.internal.foreign.abi.Specializer.PERFORM_VERIFICATION");
 
     // Bunch of helper constants
     private static final int CLASSFILE_VERSION = VM.classFileVersion();

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.io.InputStream;
 import java.security.Provider;
@@ -30,8 +30,8 @@ import sun.security.jca.GetInstance.Instance;
  * validate it with a {@code CertPathValidator}.
  *
  * <p>A certificate factory for X.509 must return certificates that are an
- * instance of {@code java.security.cert.X509Certificate}, and CRLs
- * that are an instance of {@code java.security.cert.X509CRL}.
+ * instance of {@code java.base.share.classes.java.security.cert.X509Certificate}, and CRLs
+ * that are an instance of {@code java.base.share.classes.java.security.cert.X509CRL}.
  *
  * <p>The following example reads a file with Base64 encoded certificates,
  * which are each bounded at the beginning by -----BEGIN CERTIFICATE-----, and
@@ -449,7 +449,7 @@ public class CertificateFactory {
      * @param inStream the input stream with the certificates.
      *
      * @return a (possibly empty) collection view of
-     * java.security.cert.Certificate objects
+     * java.base.share.classes.java.security.cert.Certificate objects
      * initialized with the data from the input stream.
      *
      * @throws    CertificateException on parsing errors.
@@ -522,7 +522,7 @@ public class CertificateFactory {
      * @param inStream the input stream with the CRLs.
      *
      * @return a (possibly empty) collection view of
-     * java.security.cert.CRL objects initialized with the data from the input
+     * java.base.share.classes.java.security.cert.CRL objects initialized with the data from the input
      * stream.
      *
      * @throws    CRLException on parsing errors.

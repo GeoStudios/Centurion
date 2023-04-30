@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown when an application tries to access a type using a string
@@ -15,10 +15,10 @@ package java.lang;
  * are accessed as well as when types (e.g., classes, interfaces or
  * annotation types) are loaded.
  * In particular, this exception can be thrown by the {@linkplain
- * java.lang.reflect.AnnotatedElement API used to read annotations
+ * java.base.share.classes.java.lang.reflect.AnnotatedElement API used to read annotations
  * reflectively}.
  * 
- * @see     java.lang.reflect.AnnotatedElement
+ * @see     java.base.share.classes.java.lang.reflect.AnnotatedElement
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

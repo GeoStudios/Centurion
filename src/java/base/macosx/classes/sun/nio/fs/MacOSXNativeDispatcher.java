@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
 
 /**
  * MacOSX specific system calls.

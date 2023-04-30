@@ -14,7 +14,7 @@
  * <ul>
  *     <li><a href="http://www.info-zip.org/doc/appnote-19970311-iz.zip">
  *         Info-ZIP Application Note 970311</a> - a detailed description of
- *         the Info-ZIP format upon which the {@code java.util.zip} classes
+ *         the Info-ZIP format upon which the {@code java.base.share.classes.java.util.zip} classes
  *         are based.
  *     <li><a id="zip64">An implementation may optionally support the
  *         ZIP64(tm) format extensions defined by the</a>
@@ -53,4 +53,4 @@
  *
  * @since 1.1
  */
-package java.util.zip;
+package java.base.share.classes.java.util.zip;

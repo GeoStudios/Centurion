@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.stream;
+package java.base.share.classes.java.util.stream;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
@@ -41,13 +41,13 @@ import java.util.function.Supplier;
  * }</pre>
  *
  * See the class documentation for {@link Stream} and the package documentation
- * for <a href="package-summary.html">java.util.stream</a> for additional
+ * for <a href="package-summary.html">java.base.share.classes.java.util.stream</a> for additional
  * specification of streams, stream operations, stream pipelines, and
  * parallelism.
  *
  * @since 1.8
  * @see Stream
- * @see <a href="package-summary.html">java.util.stream</a>
+ * @see <a href="package-summary.html">java.base.share.classes.java.util.stream</a>
  */
 public interface IntStream extends BaseStream<Integer, IntStream> {
 
@@ -127,7 +127,7 @@ public interface IntStream extends BaseStream<Integer, IntStream> {
      * Returns a stream consisting of the results of replacing each element of
      * this stream with the contents of a mapped stream produced by applying
      * the provided mapping function to each element.  Each mapped stream is
-     * {@link java.util.stream.BaseStream#close() closed} after its contents
+     * {@link java.base.share.classes.java.util.stream.BaseStream#close() closed} after its contents
      * have been placed into this stream.  (If a mapped stream is {@code null}
      * an empty stream is used, instead.)
      *

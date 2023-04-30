@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.nio.ch;
+package java.base.macosx.classes.sun.nio.ch;
 
 import java.io.IOException;
-import static sun.nio.ch.KQueue.*;
+import static java.base.macosx.classes.sun.nio.ch.KQueue.*;
 
 /**
  * Poller implementation based on the kqueue facility.

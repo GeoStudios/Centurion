@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 
 /**
@@ -21,7 +21,7 @@ package java.io;
  */
 
 public class FileNotFoundException extends IOException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = -897856973823710492L;
 
     /**

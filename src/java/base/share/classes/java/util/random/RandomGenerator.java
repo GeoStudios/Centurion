@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.random;
+package java.base.share.classes.java.util.random;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

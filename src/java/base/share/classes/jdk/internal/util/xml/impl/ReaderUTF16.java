@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.util.xml.impl;
+package java.base.share.classes.jdk.internal.util.xml.impl;
 
 import java.io.Reader;
 import java.io.InputStream;

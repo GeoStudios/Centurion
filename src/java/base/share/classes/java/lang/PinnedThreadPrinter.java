@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.io.PrintStream;
 import java.security.AccessController;
@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
-import static java.lang.StackWalker.Option.*;
+import static java.base.share.classes.java.lang.StackWalker.Option.*;
 
 /**
  * Helper class to print the virtual thread stack trace when pinned.

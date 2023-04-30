@@ -2,35 +2,35 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Annotation;
-import java.lang.constant.ClassDesc;
-import java.lang.invoke.TypeDescriptor;
-import java.lang.invoke.MethodHandles;
-import java.lang.module.ModuleReader;
-import java.lang.ref.SoftReference;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.invoke.TypeDescriptor;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.module.ModuleReader;
+import java.base.share.classes.java.lang.ref.SoftReference;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectStreamField;
-import java.lang.reflect.AnnotatedElement;
-import java.lang.reflect.AnnotatedType;
-import java.lang.reflect.AccessFlag;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Field;
-import java.lang.reflect.GenericArrayType;
-import java.lang.reflect.GenericDeclaration;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Proxy;
-import java.lang.reflect.RecordComponent;
-import java.lang.reflect.Type;
-import java.lang.reflect.TypeVariable;
-import java.lang.constant.Constable;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.lang.reflect.AnnotatedType;
+import java.base.share.classes.java.lang.reflect.AccessFlag;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Executable;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.GenericArrayType;
+import java.base.share.classes.java.lang.reflect.GenericDeclaration;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Proxy;
+import java.base.share.classes.java.lang.reflect.RecordComponent;
+import java.base.share.classes.java.lang.reflect.Type;
+import java.base.share.classes.java.lang.reflect.TypeVariable;
+import java.base.share.classes.java.lang.constant.Constable;
 import java.net.URL;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -87,10 +87,10 @@ import sun.reflect.misc.ReflectUtil;
  * the invocation of one of the following methods:
  * <ul>
  * <li> {@link ClassLoader#defineClass(String, byte[], int, int) ClassLoader::defineClass}
- * <li> {@link java.lang.invoke.MethodHandles.Lookup#defineClass(byte[])
- *      java.lang.invoke.MethodHandles.Lookup::defineClass}
- * <li> {@link java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
- *      java.lang.invoke.MethodHandles.Lookup::defineHiddenClass}
+ * <li> {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineClass(byte[])
+ *      java.base.share.classes.java.lang.invoke.MethodHandles.Lookup::defineClass}
+ * <li> {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
+ *      java.base.share.classes.java.lang.invoke.MethodHandles.Lookup::defineHiddenClass}
  * </ul>
  *
  * <p> The methods of class {@code Class} expose many characteristics of a
@@ -137,7 +137,7 @@ import sun.reflect.misc.ReflectUtil;
  * enclosed within the top-level class declaration.
  *
  * <p> A class or interface created by the invocation of
- * {@link java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
  * Lookup::defineHiddenClass} is a {@linkplain Class#isHidden() <em>hidden</em>}
  * class or interface.
  * All kinds of class, including enum classes and record classes, may be
@@ -151,7 +151,7 @@ import sun.reflect.misc.ReflectUtil;
  * <li>A hidden class or interface cannot be referenced by the constant pools
  *     of other classes and interfaces.
  * <li>A hidden class or interface cannot be described in
- *     {@linkplain java.lang.constant.ConstantDesc <em>nominal form</em>} by
+ *     {@linkplain java.base.share.classes.java.lang.constant.ConstantDesc <em>nominal form</em>} by
  *     {@link #describeConstable() Class::describeConstable},
  *     {@link ClassDesc#of(String) ClassDesc::of}, or
  *     {@link ClassDesc#ofDescriptor(String) ClassDesc::ofDescriptor}.
@@ -169,7 +169,7 @@ import sun.reflect.misc.ReflectUtil;
  * Class<String>}.  Use {@code Class<?>} if the class being modeled is
  * unknown.
  *
- * @see     java.lang.ClassLoader#defineClass(byte[], int, int)
+ * @see     java.base.share.classes.java.lang.ClassLoader#defineClass(byte[], int, int)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
@@ -330,10 +330,10 @@ public final class Class<T> implements java.io.Serializable,
      *
      * <p> For example, the following code fragment returns the
      * runtime {@code Class} descriptor for the class named
-     * {@code java.lang.Thread}:
+     * {@code java.base.share.classes.java.lang.Thread}:
      *
      * <blockquote>
-     *   {@code Class t = Class.forName("java.lang.Thread")}
+     *   {@code Class t = Class.forName("java.base.share.classes.java.lang.Thread")}
      * </blockquote>
      * <p>
      * A call to {@code forName("X")} causes the class named
@@ -432,8 +432,8 @@ public final class Class<T> implements java.io.Serializable,
      *            {@code null}, and the caller does not have the
      *            {@link RuntimePermission}{@code ("getClassLoader")}
      *
-     * @see       java.lang.Class#forName(String)
-     * @see       java.lang.ClassLoader
+     * @see       java.base.share.classes.java.lang.Class#forName(String)
+     * @see       java.base.share.classes.java.lang.ClassLoader
      *
      * @jls 12.2 Loading of Classes and Interfaces
      * @jls 12.3 Linking of Classes and Interfaces
@@ -580,10 +580,10 @@ public final class Class<T> implements java.io.Serializable,
      * this method effectively bypasses the compile-time exception
      * checking that would otherwise be performed by the compiler.
      * The {@link
-     * java.lang.reflect.Constructor#newInstance(java.lang.Object...)
+     * java.base.share.classes.java.lang.reflect.Constructor#newInstance(java.base.share.classes.java.lang.Object...)
      * Constructor.newInstance} method avoids this problem by wrapping
      * any exception thrown by the constructor in a (checked) {@link
-     * java.lang.reflect.InvocationTargetException}.
+     * java.base.share.classes.java.lang.reflect.InvocationTargetException}.
      *
      * <p>The call
      *
@@ -638,7 +638,7 @@ public final class Class<T> implements java.io.Serializable,
         if (tmpConstructor == null) {
             if (this == Class.class) {
                 throw new IllegalAccessException(
-                    "Can not call newInstance() on the Class for java.lang.Class"
+                    "Can not call newInstance() on the Class for java.base.share.classes.java.lang.Class"
                 );
             }
             try {
@@ -775,15 +775,15 @@ public final class Class<T> implements java.io.Serializable,
      *
      * @return true if and only if this class represents a primitive type
      *
-     * @see     java.lang.Boolean#TYPE
-     * @see     java.lang.Character#TYPE
-     * @see     java.lang.Byte#TYPE
-     * @see     java.lang.Short#TYPE
-     * @see     java.lang.Integer#TYPE
-     * @see     java.lang.Long#TYPE
-     * @see     java.lang.Float#TYPE
-     * @see     java.lang.Double#TYPE
-     * @see     java.lang.Void#TYPE
+     * @see     java.base.share.classes.java.lang.Boolean#TYPE
+     * @see     java.base.share.classes.java.lang.Character#TYPE
+     * @see     java.base.share.classes.java.lang.Byte#TYPE
+     * @see     java.base.share.classes.java.lang.Short#TYPE
+     * @see     java.base.share.classes.java.lang.Integer#TYPE
+     * @see     java.base.share.classes.java.lang.Long#TYPE
+     * @see     java.base.share.classes.java.lang.Float#TYPE
+     * @see     java.base.share.classes.java.lang.Double#TYPE
+     * @see     java.base.share.classes.java.lang.Void#TYPE
      * @since 1.1
      */
     @IntrinsicCandidate
@@ -831,7 +831,7 @@ public final class Class<T> implements java.io.Serializable,
      *      of the form: {@code N + '/' + <suffix>}
      *      where {@code N} is the <a href="ClassLoader.html#binary-name">binary name</a>
      *      indicated by the {@code class} file passed to
-     *      {@link java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
+     *      {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineHiddenClass(byte[], boolean, MethodHandles.Lookup.ClassOption...)
      *      Lookup::defineHiddenClass}, and {@code <suffix>} is an unqualified name.
      * </ul>
      *
@@ -866,11 +866,11 @@ public final class Class<T> implements java.io.Serializable,
      * <p> Examples:
      * <blockquote><pre>
      * String.class.getName()
-     *     returns "java.lang.String"
+     *     returns "java.base.share.classes.java.lang.String"
      * byte.class.getName()
      *     returns "byte"
      * (new Object[3]).getClass().getName()
-     *     returns "[Ljava.lang.Object;"
+     *     returns "[Ljava.base.share.classes.java.lang.Object;"
      * (new int[3][4][5][6][7][8][9]).getClass().getName()
      *     returns "[[[[[[[I"
      * </pre></blockquote>
@@ -906,9 +906,9 @@ public final class Class<T> implements java.io.Serializable,
      *          class loader for the class whose class loader is requested,
      *          and the caller does not have the
      *          {@link RuntimePermission}{@code ("getClassLoader")}
-     * @see java.lang.ClassLoader
+     * @see java.base.share.classes.java.lang.ClassLoader
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      */
     @CallerSensitive
     @ForceInline // to ensure Reflection.getCallerClass optimization
@@ -972,7 +972,7 @@ public final class Class<T> implements java.io.Serializable,
      *
      * @return an array of {@code TypeVariable} objects that represent
      *     the type variables declared by this generic declaration
-     * @throws java.lang.reflect.GenericSignatureFormatError if the generic
+     * @throws java.base.share.classes.java.lang.reflect.GenericSignatureFormatError if the generic
      *     signature of this generic declaration does not conform to
      *     the format specified in section {@jvms 4.7.9} of
      *     <cite>The Java Virtual Machine Specification</cite>
@@ -1013,7 +1013,7 @@ public final class Class<T> implements java.io.Serializable,
      * arguments used in the source code. The parameterized type
      * representing the superclass is created if it had not been
      * created before. See the declaration of {@link
-     * java.lang.reflect.ParameterizedType ParameterizedType} for the
+     * java.base.share.classes.java.lang.reflect.ParameterizedType ParameterizedType} for the
      * semantics of the creation process for parameterized types.  If
      * this {@code Class} object represents either the {@code Object}
      * class, an interface, a primitive type, or void, then null is
@@ -1021,13 +1021,13 @@ public final class Class<T> implements java.io.Serializable,
      * then the {@code Class} object representing the {@code Object} class is
      * returned.
      *
-     * @throws java.lang.reflect.GenericSignatureFormatError if the generic
+     * @throws java.base.share.classes.java.lang.reflect.GenericSignatureFormatError if the generic
      *     class signature does not conform to the format specified in
      *     section {@jvms 4.7.9} of <cite>The Java Virtual
      *     Machine Specification</cite>
      * @throws TypeNotPresentException if the generic superclass
      *     refers to a non-existent type declaration
-     * @throws java.lang.reflect.MalformedParameterizedTypeException if the
+     * @throws java.base.share.classes.java.lang.reflect.MalformedParameterizedTypeException if the
      *     generic superclass refers to a parameterized type that cannot be
      *     instantiated  for any reason
      * @return the direct superclass of the class represented by this {@code Class} object
@@ -1086,7 +1086,7 @@ public final class Class<T> implements java.io.Serializable,
      *
      * <p> If this class represents an array type then this method returns the
      * package name of the element type. If this class represents a primitive
-     * type or void then the package name "{@code java.lang}" is returned.
+     * type or void then the package name "{@code java.base.share.classes.java.lang}" is returned.
      *
      * @return the fully qualified package name
      *
@@ -1098,7 +1098,7 @@ public final class Class<T> implements java.io.Serializable,
         if (pn == null) {
             Class<?> c = isArray() ? elementType() : this;
             if (c.isPrimitive()) {
-                pn = "java.lang";
+                pn = "java.base.share.classes.java.lang";
             } else {
                 String cn = c.getName();
                 int dot = cn.lastIndexOf('.');
@@ -1189,7 +1189,7 @@ public final class Class<T> implements java.io.Serializable,
      * the actual type arguments used in the source code. The
      * parameterized type representing each superinterface is created
      * if it had not been created before. See the declaration of
-     * {@link java.lang.reflect.ParameterizedType ParameterizedType}
+     * {@link java.base.share.classes.java.lang.reflect.ParameterizedType ParameterizedType}
      * for the semantics of the creation process for parameterized
      * types.
      *
@@ -1215,13 +1215,13 @@ public final class Class<T> implements java.io.Serializable,
      * interfaces {@code Cloneable} and {@code java.io.Serializable} are
      * returned in that order.
      *
-     * @throws java.lang.reflect.GenericSignatureFormatError
+     * @throws java.base.share.classes.java.lang.reflect.GenericSignatureFormatError
      *     if the generic class signature does not conform to the
      *     format specified in section {@jvms 4.7.9} of <cite>The
      *     Java Virtual Machine Specification</cite>
      * @throws TypeNotPresentException if any of the generic
      *     superinterfaces refers to a non-existent type declaration
-     * @throws java.lang.reflect.MalformedParameterizedTypeException
+     * @throws java.base.share.classes.java.lang.reflect.MalformedParameterizedTypeException
      *     if any of the generic superinterfaces refer to a parameterized
      *     type that cannot be instantiated for any reason
      * @return an array of interfaces directly implemented by this class
@@ -1240,7 +1240,7 @@ public final class Class<T> implements java.io.Serializable,
      *
      * @return the {@code Class} representing the component type of this
      * class if this class is an array
-     * @see     java.lang.reflect.Array
+     * @see     java.base.share.classes.java.lang.reflect.Array
      * @since 1.1
      */
     public Class<?> getComponentType() {
@@ -1297,7 +1297,7 @@ public final class Class<T> implements java.io.Serializable,
      * of <cite>The Java Virtual Machine Specification</cite>.
      *
      * @return the {@code int} representing the modifiers for this class
-     * @see     java.lang.reflect.Modifier
+     * @see     java.base.share.classes.java.lang.reflect.Modifier
      * @see #accessFlags()
      * @see <a
      * href="{@docRoot}/java.base/java/lang/reflect/package-summary.html#LanguageJvmModel">Java
@@ -1368,7 +1368,7 @@ public final class Class<T> implements java.io.Serializable,
     /**
      * If this {@code Class} object represents a local or anonymous
      * class within a method, returns a {@link
-     * java.lang.reflect.Method Method} object representing the
+     * java.base.share.classes.java.lang.reflect.Method Method} object representing the
      * immediately enclosing method of the underlying class. Returns
      * {@code null} otherwise.
      *
@@ -1528,7 +1528,7 @@ public final class Class<T> implements java.io.Serializable,
     /**
      * If this {@code Class} object represents a local or anonymous
      * class within a constructor, returns a {@link
-     * java.lang.reflect.Constructor Constructor} object representing
+     * java.base.share.classes.java.lang.reflect.Constructor Constructor} object representing
      * the immediately enclosing constructor of the underlying
      * class. Returns {@code null} otherwise.  In particular, this
      * method returns {@code null} if the underlying class is a local
@@ -2065,7 +2065,7 @@ public final class Class<T> implements java.io.Serializable,
      * increased flexibility in the virtual machine can be used to
      * implement various language features.  For example, covariant
      * returns can be implemented with {@linkplain
-     * java.lang.reflect.Method#isBridge bridge methods}; the bridge
+     * java.base.share.classes.java.lang.reflect.Method#isBridge bridge methods}; the bridge
      * method and the overriding method would have the same
      * signature but different return types.
      *
@@ -2264,7 +2264,7 @@ public final class Class<T> implements java.io.Serializable,
      * increased flexibility in the virtual machine can be used to
      * implement various language features.  For example, covariant
      * returns can be implemented with {@linkplain
-     * java.lang.reflect.Method#isBridge bridge methods}; the bridge
+     * java.base.share.classes.java.lang.reflect.Method#isBridge bridge methods}; the bridge
      * method and the overriding method would have the same
      * signature but different return types. This method would return the
      * overriding method as it would have a more specific return type.
@@ -3068,7 +3068,7 @@ public final class Class<T> implements java.io.Serializable,
      *
      * @see java.security.ProtectionDomain
      * @see SecurityManager#checkPermission
-     * @see java.lang.RuntimePermission
+     * @see java.base.share.classes.java.lang.RuntimePermission
      * @since 1.2
      */
     public java.security.ProtectionDomain getProtectionDomain() {
@@ -3360,7 +3360,7 @@ public final class Class<T> implements java.io.Serializable,
 
     //
     //
-    // java.lang.reflect.Field handling
+    // java.base.share.classes.java.lang.reflect.Field handling
     //
     //
 
@@ -3431,7 +3431,7 @@ public final class Class<T> implements java.io.Serializable,
 
     //
     //
-    // java.lang.reflect.Constructor handling
+    // java.base.share.classes.java.lang.reflect.Constructor handling
     //
     //
 
@@ -3465,7 +3465,7 @@ public final class Class<T> implements java.io.Serializable,
 
     //
     //
-    // java.lang.reflect.Method handling
+    // java.base.share.classes.java.lang.reflect.Method handling
     //
     //
 
@@ -3792,9 +3792,9 @@ public final class Class<T> implements java.io.Serializable,
      * class when it was (or will be) initialized.
      *
      * @return the desired assertion status of the specified class.
-     * @see    java.lang.ClassLoader#setClassAssertionStatus
-     * @see    java.lang.ClassLoader#setPackageAssertionStatus
-     * @see    java.lang.ClassLoader#setDefaultAssertionStatus
+     * @see    java.base.share.classes.java.lang.ClassLoader#setClassAssertionStatus
+     * @see    java.base.share.classes.java.lang.ClassLoader#setPackageAssertionStatus
+     * @see    java.base.share.classes.java.lang.ClassLoader#setDefaultAssertionStatus
      * @since  1.4
      */
     public boolean desiredAssertionStatus() {
@@ -3820,7 +3820,7 @@ public final class Class<T> implements java.io.Serializable,
      * Returns true if and only if this class was declared as an enum in the
      * source code.
      *
-     * Note that {@link java.lang.Enum} is not itself an enum class.
+     * Note that {@link java.base.share.classes.java.lang.Enum} is not itself an enum class.
      *
      * Also note that if an enum constant is declared with a class body,
      * the class of that enum constant object is an anonymous class
@@ -3835,18 +3835,18 @@ public final class Class<T> implements java.io.Serializable,
      * @jls 8.9.1 Enum Constants
      */
     public boolean isEnum() {
-        // An enum must both directly extend java.lang.Enum and have
+        // An enum must both directly extend java.base.share.classes.java.lang.Enum and have
         // the ENUM bit set; classes for specialized enum constants
         // don't do the former.
         return (this.getModifiers() & ENUM) != 0 &&
-        this.getSuperclass() == java.lang.Enum.class;
+        this.getSuperclass() == java.base.share.classes.java.lang.Enum.class;
     }
 
     /**
      * Returns {@code true} if and only if this class is a record class.
      *
      * <p> The {@linkplain #getSuperclass() direct superclass} of a record
-     * class is {@code java.lang.Record}. A record class is {@linkplain
+     * class is {@code java.base.share.classes.java.lang.Record}. A record class is {@linkplain
      * Modifier#FINAL final}. A record class has (possibly zero) record
      * components; {@link #getRecordComponents()} returns a non-null but
      * possibly empty value for a record.
@@ -3861,7 +3861,7 @@ public final class Class<T> implements java.io.Serializable,
     public boolean isRecord() {
         // this superclass and final modifier check is not strictly necessary
         // they are intrinsified and serve as a fast-path check
-        return getSuperclass() == java.lang.Record.class &&
+        return getSuperclass() == java.base.share.classes.java.lang.Record.class &&
                 (this.getModifiers() & Modifier.FINAL) != 0 &&
                 isRecord0();
     }

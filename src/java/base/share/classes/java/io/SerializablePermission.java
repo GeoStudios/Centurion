@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.security.*;
 import java.util.Enumeration;
@@ -81,7 +81,7 @@ import java.util.StringTokenizer;
 
 public final class SerializablePermission extends BasicPermission {
 
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 8537212141160296410L;
 
     /**

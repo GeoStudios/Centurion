@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
+package java.base.share.classes.java.util.concurrent.atomic;
 
 import static java.lang.Double.doubleToRawLongBits;
 import static java.lang.Double.longBitsToDouble;
@@ -263,7 +263,7 @@ public class DoubleAccumulator extends Striped64 implements Serializable {
 
     /**
      * Returns a
-     * <a href="{@docRoot}/serialized-form.html#java.util.concurrent.atomic.DoubleAccumulator.SerializationProxy">
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.util.concurrent.atomic.DoubleAccumulator.SerializationProxy">
      * SerializationProxy</a>
      * representing the state of this instance.
      *

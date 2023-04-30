@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.Enum.EnumDesc;
 import java.lang.invoke.CallSite;
@@ -17,8 +17,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static java.lang.constant.DirectMethodHandleDesc.*;
-import static java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.*;
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;
 
 /**
  * Predefined values of <a href="package-summary.html#nominal">nominal descriptor</a>
@@ -123,22 +123,22 @@ public final class ConstantDescs {
     public static final ClassDesc CD_Map = ClassDesc.of("java.util.Map");
 
     /** {@link ClassDesc} representing {@link ConstantDesc} */
-    public static final ClassDesc CD_ConstantDesc = ClassDesc.of("java.lang.constant.ConstantDesc");
+    public static final ClassDesc CD_ConstantDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.ConstantDesc");
 
     /** {@link ClassDesc} representing {@link ClassDesc} */
-    public static final ClassDesc CD_ClassDesc = ClassDesc.of("java.lang.constant.ClassDesc");
+    public static final ClassDesc CD_ClassDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.ClassDesc");
 
     /** {@link ClassDesc} representing {@link EnumDesc} */
     public static final ClassDesc CD_EnumDesc = CD_Enum.nested("EnumDesc");
 
     /** {@link ClassDesc} representing {@link MethodTypeDesc} */
-    public static final ClassDesc CD_MethodTypeDesc = ClassDesc.of("java.lang.constant.MethodTypeDesc");
+    public static final ClassDesc CD_MethodTypeDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.MethodTypeDesc");
 
     /** {@link ClassDesc} representing {@link MethodHandleDesc} */
-    public static final ClassDesc CD_MethodHandleDesc = ClassDesc.of("java.lang.constant.MethodHandleDesc");
+    public static final ClassDesc CD_MethodHandleDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.MethodHandleDesc");
 
     /** {@link ClassDesc} representing {@link DirectMethodHandleDesc} */
-    public static final ClassDesc CD_DirectMethodHandleDesc = ClassDesc.of("java.lang.constant.DirectMethodHandleDesc");
+    public static final ClassDesc CD_DirectMethodHandleDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.DirectMethodHandleDesc");
 
     /** {@link ClassDesc} representing {@link VarHandleDesc} */
     public static final ClassDesc CD_VarHandleDesc = CD_VarHandle.nested("VarHandleDesc");
@@ -147,10 +147,10 @@ public final class ConstantDescs {
     public static final ClassDesc CD_MethodHandleDesc_Kind = CD_DirectMethodHandleDesc.nested("Kind");
 
     /** {@link ClassDesc} representing {@link DynamicConstantDesc} */
-    public static final ClassDesc CD_DynamicConstantDesc = ClassDesc.of("java.lang.constant.DynamicConstantDesc");
+    public static final ClassDesc CD_DynamicConstantDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.DynamicConstantDesc");
 
     /** {@link ClassDesc} representing {@link DynamicCallSiteDesc} */
-    public static final ClassDesc CD_DynamicCallSiteDesc = ClassDesc.of("java.lang.constant.DynamicCallSiteDesc");
+    public static final ClassDesc CD_DynamicCallSiteDesc = ClassDesc.of("java.base.share.classes.java.lang.constant.DynamicCallSiteDesc");
 
     /** {@link ClassDesc} representing {@link ConstantBootstraps} */
     public static final ClassDesc CD_ConstantBootstraps = ClassDesc.of("java.lang.invoke.ConstantBootstraps");

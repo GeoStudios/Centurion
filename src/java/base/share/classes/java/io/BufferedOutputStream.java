@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Arrays;
 import jdk.internal.misc.InternalLock;
@@ -210,7 +210,7 @@ public class BufferedOutputStream extends FilterOutputStream {
      * output bytes to be written out to the underlying output stream.
      *
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        java.base.share.classes.java.io.FilterOutputStream#out
      */
     @Override
     public void flush() throws IOException {

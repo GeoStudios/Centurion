@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.time;
+package java.base.share.classes.java.time;
 
-import java.time.Clock.SourceClock;
-import java.time.Clock.SystemInstantSource;
+import java.base.share.classes.java.time.Clock.SourceClock;
+import java.base.share.classes.java.time.Clock.SystemInstantSource;
 import java.util.Objects;
 
 /**

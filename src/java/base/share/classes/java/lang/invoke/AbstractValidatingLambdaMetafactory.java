@@ -1,13 +1,13 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
 import java.lang.reflect.Modifier;
 
-import static java.lang.invoke.MethodHandleInfo.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;
 import static sun.invoke.util.Wrapper.forPrimitiveType;
 import static sun.invoke.util.Wrapper.forWrapperType;
 import static sun.invoke.util.Wrapper.isWrapperType;

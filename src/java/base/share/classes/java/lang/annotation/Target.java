@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.annotation;
+package java.base.share.classes.java.lang.annotation;
 
 /**
  * Indicates the contexts in which an annotation interface is applicable. The
  * declaration contexts and type contexts in which an annotation interface may
  * be applicable are specified in JLS {@jls 9.6.4.1}, and denoted in source code by
- * enum constants of {@link ElementType java.lang.annotation.ElementType}.
+ * enum constants of {@link ElementType java.base.share.classes.java.lang.annotation.ElementType}.
  *
  * <p>If an {@code @Target} meta-annotation is not present on an annotation
  * interface {@code T}, then an annotation of type {@code T} may be written as

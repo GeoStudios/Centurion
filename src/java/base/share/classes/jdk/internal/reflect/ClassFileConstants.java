@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 /** Minimal set of class file constants for assembly of field and
     method accessors. */

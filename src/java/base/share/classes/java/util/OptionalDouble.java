@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.DoubleConsumer;
-import java.util.function.DoubleSupplier;
-import java.util.function.Supplier;
-import java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.DoubleSupplier;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.DoubleStream;
 
 /**
  * A container object which may or may not contain a {@code double} value.

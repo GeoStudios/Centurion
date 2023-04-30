@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
 import java.nio.file.FileStore;
 import java.nio.file.WatchService;
@@ -12,8 +12,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import static sun.nio.fs.LinuxNativeDispatcher.*;
-import static sun.nio.fs.UnixConstants.*;
+import static java.base.linux.classes.sun.nio.fs.LinuxNativeDispatcher.*;
+import static java.base.linux.classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Linux implementation of FileSystem

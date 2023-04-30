@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -14,8 +14,8 @@ import java.util.Objects;
 
 import sun.nio.cs.UTF_8;
 
-import static java.util.zip.ZipConstants64.*;
-import static java.util.zip.ZipUtils.*;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;
+import static java.base.share.classes.java.util.zip.ZipUtils.*;
 
 /**
  * An input stream for reading compressed and uncompressed

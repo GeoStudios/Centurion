@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
 import jdk.internal.util.StaticProperty;
 
@@ -39,7 +39,7 @@ public class MimeTable implements FileNameMap {
                     }
                 });
 
-    private static final String filePreamble = "sun.net.www MIME content-types table";
+    private static final String filePreamble = "java.base.share.classes.sun.net.www MIME content-types table";
 
     MimeTable() {
         load();

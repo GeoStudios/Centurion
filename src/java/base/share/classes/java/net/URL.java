@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.spi.URLStreamHandlerProvider;
+import java.base.share.classes.java.net.spi.URLStreamHandlerProvider;
 import java.nio.file.Path;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -111,10 +111,10 @@ import sun.security.action.GetPropertyAction;
  *
  * <h2><a id="constructor-deprecation"></a>Constructing instances of {@code URL}</h2>
  *
- * The {@code java.net.URL} constructors are deprecated.
- * Developers are encouraged to use {@link URI java.net.URI} to parse
+ * The {@code java.base.share.classes.java.net.URL} constructors are deprecated.
+ * Developers are encouraged to use {@link URI java.base.share.classes.java.net.URI} to parse
  * or construct a {@code URL}. In cases where an instance of {@code
- * java.net.URL} is needed to open a connection, {@link URI} can be used
+ * java.base.share.classes.java.net.URL} is needed to open a connection, {@link URI} can be used
  * to construct or parse the URL string, possibly calling {@link
  * URI#parseServerAuthority()} to validate that the authority component
  * can be parsed as a server-based authority, and then calling
@@ -139,9 +139,9 @@ import sun.security.action.GetPropertyAction;
  * <pre>    http://foo.com/hello world/ and http://foo.com/hello%20world</pre>
  * would be considered not equal to each other.
  * <p>
- * Note, the {@link java.net.URI} class does perform escaping of its
+ * Note, the {@link java.base.share.classes.java.net.URI} class does perform escaping of its
  * component fields in certain circumstances. The recommended way
- * to manage the encoding and decoding of URLs is to use {@link java.net.URI},
+ * to manage the encoding and decoding of URLs is to use {@link java.base.share.classes.java.net.URI},
  * and to convert between these two classes using {@link #toURI()} and
  * {@link URI#toURL()}.
  * <p>
@@ -312,7 +312,7 @@ public final class URL implements java.io.Serializable {
      *     or if the factory's {@code createURLStreamHandler} method
      *     returns {@code null}, then the {@linkplain java.util.ServiceLoader
      *     ServiceLoader} mechanism is used to locate {@linkplain
-     *     java.net.spi.URLStreamHandlerProvider URLStreamHandlerProvider}
+     *     java.base.share.classes.java.net.spi.URLStreamHandlerProvider URLStreamHandlerProvider}
      *     implementations using the system class
      *     loader. The order that providers are located is implementation
      *     specific, and an implementation is free to cache the located
@@ -373,10 +373,10 @@ public final class URL implements java.io.Serializable {
      *                  underlying stream handler implementation rejects,
      *                  or is known to reject, the {@code URL}
      * @see        java.lang.System#getProperty(java.lang.String)
-     * @see        java.net.URL#setURLStreamHandlerFactory(
-     *                  java.net.URLStreamHandlerFactory)
-     * @see        java.net.URLStreamHandler
-     * @see        java.net.URLStreamHandlerFactory#createURLStreamHandler(
+     * @see        java.base.share.classes.java.net.URL#setURLStreamHandlerFactory(
+     *                  java.base.share.classes.java.net.URLStreamHandlerFactory)
+     * @see        java.base.share.classes.java.net.URLStreamHandler
+     * @see        java.base.share.classes.java.net.URLStreamHandlerFactory#createURLStreamHandler(
      *                  java.lang.String)
      * @deprecated Use {@link URI#toURL()} to construct an instance of URL. See the note on
      * <a href="#constructor-deprecation">constructor deprecation</a> for more
@@ -406,7 +406,7 @@ public final class URL implements java.io.Serializable {
      * @throws     MalformedURLException  if an unknown protocol is specified,
      *                        or if the underlying stream handler implementation
      *                        rejects, or is known to reject, the {@code URL}
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *                  int, java.lang.String)
      * @deprecated Use {@link URI#toURL()} to construct an instance of URL. See the note on
      * <a href="#constructor-deprecation">constructor deprecation</a> for more
@@ -427,7 +427,7 @@ public final class URL implements java.io.Serializable {
      * a {@code handler} of {@code null} indicates that the URL
      * should use a default stream handler for the protocol, as outlined
      * for:
-     *     {@link java.net.URL#URL(java.lang.String, java.lang.String, int,
+     *     {@link java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String, int,
      *                      java.lang.String)}
      *
      * <p>If the handler is not null and there is a security manager,
@@ -452,13 +452,13 @@ public final class URL implements java.io.Serializable {
      *        {@code checkPermission} method doesn't allow
      *        specifying a stream handler explicitly.
      * @see        java.lang.System#getProperty(java.lang.String)
-     * @see        java.net.URL#setURLStreamHandlerFactory(
-     *                  java.net.URLStreamHandlerFactory)
-     * @see        java.net.URLStreamHandler
-     * @see        java.net.URLStreamHandlerFactory#createURLStreamHandler(
+     * @see        java.base.share.classes.java.net.URL#setURLStreamHandlerFactory(
+     *                  java.base.share.classes.java.net.URLStreamHandlerFactory)
+     * @see        java.base.share.classes.java.net.URLStreamHandler
+     * @see        java.base.share.classes.java.net.URLStreamHandlerFactory#createURLStreamHandler(
      *                  java.lang.String)
      * @see        SecurityManager#checkPermission
-     * @see        java.net.NetPermission
+     * @see        java.base.share.classes.java.net.NetPermission
      * @deprecated
      * Use {@link #of(URI, URLStreamHandler)} to construct an instance of URL
      * associated with a custom protocol handler.
@@ -551,7 +551,7 @@ public final class URL implements java.io.Serializable {
      *               underlying stream handler's {@linkplain
      *               URLStreamHandler#parseURL parseURL method} throws
      *               {@code IllegalArgumentException}
-     * @see        java.net.URL#URL(java.net.URL, java.lang.String)
+     * @see        java.base.share.classes.java.net.URL#URL(java.base.share.classes.java.net.URL, java.lang.String)
      * @deprecated Use {@link URI#toURL()} to construct an instance of URL. See the note on
      * <a href="#constructor-deprecation">constructor deprecation</a> for more
      * details.
@@ -611,10 +611,10 @@ public final class URL implements java.io.Serializable {
      *               underlying stream handler's {@linkplain
      *               URLStreamHandler#parseURL parseURL method} throws
      *               {@code IllegalArgumentException}
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *                  int, java.lang.String)
-     * @see        java.net.URLStreamHandler
-     * @see        java.net.URLStreamHandler#parseURL(java.net.URL,
+     * @see        java.base.share.classes.java.net.URLStreamHandler
+     * @see        java.base.share.classes.java.net.URLStreamHandler#parseURL(java.base.share.classes.java.net.URL,
      *                  java.lang.String, int, int)
      * @deprecated Use {@link URI#toURL()} to construct an instance of URL. See the note on
      * <a href="#constructor-deprecation">constructor deprecation</a> for more
@@ -648,10 +648,10 @@ public final class URL implements java.io.Serializable {
      *        if a security manager exists and its
      *        {@code checkPermission} method doesn't allow
      *        specifying a stream handler.
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *                  int, java.lang.String)
-     * @see        java.net.URLStreamHandler
-     * @see        java.net.URLStreamHandler#parseURL(java.net.URL,
+     * @see        java.base.share.classes.java.net.URLStreamHandler
+     * @see        java.base.share.classes.java.net.URLStreamHandler#parseURL(java.base.share.classes.java.net.URL,
      *                  java.lang.String, int, int)
      * @deprecated
      * Use {@link #of(URI, URLStreamHandler)} to construct an instance of URL
@@ -823,7 +823,7 @@ public final class URL implements java.io.Serializable {
      *        {@code checkPermission} method doesn't allow
      *        specifying a stream handler
      *
-     * @see java.net.URI#toURL()
+     * @see java.base.share.classes.java.net.URI#toURL()
      *
      * @since 20
      */
@@ -1152,9 +1152,9 @@ public final class URL implements java.io.Serializable {
      * method of the stream protocol handler for this object.
      *
      * @return  a string representation of this object.
-     * @see     java.net.URL#URL(java.lang.String, java.lang.String, int,
+     * @see     java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String, int,
      *                  java.lang.String)
-     * @see     java.net.URLStreamHandler#toExternalForm(java.net.URL)
+     * @see     java.base.share.classes.java.net.URLStreamHandler#toExternalForm(java.base.share.classes.java.net.URL)
      */
     public String toString() {
         return toExternalForm();
@@ -1166,16 +1166,16 @@ public final class URL implements java.io.Serializable {
      * method of the stream protocol handler for this object.
      *
      * @return  a string representation of this object.
-     * @see     java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see     java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *                  int, java.lang.String)
-     * @see     java.net.URLStreamHandler#toExternalForm(java.net.URL)
+     * @see     java.base.share.classes.java.net.URLStreamHandler#toExternalForm(java.base.share.classes.java.net.URL)
      */
     public String toExternalForm() {
         return handler.toExternalForm(this);
     }
 
     /**
-     * Returns a {@link java.net.URI} equivalent to this URL.
+     * Returns a {@link java.base.share.classes.java.net.URI} equivalent to this URL.
      * This method functions in the same way as {@code new URI (this.toString())}.
      * <p>Note, any URL instance that complies with RFC 2396 can be converted
      * to a URI. However, some URLs that are not strictly in compliance
@@ -1197,32 +1197,32 @@ public final class URL implements java.io.Serializable {
     }
 
     /**
-     * Returns a {@link java.net.URLConnection URLConnection} instance that
+     * Returns a {@link java.base.share.classes.java.net.URLConnection URLConnection} instance that
      * represents a connection to the remote object referred to by the
      * {@code URL}.
      *
-     * <P>A new instance of {@linkplain java.net.URLConnection URLConnection} is
+     * <P>A new instance of {@linkplain java.base.share.classes.java.net.URLConnection URLConnection} is
      * created every time when invoking the
-     * {@linkplain java.net.URLStreamHandler#openConnection(URL)
+     * {@linkplain java.base.share.classes.java.net.URLStreamHandler#openConnection(URL)
      * URLStreamHandler.openConnection(URL)} method of the protocol handler for
      * this URL.</P>
      *
      * <P>It should be noted that a URLConnection instance does not establish
      * the actual network connection on creation. This will happen only when
-     * calling {@linkplain java.net.URLConnection#connect() URLConnection.connect()}.</P>
+     * calling {@linkplain java.base.share.classes.java.net.URLConnection#connect() URLConnection.connect()}.</P>
      *
      * <P>If for the URL's protocol (such as HTTP or JAR), there
      * exists a public, specialized URLConnection subclass belonging
      * to one of the following packages or one of their subpackages:
-     * java.lang, java.io, java.util, java.net, the connection
+     * java.lang, java.io, java.util, java.base.share.classes.java.net, the connection
      * returned will be of that subclass. For example, for HTTP an
      * HttpURLConnection will be returned, and for JAR a
      * JarURLConnection will be returned.</P>
      *
-     * @return     a {@link java.net.URLConnection URLConnection} linking
+     * @return     a {@link java.base.share.classes.java.net.URLConnection URLConnection} linking
      *             to the URL.
      * @throws     IOException  if an I/O exception occurs.
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *             int, java.lang.String)
      */
     public URLConnection openConnection() throws java.io.IOException {
@@ -1236,7 +1236,7 @@ public final class URL implements java.io.Serializable {
      * normal connection.
      *
      * Invoking this method preempts the system's default
-     * {@link java.net.ProxySelector ProxySelector} settings.
+     * {@link java.base.share.classes.java.net.ProxySelector ProxySelector} settings.
      *
      * @param      proxy the Proxy through which this connection
      *             will be made. If direct connection is desired,
@@ -1251,11 +1251,11 @@ public final class URL implements java.io.Serializable {
      * @throws     UnsupportedOperationException if the subclass that
      *             implements the protocol handler doesn't support
      *             this method.
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *             int, java.lang.String)
-     * @see        java.net.URLConnection
-     * @see        java.net.URLStreamHandler#openConnection(java.net.URL,
-     *             java.net.Proxy)
+     * @see        java.base.share.classes.java.net.URLConnection
+     * @see        java.base.share.classes.java.net.URLStreamHandler#openConnection(java.base.share.classes.java.net.URL,
+     *             java.base.share.classes.java.net.Proxy)
      * @since      1.5
      */
     public URLConnection openConnection(Proxy proxy)
@@ -1289,8 +1289,8 @@ public final class URL implements java.io.Serializable {
      *
      * @return     an input stream for reading from the URL connection.
      * @throws     IOException  if an I/O exception occurs.
-     * @see        java.net.URL#openConnection()
-     * @see        java.net.URLConnection#getInputStream()
+     * @see        java.base.share.classes.java.net.URL#openConnection()
+     * @see        java.base.share.classes.java.net.URLConnection#getInputStream()
      */
     public final InputStream openStream() throws java.io.IOException {
         return openConnection().getInputStream();
@@ -1304,7 +1304,7 @@ public final class URL implements java.io.Serializable {
      *
      * @return     the contents of this URL.
      * @throws     IOException  if an I/O exception occurs.
-     * @see        java.net.URLConnection#getContent()
+     * @see        java.base.share.classes.java.net.URLConnection#getContent()
      */
     public final Object getContent() throws java.io.IOException {
         return openConnection().getContent();
@@ -1321,7 +1321,7 @@ public final class URL implements java.io.Serializable {
      *               the types specified in the classes array.
      *               null if none of the requested types are supported.
      * @throws     IOException  if an I/O exception occurs.
-     * @see        java.net.URLConnection#getContent(Class[])
+     * @see        java.base.share.classes.java.net.URLConnection#getContent(Class[])
      * @since 1.3
      */
     public final Object getContent(Class<?>[] classes)
@@ -1352,9 +1352,9 @@ public final class URL implements java.io.Serializable {
      * @throws     SecurityException  if a security manager exists and its
      *             {@code checkSetFactory} method doesn't allow
      *             the operation.
-     * @see        java.net.URL#URL(java.lang.String, java.lang.String,
+     * @see        java.base.share.classes.java.net.URL#URL(java.lang.String, java.lang.String,
      *             int, java.lang.String)
-     * @see        java.net.URLStreamHandlerFactory
+     * @see        java.base.share.classes.java.net.URLStreamHandlerFactory
      * @see        SecurityManager#checkSetFactory
      */
     public static void setURLStreamHandlerFactory(URLStreamHandlerFactory fac) {

@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.nio.ch;
+package java.base.linux.classes.sun.nio.ch;
 
 import java.io.IOException;
-import static sun.nio.ch.EPoll.*;
+import static java.base.linux.classes.sun.nio.ch.EPoll.*;
 
 /**
  * Poller implementation based on the epoll facility.

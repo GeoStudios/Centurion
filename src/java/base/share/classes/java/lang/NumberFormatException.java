@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown to indicate that the application has attempted to convert
  * a string to one of the numeric types, but that the string does not
  * have the appropriate format.
  *
- * @see     java.lang.Integer#parseInt(String)
+ * @see     java.base.share.classes.java.lang.Integer#parseInt(String)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

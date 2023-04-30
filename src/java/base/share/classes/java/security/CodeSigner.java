@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.*;
-import java.security.cert.CertPath;
+import java.base.share.classes.java.security.cert.CertPath;
 
 /**
  * This class encapsulates information about a code signer.

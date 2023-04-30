@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.jimage.decompressor;
+package java.base.share.classes.jdk.internal.jimage.decompressor;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Objects;
-import jdk.internal.jimage.decompressor.ResourceDecompressor.StringsProvider;
+import java.base.share.classes.jdk.internal.jimage.decompressor.ResourceDecompressor.StringsProvider;
 
 /**
  *

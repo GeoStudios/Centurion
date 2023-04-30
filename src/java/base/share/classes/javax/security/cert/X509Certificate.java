@@ -3,7 +3,7 @@
  */
 
 
-package javax.security.cert;
+package java.base.share.classes.javax.security.cert;
 
 import java.io.InputStream;
 import java.lang.reflect.Constructor;
@@ -88,7 +88,7 @@ import java.util.Date;
  * initialization time and will fallback on a default implementation if
  * the Security property is not accessible.
  *
- * <p><em>Note: The classes in the package {@code javax.security.cert}
+ * <p><em>Note: The classes in the package {@code java.base.share.classes.javax.security.cert}
  * exist for compatibility with earlier versions of the
  * Java Secure Sockets Extension (JSSE). New applications should instead
  * use the standard Java SE certificate classes located in

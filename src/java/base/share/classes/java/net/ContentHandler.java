@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 
@@ -52,12 +52,12 @@ import java.io.IOException;
  * the JVM will need the RuntimePermission "getClassLoader".
  *
  * @author  James Gosling
- * @see     java.net.ContentHandler#getContent(java.net.URLConnection)
- * @see     java.net.ContentHandlerFactory
- * @see     java.net.URL#getContent()
- * @see     java.net.URLConnection
- * @see     java.net.URLConnection#getContent()
- * @see     java.net.URLConnection#setContentHandlerFactory(java.net.ContentHandlerFactory)
+ * @see     java.base.share.classes.java.net.ContentHandler#getContent(java.base.share.classes.java.net.URLConnection)
+ * @see     java.base.share.classes.java.net.ContentHandlerFactory
+ * @see     java.base.share.classes.java.net.URL#getContent()
+ * @see     java.base.share.classes.java.net.URLConnection
+ * @see     java.base.share.classes.java.net.URLConnection#getContent()
+ * @see     java.base.share.classes.java.net.URLConnection#setContentHandlerFactory(java.base.share.classes.java.net.ContentHandlerFactory)
  * @since   1.0
  */
 public abstract class ContentHandler {

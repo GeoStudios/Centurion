@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.util.Objects;
 
@@ -18,12 +18,12 @@ import java.util.Objects;
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
- * @see     java.io.BufferedOutputStream
- * @see     java.io.ByteArrayOutputStream
- * @see     java.io.DataOutputStream
- * @see     java.io.FilterOutputStream
- * @see     java.io.InputStream
- * @see     java.io.OutputStream#write(int)
+ * @see     java.base.share.classes.java.io.BufferedOutputStream
+ * @see     java.base.share.classes.java.io.ByteArrayOutputStream
+ * @see     java.base.share.classes.java.io.DataOutputStream
+ * @see     java.base.share.classes.java.io.FilterOutputStream
+ * @see     java.base.share.classes.java.io.InputStream
+ * @see     java.base.share.classes.java.io.OutputStream#write(int)
  */
 public abstract class OutputStream implements Closeable, Flushable {
     /**
@@ -98,7 +98,7 @@ public abstract class OutputStream implements Closeable, Flushable {
      *
      * @param      b   the data.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.OutputStream#write(byte[], int, int)
+     * @see        java.base.share.classes.java.io.OutputStream#write(byte[], int, int)
      */
     public void write(byte[] b) throws IOException {
         write(b, 0, b.length);

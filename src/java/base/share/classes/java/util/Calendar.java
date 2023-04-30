@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -18,8 +18,8 @@ import java.security.ProtectionDomain;
 import java.text.DateFormat;
 import java.text.DateFormatSymbols;
 import java.time.Instant;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import sun.util.BuddhistCalendar;
 import sun.util.calendar.ZoneInfo;
 import sun.util.locale.provider.CalendarDataUtility;
@@ -258,7 +258,7 @@ import sun.util.spi.CalendarProvider;
  *   {@code HOUR}.</p>
  * </blockquote>
  *
- * <p><em>Example</em>: See {@link java.util.GregorianCalendar#roll(int, int)}.
+ * <p><em>Example</em>: See {@link java.base.share.classes.java.util.GregorianCalendar#roll(int, int)}.
  *
  * <p><strong>Usage model</strong>. To motivate the behavior of
  * {@code add()} and {@code roll()}, consider a user interface
@@ -1546,7 +1546,7 @@ public abstract class Calendar implements Serializable, Cloneable, Comparable<Ca
 
     /**
      * Constructs a Calendar with the default time zone
-     * and the default {@link java.util.Locale.Category#FORMAT FORMAT}
+     * and the default {@link java.base.share.classes.java.util.Locale.Category#FORMAT FORMAT}
      * locale.
      * @see     TimeZone#getDefault
      */

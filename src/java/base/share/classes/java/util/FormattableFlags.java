@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * FormattableFlags are passed to the {@link Formattable#formatTo
@@ -30,10 +30,10 @@ public class FormattableFlags {
 
     /**
      * Converts the output to upper case according to the rules of the
-     * {@linkplain java.util.Locale locale} given during creation of the
+     * {@linkplain java.base.share.classes.java.util.Locale locale} given during creation of the
      * {@code formatter} argument of the {@link Formattable#formatTo
      * formatTo()} method.  The output should be equivalent the following
-     * invocation of {@link String#toUpperCase(java.util.Locale)}
+     * invocation of {@link String#toUpperCase(java.base.share.classes.java.util.Locale)}
      *
      * <pre>
      *     out.toUpperCase() </pre>

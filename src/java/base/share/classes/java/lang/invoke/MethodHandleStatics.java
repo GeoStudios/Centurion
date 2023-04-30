@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.misc.CDS;
 import jdk.internal.misc.Unsafe;
@@ -11,13 +11,13 @@ import sun.security.action.GetPropertyAction;
 
 import java.util.Properties;
 
-import static java.lang.invoke.LambdaForm.basicTypeSignature;
-import static java.lang.invoke.LambdaForm.shortenSignature;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.basicTypeSignature;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.shortenSignature;
 
 /**
  * This class consists exclusively of static names internal to the
  * method handle implementation.
- * Usage:  {@code import static java.lang.invoke.MethodHandleStatics.*}
+ * Usage:  {@code import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*}
  * @author John Rose, JSR 292 EG
  */
 /*non-public*/
@@ -46,35 +46,35 @@ class MethodHandleStatics {
     static {
         Properties props = GetPropertyAction.privilegedGetProperties();
         DEBUG_METHOD_HANDLE_NAMES = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.DEBUG_NAMES"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.DEBUG_NAMES"));
         DUMP_CLASS_FILES = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.DUMP_CLASS_FILES"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.DUMP_CLASS_FILES"));
         TRACE_INTERPRETER = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.TRACE_INTERPRETER"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.TRACE_INTERPRETER"));
         TRACE_METHOD_LINKAGE = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.TRACE_METHOD_LINKAGE"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.TRACE_METHOD_LINKAGE"));
         TRACE_RESOLVE = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.TRACE_RESOLVE"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.TRACE_RESOLVE"));
         COMPILE_THRESHOLD = Integer.parseInt(
-                props.getProperty("java.lang.invoke.MethodHandle.COMPILE_THRESHOLD", "0"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.COMPILE_THRESHOLD", "0"));
         LOG_LF_COMPILATION_FAILURE = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.LOG_LF_COMPILATION_FAILURE", "false"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.LOG_LF_COMPILATION_FAILURE", "false"));
         DONT_INLINE_THRESHOLD = Integer.parseInt(
-                props.getProperty("java.lang.invoke.MethodHandle.DONT_INLINE_THRESHOLD", "30"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.DONT_INLINE_THRESHOLD", "30"));
         PROFILE_LEVEL = Integer.parseInt(
-                props.getProperty("java.lang.invoke.MethodHandle.PROFILE_LEVEL", "0"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.PROFILE_LEVEL", "0"));
         PROFILE_GWT = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.MethodHandle.PROFILE_GWT", "true"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.PROFILE_GWT", "true"));
         CUSTOMIZE_THRESHOLD = Integer.parseInt(
-                props.getProperty("java.lang.invoke.MethodHandle.CUSTOMIZE_THRESHOLD", "127"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandle.CUSTOMIZE_THRESHOLD", "127"));
         VAR_HANDLE_GUARDS = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS", "true"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS", "true"));
         VAR_HANDLE_IDENTITY_ADAPT = Boolean.parseBoolean(
-                props.getProperty("java.lang.invoke.VarHandle.VAR_HANDLE_IDENTITY_ADAPT", "false"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.VarHandle.VAR_HANDLE_IDENTITY_ADAPT", "false"));
 
         // Do not adjust this except for special platforms:
         MAX_ARITY = Integer.parseInt(
-                props.getProperty("java.lang.invoke.MethodHandleImpl.MAX_ARITY", "255"));
+                props.getProperty("java.base.share.classes.java.lang.invoke.MethodHandleImpl.MAX_ARITY", "255"));
 
         if (CUSTOMIZE_THRESHOLD < -1 || CUSTOMIZE_THRESHOLD > 127) {
             throw newInternalError("CUSTOMIZE_THRESHOLD should be in [-1...127] range");

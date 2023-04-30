@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file.spi;
+package java.base.share.classes.java.nio.file.spi;
 
 import java.nio.channels.AsynchronousFileChannel;
 import java.nio.channels.Channels;
@@ -65,7 +65,7 @@ import sun.nio.ch.FileChannelImpl;
  * The {@link FileSystems} class defines how file system providers are located
  * and loaded. The default provider is typically a system-default provider but
  * may be overridden if the system property {@systemProperty
- * java.nio.file.spi.DefaultFileSystemProvider} is set. In that case, the
+ * java.base.share.classes.java.nio.file.spi.DefaultFileSystemProvider} is set. In that case, the
  * provider has a one argument constructor whose formal parameter type is {@code
  * FileSystemProvider}. All other providers have a zero argument constructor
  * that initializes the provider.

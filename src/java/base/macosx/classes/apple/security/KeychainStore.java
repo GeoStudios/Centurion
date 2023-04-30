@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package apple.security;
+package java.base.macosx.classes.apple.security;
 
 import java.io.*;
 import java.security.*;

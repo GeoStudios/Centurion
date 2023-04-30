@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 /** This interface provides the declarations for the accessor methods
     of java.lang.reflect.Field. Each Field object is configured with a

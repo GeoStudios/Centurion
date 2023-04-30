@@ -1,17 +1,17 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.constant;
+package java.base.share.classes.java.lang.constant;
 
 import java.lang.invoke.TypeDescriptor;
 import java.util.stream.Stream;
 
 import sun.invoke.util.Wrapper;
 
-import static java.lang.constant.ConstantUtils.binaryToInternal;
-import static java.lang.constant.ConstantUtils.dropLastChar;
-import static java.lang.constant.ConstantUtils.internalToBinary;
-import static java.lang.constant.ConstantUtils.validateMemberName;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.binaryToInternal;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.dropLastChar;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.internalToBinary;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateMemberName;
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.joining;
 
@@ -21,7 +21,7 @@ import static java.util.stream.Collectors.joining;
  *
  * <p>For common system types, including all the primitive types, there are
  * predefined {@linkplain ClassDesc} constants in {@link ConstantDescs}.
- * (The {@code java.lang.constant} APIs consider {@code void} to be a primitive type.)
+ * (The {@code java.base.share.classes.java.lang.constant} APIs consider {@code void} to be a primitive type.)
  * To create a {@linkplain ClassDesc} for a class or interface type, use {@link #of} or
  * {@link #ofDescriptor(String)}; to create a {@linkplain ClassDesc} for an array
  * type, use {@link #ofDescriptor(String)}, or first obtain a

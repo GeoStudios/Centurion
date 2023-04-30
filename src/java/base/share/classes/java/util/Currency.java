@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -15,12 +15,12 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.util.spi.CurrencyNameProvider;
-import java.util.stream.Collectors;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.regex.Pattern;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.spi.CurrencyNameProvider;
+import java.base.share.classes.java.util.stream.Collectors;
 
 import jdk.internal.util.StaticProperty;
 import sun.util.locale.provider.CalendarDataUtility;
@@ -39,7 +39,7 @@ import sun.util.logging.PlatformLogger;
  * the {@code getInstance} methods.
  * <p>
  * Users can supersede the Java runtime currency data by means of the system
- * property {@systemProperty java.util.currency.data}. If this system property is
+ * property {@systemProperty java.base.share.classes.java.util.currency.data}. If this system property is
  * defined then its value is the location of a properties file, the contents of
  * which are key/value pairs of the ISO 3166 country codes and the ISO 4217
  * currency data respectively.  The value part consists of three ISO 4217 values
@@ -221,7 +221,7 @@ public final class Currency implements Serializable {
                 }
 
                 // look for the properties file for overrides
-                String propsFile = System.getProperty("java.util.currency.data");
+                String propsFile = System.getProperty("java.base.share.classes.java.util.currency.data");
                 if (propsFile == null) {
                     propsFile = StaticProperty.javaHome() + File.separator + "lib" +
                         File.separator + "currency.properties";
@@ -765,7 +765,7 @@ public final class Currency implements Serializable {
 
     /**
      * Parse currency data found in the properties file (that
-     * java.util.currency.data designates) to a List of CurrencyProperty
+     * java.base.share.classes.java.util.currency.data designates) to a List of CurrencyProperty
      * instances. Also, remove invalid entries and the multiple currency
      * code inconsistencies.
      *
@@ -806,7 +806,7 @@ public final class Currency implements Serializable {
 
     /**
      * Replaces currency data found in the properties file that
-     * java.util.currency.data designates. This method is invoked for
+     * java.base.share.classes.java.util.currency.data designates. This method is invoked for
      * each valid currency entry.
      *
      * @param prop CurrencyProperty instance of the valid property entry
@@ -1053,7 +1053,7 @@ public final class Currency implements Serializable {
 
     /*
      * Used to represent an entry of the properties file that
-     * java.util.currency.data designates
+     * java.base.share.classes.java.util.currency.data designates
      *
      * - country: country representing the currency entry
      * - currencyCode: currency code
@@ -1168,7 +1168,7 @@ public final class Currency implements Serializable {
 
         private static void info(String message, Throwable t) {
             PlatformLogger logger = PlatformLogger
-                    .getLogger("java.util.Currency");
+                    .getLogger("java.base.share.classes.java.util.Currency");
             if (logger.isLoggable(PlatformLogger.Level.INFO)) {
                 if (t != null) {
                     logger.info(message, t);

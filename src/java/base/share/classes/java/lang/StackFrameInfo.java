@@ -1,14 +1,14 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.access.JavaLangInvokeAccess;
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.vm.ContinuationScope;
 
-import java.lang.StackWalker.StackFrame;
-import java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.StackWalker.StackFrame;
+import java.base.share.classes.java.lang.invoke.MethodType;
 
 /**
  * @since Pre Java 1

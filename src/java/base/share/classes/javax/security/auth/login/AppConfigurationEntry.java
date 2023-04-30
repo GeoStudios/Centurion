@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
 import java.util.Map;
 import java.util.Collections;
@@ -19,7 +19,7 @@ import java.util.Collections;
  * more information on the different control flags and their semantics.
  *
  * @since 1.4
- * @see javax.security.auth.login.Configuration
+ * @see java.base.share.classes.javax.security.auth.login.Configuration
  */
 public class AppConfigurationEntry {
 

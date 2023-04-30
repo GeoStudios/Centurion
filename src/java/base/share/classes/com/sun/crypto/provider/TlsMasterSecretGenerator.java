@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
@@ -13,7 +13,7 @@ import javax.crypto.*;
 import sun.security.internal.interfaces.TlsMasterSecret;
 import sun.security.internal.spec.TlsMasterSecretParameterSpec;
 
-import static com.sun.crypto.provider.TlsPrfGenerator.*;
+import static java.base.share.classes.com.sun.crypto.provider.TlsPrfGenerator.*;
 
 /**
  * KeyGenerator implementation for the SSL/TLS master secret derivation.

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util.function;
+package java.base.share.classes.java.util.function;
 
 /**
  * Represents a supplier of {@code double}-valued results.  This is the

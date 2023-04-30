@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
@@ -12,11 +12,11 @@ import java.util.Comparator;
 import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleImpl.Intrinsic;
-import static java.lang.invoke.MethodHandleImpl.NF_loop;
-import static java.lang.invoke.MethodHandleImpl.makeIntrinsic;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.Intrinsic;
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.NF_loop;
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.makeIntrinsic;
 
 /** Transforms on LFs.
  *  A lambda-form editor can derive new LFs from its base LF.

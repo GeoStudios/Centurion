@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
 
 /**
  * This class represents the ASN.1 encoding of a public key,

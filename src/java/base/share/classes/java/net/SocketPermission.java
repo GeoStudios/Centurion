@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -1075,7 +1075,7 @@ public final class SocketPermission extends Permission
          * If this SocketPermission was initialized with an IP address
          * or a wildcard, use getName().hashCode(), otherwise use
          * the hashCode() of the host name returned from
-         * java.net.InetAddress.getHostName method.
+         * java.base.share.classes.java.net.InetAddress.getHostName method.
          */
 
         if (init_with_ip || wildcard) {

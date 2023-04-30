@@ -2,12 +2,12 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
 import java.util.HashMap;
 import java.util.Locale;
-import java.util.regex.Pattern.CharPredicate;
-import java.util.regex.Pattern.BmpCharPredicate;
+import java.base.share.classes.java.util.regex.Pattern.CharPredicate;
+import java.base.share.classes.java.util.regex.Pattern.BmpCharPredicate;
 
 class CharPredicates {
 

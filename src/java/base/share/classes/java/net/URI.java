@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.File;
 import java.io.IOException;
@@ -1057,7 +1057,7 @@ public final class URI
      * against this URI.
      *
      * <p> This convenience method works as if invoking it were equivalent to
-     * evaluating the expression {@link #resolve(java.net.URI)
+     * evaluating the expression {@link #resolve(java.base.share.classes.java.net.URI)
      * resolve}{@code (URI.}{@link #create(String) create}{@code (str))}. </p>
      *
      * @param  str   The string to be parsed into a URI

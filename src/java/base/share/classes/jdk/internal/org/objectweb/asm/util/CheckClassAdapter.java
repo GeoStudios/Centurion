@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -68,7 +68,7 @@ import jdk.internal.org.objectweb.asm.tree.analysis.SimpleVerifier;
  * <pre>
  * jdk.internal.org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 71: Expected I, but found .
  *   at jdk.internal.org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:...)
- *   at jdk.internal.org.objectweb.asm.util.CheckClassAdapter.verify(CheckClassAdapter.java:...)
+ *   at java.base.share.classes.jdk.internal.org.objectweb.asm.util.CheckClassAdapter.verify(CheckClassAdapter.java:...)
  * ...
  * remove()V
  * 00000 LinkedBlockingQueue$Itr . . . . . . . .  : ICONST_0

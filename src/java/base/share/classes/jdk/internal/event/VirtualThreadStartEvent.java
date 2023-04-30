@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.event;
+package java.base.share.classes.jdk.internal.event;
 
 /**
  * Event recording that a virtual thread has been started.

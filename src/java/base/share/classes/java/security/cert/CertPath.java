@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.io.ByteArrayInputStream;
 import java.io.NotSerializableException;
@@ -120,7 +120,7 @@ public abstract class CertPath implements Serializable {
     /**
      * Returns the type of {@code Certificate}s in this certification
      * path. This is the same string that would be returned by
-     * {@link java.security.cert.Certificate#getType() cert.getType()}
+     * {@link java.base.share.classes.java.security.cert.Certificate#getType() cert.getType()}
      * for all {@code Certificate}s in the certification path.
      *
      * @return the type of {@code Certificate}s in this certification
@@ -265,7 +265,7 @@ public abstract class CertPath implements Serializable {
         } catch (CertificateException ce) {
             NotSerializableException nse =
                 new NotSerializableException
-                    ("java.security.cert.CertPath: " + type);
+                    ("java.base.share.classes.java.security.cert.CertPath: " + type);
             nse.initCause(ce);
             throw nse;
         }
@@ -314,7 +314,7 @@ public abstract class CertPath implements Serializable {
             } catch (CertificateException ce) {
                 NotSerializableException nse =
                     new NotSerializableException
-                        ("java.security.cert.CertPath: " + type);
+                        ("java.base.share.classes.java.security.cert.CertPath: " + type);
                 nse.initCause(ce);
                 throw nse;
             }

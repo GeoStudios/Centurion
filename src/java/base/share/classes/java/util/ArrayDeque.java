@@ -12,11 +12,11 @@
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.Serializable;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
 import jdk.internal.access.SharedSecrets;
 
 /**

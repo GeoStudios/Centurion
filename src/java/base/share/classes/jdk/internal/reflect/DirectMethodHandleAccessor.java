@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 import jdk.internal.access.JavaLangInvokeAccess;
 import jdk.internal.access.SharedSecrets;
@@ -18,7 +18,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
 import static java.lang.invoke.MethodType.genericMethodType;
-import static jdk.internal.reflect.MethodHandleAccessorFactory.LazyStaticHolder.JLIA;
+import static java.base.share.classes.jdk.internal.reflect.MethodHandleAccessorFactory.LazyStaticHolder.JLIA;
 
 class DirectMethodHandleAccessor extends MethodAccessorImpl {
     /**

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import sun.security.util.SecurityConstants;
 
@@ -43,28 +43,28 @@ import java.util.Collections;
  * </thead>
  * <tbody>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_SNDBUF SO_SNDBUF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_SNDBUF SO_SNDBUF} </th>
  *     <td> The size of the socket send buffer </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_RCVBUF SO_RCVBUF} </th>
  *     <td> The size of the socket receive buffer </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_KEEPALIVE SO_KEEPALIVE} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_KEEPALIVE SO_KEEPALIVE} </th>
  *     <td> Keep connection alive </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_REUSEADDR SO_REUSEADDR} </th>
  *     <td> Re-use address </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#SO_LINGER SO_LINGER} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#SO_LINGER SO_LINGER} </th>
  *     <td> Linger on close if data is present (when configured in blocking mode
  *          only) </td>
  *   </tr>
  *   <tr>
- *     <th scope="row"> {@link java.net.StandardSocketOptions#TCP_NODELAY TCP_NODELAY} </th>
+ *     <th scope="row"> {@link java.base.share.classes.java.net.StandardSocketOptions#TCP_NODELAY TCP_NODELAY} </th>
  *     <td> Disable the Nagle algorithm </td>
  *   </tr>
  * </tbody>
@@ -72,7 +72,7 @@ import java.util.Collections;
  * </blockquote>
  * Additional (implementation specific) options may also be supported.
  *
- * @see     java.net.SocketImpl
+ * @see     java.base.share.classes.java.net.SocketImpl
  * @see     java.nio.channels.SocketChannel
  * @since   1.0
  */
@@ -177,15 +177,15 @@ public class Socket implements java.io.Closeable {
      * server.</LI>
      * </UL>
      *
-     * @param proxy a {@link java.net.Proxy Proxy} object specifying what kind
+     * @param proxy a {@link java.base.share.classes.java.net.Proxy Proxy} object specifying what kind
      *              of proxying should be used.
      * @throws IllegalArgumentException if the proxy is of an invalid type
      *          or {@code null}.
      * @throws SecurityException if a security manager is present and
      *                           permission to connect to the proxy is
      *                           denied.
-     * @see java.net.ProxySelector
-     * @see java.net.Proxy
+     * @see java.base.share.classes.java.net.ProxySelector
+     * @see java.base.share.classes.java.net.Proxy
      *
      * @since   1.5
      */
@@ -268,7 +268,7 @@ public class Socket implements java.io.Closeable {
      * <p>
      * If the specified host is {@code null} it is the equivalent of
      * specifying the address as
-     * {@link java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
+     * {@link java.base.share.classes.java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
      * In other words, it is equivalent to specifying an address of the
      * loopback interface. </p>
      * <p>
@@ -294,7 +294,7 @@ public class Socket implements java.io.Closeable {
      * @throws     IllegalArgumentException if the port parameter is outside
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkConnect
      */
     public Socket(String host, int port)
@@ -328,7 +328,7 @@ public class Socket implements java.io.Closeable {
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
      * @throws     NullPointerException if {@code address} is null.
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkConnect
      */
     public Socket(InetAddress address, int port) throws IOException {
@@ -343,7 +343,7 @@ public class Socket implements java.io.Closeable {
      * <p>
      * If the specified host is {@code null} it is the equivalent of
      * specifying the address as
-     * {@link java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
+     * {@link java.base.share.classes.java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
      * In other words, it is equivalent to specifying an address of the
      * loopback interface. </p>
      * <p>
@@ -386,7 +386,7 @@ public class Socket implements java.io.Closeable {
      * <p>
      * If the specified local address is {@code null} it is the equivalent of
      * specifying the address as the AnyLocal address
-     * (see {@link java.net.InetAddress#isAnyLocalAddress InetAddress.isAnyLocalAddress}{@code ()}).
+     * (see {@link java.base.share.classes.java.net.InetAddress#isAnyLocalAddress InetAddress.isAnyLocalAddress}{@code ()}).
      * <p>
      * A local port number of {@code zero} will let the system pick up a
      * free port in the {@code bind} operation.</p>
@@ -426,7 +426,7 @@ public class Socket implements java.io.Closeable {
      * <p>
      * If the specified host is {@code null} it is the equivalent of
      * specifying the address as
-     * {@link java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
+     * {@link java.base.share.classes.java.net.InetAddress#getByName InetAddress.getByName}{@code (null)}.
      * In other words, it is equivalent to specifying an address of the
      * loopback interface. </p>
      * <p>
@@ -456,7 +456,7 @@ public class Socket implements java.io.Closeable {
      * @throws     IllegalArgumentException if the port parameter is outside
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkConnect
      * @deprecated Use DatagramSocket instead for UDP transport.
      */
@@ -498,7 +498,7 @@ public class Socket implements java.io.Closeable {
      *             the specified range of valid port values, which is between
      *             0 and 65535, inclusive.
      * @throws     NullPointerException if {@code host} is null.
-     * @see        java.net.SocketImpl
+     * @see        java.base.share.classes.java.net.SocketImpl
      * @see        SecurityManager#checkConnect
      * @deprecated Use DatagramSocket instead for UDP transport.
      */
@@ -1347,7 +1347,7 @@ public class Socket implements java.io.Closeable {
      *  with the specified timeout, in milliseconds. With this option set
      *  to a positive timeout value, a read() call on the InputStream associated with
      *  this Socket will block for only this amount of time.  If the timeout
-     *  expires, a <B>java.net.SocketTimeoutException</B> is raised, though the
+     *  expires, a <B>java.base.share.classes.java.net.SocketTimeoutException</B> is raised, though the
      *  Socket is still valid. A timeout of zero is interpreted as an infinite timeout.
      *  The option <B>must</B> be enabled prior to entering the blocking operation
      *  to have effect.
@@ -1724,9 +1724,9 @@ public class Socket implements java.io.Closeable {
      * socket.
      *
      * @since 1.3
-     * @see java.net.Socket#shutdownOutput()
-     * @see java.net.Socket#close()
-     * @see java.net.Socket#setSoLinger(boolean, int)
+     * @see java.base.share.classes.java.net.Socket#shutdownOutput()
+     * @see java.base.share.classes.java.net.Socket#close()
+     * @see java.base.share.classes.java.net.Socket#setSoLinger(boolean, int)
      * @see #isInputShutdown
      */
     public void shutdownInput() throws IOException {
@@ -1754,9 +1754,9 @@ public class Socket implements java.io.Closeable {
      * socket.
      *
      * @since 1.3
-     * @see java.net.Socket#shutdownInput()
-     * @see java.net.Socket#close()
-     * @see java.net.Socket#setSoLinger(boolean, int)
+     * @see java.base.share.classes.java.net.Socket#shutdownInput()
+     * @see java.base.share.classes.java.net.Socket#close()
+     * @see java.base.share.classes.java.net.Socket#setSoLinger(boolean, int)
      * @see #isOutputShutdown
      */
     public void shutdownOutput() throws IOException {
@@ -1881,7 +1881,7 @@ public class Socket implements java.io.Closeable {
      * @throws     SocketException  if the factory is already defined.
      * @throws     SecurityException  if a security manager exists and its
      *             {@code checkSetFactory} method doesn't allow the operation.
-     * @see        java.net.SocketImplFactory#createSocketImpl()
+     * @see        java.base.share.classes.java.net.SocketImplFactory#createSocketImpl()
      * @see        SecurityManager#checkSetFactory
      * @deprecated Use a {@link javax.net.SocketFactory} and subclass {@code Socket}
      *    directly.
@@ -1976,7 +1976,7 @@ public class Socket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @since 9
@@ -2007,7 +2007,7 @@ public class Socket implements java.io.Closeable {
      * @throws SecurityException if a security manager is set and if the socket
      *         option requires a security permission and if the caller does
      *         not have the required permission.
-     *         {@link java.net.StandardSocketOptions StandardSocketOptions}
+     *         {@link java.base.share.classes.java.net.StandardSocketOptions StandardSocketOptions}
      *         do not require any security permission.
      *
      * @since 9

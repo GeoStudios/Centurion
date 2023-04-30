@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.security.ntlm;
+package java.base.share.classes.com.sun.security.ntlm;
 
 import sun.security.action.GetBooleanAction;
 
-import static com.sun.security.ntlm.Version.*;
+import static java.base.share.classes.com.sun.security.ntlm.Version.*;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.security.InvalidKeyException;

@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import java.io.InvalidObjectException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.text.spi.DecimalFormatSymbolsProvider;
+import java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider;
 import java.util.Currency;
 import java.util.Locale;
 import java.util.Objects;
@@ -44,7 +44,7 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
      * This constructor can only construct instances for the locales
      * supported by the Java runtime environment, not for those
      * supported by installed
-     * {@link java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
      * implementations. For full locale coverage, use the
      * {@link #getInstance(Locale) getInstance} method.
      * <p>This is equivalent to calling
@@ -62,7 +62,7 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
      * This constructor can only construct instances for the locales
      * supported by the Java runtime environment, not for those
      * supported by installed
-     * {@link java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
      * implementations. For full locale coverage, use the
      * {@link #getInstance(Locale) getInstance} method.
      * If the specified locale contains the {@link java.util.Locale#UNICODE_LOCALE_EXTENSION}
@@ -87,7 +87,7 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
      * localized instances.
      * The returned array represents the union of locales supported by the Java
      * runtime and by installed
-     * {@link java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
+     * {@link java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider DecimalFormatSymbolsProvider}
      * implementations. At a minimum, the returned array must contain a
      * {@code Locale} instance equal to {@link Locale#ROOT Locale.ROOT} and
      * a {@code Locale} instance equal to {@link Locale#US Locale.US}.
@@ -107,7 +107,7 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
      * locale.  This method provides access to {@code DecimalFormatSymbols}
      * instances for locales supported by the Java runtime itself as well
      * as for those supported by installed
-     * {@link java.text.spi.DecimalFormatSymbolsProvider
+     * {@link java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider
      * DecimalFormatSymbolsProvider} implementations.
      * <p>This is equivalent to calling
      * {@link #getInstance(Locale)
@@ -126,7 +126,7 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
      * locale.  This method provides access to {@code DecimalFormatSymbols}
      * instances for locales supported by the Java runtime itself as well
      * as for those supported by installed
-     * {@link java.text.spi.DecimalFormatSymbolsProvider
+     * {@link java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider
      * DecimalFormatSymbolsProvider} implementations.
      * If the specified locale contains the {@link java.util.Locale#UNICODE_LOCALE_EXTENSION}
      * for the numbering system, the instance is initialized with the specified numbering

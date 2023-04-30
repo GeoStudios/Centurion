@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
 /**
  * Linux specific system calls.

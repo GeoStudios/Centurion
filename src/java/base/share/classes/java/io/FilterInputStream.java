@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * A {@code FilterInputStream} wraps some other input stream, which it uses as
@@ -44,7 +44,7 @@ public class FilterInputStream extends InputStream {
      *
      * @return     {@inheritDoc}
      * @throws     IOException  {@inheritDoc}
-     * @see        java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
      */
     @Override
     public int read() throws IOException {
@@ -68,7 +68,7 @@ public class FilterInputStream extends InputStream {
      * @param      b   {@inheritDoc}
      * @return     {@inheritDoc}
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterInputStream#read(byte[], int, int)
+     * @see        java.base.share.classes.java.io.FilterInputStream#read(byte[], int, int)
      */
     @Override
     public int read(byte[] b) throws IOException {
@@ -92,7 +92,7 @@ public class FilterInputStream extends InputStream {
      * @throws     NullPointerException {@inheritDoc}
      * @throws     IndexOutOfBoundsException {@inheritDoc}
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
      */
     @Override
     public int read(byte[] b, int off, int len) throws IOException {
@@ -143,7 +143,7 @@ public class FilterInputStream extends InputStream {
      * This method simply performs {@code in.close()}.
      *
      * @throws     IOException  {@inheritDoc}
-     * @see        java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
      */
     @Override
     public void close() throws IOException {
@@ -163,8 +163,8 @@ public class FilterInputStream extends InputStream {
      * This method simply performs {@code in.mark(readlimit)}.
      *
      * @param   readlimit   {@inheritDoc}
-     * @see     java.io.FilterInputStream#in
-     * @see     java.io.FilterInputStream#reset()
+     * @see     java.base.share.classes.java.io.FilterInputStream#in
+     * @see     java.base.share.classes.java.io.FilterInputStream#reset()
      */
     @Override
     public void mark(int readlimit) {
@@ -188,8 +188,8 @@ public class FilterInputStream extends InputStream {
      * This method simply performs {@code in.reset()}.
      *
      * @throws     IOException  {@inheritDoc}
-     * @see        java.io.FilterInputStream#in
-     * @see        java.io.FilterInputStream#mark(int)
+     * @see        java.base.share.classes.java.io.FilterInputStream#in
+     * @see        java.base.share.classes.java.io.FilterInputStream#mark(int)
      */
     @Override
     public void reset() throws IOException {
@@ -206,9 +206,9 @@ public class FilterInputStream extends InputStream {
      * @return  {@code true} if this stream type supports the
      *          {@code mark} and {@code reset} method;
      *          {@code false} otherwise.
-     * @see     java.io.FilterInputStream#in
-     * @see     java.io.InputStream#mark(int)
-     * @see     java.io.InputStream#reset()
+     * @see     java.base.share.classes.java.io.FilterInputStream#in
+     * @see     java.base.share.classes.java.io.InputStream#mark(int)
+     * @see     java.base.share.classes.java.io.InputStream#reset()
      */
     @Override
     public boolean markSupported() {

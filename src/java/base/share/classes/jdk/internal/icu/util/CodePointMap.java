@@ -4,7 +4,7 @@
 
 // created: 2018may10 Markus W. Scherer
 
-package jdk.internal.icu.util;
+package java.base.share.classes.jdk.internal.icu.util;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

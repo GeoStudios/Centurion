@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.loader.BootLoader;
@@ -25,11 +25,11 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_getStatic;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_putStatic;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_getStatic;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_putStatic;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**

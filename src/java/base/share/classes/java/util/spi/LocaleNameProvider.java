@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.spi;
+package java.base.share.classes.java.util.spi;
 
 import java.util.Locale;
 import java.util.Objects;
@@ -42,7 +42,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    IllegalArgumentException if {@code languageCode} is not in the form of
      *     two or three lower-case letters, or {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @see java.util.Locale#getDisplayLanguage(java.util.Locale)
      */
@@ -69,7 +69,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    IllegalArgumentException if {@code scriptCode} is not in the form of
      *     four title case letters, or {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @see java.util.Locale#getDisplayScript(java.util.Locale)
      * @since 1.7
@@ -98,7 +98,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    IllegalArgumentException if {@code countryCode} is not in the form of
      *     two upper-case letters or three digit letters, or {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @see java.util.Locale#getDisplayCountry(java.util.Locale)
      */
@@ -116,7 +116,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    NullPointerException if {@code variant} or {@code locale} is null
      * @throws    IllegalArgumentException if {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @see java.util.Locale#getDisplayVariant(java.util.Locale)
      */
@@ -136,7 +136,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    NullPointerException if {@code key} or {@code locale} is null
      * @throws    IllegalArgumentException if {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @since 10
      */
@@ -161,7 +161,7 @@ public abstract class LocaleNameProvider extends LocaleServiceProvider {
      * @throws    NullPointerException if {@code key}, {@code type} or {@code locale} is null
      * @throws    IllegalArgumentException if {@code locale} isn't
      *     one of the locales returned from
-     *     {@link java.util.spi.LocaleServiceProvider#getAvailableLocales()
+     *     {@link java.base.share.classes.java.util.spi.LocaleServiceProvider#getAvailableLocales()
      *     getAvailableLocales()}.
      * @since 10
      */

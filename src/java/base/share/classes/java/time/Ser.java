@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
 import java.io.Externalizable;
 import java.io.IOException;
@@ -89,20 +89,20 @@ final class Ser implements Externalizable {
      * in the stream.  Refer to each class {@code writeReplace}
      * serialized form for the value of the type and sequence of values for the type.
      * <ul>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Duration">Duration.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Instant">Instant.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalDate">LocalDate.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalDateTime">LocalDateTime.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalTime">LocalTime.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.MonthDay">MonthDay.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.OffsetTime">OffsetTime.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.OffsetDateTime">OffsetDateTime.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Period">Period.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Year">Year.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.YearMonth">YearMonth.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZoneId">ZoneId.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZoneOffset">ZoneOffset.writeReplace</a>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZonedDateTime">ZonedDateTime.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Duration">Duration.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Instant">Instant.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalDate">LocalDate.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalDateTime">LocalDateTime.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalTime">LocalTime.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.MonthDay">MonthDay.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.OffsetTime">OffsetTime.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.OffsetDateTime">OffsetDateTime.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Period">Period.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Year">Year.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.YearMonth">YearMonth.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZoneId">ZoneId.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZoneOffset">ZoneOffset.writeReplace</a>
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZonedDateTime">ZonedDateTime.writeReplace</a>
      * </ul>
      *
      * @param out  the data stream to write to, not null
@@ -144,33 +144,33 @@ final class Ser implements Externalizable {
      * {@code Ser} object.
      *
      * <ul>
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Duration">Duration</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Duration">Duration</a> -
      *          {@code Duration.ofSeconds(seconds, nanos);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Instant">Instant</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Instant">Instant</a> -
      *          {@code Instant.ofEpochSecond(seconds, nanos);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalDate">LocalDate</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalDate">LocalDate</a> -
      *          {@code LocalDate.of(year, month, day);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalDateTime">LocalDateTime</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalDateTime">LocalDateTime</a> -
      *          {@code LocalDateTime.of(date, time);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.LocalTime">LocalTime</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalTime">LocalTime</a> -
      *          {@code LocalTime.of(hour, minute, second, nano);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.MonthDay">MonthDay</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.MonthDay">MonthDay</a> -
      *          {@code MonthDay.of(month, day);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.OffsetTime">OffsetTime</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.OffsetTime">OffsetTime</a> -
      *          {@code OffsetTime.of(time, offset);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.OffsetDateTime">OffsetDateTime</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.OffsetDateTime">OffsetDateTime</a> -
      *          {@code OffsetDateTime.of(dateTime, offset);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Period">Period</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Period">Period</a> -
      *          {@code Period.of(years, months, days);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.Year">Year</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Year">Year</a> -
      *          {@code Year.of(year);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.YearMonth">YearMonth</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.YearMonth">YearMonth</a> -
      *          {@code YearMonth.of(year, month);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZonedDateTime">ZonedDateTime</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZonedDateTime">ZonedDateTime</a> -
      *          {@code ZonedDateTime.ofLenient(dateTime, offset, zone);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZoneId">ZoneId</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZoneId">ZoneId</a> -
      *          {@code ZoneId.of(id);}
-     * <li><a href="{@docRoot}/serialized-form.html#java.time.ZoneOffset">ZoneOffset</a> -
+     * <li><a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZoneOffset">ZoneOffset</a> -
      *          {@code (offsetByte == 127 ? ZoneOffset.ofTotalSeconds(in.readInt()) :
      *          ZoneOffset.ofTotalSeconds(offsetByte * 900));}
      * </ul>

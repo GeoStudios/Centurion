@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
 import java.net.ProtocolFamily;
@@ -10,8 +10,8 @@ import java.net.DatagramSocket;
 import java.net.SocketOption;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.spi.AbstractSelectableChannel;
-import java.nio.channels.spi.SelectorProvider;
+import java.base.share.classes.java.nio.channels.spi.AbstractSelectableChannel;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 import static java.util.Objects.requireNonNull;
 
 /**
@@ -114,9 +114,9 @@ public abstract class DatagramChannel
      * Opens a datagram channel.
      *
      * <p> The new channel is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openDatagramChannel()
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openDatagramChannel()
      * openDatagramChannel} method of the system-wide default {@link
-     * java.nio.channels.spi.SelectorProvider} object.  The channel will not be
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider} object.  The channel will not be
      * connected.
      *
      * <p> The {@link ProtocolFamily ProtocolFamily} of the channel's socket
@@ -146,9 +146,9 @@ public abstract class DatagramChannel
      * that this channel will join.
      *
      * <p> The new channel is created by invoking the {@link
-     * java.nio.channels.spi.SelectorProvider#openDatagramChannel(ProtocolFamily)
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider#openDatagramChannel(ProtocolFamily)
      * openDatagramChannel} method of the system-wide default {@link
-     * java.nio.channels.spi.SelectorProvider} object.  The channel will not be
+     * java.base.share.classes.java.nio.channels.spi.SelectorProvider} object.  The channel will not be
      * connected.
      *
      * @apiNote {@linkplain java.net.StandardProtocolFamily#UNIX Unix domain}

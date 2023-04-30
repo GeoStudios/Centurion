@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.javac.PreviewFeature;
 
@@ -36,7 +36,7 @@ import jdk.internal.javac.PreviewFeature;
  * accessors to be implicitly invoked in order to extract pattern bindings. If these methods throw
  * an exception, execution of the pattern matching construct may fail with {@code MatchException}.
  * The original exception will be set as a {@link Throwable#getCause() cause} of
- * the {@code MatchException}. No {@link Throwable#addSuppressed(java.lang.Throwable) suppressed}
+ * the {@code MatchException}. No {@link Throwable#addSuppressed(java.base.share.classes.java.lang.Throwable) suppressed}
  * exceptions will be recorded.
  *
  * @jls 14.11.3 Execution of a switch Statement

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 /**
  * TypeVariable is the common superinterface for type variables of kinds.
@@ -36,7 +36,7 @@ public interface TypeVariable<D extends GenericDeclaration> extends Type, Annota
      *
      * <p>For each upper bound B: <ul> <li>if B is a parameterized
      * type or a type variable, it is created, (see {@link
-     * java.lang.reflect.ParameterizedType ParameterizedType} for the
+     * java.base.share.classes.java.lang.reflect.ParameterizedType ParameterizedType} for the
      * details of the creation process for parameterized types).
      * <li>Otherwise, B is resolved.  </ul>
      *

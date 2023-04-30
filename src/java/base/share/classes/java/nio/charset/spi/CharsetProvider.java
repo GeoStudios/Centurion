@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.charset.spi;
+package java.base.share.classes.java.nio.charset.spi;
 
 import java.nio.charset.Charset;
 import java.util.Iterator;
@@ -21,7 +21,7 @@ import java.util.Iterator;
  * loader}.
  *
  * <p> A charset provider identifies itself with a provider-configuration file
- * named {@code java.nio.charset.spi.CharsetProvider} in the resource
+ * named {@code java.base.share.classes.java.nio.charset.spi.CharsetProvider} in the resource
  * directory {@code META-INF/services}.  The file should contain a list of
  * fully-qualified concrete charset-provider class names, one per line.  A line
  * is terminated by any one of a line feed ({@code '\n'}), a carriage return

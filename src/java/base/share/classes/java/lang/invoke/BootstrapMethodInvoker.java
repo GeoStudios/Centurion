@@ -1,19 +1,19 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import sun.invoke.util.Wrapper;
 
-import java.lang.invoke.AbstractConstantGroup.BSCIWithCache;
+import java.base.share.classes.java.lang.invoke.AbstractConstantGroup.BSCIWithCache;
 import java.util.Arrays;
 
-import static java.lang.invoke.BootstrapCallInfo.makeBootstrapCallInfo;
-import static java.lang.invoke.ConstantGroup.makeConstantGroup;
-import static java.lang.invoke.MethodHandleNatives.*;
-import static java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;
-import static java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.BootstrapCallInfo.makeBootstrapCallInfo;
+import static java.base.share.classes.java.lang.invoke.ConstantGroup.makeConstantGroup;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 
 final class BootstrapMethodInvoker {
 
@@ -234,7 +234,7 @@ final class BootstrapMethodInvoker {
 
     /**
      * @return true iff the BSM method type exactly matches
-     *         {@see java.lang.invoke.StringConcatFactory#makeConcatWithConstants(MethodHandles.Lookup,
+     *         {@see java.base.share.classes.java.lang.invoke.StringConcatFactory#makeConcatWithConstants(MethodHandles.Lookup,
      *                 String,MethodType,String,Object...))}
      */
     private static boolean isStringConcatFactoryBSM(MethodType bsmType) {
@@ -243,7 +243,7 @@ final class BootstrapMethodInvoker {
 
     /**
      * @return true iff the BSM method type exactly matches
-     *         {@see java.lang.invoke.LambdaMetafactory#metafactory(
+     *         {@see java.base.share.classes.java.lang.invoke.LambdaMetafactory#metafactory(
      *          MethodHandles.Lookup,String,Class,MethodType,MethodHandle,MethodType)}
      */
     private static boolean isLambdaMetafactoryCondyBSM(MethodType bsmType) {
@@ -252,7 +252,7 @@ final class BootstrapMethodInvoker {
 
     /**
      * @return true iff the BSM method type exactly matches
-     *         {@see java.lang.invoke.LambdaMetafactory#metafactory(
+     *         {@see java.base.share.classes.java.lang.invoke.LambdaMetafactory#metafactory(
      *          MethodHandles.Lookup,String,MethodType,MethodType,MethodHandle,MethodType)}
      */
     private static boolean isLambdaMetafactoryIndyBSM(MethodType bsmType) {
@@ -261,7 +261,7 @@ final class BootstrapMethodInvoker {
 
     /**
      * @return true iff the BSM method type exactly matches
-     *         {@see java.lang.invoke.LambdaMetafactory#altMetafactory(
+     *         {@see java.base.share.classes.java.lang.invoke.LambdaMetafactory#altMetafactory(
      *          MethodHandles.Lookup,String,MethodType,Object[])}
      */
     private static boolean isLambdaMetafactoryAltMetafactoryBSM(MethodType bsmType) {

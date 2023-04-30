@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown when an application tries to create an instance of a class
@@ -17,7 +17,7 @@ package java.lang;
  * <li> the class has no nullary constructor
  *</ul>
  *
- * @see     java.lang.Class#newInstance()
+ * @see     java.base.share.classes.java.lang.Class#newInstance()
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

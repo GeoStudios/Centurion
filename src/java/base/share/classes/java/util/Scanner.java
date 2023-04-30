@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.*;
 import java.math.*;
@@ -13,10 +13,10 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 import java.text.*;
 import java.text.spi.NumberFormatProvider;
-import java.util.function.Consumer;
-import java.util.regex.*;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.regex.*;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
 
@@ -143,7 +143,7 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  * <p> An instance of this class is capable of scanning numbers in the standard
  * formats as well as in the formats of the scanner's locale. A scanner's
  * <a id="initial-locale">initial locale </a>is the value returned by the {@link
- * java.util.Locale#getDefault(Locale.Category)
+ * java.base.share.classes.java.util.Locale#getDefault(Locale.Category)
  * Locale.getDefault(Locale.Category.FORMAT)} method; it may be changed via the {@link
  * #useLocale useLocale()} method. The {@link #reset} method will reset the value of the
  * scanner's locale to the initial locale regardless of whether it was
@@ -1395,7 +1395,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      */
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("java.util.Scanner");
+        sb.append("java.base.share.classes.java.util.Scanner");
         sb.append("[delimiters=" + delimPattern + "]");
         sb.append("[position=" + position + "]");
         sb.append("[match valid=" + matchValid + "]");
@@ -1420,7 +1420,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      *
      * @return true if and only if this scanner has another token
      * @throws IllegalStateException if this scanner is closed
-     * @see java.util.Iterator
+     * @see java.base.share.classes.java.util.Iterator
      */
     public boolean hasNext() {
         ensureOpen();
@@ -1446,7 +1446,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      * @return the next token
      * @throws NoSuchElementException if no more tokens are available
      * @throws IllegalStateException if this scanner is closed
-     * @see java.util.Iterator
+     * @see java.base.share.classes.java.util.Iterator
      */
     public String next() {
         ensureOpen();
@@ -1471,7 +1471,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      * {@code Iterator}.
      *
      * @throws UnsupportedOperationException if this method is invoked.
-     * @see java.util.Iterator
+     * @see java.base.share.classes.java.util.Iterator
      */
     public void remove() {
         throw new UnsupportedOperationException();
@@ -2779,7 +2779,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      * other than {@link #close} and {@link #ioException} may return undefined results
      * or may cause undefined effects on the returned stream. The returned stream's source
      * {@code Spliterator} is <em>fail-fast</em> and will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if any such calls are detected
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if any such calls are detected
      * during stream pipeline execution.
      *
      * <p>After stream pipeline execution completes, this scanner is left in an indeterminate
@@ -2861,7 +2861,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      * other than {@link #close} and {@link #ioException} may return undefined results
      * or may cause undefined effects on the returned stream. The returned stream's source
      * {@code Spliterator} is <em>fail-fast</em> and will, on a best-effort basis, throw a
-     * {@link java.util.ConcurrentModificationException} if any such calls are detected
+     * {@link java.base.share.classes.java.util.ConcurrentModificationException} if any such calls are detected
      * during stream pipeline execution.
      *
      * <p>After stream pipeline execution completes, this scanner is left in an indeterminate
@@ -2918,7 +2918,7 @@ public final class Scanner implements Iterator<String>, Closeable {
      * @throws IllegalStateException if this scanner is closed
      * @throws PatternSyntaxException if the regular expression's syntax is invalid
      * @since 9
-     * @see java.util.regex.Pattern
+     * @see java.base.share.classes.java.util.regex.Pattern
      */
     public Stream<MatchResult> findAll(String patString) {
         Objects.requireNonNull(patString);

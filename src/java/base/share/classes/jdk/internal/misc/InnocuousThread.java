@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @SuppressWarnings("removal")
 public final class InnocuousThread extends Thread {
-    private static final jdk.internal.misc.Unsafe UNSAFE;
+    private static final java.base.share.classes.jdk.internal.misc.Unsafe UNSAFE;
     private static final long THREAD_LOCALS;
     private static final long INHERITABLE_THREAD_LOCALS;
     private static final ThreadGroup INNOCUOUSTHREADGROUP;
@@ -174,7 +174,7 @@ public final class InnocuousThread extends Thread {
             });
 
             // Find and use topmost ThreadGroup as parent of new group
-            UNSAFE = jdk.internal.misc.Unsafe.getUnsafe();
+            UNSAFE = java.base.share.classes.jdk.internal.misc.Unsafe.getUnsafe();
             Class<?> tk = Thread.class;
             Class<?> gk = ThreadGroup.class;
 

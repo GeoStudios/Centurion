@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.foreign.layout;
+package java.base.share.classes.jdk.internal.foreign.layout;
 
 import java.lang.foreign.MemoryLayout;
 import java.lang.foreign.SequenceLayout;

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.InvalidKeyException;
 import java.security.spec.KeySpec;
@@ -288,7 +288,7 @@ abstract class PBEKeyFactory extends SecretKeyFactorySpi {
                 (key.getFormat().equalsIgnoreCase("RAW"))) {
 
                 // Check if key originates from this factory
-                if (key instanceof com.sun.crypto.provider.PBEKey) {
+                if (key instanceof java.base.share.classes.com.sun.crypto.provider.PBEKey) {
                     return key;
                 }
 

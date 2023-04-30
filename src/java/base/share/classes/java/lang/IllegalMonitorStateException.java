@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 /**
  * Thrown to indicate that a thread has attempted to wait on an
  * object's monitor or to notify other threads waiting on an object's
  * monitor without owning the specified monitor.
  *
- * @see     java.lang.Object#notify()
- * @see     java.lang.Object#notifyAll()
- * @see     java.lang.Object#wait()
- * @see     java.lang.Object#wait(long)
- * @see     java.lang.Object#wait(long, int)
+ * @see     java.base.share.classes.java.lang.Object#notify()
+ * @see     java.base.share.classes.java.lang.Object#notifyAll()
+ * @see     java.base.share.classes.java.lang.Object#wait()
+ * @see     java.base.share.classes.java.lang.Object#wait(long)
+ * @see     java.base.share.classes.java.lang.Object#wait(long, int)
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023

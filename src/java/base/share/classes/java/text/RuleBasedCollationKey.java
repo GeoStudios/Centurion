@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 /**
  * A RuleBasedCollationKey is a concrete implementation of CollationKey class.
@@ -18,7 +18,7 @@ final class RuleBasedCollationKey extends CollationKey {
      * @return Returns an integer value. Value is less than zero if this is less
      * than target, value is zero if this and target are equal and value is greater than
      * zero if this is greater than target.
-     * @see java.text.Collator#compare
+     * @see java.base.share.classes.java.text.Collator#compare
      */
     public int compareTo(CollationKey target)
     {

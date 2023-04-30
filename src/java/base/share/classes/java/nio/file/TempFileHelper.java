@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
 import java.util.Set;
 import java.util.EnumSet;
 import java.security.SecureRandom;
 import java.io.IOException;
-import java.nio.file.attribute.FileAttribute;
-import java.nio.file.attribute.PosixFilePermission;
-import java.nio.file.attribute.PosixFilePermissions;
-import static java.nio.file.attribute.PosixFilePermission.*;
+import java.base.share.classes.java.nio.file.attribute.FileAttribute;
+import java.base.share.classes.java.nio.file.attribute.PosixFilePermission;
+import java.base.share.classes.java.nio.file.attribute.PosixFilePermissions;
+import static java.base.share.classes.java.nio.file.attribute.PosixFilePermission.*;
 import jdk.internal.util.StaticProperty;
 
 /**

@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.module.Configuration;
-import java.lang.module.ModuleReference;
+import java.base.share.classes.java.lang.module.Configuration;
+import java.base.share.classes.java.lang.module.ModuleReference;
 import java.net.URI;
 
 /**

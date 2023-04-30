@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.net.URL;
 import java.net.PasswordAuthentication;
@@ -16,7 +16,7 @@ import sun.util.logging.PlatformLogger;
 class NTLMAuthenticationProxy {
     private static Method supportsTA;
     private static Method isTrustedSite;
-    private static final String clazzStr = "sun.net.www.protocol.http.ntlm.NTLMAuthentication";
+    private static final String clazzStr = "java.base.share.classes.sun.net.www.protocol.http.ntlm.NTLMAuthentication";
     private static final String supportsTAStr = "supportsTransparentAuth";
     private static final String isTrustedSiteStr = "isTrustedSite";
 

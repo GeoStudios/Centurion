@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
 import java.util.Hashtable;
 import java.util.Objects;
@@ -65,7 +65,7 @@ public final class Signal {
      * Returns the signal name.
      *
      * @return the name of the signal.
-     * @see jdk.internal.misc.Signal#Signal(String name)
+     * @see java.base.share.classes.jdk.internal.misc.Signal#Signal(String name)
      */
     public String getName() {
         return name;
@@ -111,7 +111,7 @@ public final class Signal {
      *
      * @param name the name of the signal.
      * @exception IllegalArgumentException unknown signal
-     * @see jdk.internal.misc.Signal#getName()
+     * @see java.base.share.classes.jdk.internal.misc.Signal#getName()
      */
     public Signal(String name) {
         Objects.requireNonNull(name, "name");
@@ -134,10 +134,10 @@ public final class Signal {
      * @param handler the handler to be registered with the given signal.
      * @return the old handler
      * @exception IllegalArgumentException the signal is in use by the VM
-     * @see jdk.internal.misc.Signal#raise(Signal sig)
-     * @see jdk.internal.misc.Signal.Handler
-     * @see jdk.internal.misc.Signal.Handler#SIG_DFL
-     * @see jdk.internal.misc.Signal.Handler#SIG_IGN
+     * @see java.base.share.classes.jdk.internal.misc.Signal#raise(Signal sig)
+     * @see java.base.share.classes.jdk.internal.misc.Signal.Handler
+     * @see java.base.share.classes.jdk.internal.misc.Signal.Handler#SIG_DFL
+     * @see java.base.share.classes.jdk.internal.misc.Signal.Handler#SIG_IGN
      */
     public static synchronized Signal.Handler handle(Signal sig,
                                                      Signal.Handler handler)
@@ -173,7 +173,7 @@ public final class Signal {
      * Raises a signal in the current process.
      *
      * @param sig a signal
-     * @see jdk.internal.misc.Signal#handle(Signal sig, Signal.Handler handler)
+     * @see java.base.share.classes.jdk.internal.misc.Signal#handle(Signal sig, Signal.Handler handler)
      */
     public static void raise(Signal sig) throws IllegalArgumentException {
         Objects.requireNonNull(sig, "sig");

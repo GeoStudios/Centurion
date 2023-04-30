@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net.spi;
+package java.base.share.classes.java.net.spi;
 
 import sun.net.ResolverProviderConfiguration;
 

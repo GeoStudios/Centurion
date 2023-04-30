@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.io.ObjectOutput;
-import java.io.ObjectInput;
+import java.base.share.classes.java.io.ObjectOutput;
+import java.base.share.classes.java.io.ObjectInput;
 
 /**
  * Only the identity of the class of an Externalizable instance is
@@ -34,16 +34,16 @@ import java.io.ObjectInput;
  * the writeReplace and readResolve methods documented in the Serializable
  * interface.<br>
  *
- * @see java.io.ObjectOutputStream
- * @see java.io.ObjectInputStream
- * @see java.io.ObjectOutput
- * @see java.io.ObjectInput
- * @see java.io.Serializable
+ * @see java.base.share.classes.java.io.ObjectOutputStream
+ * @see java.base.share.classes.java.io.ObjectInputStream
+ * @see java.base.share.classes.java.io.ObjectOutput
+ * @see java.base.share.classes.java.io.ObjectInput
+ * @see java.base.share.classes.java.io.Serializable
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */
-public interface Externalizable extends java.io.Serializable {
+public interface Externalizable extends java.base.share.classes.java.io.Serializable {
     /**
      * The object implements the writeExternal method to save its contents
      * by calling the methods of DataOutput for its primitive values or

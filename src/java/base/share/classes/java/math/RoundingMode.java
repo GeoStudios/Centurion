@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
 /**
  * Specifies a <i>rounding policy</i> for numerical operations capable

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -503,7 +503,7 @@ class SocksSocketImpl extends DelegatingSocketImpl implements SocksConsts {
      * Returns the value of this socket's {@code address} field.
      *
      * @return  the value of this socket's {@code address} field.
-     * @see     java.net.SocketImpl#address
+     * @see     java.base.share.classes.java.net.SocketImpl#address
      */
     @Override
     protected InetAddress getInetAddress() {
@@ -517,7 +517,7 @@ class SocksSocketImpl extends DelegatingSocketImpl implements SocksConsts {
      * Returns the value of this socket's {@code port} field.
      *
      * @return  the value of this socket's {@code port} field.
-     * @see     java.net.SocketImpl#port
+     * @see     java.base.share.classes.java.net.SocketImpl#port
      */
     @Override
     protected int getPort() {

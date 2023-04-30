@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.event;
+package java.base.share.classes.jdk.internal.event;
 
 /**
  * Event recording details of successful TLS handshakes.

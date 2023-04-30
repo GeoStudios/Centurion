@@ -2,11 +2,11 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.net.URI;
 import java.util.*;
-import static java.security.KeyStore.*;
+import static java.base.share.classes.java.security.KeyStore.*;
 
 /**
  * Configuration data that specifies the keystores in a keystore domain.

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 
 import jdk.internal.loader.ClassLoaders;
@@ -19,9 +19,9 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
 
-import static java.lang.invoke.MethodHandleInfo.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 
 /**
  * A method handle is a typed, directly executable reference to an underlying method,
@@ -30,8 +30,8 @@ import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
  * These transformations are quite general, and include such patterns as
  * {@linkplain #asType conversion},
  * {@linkplain #bindTo insertion},
- * {@linkplain java.lang.invoke.MethodHandles#dropArguments deletion},
- * and {@linkplain java.lang.invoke.MethodHandles#filterArguments substitution}.
+ * {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles#dropArguments deletion},
+ * and {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles#filterArguments substitution}.
  *
  * <h2>Method handle contents</h2>
  * Method handles are dynamically and strongly typed according to their parameter and return types.
@@ -40,7 +40,7 @@ import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
  * the method handle's own {@linkplain #type() type descriptor}.
  * <p>
  * Every method handle reports its type descriptor via the {@link #type() type} accessor.
- * This type descriptor is a {@link java.lang.invoke.MethodType MethodType} object,
+ * This type descriptor is a {@link java.base.share.classes.java.lang.invoke.MethodType MethodType} object,
  * whose structure is a series of classes, one of which is
  * the return type of the method (or {@code void.class} if none).
  * <p>
@@ -190,11 +190,11 @@ import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
  * Java code can create a method handle that directly accesses
  * any method, constructor, or field that is accessible to that code.
  * This is done via a reflective, capability-based API called
- * {@link java.lang.invoke.MethodHandles.Lookup MethodHandles.Lookup}.
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup MethodHandles.Lookup}.
  * For example, a static method handle can be obtained
- * from {@link java.lang.invoke.MethodHandles.Lookup#findStatic Lookup.findStatic}.
+ * from {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findStatic Lookup.findStatic}.
  * There are also conversion methods from Core Reflection API objects,
- * such as {@link java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
+ * such as {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
  * <p>
  * Like classes and strings, method handles that correspond to accessible
  * fields, methods, and constructors can also be represented directly
@@ -330,12 +330,12 @@ mh.invokeExact(System.out, "Hello, world.");
  * untransformed descriptors, without reporting linkage errors.
  *
  * <h2>Interoperation between method handles and the Core Reflection API</h2>
- * Using factory methods in the {@link java.lang.invoke.MethodHandles.Lookup Lookup} API,
+ * Using factory methods in the {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup Lookup} API,
  * any class member represented by a Core Reflection API object
  * can be converted to a behaviorally equivalent method handle.
  * For example, a reflective {@link java.lang.reflect.Method Method} can
  * be converted to a method handle using
- * {@link java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect}.
  * The resulting method handles generally provide more direct and efficient
  * access to the underlying class members.
  * <p>
@@ -364,9 +364,9 @@ mh.invokeExact(System.out, "Hello, world.");
  * {@code Class.getDeclaredMethod}, may be regarded as placeholders only.
  * <p>
  * In order to obtain an invoker method for a particular type descriptor,
- * use {@link java.lang.invoke.MethodHandles#exactInvoker MethodHandles.exactInvoker},
- * or {@link java.lang.invoke.MethodHandles#invoker MethodHandles.invoker}.
- * The {@link java.lang.invoke.MethodHandles.Lookup#findVirtual Lookup.findVirtual}
+ * use {@link java.base.share.classes.java.lang.invoke.MethodHandles#exactInvoker MethodHandles.exactInvoker},
+ * or {@link java.base.share.classes.java.lang.invoke.MethodHandles#invoker MethodHandles.invoker}.
+ * The {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#findVirtual Lookup.findVirtual}
  * API is also able to return a method handle
  * to call {@code invokeExact} or plain {@code invoke},
  * for any specified type descriptor .
@@ -450,7 +450,7 @@ public abstract sealed class MethodHandle implements Constable
     /**
      * Package-private constructor for the method handle implementation hierarchy.
      * Method handle inheritance will be contained completely within
-     * the {@code java.lang.invoke} package.
+     * the {@code java.base.share.classes.java.lang.invoke} package.
      */
     // @param type type (permanently assigned) of the new method handle
     /*non-public*/
@@ -471,7 +471,7 @@ public abstract sealed class MethodHandle implements Constable
      * it will appear as a single native method, taking an object array and returning an object.
      * If this native method is invoked directly via
      * {@link java.lang.reflect.Method#invoke java.lang.reflect.Method.invoke}, via JNI,
-     * or indirectly via {@link java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect},
+     * or indirectly via {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect},
      * it will throw an {@code UnsupportedOperationException}.
      * @param args the signature-polymorphic parameter list, statically represented using varargs
      * @return the signature-polymorphic result, statically represented using {@code Object}
@@ -508,7 +508,7 @@ public abstract sealed class MethodHandle implements Constable
      * it will appear as a single native method, taking an object array and returning an object.
      * If this native method is invoked directly via
      * {@link java.lang.reflect.Method#invoke java.lang.reflect.Method.invoke}, via JNI,
-     * or indirectly via {@link java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect},
+     * or indirectly via {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#unreflect Lookup.unreflect},
      * it will throw an {@code UnsupportedOperationException}.
      * @param args the signature-polymorphic parameter list, statically represented using varargs
      * @return the signature-polymorphic result, statically represented using {@code Object}
@@ -1501,7 +1501,7 @@ assertEquals("[three, thee, tee]", Arrays.toString((Object[])ls.get(0)));
      * Such method handles arise from the following sources:
      * <ul>
      * <li>a call to {@linkplain #asVarargsCollector asVarargsCollector}
-     * <li>a call to a {@linkplain java.lang.invoke.MethodHandles.Lookup lookup method}
+     * <li>a call to a {@linkplain java.base.share.classes.java.lang.invoke.MethodHandles.Lookup lookup method}
      *     which resolves to a variable arity Java method or constructor
      * <li>an {@code ldc} instruction of a {@code CONSTANT_MethodHandle}
      *     which resolves to a variable arity Java method or constructor
@@ -1782,7 +1782,7 @@ assertEquals("[three, thee, tee]", asListFix.invoke((Object)argv).toString());
 
     /**
      * Various debugging methods in MethodHandle (and subclasses thereof) and LambdaForm
-     * take an `indentLevel` argument, so that {@link java.lang.invoke.MethodHandle.debugString(int)}
+     * take an `indentLevel` argument, so that {@link java.base.share.classes.java.lang.invoke.MethodHandle.debugString(int)}
      * can return nested structures in a readable fashion. This method returns a string to be
      * prepended to each line at the specified level.
      */

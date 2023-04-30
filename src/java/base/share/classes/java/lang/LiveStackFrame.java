@@ -1,15 +1,15 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.StackWalker.StackFrame;
+import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.util.EnumSet;
 import java.util.Set;
 import jdk.internal.vm.Continuation;
 import jdk.internal.vm.ContinuationScope;
 
-import static java.lang.StackWalker.ExtendedOption.LOCALS_AND_OPERANDS;
+import static java.base.share.classes.java.lang.StackWalker.ExtendedOption.LOCALS_AND_OPERANDS;
 
 /**
  * <em>UNSUPPORTED</em> This interface is intended to be package-private

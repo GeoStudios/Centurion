@@ -6,7 +6,7 @@
  * (ported from C code written by Markus W. Scherer)
  */
 
-package jdk.internal.icu.text;
+package java.base.share.classes.jdk.internal.icu.text;
 
 /**
  * A BidiRun represents a sequence of characters at the same embedding level.

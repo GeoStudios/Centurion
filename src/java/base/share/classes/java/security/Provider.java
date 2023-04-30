@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import jdk.internal.event.SecurityProviderServiceEvent;
 
@@ -61,7 +61,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * </table>
  *
  * <p>Each provider has a name and a version string. A provider normally
- * identifies itself with a file named {@code java.security.Provider}
+ * identifies itself with a file named {@code java.base.share.classes.java.security.Provider}
  * in the resource directory {@code META-INF/services}.
  * Security providers are looked up via the {@link ServiceLoader} mechanism
  * using the {@link ClassLoader#getSystemClassLoader application class loader}.
@@ -74,7 +74,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @implNote
  * The JDK implementation supports static registration of the security
- * providers via the {@code conf/security/java.security} file in the Java
+ * providers via the {@code conf/security/java.base.share.classes.java.security} file in the Java
  * installation directory. These providers are automatically installed by
  * the JDK runtime, see {@extLink security_guide_jca_provider
  * The Provider Class}
@@ -1564,13 +1564,13 @@ public abstract class Provider extends Properties {
         addEngine("KeyStore",                           false, null);
         addEngine("MessageDigest",                      false, null);
         addEngine("SecureRandom",                       false,
-                "java.security.SecureRandomParameters");
+                "java.base.share.classes.java.security.SecureRandomParameters");
         addEngine("Signature",                          true,  null);
         addEngine("CertificateFactory",                 false, null);
         addEngine("CertPathBuilder",                    false, null);
         addEngine("CertPathValidator",                  false, null);
         addEngine("CertStore",                          false,
-                            "java.security.cert.CertStoreParameters");
+                            "java.base.share.classes.java.security.cert.CertStoreParameters");
         // JCE
         addEngine("Cipher",                             true,  null);
         addEngine("ExemptionMechanism",                 false, null);
@@ -1589,7 +1589,7 @@ public abstract class Provider extends Properties {
         addEngine("SaslServerFactory",                  false, null);
         // POLICY
         addEngine("Policy",                             false,
-                            "java.security.Policy$Parameters");
+                            "java.base.share.classes.java.security.Policy$Parameters");
         // CONFIGURATION
         addEngine("Configuration",                      false,
                             "javax.security.auth.login.Configuration$Parameters");

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.ObjectStreamException;
 
@@ -328,7 +328,7 @@ class Inet4Address extends InetAddress {
      * @param   obj   the object to compare against.
      * @return  {@code true} if the objects are the same;
      *          {@code false} otherwise.
-     * @see     java.net.InetAddress#getAddress()
+     * @see     java.base.share.classes.java.net.InetAddress#getAddress()
      */
     public boolean equals(Object obj) {
         return (obj instanceof Inet4Address inet4Address) &&

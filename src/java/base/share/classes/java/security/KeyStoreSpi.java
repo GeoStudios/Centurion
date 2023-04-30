@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import java.io.*;
 import java.util.*;
 
-import java.security.KeyStore.*;
-import java.security.cert.Certificate;
-import java.security.cert.CertificateException;
+import java.base.share.classes.java.security.KeyStore.*;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.CertificateException;
 
 import javax.crypto.SecretKey;
 
@@ -110,7 +110,7 @@ public abstract class KeyStoreSpi {
      * Assigns the given key to the given alias, protecting it with the given
      * password.
      *
-     * <p>If the given key is of type {@code java.security.PrivateKey},
+     * <p>If the given key is of type {@code java.base.share.classes.java.security.PrivateKey},
      * it must be accompanied by a certificate chain certifying the
      * corresponding public key.
      *
@@ -123,7 +123,7 @@ public abstract class KeyStoreSpi {
      * @param password the password to protect the key
      * @param chain the certificate chain for the corresponding public
      * key (only required if the given key is of type
-     * {@code java.security.PrivateKey}).
+     * {@code java.base.share.classes.java.security.PrivateKey}).
      *
      * @throws    KeyStoreException if the given key cannot be protected, or
      * this operation fails for some other reason
@@ -138,7 +138,7 @@ public abstract class KeyStoreSpi {
      * alias.
      *
      * <p>If the protected key is of type
-     * {@code java.security.PrivateKey},
+     * {@code java.base.share.classes.java.security.PrivateKey},
      * it must be accompanied by a certificate chain certifying the
      * corresponding public key.
      *
@@ -150,7 +150,7 @@ public abstract class KeyStoreSpi {
      * @param key the key (in protected format) to be associated with the alias
      * @param chain the certificate chain for the corresponding public
      * key (only useful if the protected key is of type
-     * {@code java.security.PrivateKey}).
+     * {@code java.base.share.classes.java.security.PrivateKey}).
      *
      * @throws    KeyStoreException if this operation fails.
      */

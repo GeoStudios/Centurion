@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * Signals that an I/O operation has been interrupted. An
@@ -12,15 +12,15 @@ package java.io;
  * indicates how many bytes were successfully transferred before
  * the interruption occurred.
  *
- * @see     java.io.InputStream
- * @see     java.io.OutputStream
+ * @see     java.base.share.classes.java.io.InputStream
+ * @see     java.base.share.classes.java.io.OutputStream
  * @see     java.lang.Thread#interrupt()
  * @since Pre Java 1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */
 public class InterruptedIOException extends IOException {
-    @java.io.Serial
+    @java.base.share.classes.java.io.Serial
     private static final long serialVersionUID = 4020568460727500567L;
 
     /**

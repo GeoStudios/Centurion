@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.sdp;
+package java.base.share.classes.sun.net.sdp;
 
 import java.io.IOException;
 import java.io.FileDescriptor;

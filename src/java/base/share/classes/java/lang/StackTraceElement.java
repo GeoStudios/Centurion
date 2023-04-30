@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.misc.VM;
 import jdk.internal.module.ModuleHashes;
 import jdk.internal.module.ModuleReferenceImpl;
 
-import java.lang.module.ModuleReference;
-import java.lang.module.ResolvedModule;
+import java.base.share.classes.java.lang.module.ModuleReference;
+import java.base.share.classes.java.lang.module.ResolvedModule;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Optional;
@@ -206,7 +206,7 @@ public final class StackTraceElement implements java.io.Serializable {
      *         point represented by this stack trace element; {@code null}
      *         if the module version is not available.
      * @since 9
-     * @see java.lang.module.ModuleDescriptor.Version
+     * @see java.base.share.classes.java.lang.module.ModuleDescriptor.Version
      */
     public String getModuleVersion() {
         return moduleVersion;
@@ -221,7 +221,7 @@ public final class StackTraceElement implements java.io.Serializable {
      *         if the class loader is not named.
      *
      * @since 9
-     * @see java.lang.ClassLoader#getName()
+     * @see java.base.share.classes.java.lang.ClassLoader#getName()
      */
     public String getClassLoaderName() {
         return classLoaderName;
@@ -330,8 +330,8 @@ public final class StackTraceElement implements java.io.Serializable {
      * <p> The {@code toString} method may return two different values on two
      * {@code StackTraceElement} instances that are
      * {@linkplain #equals(Object) equal}, for example one created via the
-     * constructor, and one obtained from {@link java.lang.Throwable} or
-     * {@link java.lang.StackWalker.StackFrame}, where an implementation may
+     * constructor, and one obtained from {@link java.base.share.classes.java.lang.Throwable} or
+     * {@link java.base.share.classes.java.lang.StackWalker.StackFrame}, where an implementation may
      * choose to omit some element in the returned string.
      *
      * @revised 9

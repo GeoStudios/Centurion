@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package jdk.internal.jrtfs;
+package java.base.share.classes.jdk.internal.jrtfs;
 
 import java.nio.file.LinkOption;
 import java.nio.file.attribute.*;

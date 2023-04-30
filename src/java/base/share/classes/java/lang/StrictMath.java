@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.Random;
 import jdk.internal.math.DoubleConsts;
@@ -51,7 +51,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * <h2><a id=Ieee754RecommendedOps>IEEE 754 Recommended
  * Operations</a></h2>
  *
- * The {@link java.lang.Math Math} class discusses how the shared
+ * The {@link java.base.share.classes.java.lang.Math Math} class discusses how the shared
  * quality of implementation criteria for selected {@code Math} and
  * {@code StrictMath} methods <a
  * href="Math.html#Ieee754RecommendedOps">relate to the IEEE 754
@@ -683,8 +683,8 @@ public final class StrictMath {
      * @param   a   a floating-point value to be rounded to an integer.
      * @return  the value of the argument rounded to the nearest
      *          {@code int} value.
-     * @see     java.lang.Integer#MAX_VALUE
-     * @see     java.lang.Integer#MIN_VALUE
+     * @see     java.base.share.classes.java.lang.Integer#MAX_VALUE
+     * @see     java.base.share.classes.java.lang.Integer#MIN_VALUE
      */
     public static int round(float a) {
         return Math.round(a);
@@ -707,8 +707,8 @@ public final class StrictMath {
      *          {@code long}.
      * @return  the value of the argument rounded to the nearest
      *          {@code long} value.
-     * @see     java.lang.Long#MAX_VALUE
-     * @see     java.lang.Long#MIN_VALUE
+     * @see     java.base.share.classes.java.lang.Long#MAX_VALUE
+     * @see     java.base.share.classes.java.lang.Long#MIN_VALUE
      */
     public static long round(double a) {
         return Math.round(a);

@@ -2,18 +2,18 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
-import java.lang.constant.ConstantDescs;
-import java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
 import java.util.Optional;
 
-import static java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;
-import static java.lang.constant.ConstantDescs.CD_Boolean;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Boolean;
 
 /**
  * The Boolean class wraps a value of the primitive type
@@ -254,8 +254,8 @@ public final class Boolean implements java.io.Serializable,
      * @return  the {@code boolean} value of the system property.
      * @throws  SecurityException for the same reasons as
      *          {@link System#getProperty(String) System.getProperty}
-     * @see     java.lang.System#getProperty(java.lang.String)
-     * @see     java.lang.System#getProperty(java.lang.String, java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String)
+     * @see     java.base.share.classes.java.lang.System#getProperty(java.base.share.classes.java.lang.String, java.base.share.classes.java.lang.String)
      */
     public static boolean getBoolean(String name) {
         boolean result = false;

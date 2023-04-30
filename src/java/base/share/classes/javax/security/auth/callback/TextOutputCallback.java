@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.callback;
+package java.base.share.classes.javax.security.auth.callback;
 
 /**
  * <p> Underlying security services instantiate and pass a
@@ -11,7 +11,7 @@ package javax.security.auth.callback;
  * warning messages and error messages.
  *
  * @since 1.4
- * @see javax.security.auth.callback.CallbackHandler
+ * @see java.base.share.classes.javax.security.auth.callback.CallbackHandler
  */
 public class TextOutputCallback implements Callback, java.io.Serializable {
 

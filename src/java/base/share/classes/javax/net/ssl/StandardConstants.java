@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
 /**
  * Standard constants definitions
@@ -14,7 +14,7 @@ public final class StandardConstants {
     // Suppress default constructor for noninstantiability
     private StandardConstants() {
         throw new AssertionError(
-            "No javax.net.ssl.StandardConstants instances for you!");
+            "No java.base.share.classes.javax.net.ssl.StandardConstants instances for you!");
     }
 
     /**

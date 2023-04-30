@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
 
 /** <P> Java serialization (in java.io) expects to be able to
     instantiate a class and invoke a no-arg constructor of that

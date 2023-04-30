@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.temporal.ChronoField.EPOCH_DAY;
-import static java.time.temporal.ChronoField.INSTANT_SECONDS;
-import static java.time.temporal.ChronoField.NANO_OF_DAY;
-import static java.time.temporal.ChronoField.OFFSET_SECONDS;
-import static java.time.temporal.ChronoUnit.FOREVER;
-import static java.time.temporal.ChronoUnit.NANOS;
+import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.INSTANT_SECONDS;
+import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_DAY;
+import static java.base.share.classes.java.time.temporal.ChronoField.OFFSET_SECONDS;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.FOREVER;
+import static java.base.share.classes.java.time.temporal.ChronoUnit.NANOS;
 
 import java.io.IOException;
 import java.io.ObjectInput;
@@ -17,22 +17,22 @@ import java.io.ObjectOutput;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
-import java.time.zone.ZoneRules;
+import java.base.share.classes.java.time.chrono.IsoChronology;
+import java.base.share.classes.java.time.format.DateTimeFormatter;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.zone.ZoneRules;
 import java.util.Comparator;
 import java.util.Objects;
 
@@ -45,7 +45,7 @@ import java.util.Objects;
  * as well as the offset from UTC/Greenwich. For example, the value
  * "2nd October 2007 at 13:45:30.123456789 +02:00" can be stored in an {@code OffsetDateTime}.
  * <p>
- * {@code OffsetDateTime}, {@link java.time.ZonedDateTime} and {@link java.time.Instant} all store an instant
+ * {@code OffsetDateTime}, {@link java.base.share.classes.java.time.ZonedDateTime} and {@link java.base.share.classes.java.time.Instant} all store an instant
  * on the time-line to nanosecond precision.
  * {@code Instant} is the simplest, simply representing the instant.
  * {@code OffsetDateTime} adds to the instant the offset from UTC/Greenwich, which allows
@@ -322,7 +322,7 @@ public final class OffsetDateTime
      * such as {@code 2007-12-03T10:15:30+01:00}.
      * <p>
      * The string must represent a valid date-time and is parsed using
-     * {@link java.time.format.DateTimeFormatter#ISO_OFFSET_DATE_TIME}.
+     * {@link java.base.share.classes.java.time.format.DateTimeFormatter#ISO_OFFSET_DATE_TIME}.
      *
      * @param text  the text to parse such as "2007-12-03T10:15:30+01:00", not null
      * @return the parsed offset date-time, not null
@@ -814,17 +814,17 @@ public final class OffsetDateTime
      * A simple adjuster might simply set the one of the fields, such as the year field.
      * A more complex adjuster might set the date to the last day of the month.
      * A selection of common adjustments is provided in
-     * {@link java.time.temporal.TemporalAdjusters TemporalAdjusters}.
+     * {@link java.base.share.classes.java.time.temporal.TemporalAdjusters TemporalAdjusters}.
      * These include finding the "last day of the month" and "next Wednesday".
      * Key date-time classes also implement the {@code TemporalAdjuster} interface,
-     * such as {@link Month} and {@link java.time.MonthDay MonthDay}.
+     * such as {@link Month} and {@link java.base.share.classes.java.time.MonthDay MonthDay}.
      * The adjuster is responsible for handling special cases, such as the varying
      * lengths of month and leap years.
      * <p>
      * For example this code returns a date on the last day of July:
      * <pre>
-     *  import static java.time.Month.*;
-     *  import static java.time.temporal.TemporalAdjusters.*;
+     *  import static java.base.share.classes.java.time.Month.*;
+     *  import static java.base.share.classes.java.time.temporal.TemporalAdjusters.*;
      *
      *  result = offsetDateTime.with(JULY).with(lastDayOfMonth());
      * </pre>
@@ -1862,12 +1862,12 @@ public final class OffsetDateTime
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(10);  // identifies an OffsetDateTime
-     *  // the <a href="{@docRoot}/serialized-form.html#java.time.LocalDateTime">datetime</a> excluding the one byte header
-     *  // the <a href="{@docRoot}/serialized-form.html#java.time.ZoneOffset">offset</a> excluding the one byte header
+     *  // the <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.LocalDateTime">datetime</a> excluding the one byte header
+     *  // the <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.ZoneOffset">offset</a> excluding the one byte header
      * </pre>
      *
      * @return the instance of {@code Ser}, not null

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 /**
  * A {@code VolatileCallSite} is a {@link CallSite} whose target acts like a volatile variable.

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import jdk.internal.misc.VM;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -28,7 +28,7 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * ProxyGenerator contains the code to generate a dynamic proxy class
- * for the java.lang.reflect.Proxy API.
+ * for the java.base.share.classes.java.lang.reflect.Proxy API.
  * <p>
  * The external interface to ProxyGenerator is the static
  * "generateProxyClass" method.
@@ -623,7 +623,7 @@ final class ProxyGenerator extends ClassWriter {
 
     /**
      * Generate the static lookup accessor method that returns the Lookup
-     * on this proxy class if the caller's lookup class is java.lang.reflect.Proxy;
+     * on this proxy class if the caller's lookup class is java.base.share.classes.java.lang.reflect.Proxy;
      * otherwise, IllegalAccessException is thrown
      */
     private void generateLookupAccessor() {

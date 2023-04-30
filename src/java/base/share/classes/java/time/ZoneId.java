@@ -2,23 +2,23 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
 import java.io.DataOutput;
 import java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.format.TextStyle;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.zone.ZoneRules;
-import java.time.zone.ZoneRulesException;
-import java.time.zone.ZoneRulesProvider;
+import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
+import java.base.share.classes.java.time.format.TextStyle;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.zone.ZoneRules;
+import java.base.share.classes.java.time.zone.ZoneRulesException;
+import java.base.share.classes.java.time.zone.ZoneRulesProvider;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Map;
@@ -586,7 +586,7 @@ public abstract sealed class ZoneId implements Serializable permits ZoneOffset, 
     //-----------------------------------------------------------------------
     /**
      * Writes the object using a
-     * <a href="{@docRoot}/serialized-form.html#java.time.Ser">dedicated serialized form</a>.
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.time.Ser">dedicated serialized form</a>.
      * @serialData
      * <pre>
      *  out.writeByte(7);  // identifies a ZoneId (not ZoneOffset)

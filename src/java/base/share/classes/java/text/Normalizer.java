@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
 import jdk.internal.icu.text.NormalizerBase;
 
@@ -114,10 +114,10 @@ public final class Normalizer {
      * form.
      * @param src        The sequence of char values to normalize.
      * @param form       The normalization form; one of
-     *                   {@link java.text.Normalizer.Form#NFC},
-     *                   {@link java.text.Normalizer.Form#NFD},
-     *                   {@link java.text.Normalizer.Form#NFKC},
-     *                   {@link java.text.Normalizer.Form#NFKD}
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFC},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFD},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFKC},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFKD}
      * @return The normalized String
      * @throws NullPointerException If {@code src} or {@code form}
      * is null.
@@ -130,10 +130,10 @@ public final class Normalizer {
      * Determines if the given sequence of char values is normalized.
      * @param src        The sequence of char values to be checked.
      * @param form       The normalization form; one of
-     *                   {@link java.text.Normalizer.Form#NFC},
-     *                   {@link java.text.Normalizer.Form#NFD},
-     *                   {@link java.text.Normalizer.Form#NFKC},
-     *                   {@link java.text.Normalizer.Form#NFKD}
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFC},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFD},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFKC},
+     *                   {@link java.base.share.classes.java.text.Normalizer.Form#NFKD}
      * @return true if the sequence of char values is normalized;
      * false otherwise.
      * @throws NullPointerException If {@code src} or {@code form}

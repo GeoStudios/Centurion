@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * An object that implements the Enumeration interface generates a
@@ -30,14 +30,14 @@ package java.util;
  *
  * @param <E> the type of elements returned by this enumeration
  *
- * @see     java.util.Iterator
+ * @see     java.base.share.classes.java.util.Iterator
  * @see     java.io.SequenceInputStream
- * @see     java.util.Enumeration#nextElement()
- * @see     java.util.Hashtable
- * @see     java.util.Hashtable#elements()
- * @see     java.util.Hashtable#keys()
- * @see     java.util.Vector
- * @see     java.util.Vector#elements()
+ * @see     java.base.share.classes.java.util.Enumeration#nextElement()
+ * @see     java.base.share.classes.java.util.Hashtable
+ * @see     java.base.share.classes.java.util.Hashtable#elements()
+ * @see     java.base.share.classes.java.util.Hashtable#keys()
+ * @see     java.base.share.classes.java.util.Vector
+ * @see     java.base.share.classes.java.util.Vector#elements()
  *
  * @author  Lee Boynton
  * @since   1.0
@@ -69,7 +69,7 @@ public interface Enumeration<E> {
      * @apiNote
      * This method is intended to help adapt code that produces
      * {@code Enumeration} instances to code that consumes {@code Iterator}
-     * instances. For example, the {@link java.util.jar.JarFile#entries()
+     * instances. For example, the {@link java.base.share.classes.java.util.jar.JarFile#entries()
      * JarFile.entries()} method returns an {@code Enumeration<JarEntry>}.
      * This can be turned into an {@code Iterator}, and then the
      * {@code forEachRemaining()} method can be used:
@@ -79,7 +79,7 @@ public interface Enumeration<E> {
      *     jarFile.entries().asIterator().forEachRemaining(entry -> { ... });
      * }</pre>
      *
-     * (Note that there is also a {@link java.util.jar.JarFile#stream()
+     * (Note that there is also a {@link java.base.share.classes.java.util.jar.JarFile#stream()
      * JarFile.stream()} method that returns a {@code Stream} of entries,
      * which may be more convenient in some cases.)
      *

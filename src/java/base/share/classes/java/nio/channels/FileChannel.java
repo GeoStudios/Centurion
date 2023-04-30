@@ -2,14 +2,14 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.nio.channels;
+package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.SegmentScope;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
-import java.nio.channels.spi.AbstractInterruptibleChannel;
+import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.OpenOption;
 import java.nio.file.Path;
@@ -833,7 +833,7 @@ public abstract class FileChannel
      *
      * @since 1.4
      *
-     * @see java.nio.channels.FileChannel#map
+     * @see java.base.share.classes.java.nio.channels.FileChannel#map
      */
     public static class MapMode {
 
@@ -971,7 +971,7 @@ public abstract class FileChannel
      * @throws IOException
      *         If some other I/O error occurs
      *
-     * @see java.nio.channels.FileChannel.MapMode
+     * @see java.base.share.classes.java.nio.channels.FileChannel.MapMode
      * @see java.nio.MappedByteBuffer
      */
     public abstract MappedByteBuffer map(MapMode mode, long position, long size)

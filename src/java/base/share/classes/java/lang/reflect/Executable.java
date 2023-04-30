@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
@@ -533,13 +533,13 @@ public abstract sealed class Executable extends AccessibleObject
      * declared in source ("mandated"), as well as parameters that
      * are neither implicitly nor explicitly declared in source
      * ("synthetic") to the parameter list for a method.  See {@link
-     * java.lang.reflect.Parameter} for more information.
+     * java.base.share.classes.java.lang.reflect.Parameter} for more information.
      *
      * <p>Note that any annotations returned by this method are
      * declaration annotations.
      *
-     * @see java.lang.reflect.Parameter
-     * @see java.lang.reflect.Parameter#getAnnotations
+     * @see java.base.share.classes.java.lang.reflect.Parameter
+     * @see java.base.share.classes.java.lang.reflect.Parameter#getAnnotations
      * @return an array of arrays that represent the annotations on
      *    the formal and implicit parameters, in declaration order, of
      *    the executable represented by this object

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaUtilZipFileAccess;
@@ -114,7 +114,7 @@ import java.util.zip.ZipFile;
  * @author  David Connelly
  * @see     Manifest
  * @see     java.util.zip.ZipFile
- * @see     java.util.jar.JarEntry
+ * @see     java.base.share.classes.java.util.jar.JarEntry
  * @since   1.2
  */
 public class JarFile extends ZipFile {
@@ -434,7 +434,7 @@ public class JarFile extends ZipFile {
      * @throws IllegalStateException
      *         may be thrown if the jar file has been closed
      *
-     * @see java.util.jar.JarEntry
+     * @see java.base.share.classes.java.util.jar.JarEntry
      *
      * @implSpec
      * <div class="block">

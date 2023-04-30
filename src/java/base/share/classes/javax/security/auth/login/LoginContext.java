@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -170,7 +170,7 @@ import java.util.ServiceLoader.Provider;
  * @see javax.security.auth.AuthPermission
  * @see javax.security.auth.Subject
  * @see javax.security.auth.callback.CallbackHandler
- * @see javax.security.auth.login.Configuration
+ * @see java.base.share.classes.javax.security.auth.login.Configuration
  * @see javax.security.auth.spi.LoginModule
  * @see java.security.Security security properties
  */

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 import java.lang.annotation.*;
 
@@ -25,8 +25,8 @@ import java.lang.annotation.*;
  * methods are:
  *
  * <ul>
- * <li>{@code private void writeObject(java.io.ObjectOutputStream stream) throws IOException}
- * <li>{@code private void readObject(java.io.ObjectInputStream stream) throws IOException, ClassNotFoundException}
+ * <li>{@code private void writeObject(java.base.share.classes.java.io.ObjectOutputStream stream) throws IOException}
+ * <li>{@code private void readObject(java.base.share.classes.java.io.ObjectInputStream stream) throws IOException, ClassNotFoundException}
  * <li>{@code private void readObjectNoData() throws ObjectStreamException}
  * <li><i>ANY-ACCESS-MODIFIER</i> {@code Object writeReplace() throws ObjectStreamException}
  * <li><i>ANY-ACCESS-MODIFIER</i> {@code Object readResolve() throws ObjectStreamException}

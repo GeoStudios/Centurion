@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
 import java.security.Key;
 import java.security.PublicKey;
@@ -189,7 +189,7 @@ public final class DHKeyFactory extends KeyFactorySpi {
 
             if (key instanceof javax.crypto.interfaces.DHPublicKey) {
                 // Check if key originates from this factory
-                if (key instanceof com.sun.crypto.provider.DHPublicKey) {
+                if (key instanceof java.base.share.classes.com.sun.crypto.provider.DHPublicKey) {
                     return key;
                 }
                 // Convert key to spec
@@ -200,7 +200,7 @@ public final class DHKeyFactory extends KeyFactorySpi {
 
             } else if (key instanceof javax.crypto.interfaces.DHPrivateKey) {
                 // Check if key originates from this factory
-                if (key instanceof com.sun.crypto.provider.DHPrivateKey) {
+                if (key instanceof java.base.share.classes.com.sun.crypto.provider.DHPrivateKey) {
                     return key;
                 }
                 // Convert key to spec

@@ -2,13 +2,13 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.Serializable;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
 
 /**
  * A Red-Black tree based {@link NavigableMap} implementation.
@@ -1060,7 +1060,7 @@ public class TreeMap<K,V>
      * <em>fail-fast</em>, and additionally reports {@link Spliterator#SORTED}
      * and {@link Spliterator#ORDERED} with an encounter order that is ascending
      * key order.  The spliterator's comparator (see
-     * {@link java.util.Spliterator#getComparator()}) is {@code null} if
+     * {@link java.base.share.classes.java.util.Spliterator#getComparator()}) is {@code null} if
      * the tree map's comparator (see {@link #comparator()}) is {@code null}.
      * Otherwise, the spliterator's comparator is the same as or imposes the
      * same total ordering as the tree map's comparator.

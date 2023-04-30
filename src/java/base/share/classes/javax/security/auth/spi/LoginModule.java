@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.security.auth.spi;
+package java.base.share.classes.javax.security.auth.spi;
 
 import java.util.Map;
 import javax.security.auth.Subject;

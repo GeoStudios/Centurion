@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 /**
  * This interface defines a factory for socket implementations. It
@@ -11,8 +11,8 @@ package java.net;
  * implementations.
  *
  * @author  Arthur van Hoff
- * @see     java.net.Socket
- * @see     java.net.ServerSocket
+ * @see     java.base.share.classes.java.net.Socket
+ * @see     java.base.share.classes.java.net.ServerSocket
  * @since   1.0
  */
 public interface SocketImplFactory {
@@ -20,7 +20,7 @@ public interface SocketImplFactory {
      * Creates a new {@code SocketImpl} instance.
      *
      * @return  a new instance of {@code SocketImpl}.
-     * @see     java.net.SocketImpl
+     * @see     java.base.share.classes.java.net.SocketImpl
      */
     SocketImpl createSocketImpl();
 }

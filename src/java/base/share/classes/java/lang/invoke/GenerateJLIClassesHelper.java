@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Opcodes;
@@ -17,10 +17,10 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleStatics.CLASSFILE_VERSION;
-import static java.lang.invoke.MethodTypeForm.*;
-import static java.lang.invoke.LambdaForm.Kind.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.CLASSFILE_VERSION;
+import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
 
 /**
  * Helper class to assist the GenerateJLIClassesPlugin to get access to
@@ -44,7 +44,7 @@ class GenerateJLIClassesHelper {
     static final String BASIC_FORMS_HOLDER = "java/lang/invoke/LambdaForm$Holder";
     static final String INVOKERS_HOLDER = "java/lang/invoke/Invokers$Holder";
     static final String INVOKERS_HOLDER_CLASS_NAME = INVOKERS_HOLDER.replace('/', '.');
-    static final String BMH_SPECIES_PREFIX = "java.lang.invoke.BoundMethodHandle$Species_";
+    static final String BMH_SPECIES_PREFIX = "java.base.share.classes.java.lang.invoke.BoundMethodHandle$Species_";
 
     static class HolderClassBuilder {
 

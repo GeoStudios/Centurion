@@ -2,16 +2,16 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.util.WeakHashMap;
-import java.lang.ref.WeakReference;
+import java.base.share.classes.java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import jdk.internal.misc.Unsafe;
 
-import static java.lang.ClassValue.ClassValueMap.probeHomeLocation;
-import static java.lang.ClassValue.ClassValueMap.probeBackupLocations;
+import static java.base.share.classes.java.lang.ClassValue.ClassValueMap.probeHomeLocation;
+import static java.base.share.classes.java.lang.ClassValue.ClassValueMap.probeBackupLocations;
 
 /**
  * Lazily associate a computed value with (potentially) every type.

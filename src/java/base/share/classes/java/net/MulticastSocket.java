@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
 import java.io.IOException;
 import java.nio.channels.DatagramChannel;
@@ -123,8 +123,8 @@ public class MulticastSocket extends DatagramSocket {
      * @throws    SecurityException if a security manager exists and its
      * {@code checkListen} method doesn't allow the operation.
      * @see SecurityManager#checkListen
-     * @see java.net.DatagramSocket#setReuseAddress(boolean)
-     * @see java.net.DatagramSocketImpl#setOption(SocketOption, Object)
+     * @see java.base.share.classes.java.net.DatagramSocket#setReuseAddress(boolean)
+     * @see java.base.share.classes.java.net.DatagramSocketImpl#setOption(SocketOption, Object)
      */
     public MulticastSocket() throws IOException {
         this(new InetSocketAddress(0));
@@ -154,7 +154,7 @@ public class MulticastSocket extends DatagramSocket {
      *            out of range.</a>
      *
      * @see       SecurityManager#checkListen
-     * @see       java.net.DatagramSocket#setReuseAddress(boolean)
+     * @see       java.base.share.classes.java.net.DatagramSocket#setReuseAddress(boolean)
      */
     public MulticastSocket(int port) throws IOException {
         this(new InetSocketAddress(port));
@@ -182,7 +182,7 @@ public class MulticastSocket extends DatagramSocket {
      * @throws   SecurityException  if a security manager exists and its
      *           {@code checkListen} method doesn't allow the operation.
      * @see      SecurityManager#checkListen
-     * @see      java.net.DatagramSocket#setReuseAddress(boolean)
+     * @see      java.base.share.classes.java.net.DatagramSocket#setReuseAddress(boolean)
      *
      * @since 1.4
      */
@@ -396,7 +396,7 @@ public class MulticastSocket extends DatagramSocket {
      * @deprecated The network interface may not be uniquely identified by
      *             the InetAddress returned.
      *             Use {@link #getNetworkInterface()} instead.
-     * @see        #setInterface(java.net.InetAddress)
+     * @see        #setInterface(java.base.share.classes.java.net.InetAddress)
      */
     @Deprecated(since="14")
     public InetAddress getInterface() throws SocketException {
@@ -458,7 +458,7 @@ public class MulticastSocket extends DatagramSocket {
      * @throws     SocketException if an error occurs while setting the value
      * @since      1.4
      * @deprecated Use {@link #setOption(SocketOption, Object)} with
-     *             {@link java.net.StandardSocketOptions#IP_MULTICAST_LOOP}
+     *             {@link java.base.share.classes.java.net.StandardSocketOptions#IP_MULTICAST_LOOP}
      *             instead. The loopback mode is enabled by default,
      *             {@code MulticastSocket.setOption(StandardSocketOptions.IP_MULTICAST_LOOP, false)}
      *             disables it.
@@ -476,7 +476,7 @@ public class MulticastSocket extends DatagramSocket {
      * @return     true if the LoopbackMode has been disabled
      * @since      1.4
      * @deprecated Use {@link #getOption(SocketOption)} with
-     *             {@link java.net.StandardSocketOptions#IP_MULTICAST_LOOP}
+     *             {@link java.base.share.classes.java.net.StandardSocketOptions#IP_MULTICAST_LOOP}
      *             instead.
      * @see        #setLoopbackMode
      */
@@ -537,7 +537,7 @@ public class MulticastSocket extends DatagramSocket {
      *
      * @see DatagramSocket#send
      * @see DatagramSocket#receive
-     * @see SecurityManager#checkMulticast(java.net.InetAddress, byte)
+     * @see SecurityManager#checkMulticast(java.base.share.classes.java.net.InetAddress, byte)
      * @see SecurityManager#checkConnect
      */
     @Deprecated

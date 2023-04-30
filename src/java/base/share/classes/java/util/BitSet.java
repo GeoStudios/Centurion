@@ -2,15 +2,15 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.LongBuffer;
-import java.util.function.IntConsumer;
-import java.util.stream.IntStream;
-import java.util.stream.StreamSupport;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 
 /**
  * This class implements a vector of bits that grows as needed. Each

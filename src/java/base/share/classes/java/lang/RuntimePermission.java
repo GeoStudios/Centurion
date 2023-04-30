@@ -2,10 +2,10 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
 import java.security.*;
-import java.lang.module.ModuleFinder;
+import java.base.share.classes.java.lang.module.ModuleFinder;
 
 /**
  * This class is for runtime permissions. A {@code RuntimePermission}
@@ -228,14 +228,14 @@ import java.lang.module.ModuleFinder;
  *   <td>This grants code permission to define a class
  * in a particular package. This is dangerous because malicious
  * code with this permission may define rogue classes in
- * trusted packages like {@code java.security} or {@code java.lang},
+ * trusted packages like {@code java.security} or {@code java.base.share.classes.java.lang},
  * for example.</td>
  * </tr>
  *
  * <tr>
  *   <th scope="row">defineClass</th>
  *   <td>Define a class with
- * {@link java.lang.invoke.MethodHandles.Lookup#defineClass(byte[])
+ * {@link java.base.share.classes.java.lang.invoke.MethodHandles.Lookup#defineClass(byte[])
  * Lookup.defineClass}.</td>
  *   <td>This grants code with a suitably privileged {@code Lookup} object
  * permission to define classes in the same package as the {@code Lookup}'s
@@ -328,12 +328,12 @@ import java.lang.module.ModuleFinder;
  *   <th scope="row">loggerFinder</th>
  *   <td>This {@code RuntimePermission} is required to be granted to
  *   classes which subclass or call methods on
- *   {@code java.lang.System.LoggerFinder}. The permission is
+ *   {@code java.base.share.classes.java.lang.System.LoggerFinder}. The permission is
  *   checked during invocation of the abstract base class constructor, as
  *   well as on the invocation of its public methods.
  *   This permission ensures trust in classes which provide loggers
  *   to system classes.</td>
- *   <td>See {@link java.lang.System.LoggerFinder java.lang.System.LoggerFinder}
+ *   <td>See {@link java.base.share.classes.java.lang.System.LoggerFinder java.base.share.classes.java.lang.System.LoggerFinder}
  *   for more information.</td>
  * </tr>
  *
@@ -365,7 +365,7 @@ import java.lang.module.ModuleFinder;
  * @see java.security.Permission
  * @see java.security.Permissions
  * @see java.security.PermissionCollection
- * @see java.lang.SecurityManager
+ * @see java.base.share.classes.java.lang.SecurityManager
  *
  *
  * @since Pre Java 1

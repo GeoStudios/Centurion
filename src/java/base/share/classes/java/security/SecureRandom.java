@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
 import sun.security.jca.GetInstance;
@@ -11,7 +11,7 @@ import sun.security.jca.Providers;
 import sun.security.provider.SunEntries;
 import sun.security.util.Debug;
 
-import java.security.Provider.Service;
+import java.base.share.classes.java.security.Provider.Service;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -120,7 +120,7 @@ import java.util.regex.Pattern;
  * <li>{@link SecureRandomSpi#engineReseed(SecureRandomParameters)}
  * </ul>
  *
- * @see java.security.SecureRandomSpi
+ * @see java.base.share.classes.java.security.SecureRandomSpi
  * @see java.util.Random
  *
  * @author Benjamin Renaud

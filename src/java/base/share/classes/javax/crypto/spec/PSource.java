@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto.spec;
+package java.base.share.classes.javax.crypto.spec;
 
 /**
  * This class specifies the source for encoding input P in OAEP Padding,

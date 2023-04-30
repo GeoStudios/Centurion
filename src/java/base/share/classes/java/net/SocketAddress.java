@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.net;
+package java.base.share.classes.java.net;
 
 
 /**
@@ -13,8 +13,8 @@ package java.net;
  * It provides an immutable object used by sockets for binding, connecting, or
  * as returned values.
  *
- * @see java.net.Socket
- * @see java.net.ServerSocket
+ * @see java.base.share.classes.java.net.Socket
+ * @see java.base.share.classes.java.net.ServerSocket
  * @since 1.4
  */
 public abstract class SocketAddress implements java.io.Serializable {

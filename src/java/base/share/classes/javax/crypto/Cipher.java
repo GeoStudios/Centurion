@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -17,7 +17,7 @@ import java.security.spec.InvalidParameterSpecException;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 
-import javax.crypto.spec.*;
+import java.base.share.classes.javax.crypto.spec.*;
 
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;

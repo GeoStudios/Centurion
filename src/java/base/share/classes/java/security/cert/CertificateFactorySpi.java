@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
 import java.io.InputStream;
 import java.util.Collection;
@@ -21,8 +21,8 @@ import java.util.List;
  * their encodings.
  *
  * <p>A certificate factory for X.509 must return certificates that are an
- * instance of {@code java.security.cert.X509Certificate}, and CRLs
- * that are an instance of {@code java.security.cert.X509CRL}.
+ * instance of {@code java.base.share.classes.java.security.cert.X509Certificate}, and CRLs
+ * that are an instance of {@code java.base.share.classes.java.security.cert.X509CRL}.
  *
  * @author Hemma Prafullchandra
  * @author Jan Luehe
@@ -217,7 +217,7 @@ public abstract class CertificateFactorySpi {
      * @param inStream the input stream with the certificates.
      *
      * @return a (possibly empty) collection view of
-     * java.security.cert.Certificate objects
+     * java.base.share.classes.java.security.cert.Certificate objects
      * initialized with the data from the input stream.
      *
      * @throws    CertificateException on parsing errors.
@@ -286,7 +286,7 @@ public abstract class CertificateFactorySpi {
      * @param inStream the input stream with the CRLs.
      *
      * @return a (possibly empty) collection view of
-     * java.security.cert.CRL objects initialized with the data from the input
+     * java.base.share.classes.java.security.cert.CRL objects initialized with the data from the input
      * stream.
      *
      * @throws    CRLException on parsing errors.

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import jdk.internal.access.SharedSecrets;
 
@@ -448,7 +448,7 @@ public abstract sealed class EnumSet<E extends Enum<E>> extends AbstractSet<E>
 
     /**
      * Returns a
-     * <a href="{@docRoot}/serialized-form.html#java.util.EnumSet.SerializationProxy">
+     * <a href="{@docRoot}/serialized-form.html#java.base.share.classes.java.util.EnumSet.SerializationProxy">
      * SerializationProxy</a>
      * representing the state of this instance.
      *

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
 import javax.security.auth.Subject;
 
@@ -11,7 +11,7 @@ import javax.security.auth.Subject;
  * can be used to represent any entity, such as an individual, a
  * corporation, and a login id.
  *
- * @see java.security.cert.X509Certificate
+ * @see java.base.share.classes.java.security.cert.X509Certificate
  *
  * @author Li Gong
  * @since 1.1

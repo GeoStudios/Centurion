@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,10 +19,10 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.function.Consumer;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 
 import sun.nio.cs.UTF_8;
 
@@ -1322,11 +1322,11 @@ public final class ServiceLoader<S>
      * cleared by invoking the {@link #reload() reload} method then existing
      * iterators for this service loader should be discarded.
      * The {@code  hasNext} and {@code next} methods of the iterator throw {@link
-     * java.util.ConcurrentModificationException ConcurrentModificationException}
+     * java.base.share.classes.java.util.ConcurrentModificationException ConcurrentModificationException}
      * if used after the provider cache has been cleared.
      *
      * <p> The iterator returned by this method does not support removal.
-     * Invoking its {@link java.util.Iterator#remove() remove} method will
+     * Invoking its {@link java.base.share.classes.java.util.Iterator#remove() remove} method will
      * cause an {@link UnsupportedOperationException} to be thrown.
      *
      * @apiNote Throwing an error in these cases may seem extreme.  The rationale
@@ -1825,7 +1825,7 @@ public final class ServiceLoader<S>
      * @return  A descriptive string
      */
     public String toString() {
-        return "java.util.ServiceLoader[" + service.getName() + "]";
+        return "java.base.share.classes.java.util.ServiceLoader[" + service.getName() + "]";
     }
 
 }

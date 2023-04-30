@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
 import java.util.Enumeration;
 import java.util.List;

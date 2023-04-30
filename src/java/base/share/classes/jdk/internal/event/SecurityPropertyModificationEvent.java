@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.event;
+package java.base.share.classes.jdk.internal.event;
 
 /**
  * Event details relating to the modification of a Security property.

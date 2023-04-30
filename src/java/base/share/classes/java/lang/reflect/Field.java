@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
 import jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
@@ -128,7 +128,7 @@ class Field extends AccessibleObject implements Member {
         // among Field objects which refer to the same underlying
         // method in the VM. (All of this contortion is only necessary
         // because of the "accessibility" bit in AccessibleObject,
-        // which implicitly requires that new java.lang.reflect
+        // which implicitly requires that new java.base.share.classes.java.lang.reflect
         // objects be fabricated for each reflective call on Class
         // objects.)
         if (this.root != null)

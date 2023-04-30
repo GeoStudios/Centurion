@@ -1,9 +1,9 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
-import java.nio.file.attribute.*;
+import java.base.share.classes.java.nio.file.attribute.*;
 import java.nio.channels.SeekableByteChannel;
 import java.util.Set;
 import java.io.IOException;
@@ -26,7 +26,7 @@ import java.io.IOException;
  * newDirectoryStream} method will be a {@code SecureDirectoryStream} and must
  * be cast to that type in order to invoke the methods defined by this interface.
  *
- * <p> In the case of the default {@link java.nio.file.spi.FileSystemProvider
+ * <p> In the case of the default {@link java.base.share.classes.java.nio.file.spi.FileSystemProvider
  * provider}, and a security manager is set, then the permission checks are
  * performed using the path obtained by resolving the given relative path
  * against the <i>original path</i> of the directory (irrespective of if the

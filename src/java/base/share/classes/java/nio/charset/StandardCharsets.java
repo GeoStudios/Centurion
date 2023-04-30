@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.nio.charset;
+package java.base.share.classes.java.nio.charset;
 
 /**
  * Constant definitions for the standard {@link Charset charsets}. These
@@ -19,7 +19,7 @@ public final class StandardCharsets {
     // on this class from elsewhere in java.base.
 
     private StandardCharsets() {
-        throw new AssertionError("No java.nio.charset.StandardCharsets instances for you!");
+        throw new AssertionError("No java.base.share.classes.java.nio.charset.StandardCharsets instances for you!");
     }
 
     /**

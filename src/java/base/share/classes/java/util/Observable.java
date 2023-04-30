@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
 /**
  * This class represents an observable object, or "data"
@@ -32,10 +32,10 @@ package java.util;
  * {@code equals} method returns true for them.
  *
  * @author  Chris Warth
- * @see     java.util.Observable#notifyObservers()
- * @see     java.util.Observable#notifyObservers(java.lang.Object)
- * @see     java.util.Observer
- * @see     java.util.Observer#update(java.util.Observable, java.lang.Object)
+ * @see     java.base.share.classes.java.util.Observable#notifyObservers()
+ * @see     java.base.share.classes.java.util.Observable#notifyObservers(java.lang.Object)
+ * @see     java.base.share.classes.java.util.Observer
+ * @see     java.base.share.classes.java.util.Observer#update(java.base.share.classes.java.util.Observable, java.lang.Object)
  * @since   1.0
  *
  * @deprecated
@@ -47,9 +47,9 @@ package java.util;
  * For a richer event model, consider using the
  * {@link java.desktop/java.beans} package.  For reliable and ordered
  * messaging among threads, consider using one of the concurrent data
- * structures in the {@link java.util.concurrent} package.
+ * structures in the {@link java.base.share.classes.java.util.concurrent} package.
  * For reactive streams style programming, see the
- * {@link java.util.concurrent.Flow} API.
+ * {@link java.base.share.classes.java.util.concurrent.Flow} API.
  */
 @Deprecated(since="9")
 @SuppressWarnings("doclint:reference") // cross-module links
@@ -101,9 +101,9 @@ public class Observable {
      * <blockquote>{@code
      * notifyObservers(null)}</blockquote>
      *
-     * @see     java.util.Observable#clearChanged()
-     * @see     java.util.Observable#hasChanged()
-     * @see     java.util.Observer#update(java.util.Observable, java.lang.Object)
+     * @see     java.base.share.classes.java.util.Observable#clearChanged()
+     * @see     java.base.share.classes.java.util.Observable#hasChanged()
+     * @see     java.base.share.classes.java.util.Observer#update(java.base.share.classes.java.util.Observable, java.lang.Object)
      */
     public void notifyObservers() {
         notifyObservers(null);
@@ -119,9 +119,9 @@ public class Observable {
      * arguments: this observable object and the {@code arg} argument.
      *
      * @param   arg   any object.
-     * @see     java.util.Observable#clearChanged()
-     * @see     java.util.Observable#hasChanged()
-     * @see     java.util.Observer#update(java.util.Observable, java.lang.Object)
+     * @see     java.base.share.classes.java.util.Observable#clearChanged()
+     * @see     java.base.share.classes.java.util.Observable#hasChanged()
+     * @see     java.base.share.classes.java.util.Observer#update(java.base.share.classes.java.util.Observable, java.lang.Object)
      */
     public void notifyObservers(Object arg) {
         /*
@@ -175,8 +175,8 @@ public class Observable {
      * This method is called automatically by the
      * {@code notifyObservers} methods.
      *
-     * @see     java.util.Observable#notifyObservers()
-     * @see     java.util.Observable#notifyObservers(java.lang.Object)
+     * @see     java.base.share.classes.java.util.Observable#notifyObservers()
+     * @see     java.base.share.classes.java.util.Observable#notifyObservers(java.lang.Object)
      */
     protected synchronized void clearChanged() {
         changed = false;
@@ -189,8 +189,8 @@ public class Observable {
      *          method has been called more recently than the
      *          {@code clearChanged} method on this object;
      *          {@code false} otherwise.
-     * @see     java.util.Observable#clearChanged()
-     * @see     java.util.Observable#setChanged()
+     * @see     java.base.share.classes.java.util.Observable#clearChanged()
+     * @see     java.base.share.classes.java.util.Observable#setChanged()
      */
     public synchronized boolean hasChanged() {
         return changed;

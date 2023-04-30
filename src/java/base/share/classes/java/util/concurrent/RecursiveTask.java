@@ -13,7 +13,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
 /**
  * A recursive result-bearing {@link ForkJoinTask}.
@@ -21,7 +21,7 @@ package java.util.concurrent;
  * <p>For example, here is a task-based program for computing Factorials:
  *
  * <pre> {@code
- * import java.util.concurrent.RecursiveTask;
+ * import java.base.share.classes.java.util.concurrent.RecursiveTask;
  * import java.math.BigInteger;
  * public class Factorial {
  *   static class FactorialTask extends RecursiveTask<BigInteger> {

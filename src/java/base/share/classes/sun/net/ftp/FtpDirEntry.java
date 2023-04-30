@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package sun.net.ftp;
+package java.base.share.classes.sun.net.ftp;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -13,7 +13,7 @@ import java.util.HashMap;
  * time, owner and group of the file, although some of these could be unavailable
  * due to specific FTP server limitations.
  *
- * @see sun.net.ftp.FtpDirParser
+ * @see java.base.share.classes.sun.net.ftp.FtpDirParser
  * @since 1.7
  */
 public class FtpDirEntry {

@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -27,7 +27,7 @@ public abstract class Negotiator {
         Class<?> clazz;
         Constructor<?> c;
         try {
-            clazz = Class.forName("sun.net.www.protocol.http.spnego.NegotiatorImpl",
+            clazz = Class.forName("java.base.share.classes.sun.net.www.protocol.http.spnego.NegotiatorImpl",
                                   true,
                                   ClassLoader.getPlatformClassLoader());
             c = clazz.getConstructor(HttpCallerInfo.class);

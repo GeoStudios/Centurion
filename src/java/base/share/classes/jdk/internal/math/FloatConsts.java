@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.math;
+package java.base.share.classes.jdk.internal.math;
 
 import static java.lang.Float.MIN_EXPONENT;
 import static java.lang.Float.PRECISION;

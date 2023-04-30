@@ -2,7 +2,7 @@
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
 
-package jdk.internal.icu.util;
+package java.base.share.classes.jdk.internal.icu.util;
 
 /**
  * Simple struct-like class for int output parameters.

@@ -1,18 +1,18 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.IntConsumer;
-import java.util.function.LongConsumer;
-import java.util.stream.Collector;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.LongConsumer;
+import java.base.share.classes.java.util.stream.Collector;
 
 /**
  * A state object for collecting statistics such as count, min, max, sum, and
  * average.
  *
  * <p>This class is designed to work with (though does not require)
- * {@linkplain java.util.stream streams}. For example, you can compute
+ * {@linkplain java.base.share.classes.java.util.stream streams}. For example, you can compute
  * summary statistics on a stream of longs with:
  * <pre> {@code
  * LongSummaryStatistics stats = longStream.collect(LongSummaryStatistics::new,
@@ -21,8 +21,8 @@ import java.util.stream.Collector;
  * }</pre>
  *
  * <p>{@code LongSummaryStatistics} can be used as a
- * {@linkplain java.util.stream.Stream#collect(Collector) reduction}
- * target for a {@linkplain java.util.stream.Stream stream}. For example:
+ * {@linkplain java.base.share.classes.java.util.stream.Stream#collect(Collector) reduction}
+ * target for a {@linkplain java.base.share.classes.java.util.stream.Stream stream}. For example:
  *
  * <pre> {@code
  * LongSummaryStatistics stats = people.stream()
@@ -33,9 +33,9 @@ import java.util.stream.Collector;
  * maximum, sum, and average of their ages.
  *
  * @implNote This implementation is not thread safe. However, it is safe to use
- * {@link java.util.stream.Collectors#summarizingLong(java.util.function.ToLongFunction)
+ * {@link java.base.share.classes.java.util.stream.Collectors#summarizingLong(java.base.share.classes.java.util.function.ToLongFunction)
  * Collectors.summarizingLong()} on a parallel stream, because the parallel
- * implementation of {@link java.util.stream.Stream#collect Stream.collect()}
+ * implementation of {@link java.base.share.classes.java.util.stream.Stream#collect Stream.collect()}
  * provides the necessary partitioning, isolation, and merging of results for
  * safe and efficient parallel execution.
  *
