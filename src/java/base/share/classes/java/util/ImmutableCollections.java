@@ -15,10 +15,10 @@ import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.function.UnaryOperator;
-import jdk.internal.access.JavaUtilCollectionAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.CDS;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.access.JavaUtilCollectionAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 /**
  * Container class for immutable collections. Not part of the public API.

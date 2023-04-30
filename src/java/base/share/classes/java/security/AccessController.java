@@ -10,14 +10,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.ref.Reference;
 
-import jdk.internal.vm.annotation.Hidden;
-import sun.security.util.Debug;
-import sun.security.util.SecurityConstants;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.ReservedStackAccess;
+import java.base.share.classes.jdk.internal.vm.annotation.Hidden;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.vm.annotation.DontInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 
 /**
  * <p> The {@code AccessController} class is used for access control operations

@@ -36,8 +36,8 @@ import java.time.temporal.ValueRange;
 import java.util.Calendar;
 import java.util.Objects;
 
-import sun.util.calendar.CalendarDate;
-import sun.util.calendar.LocalGregorianCalendar;
+import java.base.share.classes.sun.util.calendar.CalendarDate;
+import java.base.share.classes.sun.util.calendar.LocalGregorianCalendar;
 
 /**
  * A date in the Japanese Imperial calendar system.

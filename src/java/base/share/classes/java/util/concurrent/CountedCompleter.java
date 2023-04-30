@@ -15,7 +15,7 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * A {@link ForkJoinTask} with a completion action performed when

@@ -15,7 +15,7 @@ import javax.crypto.SecretKey;
 import javax.security.auth.DestroyFailedException;
 import javax.security.auth.callback.*;
 
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.Debug;
 
 /**
  * This class represents a storage facility for cryptographic

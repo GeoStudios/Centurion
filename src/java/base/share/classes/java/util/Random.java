@@ -11,11 +11,11 @@ import java.base.share.classes.java.util.stream.DoubleStream;
 import java.base.share.classes.java.util.stream.IntStream;
 import java.base.share.classes.java.util.stream.LongStream;
 
-import jdk.internal.util.random.RandomSupport.*;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.*;
 
-import static jdk.internal.util.random.RandomSupport.*;
+import static java.base.share.classes.jdk.internal.util.random.RandomSupport.*;
 
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * An instance of this class is used to generate a stream of

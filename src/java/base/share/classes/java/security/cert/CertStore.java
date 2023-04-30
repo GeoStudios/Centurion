@@ -14,8 +14,8 @@ import java.security.Security;
 import java.util.Collection;
 import java.util.Objects;
 
-import sun.security.jca.*;
-import sun.security.jca.GetInstance.Instance;
+import java.base.share.classes.sun.security.jca.*;
+import java.base.share.classes.sun.security.jca.GetInstance.Instance;
 
 /**
  * A class for retrieving {@code Certificate}s and {@code CRL}s

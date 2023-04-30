@@ -6,9 +6,9 @@ package java.base.share.classes.java.security.cert;
 
 import java.util.*;
 
-import sun.security.provider.certpath.CertPathHelper;
+import java.base.share.classes.sun.security.provider.certpath.CertPathHelper;
 
-import sun.security.x509.GeneralNameInterface;
+import java.base.share.classes.sun.security.x509.GeneralNameInterface;
 
 /**
  * Helper class that allows the Sun CertPath provider to access

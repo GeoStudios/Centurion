@@ -6,8 +6,8 @@ package java.base.share.classes.java.util;
 
 import java.security.*;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * A class that represents an immutable universally unique identifier (UUID).

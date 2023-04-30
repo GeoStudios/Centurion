@@ -50,7 +50,7 @@ import java.util.concurrent.ExecutorService;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 
-import sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
 
 /**
  * Service-provider class for file systems. The methods defined by the {@link

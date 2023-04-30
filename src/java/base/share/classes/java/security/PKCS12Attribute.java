@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.regex.Pattern;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 
 /**
  * An attribute associated with a PKCS12 keystore entry.

@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security;
 
-import jdk.internal.event.SecurityProviderServiceEvent;
+import java.base.share.classes.jdk.internal.event.SecurityProviderServiceEvent;
 
 import java.io.*;
 import java.util.*;

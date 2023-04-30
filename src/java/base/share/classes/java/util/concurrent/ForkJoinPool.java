@@ -32,10 +32,10 @@ import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import java.base.share.classes.java.util.concurrent.locks.LockSupport;
 import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.java.util.concurrent.locks.Condition;
-import jdk.internal.access.JavaUtilConcurrentFJPAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.SharedThreadContainer;
+import java.base.share.classes.jdk.internal.access.JavaUtilConcurrentFJPAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.SharedThreadContainer;
 
 /**
  * An {@link ExecutorService} for running {@link ForkJoinTask}s.

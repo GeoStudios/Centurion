@@ -6,7 +6,7 @@ package java.base.share.classes.java.security;
 
 import java.nio.ByteBuffer;
 
-import sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

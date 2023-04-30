@@ -5,8 +5,8 @@
 package java.base.share.classes.java.text;
 
 import java.util.Vector;
-import sun.text.UCompactIntArray;
-import sun.text.IntHashtable;
+import java.base.share.classes.sun.text.UCompactIntArray;
+import java.base.share.classes.sun.text.IntHashtable;
 
 /**
  * This class contains the static state of a RuleBasedCollator: The various

@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.security.cert;
 
-import sun.security.util.SignatureUtil;
-import sun.security.x509.X509CRLImpl;
+import java.base.share.classes.sun.security.util.SignatureUtil;
+import java.base.share.classes.sun.security.x509.X509CRLImpl;
 
 import javax.security.auth.x500.X500Principal;
 import java.math.BigInteger;

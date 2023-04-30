@@ -4,7 +4,7 @@
 package java.base.share.classes.java.nio;
 
 import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * Mismatch methods for buffers

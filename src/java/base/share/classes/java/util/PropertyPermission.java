@@ -13,7 +13,7 @@ import java.security.*;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Hashtable;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * This class is for property permissions.

@@ -6,8 +6,8 @@ package java.base.share.classes.java.text;
 
 import java.lang.Character;
 import java.util.Vector;
-import sun.text.CollatorUtilities;
-import jdk.internal.icu.text.NormalizerBase;
+import java.base.share.classes.sun.text.CollatorUtilities;
+import java.base.share.classes.jdk.internal.icu.text.NormalizerBase;
 
 /**
  * The {@code CollationElementIterator} class is used as an iterator

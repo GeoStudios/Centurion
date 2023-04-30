@@ -9,8 +9,8 @@ import java.lang.invoke.VarHandle;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 
-import sun.nio.ch.SelectionKeyImpl;
-import sun.nio.ch.SelectorImpl;
+import java.base.share.classes.sun.nio.ch.SelectionKeyImpl;
+import java.base.share.classes.sun.nio.ch.SelectorImpl;
 
 /**
  * Base implementation class for selection keys.

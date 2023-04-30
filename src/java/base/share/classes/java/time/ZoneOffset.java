@@ -29,7 +29,7 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
 /**
  * A time-zone offset from Greenwich/UTC, such as {@code +02:00}.

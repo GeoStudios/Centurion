@@ -15,8 +15,8 @@ import java.io.IOException;
 import java.base.share.classes.java.security.cert.*;
 import java.util.Objects;
 
-import sun.net.util.URLUtil;
-import sun.security.util.IOUtils;
+import java.base.share.classes.sun.net.util.URLUtil;
+import java.base.share.classes.sun.security.util.IOUtils;
 
 /**
  *

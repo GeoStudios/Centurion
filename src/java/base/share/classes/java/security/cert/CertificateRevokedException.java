@@ -13,10 +13,10 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.util.IOUtils;
-import sun.security.util.KnownOIDs;
-import sun.security.util.ObjectIdentifier;
-import sun.security.x509.InvalidityDateExtension;
+import java.base.share.classes.sun.security.util.IOUtils;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.x509.InvalidityDateExtension;
 
 /**
  * An exception that indicates an X.509 certificate is revoked. A

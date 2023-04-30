@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.util;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * This class provides a skeletal implementation of the {@code Collection}

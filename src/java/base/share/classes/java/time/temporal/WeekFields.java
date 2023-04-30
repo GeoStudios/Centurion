@@ -31,9 +31,9 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
 
 /**
  * Localized definitions of the day-of-week, week-of-month and week-of-year fields.

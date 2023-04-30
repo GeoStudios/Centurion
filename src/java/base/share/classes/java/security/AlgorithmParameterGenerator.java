@@ -6,7 +6,7 @@ package java.base.share.classes.java.security;
 
 import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.util.Objects;
-import sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
 /**
  * The {@code AlgorithmParameterGenerator} class is used to generate a

@@ -35,7 +35,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.stream.Stream;
 
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * The Hijrah calendar is a lunar calendar supporting Islamic calendars.

@@ -13,8 +13,8 @@ import java.security.Provider;
 import java.security.Security;
 import java.util.Objects;
 
-import sun.security.jca.*;
-import sun.security.jca.GetInstance.Instance;
+import java.base.share.classes.sun.security.jca.*;
+import java.base.share.classes.sun.security.jca.GetInstance.Instance;
 
 /**
  * A class for validating certification paths (also known as certificate

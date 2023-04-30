@@ -29,9 +29,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
 
 /**
  * Fields and units specific to the ISO-8601 calendar system,

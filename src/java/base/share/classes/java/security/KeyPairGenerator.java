@@ -10,9 +10,9 @@ import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 
 import java.base.share.classes.java.security.Provider.Service;
 
-import sun.security.jca.*;
-import sun.security.jca.GetInstance.Instance;
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.jca.*;
+import java.base.share.classes.sun.security.jca.GetInstance.Instance;
+import java.base.share.classes.sun.security.util.Debug;
 
 /**
  * The {@code KeyPairGenerator} class is used to generate pairs of

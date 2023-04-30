@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security;
 
-import sun.security.util.IOUtils;
+import java.base.share.classes.sun.security.util.IOUtils;
 
 import java.io.IOException;
 import java.io.ByteArrayInputStream;

@@ -10,9 +10,8 @@ import java.nio.channels.Channel;
 import java.nio.channels.ClosedByInterruptException;
 import java.nio.channels.InterruptibleChannel;
 
-import jdk.internal.access.SharedSecrets;
-import sun.nio.ch.Interruptible;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.nio.ch.Interruptible;
 
 /**
  * Base implementation class for interruptible channels.

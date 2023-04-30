@@ -7,10 +7,9 @@ package java.base.share.classes.java.security;
 import java.util.ArrayList;
 import java.util.List;
 
-import sun.security.util.Debug;
-import sun.security.util.FilePermCompat;
-import sun.security.util.SecurityConstants;
-
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.FilePermCompat;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * An {@code AccessControlContext} is used to make system resource access

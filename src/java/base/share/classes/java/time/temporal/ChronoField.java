@@ -27,9 +27,9 @@ import java.time.chrono.Chronology;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.ResourceBundle;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
 
 /**
  * A standard set of fields.

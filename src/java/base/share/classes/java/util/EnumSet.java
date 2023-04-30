@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.util;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * A specialized {@link Set} implementation for use with enum types.  All of

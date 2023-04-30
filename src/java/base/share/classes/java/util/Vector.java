@@ -11,7 +11,7 @@ import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.function.UnaryOperator;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * The {@code Vector} class implements a growable array of

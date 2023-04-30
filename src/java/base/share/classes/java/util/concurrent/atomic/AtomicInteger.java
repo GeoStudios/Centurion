@@ -18,7 +18,7 @@ package java.base.share.classes.java.util.concurrent.atomic;
 import java.lang.invoke.VarHandle;
 import java.util.function.IntBinaryOperator;
 import java.util.function.IntUnaryOperator;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * An {@code int} value that may be updated atomically.  See the

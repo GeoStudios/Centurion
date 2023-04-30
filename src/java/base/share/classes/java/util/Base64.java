@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 
-import sun.nio.cs.ISO_8859_1;
-import jdk.internal.util.Preconditions;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * This class consists exclusively of static methods for obtaining

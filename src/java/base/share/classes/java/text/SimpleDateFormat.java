@@ -18,10 +18,10 @@ import java.util.SortedMap;
 import java.util.TimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
-import sun.util.calendar.CalendarUtils;
-import sun.util.calendar.ZoneInfoFile;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.util.calendar.CalendarUtils;
+import java.base.share.classes.sun.util.calendar.ZoneInfoFile;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * {@code SimpleDateFormat} is a concrete class for formatting and

@@ -26,9 +26,9 @@ import java.security.PrivilegedExceptionAction;
 import java.util.Collection;
 import java.util.List;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
-import jdk.internal.javac.PreviewFeature;
-import jdk.internal.ref.CleanerFactory;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
  * Factory and utility methods for {@link Executor}, {@link

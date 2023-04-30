@@ -22,11 +22,10 @@ import java.base.share.classes.java.util.regex.Matcher;
 import java.base.share.classes.java.util.spi.CurrencyNameProvider;
 import java.base.share.classes.java.util.stream.Collectors;
 
-import jdk.internal.util.StaticProperty;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleServiceProviderPool;
-import sun.util.logging.PlatformLogger;
-
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleServiceProviderPool;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 /**
  * Represents a currency. Currencies are identified by their ISO 4217 currency

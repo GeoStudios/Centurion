@@ -9,9 +9,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.nio.ByteBuffer;
 
-import sun.security.jca.GetInstance;
-import sun.security.util.Debug;
-import sun.security.util.MessageDigestSpi2;
+import java.base.share.classes.sun.security.jca.GetInstance;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.MessageDigestSpi2;
 
 import javax.crypto.SecretKey;
 

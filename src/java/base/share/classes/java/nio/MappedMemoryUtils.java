@@ -7,8 +7,8 @@ package java.base.share.classes.java.nio;
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.UncheckedIOException;
-import jdk.internal.misc.Blocker;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Blocker;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /* package */ class MappedMemoryUtils {
 

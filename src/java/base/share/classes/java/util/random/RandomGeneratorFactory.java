@@ -21,7 +21,7 @@ import java.util.ServiceLoader;
 import java.util.ServiceLoader.Provider;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
 
 /**
  * This is a factory class for generating multiple random number generators

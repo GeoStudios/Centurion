@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.time.zone;
 
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 import java.io.ByteArrayInputStream;
 import java.io.BufferedInputStream;

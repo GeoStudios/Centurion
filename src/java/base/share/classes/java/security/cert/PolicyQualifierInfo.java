@@ -6,8 +6,8 @@ package java.base.share.classes.java.security.cert;
 
 import java.io.IOException;
 
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.DerValue;
 
 /**
  * An immutable policy qualifier represented by the ASN.1 PolicyQualifierInfo

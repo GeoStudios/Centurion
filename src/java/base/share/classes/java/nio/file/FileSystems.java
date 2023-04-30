@@ -15,8 +15,8 @@ import java.util.Map;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 
-import jdk.internal.misc.VM;
-import sun.nio.fs.DefaultFileSystemProvider;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.windows.classes.sun.nio.fs.DefaultFileSystemProvider;
 
 /**
  * Factory methods for file systems. This class defines the {@link #getDefault

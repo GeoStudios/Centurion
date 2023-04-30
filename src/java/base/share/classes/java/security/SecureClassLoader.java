@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security;
 
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.Debug;
 
 import java.util.Map;
 import java.util.Objects;

@@ -8,8 +8,8 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.util.Objects;
 import java.util.concurrent.ThreadLocalRandom;
-import jdk.internal.util.random.RandomSupport;
-import jdk.internal.util.random.RandomSupport.*;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.*;
 
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

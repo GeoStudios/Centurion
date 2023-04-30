@@ -39,10 +39,10 @@ import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalQueries;
 import java.time.temporal.UnsupportedTemporalTypeException;
 
-import jdk.internal.math.DoubleConsts;
-import jdk.internal.math.FormattedFPDecimal;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.ResourceBundleBasedAdapter;
+import java.base.share.classes.jdk.internal.math.DoubleConsts;
+import java.base.share.classes.jdk.internal.math.FormattedFPDecimal;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapter;
 
 /**
  * An interpreter for printf-style format strings.  This class provides support

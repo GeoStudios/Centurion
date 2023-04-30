@@ -15,11 +15,11 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleServiceProviderPool;
-import sun.util.locale.provider.ResourceBundleBasedAdapter;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleServiceProviderPool;
+import java.base.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapter;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * {@code DateFormatSymbols} is a public class for encapsulating

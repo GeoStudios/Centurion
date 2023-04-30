@@ -4,8 +4,8 @@
 
 package java.base.share.classes.java.util;
 
-import jdk.internal.util.Preconditions;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 import java.base.share.classes.java.util.function.Supplier;
 

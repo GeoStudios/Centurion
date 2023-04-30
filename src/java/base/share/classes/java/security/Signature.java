@@ -19,13 +19,13 @@ import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.BadPaddingException;
 import javax.crypto.NoSuchPaddingException;
-import jdk.internal.access.JavaSecuritySignatureAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaSecuritySignatureAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import sun.security.util.Debug;
-import sun.security.jca.*;
-import sun.security.jca.GetInstance.Instance;
-import sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.jca.*;
+import java.base.share.classes.sun.security.jca.GetInstance.Instance;
+import java.base.share.classes.sun.security.util.KnownOIDs;
 
 /**
  * The {@code Signature} class is used to provide applications the functionality

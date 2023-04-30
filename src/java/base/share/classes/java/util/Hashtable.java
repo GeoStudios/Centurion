@@ -8,7 +8,7 @@ import java.io.*;
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.BiFunction;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * This class implements a hash table, which maps keys to values. Any

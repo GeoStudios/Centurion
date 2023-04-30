@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.util;
 
-import sun.util.ResourceBundleEnumeration;
+import java.base.share.classes.sun.util.ResourceBundleEnumeration;
 
 /**
  * {@code ListResourceBundle} is an abstract subclass of

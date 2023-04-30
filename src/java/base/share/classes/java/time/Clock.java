@@ -14,7 +14,7 @@ import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MILLI;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.TimeZone;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.VM;
 
 /**
  * A clock providing access to the current instant, date and time using a time-zone.

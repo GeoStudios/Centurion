@@ -10,8 +10,8 @@ import java.security.PublicKey;
 import java.util.*;
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.util.*;
-import sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.*;
 
 /**
  * A {@code CertSelector} that selects {@code X509Certificates} that

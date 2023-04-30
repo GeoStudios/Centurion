@@ -7,7 +7,6 @@ package java.base.share.classes.java.nio.channels;
 import java.io.IOException;
 import java.base.share.classes.java.nio.channels.spi.*;
 
-
 /**
  * A pair of channels that implements a unidirectional pipe.
  *

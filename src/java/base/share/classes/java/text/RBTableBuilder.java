@@ -5,10 +5,10 @@
 package java.base.share.classes.java.text;
 
 import java.util.Vector;
-import sun.text.UCompactIntArray;
-import sun.text.IntHashtable;
-import sun.text.ComposedCharIter;
-import jdk.internal.icu.impl.NormalizerImpl;
+import java.base.share.classes.sun.text.UCompactIntArray;
+import java.base.share.classes.sun.text.IntHashtable;
+import java.base.share.classes.sun.text.ComposedCharIter;
+import java.base.share.classes.jdk.internal.icu.impl.NormalizerImpl;
 
 /**
  * This class contains all the code to parse a RuleBasedCollator pattern

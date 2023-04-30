@@ -6,7 +6,7 @@ package java.base.share.classes.jdk.internal.module;
 import java.util.function.Function;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleFinder;
-import jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.misc.CDS;
 
 /**
  * Used by ModuleBootstrap for archiving the configuration for the boot layer,

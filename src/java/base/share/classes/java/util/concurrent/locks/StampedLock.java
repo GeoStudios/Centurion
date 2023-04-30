@@ -16,8 +16,8 @@
 package java.base.share.classes.java.util.concurrent.locks;
 
 import java.util.concurrent.TimeUnit;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ReservedStackAccess;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.ReservedStackAccess;
 
 /**
  * A capability-based lock with three modes for controlling read/write

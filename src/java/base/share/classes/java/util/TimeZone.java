@@ -8,11 +8,11 @@ import java.io.Serializable;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 
-import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
-import sun.util.calendar.ZoneInfo;
-import sun.util.calendar.ZoneInfoFile;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.util.calendar.ZoneInfo;
+import java.base.share.classes.sun.util.calendar.ZoneInfoFile;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * {@code TimeZone} represents a time zone offset, and also figures out daylight

@@ -28,17 +28,17 @@ import java.base.share.classes.java.util.spi.ResourceBundleControlProvider;
 import java.base.share.classes.java.util.spi.ResourceBundleProvider;
 import java.base.share.classes.java.util.stream.Stream;
 
-import jdk.internal.loader.BootLoader;
-import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import sun.security.action.GetPropertyAction;
-import sun.util.locale.BaseLocale;
-import sun.util.locale.LocaleObjectCache;
-import sun.util.resources.Bundles;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.access.JavaUtilResourceBundleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.util.locale.BaseLocale;
+import java.base.share.classes.sun.util.locale.LocaleObjectCache;
+import java.base.share.classes.sun.util.resources.Bundles;
 
-import static sun.security.util.SecurityConstants.GET_CLASSLOADER_PERMISSION;
+import static java.base.share.classes.sun.security.util.SecurityConstants.GET_CLASSLOADER_PERMISSION;
 
 
 /**

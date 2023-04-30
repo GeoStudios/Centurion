@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security.spec;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 import java.util.Arrays;
 

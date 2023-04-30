@@ -3,9 +3,9 @@
  */
 package java.base.share.classes.java.nio.file;
 
-import sun.nio.cs.ISO_8859_1;
-import sun.nio.cs.UTF_8;
-import sun.nio.cs.US_ASCII;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.US_ASCII;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,8 +20,8 @@ import java.util.Spliterator;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
 
 /**
  * A file-based lines spliterator, leveraging a shared mapped byte buffer and

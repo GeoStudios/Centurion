@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
 import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 
-
 /**
  * A channel that can be multiplexed via a {@link Selector}.
  *

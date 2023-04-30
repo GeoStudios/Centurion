@@ -10,15 +10,15 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.io.*;
 import java.net.URL;
 
-import jdk.internal.access.JavaSecurityPropertiesAccess;
-import jdk.internal.event.EventHelper;
-import jdk.internal.event.SecurityPropertyModificationEvent;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.StaticProperty;
-import sun.security.util.Debug;
-import sun.security.util.PropertyExpander;
+import java.base.share.classes.jdk.internal.access.JavaSecurityPropertiesAccess;
+import java.base.share.classes.jdk.internal.event.EventHelper;
+import java.base.share.classes.jdk.internal.event.SecurityPropertyModificationEvent;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.PropertyExpander;
 
-import sun.security.jca.*;
+import java.base.share.classes.sun.security.jca.*;
 
 /**
  * <p>This class centralizes all security properties and common security

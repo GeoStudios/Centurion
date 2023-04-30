@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.net.spi;
 
-import sun.net.ResolverProviderConfiguration;
+import java.base.share.classes.sun.net.ResolverProviderConfiguration;
 
 import java.net.InetAddress;
 import java.util.ServiceLoader;

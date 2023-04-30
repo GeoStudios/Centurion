@@ -35,8 +35,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import sun.util.calendar.CalendarSystem;
-import sun.util.calendar.LocalGregorianCalendar;
+import java.base.share.classes.sun.util.calendar.CalendarSystem;
+import java.base.share.classes.sun.util.calendar.LocalGregorianCalendar;
 
 /**
  * The Japanese Imperial calendar system.

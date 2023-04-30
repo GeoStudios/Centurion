@@ -32,8 +32,8 @@ import java.base.share.classes.java.util.concurrent.locks.Condition;
 import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * An unbounded {@linkplain BlockingQueue blocking queue} that uses

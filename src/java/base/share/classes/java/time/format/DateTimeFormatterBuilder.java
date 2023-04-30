@@ -64,11 +64,11 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * Builder to create date-time formatters.

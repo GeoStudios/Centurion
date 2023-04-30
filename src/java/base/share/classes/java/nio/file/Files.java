@@ -56,9 +56,9 @@ import java.util.function.BiPredicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import jdk.internal.util.ArraysSupport;
-import sun.nio.ch.FileChannelImpl;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.sun.nio.ch.FileChannelImpl;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
 /**
  * This class consists exclusively of static methods that operate on files,

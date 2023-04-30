@@ -3,7 +3,7 @@
  */
 package java.base.share.classes.java.util;
 
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;

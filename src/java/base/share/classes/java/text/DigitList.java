@@ -7,7 +7,7 @@ package java.base.share.classes.java.text;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
-import jdk.internal.math.FloatingDecimal;
+import java.base.share.classes.jdk.internal.math.FloatingDecimal;
 
 /**
  * Digit List. Private to DecimalFormat.

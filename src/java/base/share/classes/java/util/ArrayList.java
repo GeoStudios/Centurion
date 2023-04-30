@@ -7,8 +7,8 @@ package java.base.share.classes.java.util;
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.function.UnaryOperator;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
 
 /**
  * Resizable-array implementation of the {@code List} interface.  Implements

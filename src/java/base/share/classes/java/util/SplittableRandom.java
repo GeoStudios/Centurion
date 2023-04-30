@@ -10,9 +10,9 @@ import java.base.share.classes.java.util.stream.DoubleStream;
 import java.base.share.classes.java.util.stream.IntStream;
 import java.base.share.classes.java.util.stream.LongStream;
 import java.base.share.classes.java.util.stream.Stream;
-import jdk.internal.util.random.RandomSupport;
-import jdk.internal.util.random.RandomSupport.AbstractSplittableGenerator;
-import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.AbstractSplittableGenerator;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
 
 /**
  * A generator of uniform pseudorandom values (with period 2<sup>64</sup>)

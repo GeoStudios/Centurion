@@ -5,8 +5,8 @@
 package java.base.share.classes.java.nio.channels;
 
 import java.io.IOException;
-import java.lang.foreign.MemorySegment;
-import java.lang.foreign.SegmentScope;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.SegmentScope;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
@@ -19,7 +19,7 @@ import java.nio.file.spi.FileSystemProvider;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Collections;
-import jdk.internal.javac.PreviewFeature;
+import java.base.share.classes.jdk.internal.javac.PreviewFeature;
 
 /**
  * A channel for reading, writing, mapping, and manipulating a file.

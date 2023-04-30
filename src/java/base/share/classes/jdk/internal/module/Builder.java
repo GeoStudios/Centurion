@@ -12,8 +12,8 @@ import java.lang.module.ModuleDescriptor.Version;
 import java.util.List;
 import java.util.Set;
 
-import jdk.internal.access.JavaLangModuleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
  * This builder is optimized for reconstituting the {@code ModuleDescriptor}s

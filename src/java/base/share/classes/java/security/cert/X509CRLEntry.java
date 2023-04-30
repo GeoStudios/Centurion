@@ -8,7 +8,7 @@ import java.math.BigInteger;
 import java.util.Date;
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.x509.X509CRLEntryImpl;
+import java.base.share.classes.sun.security.x509.X509CRLEntryImpl;
 
 /**
  * <p>Abstract class for a revoked certificate in a CRL (Certificate

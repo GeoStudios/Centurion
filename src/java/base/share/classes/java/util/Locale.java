@@ -14,22 +14,22 @@ import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.spi.LocaleNameProvider;
 import java.base.share.classes.java.util.stream.Stream;
 
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
-import sun.security.action.GetPropertyAction;
-import sun.util.locale.BaseLocale;
-import sun.util.locale.InternalLocaleBuilder;
-import sun.util.locale.LanguageTag;
-import sun.util.locale.LocaleExtensions;
-import sun.util.locale.LocaleMatcher;
-import sun.util.locale.LocaleObjectCache;
-import sun.util.locale.LocaleSyntaxException;
-import sun.util.locale.LocaleUtils;
-import sun.util.locale.ParseStatus;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleResources;
-import sun.util.locale.provider.LocaleServiceProviderPool;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.util.locale.BaseLocale;
+import java.base.share.classes.sun.util.locale.InternalLocaleBuilder;
+import java.base.share.classes.sun.util.locale.LanguageTag;
+import java.base.share.classes.sun.util.locale.LocaleExtensions;
+import java.base.share.classes.sun.util.locale.LocaleMatcher;
+import java.base.share.classes.sun.util.locale.LocaleObjectCache;
+import java.base.share.classes.sun.util.locale.LocaleSyntaxException;
+import java.base.share.classes.sun.util.locale.LocaleUtils;
+import java.base.share.classes.sun.util.locale.ParseStatus;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleResources;
+import java.base.share.classes.sun.util.locale.provider.LocaleServiceProviderPool;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * A {@code Locale} object represents a specific geographical, political,

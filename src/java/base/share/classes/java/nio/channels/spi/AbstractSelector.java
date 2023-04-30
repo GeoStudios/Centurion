@@ -11,9 +11,8 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.util.HashSet;
 import java.util.Set;
-import sun.nio.ch.Interruptible;
-import sun.nio.ch.SelectorImpl;
-
+import java.base.share.classes.sun.nio.ch.Interruptible;
+import java.base.share.classes.sun.nio.ch.SelectorImpl;
 
 /**
  * Base implementation class for selectors.

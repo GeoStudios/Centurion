@@ -21,7 +21,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.RandomAccess;
 import java.base.share.classes.java.util.concurrent.locks.LockSupport;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * Abstract base class for tasks that run within a {@link ForkJoinPool}.

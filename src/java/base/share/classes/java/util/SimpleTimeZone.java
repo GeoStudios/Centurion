@@ -8,10 +8,10 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.IOException;
 import java.io.InvalidObjectException;
-import sun.util.calendar.CalendarSystem;
-import sun.util.calendar.CalendarUtils;
-import sun.util.calendar.BaseCalendar;
-import sun.util.calendar.Gregorian;
+import java.base.share.classes.sun.util.calendar.CalendarSystem;
+import java.base.share.classes.sun.util.calendar.CalendarUtils;
+import java.base.share.classes.sun.util.calendar.BaseCalendar;
+import java.base.share.classes.sun.util.calendar.Gregorian;
 
 /**
  * {@code SimpleTimeZone} is a concrete subclass of {@code TimeZone}

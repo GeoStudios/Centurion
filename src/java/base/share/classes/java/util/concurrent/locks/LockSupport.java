@@ -15,8 +15,8 @@
 
 package java.base.share.classes.java.util.concurrent.locks;
 
-import jdk.internal.misc.VirtualThreads;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VirtualThreads;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * Basic thread blocking primitives for creating locks and other

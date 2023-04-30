@@ -10,10 +10,10 @@ import java.io.Reader;
 import java.io.IOException;
 import java.nio.charset.MalformedInputException;
 import java.nio.charset.UnmappableCharacterException;
-import sun.nio.cs.ISO_8859_1;
-import sun.security.action.GetPropertyAction;
-import sun.util.PropertyResourceBundleCharset;
-import sun.util.ResourceBundleEnumeration;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.util.PropertyResourceBundleCharset;
+import java.base.share.classes.sun.util.ResourceBundleEnumeration;
 
 /**
  * {@code PropertyResourceBundle} is a concrete subclass of

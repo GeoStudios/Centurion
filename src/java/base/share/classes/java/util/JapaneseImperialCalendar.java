@@ -6,15 +6,15 @@ package java.base.share.classes.java.util;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import sun.util.locale.provider.CalendarDataUtility;
-import sun.util.calendar.BaseCalendar;
-import sun.util.calendar.CalendarDate;
-import sun.util.calendar.CalendarSystem;
-import sun.util.calendar.CalendarUtils;
-import sun.util.calendar.Era;
-import sun.util.calendar.Gregorian;
-import sun.util.calendar.LocalGregorianCalendar;
-import sun.util.calendar.ZoneInfo;
+import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
+import java.base.share.classes.sun.util.calendar.BaseCalendar;
+import java.base.share.classes.sun.util.calendar.CalendarDate;
+import java.base.share.classes.sun.util.calendar.CalendarSystem;
+import java.base.share.classes.sun.util.calendar.CalendarUtils;
+import java.base.share.classes.sun.util.calendar.Era;
+import java.base.share.classes.sun.util.calendar.Gregorian;
+import java.base.share.classes.sun.util.calendar.LocalGregorianCalendar;
+import java.base.share.classes.sun.util.calendar.ZoneInfo;
 
 /**
  * {@code JapaneseImperialCalendar} implements a Japanese

@@ -40,7 +40,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
-import sun.util.locale.provider.TimeZoneNameUtility;
+import java.base.share.classes.sun.util.locale.provider.TimeZoneNameUtility;
 
 /**
  * Formatter for printing and parsing date-time objects.

@@ -25,14 +25,14 @@ import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Function;
 
-import jdk.internal.util.StaticProperty;
-import sun.nio.cs.ISO_8859_1;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.util.xml.PropertiesDefaultHandler;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.util.xml.PropertiesDefaultHandler;
 
 /**
  * The {@code Properties} class represents a persistent set of

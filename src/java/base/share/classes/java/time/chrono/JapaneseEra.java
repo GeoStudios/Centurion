@@ -26,7 +26,7 @@ import java.util.Arrays;
 import java.util.Locale;
 import java.util.Objects;
 
-import sun.util.calendar.CalendarDate;
+import java.base.share.classes.sun.util.calendar.CalendarDate;
 
 /**
  * An era in the Japanese Imperial calendar system.

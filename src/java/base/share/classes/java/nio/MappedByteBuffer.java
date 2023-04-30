@@ -6,13 +6,13 @@ package java.base.share.classes.java.nio;
 
 import java.io.FileDescriptor;
 import java.io.UncheckedIOException;
-import java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
 import java.lang.ref.Reference;
 import java.util.Objects;
 
-import jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 
 /**

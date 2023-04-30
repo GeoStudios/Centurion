@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security;
 
-import sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;

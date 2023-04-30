@@ -4,11 +4,11 @@
 
 package java.base.share.classes.java.nio.charset;
 
-import jdk.internal.misc.ThreadTracker;
-import jdk.internal.misc.VM;
-import jdk.internal.util.StaticProperty;
-import jdk.internal.vm.annotation.Stable;
-import sun.nio.cs.ThreadLocalCoders;
+import java.base.share.classes.jdk.internal.misc.ThreadTracker;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.sun.nio.cs.ThreadLocalCoders;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;

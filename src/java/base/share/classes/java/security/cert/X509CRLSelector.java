@@ -10,11 +10,11 @@ import java.util.*;
 
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.util.Debug;
-import sun.security.util.DerInputStream;
-import sun.security.util.KnownOIDs;
-import sun.security.x509.CRLNumberExtension;
-import sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.DerInputStream;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.x509.CRLNumberExtension;
+import java.base.share.classes.sun.security.x509.X500Name;
 
 /**
  * A {@code CRLSelector} that selects {@code X509CRLs} that

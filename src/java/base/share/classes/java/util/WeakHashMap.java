@@ -10,7 +10,6 @@ import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Consumer;
 
-
 /**
  * Hash table based implementation of the {@code Map} interface, with
  * <em>weak keys</em>.

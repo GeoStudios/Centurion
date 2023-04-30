@@ -16,7 +16,6 @@ import java.nio.channels.Selector;
 import java.util.Arrays;
 import java.util.function.Consumer;
 
-
 /**
  * Base implementation class for selectable channels.
  *

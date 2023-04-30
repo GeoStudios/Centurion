@@ -7,9 +7,8 @@ package java.base.share.classes.java.text;
 import java.lang.ref.SoftReference;
 import java.base.share.classes.java.text.spi.BreakIteratorProvider;
 import java.util.Locale;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.LocaleServiceProviderPool;
-
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleServiceProviderPool;
 
 /**
  * The {@code BreakIterator} class implements methods for finding

@@ -4,7 +4,7 @@
 
 package java.base.share.classes.java.security;
 
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
 
 import java.util.Enumeration;
 

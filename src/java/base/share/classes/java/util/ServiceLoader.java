@@ -24,17 +24,17 @@ import java.base.share.classes.java.util.function.Supplier;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
 
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import jdk.internal.loader.BootLoader;
-import jdk.internal.loader.ClassLoaders;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.module.ServicesCatalog.ServiceProvider;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog.ServiceProvider;
+import java.base.share.classes.jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.jdk.internal.reflect.Reflection;
 
 /**
  * A facility to load implementations of a service.

@@ -9,8 +9,8 @@ import java.security.PublicKey;
 
 import javax.security.auth.x500.X500Principal;
 
-import sun.security.util.AnchorCertificates;
-import sun.security.x509.NameConstraintsExtension;
+import java.base.share.classes.sun.security.util.AnchorCertificates;
+import java.base.share.classes.sun.security.x509.NameConstraintsExtension;
 
 /**
  * A trust anchor or most-trusted Certification Authority (CA).

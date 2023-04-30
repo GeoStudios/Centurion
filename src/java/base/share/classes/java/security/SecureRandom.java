@@ -4,12 +4,12 @@
 
 package java.base.share.classes.java.security;
 
-import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
-import sun.security.jca.GetInstance;
-import sun.security.jca.GetInstance.Instance;
-import sun.security.jca.Providers;
-import sun.security.provider.SunEntries;
-import sun.security.util.Debug;
+import java.base.share.classes.jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
+import java.base.share.classes.sun.security.jca.GetInstance;
+import java.base.share.classes.sun.security.jca.GetInstance.Instance;
+import java.base.share.classes.sun.security.jca.Providers;
+import java.base.share.classes.sun.security.provider.SunEntries;
+import java.base.share.classes.sun.security.util.Debug;
 
 import java.base.share.classes.java.security.Provider.Service;
 import java.util.Objects;

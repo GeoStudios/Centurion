@@ -4,19 +4,19 @@
 
 package java.base.share.classes.java.nio;
 
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.foreign.UnmapperProxy;
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.MemorySessionImpl;
-import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.misc.VM.BufferPool;
-import jdk.internal.util.Preconditions;
-import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.access.JavaNioAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import java.base.share.classes.jdk.internal.foreign.MemorySessionImpl;
+import java.base.windows.classes.jdk.internal.misc.ScopedMemoryAccess;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.VM.BufferPool;
+import java.base.share.classes.jdk.internal.util.Preconditions;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 
 import java.io.FileDescriptor;
-import java.lang.foreign.MemorySegment;
+import java.base.share.classes.java.lang.foreign.MemorySegment;
 import java.lang.ref.Reference;
 import java.util.List;
 import java.util.Objects;

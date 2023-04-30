@@ -13,7 +13,7 @@ import java.security.NoSuchProviderException;
 import java.security.InvalidKeyException;
 import java.security.SignatureException;
 
-import sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
 /**
  * <p>Abstract class for managing a variety of identity certificates.

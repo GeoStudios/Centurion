@@ -19,9 +19,8 @@ import java.nio.charset.UnsupportedCharsetException;
 import java.base.share.classes.java.nio.channels.spi.AbstractInterruptibleChannel;
 import java.util.Objects;
 import java.util.concurrent.ExecutionException;
-import sun.nio.cs.StreamDecoder;
-import sun.nio.cs.StreamEncoder;
-
+import java.base.share.classes.sun.nio.cs.StreamDecoder;
+import java.base.share.classes.sun.nio.cs.StreamEncoder;
 
 /**
  * Utility methods for channels and streams.
