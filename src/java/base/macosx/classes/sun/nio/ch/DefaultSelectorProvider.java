@@ -4,8 +4,8 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
 
 /**
  * Creates this platform's default SelectorProvider

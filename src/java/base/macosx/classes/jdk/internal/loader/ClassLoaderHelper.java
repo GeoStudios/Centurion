@@ -1,16 +1,11 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
-
-<<<<<<< HEAD
 package java.base.macosx.classes.jdk.internal.loader;
-=======
-package java.base.macosx.classes.jdk.internal.loader;
->>>>>>> 1329d1203c34285049f99f32cadae5b8fbaa5276
 
-import java.io.File;
-import java.util.ArrayList;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.util.ArrayList;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * @since Pre Java 1

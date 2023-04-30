@@ -4,8 +4,8 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-import java.io.FileDescriptor;
-import java.io.IOException;
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.IOException;
 
 /**
  * @since Pre Java 1

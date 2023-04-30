@@ -4,8 +4,8 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-import java.io.IOException;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 
 /**
  * Provides access to the BSD kqueue facility.

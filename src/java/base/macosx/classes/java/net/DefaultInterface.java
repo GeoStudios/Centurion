@@ -20,10 +20,10 @@ package java.base.macosx.classes.java.net;
  * @edited 23/4/2023
  */
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Enumeration;
-import java.io.IOException;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.io.IOException;
 
 class DefaultInterface {
 

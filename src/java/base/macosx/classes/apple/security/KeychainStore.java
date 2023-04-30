@@ -7,7 +7,7 @@ package java.base.macosx.classes.apple.security;
 import java.io.*;
 import java.security.*;
 import java.security.cert.*;
-import java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.Certificate;
 import java.security.spec.*;
 import java.util.*;
 

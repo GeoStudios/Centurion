@@ -3,7 +3,7 @@
  */
 package java.base.macosx.classes.sun.nio.ch;
 
-import java.io.IOException;
+import java.base.share.classes.java.io.IOException;
 import static java.base.macosx.classes.sun.nio.ch.KQueue.*;
 
 /**

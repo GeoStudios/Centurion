@@ -4,11 +4,11 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-import java.nio.channels.spi.AsynchronousChannelProvider;
-import java.io.IOException;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.RejectedExecutionException;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.nio.channels.spi.AsynchronousChannelProvider;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.util.concurrent.ArrayBlockingQueue;
+import java.base.share.classes.java.util.concurrent.RejectedExecutionException;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 
 import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_READ;
 import static java.base.macosx.classes.sun.nio.ch.KQueue.EVFILT_WRITE;
