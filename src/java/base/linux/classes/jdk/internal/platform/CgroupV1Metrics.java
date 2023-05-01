@@ -5,13 +5,13 @@
 package java.base.linux.classes.jdk.internal.platform;
 
 /**
- *
  * Cgroup v1 extensions to the Metrics interface. Linux, only.
  *
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 30/4/2023
  */
+
 public interface CgroupV1Metrics extends Metrics {
 
     /**

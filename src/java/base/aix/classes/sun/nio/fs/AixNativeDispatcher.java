@@ -9,7 +9,7 @@ package java.base.aix.classes.sun.nio.fs;
  * 
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
  */
 
 class AixNativeDispatcher extends UnixNativeDispatcher {
@@ -25,7 +25,7 @@ class AixNativeDispatcher extends UnixNativeDispatcher {
     private static native void init();
 
     static {
-        jdk.internal.loader.BootLoader.loadLibrary("nio");
+        java.base.share.classes.jdk.internal.loader.BootLoader.loadLibrary("nio");
         init();
     }
 }

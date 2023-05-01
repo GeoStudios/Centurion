@@ -26,8 +26,9 @@ static jclass entry_cls;
  *
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
  */
+
 static void throwUnixException(JNIEnv* env, int errnum) {
     jobject x = JNU_NewObjectByName(env, "sun/nio/fs/UnixException",
         "(I)V", errnum);

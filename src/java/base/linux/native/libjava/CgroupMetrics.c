@@ -10,6 +10,12 @@
 
 #include "jdk_internal_platform_CgroupMetrics.h"
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 30/4/2023
+*/
+
 JNIEXPORT jboolean JNICALL
 Java_jdk_internal_platform_CgroupMetrics_isUseContainerSupport(JNIEnv *env, jclass ignored)
 {

@@ -8,10 +8,10 @@
 
 #include "java_md_aix.h"
 
-/*
+/**
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
 */
 
 static unsigned char dladdr_buffer[0x8000];

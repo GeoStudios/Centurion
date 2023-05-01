@@ -11,8 +11,9 @@ import java.io.IOException;
  * 
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 16/4/2023
+ * @edited 30/4/2023
  */
+
 class DefaultPollerProvider extends PollerProvider {
     DefaultPollerProvider() { }
 

@@ -5,7 +5,7 @@
 #ifndef JAVA_MD_AIX_H
 #define JAVA_MD_AIX_H
 
-/*
+/**
  * Very limited AIX port of dladdr() for libjli.so.
  *
  * We try to mimic dladdr(3) on Linux (see http://linux.die.net/man/3/dladdr)
@@ -17,7 +17,7 @@
  *
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
  */
 
 typedef struct {

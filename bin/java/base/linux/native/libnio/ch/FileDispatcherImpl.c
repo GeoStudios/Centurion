@@ -10,6 +10,12 @@
 #include "nio_util.h"
 #include "sun_nio_ch_FileDispatcherImpl.h"
 
+/**
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 30/4/2023
+*/
+
 typedef ssize_t copy_file_range_func(int, loff_t*, int, loff_t*, size_t,
                                      unsigned int);
 static copy_file_range_func* my_copy_file_range_func = NULL;

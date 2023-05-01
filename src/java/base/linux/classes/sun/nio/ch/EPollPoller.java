@@ -63,4 +63,3 @@ class EPollPoller extends Poller {
         return n;
     }
 }
-

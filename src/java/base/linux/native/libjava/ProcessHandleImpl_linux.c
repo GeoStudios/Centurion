@@ -9,7 +9,6 @@
 
 #include "ProcessHandleImpl_unix.h"
 
-
 #include <fcntl.h>
 #include <limits.h>
 #include <stdlib.h>
@@ -20,9 +19,13 @@
 #include <string.h>
 #include <ctype.h>
 
-/*
+/**
  * Implementation of native ProcessHandleImpl functions for Linux.
  * See ProcessHandleImpl_unix.c for more details.
+ *
+ * @since Pre Java 1
+ * @author Logan Abernathy
+ * @edited 30/4/2023
  */
 
 /* Signatures for internal OS specific functions. */

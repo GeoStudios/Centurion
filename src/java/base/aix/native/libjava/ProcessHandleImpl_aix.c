@@ -8,13 +8,13 @@
 
 #include <sys/procfs.h>
 
-/*
+/**
  * Implementation of native ProcessHandleImpl functions for AIX.
  * See ProcessHandleImpl_unix.c for more details.
  *
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
  */
 
 void os_initNative(JNIEnv *env, jclass clazz) {}

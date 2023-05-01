@@ -19,11 +19,12 @@
 #include <dlfcn.h>
 #include <errno.h>
 
-/*
+/**
  * Initially copied from src/solaris/native/sun/nio/ch/nio_util.h
+ *
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 17/4/2023
+ * @edited 30/4/2023
  */
 
 #define RESTARTABLE(_cmd, _result) do { \

@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.linux.classes.sun.nio.ch;
 
 import java.io.IOException;
@@ -10,8 +11,9 @@ import java.io.IOException;
  * 
  * @since Pre Java 1
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 30/4/2023
  */
+
 class DefaultPollerProvider extends PollerProvider {
     DefaultPollerProvider() { }
 
