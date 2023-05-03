@@ -20,7 +20,7 @@ import static java.base.share.classes.java.net.StandardProtocolFamily.INET;
 import static java.base.share.classes.java.net.StandardProtocolFamily.UNIX;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

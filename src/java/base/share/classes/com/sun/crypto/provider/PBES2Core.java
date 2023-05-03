@@ -16,7 +16,7 @@ import javax.crypto.spec.*;
  * These algorithms implement PBE with HmacSHA1/HmacSHA2-family and AES-CBC.
  * Padding is done as described in PKCS #5.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

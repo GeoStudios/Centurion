@@ -23,7 +23,7 @@ import java.util.stream.Stream;
  * An instance of this class holds a set of the third party implementations of a particular
  * locale sensitive service, such as {@link java.util.spi.LocaleNameProvider}.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

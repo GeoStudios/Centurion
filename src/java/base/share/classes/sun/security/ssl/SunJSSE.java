@@ -29,7 +29,7 @@ import static java.base.share.classes.sun.security.util.SecurityConstants.PROVID
  * data structures need to be initialized or until SunJSSE is initialized in
  * FIPS mode.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

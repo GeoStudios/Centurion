@@ -26,7 +26,7 @@ import static java.base.share.classes.sun.security.ssl.SSLExtension.*;
 /**
  * Pack of the "pre_shared_key" extension.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

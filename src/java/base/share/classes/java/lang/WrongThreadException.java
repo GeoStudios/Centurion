@@ -7,7 +7,7 @@ package java.base.share.classes.java.lang;
 /**
  * Thrown to indicate that a method has been called on the wrong thread.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

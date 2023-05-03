@@ -36,7 +36,7 @@ import java.base.share.classes.sun.security.util.HexDumpEncoder;
  * to encrypt the stateless session ticket that is sent to the client that will
  * be used during resumption.  Default is 3600 seconds (1 hour)
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

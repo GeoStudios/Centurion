@@ -7,7 +7,7 @@ package java.base.windows.classes.sun.nio.fs;
 import java.nio.file.spi.FileTypeDetector;
 
 /*
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

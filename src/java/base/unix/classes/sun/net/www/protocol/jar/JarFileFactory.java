@@ -16,7 +16,7 @@ import java.base.share.classes.sun.net.util.URLUtil;
 /** A factory for cached JAR file. This class is used to both retrieve
  * and cache Jar files.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

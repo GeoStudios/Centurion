@@ -11,7 +11,7 @@ import static java.base.share.classes.sun.security.util.SecurityProviderConstant
 /**
  * Defines the entries of the SunRsaSign provider.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

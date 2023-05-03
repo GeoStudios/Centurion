@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 package java.base.macosx.classes.sun.nio.ch;
 
 import java.base.share.classes.java.io.IOException;
@@ -9,10 +10,11 @@ import static java.base.macosx.classes.sun.nio.ch.KQueue.*;
 /**
  * Poller implementation based on the kqueue facility.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 class KQueuePoller extends Poller {
     private static final int MAX_EVENTS_TO_POLL = 512;
 

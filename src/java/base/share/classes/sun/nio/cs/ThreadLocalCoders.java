@@ -10,7 +10,7 @@ import java.nio.charset.*;
 /**
  * Utility class for caching per-thread decoders and encoders.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

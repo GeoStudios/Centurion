@@ -56,7 +56,7 @@ import javax.security.auth.x500.X500Principal;
  * Chains that fail any of these criteria will probably be rejected by
  * the remote peer.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

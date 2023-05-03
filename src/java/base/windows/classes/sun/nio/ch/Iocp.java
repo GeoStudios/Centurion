@@ -19,7 +19,7 @@ import java.base.share.classes.jdk.internal.misc.Unsafe;
  * Windows implementation of AsynchronousChannelGroup encapsulating an I/O
  * completion port.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

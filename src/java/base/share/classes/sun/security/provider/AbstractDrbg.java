@@ -38,7 +38,7 @@ import static java.security.DrbgParameters.Capability.*;
  * An implementation is required to protect shared access to instantiate states
  * (instantiated, nonce) and DRBG states (v, c, key, reseedCounter, etc.).
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

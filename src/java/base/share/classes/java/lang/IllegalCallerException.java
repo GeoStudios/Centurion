@@ -7,7 +7,7 @@ package java.base.share.classes.java.lang;
 /**
  * Thrown to indicate that a method has been called by an inappropriate caller.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see StackWalker#getCallerClass

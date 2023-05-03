@@ -9,7 +9,7 @@ import java.nio.channels.spi.AsynchronousChannelProvider;
 /**
  * Creates this platform's default asynchronous channel provider
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

@@ -11,7 +11,7 @@ package java.base.share.classes.java.lang;
  * index is equal to the size of the string.
  *
  * @see java.base.share.classes.java.lang.String#charAt(int)
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

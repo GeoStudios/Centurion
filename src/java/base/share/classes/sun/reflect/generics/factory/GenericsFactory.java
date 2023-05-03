@@ -24,7 +24,7 @@ import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
  * type information they are required to provide. As a result, such
  * repository code can be shared across different reflective systems.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

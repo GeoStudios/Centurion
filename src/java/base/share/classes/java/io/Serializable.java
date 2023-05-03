@@ -167,7 +167,7 @@ package java.base.share.classes.java.io;
  * @see java.base.share.classes.java.io.Externalizable
  * @see <a href="{@docRoot}/../specs/serialization/index.html">
  *      <cite>Java Object Serialization Specification</cite></a>
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

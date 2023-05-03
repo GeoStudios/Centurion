@@ -13,7 +13,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  * including arrays, implement the methods of this class.
  *
  * @see     java.base.share.classes.java.lang.Class
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

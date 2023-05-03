@@ -12,7 +12,7 @@ import java.security.SecureRandomParameters;
 /**
  * Exported and non-exported parameters that can be used by DRBGs.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

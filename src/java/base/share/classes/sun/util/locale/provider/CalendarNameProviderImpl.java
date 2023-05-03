@@ -18,7 +18,7 @@ import sun.util.calendar.Era;
  * Concrete implementation of the {@link java.util.spi.CalendarNameProvider
  * CalendarNameProvider} class for the JRE LocaleProviderAdapter.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

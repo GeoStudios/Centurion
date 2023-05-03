@@ -20,7 +20,7 @@ import static java.base.share.classes.java.lang.StackWalker.Option.*;
  * The class maintains a ClassValue with the hashes of stack traces that are pinned by
  * code in that Class. This is used to avoid printing the same stack trace many times.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

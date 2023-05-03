@@ -18,14 +18,13 @@ import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_ONESHOT;
 /**
  * AsynchronousChannelGroup implementation based on the BSD kqueue facility.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */
 
-final class KQueuePort
-    extends Port
-{
+final class KQueuePort extends Port {
+
     // maximum number of events to poll at a time
     private static final int MAX_KEVENTS_TO_POLL = 512;
 

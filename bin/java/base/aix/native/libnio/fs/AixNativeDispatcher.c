@@ -24,7 +24,7 @@ static jclass entry_cls;
  * Call this to throw an internal UnixException when a system/library
  * call fails
  *
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

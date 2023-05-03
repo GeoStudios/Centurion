@@ -10,7 +10,7 @@ import static java.base.windows.classes.sun.nio.ch.WEPoll.*;
 /**
  * Poller implementation based on wepoll.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

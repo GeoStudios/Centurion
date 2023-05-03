@@ -7,7 +7,7 @@ package java.base.share.classes.java.lang;
 /**
  * Thrown if an application tries to create an array with negative size.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

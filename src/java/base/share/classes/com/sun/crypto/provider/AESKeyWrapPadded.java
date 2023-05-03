@@ -19,10 +19,11 @@ import static java.base.share.classes.com.sun.crypto.provider.KWUtil.*;
  * "Recommendation for Block Cipher Modes of Operation: Methods for Key Wrapping"</a>
  * and represents AES cipher in KWP mode.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 class AESKeyWrapPadded extends FeedbackCipher {
 
     // default integrity check value (icv) if iv is not supplied

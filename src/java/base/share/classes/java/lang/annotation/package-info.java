@@ -6,7 +6,7 @@
  * Provides library support for the Java programming language
  * annotation facility.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

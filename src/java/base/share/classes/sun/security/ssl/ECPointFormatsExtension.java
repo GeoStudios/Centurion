@@ -19,7 +19,7 @@ import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
 /**
  * Pack of the "ec_point_formats" extensions [RFC 4492].
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

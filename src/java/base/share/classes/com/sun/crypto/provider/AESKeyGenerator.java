@@ -13,14 +13,14 @@ import java.util.Arrays;
 import javax.crypto.KeyGeneratorSpi;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
-import sun.security.util.SecurityProviderConstants;
+import java.base.share.classes.sun.security.util.SecurityProviderConstants;
 
 /**
  * This class generates a AES key.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  *
  */
 

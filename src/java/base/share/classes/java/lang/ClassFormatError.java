@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * file and determines that the file is malformed or otherwise cannot
  * be interpreted as a class file.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

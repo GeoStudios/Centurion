@@ -18,7 +18,7 @@ package java.base.share.classes.java.lang;
  * exceptions for the purposes of compile-time checking of exceptions.
  *
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

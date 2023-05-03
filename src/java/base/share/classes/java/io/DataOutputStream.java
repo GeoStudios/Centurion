@@ -17,7 +17,7 @@ import java.base.share.classes.jdk.internal.util.ByteArray;
  * by appropriate synchronization.
  *
  * @see     java.base.share.classes.java.io.DataInputStream
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

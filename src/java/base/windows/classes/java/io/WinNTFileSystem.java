@@ -15,7 +15,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
 /**
  * Unicode-aware FileSystem for Windows NT/2000.
  *
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

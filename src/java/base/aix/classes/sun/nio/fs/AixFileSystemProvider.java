@@ -8,8 +8,8 @@ import java.io.IOException;
 
 /**
  * AIX implementation of FileSystemProvider
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 17/4/2023
  */

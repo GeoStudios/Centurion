@@ -15,7 +15,7 @@ import java.math.BigInteger;
  *
  * This class may only be used for primes of the form 2^a + b.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

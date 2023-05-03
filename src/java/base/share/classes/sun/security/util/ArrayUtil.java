@@ -12,7 +12,7 @@ import java.security.ProviderException;
 /**
  * This class holds the various utility methods for array range checks.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

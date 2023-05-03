@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.icu.text.NormalizerBase;
  * This Normalizer is for Unicode 3.2 support for IDNA only.
  * Developers should not use this class.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

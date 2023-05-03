@@ -38,7 +38,7 @@ package java.base.windows.classes.java.lang;
  * of the system-independent method of the same name.  Don't even
  * think of using this class unless your method's name appears below.
  *
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

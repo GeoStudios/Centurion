@@ -23,7 +23,7 @@ package java.base.share.classes.java.io;
  * immediately by a linefeed, or any of the previous terminators followed by
  * end of stream, or end of stream not preceded by another terminator.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

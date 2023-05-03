@@ -8,7 +8,7 @@ import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.java.security.MessageDigest;
 import java.base.share.classes.java.util.Arrays;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
  * Rijndael --pronounced Reindaal-- is a symmetric cipher with a 128-bit
@@ -17,10 +17,11 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
  * Rijndael was designed by <a href="mailto:rijmen@esat.kuleuven.ac.be">Vincent
  * Rijmen</a> and <a href="mailto:Joan.Daemen@village.uunet.be">Joan Daemen</a>.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 final class AESCrypt extends SymmetricCipher implements AESConstants {
     //
     // Pre-computed tables, which are copied or derived from FIPS 197.

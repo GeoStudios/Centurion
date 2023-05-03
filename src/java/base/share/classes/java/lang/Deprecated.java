@@ -52,7 +52,7 @@ import static java.base.share.classes.java.lang.annotation.ElementType.*;
  * <p>The {@code @Deprecated} annotation should always be present if
  * the {@code @deprecated} javadoc tag is present, and vice-versa.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 9.6.4.6 @Deprecated

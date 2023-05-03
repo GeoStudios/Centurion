@@ -10,7 +10,7 @@ import java.base.share.classes.jdk.internal.misc.Signal;
  * Package-private utility class for setting up and tearing down
  * platform-specific support for termination-triggered shutdowns.
  *
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

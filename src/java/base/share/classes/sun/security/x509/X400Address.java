@@ -305,7 +305,7 @@ import sun.security.util.DerOutputStream;
  * -- bound should be allowed.
  * </pre>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see GeneralName

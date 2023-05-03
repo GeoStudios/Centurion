@@ -13,7 +13,7 @@ package java.base.share.classes.java.lang;
  *     System.out.println((String)x);
  * </pre></blockquote>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

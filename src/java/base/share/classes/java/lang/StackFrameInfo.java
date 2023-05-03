@@ -11,7 +11,7 @@ import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.base.share.classes.java.lang.invoke.MethodType;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

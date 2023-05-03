@@ -9,7 +9,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 /**
  * Utility class for string encoding and decoding.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

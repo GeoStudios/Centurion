@@ -35,7 +35,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * The encrypted private keys are stored in the keystore in a standard format,
  * namely the <code>EncryptedPrivateKeyInfo</code> format defined in PKCS #8.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  * @see java.security.KeyStoreSpi

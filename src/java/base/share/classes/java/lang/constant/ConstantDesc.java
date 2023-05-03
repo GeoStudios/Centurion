@@ -52,7 +52,7 @@ import java.lang.invoke.VarHandle.VarHandleDesc;
  *
  * @jvms 4.4 The Constant Pool
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @sealedGraph

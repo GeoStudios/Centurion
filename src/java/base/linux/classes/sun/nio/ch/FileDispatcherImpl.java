@@ -7,7 +7,7 @@ package java.base.linux.classes.sun.nio.ch;
 import java.io.FileDescriptor;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

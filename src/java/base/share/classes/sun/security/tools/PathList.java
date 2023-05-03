@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 /**
  * A utility class for handle path list
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -19,7 +19,7 @@ import java.io.IOException;
  * Additionally, the class includes a private method toPort that converts an AsynchronousChannelGroup to an instance 
  * of Port for use in constructing the UnixAsynchronousSocketChannelImpl and UnixAsynchronousServerSocketChannelImpl.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 16/4/2023
  */

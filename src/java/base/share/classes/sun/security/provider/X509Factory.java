@@ -22,7 +22,7 @@ import java.base.share.classes.sun.security.x509.X509CertImpl;
  * This class defines a certificate factory for X.509 v3 certificates {@literal &}
  * certification paths, and X.509 v2 certificate revocation lists (CRLs).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  *

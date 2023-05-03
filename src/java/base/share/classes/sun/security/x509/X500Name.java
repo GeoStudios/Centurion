@@ -97,7 +97,7 @@ import javax.security.auth.x500.X500Principal;
  * <p>
  * Note that instances of this class are immutable.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see GeneralName

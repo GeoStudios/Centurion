@@ -15,7 +15,7 @@ import java.base.share.classes.sun.security.jca.Providers;
  * This class is used to verify each entry in a jar file with its
  * manifest value.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

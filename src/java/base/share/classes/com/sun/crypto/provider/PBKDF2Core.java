@@ -18,7 +18,7 @@ import javax.crypto.spec.PBEKeySpec;
  * HmacSHA512/224, and HmacSHA512/256 pseudo random function (PRF) as
  * defined in PKCS#5 v2.1.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

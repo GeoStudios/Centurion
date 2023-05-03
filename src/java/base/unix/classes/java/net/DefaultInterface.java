@@ -11,7 +11,7 @@ package java.base.unix.classes.java.net;
  * Platforms that do not require a default interface may return null
  * which is what this implementation does.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

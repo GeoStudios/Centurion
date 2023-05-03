@@ -7,7 +7,7 @@ package java.base.share.classes.sun.security.util;
 /**
  * The Length interface defines the length of an object
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

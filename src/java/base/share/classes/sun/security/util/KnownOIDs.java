@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * is determined by existing usage and may be in lowercase/uppercase in
  * order to match existing output.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

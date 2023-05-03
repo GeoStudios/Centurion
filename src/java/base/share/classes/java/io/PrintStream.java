@@ -37,7 +37,7 @@ import java.base.share.classes.jdk.internal.misc.InternalLock;
  * The {@linkplain java.nio.charset.CharsetEncoder} class should be used when more
  * control over the encoding process is required.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see Charset#defaultCharset()

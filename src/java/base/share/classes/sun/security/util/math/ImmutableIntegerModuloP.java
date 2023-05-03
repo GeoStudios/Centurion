@@ -7,7 +7,7 @@ package java.base.share.classes.sun.security.util.math;
 /**
  * An interface for immutable integers modulo a prime value.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

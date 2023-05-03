@@ -17,7 +17,7 @@ import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
  * A SecurityDescriptor for use when setting a file's ACL or creating a file
  * with an initial ACL.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

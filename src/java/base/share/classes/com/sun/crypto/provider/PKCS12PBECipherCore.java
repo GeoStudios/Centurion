@@ -21,7 +21,7 @@ import javax.security.auth.DestroyFailedException;
  * - RC4 Cipher with 40-bit or 128-bit effective key length
  * as defined by PKCS #12 version 1.0 standard.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  * @see javax.crypto.CipherSpi

@@ -24,7 +24,7 @@ package java.base.share.classes.java.lang.annotation;
  * in its output while annotations of annotation interfaces without
  * {@code Documented} will not be displayed.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

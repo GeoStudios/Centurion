@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * File type detector that does lookup of file extension using Windows Registry.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

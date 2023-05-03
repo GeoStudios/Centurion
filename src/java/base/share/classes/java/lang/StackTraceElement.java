@@ -25,7 +25,7 @@ import java.util.Set;
  * this is the point at which the throwable corresponding to the stack trace
  * was created.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

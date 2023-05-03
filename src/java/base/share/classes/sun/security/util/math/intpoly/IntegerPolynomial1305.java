@@ -13,7 +13,7 @@ import java.nio.*;
  * An IntegerFieldModuloP designed for use with the Poly1305 authenticator.
  * The representation uses 5 signed long values.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

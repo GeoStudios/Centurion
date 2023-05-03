@@ -50,7 +50,7 @@ import static java.base.share.classes.sun.security.ssl.CertificateMessage.*;
  *      OCSPResponse ocsp_response_list<1..2^24-1>;
  *  } OCSPResponseList;
  *  
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

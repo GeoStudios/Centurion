@@ -11,7 +11,7 @@ import java.base.share.classes.sun.security.util.*;
 /**
  * A ContentInfo type, as defined in PKCS#7.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

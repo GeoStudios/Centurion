@@ -10,7 +10,7 @@ import java.util.Set;
  * An interface to return a set of available language tags supported by a
  * LocaleServiceProvider.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

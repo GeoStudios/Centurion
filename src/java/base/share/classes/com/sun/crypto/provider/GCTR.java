@@ -24,10 +24,11 @@ import java.util.Arrays;
  *
  * <p>This function is used in the implementation of GCM mode.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 final class GCTR extends CounterMode implements GCM {
 
     // Maximum buffer size rotating ByteBuffer->byte[] intrinsic copy

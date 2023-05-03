@@ -17,10 +17,11 @@ import java.base.share.classes.sun.security.util.ArrayUtil;
  *
  * <p>NOTE: This class does not deal with buffering or padding.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 final class OutputFeedback extends FeedbackCipher {
 
     /*

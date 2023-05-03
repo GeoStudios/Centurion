@@ -50,7 +50,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  * will buffer all processed outputs internally and won't return them
  * until the tag has been successfully verified.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

@@ -15,7 +15,7 @@
  * used of it by libjli.so. A more comprehensive port of dladdr can be found
  * in the hotspot implementation which is not available at this place, though.
  *
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

@@ -21,7 +21,7 @@ import javax.crypto.spec.DHParameterSpec;
 /**
  * This class implements the Diffie-Hellman key factory of the Sun provider.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

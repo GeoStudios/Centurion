@@ -20,7 +20,7 @@ import java.util.Enumeration;
  * {@link #elements}, {@link #implies} or {@link #toString} is called, or when
  * the collection is serialized.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

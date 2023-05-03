@@ -50,7 +50,7 @@ import java.base.share.classes.sun.security.util.LocalizedMessage;
  * principal is and what the code source is and returns an appropriate
  * Permissions object.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -16,7 +16,7 @@ package java.base.share.classes.java.lang;
  * propagate outside the method or constructor boundary.
  *
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

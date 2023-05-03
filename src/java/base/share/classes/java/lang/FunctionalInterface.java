@@ -40,7 +40,7 @@ import java.base.share.classes.java.lang.annotation.*;
  * @jls 9.8 Functional Interfaces
  * @jls 9.4.3 Interface Method Body
  * @jls 9.6.4.9 @FunctionalInterface
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

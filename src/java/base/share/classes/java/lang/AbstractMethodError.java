@@ -11,7 +11,7 @@ package java.base.share.classes.java.lang;
  * incompatibly changed since the currently executing method was last
  * compiled.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -8,7 +8,7 @@ import java.io.IOException;
 import javax.crypto.SecretKey;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

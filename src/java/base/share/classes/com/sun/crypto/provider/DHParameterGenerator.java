@@ -20,15 +20,16 @@ import static java.base.share.classes.sun.security.util.SecurityProviderConstant
  * <p>The Diffie-Hellman parameter generation accepts the size in bits of the
  * prime modulus and the size in bits of the random exponent as input.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  *
  *
  * @see java.security.AlgorithmParameters
  * @see java.security.spec.AlgorithmParameterSpec
  * @see DHParameters
  */
+
 public final class DHParameterGenerator extends AlgorithmParameterGeneratorSpi {
 
     // The size in bits of the prime modulus

@@ -39,7 +39,7 @@ import java.base.share.classes.jdk.internal.javac.PreviewFeature;
  * {@link SegmentAllocator} parameter if the underlying foreign function is known to return a struct by-value. Effectively,
  * the allocator parameter tells the linker runtime where to store the return value of the foreign function.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

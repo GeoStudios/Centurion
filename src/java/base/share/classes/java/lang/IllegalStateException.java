@@ -10,7 +10,7 @@ package java.base.share.classes.java.lang;
  * Java application is not in an appropriate state for the requested
  * operation.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

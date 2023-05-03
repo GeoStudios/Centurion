@@ -11,7 +11,7 @@ import java.nio.file.Path;
  * File type detector that uses a file extension to look up its MIME type
  * via the Apple Uniform Type Identifier interfaces.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

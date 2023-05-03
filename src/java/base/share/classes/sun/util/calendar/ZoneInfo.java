@@ -36,7 +36,7 @@ import java.util.TimeZone;
  * The date items, transitions, GMT offset(s), etc. are read from a database
  * file. See {@link ZoneInfoFile} for details.
  * @see java.util.SimpleTimeZone
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

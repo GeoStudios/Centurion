@@ -24,7 +24,7 @@ import java.base.share.classes.sun.security.x509.X509CertImpl;
  * Abstract class representing a builder, which is able to retrieve
  * matching certificates and is able to verify a particular certificate.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

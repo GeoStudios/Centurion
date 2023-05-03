@@ -8,8 +8,8 @@ import java.io.IOException;
 
 /**
  * Poller implementation based on the AIX Pollset library.
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 16/4/2023
  */

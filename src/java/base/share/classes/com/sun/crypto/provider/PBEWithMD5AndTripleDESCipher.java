@@ -27,7 +27,7 @@ import javax.crypto.*;
  *    form the triple DES key, and the last 8 bytes of the 2nd digest form the
  *    IV.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  * @see javax.crypto.Cipher

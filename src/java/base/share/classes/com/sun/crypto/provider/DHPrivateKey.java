@@ -18,13 +18,14 @@ import java.base.share.classes.sun.security.util.*;
  * A private key in PKCS#8 format for the Diffie-Hellman key agreement
  * algorithm.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  * 
  * @see DHPublicKey
  * @see javax.crypto.KeyAgreement
  */
+
 final class DHPrivateKey implements PrivateKey,
         javax.crypto.interfaces.DHPrivateKey, Serializable {
 

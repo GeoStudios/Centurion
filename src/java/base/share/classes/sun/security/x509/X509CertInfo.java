@@ -35,7 +35,7 @@ import sun.security.util.HexDumpEncoder;
  *      certificate revocation and other applications.
  * </UL>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see DerEncoder

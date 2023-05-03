@@ -16,7 +16,7 @@ import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 /**
  * This class generates a Triple DES key.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

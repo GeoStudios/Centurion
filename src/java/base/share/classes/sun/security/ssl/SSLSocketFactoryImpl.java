@@ -18,7 +18,7 @@ import javax.net.ssl.SSLSocketFactory;
  * any flexibility about which keys to use; that context defaults to the
  * process-default context, but may be explicitly specified.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

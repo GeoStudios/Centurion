@@ -13,7 +13,7 @@ package java.base.share.classes.java.lang;
  *     x[0] = Integer.valueOf(0);
  * </pre></blockquote>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

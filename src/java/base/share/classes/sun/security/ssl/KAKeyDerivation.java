@@ -17,7 +17,7 @@ import java.security.spec.AlgorithmParameterSpec;
 /**
  * A common class for creating various KeyDerivation types.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

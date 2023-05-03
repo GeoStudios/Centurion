@@ -14,7 +14,7 @@ import java.lang.reflect.TypeVariable;
  * to represent an as-yet-uncomputed scope, and cannot be used for any
  * other kind of scope.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

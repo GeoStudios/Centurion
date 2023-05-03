@@ -15,7 +15,7 @@ package java.base.share.classes.java.lang;
  * or for a dynamic constant the bootstrap method has failed to provide a
  * constant value of the required type.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

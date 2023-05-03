@@ -15,7 +15,7 @@ package java.base.share.classes.java.io;
  * @see     java.base.share.classes.java.io.InputStream
  * @see     java.base.share.classes.java.io.OutputStream
  * @see     java.lang.Thread#interrupt()
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

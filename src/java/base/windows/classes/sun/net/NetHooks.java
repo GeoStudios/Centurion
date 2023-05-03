@@ -11,8 +11,8 @@ import java.io.IOException;
 /**
  * Defines static methods to ensure that any installed net hooks are invoked
  * prior to binding or connecting TCP sockets.
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

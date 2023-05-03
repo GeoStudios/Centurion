@@ -68,7 +68,7 @@ import java.util.stream.Stream;
  * to compare ProcessHandles.
  *
  * @see Process
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

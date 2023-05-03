@@ -26,7 +26,7 @@ import java.base.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapt
  * sun.text.resources and sun.util.resources packages or in their corresponding
  * packages for CLDR.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

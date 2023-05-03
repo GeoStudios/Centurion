@@ -13,7 +13,7 @@ import java.base.share.classes.jdk.internal.misc.Unsafe;
  * Maintains a mapping of pending I/O requests (identified by the address of
  * an OVERLAPPED structure) to Futures.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

@@ -10,7 +10,7 @@ import java.security.cert.X509Certificate;
 import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

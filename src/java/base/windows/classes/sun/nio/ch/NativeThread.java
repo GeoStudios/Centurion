@@ -14,7 +14,7 @@ public class NativeThread {
   * native threads, 0 if the platform can not signal native threads, or
   * -1L if the current thread is a virtual thread.
   * 
-  * @since Pre Java 1
+  * @since Java 1
   * @author Logan Abernathy
   * @edited 19/4/2023 
   */

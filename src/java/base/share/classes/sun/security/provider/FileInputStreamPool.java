@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentMap;
  * relevant, so multiple readers can share the same file descriptor and
  * consequently the same {@code InputStream}.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

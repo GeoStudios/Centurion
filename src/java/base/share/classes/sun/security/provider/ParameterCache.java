@@ -20,7 +20,7 @@ import java.base.share.classes.sun.security.util.SafeDHParameterSpec;
  * in the Sun, SunJCE, and SunPKCS11 provider if no parameters have been
  * explicitly specified by the application.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

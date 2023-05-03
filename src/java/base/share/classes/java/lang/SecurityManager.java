@@ -265,7 +265,7 @@ import java.base.share.classes.sun.security.util.SecurityConstants;
  * that require permissions, and for each such method tells
  * which permission it requires.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  *

@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * though well formed, contains some sort of internal inconsistency
  * or security problem.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

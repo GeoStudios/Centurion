@@ -17,7 +17,7 @@ import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 /**
  * Utility methods for symbolic link support on Windows Vista and newer.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

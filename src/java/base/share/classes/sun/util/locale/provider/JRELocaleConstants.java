@@ -11,7 +11,7 @@ import java.util.Locale;
  * but it's treated as a special Locale because of the Thai Buddhist calendar
  * support.)
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -13,7 +13,7 @@ import java.util.concurrent.RejectedExecutionException;
  * @see java.base.share.classes.java.lang.Runtime#addShutdownHook
  * @see java.base.share.classes.java.lang.Runtime#removeShutdownHook]
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

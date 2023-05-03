@@ -8,7 +8,7 @@ package java.base.share.classes.sun.security.util;
  * This class represents the <code>ResourceBundle</code>
  * for javax.security.auth and sun.security.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

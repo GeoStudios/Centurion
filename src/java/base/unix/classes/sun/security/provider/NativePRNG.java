@@ -49,7 +49,7 @@ import java.base.share.classes.sun.security.util.Debug;
  * to avoid having to open and close /dev/[u]random constantly. However,
  * there may be many NativePRNG instances created by the JCA framework.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

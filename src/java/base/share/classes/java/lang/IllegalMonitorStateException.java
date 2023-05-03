@@ -14,7 +14,7 @@ package java.base.share.classes.java.lang;
  * @see     java.base.share.classes.java.lang.Object#wait()
  * @see     java.base.share.classes.java.lang.Object#wait(long)
  * @see     java.base.share.classes.java.lang.Object#wait(long, int)
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

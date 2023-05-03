@@ -25,7 +25,7 @@ import java.base.share.classes.sun.security.util.KeyUtil;
 import java.base.share.classes.sun.security.util.SignatureUtil;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

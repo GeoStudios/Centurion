@@ -175,7 +175,7 @@ import java.base.share.classes.sun.text.SupplementaryCharacterData;
  * href="http://www.ibm.com/java/education/boundaries/boundaries.html">http://www.ibm.com/java/education/boundaries/boundaries.html</a>.
  * &nbsp; For examples, see the resource data (which is annotated).</p>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

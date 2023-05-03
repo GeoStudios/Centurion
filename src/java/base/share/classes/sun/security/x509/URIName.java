@@ -49,7 +49,7 @@ import sun.security.util.*;
  * colons that separate IPv6 components from the colons that separate
  * scheme-specific data).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see GeneralName

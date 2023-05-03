@@ -9,7 +9,7 @@ package java.base.share.classes.java.io;
  *
  * @see     java.base.share.classes.java.io.FileDescriptor#sync
  * @see     java.base.share.classes.java.io.IOException
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

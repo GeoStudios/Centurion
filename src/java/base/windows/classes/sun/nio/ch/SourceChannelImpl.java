@@ -14,7 +14,7 @@ import java.util.Objects;
 /**
  * Pipe.SourceChannel implementation based on socket connection.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

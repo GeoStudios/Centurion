@@ -14,7 +14,7 @@ import java.security.spec.*;
 /**
  * This is an implementation of the HMAC-MD5 algorithm.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

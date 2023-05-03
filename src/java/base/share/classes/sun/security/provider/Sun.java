@@ -12,7 +12,7 @@ import static java.base.share.classes.sun.security.util.SecurityConstants.PROVID
 /**
  * The SUN Security Provider.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

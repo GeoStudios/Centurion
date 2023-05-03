@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  *
  * @param <T> the type of elements returned by the iterator
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 14.14.2 The enhanced {@code for} statement

@@ -64,7 +64,7 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
  * last length(digest(p, P)) bytes of R. If they match, the recovered key is
  * indeed the same key as the original key.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  * @see java.security.KeyStore

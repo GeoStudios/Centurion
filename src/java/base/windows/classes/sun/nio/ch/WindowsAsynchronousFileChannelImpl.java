@@ -16,7 +16,7 @@ import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
 /**
  * Windows implementation of AsynchronousFileChannel using overlapped I/O.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

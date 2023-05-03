@@ -14,7 +14,7 @@ package java.base.share.classes.java.lang;
  * executing class was compiled, but the definition can no longer be
  * found.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -19,7 +19,7 @@ import java.util.Objects;
  * {@code FilterOutputStream} may further override some of these
  * methods as well as provide additional methods and fields.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

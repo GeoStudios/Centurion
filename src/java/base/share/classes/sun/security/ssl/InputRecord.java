@@ -18,7 +18,7 @@ import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
  * {@code InputRecord} takes care of the management of SSL/TLS/DTLS input
  * records, including buffering, decryption, handshake messages marshal, etc.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Seed generator for Windows making use of MS CryptoAPI using native code.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

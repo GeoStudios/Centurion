@@ -18,7 +18,7 @@ import sun.security.util.*;
  * allows users to easily determine when a particular CRL supersedes
  * another CRL.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @see Extension

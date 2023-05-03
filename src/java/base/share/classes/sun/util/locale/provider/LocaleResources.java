@@ -34,7 +34,7 @@ import sun.util.resources.TimeZoneNamesBundle;
 /**
  * Central accessor to locale-dependent resources for JRE/CLDR provider adapters.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

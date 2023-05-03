@@ -12,11 +12,12 @@ import javax.crypto.ShortBufferException;
  * random, this implementation pads with random bytes (until the last byte,
  * which provides the length of padding, as specified).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  * @see Padding
  */
+
 final class ISO10126Padding implements Padding {
 
     private int blockSize;

@@ -8,7 +8,7 @@ import java.base.share.classes.java.io.FileDescriptor;
 import java.base.share.classes.java.io.IOException;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

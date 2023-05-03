@@ -16,7 +16,7 @@ import javax.crypto.spec.DHParameterSpec;
  * This class implements the parameter set used by the
  * Diffie-Hellman key agreement as defined in the PKCS #3 standard.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

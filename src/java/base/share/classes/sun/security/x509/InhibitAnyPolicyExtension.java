@@ -31,7 +31,7 @@ import sun.security.util.*;
  *
  * SkipCerts ::= INTEGER (0..MAX)
  * }</pre>
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see Extension

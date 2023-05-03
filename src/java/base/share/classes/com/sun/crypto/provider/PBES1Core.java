@@ -14,7 +14,7 @@ import javax.crypto.spec.*;
  * This class represents password-based encryption as defined by the PKCS #5
  * standard.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

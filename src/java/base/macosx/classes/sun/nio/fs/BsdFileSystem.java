@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import sun.nio.ch.IOStatus;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.nio.ch.IOStatus;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 import static java.base.macosx.classes.sun.nio.fs.UnixConstants.*;
 import static java.base.macosx.classes.sun.nio.fs.UnixNativeDispatcher.chown;
@@ -22,7 +22,7 @@ import static java.base.macosx.classes.sun.nio.fs.UnixNativeDispatcher.unlink;
 /**
  * Bsd implementation of FileSystem
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

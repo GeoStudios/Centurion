@@ -26,7 +26,7 @@ import java.base.share.classes.java.util.Arrays;
  * <code>PCBC</code>) and padding schemes (<code>PKCS5Padding</code>,
  * <code>NoPadding</code>, <code>ISO10126Padding</code>).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

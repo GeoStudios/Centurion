@@ -29,7 +29,7 @@ import static java.base.share.classes.sun.security.x509.PKIXExtensions.IssuingDi
  * class also implements CRL caching: see the class description for more
  * information.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

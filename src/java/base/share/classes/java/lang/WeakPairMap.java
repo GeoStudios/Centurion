@@ -19,7 +19,7 @@ import java.util.function.BiFunction;
  * @param <K1> the type of 1st key in key pair
  * @param <K2> the type of 2nd key in key pair
  * @param <V>  the type of value
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

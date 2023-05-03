@@ -27,7 +27,7 @@ import java.base.share.classes.sun.security.jca.JCAUtil;
  * We support SHA-1, SHA-2 family and SHA3 family of message digest algorithms,
  * and MGF1 mask generation function.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

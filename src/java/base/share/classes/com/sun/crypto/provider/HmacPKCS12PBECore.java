@@ -16,10 +16,11 @@ import java.security.spec.*;
  * This is an implementation of the HMAC algorithms as defined
  * in PKCS#12 v1.1 standard (see RFC 7292 Appendix B.4).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 abstract class HmacPKCS12PBECore extends HmacCore {
 
     public static final class HmacPKCS12PBE_SHA1 extends HmacPKCS12PBECore {

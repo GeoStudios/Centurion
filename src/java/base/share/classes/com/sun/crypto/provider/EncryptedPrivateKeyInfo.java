@@ -18,10 +18,11 @@ import java.base.share.classes.sun.security.util.*;
  *     encryptedData   OCTET STRING }
  * </pre>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/3/2023
  */
+
 final class EncryptedPrivateKeyInfo {
 
     // the "encryptionAlgorithm" field

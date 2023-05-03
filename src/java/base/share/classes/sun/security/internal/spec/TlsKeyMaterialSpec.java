@@ -16,7 +16,7 @@ import javax.crypto.spec.IvParameterSpec;
  * method of KeyGenerators of the type "TlsKeyMaterial".
  * Instances of this class are immutable.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  * @deprecated Sun JDK internal use only --- WILL BE REMOVED in a future

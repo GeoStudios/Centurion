@@ -5,7 +5,7 @@
 package java.base.windows.classes.jdk.internal.platform;
 
 /*
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

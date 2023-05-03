@@ -10,7 +10,7 @@ package java.base.share.classes.java.lang.annotation;
  * in conjunction with the {@link Retention} meta-annotation interface to
  * specify how long annotations are to be retained.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

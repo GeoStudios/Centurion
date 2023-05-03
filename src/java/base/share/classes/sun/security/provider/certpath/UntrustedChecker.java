@@ -17,7 +17,7 @@ import java.base.share.classes.sun.security.util.UntrustedCertificates;
  * A <code>PKIXCertPathChecker</code> implementation to check whether a
  * specified certificate is distrusted.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see PKIXCertPathChecker

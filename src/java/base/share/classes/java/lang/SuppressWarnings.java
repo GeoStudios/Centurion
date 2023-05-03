@@ -54,7 +54,7 @@ import static java.base.share.classes.java.lang.annotation.ElementType.*;
  * reference implementation recognizes compilation-related warning
  * names documented in its {@code --help-lint} output.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 4.8 Raw Types

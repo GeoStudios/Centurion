@@ -20,7 +20,7 @@ import java.util.List;
  * distinguish between '@A Inner.@B Outer' in for example nested types),
  * target info and the declaration the TypeAnnotaiton was parsed from.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

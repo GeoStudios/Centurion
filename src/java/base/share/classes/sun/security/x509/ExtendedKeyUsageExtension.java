@@ -53,7 +53,7 @@ import sun.security.util.ObjectIdentifier;
  * consistent with both fields, then the certificate MUST NOT be used
  * for any purpose.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

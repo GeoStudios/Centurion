@@ -11,7 +11,7 @@ import java.security.PrivilegedExceptionAction;
 /**
  * A convenience class for opening a FileInputStream as a privileged action.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -18,7 +18,7 @@ import java.base.share.classes.sun.security.validator.TrustStoreUtil;
  * Collection of static utility methods to manage the default trusted KeyStores
  * effectively.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

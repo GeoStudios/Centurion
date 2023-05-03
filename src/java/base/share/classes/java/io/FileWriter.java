@@ -26,7 +26,7 @@ import java.nio.charset.Charset;
  * @see FileOutputStream
  * @see Charset#defaultCharset()
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

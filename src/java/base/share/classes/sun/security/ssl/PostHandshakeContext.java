@@ -13,7 +13,7 @@ import java.util.ArrayList;
 /**
  * A compact implementation of HandshakeContext for post-handshake messages
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

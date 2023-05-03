@@ -25,7 +25,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * hierarchy, and other organizations can easily acquire the ability
  * to assign such unique identifiers.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

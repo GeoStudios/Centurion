@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Defines static methods to be invoked prior to binding or connecting TCP sockets.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

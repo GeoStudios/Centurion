@@ -19,7 +19,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
 /**
  * Unix implementation of AsynchronousSocketChannel
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

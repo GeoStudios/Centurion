@@ -10,7 +10,7 @@ import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;
 
 /*
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

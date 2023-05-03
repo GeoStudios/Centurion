@@ -20,7 +20,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  *
  * <p>This function is used in the implementation of GCM mode.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

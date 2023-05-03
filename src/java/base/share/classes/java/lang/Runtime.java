@@ -93,7 +93,7 @@ import java.base.share.classes.jdk.internal.reflect.Reflection;
  *
  * @see     java.base.share.classes.java.lang.Runtime#getRuntime()
  * @jls     12.8 Program Exit
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

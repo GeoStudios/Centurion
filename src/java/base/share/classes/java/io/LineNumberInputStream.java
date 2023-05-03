@@ -20,7 +20,7 @@ import java.util.Objects;
  * {@code 1} when a {@code read} returns a newline character.
  *
  * @see        java.base.share.classes.java.io.LineNumberReader
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @deprecated This class incorrectly assumes that bytes adequately represent

@@ -27,7 +27,7 @@ package java.base.share.classes.java.lang;
  * 
  * @jls 5.1.2 Widening Primitive Conversion
  * @jls 5.1.3 Narrowing Primitive Conversion
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

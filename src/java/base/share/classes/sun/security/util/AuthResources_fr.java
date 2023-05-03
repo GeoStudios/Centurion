@@ -13,7 +13,7 @@ package java.base.share.classes.sun.security.util;
  * <li> com.sun.security.auth.login
  * </ol>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -19,7 +19,7 @@ import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;
 /**
  * Unix implementation of UserDefinedFileAttributeView using extended attributes.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

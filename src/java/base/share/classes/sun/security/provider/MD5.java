@@ -16,7 +16,7 @@ import static java.base.share.classes.sun.security.provider.ByteArrayAccess.*;
  * buffer of bytes. It is an implementation of the RSA Data Security Inc
  * MD5 algorithm as described in internet RFC 1321.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

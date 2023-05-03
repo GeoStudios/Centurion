@@ -13,7 +13,7 @@ package java.base.share.classes.java.lang.annotation;
  * header files to determine whether a header file is required, and
  * if so, what declarations it should contain.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -17,7 +17,7 @@ import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 /**
  * Pack of the "max_fragment_length" extensions [RFC6066].
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

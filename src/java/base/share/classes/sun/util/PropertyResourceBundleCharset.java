@@ -22,7 +22,7 @@ import java.util.Objects;
  * for loading properties files. This first tries to load the properties
  * file with UTF-8 encoding). If it fails, then load the file with ISO-8859-1
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -7,8 +7,8 @@ package java.base.windows.classes.sun.net;
 /**
  * Determines the ephemeral port range in use on this system.
  * On Windows we always use the default range.
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

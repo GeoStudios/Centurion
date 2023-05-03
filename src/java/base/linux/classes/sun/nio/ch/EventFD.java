@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Provides access to the Linux eventfd object.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

@@ -17,7 +17,7 @@
 #include "sun_nio_ch_EPoll.h"
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 30/4/2023
 */

@@ -8,7 +8,7 @@ package java.base.share.classes.java.lang;
  * The CharacterData class encapsulates the large tables found in
  * Java.lang.Character.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

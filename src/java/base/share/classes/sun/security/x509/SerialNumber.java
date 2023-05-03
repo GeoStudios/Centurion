@@ -13,7 +13,7 @@ import sun.security.util.*;
 /**
  * This class defines the SerialNumber class used by certificates.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

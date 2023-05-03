@@ -26,7 +26,7 @@ import java.base.share.classes.javax.crypto.ShortBufferException;
  * <p>NOTE#2: This class does not deal with buffering or padding
  * just like all other cipher mode implementations.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

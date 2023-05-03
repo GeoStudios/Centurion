@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.util.Debug;
  * It supports the Time-Stamp Protocol defined in:
  * <a href="http://www.ietf.org/rfc/rfc3161.txt">RFC 3161</a>.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -19,7 +19,7 @@ import java.base.share.classes.sun.security.validator.Validator;
  * Common utility methods and classes used by the PKIX CertPathValidator and
  * CertPathBuilder implementation.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

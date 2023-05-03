@@ -7,7 +7,7 @@ package java.base.linux.classes.jdk.internal.platform;
 /**
  * Cgroup v1 Metrics extensions
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

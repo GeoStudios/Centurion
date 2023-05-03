@@ -33,7 +33,7 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_N
  * occur. For example, in a future release, synchronization may fail.
  *
  * @see     java.base.share.classes.java.lang.Number
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

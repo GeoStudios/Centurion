@@ -19,7 +19,7 @@ import java.util.Objects;
  * and so on, until end of file is reached
  * on the last of the contained input streams.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

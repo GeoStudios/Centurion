@@ -43,7 +43,7 @@ import java.base.share.classes.jdk.internal.javac.PreviewFeature;
  * @jls 14.30.2 Pattern Matching
  * @jls 15.28.2 Run-Time Evaluation of switch Expressions
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

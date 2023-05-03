@@ -163,7 +163,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
  * or method in this class will cause a {@link NullPointerException} to be
  * thrown.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

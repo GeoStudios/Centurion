@@ -21,7 +21,7 @@ import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAda
 /**
  * Utility class that deals with the localized time zone names
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

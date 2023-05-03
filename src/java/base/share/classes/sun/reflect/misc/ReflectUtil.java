@@ -12,7 +12,7 @@ import java.base.share.classes.jdk.internal.reflect.Reflection;
 import java.base.share.classes.sun.security.util.SecurityConstants;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -12,8 +12,8 @@ import static java.base.aix.classes.sun.nio.fs.AixNativeDispatcher.*;
 
 /**
  * AIX implementation of FileSystem
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 17/4/2023
  */

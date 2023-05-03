@@ -29,7 +29,7 @@ import java.nio.charset.CodingErrorAction;
  *      U+0800..U+0FFF          E0          A0..BF      80..BF
  *      U+1000..U+FFFF          E1..EF      80..BF      80..BF
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

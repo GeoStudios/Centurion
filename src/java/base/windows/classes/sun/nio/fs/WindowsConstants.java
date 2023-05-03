@@ -7,7 +7,7 @@ package java.base.windows.classes.sun.nio.fs;
 /**
  * Win32 APIs constants.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

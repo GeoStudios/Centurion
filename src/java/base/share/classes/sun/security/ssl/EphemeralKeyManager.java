@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * The "KeyManager" for ephemeral RSA keys. Ephemeral DH and ECDH keys
  * are handled by the DHCrypt and ECDHCrypt classes, respectively.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

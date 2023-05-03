@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.x509.X509CertImpl;
  * <b>Attention</b>: This check is NOT meant to replace the standard PKI-defined
  * validation check, neither is it used as an alternative to CRL.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

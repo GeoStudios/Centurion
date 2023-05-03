@@ -15,10 +15,11 @@ import javax.crypto.spec.*;
  * in <a href=https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38F.pdf>
  * "Recommendation for Block Cipher Modes of Operation: Methods for Key Wrapping"
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 class KWUtil {
 
     static final int BLKSIZE = 16;

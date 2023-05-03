@@ -33,7 +33,7 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Boolea
  * use instances for synchronization, or unpredictable behavior may
  * occur. For example, in a future release, synchronization may fail.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

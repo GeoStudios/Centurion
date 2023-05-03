@@ -23,7 +23,7 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
  * SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256),
  * and SHA3 family (SHA3-224, SHA3-256, SHA3-384, SHA3-512) of digests.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

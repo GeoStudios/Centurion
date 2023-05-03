@@ -18,7 +18,7 @@ import static java.base.linux.classes.sun.nio.ch.EPoll.EPOLL_CTL_MOD;
 /**
  * AsynchronousChannelGroup implementation based on the Linux epoll facility.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

@@ -12,7 +12,7 @@ import java.base.linux.classes.jdk.internal.platform.CgroupSubsystemController;
 import java.base.linux.classes.jdk.internal.platform.CgroupV1Metrics;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

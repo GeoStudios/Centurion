@@ -10,7 +10,7 @@ package java.base.share.classes.sun.reflect.generics.tree;
  * Corresponds to the production of the same name in the JVMS
  * section on signatures.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

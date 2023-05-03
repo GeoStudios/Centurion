@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  * This class represents the scope containing the type variables of
  * a class.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

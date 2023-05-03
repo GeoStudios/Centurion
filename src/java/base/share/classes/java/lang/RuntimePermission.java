@@ -368,7 +368,7 @@ import java.base.share.classes.java.lang.module.ModuleFinder;
  * @see java.base.share.classes.java.lang.SecurityManager
  *
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

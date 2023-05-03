@@ -34,7 +34,7 @@ public abstract class JavaTimeDateTimePatternProvider extends LocaleServiceProvi
      * "iso8601"
      * @return  formatting pattern {@code String}
      * @see java.time.format.DateTimeFormatterBuilder#convertStyle(java.time.format.FormatStyle)
-     * @since Pre Java 1
+     * @since Java 2
      * @author Logan Abernathy
      * @edited 20/4/2023 
      */

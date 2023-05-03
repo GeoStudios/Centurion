@@ -18,7 +18,7 @@ package java.base.share.classes.java.lang;
  *
  * @see     java.base.share.classes.java.lang.Error
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

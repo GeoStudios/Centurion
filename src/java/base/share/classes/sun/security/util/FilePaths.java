@@ -9,7 +9,7 @@ import java.base.share.classes.jdk.internal.util.StaticProperty;
 import java.io.File;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -196,7 +196,7 @@ import static java.util.concurrent.TimeUnit.NANOSECONDS;
  *   </tbody>
  * </table>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

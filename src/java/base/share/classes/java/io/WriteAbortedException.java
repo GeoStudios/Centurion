@@ -12,7 +12,7 @@ package java.base.share.classes.java.io;
  * field. The stream is reset to its initial state and all references
  * to objects already deserialized are discarded.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

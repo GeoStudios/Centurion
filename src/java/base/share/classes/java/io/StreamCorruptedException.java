@@ -8,7 +8,7 @@ package java.base.share.classes.java.io;
  * Thrown when control information that was read from an object stream
  * violates internal consistency checks.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

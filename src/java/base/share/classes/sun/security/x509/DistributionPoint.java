@@ -68,7 +68,7 @@ import sun.security.util.DerValue;
  * performance reasons. It is the responsibility of the consumer to ensure
  * that no mutable elements are modified.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @see CRLDistributionPointsExtension

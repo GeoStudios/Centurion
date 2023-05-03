@@ -75,7 +75,7 @@ import java.lang.annotation.*;
  *
  * @see Serializable
  * @see Externalizable
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

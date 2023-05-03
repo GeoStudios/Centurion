@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * file and determines that the major and minor version numbers
  * in the file are not supported.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

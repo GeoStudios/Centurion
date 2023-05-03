@@ -12,7 +12,7 @@ import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 /**
  * Win32 and library calls.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

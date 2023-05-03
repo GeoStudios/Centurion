@@ -12,7 +12,7 @@ package java.base.share.classes.java.io;
  * {@link File#listFiles(java.base.share.classes.java.io.FileFilter) listFiles(FileFilter)} method
  * of the {@link java.base.share.classes.java.io.File} class.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

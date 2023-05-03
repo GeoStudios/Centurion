@@ -15,7 +15,7 @@ import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a
  * {@link MethodHandle} constant.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

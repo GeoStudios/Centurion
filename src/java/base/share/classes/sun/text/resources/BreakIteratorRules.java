@@ -21,7 +21,7 @@ import java.util.ListResourceBundle;
  * build phase in order to create [Character|Word|Line|Sentence]BreakIteratorData
  * files which are used on runtime instead.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -16,7 +16,7 @@ import java.util.Objects;
  * of this class can be called after the stream has closed
  * without generating an IOException.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

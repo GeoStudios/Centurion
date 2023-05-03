@@ -9,7 +9,7 @@ import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
 /** AST that represents the pseudo-type void. */
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -8,7 +8,7 @@ import java.util.Objects;
 /**
  * Wraps an {@link IOException} with an unchecked exception.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

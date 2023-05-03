@@ -78,7 +78,7 @@ import java.util.*;
  * @param <T> the type of objects that this object may be compared to
  *
  * @see java.util.Comparator
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

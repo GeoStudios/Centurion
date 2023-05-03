@@ -13,7 +13,7 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /*
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

@@ -11,7 +11,7 @@ package java.base.share.classes.sun.nio.cs;
  * FastPath encoded byte[]-> "String Latin1 coding" byte[] decoder for use when
  * charset is always decodable to the internal String Latin1 coding byte[], ie. all mappings <=0xff
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

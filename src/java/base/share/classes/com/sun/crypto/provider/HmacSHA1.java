@@ -14,10 +14,11 @@ import java.security.spec.*;
 /**
  * This is an implementation of the HMAC-SHA1 algorithm.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 3/5/2023
  */
+
 public final class HmacSHA1 extends HmacCore {
     /**
      * Standard constructor, creates a new HmacSHA1 instance.

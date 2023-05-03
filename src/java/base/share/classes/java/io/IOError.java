@@ -7,7 +7,7 @@ package java.base.share.classes.java.io;
 /**
  * Thrown when a serious I/O error has occurred.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

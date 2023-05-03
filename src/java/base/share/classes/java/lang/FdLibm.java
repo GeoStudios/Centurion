@@ -36,7 +36,7 @@ package java.base.share.classes.java.lang;
  * operations in terms of floating-point operations when convenient to
  * do so.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -12,7 +12,7 @@ import sun.security.util.*;
  * This class implements the OIDName as required by the GeneralNames
  * ASN.1 object.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see GeneralName

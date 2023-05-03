@@ -16,11 +16,12 @@ import static java.base.share.classes.sun.security.util.SecurityConstants.PROVID
  *
  * This provider only exists to provide access to the Apple keychain-based KeyStore implementation
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
- * @edited 23/4/2023
+ * @edited 1/5/2023
  */
 @SuppressWarnings("serial") // JDK implementation class
+
 public final class AppleProvider extends Provider {
 
     private static final String info = "Apple Provider";

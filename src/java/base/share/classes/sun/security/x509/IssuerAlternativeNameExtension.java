@@ -19,7 +19,7 @@ import sun.security.util.*;
  * be treated as being critical and the extension value itself (this is again
  * a DER encoding of the extension value).
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see Extension

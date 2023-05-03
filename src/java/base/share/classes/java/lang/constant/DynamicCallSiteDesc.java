@@ -23,7 +23,7 @@ import static java.util.stream.Collectors.joining;
  * <p>Concrete subtypes of {@linkplain DynamicCallSiteDesc} should be immutable
  * and their behavior should not rely on object identity.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

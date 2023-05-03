@@ -27,7 +27,7 @@ import static java.base.share.classes.sun.security.util.SecurityProviderConstant
  * <li>By providing a prime modulus and base generator
  * </ul>
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

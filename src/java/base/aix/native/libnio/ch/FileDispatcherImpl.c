@@ -20,7 +20,7 @@
 #include <assert.h>
 
 /**
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 30/4/2023
 */

@@ -14,7 +14,7 @@ package java.base.share.classes.java.lang.annotation;
  * reflectively}.
  *
  * @see     java.lang.reflect.AnnotatedElement
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

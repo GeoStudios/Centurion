@@ -15,8 +15,8 @@ import java.io.IOException;
  * implemented by calling native methods force0() and transferTo0() respectively, which are 
  * implemented in the underlying operating system's C or C++ code. The force() method throws 
  * an IOException if there is any error during the I/O operation.
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 16/4/2023
  */

@@ -12,7 +12,7 @@ import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;
 /**
  * Internal exception thrown when a Win32 calls fails.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

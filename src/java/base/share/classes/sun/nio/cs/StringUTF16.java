@@ -8,7 +8,7 @@ import static java.base.share.classes.jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_O
 import static java.base.share.classes.jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;
 
 /**
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

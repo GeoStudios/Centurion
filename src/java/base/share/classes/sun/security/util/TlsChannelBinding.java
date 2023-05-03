@@ -21,7 +21,7 @@ import java.util.Locale;
  *     On the Use of Channel Bindings to Secure Channels</a>
  * section 2.1.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

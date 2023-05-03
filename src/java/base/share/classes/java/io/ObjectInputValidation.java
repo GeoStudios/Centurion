@@ -11,7 +11,7 @@ package java.base.share.classes.java.io;
  *
  * @see     ObjectInputStream
  * @see     ObjectInputStream#registerValidation(java.base.share.classes.java.io.ObjectInputValidation, int)
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

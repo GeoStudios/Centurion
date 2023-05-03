@@ -42,7 +42,7 @@ import java.base.share.classes.sun.security.util.KeyUtil;
  *
  * Note: RSA keys should be at least 512 bits long
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

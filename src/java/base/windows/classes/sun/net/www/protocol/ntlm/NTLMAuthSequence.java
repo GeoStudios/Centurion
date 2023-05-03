@@ -11,8 +11,8 @@ import java.util.Base64;
  * Hooks into Windows implementation of NTLM.
  * This class will be replaced if a cross-platform version of NTLM
  * is implemented in the future.
- * 
- * @since Pre Java 1
+ *
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

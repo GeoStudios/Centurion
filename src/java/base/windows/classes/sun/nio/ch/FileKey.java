@@ -10,7 +10,7 @@ import java.io.IOException;
 /*
  * Represents a key to a specific file on Windows
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

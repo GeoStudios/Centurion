@@ -7,7 +7,7 @@ package java.base.share.classes.java.io;
 /**
  * Thrown when serialization or deserialization is not active.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

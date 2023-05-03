@@ -7,7 +7,7 @@ package java.base.aix.classes.sun.nio.fs;
 /**
  * AIX specific system calls.
  * 
- * @since Pre Java 1
+ * @since Java 1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

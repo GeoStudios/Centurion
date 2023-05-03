@@ -9,7 +9,7 @@ import java.nio.file.spi.FileTypeDetector;
 import java.nio.file.spi.FileSystemProvider;
 
 /*
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

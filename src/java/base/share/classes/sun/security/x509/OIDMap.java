@@ -16,7 +16,7 @@ import sun.security.util.*;
  * versa.  Used by CertificateExtensions {@literal &} PKCS10 to get the java
  * classes associated with a particular OID/name.
  *
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  *

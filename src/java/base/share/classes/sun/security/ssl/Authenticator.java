@@ -17,7 +17,7 @@ import java.base.share.classes.sun.security.ssl.CipherSuite.MacAlg;
  * which encapsulates a sequence number and ensures that attempts to
  * delete or reorder messages can be detected.
  * 
- * @since Pre Java 1
+ * @since Java 2
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */
