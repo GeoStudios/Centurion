@@ -10,7 +10,9 @@ package java.base.share.classes.java.lang.reflect;
  * annotated uses of types.
  *
  * @jls 4.5.1 Type Arguments of Parameterized Types
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public interface AnnotatedWildcardType extends AnnotatedType {

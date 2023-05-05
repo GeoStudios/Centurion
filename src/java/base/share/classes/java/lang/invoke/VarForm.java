@@ -19,6 +19,10 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 /**
  * A var handle form containing a set of member name, one for each operation.
  * Each member characterizes a static method.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 final class VarForm {
 

@@ -13,6 +13,10 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;
 
 /** Working storage for an LF that is being transformed.
  *  Similarly to a StringBuffer, the editing can take place in multiple steps.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 final class LambdaFormBuffer {
     private int arity, length;

@@ -7,7 +7,12 @@ package java.base.share.classes.java.lang.invoke;
 import java.util.*;
 import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 
-/** Utility class for implementing ConstantGroup. */
+/** Utility class for implementing ConstantGroup.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
+*/
 /*non-public*/
 abstract class AbstractConstantGroup implements ConstantGroup {
     /** The size of this constant group, set permanently by the constructor. */

@@ -31,8 +31,9 @@ import java.base.share.classes.sun.net.www.protocol.http.AuthenticatorKeys;
  * @see java.base.share.classes.java.net.Authenticator#setDefault(java.base.share.classes.java.net.Authenticator)
  * @see java.base.share.classes.java.net.Authenticator#getPasswordAuthentication()
  *
- * @author  Bill Foote
- * @since   1.2
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 // There are no abstract methods, but to be useful the user must

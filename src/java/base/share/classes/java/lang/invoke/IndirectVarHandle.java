@@ -19,6 +19,10 @@ import java.util.function.BiFunction;
  * can be constructed by extracting the method handles constituting the target var handle, adapting them
  * (using the method handle combinator API) and then repackaging the adapted method handles into a new, indirect
  * var handle.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /* package */ final class IndirectVarHandle extends VarHandle {
 

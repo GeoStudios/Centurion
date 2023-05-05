@@ -16,7 +16,9 @@ import static java.util.Objects.requireNonNull;
  * unless the argument is specified to be unused or specified to accept a
  * {@code null} value.
  *
- * @since 11
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class ConstantBootstraps {
     /**

@@ -39,9 +39,9 @@ import java.base.share.classes.java.util.StringJoiner;
  * @see java.lang.Class#getConstructor(Class[])
  * @see java.lang.Class#getDeclaredConstructors()
  *
- * @author      Kenneth Russell
- * @author      Nakul Saraiya
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class Constructor<T> extends Executable {
     private final Class<T>            clazz;

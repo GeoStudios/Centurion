@@ -10,7 +10,9 @@ package java.base.share.classes.java.lang.reflect;
  * encountered by a reflective method that needs to interpret the generic
  * signature information for a class or interface, method or constructor.
  *
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class GenericSignatureFormatError extends ClassFormatError {
     @java.io.Serial

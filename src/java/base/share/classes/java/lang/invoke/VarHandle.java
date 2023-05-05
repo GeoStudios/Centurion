@@ -448,7 +448,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAF
  * @see MethodHandle
  * @see MethodHandles
  * @see MethodType
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract sealed class VarHandle implements Constable
      permits IndirectVarHandle, VarHandleSegmentViewBase,

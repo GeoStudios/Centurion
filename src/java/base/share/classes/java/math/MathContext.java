@@ -27,8 +27,9 @@ import java.io.*;
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  *
  * @author  Mike Cowlishaw
- * @author  Joseph D. Darcy
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public final class MathContext implements Serializable {

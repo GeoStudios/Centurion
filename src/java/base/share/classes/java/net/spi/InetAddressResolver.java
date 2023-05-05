@@ -18,7 +18,9 @@ import java.util.stream.Stream;
  * <a href="InetAddressResolverProvider.html#system-wide-resolver">
  * deploying an implementation</a> of {@link InetAddressResolverProvider}.
  *
- * @since 18
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface InetAddressResolver {
 

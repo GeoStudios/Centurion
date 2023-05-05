@@ -36,8 +36,9 @@ package java.base.share.classes.java.lang.ref;
  * discarded at the discretion of the garbage collector.
  * @param <T> the type of the referent
  *
- * @author   Mark Reinhold
- * @since    1.2
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public non-sealed class SoftReference<T> extends Reference<T> {

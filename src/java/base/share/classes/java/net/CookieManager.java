@@ -89,8 +89,9 @@ import java.base.share.classes.sun.util.logging.PlatformLogger;
  * <p>The implementation conforms to <a href="http://www.ietf.org/rfc/rfc2965.txt">RFC 2965</a>, section 3.3.
  *
  * @see CookiePolicy
- * @author Edward Wang
- * @since 1.6
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class CookieManager extends CookieHandler
 {

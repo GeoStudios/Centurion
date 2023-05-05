@@ -15,8 +15,9 @@ import java.base.share.classes.jdk.internal.misc.VM;
  * garbage collector after the appropriate reachability changes are detected.
  * @param <T> the type of the reference object
  *
- * @author   Mark Reinhold
- * @since    1.2
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class ReferenceQueue<T> {

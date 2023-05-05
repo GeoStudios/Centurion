@@ -22,6 +22,11 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAF
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.VAR_HANDLE_IDENTITY_ADAPT;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
 
+/**
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
+ */
 final class VarHandles {
 
     static ClassValue<ConcurrentMap<Integer, MethodHandle>> ADDRESS_FACTORIES = new ClassValue<>() {

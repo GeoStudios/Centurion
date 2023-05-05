@@ -6,6 +6,10 @@ package java.base.share.classes.java.lang.ref;
 
 /**
  * Final references, used to implement finalization
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 sealed class FinalReference<T> extends Reference<T> permits Finalizer {
 

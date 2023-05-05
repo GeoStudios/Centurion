@@ -14,8 +14,9 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  * operation, but throws an {@code IllegalArgumentException} if a narrowing
  * conversion would occur.
  *
- * @author Nakul Saraiya
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final
 class Array {

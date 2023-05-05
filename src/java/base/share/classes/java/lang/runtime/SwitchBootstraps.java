@@ -22,7 +22,9 @@ import static java.util.Objects.requireNonNull;
  * take additional static arguments corresponding to the {@code case} labels
  * of the {@code switch}, implicitly numbered sequentially from {@code [0..N)}.
  *
- * @since 17
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 @PreviewFeature(feature=PreviewFeature.Feature.SWITCH_PATTERN_MATCHING)
 public class SwitchBootstraps {

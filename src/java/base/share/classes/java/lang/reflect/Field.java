@@ -39,9 +39,9 @@ import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
  * @see java.lang.Class#getDeclaredFields()
  * @see java.lang.Class#getDeclaredField(String)
  *
- * @author Kenneth Russell
- * @author Nakul Saraiya
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final
 class Field extends AccessibleObject implements Member {

@@ -8,7 +8,9 @@ package java.base.share.classes.java.lang.invoke;
  * StringConcatException is thrown by {@link StringConcatFactory} when linkage
  * invariants are violated.
  *
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class StringConcatException extends Exception {
     @java.io.Serial

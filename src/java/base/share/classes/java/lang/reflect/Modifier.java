@@ -18,9 +18,9 @@ import java.base.share.classes.java.util.StringJoiner;
  * @see Class#getModifiers()
  * @see Member#getModifiers()
  *
- * @author Nakul Saraiya
- * @author Kenneth Russell
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class Modifier {
     /**

@@ -54,7 +54,9 @@ import java.base.share.classes.java.util.stream.Stream;
  * found" to avoid inconsistencies.
  *
  * @see ModuleReference
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public interface ModuleReader extends Closeable {

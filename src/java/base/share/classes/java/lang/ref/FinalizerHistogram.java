@@ -12,6 +12,10 @@ import java.base.share.classes.java.util.Comparator;
 /**
  * This FinalizerHistogram class is for GC.finalizer_info diagnostic command support.
  * It is invoked by the VM.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 final class FinalizerHistogram {

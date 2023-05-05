@@ -91,10 +91,9 @@ package java.base.share.classes.java.math;
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  * @jls 15.4 Floating-point Expressions
  *
- * @author  Josh Bloch
- * @author  Mike Cowlishaw
- * @author  Joseph D. Darcy
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 @SuppressWarnings("deprecation") // Legacy rounding mode constants in BigDecimal
 public enum RoundingMode {

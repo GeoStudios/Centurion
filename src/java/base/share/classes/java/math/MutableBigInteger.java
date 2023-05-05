@@ -16,9 +16,9 @@ package java.base.share.classes.java.math;
  * BigIntegers.
  *
  * @see     BigInteger
- * @author  Michael McCloskey
- * @author  Timothy Buktu
- * @since   1.3
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 import static java.base.share.classes.java.math.BigDecimal.INFLATED;

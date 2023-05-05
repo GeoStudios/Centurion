@@ -18,8 +18,9 @@ package java.base.share.classes.java.lang.invoke;
  * In other respects, a {@code VolatileCallSite} is interchangeable
  * with {@code MutableCallSite}.
  * @see MutableCallSite
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public non-sealed class VolatileCallSite extends CallSite {
     /**

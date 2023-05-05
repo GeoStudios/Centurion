@@ -10,8 +10,12 @@ import java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants;
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
-/*
+/**
  * Auxiliary to MethodHandleInfo, wants to nest in MethodHandleInfo but must be non-public.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 final class InfoFromMemberName implements MethodHandleInfo {

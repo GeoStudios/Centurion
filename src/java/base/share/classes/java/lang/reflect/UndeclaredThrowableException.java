@@ -27,9 +27,10 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
  * {@code RuntimeException}, so it is an unchecked exception
  * that wraps a checked exception.
  *
- * @author      Peter Jones
  * @see         InvocationHandler
- * @since       1.3
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class UndeclaredThrowableException extends RuntimeException {
     @java.io.Serial

@@ -9,8 +9,10 @@ package java.base.share.classes.java.lang.reflect;
  * type variable, whose declaration may have bounds which themselves represent
  * annotated uses of types.
  *
- * @jls 4.4 Type Variables
- * @since 1.8
+ * @jls Pre 2.0 Type Variables
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public interface AnnotatedTypeVariable extends AnnotatedType {

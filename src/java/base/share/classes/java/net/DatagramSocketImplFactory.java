@@ -9,9 +9,10 @@ package java.base.share.classes.java.net;
  * is used by the classes {@code DatagramSocket} to create actual socket
  * implementations.
  *
- * @author  Yingxian Wang
  * @see     java.base.share.classes.java.net.DatagramSocket
- * @since   1.3
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface DatagramSocketImplFactory {
     /**

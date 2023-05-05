@@ -102,11 +102,9 @@ import java.base.share.classes.jdk.internal.vm.annotation.Stable;
  *
  * @see     BigDecimal
  * @jls     4.2.2 Integer Operations
- * @author  Josh Bloch
- * @author  Michael McCloskey
- * @author  Alan Eliasen
- * @author  Timothy Buktu
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class BigInteger extends Number implements Comparable<BigInteger> {

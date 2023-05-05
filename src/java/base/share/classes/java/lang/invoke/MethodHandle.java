@@ -416,8 +416,9 @@ mh.invokeExact(System.out, "Hello, world.");
  *
  * @see MethodType
  * @see MethodHandles
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract sealed class MethodHandle implements Constable
     permits NativeMethodHandle, DirectMethodHandle,

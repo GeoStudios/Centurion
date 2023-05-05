@@ -11,6 +11,11 @@ import java.base.share.classes.sun.invoke.util.BytecodeDescriptor;
 import java.base.share.classes.sun.invoke.util.Wrapper;
 import static java.base.share.classes.sun.invoke.util.Wrapper.*;
 
+/**
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
+ */
 class TypeConvertingMethodAdapter extends MethodVisitor {
 
     TypeConvertingMethodAdapter(MethodVisitor mv) {

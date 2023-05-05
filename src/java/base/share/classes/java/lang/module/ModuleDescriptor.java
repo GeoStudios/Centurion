@@ -67,7 +67,9 @@ import java.base.share.classes.jdk.internal.module.ModuleInfo;
  * multiple concurrent threads.</p>
  *
  * @see java.lang.Module
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class ModuleDescriptor

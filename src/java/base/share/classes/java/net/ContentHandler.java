@@ -58,7 +58,9 @@ import java.io.IOException;
  * @see     java.base.share.classes.java.net.URLConnection
  * @see     java.base.share.classes.java.net.URLConnection#getContent()
  * @see     java.base.share.classes.java.net.URLConnection#setContentHandlerFactory(java.base.share.classes.java.net.ContentHandlerFactory)
- * @since   1.0
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract class ContentHandler {
 

@@ -20,7 +20,9 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
 
 /**
  * Construction and caching of often-used invokers.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class Invokers {
     // exact type (sans leading target MH) for the outgoing call

@@ -10,6 +10,12 @@ import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.misc.VM;
 
+/**
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
+ */
+
 final class Finalizer extends FinalReference<Object> { /* Package-private; must be in
                                                           same package as the Reference
                                                           class */

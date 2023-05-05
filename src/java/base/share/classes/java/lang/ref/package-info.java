@@ -104,7 +104,8 @@
  *
  * </ul>
  *
- * @author        Mark Reinhold
- * @since         1.2
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 package java.base.share.classes.java.lang.ref;

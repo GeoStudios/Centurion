@@ -9,8 +9,10 @@ package java.base.share.classes.java.lang.reflect;
  * of a parameterized type, whose type arguments may themselves represent
  * annotated uses of types.
  *
- * @jls 4.5 Parameterized Types
- * @since 1.8
+ * @jls Pre 2 Parameterized Types
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface AnnotatedParameterizedType extends AnnotatedType {
 

@@ -37,6 +37,10 @@ import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
  * @param <T> top class under which species classes are created.
  * @param <K> key which identifies individual specializations.
  * @param <S> species data type.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 abstract class ClassSpecializer<T,K,S extends ClassSpecializer<T,K,S>.SpeciesData> {

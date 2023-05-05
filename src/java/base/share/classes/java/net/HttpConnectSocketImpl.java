@@ -16,7 +16,9 @@ import java.util.Set;
  * implementation to perform the HTTP tunneling and authentication. Once
  * connected, all socket operations delegate to a platform SocketImpl.
  *
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 /*package*/ @SuppressWarnings("removal") class HttpConnectSocketImpl extends DelegatingSocketImpl {

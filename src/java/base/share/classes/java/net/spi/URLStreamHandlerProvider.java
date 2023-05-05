@@ -23,7 +23,9 @@ import java.net.URLStreamHandlerFactory;
  * <p> URL stream handler providers are located at runtime, as specified in the
  * {@linkplain java.net.URL#URL(String,String,int,String) URL constructor}.
  *
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract class URLStreamHandlerProvider
     implements URLStreamHandlerFactory

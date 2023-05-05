@@ -268,10 +268,10 @@ import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
  * passed to the {@code invoke} method can necessarily be thrown
  * successfully by the {@code invoke} method.
  *
- * @author      Peter Jones
  * @see         InvocationHandler
- * @since       1.3
- * @revised 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class Proxy implements java.io.Serializable {
     @java.io.Serial

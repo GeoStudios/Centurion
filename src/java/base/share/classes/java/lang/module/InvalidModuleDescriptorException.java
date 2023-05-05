@@ -9,7 +9,9 @@ package java.base.share.classes.java.lang.module;
  * to be malformed or otherwise cannot be interpreted as a module descriptor.
  *
  * @see ModuleDescriptor#read
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class InvalidModuleDescriptorException extends RuntimeException {
     @java.io.Serial

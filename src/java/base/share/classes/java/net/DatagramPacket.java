@@ -28,9 +28,9 @@ import java.base.share.classes.jdk.internal.util.Preconditions;
  * {@link InetSocketAddress}, and may support additional {@code SocketAddress}
  * sub-types.
  *
- * @author  Pavani Diwanji
- * @author  Benjamin Renaud
- * @since   1.0
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final
 class DatagramPacket {

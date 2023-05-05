@@ -217,10 +217,11 @@ import java.base.windows.classes.sun.nio.ch.DefaultSelectorProvider;
  *    </li>
  * </ol>
  *
- * @author  Pavani Diwanji
  * @see     java.base.share.classes.java.net.DatagramPacket
  * @see     java.nio.channels.DatagramChannel
- * @since 1.0
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class DatagramSocket implements java.io.Closeable {
 

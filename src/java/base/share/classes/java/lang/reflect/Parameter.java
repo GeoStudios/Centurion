@@ -17,7 +17,9 @@ import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
  * including its name and modifiers.  It also provides an alternate
  * means of obtaining attributes for the parameter.
  *
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class Parameter implements AnnotatedElement {
 

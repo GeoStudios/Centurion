@@ -105,7 +105,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
  * </tr>
  * </tbody>
  * </table>
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface MethodHandleInfo {
     /**

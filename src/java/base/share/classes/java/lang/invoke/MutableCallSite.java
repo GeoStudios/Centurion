@@ -59,8 +59,9 @@ assertEquals("Wilma, dear?", (String) worker2.invokeExact());
  * <p>
  * For target values which will be frequently updated, consider using
  * a {@linkplain VolatileCallSite volatile call site} instead.
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public non-sealed class MutableCallSite extends CallSite {
     /**

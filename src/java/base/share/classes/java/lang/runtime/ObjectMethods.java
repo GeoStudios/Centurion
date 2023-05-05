@@ -27,7 +27,9 @@ import static java.util.Objects.requireNonNull;
  * Java compiler implementations to implement the bodies of {@link Object}
  * methods for record classes.
  *
- * @since 16
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class ObjectMethods {
 

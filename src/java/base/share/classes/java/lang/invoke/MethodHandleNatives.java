@@ -19,7 +19,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL
  * The JVM interface for the method handles package is all here.
  * This is an interface internal and private to an implementation of JSR 292.
  * <em>This class is not part of the JSR 292 standard.</em>
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class MethodHandleNatives {
 

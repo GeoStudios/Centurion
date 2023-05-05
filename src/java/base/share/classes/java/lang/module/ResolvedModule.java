@@ -15,7 +15,9 @@ import java.base.share.classes.java.util.Set;
  * the {@link #reference() reference} method to get the reference to the
  * module's content.
  *
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  * @see Configuration#modules()
  */
 public final class ResolvedModule {

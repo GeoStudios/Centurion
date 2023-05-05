@@ -33,6 +33,10 @@ import java.base.share.classes.jdk.internal.module.ModuleTarget;
  *
  * @implNote The resolver is used at VM startup and so deliberately avoids
  * using lambda and stream usages in code paths used during startup.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 final class Resolver {

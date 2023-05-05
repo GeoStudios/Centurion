@@ -25,7 +25,9 @@ package java.base.share.classes.java.lang.reflect;
  * information.
  *
  * @see java.base.share.classes.java.lang.reflect.Executable#getParameters
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class MalformedParametersException extends RuntimeException {
 

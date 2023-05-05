@@ -16,8 +16,9 @@ import java.util.Map;
  * retrieve cookie for every outgoing HTTP request. A CookieStore
  * is responsible for removing HttpCookie instances which have expired.
  *
- * @author Edward Wang
- * @since 1.6
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface CookieStore {
     /**

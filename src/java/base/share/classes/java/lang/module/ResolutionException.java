@@ -9,7 +9,9 @@ package java.base.share.classes.java.lang.module;
  * service binding, fails.
  *
  * @see Configuration
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class ResolutionException extends RuntimeException {

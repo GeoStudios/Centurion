@@ -109,8 +109,9 @@ import static java.base.share.classes.java.lang.invoke.MethodType.fromDescriptor
  *     for the method type is not a type descriptor.</li>
  * </ul>
  *
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final
 class MethodType

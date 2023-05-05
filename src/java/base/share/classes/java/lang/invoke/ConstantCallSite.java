@@ -11,8 +11,9 @@ import java.base.share.classes.jdk.internal.vm.annotation.Stable;
  * A {@code ConstantCallSite} is a {@link CallSite} whose target is permanent, and can never be changed.
  * An {@code invokedynamic} instruction linked to a {@code ConstantCallSite} is permanently
  * bound to the call site's target.
- * @author John Rose, JSR 292 EG
- * @since 1.7
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public non-sealed class ConstantCallSite extends CallSite {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

@@ -19,8 +19,9 @@ package java.base.share.classes.java.math;
  * subtraction. All other operations occur as with MutableBigIntegers.
  *
  * @see     BigInteger
- * @author  Michael McCloskey
- * @since   1.3
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 class SignedMutableBigInteger extends MutableBigInteger {

@@ -17,8 +17,9 @@ import java.io.IOException;
  * response or writing to the cache, the current cache store operation
  * will be aborted.
  *
- * @author Yingxian Wang
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract class CacheRequest {
 

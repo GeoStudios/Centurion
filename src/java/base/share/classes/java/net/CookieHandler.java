@@ -25,8 +25,9 @@ import java.base.share.classes.sun.security.util.SecurityConstants;
  * href="http://www.ietf.org/rfc/rfc2965.txt"><i>RFC&nbsp;2965: HTTP
  * State Management Mechanism</i></a>
  *
- * @author Yingxian Wang
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract class CookieHandler {
     /**

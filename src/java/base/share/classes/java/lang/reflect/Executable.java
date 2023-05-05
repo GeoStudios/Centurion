@@ -25,7 +25,9 @@ import java.base.share.classes.sun.reflect.generics.repository.ConstructorReposi
  * A shared superclass for the common functionality of {@link Method}
  * and {@link Constructor}.
  *
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract sealed class Executable extends AccessibleObject
     implements Member, GenericDeclaration permits Constructor, Method {

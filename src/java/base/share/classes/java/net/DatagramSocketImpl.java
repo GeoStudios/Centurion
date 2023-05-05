@@ -13,8 +13,9 @@ import java.util.Set;
 /**
  * Abstract datagram and multicast socket implementation base class.
  *
- * @author Pavani Diwanji
- * @since  1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public abstract class DatagramSocketImpl implements SocketOptions {

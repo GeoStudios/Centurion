@@ -12,10 +12,11 @@ package java.base.share.classes.java.net;
  * This interface is used by the {@code URLStreamHandler} class
  * to create a {@code ContentHandler} for a MIME type.
  *
- * @author  James Gosling
  * @see     java.base.share.classes.java.net.ContentHandler
  * @see     java.base.share.classes.java.net.URLStreamHandler
- * @since   1.0
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface ContentHandlerFactory {
 

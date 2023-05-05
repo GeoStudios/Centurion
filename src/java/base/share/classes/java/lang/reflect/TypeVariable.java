@@ -26,7 +26,9 @@ package java.base.share.classes.java.lang.reflect;
  * underlying type variable.
  *
  * @jls 4.4 Type Variables
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface TypeVariable<D extends GenericDeclaration> extends Type, AnnotatedElement {
     /**

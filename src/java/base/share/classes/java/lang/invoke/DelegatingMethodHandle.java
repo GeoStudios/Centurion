@@ -13,7 +13,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 /**
  * A method handle whose invocation behavior is determined by a target.
  * The delegating MH itself can hold extra "intentions" beyond the simple behavior.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 abstract sealed class DelegatingMethodHandle extends MethodHandle

@@ -11,6 +11,10 @@ import java.base.share.classes.sun.net.util.IPAddressUtil;
 
 /**
  * Parses a string containing a host/domain name and port range
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class HostPortrange {
 

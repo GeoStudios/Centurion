@@ -15,6 +15,11 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.TRACE
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 
+/**
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
+ */
 final class BootstrapMethodInvoker {
 
     /**

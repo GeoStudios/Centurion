@@ -275,11 +275,9 @@ import java.util.Objects;
  * @see <a href="https://standards.ieee.org/ieee/754/6210/">
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  *
- * @author  Josh Bloch
- * @author  Mike Cowlishaw
- * @author  Joseph D. Darcy
- * @author  Sergey V. Kuksenko
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class BigDecimal extends Number implements Comparable<BigDecimal> {
     /**

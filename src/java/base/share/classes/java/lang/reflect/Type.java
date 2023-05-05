@@ -17,7 +17,9 @@ package java.base.share.classes.java.lang.reflect;
  * @jls 4.8 Raw Types
  * @jls 4.9 Intersection Types
  * @jls 10.1 Array Types
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface Type {
     /**

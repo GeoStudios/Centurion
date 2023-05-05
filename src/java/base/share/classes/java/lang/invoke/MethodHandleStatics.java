@@ -18,7 +18,9 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.shortenSignatu
  * This class consists exclusively of static names internal to the
  * method handle implementation.
  * Usage:  {@code import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*}
- * @author John Rose, JSR 292 EG
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 class MethodHandleStatics {

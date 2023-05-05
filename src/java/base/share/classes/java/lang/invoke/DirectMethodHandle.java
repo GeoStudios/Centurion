@@ -25,7 +25,9 @@ import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;
 /**
  * The flavor of method handle which implements a constant reference
  * to a class member.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 sealed class DirectMethodHandle extends MethodHandle {
     final MemberName member;

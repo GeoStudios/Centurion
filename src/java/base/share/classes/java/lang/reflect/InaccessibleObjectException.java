@@ -8,7 +8,9 @@ package java.base.share.classes.java.lang.reflect;
  * Thrown when Java language access checks cannot be suppressed.
  *
  * @see AccessibleObject#setAccessible(boolean)
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class InaccessibleObjectException extends RuntimeException {

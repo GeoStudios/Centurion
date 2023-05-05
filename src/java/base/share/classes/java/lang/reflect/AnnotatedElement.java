@@ -245,8 +245,9 @@ import java.base.share.classes.sun.reflect.annotation.AnnotationType;
  * @see AnnotationFormatError
  * @see java.lang.annotation.AnnotationTypeMismatchException
  * @see java.lang.annotation.IncompleteAnnotationException
- * @since 1.5
- * @author Josh Bloch
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface AnnotatedElement {
     /**

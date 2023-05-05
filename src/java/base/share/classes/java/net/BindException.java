@@ -9,7 +9,9 @@ package java.base.share.classes.java.net;
  * socket to a local address and port.  Typically, the port is
  * in use, or the requested local address could not be assigned.
  *
- * @since   1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class BindException extends SocketException {

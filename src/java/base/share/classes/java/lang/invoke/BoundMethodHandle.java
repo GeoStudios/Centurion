@@ -22,6 +22,10 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.uncau
  * when the handle is created, not when it is invoked.
  *
  * All bound arguments are encapsulated in dedicated species.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 abstract non-sealed class BoundMethodHandle extends MethodHandle {

@@ -81,7 +81,9 @@ static Object genericBSM(Lookup lookup, String name, Object type,
 }
  * }</pre></blockquote>
  *
- * @since 1.10
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 // public
 interface BootstrapCallInfo<T> extends ConstantGroup {

@@ -7,7 +7,9 @@ package java.base.share.classes.java.lang.invoke;
 /**
  * LambdaConversionException
  *
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class LambdaConversionException extends Exception {
     @java.io.Serial

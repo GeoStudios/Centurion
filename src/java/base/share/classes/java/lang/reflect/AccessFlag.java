@@ -68,7 +68,9 @@ import static java.base.share.classes.java.util.Map.entry;
  * @see java.lang.module.ModuleDescriptor.Exports.Modifier
  * @see java.lang.module.ModuleDescriptor.Opens.Modifier
  * @see java.compiler/javax.lang.model.element.Modifier
- * @since 20
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 @SuppressWarnings("doclint:reference") // cross-module link
 public enum AccessFlag {

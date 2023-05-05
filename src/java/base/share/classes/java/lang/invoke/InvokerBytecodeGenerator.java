@@ -36,7 +36,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.*;
 /**
  * Code generation backend for LambdaForm.
  * <p>
- * @author John Rose, JSR 292 EG
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class InvokerBytecodeGenerator {
     /** Define class names for convenience. */

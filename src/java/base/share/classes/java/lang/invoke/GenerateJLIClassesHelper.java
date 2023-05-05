@@ -25,6 +25,10 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
 /**
  * Helper class to assist the GenerateJLIClassesPlugin to get access to
  * generate classes ahead of time.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class GenerateJLIClassesHelper {
     // Map from DirectMethodHandle method type name to index to LambdForms

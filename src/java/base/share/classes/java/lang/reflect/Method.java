@@ -44,9 +44,9 @@ import java.base.share.classes.java.util.StringJoiner;
  * @see java.lang.Class#getDeclaredMethods()
  * @see java.lang.Class#getDeclaredMethod(String, Class[])
  *
- * @author Kenneth Russell
- * @author Nakul Saraiya
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class Method extends Executable {
     private final Class<?>            clazz;

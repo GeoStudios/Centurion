@@ -10,7 +10,9 @@ package java.base.share.classes.java.lang.reflect;
  *
  * @see Method
  * @see Constructor
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class InvocationTargetException extends ReflectiveOperationException {
     /**

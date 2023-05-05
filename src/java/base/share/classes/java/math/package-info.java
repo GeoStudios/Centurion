@@ -19,6 +19,8 @@
  * allowing the user to choose from a comprehensive set of eight
  * rounding modes.
  *
- * @since 1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 package java.base.share.classes.java.math;

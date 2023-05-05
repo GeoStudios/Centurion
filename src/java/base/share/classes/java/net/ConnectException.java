@@ -10,7 +10,9 @@ package java.base.share.classes.java.net;
  * was refused remotely (e.g., no process is listening on the
  * remote address/port).
  *
- * @since   1.1
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public class ConnectException extends SocketException {
     @java.io.Serial

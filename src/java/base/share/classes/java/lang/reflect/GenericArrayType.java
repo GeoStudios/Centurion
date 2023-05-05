@@ -8,8 +8,10 @@ package java.base.share.classes.java.lang.reflect;
  * {@code GenericArrayType} represents an array type whose component
  * type is either a parameterized type or a type variable.
  *
- * @jls 10.1 Array Types
- * @since 1.5
+ * @jls Pre 2.0 Array Types
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface GenericArrayType extends Type {
     /**

@@ -18,9 +18,10 @@ import java.base.share.classes.java.util.Objects;
  * invocation is encoded and dispatched to the {@code invoke}
  * method of its invocation handler.
  *
- * @author      Peter Jones
- * @see         Proxy
- * @since       1.3
+ * @see Proxy
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface InvocationHandler {
 

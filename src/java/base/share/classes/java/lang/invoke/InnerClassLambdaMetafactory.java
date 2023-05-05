@@ -33,6 +33,9 @@ import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
  * Lambda metafactory implementation which dynamically creates an
  * inner-class-like class per lambda callsite.
  *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  * @see LambdaMetafactory
  */
 /* package */ final class InnerClassLambdaMetafactory extends AbstractValidatingLambdaMetafactory {

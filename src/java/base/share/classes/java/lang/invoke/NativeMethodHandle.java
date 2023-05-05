@@ -17,6 +17,10 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIn
  * which is used to capture the characteristics of the native call (such as calling convention to be used,
  * or whether a native transition is required) and a <em>fallback</em> method handle, which can be used
  * when intrinsification of this method handle is not possible.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/ final class NativeMethodHandle extends MethodHandle {
     final NativeEntryPoint nep;

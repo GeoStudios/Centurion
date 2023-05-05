@@ -53,7 +53,9 @@ package java.base.share.classes.java.lang.reflect;
  * @see Constructor#newInstance
  * @see Proxy#newProxyInstance
  *
- * @since 1.2
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final
 class ReflectPermission extends java.security.BasicPermission {

@@ -11,7 +11,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 
 /**
  * A method handle whose behavior is determined only by its LambdaForm.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 final class SimpleMethodHandle extends BoundMethodHandle {
 

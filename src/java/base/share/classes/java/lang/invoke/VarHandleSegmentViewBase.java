@@ -6,6 +6,10 @@ package java.base.share.classes.java.lang.invoke;
 
 /**
  * Base class for memory segment var handle view implementations.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 abstract sealed class VarHandleSegmentViewBase extends VarHandle permits

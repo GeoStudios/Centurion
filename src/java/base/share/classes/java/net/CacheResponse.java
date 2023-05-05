@@ -15,8 +15,9 @@ import java.io.IOException;
  * InputStream that returns the entity body, and also a
  * getHeaders() method which returns the associated response headers.
  *
- * @author Yingxian Wang
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public abstract class CacheResponse {
 

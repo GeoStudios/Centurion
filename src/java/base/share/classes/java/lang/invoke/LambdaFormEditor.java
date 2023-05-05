@@ -22,6 +22,10 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.makeIntr
  *  A lambda-form editor can derive new LFs from its base LF.
  *  The editor can cache derived LFs, which simplifies the reuse of their underlying bytecodes.
  *  To support this caching, a LF has an optional pointer to its editor.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 class LambdaFormEditor {
     final LambdaForm lambdaForm;

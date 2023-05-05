@@ -39,11 +39,13 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
 
 /**
  * Trusted implementation code for MethodHandle.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 abstract class MethodHandleImpl {

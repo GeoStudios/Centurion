@@ -11,8 +11,9 @@ package java.base.share.classes.java.net;
  *
  * <p>See RFC 2965 sec. 3.3 and 7 for more detail.
  *
- * @author Edward Wang
- * @since 1.6
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface CookiePolicy {
     /**

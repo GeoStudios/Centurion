@@ -21,7 +21,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIl
  * There are approximately 2000 distinct erased method types in the JDK.
  * There are a little over 10 times that number of unerased types.
  * No more than half of these are likely to be loaded at once.
- * @author John Rose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 final class MethodTypeForm {
     final short parameterSlotCount;

@@ -41,7 +41,9 @@ import java.util.Objects;
  * different deserializations in the same implementation.
  *
  * @see LambdaMetafactory
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class SerializedLambda implements Serializable {
     @java.io.Serial

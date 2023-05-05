@@ -55,7 +55,9 @@ import java.base.share.classes.jdk.internal.module.SystemModuleFinders;
  *
  * <p> A {@code ModuleFinder} is not required to be thread safe. </p>
  *
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public interface ModuleFinder {

@@ -9,8 +9,10 @@ package java.base.share.classes.java.lang.reflect;
  * array type, whose component type may itself represent the annotated use of a
  * type.
  *
- * @jls 10.1 Array Types
- * @since 1.8
+ * @jls Pre 2.0 Array Types
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public interface AnnotatedArrayType extends AnnotatedType {

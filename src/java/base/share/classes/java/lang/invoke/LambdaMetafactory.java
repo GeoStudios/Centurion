@@ -208,7 +208,9 @@ import java.util.Objects;
  * used, but this is not compatible with some implementation techniques and
  * would complicate the work implementations must do.
  *
- * @since 1.8
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class LambdaMetafactory {
 

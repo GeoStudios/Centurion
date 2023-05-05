@@ -76,8 +76,9 @@ import java.base.share.classes.jdk.internal.vm.annotation.Stable;
  *    });
  * }
  *
- * @since 9
- * @see java.lang.ModuleLayer
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class Configuration {
 

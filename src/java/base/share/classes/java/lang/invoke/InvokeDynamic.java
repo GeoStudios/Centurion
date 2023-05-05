@@ -6,6 +6,10 @@ package java.base.share.classes.java.lang.invoke;
 
 /**
  * This is a place-holder class.  Some HotSpot implementations need to see it.
+ *
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 final class InvokeDynamic {
     private InvokeDynamic() { throw new InternalError(); }  // do not instantiate

@@ -11,7 +11,9 @@ package java.base.share.classes.java.lang.module;
  * Configuration.resolve} when resolution fails for observability-related
  * reasons.
  *
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 
 public class FindException extends RuntimeException {

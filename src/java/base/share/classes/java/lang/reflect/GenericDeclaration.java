@@ -7,7 +7,9 @@ package java.base.share.classes.java.lang.reflect;
 /**
  * A common interface for all entities that declare type variables.
  *
- * @since 1.5
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface GenericDeclaration extends AnnotatedElement {
     /**

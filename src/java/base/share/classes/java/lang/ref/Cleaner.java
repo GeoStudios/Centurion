@@ -109,7 +109,9 @@ import java.base.share.classes.java.util.function.Function;
  * and not block. If the cleaning action blocks, it may delay processing
  * other cleaning actions registered to the same cleaner.
  * All cleaning actions registered to a cleaner should be mutually compatible.
- * @since 9
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public final class Cleaner {
 

@@ -21,8 +21,10 @@ package java.base.share.classes.java.lang.reflect;
  * an equals() method that equates any two instances that share the
  * same generic class or interface declaration and have equal type parameters.
  *
- * @jls 4.5 Parameterized Types
- * @since 1.5
+ * @jls Pre 2.0 Parameterized Types
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 public interface ParameterizedType extends Type {
     /**

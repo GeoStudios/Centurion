@@ -42,7 +42,9 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIn
  * allows invocation.  A MemberName is much lighter than a Method,
  * since it contains about 7 fields to the 16 of Method (plus its sub-arrays),
  * and those seven fields omit much of the information in Method.
- * @author jrose
+ * @since Java 2
+ * @author Logan Abernathy
+ * @edited 3/5/2023
  */
 /*non-public*/
 final class ResolvedMethodName {
