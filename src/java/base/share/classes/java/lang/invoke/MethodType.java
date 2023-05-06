@@ -109,7 +109,7 @@ import static java.base.share.classes.java.lang.invoke.MethodType.fromDescriptor
  *     for the method type is not a type descriptor.</li>
  * </ul>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

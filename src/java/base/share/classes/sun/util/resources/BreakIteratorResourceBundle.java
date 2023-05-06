@@ -25,7 +25,7 @@ import java.util.Set;
  * "thai_dict".  Its data thai_dict is loaded from the Module of the
  * implementation class of this class.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -15,7 +15,7 @@ import javax.crypto.SecretKey;
  * <code>generateKey()</code> method of KeyGenerators of the type
  * "TlsMasterSecret".
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  * @deprecated Sun JDK internal use only --- WILL BE REMOVED in a future

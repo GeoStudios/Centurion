@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
  * This interface allows GHASH.java and GCTR.java to easily operate to
  * better operate with GaloisCounterMode.java
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

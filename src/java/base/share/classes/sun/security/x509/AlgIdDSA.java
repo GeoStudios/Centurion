@@ -49,7 +49,7 @@ import sun.security.util.*;
  * @see java.security.KeyFactory
  * @see java.security.spec.DSAPublicKeySpec
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

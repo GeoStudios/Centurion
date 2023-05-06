@@ -18,7 +18,7 @@ import java.util.Objects;
  * thread that was reading data bytes from the connected piped input
  * stream is no longer alive.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see     java.base.share.classes.java.io.PipedInputStream

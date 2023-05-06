@@ -30,7 +30,7 @@ import ca.weblite.objc.jna.PointerTool;
  * <p>NSObjectMapping class.</p>
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public class NSObjectMapping implements TypeMapping {
     /**

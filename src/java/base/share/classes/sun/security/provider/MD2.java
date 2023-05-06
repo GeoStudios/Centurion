@@ -12,7 +12,7 @@ import java.util.Arrays;
  * RSA/Verisign root certificates signed using MD2withRSA. It should not
  * be used for anything else.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -8,7 +8,7 @@ package java.base.share.classes.java.lang;
  * Thrown to indicate that the Java Virtual Machine is broken or has
  * run out of resources necessary for it to continue operating.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

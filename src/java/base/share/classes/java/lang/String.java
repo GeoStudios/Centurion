@@ -106,7 +106,7 @@ import java.base.share.classes.sun.nio.cs.UTF_8;
  * implementation of string conversion is typically through the method {@code toString},
  * defined by {@code Object} and inherited by all classes in Java.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see     java.base.share.classes.java.lang.Object#toString()

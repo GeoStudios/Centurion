@@ -18,7 +18,7 @@ import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;
  * certification path meets the specified target constraints specified as
  * a CertSelector in the PKIXParameters passed to the CertPathValidator.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

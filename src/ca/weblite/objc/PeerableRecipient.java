@@ -22,7 +22,7 @@ package ca.weblite.objc;
  * be called from objective-C.
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public interface PeerableRecipient extends Peerable, Recipient {
 

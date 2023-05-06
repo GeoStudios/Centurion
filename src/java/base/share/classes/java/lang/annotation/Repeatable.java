@@ -11,7 +11,7 @@ package java.base.share.classes.java.lang.annotation;
  * {@code @Repeatable} indicates the <em>containing annotation
  * interface</em> for the repeatable annotation interface.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 9.6.3 Repeatable Annotation Interfaces

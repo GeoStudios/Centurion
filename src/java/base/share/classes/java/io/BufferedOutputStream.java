@@ -14,7 +14,7 @@ import java.base.share.classes.jdk.internal.misc.VM;
  * output stream without necessarily causing a call to the underlying
  * system for each byte written.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

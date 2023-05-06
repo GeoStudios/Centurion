@@ -18,7 +18,7 @@ package java.base.share.classes.sun.security.util;
  * statements have been omitted to help prevent accidental use of classes that
  * may not be available during boot.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

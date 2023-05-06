@@ -36,7 +36,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.*;
 /**
  * Code generation backend for LambdaForm.
  * <p>
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

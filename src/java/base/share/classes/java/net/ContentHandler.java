@@ -58,7 +58,7 @@ import java.io.IOException;
  * @see     java.base.share.classes.java.net.URLConnection
  * @see     java.base.share.classes.java.net.URLConnection#getContent()
  * @see     java.base.share.classes.java.net.URLConnection#setContentHandlerFactory(java.base.share.classes.java.net.ContentHandlerFactory)
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

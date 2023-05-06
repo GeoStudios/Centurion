@@ -8,7 +8,7 @@ package java.base.share.classes.java.lang;
  * Thrown to indicate that an array has been accessed with an illegal index. The
  * index is either negative or greater than or equal to the size of the array.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

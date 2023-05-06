@@ -25,7 +25,7 @@ package java.base.share.classes.java.lang;
  * @param <T> the type of the inheritable thread local's value
  *
  * @see     ThreadLocal
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see Thread.Builder#inheritInheritableThreadLocals(boolean)

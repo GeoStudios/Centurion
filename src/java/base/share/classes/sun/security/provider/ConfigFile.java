@@ -75,7 +75,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * @see javax.security.auth.login.LoginContext
  * @see java.security.Security security properties
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

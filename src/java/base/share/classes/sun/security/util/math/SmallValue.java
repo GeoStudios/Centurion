@@ -10,7 +10,7 @@ package java.base.share.classes.sun.security.util.math;
  * known to be small, where the definition of small is specific to the
  * arithmetic implementation.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -10,7 +10,7 @@ import java.util.Objects;
  * A character-stream reader that allows characters to be pushed back into the
  * stream.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

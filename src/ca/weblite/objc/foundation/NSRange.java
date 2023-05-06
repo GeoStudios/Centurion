@@ -26,7 +26,7 @@ import java.util.List;
  *  receives an NSRange as an input, you can use this structure.
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public class NSRange extends Structure {
 

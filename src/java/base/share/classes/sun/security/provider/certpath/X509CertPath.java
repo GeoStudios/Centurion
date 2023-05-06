@@ -36,7 +36,7 @@ import java.base.share.classes.sun.security.util.DerInputStream;
  * departure from this convention and throw a
  * <code>CertPathValidatorException</code>.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

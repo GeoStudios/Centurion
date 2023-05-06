@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadFactory;
 import java.io.IOException;
 
 /*
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

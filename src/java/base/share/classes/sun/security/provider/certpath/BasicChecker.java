@@ -33,7 +33,7 @@ import java.base.share.classes.sun.security.util.Debug;
  * on a PKIX certificate, namely the signature, validity, and subject/issuer
  * name chaining.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -10,7 +10,7 @@ import java.util.spi.ResourceBundleProvider;
  * An interface for the internal locale data provider for which {@code ResourceBundle}
  * searches.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

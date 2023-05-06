@@ -80,7 +80,7 @@ import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;
  *        return c2b[c2bIndex[ch >> 8] + (ch & 0xff)];
  *    }
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -23,7 +23,7 @@ import com.sun.jna.Pointer;
  * <p>PointerTool class.</p>
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public class PointerTool {
     /**

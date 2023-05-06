@@ -21,7 +21,7 @@ import static java.base..classes.sun.nio.fs.UnixConstants.*;
  * cause the thread to wakeup and process the request. Events are processed
  * by the thread which causes it to signal/queue the corresponding watch keys.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

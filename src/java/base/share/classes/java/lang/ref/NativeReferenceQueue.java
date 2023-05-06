@@ -10,7 +10,7 @@ package java.base.share.classes.java.lang.ref;
  * such as virtual threads and ForkJoinPool, that might not be appropriate for some
  * low-level mechanisms, in particular MethodType's weak intern set.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

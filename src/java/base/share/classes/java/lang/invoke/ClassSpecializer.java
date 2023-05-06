@@ -38,7 +38,7 @@ import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
  * @param <K> key which identifies individual specializations.
  * @param <S> species data type.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

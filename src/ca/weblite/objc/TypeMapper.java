@@ -33,7 +33,7 @@ import ca.weblite.objc.mappers.StructureMapping;
  * are mapped as Proxy wrapper objects.
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 
 public class TypeMapper implements TypeMapping {

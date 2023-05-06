@@ -43,7 +43,7 @@ import java.util.regex.Matcher;
  * See the "jdk.certpath.disabledAlgorithms" specification in java.security
  * for the syntax of the disabled algorithm string.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

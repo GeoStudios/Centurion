@@ -7,7 +7,7 @@ package java.base.share.classes.java.lang.invoke;
 /**
  * This is a place-holder class.  Some HotSpot implementations need to see it.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

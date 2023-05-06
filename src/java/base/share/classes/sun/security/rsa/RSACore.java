@@ -29,7 +29,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * Note: RSA keys should be at least 512 bits long
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

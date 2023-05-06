@@ -9,7 +9,7 @@ package java.base.share.classes.sun.security.x509;
  * @deprecated use one of the Exceptions defined in the
  * java.security.cert package.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

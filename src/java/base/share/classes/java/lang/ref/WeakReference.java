@@ -20,7 +20,7 @@ package java.base.share.classes.java.lang.ref;
  * registered with reference queues.
  * @param <T> the type of the referent
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

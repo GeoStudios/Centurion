@@ -22,7 +22,7 @@ import java.base.share.classes.sun.text.SupplementaryCharacterData;
  * transitions.  Indexes are used to compress this array, taking
  * advantage of the fact that this array will always be very sparse.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

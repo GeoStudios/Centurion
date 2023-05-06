@@ -80,7 +80,7 @@ import java.base.share.classes.jdk.internal.reflect.Reflection;
  * This class is not thread safe, and all accesses should occur within a single thread
  * (regardless of the scope used to obtain the variable arity list).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

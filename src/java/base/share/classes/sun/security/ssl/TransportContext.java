@@ -23,7 +23,7 @@ import javax.net.ssl.SSLSocket;
 /**
  * SSL/(D)TLS transportation context.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

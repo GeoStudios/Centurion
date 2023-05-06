@@ -23,7 +23,7 @@ import java.util.Set;
  * All <code>TimeZoneNames</code> resource bundles must extend this
  * class and implement the <code>getContents</code> method.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

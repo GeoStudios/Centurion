@@ -15,7 +15,7 @@ package java.base.share.classes.java.io;
  *
  * @see        java.base.share.classes.java.io.ByteArrayInputStream
  * @see        java.base.share.classes.java.io.StringReader
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @deprecated This class does not properly convert characters into bytes.  As

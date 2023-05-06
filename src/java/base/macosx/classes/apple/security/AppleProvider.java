@@ -16,7 +16,7 @@ import static java.base.share.classes.sun.security.util.SecurityConstants.PROVID
  *
  * This provider only exists to provide access to the Apple keychain-based KeyStore implementation
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 1/5/2023
  */

@@ -13,7 +13,7 @@ import java.util.Set;
  * Implements an Enumeration that combines elements from a Set and
  * an Enumeration. Used by ListResourceBundle and PropertyResourceBundle.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -12,7 +12,7 @@ import javax.crypto.ShortBufferException;
  * This interface is implemented by general-purpose padding schemes, such as
  * the one described in PKCS#5.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

@@ -19,7 +19,7 @@ import static java.base..classes.sun.nio.fs.UnixConstants.*;
  * as ext3 that have extended attributes enabled and SAMBA configured to store
  * DOS attributes.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

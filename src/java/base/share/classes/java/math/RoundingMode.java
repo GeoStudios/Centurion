@@ -91,7 +91,7 @@ package java.base.share.classes.java.math;
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  * @jls 15.4 Floating-point Expressions
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

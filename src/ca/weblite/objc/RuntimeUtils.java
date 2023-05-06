@@ -53,7 +53,7 @@ import ca.weblite.nativeutils.NativeUtils;
  *
  * @see <a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">Objective-C Runtime Reference</a>
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 
 public class RuntimeUtils {

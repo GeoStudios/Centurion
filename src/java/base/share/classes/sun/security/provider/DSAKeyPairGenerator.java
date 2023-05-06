@@ -20,7 +20,7 @@ import static java.base.share.classes.sun.security.util.SecurityProviderConstant
  * pairs according to the DSS standard NIST FIPS 186. It uses the
  * updated version of SHA, SHA-1 as described in FIPS 180-1.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  *

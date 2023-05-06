@@ -16,7 +16,7 @@ import static java.util.Objects.requireNonNull;
  * unless the argument is specified to be unused or specified to accept a
  * {@code null} value.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

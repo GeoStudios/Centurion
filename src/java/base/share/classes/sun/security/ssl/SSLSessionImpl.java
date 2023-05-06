@@ -51,7 +51,7 @@ import javax.net.ssl.SSLSessionContext;
  * there's no other public way to get at the server session context which
  * is associated with any given authentication context. </em>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

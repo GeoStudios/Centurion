@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.util.DerInputStream;
 /**
  * A PKCS#8 private key for the Digital Signature Algorithm.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  * @see DSAPublicKey

@@ -30,7 +30,7 @@ import com.sun.jna.Pointer;
  * @see RuntimeUtils#msg(Message...)
  * @see Proxy#send(Message...)
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 
 public class Message {

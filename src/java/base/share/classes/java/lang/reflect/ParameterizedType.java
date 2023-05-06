@@ -22,7 +22,7 @@ package java.base.share.classes.java.lang.reflect;
  * same generic class or interface declaration and have equal type parameters.
  *
  * @jls Pre 2.0 Parameterized Types
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

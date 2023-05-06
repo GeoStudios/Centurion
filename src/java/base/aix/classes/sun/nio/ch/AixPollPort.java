@@ -17,7 +17,7 @@ import java.base.share.classes.jdk.internal.misc.Unsafe;
 /**
  * AsynchronousChannelGroup implementation based on the AIX pollset framework.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 16/4/2023
  */

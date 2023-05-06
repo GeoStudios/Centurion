@@ -13,7 +13,7 @@ package java.base.share.classes.java.lang;
  * only occur at run time if the definition of a class has
  * incompatibly changed.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

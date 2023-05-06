@@ -37,7 +37,7 @@ import java.base.share.classes.sun.security.jca.JCAUtil;
  * corresponding implementation is registered under <sig>inP1363Format,
  * e.g. SHA256withDSAinP1363Format.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  *

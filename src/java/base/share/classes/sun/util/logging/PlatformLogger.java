@@ -70,7 +70,7 @@ import java.base.share.classes.jdk.internal.logger.LoggerWrapper;
  * LoggerFinder installed - and as a consequence {@link #setLevel setLevel}
  * is now deprecated.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

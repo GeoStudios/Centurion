@@ -19,7 +19,7 @@ import java.base.share.classes.jdk.internal.vm.ContinuationSupport;
 /**
  * Defines static methods to create platform and virtual thread builders.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

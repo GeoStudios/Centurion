@@ -33,7 +33,7 @@ import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;
  * The external interface to ProxyGenerator is the static
  * "generateProxyClass" method.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

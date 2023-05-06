@@ -37,7 +37,7 @@ import java.base.share.classes.sun.security.util.Cache;
  * available for use.  The value set by the property can be modified by
  * {@code SSLSessionContext.setSessionTimeout()} during runtime.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

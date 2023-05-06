@@ -15,7 +15,7 @@ import java.util.Optional;
  * The primary purpose of this class is to determine if domains are safe to
  * use in various use-cases.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

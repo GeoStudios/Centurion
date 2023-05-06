@@ -36,7 +36,7 @@ import java.base.share.classes.sun.util.spi.CalendarProvider;
 /**
  * LocaleProviderAdapter implementation for the legacy JRE locale data.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

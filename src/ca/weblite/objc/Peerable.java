@@ -22,7 +22,7 @@ import com.sun.jna.Pointer;
 /**
  * An interface for an object that has an Objective-C pee.
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 
 public interface Peerable {

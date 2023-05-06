@@ -8,7 +8,7 @@ package java.base.share.classes.java.lang;
  * Thrown to indicate some unexpected internal error has occurred in
  * the Java Virtual Machine.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

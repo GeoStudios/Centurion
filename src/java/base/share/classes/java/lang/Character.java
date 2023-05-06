@@ -147,7 +147,7 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_N
  * use instances for synchronization, or unpredictable behavior may
  * occur. For example, in a future release, synchronization may fail.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

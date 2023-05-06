@@ -14,7 +14,7 @@ import java.security.*;
  * desired length. MGF1 is a mask generation function based on a hash
  * function, i.e. message digest algorithm.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

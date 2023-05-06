@@ -20,7 +20,7 @@ import java.util.TimeZone;
  * Nachum Dershowitz and Edward M. Reingold, <I>CALENDRICAL
  * CALCULATION The Millennium Edition</I>, Section 1.2 for details.)
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

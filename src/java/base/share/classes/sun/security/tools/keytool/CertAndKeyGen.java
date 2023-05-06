@@ -38,7 +38,7 @@ import java.base.share.classes.sun.security.x509.*;
  * acquired through this interface.  Diffie-Hellman keys, used for secure
  * key exchange, may be supported later.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see PKCS10

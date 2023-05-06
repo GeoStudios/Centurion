@@ -68,7 +68,7 @@ import static java.base.share.classes.java.util.Map.entry;
  * @see java.lang.module.ModuleDescriptor.Exports.Modifier
  * @see java.lang.module.ModuleDescriptor.Opens.Modifier
  * @see java.compiler/javax.lang.model.element.Modifier
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

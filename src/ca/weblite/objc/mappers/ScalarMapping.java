@@ -23,7 +23,7 @@ import ca.weblite.objc.TypeMapping;
  * <p>ScalarMapping class.</p>
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public class ScalarMapping implements TypeMapping {
     /**

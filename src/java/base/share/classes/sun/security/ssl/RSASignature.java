@@ -25,7 +25,7 @@ import java.security.spec.AlgorithmParameterSpec;
  *
  * This class is not thread safe.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

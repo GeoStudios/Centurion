@@ -13,7 +13,7 @@ import java.util.spi.LocaleServiceProvider;
  * LocaleProviderAdapter implementation for the host locale data.
  * Currently it is only implemented on Windows Vista or later.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

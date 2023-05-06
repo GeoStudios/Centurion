@@ -37,7 +37,7 @@ import java.util.Arrays;
  *
  * @see     java.base.share.classes.java.io.StreamTokenizer#nextToken()
  * @see     java.base.share.classes.java.io.StreamTokenizer#TT_EOF
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

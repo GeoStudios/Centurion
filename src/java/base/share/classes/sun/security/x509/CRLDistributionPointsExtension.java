@@ -50,7 +50,7 @@ import sun.security.util.ObjectIdentifier;
  * CRLDistPointsSyntax ::= SEQUENCE SIZE (1..MAX) OF DistributionPoint
  * </pre>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @see DistributionPoint

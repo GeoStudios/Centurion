@@ -19,7 +19,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * Please note that multiple sections might have the same name, and they
  * all belong to a single Entry.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

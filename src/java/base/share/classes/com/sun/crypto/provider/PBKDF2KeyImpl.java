@@ -30,7 +30,7 @@ import java.base.share.classes.jdk.internal.ref.CleanerFactory;
  *    to bytes using UTF-8 character encoding.
  * 2) salt, iteration count, and to be derived key length are supplied
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

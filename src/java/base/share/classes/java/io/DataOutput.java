@@ -20,7 +20,7 @@ package java.base.share.classes.java.io;
  * a byte cannot be written for any reason,
  * an {@code IOException} is thrown.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  * @see     java.base.share.classes.java.io.DataInput

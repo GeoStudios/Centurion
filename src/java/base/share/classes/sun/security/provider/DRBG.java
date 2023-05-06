@@ -35,7 +35,7 @@ import static java.security.DrbgParameters.Capability.*;
  * The default value is also mentioned in the @implNote part of
  * {@link DrbgParameters} class.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

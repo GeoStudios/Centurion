@@ -66,7 +66,7 @@ import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
  * {@code IllegalArgumentException} if the created method handle's type
  * would have <a href="MethodHandle.html#maxarity">too many parameters</a>.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

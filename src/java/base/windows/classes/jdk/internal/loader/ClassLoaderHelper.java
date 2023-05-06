@@ -14,7 +14,7 @@ class ClassLoaderHelper {
      * Returns true if loading a native library only if
      * it's present on the file system.
      *
-     * @since Java 1
+     * @since Alpha cdk-1.0
      * @author Logan Abernathy
      * @edited 18/4/2023
      */

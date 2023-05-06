@@ -10,7 +10,7 @@ package java.base.share.classes.sun.text;
  * If a key is not found, the defaultValue is returned.
  * Note: the keys are limited to values above Integer.MIN_VALUE+1.<br>
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

@@ -18,7 +18,7 @@ import java.security.InvalidKeyException;
  * fairly slow process, we use the int type throughout and manually insert
  * "& 0xffff" where necessary.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

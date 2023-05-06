@@ -10,7 +10,7 @@ package java.base.share.classes.java.lang.reflect;
  * annotated uses of types.
  *
  * @jls 4.5.1 Type Arguments of Parameterized Types
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

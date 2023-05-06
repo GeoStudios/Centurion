@@ -14,7 +14,7 @@ import javax.crypto.*;
  * This class contains a few static methods for interaction with the JCA/JCE
  * to obtain implementations, etc.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

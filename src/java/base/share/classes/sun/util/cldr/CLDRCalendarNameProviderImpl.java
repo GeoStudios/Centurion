@@ -13,7 +13,7 @@ import sun.util.locale.provider.CalendarNameProviderImpl;
 import sun.util.locale.provider.LocaleProviderAdapter;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

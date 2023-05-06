@@ -11,7 +11,7 @@ import java.io.IOException;
  * a {@code Readable} are made available to callers of the read
  * method via a {@link java.nio.CharBuffer CharBuffer}.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

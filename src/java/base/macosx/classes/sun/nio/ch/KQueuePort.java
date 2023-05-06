@@ -18,7 +18,7 @@ import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_ONESHOT;
 /**
  * AsynchronousChannelGroup implementation based on the BSD kqueue facility.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

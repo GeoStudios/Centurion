@@ -53,7 +53,7 @@ import java.base.share.classes.jdk.internal.misc.TerminatingThreadLocal;
  * @param <T> the type of the thread local's value
  *
  * @author  Josh Bloch and Doug Lea
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

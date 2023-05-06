@@ -54,7 +54,7 @@ import java.util.NoSuchElementException;
  * <p> In the JDK build, subclasses of this class are typically created via the
  * {@code Hasher} program in the {@code make/tools/Hasher} directory.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  *

@@ -22,7 +22,7 @@ import java.base.share.classes.sun.security.validator.Validator;
  * immutable, except that the context initialization (SSLContext.init()) may
  * reset the key, trust managers and source of secure random.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

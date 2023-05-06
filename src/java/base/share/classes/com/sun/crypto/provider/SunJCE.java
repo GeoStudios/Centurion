@@ -16,7 +16,7 @@ import static java.base.share.classes.sun.security.util.SecurityProviderConstant
 /**
  * The "SunJCE" Cryptographic Service Provider.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

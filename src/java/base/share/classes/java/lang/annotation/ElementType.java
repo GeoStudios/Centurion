@@ -46,7 +46,7 @@ package java.base.share.classes.java.lang.annotation;
  * variables of other classes to be non-null or not non-null based on whether
  * {@code @NonNull} appears at the variable's declaration.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 30/4/2023
  * @jls 9.6.4.1 @Target

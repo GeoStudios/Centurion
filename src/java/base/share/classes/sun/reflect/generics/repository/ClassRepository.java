@@ -17,7 +17,7 @@ import java.base.share.classes.sun.reflect.generics.parser.SignatureParser;
  * The code is not dependent on a particular reflective implementation.
  * It is designed to be used unchanged by at least core reflection and JDI.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

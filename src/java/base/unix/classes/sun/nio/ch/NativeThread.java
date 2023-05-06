@@ -16,7 +16,7 @@ package java.base.unix.classes.sun.nio.ch;
 // always returns -1 and the signal(long) method has no effect.
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

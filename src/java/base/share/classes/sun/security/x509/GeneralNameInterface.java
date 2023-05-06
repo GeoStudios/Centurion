@@ -10,7 +10,7 @@ import sun.security.util.*;
  * This interface specifies the abstract methods which have to be
  * implemented by all the members of the GeneralNames ASN.1 object.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

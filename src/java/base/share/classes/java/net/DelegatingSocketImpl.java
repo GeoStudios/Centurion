@@ -15,7 +15,7 @@ import java.base.share.classes.sun.net.PlatformSocketImpl;
 /**
  * A SocketImpl that delegates all methods to another SocketImpl.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

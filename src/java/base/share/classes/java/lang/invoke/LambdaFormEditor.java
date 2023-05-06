@@ -23,7 +23,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.makeIntr
  *  The editor can cache derived LFs, which simplifies the reuse of their underlying bytecodes.
  *  To support this caching, a LF has an optional pointer to its editor.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

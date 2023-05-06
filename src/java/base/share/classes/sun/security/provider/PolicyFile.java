@@ -217,7 +217,7 @@ import static java.base.share.classes.jdk.internal.access.JavaSecurityAccess.Pro
  * @see java.security.CodeSource
  * @see java.security.Permissions
  * @see java.security.ProtectionDomain
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

@@ -22,7 +22,7 @@ import java.base.share.classes.sun.util.ResourceBundleEnumeration;
  * adds a method createMap which allows subclasses to
  * use specialized Map implementations.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

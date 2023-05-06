@@ -13,7 +13,7 @@ import sun.security.util.*;
 /**
  * This class defines the X509Key attribute for the Certificate.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @see DerEncoder

@@ -25,7 +25,7 @@ import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
  * Parser for Java programming language annotations.  Translates
  * annotation byte streams emitted by compiler into annotation objects.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

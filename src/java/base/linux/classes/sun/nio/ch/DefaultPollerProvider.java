@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Default PollerProvider for Linux.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

@@ -8,7 +8,7 @@ package java.base.share.classes.sun.security.jca;
  * Simple class encapsulating a service type and algorithm for lookup.
  * Put in a separate file rather than nested to allow import via ...jca.*.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

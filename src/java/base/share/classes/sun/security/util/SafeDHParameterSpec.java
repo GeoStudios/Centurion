@@ -12,7 +12,7 @@ import javax.crypto.spec.DHParameterSpec;
  * only be used with trusted callers since it does not have all the needed
  * values for validation.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

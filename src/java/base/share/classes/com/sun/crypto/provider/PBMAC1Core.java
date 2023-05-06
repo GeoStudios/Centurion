@@ -17,7 +17,7 @@ import java.security.spec.*;
  * This is an implementation of the PBMAC1 algorithms as defined
  * in PKCS#5 v2.1 standard.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

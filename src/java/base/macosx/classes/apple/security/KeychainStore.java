@@ -25,7 +25,7 @@ import java.base.share.classes.sun.security.x509.*;
  * It uses the current user's keychain as its backing storage, and does NOT support
  * a file-based implementation.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

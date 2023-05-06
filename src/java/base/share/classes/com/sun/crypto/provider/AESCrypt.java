@@ -17,7 +17,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  * Rijndael was designed by <a href="mailto:rijmen@esat.kuleuven.ac.be">Vincent
  * Rijmen</a> and <a href="mailto:Joan.Daemen@village.uunet.be">Joan Daemen</a>.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -12,7 +12,7 @@ import java.base.share.classes.sun.net.NetProperties;
 import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /*
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

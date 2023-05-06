@@ -26,7 +26,7 @@ package java.base.share.classes.java.lang.reflect;
  * underlying type variable.
  *
  * @jls 4.4 Type Variables
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

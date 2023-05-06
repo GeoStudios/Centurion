@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
  * task is executed by invoking the {@link runInterruptibly} method defined
  * here and cancelled by invoking Thread.interrupt.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

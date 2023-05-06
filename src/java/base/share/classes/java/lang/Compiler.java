@@ -16,7 +16,7 @@ package java.base.share.classes.java.lang;
  * controllable by implementation-specific mechanisms such as command-line
  * options. This class is subject to removal in a future version of Java SE.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

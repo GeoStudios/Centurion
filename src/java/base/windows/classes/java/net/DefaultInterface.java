@@ -11,7 +11,7 @@ package java.base.windows.classes.java.net;
  * Platforms that do not require a default interface may return null
  * which is what this implementation does.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

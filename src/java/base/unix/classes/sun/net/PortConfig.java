@@ -11,7 +11,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
  * If this cannot be determined, then the default settings
  * of the OS are returned.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

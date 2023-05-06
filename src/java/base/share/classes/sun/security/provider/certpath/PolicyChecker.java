@@ -30,7 +30,7 @@ import java.base.share.classes.sun.security.x509.InhibitAnyPolicyExtension;
  * information on a PKIX certificate, namely certificate policies, policy
  * mappings, policy constraints and policy qualifiers.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

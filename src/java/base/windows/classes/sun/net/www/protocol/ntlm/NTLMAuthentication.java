@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
 /**
  * NTLMAuthentication:
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

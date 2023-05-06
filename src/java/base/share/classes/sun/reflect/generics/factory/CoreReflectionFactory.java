@@ -22,7 +22,7 @@ import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
  * Factory for reflective generic type objects for use by
  * core reflection (java.lang.reflect).
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

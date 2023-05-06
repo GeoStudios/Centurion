@@ -46,7 +46,7 @@ import static java.util.Objects.requireNonNull;
  * @see     java.util.EnumMap
  * @jls 8.9 Enum Classes
  * @jls 8.9.3 Enum Members
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

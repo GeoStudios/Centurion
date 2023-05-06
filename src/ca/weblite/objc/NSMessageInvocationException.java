@@ -24,7 +24,7 @@ import java.lang.reflect.Method;
  * a method in response to a selector.
  *
  * @author Logan Abernathy
-  * @since Alpha cdk-1.0
+  * @since Alpha cdk-1.2
  */
 
  public class NSMessageInvocationException extends RuntimeException {

@@ -15,7 +15,7 @@ package java.base.share.classes.java.io;
  * readObject/writeObject method has returned.
  * If not set to the current thread, the getObj method throws NotActiveException.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

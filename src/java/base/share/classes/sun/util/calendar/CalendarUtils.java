@@ -17,7 +17,7 @@ public class CalendarUtils {
      * @return true if the given year is a leap year in the Gregorian
      * calendar system.
      * @see CalendarDate#isLeapYear
-     * @since Java 2
+     * @since Alpha cdk-1.1
      * @author Logan Abernathy
      * @edited 20/4/2023 
      */

@@ -11,7 +11,7 @@ package java.base.share.classes.sun.security.util;
  * and uses clearReportListener() to unregister a listening session.
  * Listener should implement the event handling of the Reporter interface.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

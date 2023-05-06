@@ -8,7 +8,7 @@ import java.base.share.classes.jdk.internal.icu.impl.NormalizerImpl;
 import java.base.share.classes.jdk.internal.icu.text.NormalizerBase;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

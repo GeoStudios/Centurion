@@ -24,7 +24,7 @@ package java.base.share.classes.java.lang;
  * non-I/O-based forms, {@code try}-with-resources blocks are in
  * general unnecessary when using non-I/O-based forms.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

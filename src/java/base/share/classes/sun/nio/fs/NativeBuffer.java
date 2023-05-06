@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 /**
  * A light-weight buffer in native memory.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

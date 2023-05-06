@@ -11,7 +11,7 @@ import java.util.Objects;
  * This class implements a character buffer that can be used as a
  * character-input stream.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

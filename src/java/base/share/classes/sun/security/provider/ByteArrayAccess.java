@@ -19,7 +19,7 @@ import java.nio.ByteOrder;
  * crypto code in the SunJCE provider. However, for now it is only accessible by
  * the message digest implementation in the SUN provider.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

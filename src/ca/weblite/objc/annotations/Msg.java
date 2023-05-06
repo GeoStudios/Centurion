@@ -39,7 +39,7 @@ import java.lang.annotation.Target;
  * <script src="https://gist.github.com/3970000.js?file=TestMsg.java"></script>
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)

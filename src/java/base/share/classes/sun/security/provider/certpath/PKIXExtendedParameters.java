@@ -20,7 +20,7 @@ import java.util.Set;
  * and a string for the variant type, can be passed when doing certpath
  * checking.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

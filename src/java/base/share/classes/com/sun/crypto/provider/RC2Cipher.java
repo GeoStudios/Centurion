@@ -15,7 +15,7 @@ import javax.crypto.spec.RC2ParameterSpec;
  * JCE CipherSpi for the RC2(tm) algorithm as described in RFC 2268.
  * The real code is in CipherCore and RC2Crypt.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

@@ -13,7 +13,7 @@ package java.base.share.classes.java.io;
  * should override some of these methods and may also provide
  * additional methods and fields.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

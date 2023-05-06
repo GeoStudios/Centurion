@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * some dependency on another class; however, the latter class has
  * incompatibly changed after the compilation of the former class.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

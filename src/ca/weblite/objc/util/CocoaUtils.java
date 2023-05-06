@@ -25,7 +25,7 @@ import ca.weblite.objc.annotations.Msg;
  * <p>CocoaUtils class.</p>
  *
  * @author Logan Abernathy
- * @since Alpha cdk-1.0
+ * @since Alpha cdk-1.2
  */
 public class CocoaUtils {
 

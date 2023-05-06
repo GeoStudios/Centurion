@@ -16,7 +16,7 @@ import java.base.share.classes.jdk.internal.access.JavaLangAccess;
  * Represents an annotation type at run time.  Used to type-check annotations
  * and apply member defaults.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

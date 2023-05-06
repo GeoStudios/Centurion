@@ -24,7 +24,7 @@ import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
  * This class is a helper class which construct key objects
  * from encoded keys.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

@@ -13,7 +13,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
 /**
  * A method handle whose invocation behavior is determined by a target.
  * The delegating MH itself can hold extra "intentions" beyond the simple behavior.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

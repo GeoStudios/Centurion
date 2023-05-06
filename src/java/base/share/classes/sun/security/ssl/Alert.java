@@ -15,7 +15,7 @@ import javax.net.ssl.SSLProtocolException;
 /**
  * SSL/(D)TLS Alter description
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

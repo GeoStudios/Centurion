@@ -11,7 +11,7 @@ import java.security.cert.CertPathBuilderException;
  * It contains an adjacency list with information regarding the unsuccessful
  * paths that the SunCertPathBuilder tried.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see         CertPathBuilderException

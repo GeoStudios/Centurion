@@ -208,7 +208,7 @@ import java.util.Objects;
  * used, but this is not compatible with some implementation techniques and
  * would complicate the work implementations must do.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

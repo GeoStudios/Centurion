@@ -15,7 +15,7 @@ import java.util.Objects;
  * {@code OutputStream} must always provide at least a method
  * that writes one byte of output.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see     java.base.share.classes.java.io.BufferedOutputStream

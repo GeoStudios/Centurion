@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.x509.X500Name;
 /**
  * A SignerInfo, as defined in PKCS#7's signedData type.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

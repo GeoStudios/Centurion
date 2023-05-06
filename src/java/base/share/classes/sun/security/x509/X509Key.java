@@ -32,7 +32,7 @@ import sun.security.util.*;
  * provided, it is used when parsing X.509 keys.  If one is not provided,
  * the key still parses correctly.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

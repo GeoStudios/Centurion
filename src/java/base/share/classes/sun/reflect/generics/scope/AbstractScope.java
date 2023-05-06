@@ -15,7 +15,7 @@ import java.lang.reflect.TypeVariable;
  * <p> To subclass this, all one needs to do is implement
  * {@code computeEnclosingScope} and the subclass' constructor.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

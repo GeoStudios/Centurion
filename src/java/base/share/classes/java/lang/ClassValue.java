@@ -20,7 +20,7 @@ import static java.base.share.classes.java.lang.ClassValue.ClassValueMap.probeBa
  * it can use a {@code ClassValue} to cache information needed to
  * perform the message send quickly, for each class encountered.
  * @param <T> the type of the derived value
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

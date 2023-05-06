@@ -19,7 +19,7 @@ import static java.base.share.classes.com.sun.crypto.provider.KWUtil.*;
  * "Recommendation for Block Cipher Modes of Operation: Methods for Key Wrapping"</a>
  * and represents AES cipher in KWP mode.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

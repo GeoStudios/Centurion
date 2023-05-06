@@ -16,7 +16,7 @@ import java.io.IOException;
  * implemented in the underlying operating system's C or C++ code. The force() method throws 
  * an IOException if there is any error during the I/O operation.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 16/4/2023
  */
