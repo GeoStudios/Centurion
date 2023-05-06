@@ -8,7 +8,7 @@ package java.base.share.classes.sun.security.util;
  * Interface to an object that knows how to write its own DER
  * encoding to an output stream.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

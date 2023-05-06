@@ -38,7 +38,7 @@ import java.base.share.classes.sun.nio.ch.FileChannelImpl;
  * Otherwise, it is implementation specific how the resource cleanup described in
  * {@link #close} is performed.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see     java.base.share.classes.java.io.File

@@ -12,7 +12,7 @@ import javax.crypto.ShortBufferException;
  * random, this implementation pads with random bytes (until the last byte,
  * which provides the length of padding, as specified).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  * @see Padding

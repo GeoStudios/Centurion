@@ -12,7 +12,7 @@ import java.util.Base64;
  * This class will be replaced if a cross-platform version of NTLM
  * is implemented in the future.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

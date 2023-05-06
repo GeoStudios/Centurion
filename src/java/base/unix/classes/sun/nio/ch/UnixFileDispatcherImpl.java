@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.access.JavaIOFileDescriptorAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

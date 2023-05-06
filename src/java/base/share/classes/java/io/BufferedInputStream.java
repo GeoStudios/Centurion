@@ -29,7 +29,7 @@ import java.base.share.classes.jdk.internal.util.ArraysSupport;
  * reread before new bytes are  taken from
  * the contained input stream.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

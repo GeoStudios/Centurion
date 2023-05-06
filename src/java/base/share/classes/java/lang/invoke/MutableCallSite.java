@@ -59,7 +59,7 @@ assertEquals("Wilma, dear?", (String) worker2.invokeExact());
  * <p>
  * For target values which will be frequently updated, consider using
  * a {@linkplain VolatileCallSite volatile call site} instead.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

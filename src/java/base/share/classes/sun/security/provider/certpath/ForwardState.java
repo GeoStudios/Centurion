@@ -27,7 +27,7 @@ import java.base.share.classes.sun.security.x509.X509CertImpl;
  * A specification of a forward PKIX validation state
  * which is initialized by each build and updated each time a
  * certificate is added to the current path.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

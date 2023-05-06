@@ -7,7 +7,7 @@ package java.base.share.classes.com.sun.crypto.provider;
 /**
  * This class defines the constants used by the DES implementation.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

@@ -26,7 +26,7 @@ import java.util.Locale;
  * verify(type3, nonce);
  * </pre>
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

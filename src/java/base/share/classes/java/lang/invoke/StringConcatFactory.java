@@ -69,7 +69,7 @@ import static java.base.share.classes.java.lang.invoke.MethodType.methodType;
  * concatenation are expected to split the large concatenation in smaller
  * expressions.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -17,7 +17,7 @@ import sun.security.util.*;
  * restricted (e.g., when an RSA key should be used only for signing or only
  * for key encipherment).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see Extension

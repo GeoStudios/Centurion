@@ -44,7 +44,7 @@ import static java.util.concurrent.TimeUnit.*;
  * A thread that is scheduled by the Java virtual machine rather than the operating
  * system.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

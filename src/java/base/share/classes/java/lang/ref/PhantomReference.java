@@ -26,7 +26,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
  * whether some object is the referent of a phantom reference.
  * @param <T> the type of the referent
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

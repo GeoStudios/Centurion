@@ -12,7 +12,7 @@ import sun.security.util.*;
 /**
  * This class defines the version of the X509 Certificate.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @see DerEncoder

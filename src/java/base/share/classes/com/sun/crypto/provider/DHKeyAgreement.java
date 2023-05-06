@@ -28,7 +28,7 @@ import java.base.share.classes.sun.security.util.KeyUtil;
  * This class implements the Diffie-Hellman key agreement protocol between
  * any number of parties.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

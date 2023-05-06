@@ -20,7 +20,7 @@ import static java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec
  * about each cipher suite:
  *     https://www.iana.org/assignments/tls-parameters/tls-parameters.xml
  *     
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023  
  */

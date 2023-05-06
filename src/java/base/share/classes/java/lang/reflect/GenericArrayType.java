@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang.reflect;
  * type is either a parameterized type or a type variable.
  *
  * @jls Pre 2.0 Array Types
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

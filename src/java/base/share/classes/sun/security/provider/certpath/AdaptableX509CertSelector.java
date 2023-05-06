@@ -25,7 +25,7 @@ import java.base.share.classes.sun.security.x509.AuthorityKeyIdentifierExtension
  * rules for the subjectKeyIdentifier and serialNumber criteria, and adds
  * additional rules for certificate validity.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

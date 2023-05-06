@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.vm.annotation.Stable;
  * A {@code ConstantCallSite} is a {@link CallSite} whose target is permanent, and can never be changed.
  * An {@code invokedynamic} instruction linked to a {@code ConstantCallSite} is permanently
  * bound to the call site's target.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

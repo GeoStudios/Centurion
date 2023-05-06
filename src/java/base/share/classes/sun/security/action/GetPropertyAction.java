@@ -23,7 +23,7 @@ import java.util.Properties;
  *                      (new GetPropertyAction("prop"));
  * </pre>
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  * @see java.security.PrivilegedAction

@@ -15,7 +15,7 @@ package java.base.share.classes.java.lang;
  *      {@code Thread.stop} method changed to throw an exception. Consequently,
  *      {@code ThreadDeath} is also deprecated, for removal.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

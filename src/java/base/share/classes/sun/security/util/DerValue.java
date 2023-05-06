@@ -38,7 +38,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * ISO-8859-1 characters only.
  *
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

@@ -170,7 +170,7 @@ import java.base.share.classes.sun.reflect.misc.ReflectUtil;
  * unknown.
  *
  * @see     java.base.share.classes.java.lang.ClassLoader#defineClass(byte[], int, int)
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 15.8.2 Class Literals

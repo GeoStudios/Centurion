@@ -28,7 +28,7 @@ import java.base.share.classes.sun.security.util.*;
  * The AlgorithmParameters may be instantiated either by its name
  * ("ChaCha20-Poly1305") or via its OID (1.2.840.113549.1.9.16.3.18)
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

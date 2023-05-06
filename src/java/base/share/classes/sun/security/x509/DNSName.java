@@ -25,7 +25,7 @@ import sun.security.util.*;
  * (subscriber.example.com instead of subscriber@example.com) MUST NOT
  * be used; such identities are to be encoded as rfc822Name.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

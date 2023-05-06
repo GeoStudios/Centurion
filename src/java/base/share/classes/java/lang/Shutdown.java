@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.misc.VM;
  * Package-private utility class containing data structures and logic
  * governing the virtual-machine shutdown sequence.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  *

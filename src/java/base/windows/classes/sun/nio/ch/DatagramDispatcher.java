@@ -11,7 +11,7 @@ import java.io.IOException;
  * Allows different platforms to call different native methods
  * for read and write operations.
  * 
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

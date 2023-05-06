@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * native-language definition of a method declared {@code native}.
  *
  * @see     java.base.share.classes.java.lang.Runtime
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

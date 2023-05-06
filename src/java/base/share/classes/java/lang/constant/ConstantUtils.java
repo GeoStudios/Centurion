@@ -12,7 +12,7 @@ import static java.util.Objects.requireNonNull;
 /**
  * Helper methods for the implementation of {@code java.base.share.classes.java.lang.constant}.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

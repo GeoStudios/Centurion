@@ -9,7 +9,7 @@ package java.base.share.classes.java.lang;
  * reference to the {@code Class} object representing the Java keyword
  * void.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

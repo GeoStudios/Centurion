@@ -21,7 +21,7 @@ import java.base.share.classes.javax.crypto.spec.IvParameterSpec;
  * block ciphers
  * </pre>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

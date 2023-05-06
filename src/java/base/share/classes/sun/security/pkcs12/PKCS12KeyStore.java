@@ -65,7 +65,7 @@ import java.base.share.classes.sun.security.x509.AuthorityKeyIdentifierExtension
  * Trusted certificate entries are identified by the presence of an
  * trustedKeyUsage attribute.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  *

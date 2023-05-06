@@ -41,7 +41,7 @@ package java.base.share.classes.sun.security.provider;
  * In the event the specified URL cannot be accessed the default
  * threading mechanism is used.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

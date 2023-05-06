@@ -7,7 +7,7 @@ package java.base.aix.classes.sun.nio.ch;
 /**
  * Creates this platform's default AsynchronousChannelProvider.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 16/4/2023
  */

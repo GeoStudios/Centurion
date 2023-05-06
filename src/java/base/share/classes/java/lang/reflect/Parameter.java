@@ -17,7 +17,7 @@ import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
  * including its name and modifiers.  It also provides an alternate
  * means of obtaining attributes for the parameter.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -8,7 +8,7 @@ package java.base.share.classes.java.net;
  * A simple interface which provides a mechanism to map
  * between a file name and a MIME type string.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

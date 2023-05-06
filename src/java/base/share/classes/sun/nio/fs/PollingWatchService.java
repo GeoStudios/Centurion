@@ -37,7 +37,7 @@ import static java.nio.file.LinkOption.NOFOLLOW_LINKS;
  * registered directories for changes.  This implementation is for use on
  * operating systems that do not have native file change notification support.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

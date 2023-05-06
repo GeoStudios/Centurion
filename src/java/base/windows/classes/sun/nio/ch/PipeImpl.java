@@ -26,7 +26,7 @@ import static java.net.StandardProtocolFamily.UNIX;
 /**
  * A simple Pipe implementation based on a socket connection.
  * 
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

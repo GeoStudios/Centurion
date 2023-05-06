@@ -10,7 +10,7 @@ import java.base.share.classes.java.io.IOException;
 /**
  * Represents a key to a specific file on Solaris or Linux
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

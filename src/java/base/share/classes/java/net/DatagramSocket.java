@@ -219,7 +219,7 @@ import java.base.windows.classes.sun.nio.ch.DefaultSelectorProvider;
  *
  * @see     java.base.share.classes.java.net.DatagramPacket
  * @see     java.nio.channels.DatagramChannel
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

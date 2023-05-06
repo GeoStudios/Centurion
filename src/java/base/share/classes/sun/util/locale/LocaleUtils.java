@@ -12,7 +12,7 @@ import java.util.Set;
  * Collection of static utility methods for Locale support. The
  * methods which manipulate characters or strings support ASCII only.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

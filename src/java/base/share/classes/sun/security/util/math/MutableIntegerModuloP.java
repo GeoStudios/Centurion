@@ -15,7 +15,7 @@ import java.nio.ByteBuffer;
  * element. This structure enables fluent expressions like:
  * a.setSum(b).setProduct(c).setDifference(d).setSquare()
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

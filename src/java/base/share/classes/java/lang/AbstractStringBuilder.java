@@ -32,7 +32,7 @@ import static java.base.share.classes.java.lang.String.checkOffset;
  * or method in this class will cause a {@link NullPointerException} to be
  * thrown.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

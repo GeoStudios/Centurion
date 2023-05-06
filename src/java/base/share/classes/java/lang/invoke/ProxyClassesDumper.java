@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * <p> Because this class is called by LambdaMetafactory, make use
  * of lambda lead to recursive calls cause stack overflow.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

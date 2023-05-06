@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.io.JdkConsole;
  * Console implementation for internal use. Custom Console delegate may be
  * provided with jdk.internal.io.JdkConsoleProvider.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

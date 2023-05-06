@@ -14,7 +14,7 @@ package java.base.share.classes.java.lang;
  * boolean, boolean) suppression were disabled and/or the stack trace was not
  * writable}.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

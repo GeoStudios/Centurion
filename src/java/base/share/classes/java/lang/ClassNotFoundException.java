@@ -24,7 +24,7 @@ import java.io.ObjectStreamField;
  * @see     java.base.share.classes.java.lang.Class#forName(java.base.share.classes.java.lang.String)
  * @see     java.base.share.classes.java.lang.ClassLoader#findSystemClass(java.base.share.classes.java.lang.String)
  * @see     java.base.share.classes.java.lang.ClassLoader#loadClass(java.base.share.classes.java.lang.String, boolean)
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

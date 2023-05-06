@@ -7,7 +7,7 @@ package java.base.windows.classes.sun.nio.fs;
 /**
  * A type safe enum of Windows path types.
  * 
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

@@ -14,7 +14,7 @@ import java.util.spi.CalendarNameProvider;
  * {@code CalendarDataUtility} is a utility class for calling the
  * {@link CalendarDataProvider} methods.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

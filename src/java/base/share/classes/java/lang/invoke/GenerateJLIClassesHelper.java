@@ -26,7 +26,7 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;
  * Helper class to assist the GenerateJLIClassesPlugin to get access to
  * generate classes ahead of time.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

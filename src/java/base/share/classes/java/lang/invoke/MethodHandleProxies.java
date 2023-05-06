@@ -22,7 +22,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;
  * This class consists exclusively of static methods that help adapt
  * method handles to other JVM types, such as interfaces.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

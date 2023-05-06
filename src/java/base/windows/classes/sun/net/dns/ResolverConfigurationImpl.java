@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * An implementation of sun.net.ResolverConfiguration for Windows.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

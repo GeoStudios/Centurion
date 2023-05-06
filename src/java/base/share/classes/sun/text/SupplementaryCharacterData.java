@@ -8,7 +8,7 @@ package java.base.share.classes.sun.text;
  * SupplementaryCharacterData is an SMI-private class which was written for
  * RuleBasedBreakIterator and BreakDictionary.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

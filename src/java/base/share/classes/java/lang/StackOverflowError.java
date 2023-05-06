@@ -8,7 +8,7 @@ package java.base.share.classes.java.lang;
  * Thrown when a stack overflow occurs because an application
  * recurses too deeply.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

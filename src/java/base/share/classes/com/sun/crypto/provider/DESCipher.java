@@ -17,7 +17,7 @@ import java.base.share.classes.javax.crypto.BadPaddingException;
  * <code>PCBC</code>) and padding schemes (<code>PKCS5Padding</code>,
  * <code>NoPadding</code>, <code>ISO10126Padding</code>).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  * @see DESCrypt

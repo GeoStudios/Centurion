@@ -14,7 +14,7 @@ package java.base.share.classes.java.io;
  * @see     java.desktop/java.awt.FileDialog#setFilenameFilter(java.base.share.classes.java.io.FilenameFilter)
  * @see     java.base.share.classes.java.io.File
  * @see     java.base.share.classes.java.io.File#list(java.base.share.classes.java.io.FilenameFilter)
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

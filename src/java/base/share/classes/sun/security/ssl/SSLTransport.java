@@ -16,7 +16,7 @@ import javax.net.ssl.SSLHandshakeException;
 /**
  * Interface for SSL/(D)TLS transportation.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

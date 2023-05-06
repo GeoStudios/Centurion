@@ -63,7 +63,7 @@ package java.base.share.classes.java.lang;
  * See {@link Class#isRecord()} and {@link Class#getRecordComponents()} for more details.
  *
  * @jls 8.10 Record Types
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

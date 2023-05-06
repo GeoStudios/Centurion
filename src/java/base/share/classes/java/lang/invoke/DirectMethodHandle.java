@@ -25,7 +25,7 @@ import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;
 /**
  * The flavor of method handle which implements a constant reference
  * to a class member.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

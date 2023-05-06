@@ -16,7 +16,7 @@ import java.security.spec.*;
  * This is an implementation of the HMAC algorithms as defined
  * in PKCS#12 v1.1 standard (see RFC 7292 Appendix B.4).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

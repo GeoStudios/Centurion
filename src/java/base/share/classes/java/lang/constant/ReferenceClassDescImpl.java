@@ -14,7 +14,7 @@ import static java.util.Objects.requireNonNull;
  * interface, or array type.  A {@linkplain ReferenceClassDescImpl} corresponds to a
  * {@code Constant_Class_info} entry in the constant pool of a classfile.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -36,7 +36,7 @@ import java.util.TimeZone;
  * API.
  *
  * @see CalendarSystem
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

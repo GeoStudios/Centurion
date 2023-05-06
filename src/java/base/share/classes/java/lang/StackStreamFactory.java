@@ -39,7 +39,7 @@ import static java.base.share.classes.java.lang.StackStreamFactory.WalkerState.*
  * 2. StackWalker::getCallerClass
  * 3. AccessControlContext getting ProtectionDomain
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

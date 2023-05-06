@@ -10,7 +10,7 @@ import java.base.share.classes.java.security.InvalidKeyException;
  * This is the internal DES class responsible for encryption and
  * decryption of a byte array of size <code>DES_BLOCK_SIZE</code>.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

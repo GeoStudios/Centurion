@@ -28,7 +28,7 @@ import java.base.share.classes.jdk.internal.util.Preconditions;
  * {@link InetSocketAddress}, and may support additional {@code SocketAddress}
  * sub-types.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

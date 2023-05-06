@@ -25,7 +25,7 @@ import static java.base.macosx.classes.sun.nio.ch.KQueue.EV_DELETE;
 /**
  * KQueue based Selector implementation for macOS
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

@@ -10,7 +10,7 @@ package java.base.share.classes.java.lang.reflect;
  * encountered by a reflective method that needs to interpret the generic
  * signature information for a class or interface, method or constructor.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

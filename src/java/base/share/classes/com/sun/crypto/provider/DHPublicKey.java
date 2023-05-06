@@ -16,7 +16,7 @@ import java.base.share.classes.sun.security.util.*;
 /**
  * A public key in X.509 format for the Diffie-Hellman key agreement algorithm.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  *

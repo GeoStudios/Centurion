@@ -19,7 +19,7 @@ import java.net.URI;
  * packages with minimal footprint and avoid constructing Package
  * object.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

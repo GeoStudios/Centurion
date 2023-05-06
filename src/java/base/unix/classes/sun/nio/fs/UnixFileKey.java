@@ -7,7 +7,7 @@ package java.base.unix.classes.sun.nio.fs;
 /**
  * Container for device/inode to uniquely identify file.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

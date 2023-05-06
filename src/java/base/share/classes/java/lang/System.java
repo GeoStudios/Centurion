@@ -85,7 +85,7 @@ import java.base.share.classes.sun.security.util.SecurityConstants;
  * variables; a means of loading files and libraries; and a utility
  * method for quickly copying a portion of an array.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

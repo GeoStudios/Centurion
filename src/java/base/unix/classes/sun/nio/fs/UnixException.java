@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * Internal exception thrown by native methods when error detected.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

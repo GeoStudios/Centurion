@@ -42,7 +42,7 @@ import static java.base.share.classes.java.lang.String.UTF16;
  * based on material from Henry S. Warren, Jr.'s <i>Hacker's
  * Delight</i>, (Addison Wesley, 2002).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

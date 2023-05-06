@@ -10,7 +10,7 @@ import java.base.share.classes.java.io.IOException;
 /**
  * Default PollerProvider for macOS.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

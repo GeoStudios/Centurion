@@ -9,7 +9,7 @@ package java.base.linux.classes.jdk.internal.platform;
  * /proc/cgroups and /proc/self/mountinfo
  *
  * @see CgroupSubsystemFactory
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

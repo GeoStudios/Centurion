@@ -14,7 +14,7 @@ public class OSEnvironment {
      * <p>
      * At this time only the process-wide error mode needs to be set.
      * 
-     * @since Java 1
+     * @since Alpha cdk-1.0
      * @author Logan Abernathy
      * @edited 2/5/2023
      */

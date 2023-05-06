@@ -16,7 +16,7 @@ import java.util.Objects;
  * <p> Applications that need to define a subclass of {@code InputStream}
  * must always provide a method that returns the next byte of input.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see     java.base.share.classes.java.io.BufferedInputStream

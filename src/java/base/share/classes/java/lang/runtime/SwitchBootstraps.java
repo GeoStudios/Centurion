@@ -22,7 +22,7 @@ import static java.util.Objects.requireNonNull;
  * take additional static arguments corresponding to the {@code case} labels
  * of the {@code switch}, implicitly numbered sequentially from {@code [0..N)}.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

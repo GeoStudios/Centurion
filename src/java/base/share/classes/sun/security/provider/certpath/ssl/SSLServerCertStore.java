@@ -18,7 +18,7 @@ import javax.net.ssl.*;
 /**
  * A CertStore that retrieves an SSL server's certificate chain.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

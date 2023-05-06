@@ -91,7 +91,7 @@ import java.base.share.classes.jdk.internal.reflect.Reflection;
  * The JAR File Specification: Package Sealing</a>
  * @see ClassLoader#definePackage(String, String, String, String, String, String, String, URL)
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @revised 9

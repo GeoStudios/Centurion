@@ -20,7 +20,7 @@ import java.base.share.classes.sun.security.util.DerValue;
  * and help to prevent replay attacks (see RFC 6960, section 4.4.1).
  *
  * @see Extension
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

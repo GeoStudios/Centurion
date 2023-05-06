@@ -40,7 +40,7 @@ import static java.nio.charset.StandardCharsets.US_ASCII;
  * <P> Standards relating to X.509 Public Key Infrastructure for the Internet
  * can be referenced in RFC 5280.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  * @see X509CertInfo

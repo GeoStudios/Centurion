@@ -12,7 +12,7 @@ package java.base.share.classes.sun.reflect.annotation;
  * instance describes the exception that the dynamic proxy should throw if
  * it is queried for this member.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

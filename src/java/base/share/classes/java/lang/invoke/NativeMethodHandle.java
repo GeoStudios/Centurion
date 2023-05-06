@@ -18,7 +18,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIn
  * or whether a native transition is required) and a <em>fallback</em> method handle, which can be used
  * when intrinsification of this method handle is not possible.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -18,7 +18,7 @@ import java.base.share.classes.jdk.internal.ref.Cleaner;
  * not be subclassed directly.
  * @param <T> the type of the referent
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  * @sealedGraph

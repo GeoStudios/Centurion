@@ -18,7 +18,7 @@ import javax.crypto.spec.*;
  * Note: only <code>CBC</code> mode and <code>NoPadding</code> padding
  * scheme can be used for this algorithm.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

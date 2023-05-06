@@ -10,7 +10,7 @@ import java.util.Arrays;
 /**
  * This class implements padding as specified in the PKCS#5 standard.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

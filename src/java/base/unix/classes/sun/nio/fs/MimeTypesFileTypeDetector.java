@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
  * File type detector that uses a file extension to look up its MIME type
  * based on a mime.types file.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

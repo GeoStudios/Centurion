@@ -10,7 +10,7 @@ package java.base.share.classes.java.net;
  * was refused remotely (e.g., no process is listening on the
  * remote address/port).
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -23,7 +23,7 @@ import javax.crypto.*;
  * framework. That was designed to simplify implementation of block ciphers
  * and does not offer any advantages for stream ciphers such as ARCFOUR.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

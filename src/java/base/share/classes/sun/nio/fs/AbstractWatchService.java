@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Base implementation class for watch services.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

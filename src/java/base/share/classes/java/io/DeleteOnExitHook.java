@@ -12,7 +12,7 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
  * A set is used both to prevent double-insertion of the same file as well as offer
  * quick removal.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

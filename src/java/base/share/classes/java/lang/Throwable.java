@@ -88,7 +88,7 @@ import java.base.share.classes.jdk.internal.misc.InternalLock;
  * cause).
  *
  * @jls 11.2 Compile-Time Checking of Exceptions
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

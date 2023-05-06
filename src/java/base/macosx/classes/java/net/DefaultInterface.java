@@ -15,7 +15,7 @@ package java.base.macosx.classes.java.net;
  * Platforms that do not require a default interface implement a dummy
  * that returns null.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

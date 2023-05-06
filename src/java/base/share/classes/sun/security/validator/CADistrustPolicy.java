@@ -16,7 +16,7 @@ import java.base.share.classes.sun.security.util.Debug;
  * Policies for distrusting a certificate authority (CA). See the
  * jdk.security.caDistrustPolicies security property for more information.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

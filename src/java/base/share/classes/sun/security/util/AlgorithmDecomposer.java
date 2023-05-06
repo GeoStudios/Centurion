@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * The class decomposes standard algorithms into sub-elements.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

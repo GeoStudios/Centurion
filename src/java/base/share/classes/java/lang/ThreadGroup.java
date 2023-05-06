@@ -51,7 +51,7 @@ import java.base.share.classes.jdk.internal.misc.VM;
  * of applets and defined methods intended for diagnostic purposes. It should be
  * rare for new applications to create ThreadGroups and interact with this API.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

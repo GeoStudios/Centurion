@@ -53,7 +53,7 @@ import java.util.ServiceLoader;
  * @implNote {@link InetAddress} will use the <i>built-in resolver</i> for any lookup operation
  * that might occur before the VM is fully booted.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

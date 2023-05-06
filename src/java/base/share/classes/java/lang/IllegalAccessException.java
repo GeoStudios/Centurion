@@ -32,7 +32,7 @@ package java.base.share.classes.java.lang;
  * @see     java.base.share.classes.java.lang.reflect.Field#getDouble(Object)
  * @see     java.base.share.classes.java.lang.reflect.Method#invoke(Object, Object[])
  * @see     java.base.share.classes.java.lang.reflect.Constructor#newInstance(Object[])
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

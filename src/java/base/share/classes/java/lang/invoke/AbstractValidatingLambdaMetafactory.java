@@ -16,7 +16,7 @@ import static java.base.share.classes.sun.invoke.util.Wrapper.isWrapperType;
  * Abstract implementation of a lambda metafactory which provides parameter
  * unrolling and input validation.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  * @see LambdaMetafactory

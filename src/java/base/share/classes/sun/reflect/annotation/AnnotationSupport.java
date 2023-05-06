@@ -19,7 +19,7 @@ import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.reflect.ReflectionFactory;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

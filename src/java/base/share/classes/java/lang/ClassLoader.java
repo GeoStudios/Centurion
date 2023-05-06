@@ -204,7 +204,7 @@ import java.base.share.classes.sun.security.util.SecurityConstants;
  * @jls 6.7 Fully Qualified Names
  * @jls 13.1 The Form of a Binary
  * @see      #resolveClass(Class)
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

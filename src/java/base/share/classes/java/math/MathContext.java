@@ -27,7 +27,7 @@ import java.io.*;
  *      <cite>IEEE Standard for Floating-Point Arithmetic</cite></a>
  *
  * @author  Mike Cowlishaw
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -12,7 +12,7 @@ import java.base.share.classes.sun.net.www.ParseUtil;
  * (Windows) Platform specific handling for file: URLs . In particular deals
  * with network paths mapping them to UNCs.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 18/4/2023
  */

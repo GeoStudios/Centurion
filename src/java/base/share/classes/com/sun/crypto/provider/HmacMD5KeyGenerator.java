@@ -16,7 +16,7 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * This class generates a secret key for use with the HMAC-MD5 algorithm.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

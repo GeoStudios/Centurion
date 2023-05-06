@@ -37,7 +37,7 @@ import java.base.share.classes.sun.security.util.*;
  *
  * We support this format but do not parse attributes and publicKey now.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

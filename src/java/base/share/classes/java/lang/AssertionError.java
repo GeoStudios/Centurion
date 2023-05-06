@@ -17,7 +17,7 @@ package java.base.share.classes.java.lang;
  * <cite>The Java Language Specification</cite>),
  * regardless of the type of <i>expression</i>.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

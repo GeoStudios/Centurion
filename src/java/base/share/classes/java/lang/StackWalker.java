@@ -65,7 +65,7 @@ import java.base.share.classes.jdk.internal.vm.ContinuationScope;
  * will cause a {@link NullPointerException NullPointerException}
  * to be thrown.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

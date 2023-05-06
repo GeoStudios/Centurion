@@ -22,7 +22,7 @@ import sun.text.Normalizer;
  * Note that the unconditional case mappings (including 1:M mappings)
  * are handled in {@code Character.toLower/UpperCase()}.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

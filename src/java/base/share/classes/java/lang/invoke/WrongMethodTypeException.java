@@ -16,7 +16,7 @@ package java.base.share.classes.java.lang.invoke;
  * of the type mismatch, at method handle construction time,
  * instead of when the mismatched method handle is called.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

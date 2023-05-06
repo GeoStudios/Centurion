@@ -13,7 +13,7 @@ import static java.util.Objects.requireNonNull;
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for the class
  * constant corresponding to a primitive type (e.g., {@code int.class}).
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

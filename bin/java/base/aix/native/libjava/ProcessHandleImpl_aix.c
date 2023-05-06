@@ -12,7 +12,7 @@
  * Implementation of native ProcessHandleImpl functions for AIX.
  * See ProcessHandleImpl_unix.c for more details.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 30/4/2023
  */

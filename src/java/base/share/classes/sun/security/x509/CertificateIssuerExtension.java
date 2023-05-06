@@ -32,7 +32,7 @@ import sun.security.util.DerOutputStream;
  * certificateIssuer ::=     GeneralNames
  * </pre>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  * @since 1.5

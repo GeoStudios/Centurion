@@ -10,7 +10,7 @@ package java.base.windows.classes.sun.io;
  * The error mode decides whether the system will handle specific types of serious errors
  * or whether the process will handle them.
  *
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023
  */

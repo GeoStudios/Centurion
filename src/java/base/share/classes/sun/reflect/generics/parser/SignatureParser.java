@@ -14,7 +14,7 @@ import java.base.share.classes.sun.reflect.generics.tree.*;
  * Converts the signatures into an abstract syntax tree (AST) representation.
  * See the package sun.reflect.generics.tree for details of the AST.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

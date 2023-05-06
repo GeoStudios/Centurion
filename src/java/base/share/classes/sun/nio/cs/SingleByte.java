@@ -18,7 +18,7 @@ import java.util.Arrays;
 import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

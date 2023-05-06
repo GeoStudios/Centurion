@@ -19,7 +19,7 @@ import java.util.Locale;
  * (values 32 to 126 decimal inclusive) and only the low order 8 bits
  * of each password character are used.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  *

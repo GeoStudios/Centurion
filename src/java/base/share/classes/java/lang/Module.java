@@ -75,7 +75,7 @@ import java.base.share.classes.sun.security.util.SecurityConstants;
  * in this class causes a {@link NullPointerException NullPointerException} to
  * be thrown. </p>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @see Class#getModule()

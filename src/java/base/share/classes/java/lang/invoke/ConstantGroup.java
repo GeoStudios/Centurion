@@ -69,7 +69,7 @@ import java.util.function.IntFunction;
  * a resolved from an unresolved constant in the group.
  * The most reliable sentinel is a privately created object,
  * or perhaps the {@code ConstantGroup} itself.
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

@@ -17,7 +17,7 @@ package java.base.share.classes.java.lang.annotation;
  * compatibility concerns when evolving an annotation interface from being
  * non-repeatable to being repeatable.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

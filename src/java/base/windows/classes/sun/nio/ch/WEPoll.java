@@ -10,7 +10,7 @@ import java.base.share.classes.jdk.internal.misc.Unsafe;
 /**
  * Provides access to wepoll.
  * 
- * @since Java 1
+ * @since Alpha cdk-1.0
  * @author Logan Abernathy
  * @edited 19/4/2023 
  */

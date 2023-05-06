@@ -16,7 +16,7 @@ import java.base.share.classes.java.lang.invoke.MethodType;
  * from {@link java.base.share.classes.java.lang.invoke.StringConcatFactory}, and used in {@link java.base.share.classes.java.lang.invoke.MethodHandle}
  * combinators there.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

@@ -9,7 +9,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 /**
  * Implemented by objects that may hold or cache the attributes of a file.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

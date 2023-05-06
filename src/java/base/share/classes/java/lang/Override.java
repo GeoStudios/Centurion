@@ -23,7 +23,7 @@ import java.base.share.classes.java.lang.annotation.*;
  * @jls 8.4.8 Inheritance, Overriding, and Hiding
  * @jls 9.4.1 Inheritance and Overriding
  * @jls 9.6.4.4 @Override
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  */

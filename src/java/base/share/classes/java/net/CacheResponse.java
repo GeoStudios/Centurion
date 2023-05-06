@@ -15,7 +15,7 @@ import java.io.IOException;
  * InputStream that returns the entity body, and also a
  * getHeaders() method which returns the associated response headers.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

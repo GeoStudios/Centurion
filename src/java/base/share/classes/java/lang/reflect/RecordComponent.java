@@ -23,7 +23,7 @@ import java.util.Objects;
  * @see Class#getRecordComponents()
  * @see java.lang.Record
  * @jls 2.0 Record Classes
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

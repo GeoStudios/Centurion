@@ -18,7 +18,7 @@ import java.base.share.classes.sun.security.util.*;
  *     encryptedData   OCTET STRING }
  * </pre>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/3/2023
  */

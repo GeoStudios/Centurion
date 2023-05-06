@@ -18,7 +18,7 @@ import java.base.share.classes.jdk.internal.util.Preconditions;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

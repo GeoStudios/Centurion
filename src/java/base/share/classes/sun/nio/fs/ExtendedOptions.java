@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Provides support for handling JDK-specific OpenOption, CopyOption and
  * WatchEvent.Modifier types.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

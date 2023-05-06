@@ -8,7 +8,7 @@ package java.base.share.classes.sun.reflect.generics.tree;
  * generic signature AST. Corresponds to the production TypeArgument
  * in the JVMS.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 22/4/2023 
  */

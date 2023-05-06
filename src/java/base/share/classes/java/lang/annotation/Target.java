@@ -49,7 +49,7 @@ package java.base.share.classes.java.lang.annotation;
  *    }
  * </pre>
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 24/4/2023
  * @jls 9.6.4.1 @Target

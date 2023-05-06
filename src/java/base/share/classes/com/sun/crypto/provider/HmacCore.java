@@ -28,7 +28,7 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
  * - HMAC with SHA-3 family of digests, i.e. HmacSHA3-224, HmacSHA3-256,
  *   HmacSHA3-384, HmacSHA3-512
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

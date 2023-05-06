@@ -11,7 +11,7 @@ package java.base.share.classes.java.lang.module;
  * Configuration.resolve} when resolution fails for observability-related
  * reasons.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */

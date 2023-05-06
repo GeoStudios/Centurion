@@ -20,7 +20,7 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
  * A NetHooks provider that converts sockets from the TCP to SDP protocol prior
  * to binding or connecting.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

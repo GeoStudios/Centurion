@@ -130,7 +130,7 @@ package java.base.share.classes.java.io;
  * </ul>
  * @see     java.base.share.classes.java.io.DataInputStream
  * @see     java.base.share.classes.java.io.DataOutput
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 23/4/2023
  */

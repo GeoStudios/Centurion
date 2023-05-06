@@ -7,7 +7,7 @@ package java.base.share.classes.sun.text.resources;
 import java.util.ListResourceBundle;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 20/4/2023 
  */

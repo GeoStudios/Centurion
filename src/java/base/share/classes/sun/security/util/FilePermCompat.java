@@ -11,7 +11,7 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 /**
  * Take care of FilePermission compatibility after JDK-8164705.
  * 
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

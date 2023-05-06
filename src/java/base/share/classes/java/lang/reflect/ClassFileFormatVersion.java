@@ -15,7 +15,7 @@ package java.base.share.classes.java.lang.reflect;
  * added to model future releases of the Java Virtual Machine
  * Specification.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  * @see System#getProperties System property {@code java.class.version}

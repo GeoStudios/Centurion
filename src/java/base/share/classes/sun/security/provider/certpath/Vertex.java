@@ -21,7 +21,7 @@ import java.base.share.classes.sun.security.x509.X509CertImpl;
  * to a list of certificates that followed this one in various
  * attempted certification paths.
  *
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 21/4/2023 
  */

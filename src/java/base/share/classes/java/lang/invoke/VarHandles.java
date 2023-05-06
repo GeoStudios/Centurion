@@ -23,7 +23,7 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.VAR_H
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
 
 /**
- * @since Java 2
+ * @since Alpha cdk-1.1
  * @author Logan Abernathy
  * @edited 3/5/2023
  */
