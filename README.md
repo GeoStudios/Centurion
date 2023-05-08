@@ -18,7 +18,9 @@ the info for this gigantic project.
 
 If you want to contribute to this repository, you can make a pull request. If you change or add a file,
 add a comment of what it does, author name, @edited for last edited, and a @since for when it was first
-added. You can check what version Centurion on when you look at the version list. 
+added. You can check what version Centurion on when you look at the version list.
+
+If you really want to help. Work on any TODOS: in anything beside the {Java.base}. That would be very helpful!
 
 ## Devlopers
 
