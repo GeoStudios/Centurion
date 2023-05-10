@@ -6,9 +6,7 @@ for the java enviorment.
 
 :warning: Centurion is in alpha stages right now and might have bugs. If any bugs occur, make a [Issue.](https://github.com/GeoStudios/Centurion/issues)
 
-:warning: {Java.base} code will be removed on version Alpha 1.5 or on May 26th. Its about 90% of the errors and
-is 90% of the code so it makes sense. It will be replaced with a much better and more relaxed form of base code 
-for all OS's.  
+:warning: This whole repo will be revamped and no longer compatable with any offical JDK. The offical JDK has issues that are completly wrecking Centurion to the extent of revamping.
 
 We will be making a site for the devlopment which will have all the downloads and extra info 
 you to see. Prob this summer! The site is going to have a wiki with all the versions and all 
@@ -20,21 +18,18 @@ If you want to contribute to this repository, you can make a pull request. If yo
 add a comment of what it does, author name, @edited for last edited, and a @since for when it was first
 added. You can check what version Centurion on when you look at the version list.
 
-If you really want to help. Work on any TODOS: in anything beside the {Java.base}. That would be very helpful!
+If you really want to contribute, add somthing you think should be inside, if you want to be a project 
+lead for a topic, contact M4x(M4ximumpizza#4712) on discord. There are plenty of stuff to add.
 
 ## Devlopers
 
-[M4ximumpizza](https://github.com/M4ximumPizza) is the Project Maintainer and main author. </br>
+[M4ximumpizza](https://github.com/M4ximumPizza) is the Project Director. </br>
 [KaranpreetRaja](https://github.com/KaranpreetRaja) is the secondary dev on this project
 
 ## Installation
 
 Download the Version Jar you want, then put it into any external library inside your code editor. (It will
 soon be an installable JDK for the user).
-
-### Requirements
-
-This is built off of Java 20 but it is functional from Java 13 and higher!
 
 ### License
 
