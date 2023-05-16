@@ -29,9 +29,11 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * Utility class for zipfile name and comment decoding and encoding
  *
  * @author Logan Abernathy
+ * @author Drew Santana
  * @since Alpha cdk-1.3
  */
 class ZipCoder {
+    private static final Charset UTF_8 = Charset.forName("UTF-8");
 
     static class UTF8 extends jdk.nio.zipfs.ZipCoder {
         UTF8() {
@@ -39,11 +41,11 @@ class ZipCoder {
         }
 
         @Override
-        byte[] getBytes(String s) {        // fast pass for ascii
+        byte[] getBytes(String s) {
             for (int i = 0; i < s.length(); i++) {
                 if (s.charAt(i) > 0x7f) return super.getBytes(s);
             }
-            return s.getBytes(ISO_8859_1);
+            return s.getBytes(StandardCharsets.ISO_8859_1);
         }
 
         @Override
@@ -51,7 +53,7 @@ class ZipCoder {
             for (byte b : ba) {
                 if (b < 0) return super.toString(ba);
             }
-            return new String(ba, ISO_8859_1);
+            return new String(ba, StandardCharsets.ISO_8859_1);
         }
     }
 
@@ -69,16 +71,13 @@ class ZipCoder {
         CharsetDecoder cd = decoder().reset();
         int clen = (int)(ba.length * cd.maxCharsPerByte());
         char[] ca = new char[clen];
-        if (clen == 0)
-            return new String(ca);
+        if (clen == 0) return new String(ca);
         ByteBuffer bb = ByteBuffer.wrap(ba, 0, ba.length);
         CharBuffer cb = CharBuffer.wrap(ca);
         CoderResult cr = cd.decode(bb, cb, true);
-        if (!cr.isUnderflow())
-            throw new IllegalArgumentException(cr.toString());
+        if (!cr.isUnderflow()) throw new IllegalArgumentException(cr.toString());
         cr = cd.flush(cb);
-        if (!cr.isUnderflow())
-            throw new IllegalArgumentException(cr.toString());
+        if (!cr.isUnderflow()) throw new IllegalArgumentException(cr.toString());
         return new String(ca, 0, cb.position());
     }
 
@@ -87,20 +86,15 @@ class ZipCoder {
         char[] ca = s.toCharArray();
         int len = (int)(ca.length * ce.maxBytesPerChar());
         byte[] ba = new byte[len];
-        if (len == 0)
-            return ba;
+        if (len == 0) return ba;
         ByteBuffer bb = ByteBuffer.wrap(ba);
         CharBuffer cb = CharBuffer.wrap(ca);
         CoderResult cr = ce.encode(cb, bb, true);
-        if (!cr.isUnderflow())
-            throw new IllegalArgumentException(cr.toString());
+        if (!cr.isUnderflow()) throw new IllegalArgumentException(cr.toString());
         cr = ce.flush(bb);
-        if (!cr.isUnderflow())
-            throw new IllegalArgumentException(cr.toString());
-        if (bb.position() == ba.length)  // defensive copy?
-            return ba;
-        else
-            return Arrays.copyOf(ba, bb.position());
+        if (!cr.isUnderflow()) throw new IllegalArgumentException(cr.toString());
+        if (bb.position() == ba.length) return ba;
+        else return Arrays.copyOf(ba, bb.position());
     }
 
     boolean isUTF8() {
@@ -113,28 +107,21 @@ class ZipCoder {
         this.cs = cs;
     }
 
-    private final ThreadLocal<CharsetDecoder> decTL = new ThreadLocal<>();
-    private final ThreadLocal<CharsetEncoder> encTL = new ThreadLocal<>();
+    private final ThreadLocal<CharsetDecoder> decTL = ThreadLocal.withInitial(() ->
+            cs.newDecoder()
+                    .onMalformedInput(CodingErrorAction.REPORT)
+                    .onUnmappableCharacter(CodingErrorAction.REPORT));
+
+    private final ThreadLocal<CharsetEncoder> encTL = ThreadLocal.withInitial(() ->
+            cs.newEncoder()
+                    .onMalformedInput(CodingErrorAction.REPORT)
+                    .onUnmappableCharacter(CodingErrorAction.REPORT));
 
     private CharsetDecoder decoder() {
-        CharsetDecoder dec = decTL.get();
-        if (dec == null) {
-            dec = cs.newDecoder()
-                    .onMalformedInput(CodingErrorAction.REPORT)
-                    .onUnmappableCharacter(CodingErrorAction.REPORT);
-            decTL.set(dec);
-        }
-        return dec;
+        return decTL.get();
     }
 
     private CharsetEncoder encoder() {
-        CharsetEncoder enc = encTL.get();
-        if (enc == null) {
-            enc = cs.newEncoder()
-                    .onMalformedInput(CodingErrorAction.REPORT)
-                    .onUnmappableCharacter(CodingErrorAction.REPORT);
-            encTL.set(enc);
-        }
-        return enc;
+        return encTL.get();
     }
 }
