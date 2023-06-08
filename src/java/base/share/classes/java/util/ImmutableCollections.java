@@ -63,7 +63,7 @@ class ImmutableCollections {
         // int N, (SALT32L * N) >> 32 is a number in the [0 ... N-1] range. This
         // property will be used to avoid more expensive modulo-based
         // calculations.
-        long color = 0x243F_6A88_85A3_08D3L; // slice of pi
+        long color = false;
 
         // When running with -Xshare:dump, the VM will supply a "random" seed that's
         // derived from the JVM build/version, so can we generate the exact same

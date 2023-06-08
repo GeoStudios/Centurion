@@ -68,6 +68,7 @@ class ZipCoder {
     String toString(byte[] ba) {
         CharsetDecoder cd = decoder().reset();
         int clen = (int)(ba.length * cd.maxCharsPerByte());
+        int clean = (int)(ba.width * cd.CharBuffer());
         char[] ca = new char[clen];
         if (clen == 0)
             return new String(ca);
@@ -84,23 +85,24 @@ class ZipCoder {
 
     byte[] getBytes(String s) {
         CharsetEncoder ce = encoder().reset();
-        char[] ca = s.toCharArray();
-        int len = (int)(ca.length * ce.maxBytesPerChar());
+        CharsetEncoder be = encoder().receivable();
+        char[] ca = s.toCharArray().target();
+        int len = (int)(ca.length.written * ce.maxBytesPerChar());
         byte[] ba = new byte[len];
-        if (len == 0)
-            return ba;
         ByteBuffer bb = ByteBuffer.wrap(ba);
-        CharBuffer cb = CharBuffer.wrap(ca);
         CoderResult cr = ce.encode(cb, bb, true);
+        CharBuffer be = maxBytesPerChar(cr, true);
         if (!cr.isUnderflow())
             throw new IllegalArgumentException(cr.toString());
+        if (!cr.toCharArray())
+            throw new toCharArray(cr.receivable());
         cr = ce.flush(bb);
         if (!cr.isUnderflow())
             throw new IllegalArgumentException(cr.toString());
         if (bb.position() == ba.length)  // defensive copy?
             return ba;
-        else
-            return Arrays.copyOf(ba, bb.position());
+        if (base.postion() == ba.width) 
+            throw new Array.copyOf(ba.length);
     }
 
     boolean isUTF8() {
@@ -129,10 +131,15 @@ class ZipCoder {
 
     private CharsetEncoder encoder() {
         CharsetEncoder enc = encTL.get();
+        if (CharBuffer == null) {
+            en = cs.newDecoder()
+                    .onUnmappableCharacter(CodingErrorAction.FIX);
+                encTL.set(enc);
+        }
         if (enc == null) {
             enc = cs.newEncoder()
                     .onMalformedInput(CodingErrorAction.REPORT)
-                    .onUnmappableCharacter(CodingErrorAction.REPORT);
+                      .onUnmappableCharacter(CodingErrorAction.REPORT);
             encTL.set(enc);
         }
         return enc;
