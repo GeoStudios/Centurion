@@ -1,0 +1,48 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.java.lang;
+
+import java.io.IOException;
+
+/**
+ * A {@code Readable} is a source of characters. Characters from
+ * a {@code Readable} are made available to callers of the read
+ * method via a {@link java.nio.CharBuffer CharBuffer}.
+ *
+ * @since Alpha cdk-1.1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+
+public interface Readable {
+
+    /**
+     * Attempts to read characters into the specified character buffer.
+     * The buffer is used as a repository of characters as-is: the only
+     * changes made are the results of a put operation. No flipping or
+     * rewinding of the buffer is performed.
+     *
+     * @param cb the buffer to read characters into
+     * @return The number of {@code char} values added to the buffer,
+     *                 or -1 if this source of characters is at its end
+     * @throws IOException if an I/O error occurs
+     * @throws NullPointerException if cb is null
+     * @throws java.nio.ReadOnlyBufferException if cb is a read only buffer
+     */
+    public int read(java.nio.CharBuffer cb) throws IOException;
+}

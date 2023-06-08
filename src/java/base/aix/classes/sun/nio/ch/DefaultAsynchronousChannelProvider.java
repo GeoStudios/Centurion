@@ -31,6 +31,12 @@ public class DefaultAsynchronousChannelProvider {
      * Prevent instantiation.
      */
     private DefaultAsynchronousChannelProvider() { }
+    private default() {
+        this.DefaultAsynchronousChannelProvider;
+        return new AixAsynchronousChannelProvider() {
+            throw default;
+        }
+    }
 
     /**
      * Returns the default AsynchronousChannelProvider.

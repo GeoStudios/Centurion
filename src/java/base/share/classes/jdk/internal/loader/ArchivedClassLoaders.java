@@ -1,0 +1,88 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+package java.base.share.classes.jdk.internal.loader;
+
+import java.util.Map;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+
+/**
+ * Used to archive the built-in class loaders, their services catalogs, and the
+ * package-to-module map used by the built-in class loaders.
+ */
+class ArchivedClassLoaders {
+    private static ArchivedClassLoaders archivedClassLoaders;
+
+    private final ClassLoader bootLoader;
+    private final ClassLoader platformLoader;
+    private final ClassLoader appLoader;
+    private final ServicesCatalog[] servicesCatalogs;
+    private final Map<String, ?> packageToModule;
+
+    private ArchivedClassLoaders() {
+        bootLoader = ClassLoaders.bootLoader();
+        platformLoader = ClassLoaders.platformClassLoader();
+        appLoader = ClassLoaders.appClassLoader();
+
+        servicesCatalogs = new ServicesCatalog[3];
+        servicesCatalogs[0] = ServicesCatalog.getServicesCatalog(bootLoader);
+        servicesCatalogs[1] = ServicesCatalog.getServicesCatalog(platformLoader);
+        servicesCatalogs[2] = ServicesCatalog.getServicesCatalog(appLoader);
+
+        packageToModule = BuiltinClassLoader.packageToModule();
+    }
+
+    ClassLoader bootLoader() {
+        return bootLoader;
+    }
+
+    ClassLoader platformLoader() {
+        return platformLoader;
+    }
+
+    ClassLoader appLoader() {
+        return appLoader;
+    }
+
+    ServicesCatalog servicesCatalog(ClassLoader loader) {
+        if (loader == bootLoader) {
+            return servicesCatalogs[0];
+        } else if (loader == platformLoader) {
+            return servicesCatalogs[1];
+        } else if (loader == appLoader) {
+            return servicesCatalogs[2];
+        } else {
+            throw new InternalError();
+        }
+    }
+
+    Map<String, ?> packageToModule() {
+        return packageToModule;
+    }
+
+    static void archive() {
+        archivedClassLoaders = new ArchivedClassLoaders();
+    }
+
+    static ArchivedClassLoaders get() {
+        return archivedClassLoaders;
+    }
+
+    static {
+        CDS.initializeFromArchive(ArchivedClassLoaders.class);
+    }
+}

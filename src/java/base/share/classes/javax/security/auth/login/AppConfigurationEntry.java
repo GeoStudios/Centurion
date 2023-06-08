@@ -1,0 +1,166 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.javax.security.auth.login;
+
+import java.util.Map;
+import java.util.Collections;
+
+/**
+ * This class represents a single {@code LoginModule} entry
+ * configured for the application specified in the
+ * {@code getAppConfigurationEntry(String appName)}
+ * method in the {@code Configuration} class.  Each respective
+ * {@code AppConfigurationEntry} contains a {@code LoginModule} name,
+ * a control flag (specifying whether this {@code LoginModule} is
+ * REQUIRED, REQUISITE, SUFFICIENT, or OPTIONAL), and LoginModule-specific
+ * options.  Please refer to the {@code Configuration} class for
+ * more information on the different control flags and their semantics.
+ *
+ * @since 1.4
+ * @see java.base.share.classes.javax.security.auth.login.Configuration
+ */
+public class AppConfigurationEntry {
+
+    private final String loginModuleName;
+    private final LoginModuleControlFlag controlFlag;
+    private final Map<String,?> options;
+
+    /**
+     * Default constructor for this class.
+     *
+     * <p> This entry represents a single {@code LoginModule}
+     * entry configured for the application specified in the
+     * {@code getAppConfigurationEntry(String appName)}
+     * method from the {@code Configuration} class.
+     *
+     * @param loginModuleName String representing the class name of the
+     *                  {@code LoginModule} configured for the
+     *                  specified application.
+     *
+     * @param controlFlag either REQUIRED, REQUISITE, SUFFICIENT,
+     *                  or OPTIONAL.
+     *
+     * @param options the options configured for this {@code LoginModule}.
+     *
+     * @exception IllegalArgumentException if {@code loginModuleName}
+     *                  is null, if {@code LoginModuleName}
+     *                  has a length of 0, if {@code controlFlag}
+     *                  is not either REQUIRED, REQUISITE, SUFFICIENT
+     *                  or OPTIONAL, or if {@code options} is null.
+     */
+    public AppConfigurationEntry(String loginModuleName,
+                                LoginModuleControlFlag controlFlag,
+                                Map<String,?> options)
+    {
+        if (loginModuleName == null || loginModuleName.isEmpty() ||
+            (controlFlag != LoginModuleControlFlag.REQUIRED &&
+                controlFlag != LoginModuleControlFlag.REQUISITE &&
+                controlFlag != LoginModuleControlFlag.SUFFICIENT &&
+                controlFlag != LoginModuleControlFlag.OPTIONAL) ||
+            options == null)
+            throw new IllegalArgumentException();
+
+        this.loginModuleName = loginModuleName;
+        this.controlFlag = controlFlag;
+        this.options = Collections.unmodifiableMap(options);
+    }
+
+    /**
+     * Get the class name of the configured {@code LoginModule}.
+     *
+     * @return the class name of the configured {@code LoginModule} as
+     *          a String.
+     */
+    public String getLoginModuleName() {
+        return loginModuleName;
+    }
+
+    /**
+     * Return the controlFlag
+     * (either REQUIRED, REQUISITE, SUFFICIENT, or OPTIONAL)
+     * for this {@code LoginModule}.
+     *
+     * @return the controlFlag
+     *          (either REQUIRED, REQUISITE, SUFFICIENT, or OPTIONAL)
+     *          for this {@code LoginModule}.
+     */
+    public LoginModuleControlFlag getControlFlag() {
+        return controlFlag;
+    }
+
+    /**
+     * Get the options configured for this {@code LoginModule}.
+     *
+     * @return the options configured for this {@code LoginModule}
+     *          as an unmodifiable {@code Map}.
+     */
+    public Map<String,?> getOptions() {
+        return options;
+    }
+
+    /**
+     * This class represents whether a {@code LoginModule}
+     * is REQUIRED, REQUISITE, SUFFICIENT or OPTIONAL.
+     */
+    public static class LoginModuleControlFlag {
+
+        private final String controlFlag;
+
+        /**
+         * Required {@code LoginModule}.
+         */
+        public static final LoginModuleControlFlag REQUIRED =
+                                new LoginModuleControlFlag("required");
+
+        /**
+         * Requisite {@code LoginModule}.
+         */
+        public static final LoginModuleControlFlag REQUISITE =
+                                new LoginModuleControlFlag("requisite");
+
+        /**
+         * Sufficient {@code LoginModule}.
+         */
+        public static final LoginModuleControlFlag SUFFICIENT =
+                                new LoginModuleControlFlag("sufficient");
+
+        /**
+         * Optional {@code LoginModule}.
+         */
+        public static final LoginModuleControlFlag OPTIONAL =
+                                new LoginModuleControlFlag("optional");
+
+        private LoginModuleControlFlag(String controlFlag) {
+            this.controlFlag = controlFlag;
+        }
+
+        /**
+         * Return a String representation of this controlFlag.
+         *
+         * <p> The String has the format, "LoginModuleControlFlag: <i>flag</i>",
+         * where <i>flag</i> is either <i>required</i>, <i>requisite</i>,
+         * <i>sufficient</i>, or <i>optional</i>.
+         *
+         * @return a String representation of this controlFlag.
+         */
+        public String toString() {
+            return (sun.security.util.ResourcesMgr.getString
+                ("LoginModuleControlFlag.") + controlFlag);
+        }
+    }
+}

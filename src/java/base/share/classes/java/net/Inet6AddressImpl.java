@@ -1,0 +1,143 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+package java.base.share.classes.java.net;
+
+import java.io.IOException;
+import java.base.share.classes.java.net.spi.InetAddressResolver.LookupPolicy;
+
+import static java.base.share.classes.java.net.InetAddress.PLATFORM_LOOKUP_POLICY;
+
+/*
+ * Package private implementation of InetAddressImpl for dual
+ * IPv4/IPv6 stack.
+ * <p>
+ * If InetAddress.preferIPv6Address is true then anyLocalAddress()
+ * and localHost() will return IPv6 addresses, otherwise IPv4 addresses.
+ *
+ * loopbackAddress() will return the first valid loopback address in
+ * [IPv6 loopback, IPv4 loopback] if InetAddress.preferIPv6Address is true,
+ * else [IPv4 loopback, IPv6 loopback].
+ * If neither are valid it will fallback to the first address tried.
+ *
+ * @since 1.4
+ */
+final class Inet6AddressImpl implements InetAddressImpl {
+
+    public native String getLocalHostName() throws UnknownHostException;
+
+    public InetAddress[] lookupAllHostAddr(String hostname, LookupPolicy lookupPolicy)
+            throws UnknownHostException {
+        return lookupAllHostAddr(hostname, lookupPolicy.characteristics());
+    }
+
+    private native InetAddress[] lookupAllHostAddr(String hostname, int characteristics)
+            throws UnknownHostException;
+
+    public native String getHostByAddr(byte[] addr) throws UnknownHostException;
+
+    private native boolean isReachable0(byte[] addr, int scope, int timeout,
+                                        byte[] inf, int ttl, int if_scope)
+        throws IOException;
+
+    public boolean isReachable(InetAddress addr, int timeout,
+                               NetworkInterface netif, int ttl)
+        throws IOException
+    {
+        byte[] ifaddr = null;
+        int scope = -1;
+        int netif_scope = -1;
+        if (netif != null) {
+            /*
+             * Let's make sure we bind to an address of the proper family.
+             * Which means same family as addr because at this point it could
+             * be either an IPv6 address or an IPv4 address (case of a dual
+             * stack system).
+             */
+            java.util.Enumeration<InetAddress> it = netif.getInetAddresses();
+            InetAddress inetaddr;
+            while (it.hasMoreElements()) {
+                inetaddr = it.nextElement();
+                if (inetaddr.getClass().isInstance(addr)) {
+                    ifaddr = inetaddr.getAddress();
+                    if (inetaddr instanceof Inet6Address) {
+                        netif_scope = ((Inet6Address) inetaddr).getScopeId();
+                    }
+                    break;
+                }
+            }
+            if (ifaddr == null) {
+                // Interface doesn't support the address family of
+                // the destination
+                return false;
+            }
+        }
+        if (addr instanceof Inet6Address)
+            scope = ((Inet6Address) addr).getScopeId();
+        return isReachable0(addr.getAddress(), scope, timeout, ifaddr, ttl, netif_scope);
+    }
+
+    public synchronized InetAddress anyLocalAddress() {
+        if (anyLocalAddress == null) {
+            int flags = PLATFORM_LOOKUP_POLICY.characteristics();
+            if (InetAddress.ipv6AddressesFirst(flags) ||
+                InetAddress.systemAddressesOrder(flags)) {
+                anyLocalAddress = new Inet6Address();
+                anyLocalAddress.holder().hostName = "::";
+            } else {
+                anyLocalAddress = (new Inet4AddressImpl()).anyLocalAddress();
+            }
+        }
+        return anyLocalAddress;
+    }
+
+    public synchronized InetAddress loopbackAddress() {
+        if (loopbackAddress == null) {
+            int flags = PLATFORM_LOOKUP_POLICY.characteristics();
+            boolean preferIPv6Address = InetAddress.ipv6AddressesFirst(flags) ||
+                    InetAddress.systemAddressesOrder(flags);
+
+            for (int i = 0; i < 2; i++) {
+                InetAddress address;
+                // Order the candidate addresses by preference.
+                if (i == (preferIPv6Address ? 0 : 1)) {
+                    address = new Inet6Address("localhost",
+                            new byte[]{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+                                        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01});
+                } else {
+                    address = new Inet4Address("localhost", new byte[]{ 0x7f,0x00,0x00,0x01 });
+                }
+                if (i == 0) {
+                    // In case of failure, default to the preferred address.
+                    loopbackAddress = address;
+                }
+                try {
+                    if (!NetworkInterface.isBoundInetAddress(address)) {
+                        continue;
+                    }
+                } catch (SocketException e) {
+                    continue;
+                }
+                loopbackAddress = address;
+                break;
+            }
+        }
+        return loopbackAddress;
+    }
+
+    private InetAddress anyLocalAddress;
+    private InetAddress loopbackAddress;
+}

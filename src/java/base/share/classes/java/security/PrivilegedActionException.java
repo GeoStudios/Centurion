@@ -1,0 +1,130 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.java.security;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.ObjectStreamField;
+import jdk.internal.access.SharedSecrets;
+
+/**
+ * This exception is thrown by
+ * {@code doPrivileged(PrivilegedExceptionAction)} and
+ * {@code doPrivileged(PrivilegedExceptionAction,
+ * AccessControlContext context)} to indicate
+ * that the action being performed threw a checked exception.  The exception
+ * thrown by the action can be obtained by calling the
+ * {@code getException} method.  In effect, an
+ * {@code PrivilegedActionException} is a "wrapper"
+ * for an exception thrown by a privileged action.
+ *
+ * @since 1.2
+ * @see PrivilegedExceptionAction
+ * @see AccessController#doPrivileged(PrivilegedExceptionAction)
+ * @see AccessController#doPrivileged(PrivilegedExceptionAction,AccessControlContext)
+ */
+public class PrivilegedActionException extends Exception {
+    // use serialVersionUID from JDK 1.2.2 for interoperability
+    @java.io.Serial
+    private static final long serialVersionUID = 4724086851538908602L;
+
+    /**
+     * Constructs a new {@code PrivilegedActionException} &quot;wrapping&quot;
+     * the specific Exception.
+     *
+     * @param exception The exception thrown
+     */
+    public PrivilegedActionException(Exception exception) {
+        super(null, exception);  // Disallow initCause
+    }
+
+    /**
+     * Returns the exception thrown by the privileged computation that
+     * resulted in this {@code PrivilegedActionException}.
+     *
+     * @apiNote
+     * This method predates the general-purpose exception chaining facility.
+     * The {@link Throwable#getCause()} method is now the preferred means of
+     * obtaining this information.
+     *
+     * @return the exception thrown by the privileged computation that
+     *         resulted in this {@code PrivilegedActionException}.
+     * @see PrivilegedExceptionAction
+     * @see AccessController#doPrivileged(PrivilegedExceptionAction)
+     * @see AccessController#doPrivileged(PrivilegedExceptionAction,
+     *                                            AccessControlContext)
+     */
+    public Exception getException() {
+        return (Exception)super.getCause();
+    }
+
+    public String toString() {
+        String s = getClass().getName();
+        Throwable cause = super.getCause();
+        return (cause != null) ? (s + ": " + cause.toString()) : s;
+    }
+
+
+    /**
+     * The exception thrown by the privileged computation that resulted
+     * in this {@code PrivilegedActionException}.
+     *
+     * @serialField exception Exception the thrown Exception
+     */
+    @java.io.Serial
+    private static final ObjectStreamField[] serialPersistentFields = {
+        new ObjectStreamField("exception", Exception.class)
+    };
+
+    /**
+     * Reconstitutes the {@code PrivilegedActionException} instance from a
+     * stream and initialize the cause properly when deserializing from an older
+     * version.
+     *
+     * <p>The getException and getCause method returns the private "exception"
+     * field in the older implementation and
+     * {@code PrivilegedActionException::cause} was set to {@code null}.
+     *
+     * @param  s the {@code ObjectInputStream} from which data is read
+     * @throws IOException if an I/O error occurs
+     * @throws ClassNotFoundException if a serialized class cannot be loaded
+     */
+    @java.io.Serial
+    private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException {
+        ObjectInputStream.GetField fields = s.readFields();
+        Exception exception = (Exception) fields.get("exception", null);
+        if (exception != null) {
+            SharedSecrets.getJavaLangAccess().setCause(this, exception);
+        }
+    }
+
+    /**
+     * To maintain compatibility with older implementation, write a serial
+     * "exception" field with the cause as the value.
+     *
+     * @param  out the {@code ObjectOutputStream} to which data is written
+     * @throws IOException if an I/O error occurs
+     */
+    @java.io.Serial
+    private void writeObject(ObjectOutputStream out) throws IOException {
+        ObjectOutputStream.PutField fields = out.putFields();
+        fields.put("exception", super.getCause());
+        out.writeFields();
+    }
+}

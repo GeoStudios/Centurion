@@ -1,0 +1,83 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
+
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+
+/**
+ * A node that represents a local variable declaration.
+ *
+ * @author Eric Bruneton
+ */
+public class LocalVariableNode {
+
+    /** The name of a local variable. */
+    public String name;
+
+    /** The type descriptor of this local variable. */
+    public String desc;
+
+    /** The signature of this local variable. May be {@literal null}. */
+    public String signature;
+
+    /** The first instruction corresponding to the scope of this local variable (inclusive). */
+    public LabelNode start;
+
+    /** The last instruction corresponding to the scope of this local variable (exclusive). */
+    public LabelNode end;
+
+    /** The local variable's index. */
+    public int index;
+
+    /**
+      * Constructs a new {@link LocalVariableNode}.
+      *
+      * @param name the name of a local variable.
+      * @param descriptor the type descriptor of this local variable.
+      * @param signature the signature of this local variable. May be {@literal null}.
+      * @param start the first instruction corresponding to the scope of this local variable
+      *     (inclusive).
+      * @param end the last instruction corresponding to the scope of this local variable (exclusive).
+      * @param index the local variable's index.
+      */
+    public LocalVariableNode(
+            final String name,
+            final String descriptor,
+            final String signature,
+            final LabelNode start,
+            final LabelNode end,
+            final int index) {
+        this.name = name;
+        this.desc = descriptor;
+        this.signature = signature;
+        this.start = start;
+        this.end = end;
+        this.index = index;
+    }
+
+    /**
+      * Makes the given visitor visit this local variable declaration.
+      *
+      * @param methodVisitor a method visitor.
+      */
+    public void accept(final MethodVisitor methodVisitor) {
+        methodVisitor.visitLocalVariable(
+                name, desc, signature, start.getLabel(), end.getLabel(), index);
+    }
+}
+

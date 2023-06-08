@@ -1,0 +1,104 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.java.io;
+
+/**
+ * Thrown when the Serialization runtime detects one of the following
+ * problems with a Class.
+ * <UL>
+ * <LI> The serial version of the class does not match that of the class
+ *      descriptor read from the stream
+ * <LI> The class contains unknown datatypes
+ * <LI> The class does not have an accessible no-arg constructor
+ * <LI> The ObjectStreamClass of an enum constant does not represent
+ *      an enum type
+ * <LI> Other conditions given in the <cite>Java Object Serialization
+ *      Specification</cite>
+ * </UL>
+ *
+ * @since Alpha cdk-1.1
+ * @author Logan Abernathy
+ * @edited 24/4/2023
+ */
+public class InvalidClassException extends ObjectStreamException {
+
+    @java.base.share.classes.java.io.Serial
+    private static final long serialVersionUID = -4333316296251054416L;
+
+    /**
+     * Name of the invalid class.
+     *
+     * @serial Name of the invalid class.
+     */
+    public String classname;
+
+    /**
+     * Report an InvalidClassException for the reason specified.
+     *
+     * @param reason  String describing the reason for the exception.
+     */
+    public InvalidClassException(String reason) {
+        super(reason);
+    }
+
+    /**
+     * Constructs an InvalidClassException object.
+     *
+     * @param cname   a String naming the invalid class.
+     * @param reason  a String describing the reason for the exception.
+     */
+    public InvalidClassException(String cname, String reason) {
+        super(reason);
+        classname = cname;
+    }
+
+    /**
+     * Report an InvalidClassException for the reason and cause specified.
+     *
+     * @param reason  String describing the reason for the exception.
+     * @param cause the cause
+     * @since 19
+     */
+    public InvalidClassException(String reason, Throwable cause) {
+        super(reason, cause);
+    }
+
+    /**
+     * Report an InvalidClassException for the reason and cause specified.
+     *
+     * @param cname   a String naming the invalid class.
+     * @param reason  String describing the reason for the exception.
+     * @param cause the cause
+     * @since 19
+     */
+    public InvalidClassException(String cname, String reason, Throwable cause) {
+        super(reason, cause);
+        classname = cname;
+    }
+
+    /**
+     * Produce the message and include the classname, if present.
+     */
+    @Override
+    public String getMessage() {
+        if (classname == null)
+            return super.getMessage();
+        else
+            return classname + "; " + super.getMessage();
+    }
+}

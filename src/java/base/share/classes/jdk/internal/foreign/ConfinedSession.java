@@ -1,0 +1,110 @@
+/*
+ * Geo Studios Protective License
+ *
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ *
+ * Whoever collects this software or tool may not distribute the copy that has been obtained.
+ *
+ * This software or tool may not be used to gain a commercial or monetary advantage.
+ *
+ * Copyright will be included in any software or tool using this license, no matter the size or type of software or tool.
+ *
+ * This software or tool is not under any patent, but the software or tool shall not be
+ * sold or uploaded as some other product or without the original creators consent and
+ * permission. If the following happens, consequences will occur due to following
+ * instructions or not following the rules written in this document.
+ */
+
+package java.base.share.classes.jdk.internal.foreign;
+
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.VarHandle;
+import java.lang.ref.Cleaner;
+
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+
+/**
+ * A confined session, which features an owner thread. The liveness check features an additional
+ * confinement check - that is, calling any operation on this session from a thread other than the
+ * owner thread will result in an exception. Because of this restriction, checking the liveness bit
+ * can be performed in plain mode.
+ */
+final class ConfinedSession extends MemorySessionImpl {
+
+    private int asyncReleaseCount = 0;
+
+    static final VarHandle ASYNC_RELEASE_COUNT;
+
+    static {
+        try {
+            ASYNC_RELEASE_COUNT = MethodHandles.lookup().findVarHandle(ConfinedSession.class, "asyncReleaseCount", int.class);
+        } catch (Throwable ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
+    }
+
+    public ConfinedSession(Thread owner) {
+        super(owner, new ConfinedResourceList());
+    }
+
+    @Override
+    @ForceInline
+    public void acquire0() {
+        checkValidState();
+        if (state == MAX_FORKS) {
+            throw tooManyAcquires();
+        }
+        state++;
+    }
+
+    @Override
+    @ForceInline
+    public void release0() {
+        if (Thread.currentThread() == owner) {
+            state--;
+        } else {
+            // It is possible to end up here in two cases: this session was kept alive by some other confined session
+            // which is implicitly released (in which case the release call comes from the cleaner thread). Or,
+            // this session might be kept alive by a shared session, which means the release call can come from any
+            // thread.
+            ASYNC_RELEASE_COUNT.getAndAdd(this, 1);
+        }
+    }
+
+    void justClose() {
+        checkValidState();
+        int asyncCount = (int)ASYNC_RELEASE_COUNT.getVolatile(this);
+        if ((state == 0 && asyncCount == 0)
+                || ((state - asyncCount) == 0)) {
+            state = CLOSED;
+        } else {
+            throw alreadyAcquired(state - asyncCount);
+        }
+    }
+
+    /**
+     * A confined resource list; no races are possible here.
+     */
+    static final class ConfinedResourceList extends ResourceList {
+        @Override
+        void add(ResourceCleanup cleanup) {
+            if (fst != ResourceCleanup.CLOSED_LIST) {
+                cleanup.next = fst;
+                fst = cleanup;
+            } else {
+                throw alreadyClosed();
+            }
+        }
+
+        @Override
+        void cleanup() {
+            if (fst != ResourceCleanup.CLOSED_LIST) {
+                ResourceCleanup prev = fst;
+                fst = ResourceCleanup.CLOSED_LIST;
+                cleanup(prev);
+            } else {
+                throw alreadyClosed();
+            }
+        }
+    }
+}
