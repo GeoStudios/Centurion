@@ -38,4 +38,4 @@ soon be an installable JDK for the user).
 
 ### License
 
-Centurion is licensed under Geo Studios Protective License GSPL. For more info, please see the [license file](https://github.com/GeoStudios/Centurion/blob/main/License.rtf)
+Centurion is licensed under GNU Public License. For more info, please see the [license file](https://github.com/GeoStudios/Centurion/blob/main/License.rtf)
