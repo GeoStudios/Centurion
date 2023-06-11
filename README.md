@@ -1,24 +1,29 @@
-<img src="assets/Centurion.png" width="128">
+<img src="assets/Centurion.png" width="100">
 <br />
 
-Centurion is soon to be a Heavy JDK to supply the user with great library of Java tools and enhancements 
-for the java enviorment. 
+Centurion is to be a Java Development Kit to supply the user with a huge library, and a functional tool
+to use when developing java projects, programs, and much more!
 
-:warning: Centurion is in alpha stages right now and might have bugs. If any bugs occur, make a [Issue.](https://github.com/GeoStudios/Centurion/issues)
+Centurion is starting to be built right now and is going to take many months to craft a functional installable 
+program for its users.
 
-:warning: This whole repo will be revamped and no longer compatable with any offical JDK. The offical JDK has issues that are completly wrecking Centurion to the extent of revamping.
+:warning: This JDK will not be compatible with any existing JDK due to the fact that any changes from them could
+potentially break Centurion.
 
-We will be making a site for the devlopment which will have all the downloads and extra info 
-you to see. Prob this summer! The site is going to have a wiki with all the versions and all 
-the info for this gigantic project.
+GeoStudios is soon going to be launching a site that houses versions for the all the products of GeoStudios and 
+will be housing Centurion sometime afterward. Please be patient in this process due to the fact we only have 2 
+devs making this possible working voluntary on this project.
 
 ## Contributions
 
-If you want to contribute to this repository, you can make a pull request. If you change or add a file,
-add a comment of what it does, author name, @edited for last edited, and a @since for when it was first
-added. You can check what version Centurion on when you look at the version list.
+If you want to contribute to this repository, you can make a pull request. We have lots of classes and files
+that can be enhanced so much, and also have so much potential. 
 
-If you really want to contribute, add somthing you think should be inside, if you want to be a project 
+If you are optimizing some sort of class, add your list to the @author in the class description. <br>
+If you are adding a new class, add a description of what that file does. And your name if you 
+want to be credited. <br>
+
+If you really want to contribute, add something you think should be inside, if you want to be a project 
 lead for a topic, contact M4x(M4ximumpizza#4712) on discord. There are plenty of stuff to add.
 
 ## Devlopers

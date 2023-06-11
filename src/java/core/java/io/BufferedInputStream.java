@@ -56,5 +56,4 @@ public class BufferedInputStream {
      */
 
     private static final Unsafe U = Unsafe.getUnsafe();
-
 }
