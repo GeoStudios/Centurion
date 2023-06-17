@@ -22,21 +22,22 @@
 package ja.net.geostudios.crypto.provider;
 
 import javax.crypto.ShortBufferException;
-import java.util.Arrays;
 
 /**
- * This class implements padding as specified in the PKCS#5 standard.
+ * This class implements padding as specified in the W3 XML ENC standard.
+ * Though the standard does not specify or require the padding bytes to be
+ * random, this implementation pads with random bytes (until the last byte,
+ * which provides the length of padding, as specified).
  *
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
- *
  * @see Padding
  */
-final class PKCS5Padding implements Padding {
+final class ISO10126Padding implements Padding {
 
     private int blockSize;
 
-    PKCS5Padding(int blockSize) {
+    ISO10126Padding(int blockSize) {
         this.blockSize = blockSize;
     }
 
@@ -66,7 +67,10 @@ final class PKCS5Padding implements Padding {
         }
 
         byte paddingOctet = (byte) (len & 0xff);
-        Arrays.fill(in, off, idx, paddingOctet);
+        byte[] padding = new byte[len - 1];
+        SunJCE.getRandom().nextBytes(padding);
+        System.arraycopy(padding, 0, in, off, len - 1);
+        in[idx - 1] = paddingOctet;
         return;
     }
 
@@ -88,6 +92,7 @@ final class PKCS5Padding implements Padding {
                 (len == 0)) { // this can happen if input is really a padded buffer
             return 0;
         }
+
         int idx = Math.addExact(off, len);
         byte lastByte = in[idx - 1];
         int padValue = (int)lastByte & 0x0ff;
@@ -101,11 +106,6 @@ final class PKCS5Padding implements Padding {
             return -1;
         }
 
-        for (int i = start; i < idx; i++) {
-            if (in[i] != lastByte) {
-                return -1;
-            }
-        }
         return start;
     }
 
