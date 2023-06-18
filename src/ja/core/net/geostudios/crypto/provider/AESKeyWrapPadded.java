@@ -19,15 +19,14 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.util.Arrays;
 import java.util.HexFormat;
 import java.security.*;
-import java.security.spec.*;
 import javax.crypto.*;
-import javax.crypto.spec.*;
-import static ja.net.geostudios.crypto.provider.KWUtil.*;
+
+import static ja.core.net.geostudios.crypto.provider.KWUtil.*;
 
 /**
  * This class implement the AES KeyWrap With Padding mode of operation as
@@ -83,7 +82,7 @@ class AESKeyWrapPadded extends FeedbackCipher {
     }
 
     AESKeyWrapPadded() {
-        super(new ja.net.geostudios.crypto.provider.AESCrypt());
+        super(new ja.core.net.geostudios.crypto.provider.AESCrypt());
     }
 
     /**

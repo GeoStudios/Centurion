@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 /**
  * This class defines the constants used by the AES implementation.
@@ -27,7 +27,7 @@ package ja.net.geostudios.crypto.provider;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  *
- * @see ja.net.geostudios.crypto.provider.AESCipher
+ * @see ja.core.net.geostudios.crypto.provider.AESCipher
  */
 
 interface AESConstants {

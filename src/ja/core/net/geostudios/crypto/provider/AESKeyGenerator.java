@@ -19,12 +19,11 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.SecureRandom;
 import java.security.InvalidParameterException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.Arrays;
 import javax.crypto.KeyGeneratorSpi;
@@ -87,7 +86,7 @@ public final class AESKeyGenerator extends KeyGeneratorSpi {
      */
     protected void engineInit(int keysize, SecureRandom random) {
         if (((keysize % 8) != 0) ||
-                (!ja.net.geostudios.crypto.provider.AESCrypt.isKeySizeValid(keysize/8))) {
+                (!ja.core.net.geostudios.crypto.provider.AESCrypt.isKeySizeValid(keysize/8))) {
             throw new InvalidParameterException
                     ("Wrong keysize: must be equal to 128, 192 or 256");
         }

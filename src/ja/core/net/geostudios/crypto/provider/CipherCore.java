@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -42,7 +42,7 @@ import javax.crypto.BadPaddingException;
  * @see ElectronicCodeBook
  * @see CipherFeedback
  * @see OutputFeedback
- * @see ja.net.geostudios.crypto.provider.CipherBlockChaining
+ * @see ja.core.net.geostudios.crypto.provider.CipherBlockChaining
  * @see PCBC
  * @see CounterMode
  * @see CipherTextStealing
@@ -162,7 +162,7 @@ final class CipherCore {
         SymmetricCipher rawImpl = cipher.getEmbeddedCipher();
         if (modeUpperCase.equals("CBC")) {
             cipherMode = CBC_MODE;
-            cipher = new ja.net.geostudios.crypto.provider.CipherBlockChaining(rawImpl);
+            cipher = new ja.core.net.geostudios.crypto.provider.CipherBlockChaining(rawImpl);
         } else if (modeUpperCase.equals("CTS")) {
             cipherMode = CTS_MODE;
             cipher = new CipherTextStealing(rawImpl);

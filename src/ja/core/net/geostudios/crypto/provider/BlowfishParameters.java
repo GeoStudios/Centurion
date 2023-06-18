@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.io.*;
 import java.security.AlgorithmParametersSpi;
@@ -40,11 +40,11 @@ import java.security.spec.InvalidParameterSpecException;
 
 public final class BlowfishParameters extends AlgorithmParametersSpi {
 
-    private ja.net.geostudios.crypto.provider.BlockCipherParamsCore core;
+    private ja.core.net.geostudios.crypto.provider.BlockCipherParamsCore core;
 
     public BlowfishParameters() {
-        core = new ja.net.geostudios.crypto.provider.BlockCipherParamsCore
-                (ja.net.geostudios.crypto.provider.BlowfishConstants.BLOWFISH_BLOCK_SIZE);
+        core = new ja.core.net.geostudios.crypto.provider.BlockCipherParamsCore
+                (ja.core.net.geostudios.crypto.provider.BlowfishConstants.BLOWFISH_BLOCK_SIZE);
     }
     protected void engineInit(AlgorithmParameterSpec paramSpec)
             throws InvalidParameterSpecException {

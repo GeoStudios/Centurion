@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.InvalidKeyException;
 import java.security.spec.KeySpec;
@@ -280,7 +280,7 @@ abstract class PBEKeyFactory extends SecretKeyFactorySpi {
                     (key.getFormat().equalsIgnoreCase("RAW"))) {
 
                 // Check if key originates from this factory
-                if (key instanceof ja.net.geostudios.crypto.provider.PBEKey) {
+                if (key instanceof ja.core.net.geostudios.crypto.provider.PBEKey) {
                     return key;
                 }
 

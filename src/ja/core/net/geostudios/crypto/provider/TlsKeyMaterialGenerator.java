@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
@@ -30,7 +30,7 @@ import javax.crypto.spec.*;
 
 import sun.security.internal.spec.*;
 
-import static ja.net.geostudios.crypto.provider.TlsPrfGenerator.*;
+import static ja.core.net.geostudios.crypto.provider.TlsPrfGenerator.*;
 
 /**
  * KeyGenerator implementation for the SSL/TLS master secret derivation.

@@ -19,15 +19,13 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.*;
 import java.security.spec.*;
 import java.util.Arrays;
 
-import sun.security.util.*;
 import javax.crypto.*;
-import javax.crypto.spec.*;
 import javax.crypto.BadPaddingException;
 
 /**

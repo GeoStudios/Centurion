@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.io.*;
 import java.security.AlgorithmParametersSpi;
@@ -43,7 +43,7 @@ public final class AESParameters extends AlgorithmParametersSpi {
     private BlockCipherParamsCore core;
 
     public AESParameters() {
-        core = new BlockCipherParamsCore(ja.net.geostudios.crypto.provider.AESConstants.AES_BLOCK_SIZE, 4, 8);
+        core = new BlockCipherParamsCore(ja.core.net.geostudios.crypto.provider.AESConstants.AES_BLOCK_SIZE, 4, 8);
     }
 
     protected void engineInit(AlgorithmParameterSpec paramSpec)

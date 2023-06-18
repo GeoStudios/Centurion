@@ -19,10 +19,9 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.ShortBufferException;
 
 /**
  * This class represents ciphers in cipher text stealing (CTS) mode.
@@ -47,7 +46,7 @@ import javax.crypto.ShortBufferException;
  * @since Alpha CDK-1.0
  */
 
-final class CipherTextStealing extends ja.net.geostudios.crypto.provider.CipherBlockChaining {
+final class CipherTextStealing extends ja.core.net.geostudios.crypto.provider.CipherBlockChaining {
 
     CipherTextStealing(SymmetricCipher embeddedCipher) {
         super(embeddedCipher);

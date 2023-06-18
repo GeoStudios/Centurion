@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.Key;
 import java.security.PublicKey;
@@ -205,7 +205,7 @@ public final class DHKeyFactory extends KeyFactorySpi {
 
             if (key instanceof javax.crypto.interfaces.DHPublicKey) {
                 // Check if key originates from this factory
-                if (key instanceof ja.net.geostudios.crypto.provider.DHPublicKey) {
+                if (key instanceof ja.core.net.geostudios.crypto.provider.DHPublicKey) {
                     return key;
                 }
                 // Convert key to spec
@@ -216,7 +216,7 @@ public final class DHKeyFactory extends KeyFactorySpi {
 
             } else if (key instanceof javax.crypto.interfaces.DHPrivateKey) {
                 // Check if key originates from this factory
-                if (key instanceof ja.net.geostudios.crypto.provider.DHPrivateKey) {
+                if (key instanceof ja.core.net.geostudios.crypto.provider.DHPrivateKey) {
                     return key;
                 }
                 // Convert key to spec

@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.nio.ByteBuffer;
 
@@ -28,7 +28,7 @@ import javax.crypto.SecretKey;
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 
-import static ja.net.geostudios.crypto.provider.TlsPrfGenerator.genPad;
+import static ja.core.net.geostudios.crypto.provider.TlsPrfGenerator.genPad;
 
 /**
  * This file contains the code for the SslMacMD5 and SslMacSHA1 implementations.

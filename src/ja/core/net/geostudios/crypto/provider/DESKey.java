@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.lang.ref.Reference;
 import java.security.MessageDigest;
@@ -149,11 +149,9 @@ final class DESKey implements SecretKey {
      * @throws java.io.ObjectStreamException if a new object representing
      * this DES key could not be created
      */
+
     @java.io.Serial
     private Object writeReplace() throws java.io.ObjectStreamException {
-        return new KeyRep(KeyRep.Type.SECRET,
-                getAlgorithm(),
-                getFormat(),
-                key);
+        return new KeyRep(KeyRep.Type.SECRET, getAlgorithm(), getFormat(), key);
     }
 }

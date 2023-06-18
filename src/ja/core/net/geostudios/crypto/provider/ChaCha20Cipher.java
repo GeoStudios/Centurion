@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -117,7 +117,7 @@ abstract class ChaCha20Cipher extends CipherSpi {
     private Poly1305 authenticator;
 
     // The underlying engine for doing the ChaCha20/Poly1305 work
-    private ja.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine engine;
+    private ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine engine;
 
     // Use this VarHandle for converting the state elements into little-endian
     // integer values for the ChaCha20 block function.
@@ -555,12 +555,12 @@ abstract class ChaCha20Cipher extends CipherSpi {
         setInitialState();
 
         if (mode == MODE_NONE) {
-            engine = new ja.net.geostudios.crypto.provider.ChaCha20Cipher.EngineStreamOnly();
+            engine = new ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.EngineStreamOnly();
         } else if (mode == MODE_AEAD) {
             if (opmode == Cipher.ENCRYPT_MODE) {
-                engine = new ja.net.geostudios.crypto.provider.ChaCha20Cipher.EngineAEADEnc();
+                engine = new ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.EngineAEADEnc();
             } else if (opmode == Cipher.DECRYPT_MODE) {
-                engine = new ja.net.geostudios.crypto.provider.ChaCha20Cipher.EngineAEADDec();
+                engine = new ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.EngineAEADDec();
             } else {
                 throw new InvalidKeyException("Not encrypt or decrypt mode");
             }
@@ -1221,7 +1221,7 @@ abstract class ChaCha20Cipher extends CipherSpi {
                 throws ShortBufferException, AEADBadTagException, KeyException;
     }
 
-    private final class EngineStreamOnly implements ja.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
+    private final class EngineStreamOnly implements ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
 
         private EngineStreamOnly () { }
 
@@ -1263,7 +1263,7 @@ abstract class ChaCha20Cipher extends CipherSpi {
         }
     }
 
-    private final class EngineAEADEnc implements ja.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
+    private final class EngineAEADEnc implements ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
 
         @Override
         public int getOutputSize(int inLength, boolean isFinal) {
@@ -1325,7 +1325,7 @@ abstract class ChaCha20Cipher extends CipherSpi {
         }
     }
 
-    private final class EngineAEADDec implements ja.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
+    private final class EngineAEADDec implements ja.core.net.geostudios.crypto.provider.ChaCha20Cipher.ChaChaEngine {
 
         private final ByteArrayOutputStream cipherBuf;
         private final byte[] tag;
@@ -1425,13 +1425,13 @@ abstract class ChaCha20Cipher extends CipherSpi {
         }
     }
 
-    public static final class ChaCha20Only extends ja.net.geostudios.crypto.provider.ChaCha20Cipher {
+    public static final class ChaCha20Only extends ja.core.net.geostudios.crypto.provider.ChaCha20Cipher {
         public ChaCha20Only() {
             mode = MODE_NONE;
         }
     }
 
-    public static final class ChaCha20Poly1305 extends ja.net.geostudios.crypto.provider.ChaCha20Cipher {
+    public static final class ChaCha20Poly1305 extends ja.core.net.geostudios.crypto.provider.ChaCha20Cipher {
         public ChaCha20Poly1305() {
             mode = MODE_AEAD;
             authAlgName = "Poly1305";

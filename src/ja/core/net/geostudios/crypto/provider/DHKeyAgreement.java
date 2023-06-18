@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.util.*;
 import java.lang.*;
@@ -33,7 +33,6 @@ import java.security.SecureRandom;
 import java.security.PrivilegedAction;
 import java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidKeySpecException;
 import javax.crypto.KeyAgreementSpi;
 import javax.crypto.ShortBufferException;
 import javax.crypto.SecretKey;

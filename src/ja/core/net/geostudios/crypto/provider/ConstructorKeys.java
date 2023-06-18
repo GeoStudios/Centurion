@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import jdk.internal.access.SharedSecrets;
 
@@ -135,11 +135,11 @@ final class ConstructKeys {
                                   String keyAlgorithm, int keyType)
             throws InvalidKeyException, NoSuchAlgorithmException {
         return switch (keyType) {
-            case Cipher.SECRET_KEY -> ja.net.geostudios.crypto.provider.ConstructKeys.constructSecretKey(
+            case Cipher.SECRET_KEY -> ja.core.net.geostudios.crypto.provider.ConstructKeys.constructSecretKey(
                     encoding, ofs, len, keyAlgorithm);
-            case Cipher.PRIVATE_KEY -> ja.net.geostudios.crypto.provider.ConstructKeys.constructPrivateKey(
+            case Cipher.PRIVATE_KEY -> ja.core.net.geostudios.crypto.provider.ConstructKeys.constructPrivateKey(
                     encoding, ofs, len, keyAlgorithm);
-            case Cipher.PUBLIC_KEY -> ja.net.geostudios.crypto.provider.ConstructKeys.constructPublicKey(
+            case Cipher.PUBLIC_KEY -> ja.core.net.geostudios.crypto.provider.ConstructKeys.constructPublicKey(
                     encoding, ofs, len, keyAlgorithm);
             default -> throw new NoSuchAlgorithmException("Unsupported key type");
         };

@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.AccessController;
 import java.security.Provider;
@@ -154,7 +154,7 @@ public final class SunJCE extends Provider {
                 "java.security.interfaces.RSAPublicKey" +
                         "|java.security.interfaces.RSAPrivateKey");
         ps("Cipher", "RSA",
-                "ja.net.geostudios.crypto.provider.RSACipher", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.RSACipher", null, attrs);
 
         // common block cipher modes, pads
         final String BLOCK_MODES = "ECB|CBC|PCBC|CTR|CTS|CFB|OFB" +
@@ -170,98 +170,98 @@ public final class SunJCE extends Provider {
         attrs.put("SupportedPaddings", BLOCK_PADS);
         attrs.put("SupportedKeyFormats", "RAW");
         ps("Cipher", "DES",
-                "ja.net.geostudios.crypto.provider.DESCipher", null, attrs);
-        psA("Cipher", "DESede", "ja.net.geostudios.crypto.provider.DESedeCipher",
+                "ja.core.net.geostudios.crypto.provider.DESCipher", null, attrs);
+        psA("Cipher", "DESede", "ja.core.net.geostudios.crypto.provider.DESedeCipher",
                 attrs);
         ps("Cipher", "Blowfish",
-                "ja.net.geostudios.crypto.provider.BlowfishCipher", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.BlowfishCipher", null, attrs);
 
         ps("Cipher", "RC2",
-                "ja.net.geostudios.crypto.provider.RC2Cipher", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.RC2Cipher", null, attrs);
 
         attrs.clear();
         attrs.put("SupportedModes", BLOCK_MODES128);
         attrs.put("SupportedPaddings", BLOCK_PADS);
         attrs.put("SupportedKeyFormats", "RAW");
         psA("Cipher", "AES",
-                "ja.net.geostudios.crypto.provider.AESCipher$General", attrs);
+                "ja.core.net.geostudios.crypto.provider.AESCipher$General", attrs);
 
         attrs.clear();
         attrs.put("SupportedKeyFormats", "RAW");
         psA("Cipher", "AES/KW/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES_KW_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES_KW_NoPadding",
                 attrs);
         ps("Cipher", "AES/KW/PKCS5Padding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES_KW_PKCS5Padding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES_KW_PKCS5Padding",
                 null, attrs);
         psA("Cipher", "AES/KWP/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES_KWP_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES_KWP_NoPadding",
                 attrs);
 
         psA("Cipher", "AES_128/ECB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES128_ECB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES128_ECB_NoPadding",
                 attrs);
         psA("Cipher", "AES_128/CBC/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES128_CBC_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES128_CBC_NoPadding",
                 attrs);
         psA("Cipher", "AES_128/OFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES128_OFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES128_OFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_128/CFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES128_CFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES128_CFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_128/KW/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KW_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KW_NoPadding",
                 attrs);
         ps("Cipher", "AES_128/KW/PKCS5Padding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KW_PKCS5Padding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KW_PKCS5Padding",
                 null, attrs);
         psA("Cipher", "AES_128/KWP/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KWP_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES128_KWP_NoPadding",
                 attrs);
 
         psA("Cipher", "AES_192/ECB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES192_ECB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES192_ECB_NoPadding",
                 attrs);
         psA("Cipher", "AES_192/CBC/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES192_CBC_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES192_CBC_NoPadding",
                 attrs);
         psA("Cipher", "AES_192/OFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES192_OFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES192_OFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_192/CFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES192_CFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES192_CFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_192/KW/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KW_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KW_NoPadding",
                 attrs);
         ps("Cipher", "AES_192/KW/PKCS5Padding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KW_PKCS5Padding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KW_PKCS5Padding",
                 null, attrs);
         psA("Cipher", "AES_192/KWP/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KWP_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES192_KWP_NoPadding",
                 attrs);
 
         psA("Cipher", "AES_256/ECB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES256_ECB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES256_ECB_NoPadding",
                 attrs);
         psA("Cipher", "AES_256/CBC/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES256_CBC_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES256_CBC_NoPadding",
                 attrs);
         psA("Cipher", "AES_256/OFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES256_OFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES256_OFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_256/CFB/NoPadding",
-                "ja.net.geostudios.crypto.provider.AESCipher$AES256_CFB_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.AESCipher$AES256_CFB_NoPadding",
                 attrs);
         psA("Cipher", "AES_256/KW/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KW_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KW_NoPadding",
                 attrs);
         ps("Cipher", "AES_256/KW/PKCS5Padding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KW_PKCS5Padding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KW_PKCS5Padding",
                 null, attrs);
         psA("Cipher", "AES_256/KWP/NoPadding",
-                "ja.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KWP_NoPadding",
+                "ja.core.net.geostudios.crypto.provider.KeyWrapCipher$AES256_KWP_NoPadding",
                 attrs);
 
         attrs.clear();
@@ -269,16 +269,16 @@ public final class SunJCE extends Provider {
         attrs.put("SupportedKeyFormats", "RAW");
 
         ps("Cipher", "AES/GCM/NoPadding",
-                "ja.net.geostudios.crypto.provider.GaloisCounterMode$AESGCM", null,
+                "ja.core.net.geostudios.crypto.provider.GaloisCounterMode$AESGCM", null,
                 attrs);
         psA("Cipher", "AES_128/GCM/NoPadding",
-                "ja.net.geostudios.crypto.provider.GaloisCounterMode$AES128",
+                "ja.core.net.geostudios.crypto.provider.GaloisCounterMode$AES128",
                 attrs);
         psA("Cipher", "AES_192/GCM/NoPadding",
-                "ja.net.geostudios.crypto.provider.GaloisCounterMode$AES192",
+                "ja.core.net.geostudios.crypto.provider.GaloisCounterMode$AES192",
                 attrs);
         psA("Cipher", "AES_256/GCM/NoPadding",
-                "ja.net.geostudios.crypto.provider.GaloisCounterMode$AES256",
+                "ja.core.net.geostudios.crypto.provider.GaloisCounterMode$AES256",
                 attrs);
 
         attrs.clear();
@@ -286,144 +286,144 @@ public final class SunJCE extends Provider {
         attrs.put("SupportedPaddings", "NOPADDING");
         attrs.put("SupportedKeyFormats", "RAW");
         ps("Cipher", "DESedeWrap",
-                "ja.net.geostudios.crypto.provider.DESedeWrapCipher", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.DESedeWrapCipher", null, attrs);
 
         attrs.clear();
         attrs.put("SupportedModes", "ECB");
         attrs.put("SupportedPaddings", "NOPADDING");
         attrs.put("SupportedKeyFormats", "RAW");
         psA("Cipher", "ARCFOUR",
-                "ja.net.geostudios.crypto.provider.ARCFOURCipher", attrs);
+                "ja.core.net.geostudios.crypto.provider.ARCFOURCipher", attrs);
 
         attrs.clear();
         attrs.put("SupportedKeyFormats", "RAW");
         ps("Cipher",  "ChaCha20",
-                "ja.net.geostudios.crypto.provider.ChaCha20Cipher$ChaCha20Only",
+                "ja.core.net.geostudios.crypto.provider.ChaCha20Cipher$ChaCha20Only",
                 null, attrs);
         psA("Cipher",  "ChaCha20-Poly1305",
-                "ja.net.geostudios.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+                "ja.core.net.geostudios.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
                 attrs);
 
         // PBES1
         psA("Cipher", "PBEWithMD5AndDES",
-                "ja.net.geostudios.crypto.provider.PBEWithMD5AndDESCipher",
+                "ja.core.net.geostudios.crypto.provider.PBEWithMD5AndDESCipher",
                 null);
         ps("Cipher", "PBEWithMD5AndTripleDES",
-                "ja.net.geostudios.crypto.provider.PBEWithMD5AndTripleDESCipher");
+                "ja.core.net.geostudios.crypto.provider.PBEWithMD5AndTripleDESCipher");
         psA("Cipher", "PBEWithSHA1AndDESede",
-                "ja.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede",
+                "ja.core.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede",
                 null);
         psA("Cipher", "PBEWithSHA1AndRC2_40",
-                "ja.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_40",
+                "ja.core.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_40",
                 null);
         psA("Cipher", "PBEWithSHA1AndRC2_128",
-                "ja.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_128",
+                "ja.core.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_128",
                 null);
         psA("Cipher", "PBEWithSHA1AndRC4_40",
-                "ja.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_40",
+                "ja.core.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_40",
                 null);
 
         psA("Cipher", "PBEWithSHA1AndRC4_128",
-                "ja.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_128",
+                "ja.core.net.geostudios.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_128",
                 null);
 
         // PBES2
         ps("Cipher", "PBEWithHmacSHA1AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA1AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA1AndAES_128");
 
         ps("Cipher", "PBEWithHmacSHA224AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA224AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA224AndAES_128");
 
         ps("Cipher", "PBEWithHmacSHA256AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA256AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA256AndAES_128");
 
         ps("Cipher", "PBEWithHmacSHA384AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA384AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA384AndAES_128");
 
         ps("Cipher", "PBEWithHmacSHA512AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA512AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA512AndAES_128");
 
         ps("Cipher", "PBEWithHmacSHA1AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA1AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA1AndAES_256");
 
         ps("Cipher", "PBEWithHmacSHA224AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA224AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA224AndAES_256");
 
         ps("Cipher", "PBEWithHmacSHA256AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA256AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA256AndAES_256");
 
         ps("Cipher", "PBEWithHmacSHA384AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA384AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA384AndAES_256");
 
         ps("Cipher", "PBEWithHmacSHA512AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Core$HmacSHA512AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Core$HmacSHA512AndAES_256");
 
         /*
          * Key(pair) Generator engines
          */
         ps("KeyGenerator", "DES",
-                "ja.net.geostudios.crypto.provider.DESKeyGenerator");
+                "ja.core.net.geostudios.crypto.provider.DESKeyGenerator");
         psA("KeyGenerator", "DESede",
-                "ja.net.geostudios.crypto.provider.DESedeKeyGenerator",
+                "ja.core.net.geostudios.crypto.provider.DESedeKeyGenerator",
                 null);
         ps("KeyGenerator", "Blowfish",
-                "ja.net.geostudios.crypto.provider.BlowfishKeyGenerator");
+                "ja.core.net.geostudios.crypto.provider.BlowfishKeyGenerator");
         psA("KeyGenerator", "AES",
-                "ja.net.geostudios.crypto.provider.AESKeyGenerator",
+                "ja.core.net.geostudios.crypto.provider.AESKeyGenerator",
                 null);
         ps("KeyGenerator", "RC2",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$RC2KeyGenerator");
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$RC2KeyGenerator");
         psA("KeyGenerator", "ARCFOUR",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$ARCFOURKeyGenerator",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$ARCFOURKeyGenerator",
                 null);
         ps("KeyGenerator", "ChaCha20",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$ChaCha20KeyGenerator");
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$ChaCha20KeyGenerator");
         ps("KeyGenerator", "HmacMD5",
-                "ja.net.geostudios.crypto.provider.HmacMD5KeyGenerator");
+                "ja.core.net.geostudios.crypto.provider.HmacMD5KeyGenerator");
 
         psA("KeyGenerator", "HmacSHA1",
-                "ja.net.geostudios.crypto.provider.HmacSHA1KeyGenerator", null);
+                "ja.core.net.geostudios.crypto.provider.HmacSHA1KeyGenerator", null);
         psA("KeyGenerator", "HmacSHA224",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA224",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA224",
                 null);
         psA("KeyGenerator", "HmacSHA256",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA256",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA256",
                 null);
         psA("KeyGenerator", "HmacSHA384",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA384",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA384",
                 null);
         psA("KeyGenerator", "HmacSHA512",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512",
                 null);
         psA("KeyGenerator", "HmacSHA512/224",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512_224",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512_224",
                 null);
         psA("KeyGenerator", "HmacSHA512/256",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512_256",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA512_256",
                 null);
 
         psA("KeyGenerator", "HmacSHA3-224",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_224",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_224",
                 null);
         psA("KeyGenerator", "HmacSHA3-256",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_256",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_256",
                 null);
         psA("KeyGenerator", "HmacSHA3-384",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_384",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_384",
                 null);
         psA("KeyGenerator", "HmacSHA3-512",
-                "ja.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_512",
+                "ja.core.net.geostudios.crypto.provider.KeyGeneratorCore$HmacKG$SHA3_512",
                 null);
 
         psA("KeyPairGenerator", "DiffieHellman",
-                "ja.net.geostudios.crypto.provider.DHKeyPairGenerator",
+                "ja.core.net.geostudios.crypto.provider.DHKeyPairGenerator",
                 null);
 
         /*
          * Algorithm parameter generation engines
          */
         psA("AlgorithmParameterGenerator",
-                "DiffieHellman", "ja.net.geostudios.crypto.provider.DHParameterGenerator",
+                "DiffieHellman", "ja.core.net.geostudios.crypto.provider.DHParameterGenerator",
                 null);
 
         /*
@@ -433,118 +433,118 @@ public final class SunJCE extends Provider {
         attrs.put("SupportedKeyClasses", "javax.crypto.interfaces.DHPublicKey" +
                 "|javax.crypto.interfaces.DHPrivateKey");
         psA("KeyAgreement", "DiffieHellman",
-                "ja.net.geostudios.crypto.provider.DHKeyAgreement",
+                "ja.core.net.geostudios.crypto.provider.DHKeyAgreement",
                 attrs);
 
         /*
          * Algorithm Parameter engines
          */
         psA("AlgorithmParameters", "DiffieHellman",
-                "ja.net.geostudios.crypto.provider.DHParameters", null);
+                "ja.core.net.geostudios.crypto.provider.DHParameters", null);
 
         ps("AlgorithmParameters", "DES",
-                "ja.net.geostudios.crypto.provider.DESParameters");
+                "ja.core.net.geostudios.crypto.provider.DESParameters");
 
         psA("AlgorithmParameters", "DESede",
-                "ja.net.geostudios.crypto.provider.DESedeParameters", null);
+                "ja.core.net.geostudios.crypto.provider.DESedeParameters", null);
 
         psA("AlgorithmParameters", "PBEWithMD5AndDES",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         ps("AlgorithmParameters", "PBEWithMD5AndTripleDES",
-                "ja.net.geostudios.crypto.provider.PBEParameters");
+                "ja.core.net.geostudios.crypto.provider.PBEParameters");
 
         psA("AlgorithmParameters", "PBEWithSHA1AndDESede",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         psA("AlgorithmParameters", "PBEWithSHA1AndRC2_40",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         psA("AlgorithmParameters", "PBEWithSHA1AndRC2_128",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         psA("AlgorithmParameters", "PBEWithSHA1AndRC4_40",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         psA("AlgorithmParameters", "PBEWithSHA1AndRC4_128",
-                "ja.net.geostudios.crypto.provider.PBEParameters",
+                "ja.core.net.geostudios.crypto.provider.PBEParameters",
                 null);
 
         psA("AlgorithmParameters", "PBES2",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$General",
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$General",
                 null);
 
         ps("AlgorithmParameters", "PBEWithHmacSHA1AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA1AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA1AndAES_128");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA224AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA224AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA224AndAES_128");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA256AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA256AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA256AndAES_128");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA384AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA384AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA384AndAES_128");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA512AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA512AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA512AndAES_128");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA1AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA1AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA1AndAES_256");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA224AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA224AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA224AndAES_256");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA256AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA256AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA256AndAES_256");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA384AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA384AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA384AndAES_256");
 
         ps("AlgorithmParameters", "PBEWithHmacSHA512AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA512AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBES2Parameters$HmacSHA512AndAES_256");
 
         ps("AlgorithmParameters", "Blowfish",
-                "ja.net.geostudios.crypto.provider.BlowfishParameters");
+                "ja.core.net.geostudios.crypto.provider.BlowfishParameters");
 
         psA("AlgorithmParameters", "AES",
-                "ja.net.geostudios.crypto.provider.AESParameters", null);
+                "ja.core.net.geostudios.crypto.provider.AESParameters", null);
 
         ps("AlgorithmParameters", "GCM",
-                "ja.net.geostudios.crypto.provider.GCMParameters");
+                "ja.core.net.geostudios.crypto.provider.GCMParameters");
 
         ps("AlgorithmParameters", "RC2",
-                "ja.net.geostudios.crypto.provider.RC2Parameters");
+                "ja.core.net.geostudios.crypto.provider.RC2Parameters");
 
         psA("AlgorithmParameters", "OAEP",
-                "ja.net.geostudios.crypto.provider.OAEPParameters", null);
+                "ja.core.net.geostudios.crypto.provider.OAEPParameters", null);
 
         psA("AlgorithmParameters", "ChaCha20-Poly1305",
-                "ja.net.geostudios.crypto.provider.ChaCha20Poly1305Parameters", null);
+                "ja.core.net.geostudios.crypto.provider.ChaCha20Poly1305Parameters", null);
 
         /*
          * Key factories
          */
         psA("KeyFactory", "DiffieHellman",
-                "ja.net.geostudios.crypto.provider.DHKeyFactory",
+                "ja.core.net.geostudios.crypto.provider.DHKeyFactory",
                 null);
 
         /*
          * Secret-key factories
          */
         ps("SecretKeyFactory", "DES",
-                "ja.net.geostudios.crypto.provider.DESKeyFactory");
+                "ja.core.net.geostudios.crypto.provider.DESKeyFactory");
 
         psA("SecretKeyFactory", "DESede",
-                "ja.net.geostudios.crypto.provider.DESedeKeyFactory", null);
+                "ja.core.net.geostudios.crypto.provider.DESedeKeyFactory", null);
 
         psA("SecretKeyFactory", "PBEWithMD5AndDES",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithMD5AndDES",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithMD5AndDES",
                 null);
 
         /*
@@ -554,144 +554,144 @@ public final class SunJCE extends Provider {
          * algorithm.
          */
         ps("SecretKeyFactory", "PBEWithMD5AndTripleDES",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithMD5AndTripleDES");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithMD5AndTripleDES");
 
         psA("SecretKeyFactory", "PBEWithSHA1AndDESede",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndDESede",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndDESede",
                 null);
 
         psA("SecretKeyFactory", "PBEWithSHA1AndRC2_40",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_40",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_40",
                 null);
 
         psA("SecretKeyFactory", "PBEWithSHA1AndRC2_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_128",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_128",
                 null);
 
         psA("SecretKeyFactory", "PBEWithSHA1AndRC4_40",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_40",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_40",
                 null);
 
         psA("SecretKeyFactory", "PBEWithSHA1AndRC4_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_128",
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_128",
                 null);
 
         ps("SecretKeyFactory", "PBEWithHmacSHA1AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_128");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA224AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_128");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA256AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_128");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA384AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_128");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA512AndAES_128",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_128");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_128");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA1AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_256");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA224AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_256");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA256AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_256");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA384AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_256");
 
         ps("SecretKeyFactory", "PBEWithHmacSHA512AndAES_256",
-                "ja.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_256");
+                "ja.core.net.geostudios.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_256");
 
         // PBKDF2
         psA("SecretKeyFactory", "PBKDF2WithHmacSHA1",
-                "ja.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA1",
+                "ja.core.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA1",
                 null);
         ps("SecretKeyFactory", "PBKDF2WithHmacSHA224",
-                "ja.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA224");
+                "ja.core.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA224");
         ps("SecretKeyFactory", "PBKDF2WithHmacSHA256",
-                "ja.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA256");
+                "ja.core.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA256");
         ps("SecretKeyFactory", "PBKDF2WithHmacSHA384",
-                "ja.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA384");
+                "ja.core.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA384");
         ps("SecretKeyFactory", "PBKDF2WithHmacSHA512",
-                "ja.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA512");
+                "ja.core.net.geostudios.crypto.provider.PBKDF2Core$HmacSHA512");
 
         /*
          * MAC
          */
         attrs.clear();
         attrs.put("SupportedKeyFormats", "RAW");
-        ps("Mac", "HmacMD5", "ja.net.geostudios.crypto.provider.HmacMD5", null, attrs);
-        psA("Mac", "HmacSHA1", "ja.net.geostudios.crypto.provider.HmacSHA1",
+        ps("Mac", "HmacMD5", "ja.core.net.geostudios.crypto.provider.HmacMD5", null, attrs);
+        psA("Mac", "HmacSHA1", "ja.core.net.geostudios.crypto.provider.HmacSHA1",
                 attrs);
         psA("Mac", "HmacSHA224",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA224", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA224", attrs);
         psA("Mac", "HmacSHA256",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA256", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA256", attrs);
         psA("Mac", "HmacSHA384",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA384", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA384", attrs);
         psA("Mac", "HmacSHA512",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA512", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA512", attrs);
         psA("Mac", "HmacSHA512/224",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA512_224", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA512_224", attrs);
         psA("Mac", "HmacSHA512/256",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA512_256", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA512_256", attrs);
         psA("Mac", "HmacSHA3-224",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA3_224", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA3_224", attrs);
         psA("Mac", "HmacSHA3-256",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA3_256", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA3_256", attrs);
         psA("Mac", "HmacSHA3-384",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA3_384", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA3_384", attrs);
         psA("Mac", "HmacSHA3-512",
-                "ja.net.geostudios.crypto.provider.HmacCore$HmacSHA3_512", attrs);
+                "ja.core.net.geostudios.crypto.provider.HmacCore$HmacSHA3_512", attrs);
 
         ps("Mac", "HmacPBESHA1",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA1",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA1",
                 null, attrs);
         ps("Mac", "HmacPBESHA224",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA224",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA224",
                 null, attrs);
         ps("Mac", "HmacPBESHA256",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA256",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA256",
                 null, attrs);
         ps("Mac", "HmacPBESHA384",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA384",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA384",
                 null, attrs);
         ps("Mac", "HmacPBESHA512",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512",
                 null, attrs);
         ps("Mac", "HmacPBESHA512/224",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_224",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_224",
                 null, attrs);
         ps("Mac", "HmacPBESHA512/256",
-                "ja.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_256",
+                "ja.core.net.geostudios.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_256",
                 null, attrs);
 
 
         // PBMAC1
         ps("Mac", "PBEWithHmacSHA1",
-                "ja.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA1", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA1", null, attrs);
         ps("Mac", "PBEWithHmacSHA224",
-                "ja.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA224", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA224", null, attrs);
         ps("Mac", "PBEWithHmacSHA256",
-                "ja.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA256", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA256", null, attrs);
         ps("Mac", "PBEWithHmacSHA384",
-                "ja.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA384", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA384", null, attrs);
         ps("Mac", "PBEWithHmacSHA512",
-                "ja.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA512", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.PBMAC1Core$HmacSHA512", null, attrs);
         ps("Mac", "SslMacMD5",
-                "ja.net.geostudios.crypto.provider.SslMacCore$SslMacMD5", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.SslMacCore$SslMacMD5", null, attrs);
         ps("Mac", "SslMacSHA1",
-                "ja.net.geostudios.crypto.provider.SslMacCore$SslMacSHA1", null, attrs);
+                "ja.core.net.geostudios.crypto.provider.SslMacCore$SslMacSHA1", null, attrs);
 
         /*
          * KeyStore
          */
         ps("KeyStore", "JCEKS",
-                "ja.net.geostudios.crypto.provider.JceKeyStore");
+                "ja.core.net.geostudios.crypto.provider.JceKeyStore");
 
         /*
          * SSL/TLS mechanisms
@@ -702,21 +702,21 @@ public final class SunJCE extends Provider {
          * mechanisms, and it will cause calls to come here.
          */
         ps("KeyGenerator", "SunTlsPrf",
-                "ja.net.geostudios.crypto.provider.TlsPrfGenerator$V10");
+                "ja.core.net.geostudios.crypto.provider.TlsPrfGenerator$V10");
         ps("KeyGenerator", "SunTls12Prf",
-                "ja.net.geostudios.crypto.provider.TlsPrfGenerator$V12");
+                "ja.core.net.geostudios.crypto.provider.TlsPrfGenerator$V12");
 
         ps("KeyGenerator", "SunTlsMasterSecret",
-                "ja.net.geostudios.crypto.provider.TlsMasterSecretGenerator",
+                "ja.core.net.geostudios.crypto.provider.TlsMasterSecretGenerator",
                 List.of("SunTls12MasterSecret", "SunTlsExtendedMasterSecret"),
                 null);
 
         ps("KeyGenerator", "SunTlsKeyMaterial",
-                "ja.net.geostudios.crypto.provider.TlsKeyMaterialGenerator",
+                "ja.core.net.geostudios.crypto.provider.TlsKeyMaterialGenerator",
                 List.of("SunTls12KeyMaterial"), null);
 
         ps("KeyGenerator", "SunTlsRsaPremasterSecret",
-                "ja.net.geostudios.crypto.provider.TlsRsaPremasterSecretGenerator",
+                "ja.core.net.geostudios.crypto.provider.TlsRsaPremasterSecretGenerator",
                 List.of("SunTls12RsaPremasterSecret"), null);
     }
 

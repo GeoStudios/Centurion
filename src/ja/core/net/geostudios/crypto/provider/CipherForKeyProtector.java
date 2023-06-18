@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.io.IOException;
 import java.security.Key;
@@ -60,7 +60,7 @@ import sun.security.util.SecurityProperties;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  *
- * @see ja.net.geostudios.crypto.provider.JceKeyStore
+ * @see ja.core.net.geostudios.crypto.provider.JceKeyStore
  */
 
 final class KeyProtector {

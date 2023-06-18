@@ -19,13 +19,12 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.*;
 import java.security.spec.*;
 import java.util.Arrays;
 import javax.crypto.*;
-import javax.crypto.spec.*;
 import javax.crypto.BadPaddingException;
 
 /**
@@ -37,9 +36,9 @@ import javax.crypto.BadPaddingException;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  * @see DESCrypt
- * @see ja.net.geostudios.crypto.provider.CipherBlockChaining
+ * @see ja.core.net.geostudios.crypto.provider.CipherBlockChaining
  * @see ElectronicCodeBook
- * @see ja.net.geostudios.crypto.provider.CipherFeedback
+ * @see ja.core.net.geostudios.crypto.provider.CipherFeedback
  * @see OutputFeedback
  */
 
@@ -48,14 +47,14 @@ public final class DESCipher extends CipherSpi {
     /*
      * internal CipherCore object which does the real work.
      */
-    private ja.net.geostudios.crypto.provider.CipherCore core = null;
+    private ja.core.net.geostudios.crypto.provider.CipherCore core = null;
 
     /**
      * Creates an instance of DES cipher with default ECB mode and
      * PKCS5Padding.
      */
     public DESCipher() {
-        core = new ja.net.geostudios.crypto.provider.CipherCore(new DESCrypt(), DESConstants.DES_BLOCK_SIZE);
+        core = new ja.core.net.geostudios.crypto.provider.CipherCore(new DESCrypt(), DESConstants.DES_BLOCK_SIZE);
     }
 
     /**

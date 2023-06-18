@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.security.ntlm;
+package ja.core.net.geostudios.security.ntlm;
 
 import java.math.BigInteger;
 import java.util.Arrays;
@@ -72,6 +72,7 @@ public final class Client extends NTLM {
      * or {@code version} is illegal.
      *
      */
+
     public Client(String version, String hostname, String username,
                   String domain, char[] password) throws NTLMException {
         super(version);

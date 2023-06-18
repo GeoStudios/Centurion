@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import com.sun.crypto.provider.OutputFeedback;
 
@@ -48,21 +48,21 @@ import java.util.Arrays;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  *
- * @see ja.net.geostudios.crypto.provider.AESCrypt
- * @see ja.net.geostudios.crypto.provider.CipherBlockChaining
- * @see ja.net.geostudios.crypto.provider.ElectronicCodeBook
- * @see ja.net.geostudios.crypto.provider.CipherFeedback
+ * @see ja.core.net.geostudios.crypto.provider.AESCrypt
+ * @see ja.core.net.geostudios.crypto.provider.CipherBlockChaining
+ * @see ja.core.net.geostudios.crypto.provider.ElectronicCodeBook
+ * @see ja.core.net.geostudios.crypto.provider.CipherFeedback
  * @see OutputFeedback
  */
 
 class AESCipher extends CipherSpi {
-    public static final class General extends ja.net.geostudios.crypto.provider.AESCipher {
+    public static final class General extends ja.core.net.geostudios.crypto.provider.AESCipher {
         public General() {
             super(-1);
         }
     }
 
-    static class OidImpl extends ja.net.geostudios.crypto.provider.AESCipher {
+    static class OidImpl extends ja.core.net.geostudios.crypto.provider.AESCipher {
         protected OidImpl(int keySize, String mode, String padding) {
             super(keySize);
             try {
@@ -75,62 +75,62 @@ class AESCipher extends CipherSpi {
         }
     }
 
-    public static final class AES128_ECB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES128_ECB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES128_ECB_NoPadding() {
             super(16, "ECB", "NOPADDING");
         }
     }
-    public static final class AES192_ECB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES192_ECB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES192_ECB_NoPadding() {
             super(24, "ECB", "NOPADDING");
         }
     }
-    public static final class AES256_ECB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES256_ECB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES256_ECB_NoPadding() {
             super(32, "ECB", "NOPADDING");
         }
     }
-    public static final class AES128_CBC_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES128_CBC_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES128_CBC_NoPadding() {
             super(16, "CBC", "NOPADDING");
         }
     }
-    public static final class AES192_CBC_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES192_CBC_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES192_CBC_NoPadding() {
             super(24, "CBC", "NOPADDING");
         }
     }
-    public static final class AES256_CBC_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES256_CBC_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES256_CBC_NoPadding() {
             super(32, "CBC", "NOPADDING");
         }
     }
-    public static final class AES128_OFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES128_OFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES128_OFB_NoPadding() {
             super(16, "OFB", "NOPADDING");
         }
     }
-    public static final class AES192_OFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES192_OFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES192_OFB_NoPadding() {
             super(24, "OFB", "NOPADDING");
         }
     }
-    public static final class AES256_OFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES256_OFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES256_OFB_NoPadding() {
             super(32, "OFB", "NOPADDING");
         }
     }
-    public static final class AES128_CFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES128_CFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES128_CFB_NoPadding() {
             super(16, "CFB", "NOPADDING");
         }
     }
-    public static final class AES192_CFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES192_CFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES192_CFB_NoPadding() {
             super(24, "CFB", "NOPADDING");
         }
     }
-    public static final class AES256_CFB_NoPadding extends ja.net.geostudios.crypto.provider.AESCipher.OidImpl {
+    public static final class AES256_CFB_NoPadding extends ja.core.net.geostudios.crypto.provider.AESCipher.OidImpl {
         public AES256_CFB_NoPadding() {
             super(32, "CFB", "NOPADDING");
         }

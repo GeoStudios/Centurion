@@ -19,11 +19,10 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.InvalidKeyException;
 import java.security.ProviderException;
-import java.util.Objects;
 
 import jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.security.util.ArrayUtil;

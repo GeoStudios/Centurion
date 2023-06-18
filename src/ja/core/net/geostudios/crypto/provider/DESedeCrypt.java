@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.security.InvalidKeyException;
 
@@ -31,11 +31,11 @@ import java.security.InvalidKeyException;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  *
- * @see ja.net.geostudios.crypto.provider.DESConstants
+ * @see ja.core.net.geostudios.crypto.provider.DESConstants
  * @see DESCipher
  */
 
-final class DESedeCrypt extends ja.net.geostudios.crypto.provider.DESCrypt implements ja.net.geostudios.crypto.provider.DESConstants {
+final class DESedeCrypt extends ja.core.net.geostudios.crypto.provider.DESCrypt implements ja.core.net.geostudios.crypto.provider.DESConstants {
 
     /*
      * the expanded key used in encrypt/decrypt/encrypt phase

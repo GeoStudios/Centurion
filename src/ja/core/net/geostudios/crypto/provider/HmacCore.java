@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.util.Arrays;
 
@@ -29,8 +29,6 @@ import javax.crypto.MacSpi;
 import javax.crypto.SecretKey;
 import java.security.*;
 import java.security.spec.*;
-
-import sun.security.x509.AlgorithmId;
 
 /**
  * This class constitutes the core of HMAC-<MD> algorithms, where

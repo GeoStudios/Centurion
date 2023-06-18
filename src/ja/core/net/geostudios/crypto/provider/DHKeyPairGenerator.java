@@ -19,14 +19,12 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import java.math.BigInteger;
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidParameterSpecException;
 import javax.crypto.spec.DHParameterSpec;
-import javax.crypto.spec.DHGenParameterSpec;
 
 import sun.security.provider.ParameterCache;
 import static sun.security.util.SecurityProviderConstants.DEF_DH_KEY_SIZE;

@@ -19,7 +19,7 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.net.geostudios.crypto.provider;
+package ja.core.net.geostudios.crypto.provider;
 
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactorySpi;
@@ -152,7 +152,7 @@ public final class DESKeyFactory extends SecretKeyFactorySpi {
                     (key.getFormat().equalsIgnoreCase("RAW"))) {
 
                 // Check if key originates from this factory
-                if (key instanceof ja.net.geostudios.crypto.provider.DESKey) {
+                if (key instanceof ja.core.net.geostudios.crypto.provider.DESKey) {
                     return key;
                 }
                 // Convert key to spec
