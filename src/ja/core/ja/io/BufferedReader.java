@@ -4,9 +4,9 @@
  *
  * This code is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
+ * published by the Free Software Foundation. GeoStudios designates this
  * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
+ * by GeoStudios in the LICENSE file that accompanied this code.
  *
  * This code is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
@@ -662,8 +662,6 @@ public class BufferedReader extends Reader {
      *
      * @return a {@code Stream<String>} providing the lines of text
      *         described by this {@code BufferedReader}
-     *
-     * @since 1.8
      */
     public Stream<String> lines() {
         Iterator<String> iter = new Iterator<>() {

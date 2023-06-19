@@ -19,21 +19,32 @@
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package ja.core.net.geostudios.crypto.provider;
-
-import java.security.*;
+package ja.core.ja.io;
 
 /**
- * This is an implementation of the HMAC-MD5 algorithm.
+ * Instances of classes that implement this interface are used to
+ * filter filenames. These instances are used to filter directory
+ * listings in the {@code list} method of class
+ * {@code File}, and by the Abstract Window Toolkit's file
+ * dialog component.
  *
- * @author Logan Abernathy
  * @since Alpha CDK-1.0
+ * @author Logan Abernathy
+ * @see     java.desktop/java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter)
+ * @see     java.io.File
+ * @see     java.io.File#list(java.io.FilenameFilter)
  */
-public final class HmacMD5 extends HmacCore {
+
+@SuppressWarnings("doclint:reference") // cross-module links
+@FunctionalInterface
+public interface FilenameFilter {
     /**
-     * Standard constructor, creates a new HmacMD5 instance.
+     * Tests if a specified file should be included in a file list.
+     *
+     * @param   dir    the directory in which the file was found.
+     * @param   name   the name of the file.
+     * @return  {@code true} if and only if the name should be
+     * included in the file list; {@code false} otherwise.
      */
-    public HmacMD5() throws NoSuchAlgorithmException {
-        super("MD5", 64);
-    }
+    boolean accept(File dir, String name);
 }

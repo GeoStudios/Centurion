@@ -4,9 +4,9 @@
  *
  * This code is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
+ * published by the Free Software Foundation. GeoStudios designates this
  * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
+ * by GeoStudios in the LICENSE file that accompanied this code.
  *
  * This code is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
@@ -72,7 +72,6 @@ public class IOException extends Exception {
      *        {@link #getCause()} method).  (A null value is permitted,
      *        and indicates that the cause is nonexistent or unknown.)
      *
-     * @since 1.6
      */
     public IOException(String message, Throwable cause) {
         super(message, cause);
@@ -90,7 +89,6 @@ public class IOException extends Exception {
      *        {@link #getCause()} method).  (A null value is permitted,
      *        and indicates that the cause is nonexistent or unknown.)
      *
-     * @since 1.6
      */
     public IOException(Throwable cause) {
         super(cause);

@@ -4,9 +4,9 @@
  *
  * This code is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
+ * published by the Free Software Foundation. GeoStudios designates this
  * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
+ * by GeoStudios in the LICENSE file that accompanied this code.
  *
  * This code is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
@@ -263,7 +263,6 @@ public class ByteArrayOutputStream extends OutputStream {
      * @param      charset  the {@linkplain Charset charset}
      *             to be used to decode the {@code bytes}
      * @return     String decoded from the buffer's contents.
-     * @since      10
      */
     public synchronized String toString(Charset charset) {
         return new String(buf, 0, count, charset);

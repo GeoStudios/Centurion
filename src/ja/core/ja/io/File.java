@@ -4,9 +4,9 @@
  *
  * This code is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 2 only, as
- * published by the Free Software Foundation.  Oracle designates this
+ * published by the Free Software Foundation. GeoStudios designates this
  * particular file as subject to the "Classpath" exception as provided
- * by Oracle in the LICENSE file that accompanied this code.
+ * by GeoStudios in the LICENSE file that accompanied this code.
  *
  * This code is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
@@ -404,7 +404,6 @@ public class File implements Serializable, Comparable<File> {
      *
      * @see #toURI()
      * @see java.net.URI
-     * @since 1.4
      */
     public File(URI uri) {
 
@@ -490,7 +489,6 @@ public class File implements Serializable, Comparable<File> {
      *          abstract pathname, or {@code null} if this pathname
      *          does not name a parent
      *
-     * @since 1.2
      */
     public File getParentFile() {
         String p = this.getParent();
@@ -566,7 +564,6 @@ public class File implements Serializable, Comparable<File> {
      * @throws  SecurityException
      *          If a required system property value cannot be accessed.
      *
-     * @since 1.2
      */
     public File getAbsoluteFile() {
         String absPath = getAbsolutePath();
@@ -611,7 +608,6 @@ public class File implements Serializable, Comparable<File> {
      *          java.lang.SecurityManager#checkRead} method denies
      *          read access to the file
      *
-     * @since   1.1
      * @see     Path#toRealPath
      */
     public String getCanonicalPath() throws IOException {
@@ -639,7 +635,6 @@ public class File implements Serializable, Comparable<File> {
      *          java.lang.SecurityManager#checkRead} method denies
      *          read access to the file
      *
-     * @since 1.2
      * @see     Path#toRealPath
      */
     public File getCanonicalFile() throws IOException {
@@ -676,7 +671,6 @@ public class File implements Serializable, Comparable<File> {
      * @see     java.net.URI
      * @see     java.net.URI#toURL()
      * @see     java.net.URL
-     * @since   1.2
      *
      * @deprecated This method does not automatically escape characters that
      * are illegal in URLs.  It is recommended that new code convert an
@@ -733,7 +727,6 @@ public class File implements Serializable, Comparable<File> {
      * @see #File(java.net.URI)
      * @see java.net.URI
      * @see java.net.URI#toURL()
-     * @since 1.4
      */
     public URI toURI() {
         try {
@@ -911,7 +904,6 @@ public class File implements Serializable, Comparable<File> {
      *          java.lang.SecurityManager#checkRead(java.lang.String)}
      *          method denies read access to the file
      *
-     * @since 1.2
      */
     public boolean isHidden() {
         @SuppressWarnings("removal")
@@ -1027,8 +1019,6 @@ public class File implements Serializable, Comparable<File> {
      *          If a security manager exists and its {@link
      *          java.lang.SecurityManager#checkWrite(java.lang.String)}
      *          method denies write access to the file
-     *
-     * @since 1.2
      */
     public boolean createNewFile() throws IOException {
         @SuppressWarnings("removal")
