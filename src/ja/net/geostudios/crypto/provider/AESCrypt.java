@@ -1052,6 +1052,7 @@ final class AESCrypt extends SymmetricCipher implements AESConstants {
      * @param kr The round keys for encryption or decryption.
      * @param decrypting True if 'kr' is for decryption and false otherwise.
      */
+
     private static final int[] expandToSubKey(int[][] kr, boolean decrypting) {
         int total = kr.length;
         int[] expK = new int[total*4];

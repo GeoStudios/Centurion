@@ -48,6 +48,7 @@ import sun.security.util.*;
  * @author Logan Abernathy
  * @since Alpha CDK-1.0
  */
+
 public final class ChaCha20Poly1305Parameters extends AlgorithmParametersSpi {
 
     private static final String DEFAULT_FMT = "ASN.1";
