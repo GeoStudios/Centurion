@@ -15,7 +15,9 @@ and is going to take many months to craft a functional installable program for i
 ## Table of Contents
 
 - [Main Features](#main-features)
-- 
+- [Developers](#developers)
+- [Contributers](#contributions)
+- [License](#license)
 
 ## Main Features
 A few things that Centurion can do:
@@ -25,25 +27,17 @@ A few things that Centurion can do:
 
 ## Contributions
 
-If you want to contribute to this repository, you can make a pull request. We have lots of classes and files
-that can be enhanced so much, and also have so much potential. 
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-If you are optimizing some sort of class, add your list to the @author in the class description. <br>
-If you are adding a new class, add a description of what that file does. And your name if you 
-want to be credited. <br>
+If you want to contribute and dont know what to add, check the TODO's, issue reports and new pushes to see
+if there are errors to repair and or add.
 
-If you really want to contribute, add something you think should be inside, if you want to be a project 
-lead for a topic, contact M4x(M4ximumpizza#4712) on discord. There are plenty of stuff to add.
+If you want to be a project lead for a topic, contact M4x(M4ximumpizza#4712) on discord. There are plenty of stuff to add.
 
-## Devlopers
+## Developers
 
 [M4ximumpizza](https://github.com/M4ximumPizza) is the Project Director. </br>
 [KaranpreetRaja](https://github.com/KaranpreetRaja) is the secondary dev on this project
-
-## Installation
-
-Download the Version Jar you want, then put it into any external library inside your code editor. (It will
-soon be an installable JDK for the user).
 
 ### License
 
