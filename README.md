@@ -1,18 +1,26 @@
-<img src="assets/Centurion.png" width="100">
-<br />
+<div align="center">
+<img src="assets/Centurion.png" width="250">
+</div>
 
-Centurion is to be a Java Development Kit to supply the user with a huge library, and a functional tool
-to use when developing java projects, programs, and much more!
+-----------------
 
-Centurion is starting to be built right now and is going to take many months to craft a functional installable 
-program for its users.
+# Geo-Studios: Powerful Java Development Kit
 
-:warning: This JDK will not be compatible with any existing JDK due to the fact that any changes from them could
-potentially break Centurion.
+## What is it?
 
-GeoStudios is soon going to be launching a site that houses versions for the all the products of GeoStudios and 
-will be housing Centurion sometime afterward. Please be patient in this process due to the fact we only have 2 
-devs making this possible working voluntary on this project.
+**Centurion** is to be a Java Development Kit to supply the user with a huge library, and a functional tool
+to use when developing java projects, programs, and much more! Centurion is starting to be built right now 
+and is going to take many months to craft a functional installable program for its users.
+
+## Table of Contents
+
+- [Main Features](#main-features)
+- 
+
+## Main Features
+A few things that Centurion can do:
+
+ - A cipher that boasts support for the widely acclaimed [Blowfish](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/ChaCha20Cipher.java) algorithm in feedback mode, which conforms to the standards set forth by [RFC 7539](https://datatracker.ietf.org/doc/html/rfc7539). For an in-depth understanding of this cutting-edge technology, I would highly recommend perusing this link. Furthermore, the cipher leverages the CTS mode that extends the power of the [CipherBlockChaining](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/CipherFeedback.java) class, while also utilizing its own unique type of bytes, padding, and [internal engine](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/CipherCore.java) with symmetric algorithms, all of which make it a formidable player in the world of modern cryptography.
 
 ## Contributions
 
