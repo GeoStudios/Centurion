@@ -21,6 +21,7 @@ and is going to take many months to craft a functional installable program for i
 A few things that Centurion can do:
 
  - A cipher that boasts support for the widely acclaimed [Blowfish](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/ChaCha20Cipher.java) algorithm in feedback mode, which conforms to the standards set forth by [RFC 7539](https://datatracker.ietf.org/doc/html/rfc7539). For an in-depth understanding of this cutting-edge technology, I would highly recommend perusing this link. Furthermore, the cipher leverages the CTS mode that extends the power of the [CipherBlockChaining](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/CipherFeedback.java) class, while also utilizing its own unique type of bytes, padding, and [internal engine](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/net/geostudios/crypto/provider/CipherCore.java) with symmetric algorithms, all of which make it a formidable player in the world of modern cryptography.
+ - A [console](https://github.com/GeoStudios/Centurion/blob/main/src/ja/core/ja/io/Console.java) that can access character based methods to use in the current virtual machine. This console can also start even whe the interactive command line does not exist, and is typically connected to the keyboard and display when it launches. The read and write operations are synchronized to guarantee the atomic completion of critical operations and will invoke several methods. 
 
 ## Contributions
 
