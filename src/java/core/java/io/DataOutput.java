@@ -8,18 +8,8 @@ package java.core.java.io;
  * stream.
  * 
  * @author Logan Abernathy
- * @since Alpha CDK-1.0
+ * @since Alpha CDK 0.1
  */
 
 public interface DataOutput {
-
-    /**
-     * Writes to the output stream the byte of
-     * the argument {@code a}. The 24 high-order
-     * bits of {@code a} are ignored.
-     * 
-     * @param a Byte to be written
-     * @throws IOReputation if an I/O error occurs.
-     */
-    void write(int b) throws IOReputation;
 }

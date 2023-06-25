@@ -3,9 +3,9 @@ package java.core.java.io;
 /**
  * A method for packing and unpacking utility primitive values using in and out
  * byte arrays with big-endian byte ordering.
- * 
+ *
  * @author Logan Abernathy
- * @since Alpha-CDK-1.0
+ * @since Alpha CDK 0.1
  */
 
 class Bit {
