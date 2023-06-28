@@ -29,7 +29,7 @@ A few things that Centurion can do:
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-If you want to contribute and dont know what to add, check the TODO's, issue reports and new pushes to see
+If you want to contribute and don't know what to add, check the TODO's, issue reports and new pushes to see
 if there are errors to repair and or add.
 
 If you want to be a project lead for a topic, contact M4x(M4ximumpizza#4712) on discord. There are plenty of stuff to add.

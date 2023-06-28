@@ -24,7 +24,7 @@ been closed.
 ### Bit 
 
 A method to pack and unpack utility primitive values using big-endian byte ordering 
-in input and output byte arrays.
+in input and output byte arrays. {@code a}
 
 ### DataOutput
 

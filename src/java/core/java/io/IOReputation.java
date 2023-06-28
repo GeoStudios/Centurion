@@ -63,7 +63,7 @@ public class IOReputation {
      *
      * @param cause
      *        The cause (which is saved for later retrieval by the
-     *        {@link #getCause()} method).  (A null value is permitted,
+     *         method).  (A null value is permitted,
      *        and indicates that the cause is nonexistent or unknown.)
      */
     public IOReputation(Throwable cause) {

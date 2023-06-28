@@ -1,0 +1,90 @@
+plugins {
+    id 'java'
+    id 'distribution'
+    id 'maven-publish'
+}
+
+// Define the source and target compatibility
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+// Define the JAR file name and version
+def jarFileName = 'my-library'
+def jarVersion = '1.0'
+
+// Set the source directory to 'src'
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+            exclude '**/*.class' // Exclude compiled classes from the source directory
+        }
+    }
+}
+
+// Configure the Javadoc task
+tasks.withType(Javadoc) {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('Xdoclint:all', '-quiet')
+    options.addStringOption('doclint:none', '-quiet')
+    options.addStringOption('Xdoclint:all/private', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+}
+
+// Configure the JAR task
+jar {
+    archiveFileName = "${jarFileName}-${jarVersion}.jar"
+
+    // Include the compiled classes in the JAR
+    from sourceSets.main.output
+
+    // Include the source root directory in the JAR, excluding compiled classes
+    from sourceSets.main.java
+    includeEmptyDirs = true
+
+    // Set the JAR manifest if needed
+    manifest {
+        attributes 'Implementation-Title': jarFileName,
+                'Implementation-Version': jarVersion
+    }
+}
+
+// Configure the sources JAR task
+task sourcesJar(type: Jar) {
+    archiveClassifier = 'sources'
+
+    // Include the source root directory in the sources JAR, excluding compiled classes
+    from sourceSets.main.java
+}
+
+// Generate Javadoc and include it in the JAR
+task generateJavadoc(type: Javadoc) {
+    dependsOn('classes')
+    description = 'Generates Javadoc and includes it in the JAR'
+    group = 'build'
+
+    def javadocDir = file("$buildDir/javadoc")
+    title = jarFileName
+    destinationDir = javadocDir
+    options.encoding = 'UTF-8'
+    options.author = true
+    options.version = true
+    options.use = true
+    options.header = jarFileName
+    options.footer = jarFileName
+    source = sourceSets.main.java
+    classpath = configurations.compileClasspath
+
+    doLast {
+        into("${jarFileName}-${jarVersion}") {
+            from javadocDir
+        }
+    }
+}
+
+// Configure the build task
+build {
+    dependsOn 'jar'
+    dependsOn 'sourcesJar'
+    dependsOn 'generateJavadoc'
+}
