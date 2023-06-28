@@ -1,34 +1,33 @@
-/build/
-/dist/
-/.idea/
-/.vscode/
-/nbproject/
-nbproject/private/
-/webrev
-/.src-rev
-/.jib/
-.DS_Store
-.metadata/
-.recommenders/
-test/nashorn/script/external
-test/nashorn/lib
-NashornProfile.txt
-**/JTreport/**
-**/JTwork/**
-/src/utils/LogCompilation/target/
-/.project/
-/.settings/
-/.project
-/.classpath
-/.cproject
-/compile_commands.json
-/.cache
-
-#Ignore binary files generated from your source code during build
-bin/
-
-bin
 .gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!/src/main//build/
+!/src/test//build/
+IntelliJ IDEA
 
-# Ignore Gradle build output directory
-build
+.idea/
+Eclipse
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!/src/main//bin/
+!/src/test//bin/
+NetBeans
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+VS Code
+
+.vscode/
+Mac OS
+
+.DS_Store
