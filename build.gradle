@@ -10,7 +10,7 @@ targetCompatibility = JavaVersion.VERSION_17
 
 // Define the JAR file name and version
 def jarFileName = 'alpha-cdk'
-def jarVersion = '0.1'
+def jarVersion = '0.2'
 
 // Set the source directory to 'src'
 sourceSets {

@@ -15,7 +15,7 @@ Centurion has a total of 6 functional classes including <br>
 
 ### ArrayByteInputStream
 
-This class contains an interal buffer that then contains bytes that are used 
+This class contains an internal buffer that then contains bytes that are used 
 for reading the stream. It uses a counter to log the next byte that id read. 
 
 Closing it has no effect due to the methods can be called after the stream has 

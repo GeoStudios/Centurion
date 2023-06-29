@@ -22,9 +22,6 @@
 
 package java.core.java.io;
 
-import java.util.Arrays;
-import java.util.Objects;
-
 /**
  * This contains an internal buffer that contains bytes that may be
  * read from the stream. An internal counter keeps track of the next byte to be supplied
@@ -150,7 +147,7 @@ public class ArrayByteInputStream extends StreamInput {
      * similar to the behavior of {@code System.arraycopy}. After the data copying
      * is complete, the value of {@code k} is added to {@code pos} and returned for
      * further processing.
-     * Unlike the overridden method {@link StreamInput#read(byte[],int,int)}, this
+     * Unlike the overridden method {@link StreamInput(byte[],int,int)}, this
      * method ensures that when the end of the stream is reached and {@code len == 0},
      * it returns {@code -1} instead of zero.It's important to note that this {@code
      * read} method operates in a non-blocking manner, meaning it doesn't halt the
@@ -163,7 +160,6 @@ public class ArrayByteInputStream extends StreamInput {
      */
 
     public synchronized int read(byte[] a, int off, int len) {
-        Objects.checkFromIndexSize(off, len, a.length);
 
         if (pos >= count) {
             return -1;

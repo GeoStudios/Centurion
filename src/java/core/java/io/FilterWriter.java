@@ -22,6 +22,19 @@
 
 package java.core.java.io;
 
+/**
+ * The provided code describes an abstract class designed
+ * specifically for writing filtered character streams.
+ * The abstract class, known as {@code FilterWriter}, comes
+ * with default methods that efficiently forward all
+ * requests to the underlying stream. It is expected that
+ * subclasses of {@code FilterWriter} will override certain
+ * methods as needed and potentially introduce additional
+ * methods and fields to enhance functionality.
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
 public abstract class FilterWriter {
 
     /** The underlying char-output stream. */

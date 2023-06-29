@@ -22,6 +22,18 @@
 
 package java.core.java.io;
 
+/**
+ * This is an abstract class designed for writing to character
+ * streams. The required methods that a subclass must implement
+ * are write(char[], int, int), flush(), and close(). While most
+ * subclasses are expected to override some of the provided
+ * methods to enhance efficiency and offer additional
+ * functionality, if needed.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
 public abstract class Writer {
     /**
      * Temporary buffer used to hold writes of strings and single characters
