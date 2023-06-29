@@ -22,5 +22,20 @@
 
 package java.core.java.io;
 
-public interface Flushable {
+public abstract class Writer {
+    /**
+     * Temporary buffer used to hold writes of strings and single characters
+     */
+    private char[] writeBuffer;
+
+    /**
+     * Size of writeBuffer, must be >= 1
+     */
+    private static final int WRITE_BUFFER_SIZE = 1024;
+
+    public static Writer nullWriter() {
+        return new Writer() {
+            private volatile boolean closed;
+        };
+    }
 }

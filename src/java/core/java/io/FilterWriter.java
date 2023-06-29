@@ -22,5 +22,8 @@
 
 package java.core.java.io;
 
-public interface Flushable {
+public abstract class FilterWriter {
+
+    /** The underlying char-output stream. */
+    protected Writer out;
 }

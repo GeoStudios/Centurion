@@ -1,4 +1,29 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ */
+
 package java.core.java.io;
+
+import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * This contains an internal buffer that contains bytes that may be
@@ -22,7 +47,7 @@ public class ArrayByteInputStream extends StreamInput {
      * stream;  element {@code buf[pos]} is
      * the next byte to be read.
      */
-    protected byte buffer[];
+    protected byte[] buffer;
 
     /**
      * The index of the next character to read from the input stream buffer.
@@ -111,5 +136,47 @@ public class ArrayByteInputStream extends StreamInput {
      */
     public synchronized int read() {
         return (pos < count) ? (buffer[pos++] & 0xff) : -1;
+    }
+
+    /**
+     * Reads up to {@code len} bytes of data from this input stream into an
+     * array of bytes. If {@code pos} is equal to {@code count}, it indicates
+     * the end of the file and returns {@code -1}. Otherwise, the number of
+     * bytes read, denoted as {@code k}, will be the smaller value between
+     * {@code len} and {@code count-pos}. If {@code k} is positive, it
+     * means that data has been read successfully. The bytes from {@code
+     * buf[pos]} to {@code buf[pos+k-1]} are then copied to the corresponding
+     * positions in the array {@code b[off]} through {@code b[off+k-1]},
+     * similar to the behavior of {@code System.arraycopy}. After the data copying
+     * is complete, the value of {@code k} is added to {@code pos} and returned for
+     * further processing.
+     * Unlike the overridden method {@link StreamInput#read(byte[],int,int)}, this
+     * method ensures that when the end of the stream is reached and {@code len == 0},
+     * it returns {@code -1} instead of zero.It's important to note that this {@code
+     * read} method operates in a non-blocking manner, meaning it doesn't halt the
+     * execution while waiting for data.
+     *
+     * @param a
+     * @param off
+     * @param len
+     * @return
+     */
+
+    public synchronized int read(byte[] a, int off, int len) {
+        Objects.checkFromIndexSize(off, len, a.length);
+
+        if (pos >= count) {
+            return -1;
+        }
+
+        int avail = count - pos;
+        if (len > avail) {
+            len = avail;
+        }
+        if (len <= 0) {
+            return 0;
+        }
+        pos += len;
+        return len;
     }
 }
