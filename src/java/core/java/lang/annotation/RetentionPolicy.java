@@ -23,14 +23,15 @@
 package java.core.java.lang.annotation;
 
 /**
- * Annotation retention policy.  The constants of this enumerated class
- * describe the various policies for retaining annotations.  They are used
- * in conjunction with the {@link Retention} meta-annotation interface to
- * specify how long annotations are to be retained.
+ * Annotation retention policy. The constants of this enumerated class describe
+ * the various policies for retaining annotations. They are used in conjunction
+ * with the {@link Retention} meta-annotation interface to specify how long
+ * annotations are to be retained.
  *
- * @author Logan Abernathy
  * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
+
 public enum RetentionPolicy {
     /**
      * Annotations are to be discarded by the compiler.

@@ -23,12 +23,10 @@
 package java.core.java.io;
 
 /**
- * This is an abstract class designed for writing to character
- * streams. The required methods that a subclass must implement
- * are write(char[], int, int), flush(), and close(). While most
- * subclasses are expected to override some of the provided
- * methods to enhance efficiency and offer additional
- * functionality, if needed.
+ * This is an abstract class designed for writing to character streams.
+ * Subclasses are expected to implement the required methods: write(char[], int, int),
+ * flush(), and close(). Additional methods can be overridden to improve efficiency
+ * and provide extra functionality if needed.
  *
  * @since Alpha CDK 0.2
  * @author Logan Abernathy

@@ -22,8 +22,24 @@
 
 package java.core.java.lang;
 
+import java.core.java.io.Serial;
+
+/**
+ * The class {@code Exception} and its subclasses are a form of {@code Throwable}
+ * that indicates conditions that a reasonable application might want to catch.
+ *
+ * <p>The class {@code Reputation} and any subclasses that are not also subclasses
+ * of {@link RuntimeException} are <em>checked exceptions</em>. Checked exceptions
+ * need to be declared in a method or constructor's {@code throws} clause if they
+ * can be thrown by the execution of the method or constructor and propagate outside
+ * the method or constructor boundary.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
 public class Exception extends Throwable {
-    @java.io.Serial
+    @Serial
     static final long serialVersionUID = -3387516993124229948L;
 
     /**
@@ -58,7 +74,6 @@ public class Exception extends Throwable {
      *          method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
-     * @since  1.4
      */
     public Exception(String message, Throwable cause) {
         super();
@@ -76,7 +91,6 @@ public class Exception extends Throwable {
      *          method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
-     * @since  1.4
      */
     public Exception(Throwable cause) {
         super();
@@ -94,7 +108,6 @@ public class Exception extends Throwable {
      *                          or disabled
      * @param writableStackTrace whether or not the stack trace should
      *                           be writable
-     * @since 1.7
      */
     protected Exception(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super();

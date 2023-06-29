@@ -26,8 +26,8 @@ import java.core.java.lang.Override;
 
 /**
  * This contains an internal buffer that contains bytes that may be
- * read from the stream. An internal counter keeps track of the next byte to be supplied
- * by the read method.
+ * read from the stream. An internal counter keeps track of the next
+ * byte to be supplied by the read method.
  *
  * Closing it has no effect. The methods in this class can be called
  * after the stream has been closed without generating an IOReputation.
@@ -68,7 +68,6 @@ public class ArrayByteInputStream extends StreamInput {
      * If no mark has been set, then the value of mark is the offset
      * passed to the constructor (or 0 if the offset was not supplied).
      */
-    //TODO: Implement @OVERWRITE
 
     protected int mark = 0;
 
@@ -184,16 +183,14 @@ public class ArrayByteInputStream extends StreamInput {
     }
 
     /**
-     * Skips {@code n} bytes of input from this input stream. Fewer
-     * bytes might be skipped if the end of the input stream is reached.
-     * The actual number {@code k}
-     * of bytes to be skipped is equal to the smaller
-     * of {@code n} and  {@code count-pos}.
-     * The value {@code k} is added into {@code pos}
-     * and {@code k} is returned.
+     * Skips a specified number of bytes ({@code n}) from this input stream. If the end
+     * of the input stream is reached, fewer bytes may be skipped. The actual number of
+     * bytes to be skipped, denoted as {@code k}, is determined by taking the smaller value
+     * between {@code n} and the difference between {@code count} and {@code pos}. After
+     * skipping the bytes, the new value of {@code pos} is updated and {@code k} is returned.
      *
-     * @param   n   {@inheritDoc}
-     * @return  the actual number of bytes skipped.
+     * @param n The number of bytes to skip.
+     * @return The actual number of bytes that were skipped.
      *
      * @since 0.2
      */
@@ -208,14 +205,14 @@ public class ArrayByteInputStream extends StreamInput {
     }
 
     /**
-     * Returns the number of remaining bytes that can be read (or skipped over)
+     * Retrieves the count of remaining bytes that can be read (or skipped over)
      * from this input stream.
-     * <p>
-     * The value returned is {@code count&nbsp;- pos}, which is the number of
-     * bytes remaining to be read from the input buffer.
      *
-     * @return  the number of remaining bytes that can be read (or skipped
-     *          over) from this input stream without blocking.
+     * The returned value is calculated as the difference between "count" and "pos",
+     * indicating the number of bytes that are yet to be read from the input buffer.
+     *
+     * @return The count of remaining bytes that can be read (or skipped over)
+     *         from this input stream without any blocking.
      *
      * @since 0.2
      */
@@ -225,10 +222,10 @@ public class ArrayByteInputStream extends StreamInput {
     }
 
     /**
-     * Tests if this {@code InputStream} supports mark/reset. The {@code markSupported}
-     * method of {@code ByteArrayInputStream} always returns {@code true}.
+     * Determines whether this {@code InputStream} supports mark/reset operations.
+     * The {@code markSupported} method of {@code ByteArrayInputStream} always returns {@code true}.
      *
-     * @return  a {@code boolean} indicating if this stream type supports mark/reset.
+     * @return  {@code true} if this stream type supports mark/reset; {@code false} otherwise.
      *
      * @since 0.2
      */
@@ -238,14 +235,14 @@ public class ArrayByteInputStream extends StreamInput {
     }
 
     /**
-     * Set the current marked position in the stream. ByteArrayInputStream objects are
-     * marked at position zero by default when constructed. They may be marked at another
-     * position within the buffer by this method.
-     * <p>
-     * If no mark has been set, then the value of the mark is the offset passed to the
-     * constructor (or 0 if the offset was not supplied).
+     * Sets the current marked position in the stream. ByteArrayInputStream objects are
+     * initially marked at position zero when constructed. This method allows marking
+     * the stream at a different position within the buffer.
      *
-     * <p> Note: The {@code readAheadLimit} for this class has no meaning.
+     * If no mark has been set, the value of the mark corresponds to the offset passed
+     * to the constructor (or 0 if no offset was provided).
+     *
+     * <p>Note: The {@code readAheadLimit} parameter for this class holds no significance.
      *
      * @since 0.2
      */
@@ -255,8 +252,8 @@ public class ArrayByteInputStream extends StreamInput {
     }
 
     /**
-     * Resets the buffer to the marked position. The marked position is 0 unless
-     * another position was marked or an offset was specified in the constructor.
+     * Resets the buffer to the marked position. By default, the marked position is 0 unless
+     * explicitly set using the mark() method or an offset was specified in the constructor.
      *
      * @since 0.2
      */

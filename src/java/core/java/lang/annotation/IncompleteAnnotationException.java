@@ -25,15 +25,13 @@ package java.core.java.lang.annotation;
 /**
  * Thrown to indicate that a program has attempted to access an element of
  * an annotation interface that was added to the annotation interface definition
- * after the annotation was compiled (or serialized). This exception will not be
+ * after the annotation was compiled or serialized. This exception will not be
  * thrown if the new element has a default value.
- * This exception can be thrown by the {@linkplain
- * java.lang.reflect.AnnotatedElement API used to read annotations
- * reflectively}.
+ * This exception can be thrown by the {@link java.lang.reflect.AnnotatedElement}
+ * API when reading annotations reflectively.
  *
- * @author  Josh Bloch
- * @see     java.lang.reflect.AnnotatedElement
- * @since 1.5
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 public class IncompleteAnnotationException extends RuntimeException {
     private static final long serialVersionUID = 8445097402741811912L;

@@ -23,24 +23,23 @@
 package java.core.java.lang.annotation;
 
 /**
- * Indicates that an annotation interface is automatically inherited.  If
- * an Inherited meta-annotation is present on an annotation interface
+ * Indicates that an annotation interface is automatically inherited. If
+ * an {@code @Inherited} meta-annotation is present on an annotation interface
  * declaration, and the user queries the annotation interface on a class
- * declaration, and the class declaration has no annotation for this interface,
- * then the class's superclass will automatically be queried for the
- * annotation interface.  This process will be repeated until an annotation for
- * this interface is found, or the top of the class hierarchy (Object)
- * is reached.  If no superclass has an annotation for this interface, then
- * the query will indicate that the class in question has no such annotation.
+ * declaration without an annotation for this interface, the class's superclass
+ * will automatically be queried for the annotation interface. This process
+ * continues until an annotation for this interface is found, or the top of
+ * the class hierarchy (Object) is reached. If no superclass has an annotation
+ * for this interface, the query will indicate that the class in question does
+ * not have such an annotation.
  *
  * <p>Note that this meta-annotation interface has no effect if the annotated
- * interface is used to annotate anything other than a class.  Note also
- * that this meta-annotation only causes annotations to be inherited
- * from superclasses; annotations on implemented interfaces have no
- * effect.
+ * interface is used to annotate anything other than a class. Also, this
+ * meta-annotation only causes annotations to be inherited from superclasses;
+ * annotations on implemented interfaces have no effect.
  *
- * @author Logan Abernathy
  * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

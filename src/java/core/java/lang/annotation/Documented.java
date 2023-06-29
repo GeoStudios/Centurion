@@ -23,27 +23,26 @@
 package java.core.java.lang.annotation;
 
 /**
- * If the annotation {@code @Documented} is present on the declaration
- * of an annotation interface <i>A</i>, then any {@code @A} annotation on
+ * If the {@code @Documented} annotation is present on the declaration
+ * of an annotation interface {@code A}, any {@code @A} annotation on
  * an element is considered part of the element's public contract.
  *
- * In more detail, when an annotation interface <i>A</i> is annotated with
- * {@code Documented}, the presence and value of <i>A</i> annotations
- * are a part of the public contract of the elements <i>A</i>
- * annotates.
+ * In more detail, when an annotation interface {@code A} is annotated with
+ * {@code @Documented}, the presence and value of {@code @A} annotations
+ * become a part of the public contract of the elements annotated by {@code A}.
  *
- * Conversely, if an annotation interface <i>B</i> is <em>not</em>
- * annotated with {@code Documented}, the presence and value of
- * <i>B</i> annotations are <em>not</em> part of the public contract
- * of the elements <i>B</i> annotates.
+ * Conversely, if an annotation interface {@code B} is <em>not</em>
+ * annotated with {@code @Documented}, the presence and value of
+ * {@code @B} annotations are <em>not</em> part of the public contract
+ * of the elements annotated by {@code B}.
  *
- * Concretely, if an annotation interface is annotated with {@code Documented},
- * by default a tool like javadoc will display annotations of that interface
- * in its output while annotations of annotation interfaces without
- * {@code Documented} will not be displayed.
+ * Concretely, if an annotation interface is annotated with {@code @Documented},
+ * by default, tools like javadoc will display annotations of that interface
+ * in their output, while annotations of annotation interfaces without
+ * {@code @Documented} will not be displayed.
  *
- * @author Logan Abernathy
  * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 
 @java.lang.annotation.Documented

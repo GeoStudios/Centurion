@@ -23,11 +23,9 @@
 package java.core.java.lang.annotation;
 
 /**
- * Thrown when the annotation parser attempts to read an annotation
- * from a class file and determines that the annotation is malformed.
- * This error can be thrown by the {@linkplain
- * java.lang.reflect.AnnotatedElement API used to read annotations
- * reflectively}.
+ * Indicates that the annotation parser has encountered a malformed annotation
+ * while attempting to read it from a class file. This error is thrown by the
+ * reflective API used to read annotations.
  *
  * @author Logan Abernathy
  * @since Alpha CDK 0.2
@@ -46,14 +44,12 @@ public class AnnotationFormatError extends Error{
     }
 
     /**
-     * Constructs a new {@code AnnotationFormatError} with the specified
-     * detail message and cause.  Note that the detail message associated
-     * with {@code cause} is <i>not</i> automatically incorporated in
-     * this error's detail message.
+     * Constructs a new {@code AnnotationFormatError} with the specified detail message
+     * and cause. Note that the detail message associated with the {@code cause} is
+     * <i>not</i> automatically incorporated into this error's detail message.
      *
-     * @param  message the detail message
-     * @param  cause the cause (A {@code null} value is permitted, and
-     *     indicates that the cause is nonexistent or unknown.)
+     * @param message the detail message
+     * @param cause   the cause (a {@code null} value is permitted, indicating that the cause is nonexistent or unknown)
      */
     public AnnotationFormatError(String message, Throwable cause) {
         super(message, cause);
@@ -61,13 +57,11 @@ public class AnnotationFormatError extends Error{
 
 
     /**
-     * Constructs a new {@code AnnotationFormatError} with the specified
-     * cause and a detail message of
-     * {@code (cause == null ? null : cause.toString())} (which
-     * typically contains the class and detail message of {@code cause}).
+     * Constructs a new {@code AnnotationFormatError} with the specified cause
+     * and a detail message of {@code (cause == null ? null : cause.toString())},
+     * which typically contains the class and detail message of the {@code cause}.
      *
-     * @param  cause the cause (A {@code null} value is permitted, and
-     *     indicates that the cause is nonexistent or unknown.)
+     * @param cause the cause (a {@code null} value is permitted, indicating that the cause is nonexistent or unknown)
      */
     public AnnotationFormatError(Throwable cause) {
         super(cause);

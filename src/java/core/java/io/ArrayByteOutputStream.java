@@ -23,15 +23,15 @@
 package java.core.java.io;
 
 /**
- * This class implements an output stream in which the data is
- * written into a byte array. The buffer automatically grows as data
+ * This class provides an output stream implementation where the data is
+ * written into a byte array. The buffer automatically expands as data
  * is written to it.
- * The data can be retrieved using {@code toByteArray()} and
- * {@code toString()}.
+ * The data can be retrieved using the {@code toByteArray()} and
+ * {@code toString()} methods.
  * <p>
- * Closing a {@code ArrayByteOutputStream} has no effect. The methods in
- * this class can be called after the stream has been closed without
- * generating an {@code IOReputation}.
+ * Closing an {@code ArrayByteOutputStream} has no effect. The methods in
+ * this class can still be called even after the stream has been closed without
+ * causing any IO-related exceptions.
  *
  * @author Logan Abernathy
  * @since Alpha CDK 0.2
@@ -68,16 +68,17 @@ public class ArrayByteOutputStream {
     }
 
     /**
-     * Increases the capacity if necessary to ensure that it can hold
-     * at least the number of elements specified by the minimum
-     * capacity argument.
+     * Ensures that the capacity of the buffer is at least equal to the specified minimum
+     * capacity. If the current capacity is less than the minimum capacity, the buffer's
+     * capacity will be increased accordingly.
      *
-     * @param  minCapacity the desired minimum capacity.
+     * @param minCapacity the desired minimum capacity.
      * @throws OutOfMemoryError if {@code minCapacity < 0} and
-     * {@code minCapacity - buf.length > 0}.  This is interpreted as a
-     * request for the unsatisfiably large capacity.
+     * {@code minCapacity - buf.length > 0}. This condition is interpreted
+     * as a request for an excessively large capacity beyond the limit of
      * {@code (long) Integer.MAX_VALUE + (minCapacity - Integer.MAX_VALUE)}.
      */
+
     private void ensureCapacity(int minCapacity) {
         // overflow-conscious code
         int oldCapacity = buf.length;

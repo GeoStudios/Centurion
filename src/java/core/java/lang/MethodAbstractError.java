@@ -25,13 +25,13 @@ package java.core.java.lang;
 import java.core.java.io.Serial;
 
 /**
- * Thrown when an application tries to call an abstract method.
- * Normally, this error is caught by the compiler; this error can
- * only occur at run time if the definition of some class has
- * incompatibly changed since the currently executing method was last
- * compiled.
+ * Thrown when an application tries to call an abstract method. Normally, this error
+ * is caught by the compiler. However, this error can occur at runtime if the definition
+ * of a class has changed in an incompatible way since the currently executing method
+ * was last compiled.
  *
  * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 
 public class MethodAbstractError {

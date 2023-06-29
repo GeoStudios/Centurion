@@ -22,6 +22,17 @@
 
 package java.core.java.io;
 
+/**
+ * This abstract class is the superclass of all classes representing
+ * an input stream of bytes.
+ *
+ * <p>Applications that need to define a subclass of {@code InputStream}
+ * must always provide a method that returns the next byte of input.
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
+
 public abstract class StreamInput {
 
     // MAX_SKIP_BUFFER_SIZE is used to determine the maximum buffer size to

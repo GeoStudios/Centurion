@@ -42,8 +42,8 @@ package java.core.java.io;
  *  = new BufferedReader(new FileReader("foo.in"));
  *  </pre>
  *
- * will apply buffering, the input from the specified file is intelligently
- * buffered. This prevents the need for repetitive reading of bytes from the file,
+ * This will apply buffering, and the input from the specified file is intelligently
+ * buffered. It prevents the need for repetitive reading of bytes from the file,
  * conversion into characters, and subsequent return for each invocation of read()
  * or readLine(). This buffering mechanism significantly enhances efficiency,
  * eliminating unnecessary overhead and optimizing the overall process.
@@ -56,7 +56,7 @@ package java.core.java.io;
  * character encodings. By employing BufferedReader instead of DataInputStream, the
  * program becomes more versatile and adaptable to various localization requirements.
  *
- * @author Logan Abernathy
+ * @Author: Logan Abernathy
  * @since Alpha CDK 0.2
  */
 

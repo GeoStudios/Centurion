@@ -23,8 +23,9 @@
 package java.core.java.lang;
 
 /**
- * Package-private utility class for setting up and tearing down
- * platform-specific support for termination-triggered shutdowns.
+ * Utility class used for setting up and tearing down platform-specific
+ * support for termination-triggered shutdowns. This class has package-private
+ * access and is intended for internal use only.
  *
  * @since Alpha CDK 0.2
  * @author Logan Abernathy
