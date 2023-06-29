@@ -22,9 +22,7 @@
 package java.core.java.lang;
 
 import java.core.java.io.Serial;
-import java.io.Serializable;
-import java.util.Collections;
-import java.util.List;
+import java.core.java.io.Serializable;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
