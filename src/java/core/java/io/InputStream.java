@@ -19,28 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang.annotation;
+package java.core.java.io;
 
 /**
- * Indicates how long annotations with the annotated interface are to be retained.
- * If no {@code @Retention} annotation is present on an annotation interface declaration,
- * the retention policy defaults to {@code RetentionPolicy.CLASS}.
+ * This abstract class is the superclass of all classes representing
+ * an input stream of bytes.
  *
- * <p>A {@code @Retention} meta-annotation has effect only if the meta-annotated interface
- * is used directly for annotation. It has no effect if the meta-annotated interface is
- * used as a member interface in another annotation interface.
+ * <p>Applications that need to define a subclass of {@code InputStream}
+ * must always provide a method that returns the next byte of input.
  *
- * @since Alpha CDK 0.2
  * @author Logan Abernathy
+ * @since Alpha CDK 0.2
  */
 
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.ANNOTATION_TYPE)
-public @interface Retention {
+public abstract class InputStream {
+
+    // MAX_SKIP_BUFFER_SIZE is used to determine the maximum buffer size to
+    // use when skipping.
+    private static final int MAX_SKIP_BUFFER_SIZE = 2048;
+
+    private static final int DEFAULT_BUFFER_SIZE = 8192;
+
     /**
-     * Returns the retention policy.
-     * @return the retention policy
+     * Construnctor for subclasses to call.
      */
-    RetentionPolicy value();
+    public InputStream() {}
+
+    public static InputStream nullImputStream() {
+        return new InputStream() {
+            private volatile boolean closed;
+        };
+    }
 }

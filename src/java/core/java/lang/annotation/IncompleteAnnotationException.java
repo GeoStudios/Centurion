@@ -22,6 +22,7 @@
 package java.core.java.lang.annotation;
 
 import java.core.java.io.Serial;
+import java.core.java.lang.RuntimeException;
 
 /**
  * Thrown to indicate that a program has attempted to access an element of

@@ -22,25 +22,17 @@
 package java.core.java.lang.annotation;
 
 /**
- * Indicates how long annotations with the annotated interface are to be retained.
- * If no {@code @Retention} annotation is present on an annotation interface declaration,
- * the retention policy defaults to {@code RetentionPolicy.CLASS}.
+ * Indicates that a field defining a constant value may be referenced
+ * from native code.
  *
- * <p>A {@code @Retention} meta-annotation has effect only if the meta-annotated interface
- * is used directly for annotation. It has no effect if the meta-annotated interface is
- * used as a member interface in another annotation interface.
+ * The annotation may be used as a hint by tools that generate native
+ * header files to determine whether a header file is required, and
+ * if so, what declarations it should contain.
  *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
  */
 
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.ANNOTATION_TYPE)
-public @interface Retention {
-    /**
-     * Returns the retention policy.
-     * @return the retention policy
-     */
-    RetentionPolicy value();
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.SOURCE)
+public @interface Native {
 }

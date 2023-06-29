@@ -19,35 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.io;
+package java.core.java.lang;
 
-/**
- * This abstract class is the superclass of all classes representing
- * an input stream of bytes.
- *
- * <p>Applications that need to define a subclass of {@code InputStream}
- * must always provide a method that returns the next byte of input.
- *
- * @author Logan Abernathy
- * @since Alpha CDK 0.2
- */
+import java.core.java.lang.annotation.Native;
 
-public abstract class StreamInput {
+public final class Integer {
 
-    // MAX_SKIP_BUFFER_SIZE is used to determine the maximum buffer size to
-    // use when skipping.
-    private static final int MAX_SKIP_BUFFER_SIZE = 2048;
-
-    private static final int DEFAULT_BUFFER_SIZE = 8192;
+    @Native
+    public static final int   MIN_VALUE = 0x80000000;
 
     /**
-     * Construnctor for subclasses to call.
+     * A constant holding the maximum value an {@code int} can
+     * have, 2<sup>31</sup>-1.
      */
-    public StreamInput() {}
+    @Native
+    public static final int   MAX_VALUE = 0x7fffffff;
 
-    public static StreamInput nullImputStream() {
-        return new StreamInput() {
-            private volatile boolean closed;
-        };
-    }
+    /**
+     * The {@code Class} instance representing the primitive type
+     * {@code int}.
+     *
+     */
+    @SuppressWarnings("unchecked")
+    public static final Class<java.lang.Integer>  TYPE = (Class<java.lang.Integer>) Class.getPrimitiveClass("int");
+
+    /**
+     * All possible chars for representing a number as a String
+     */
+    static final char[] digits = {
+            '0' , '1' , '2' , '3' , '4' , '5' ,
+            '6' , '7' , '8' , '9' , 'a' , 'b' ,
+            'c' , 'd' , 'e' , 'f' , 'g' , 'h' ,
+            'i' , 'j' , 'k' , 'l' , 'm' , 'n' ,
+            'o' , 'p' , 'q' , 'r' , 's' , 't' ,
+            'u' , 'v' , 'w' , 'x' , 'y' , 'z'
+    };
 }

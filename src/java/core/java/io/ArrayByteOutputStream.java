@@ -36,7 +36,7 @@ package java.core.java.io;
  * @since Alpha CDK 0.2
  */
 
-public class ArrayByteOutputStream {
+public class ArrayByteOutputStream extends Reader {
     /** The buffer where data is stored. */
     protected byte[] buf;
 

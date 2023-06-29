@@ -32,7 +32,7 @@ package java.core.java.io;
  * @since Alpha CDK 0.2
  */
 
-public abstract class FilterWriter {
+public abstract class FilterWriter extends Writer {
 
     /** The underlying char-output stream. */
     protected Writer out;

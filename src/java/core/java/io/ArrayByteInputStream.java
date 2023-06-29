@@ -35,7 +35,7 @@ import java.core.java.lang.Override;
  * @since Alpha CDK 0.1
  */
 
-public class ArrayByteInputStream extends StreamInput {
+public class ArrayByteInputStream extends InputStream {
 
     /**
      * An array of bytes that was provided
@@ -148,7 +148,7 @@ public class ArrayByteInputStream extends StreamInput {
      * similar to the behavior of {@code System.arraycopy}. After the data copying
      * is complete, the value of {@code k} is added to {@code pos} and returned for
      * further processing.
-     * Unlike the overridden method {@link StreamInput(byte[],int,int)}, this
+     * Unlike the overridden method {@link InputStream (byte[],int,int)}, this
      * method ensures that when the end of the stream is reached and {@code len == 0},
      * it returns {@code -1} instead of zero.It's important to note that this {@code
      * read} method operates in a non-blocking manner, meaning it doesn't halt the

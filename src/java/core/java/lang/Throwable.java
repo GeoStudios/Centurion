@@ -23,6 +23,8 @@ package java.core.java.lang;
 
 import java.core.java.io.Serial;
 import java.core.java.io.Serializable;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
@@ -116,6 +118,11 @@ public class Throwable implements Serializable {
     /** Sentinel value used in the serial form to indicate an immutable stack trace */
     private static final StackTraceElement[] SENTINEL_STACK_TRACE = new StackTraceElement[] {SentinelHolder.STACK_TRACE_ELEMENT_SENTINEL};
 
+    /**
+     * A shared value for an empty stack.
+     */
+    private static final StackTraceElement[] UNASSIGNED_STACK = new StackTraceElement[0];
+
     /*
      * To allow Throwable objects to be made immutable and safely
      * reused by the JVM, such as OutOfMemoryErrors, fields of
@@ -141,4 +148,72 @@ public class Throwable implements Serializable {
      * being initialized to a non-null value require a coordinated JVM
      * change.
      */
+
+    /**
+     * The throwable that caused this throwable to get thrown, or null if this
+     * throwable was not caused by another throwable, or if the causative
+     * throwable is unknown.  If this field is equal to this throwable itself,
+     * it indicates that the cause of this throwable has not yet been
+     * initialized.
+     *
+     * @serial
+     */
+    private final Throwable cause = this;
+
+    /**
+     * The stack trace, as returned by {@link #getStackTrace()}.
+     *
+     * The field is initialized to a zero-length array.  A {@code
+     * null} value of this field indicates subsequent calls to {@link
+     * #setStackTrace(StackTraceElement[])} and {@link
+     * #fillInStackTrace()} will be no-ops.
+     *
+     * @serial
+     */
+    private final StackTraceElement[] stackTrace = UNASSIGNED_STACK;
+
+    /**
+     * The JVM code sets the depth of the backtrace for later retrieval
+     */
+    private transient int depth;
+
+    // Setting this static field introduces an acceptable
+    // initialization dependency on a few java.util classes.
+    private static final List<Throwable> SUPPRESSED_SENTINEL = Collections.emptyList();
+
+    /**
+     * The list of suppressed exceptions, as returned by {@link
+     * #getSuppressed()}.  The list is initialized to a zero-element
+     * unmodifiable sentinel list.  When a serialized Throwable is
+     * read in, if the {@code suppressedExceptions} field points to a
+     * zero-element list, the field is reset to the sentinel value.
+     *
+     * @serial
+     */
+    @SuppressWarnings("serial") // Not statically typed as Serializable
+    private final List<Throwable> suppressedExceptions = SUPPRESSED_SENTINEL;
+
+    /** Message for trying to suppress a null exception. */
+    private static final String NULL_CAUSE_MESSAGE = "Cannot suppress a null exception.";
+
+    /** Message for trying to suppress oneself. */
+    private static final String SELF_SUPPRESSION_MESSAGE = "Self-suppression not permitted";
+
+    /** Caption  for labeling causative exception stack traces */
+    private static final String CAUSE_CAPTION = "Caused by: ";
+
+    /** Caption for labeling suppressed exception stack traces */
+    private static final String SUPPRESSED_CAPTION = "Suppressed: ";
+
+    /**
+     * Constructs a new throwable with {@code null} as its detail message.
+     * The cause is not initialized, and may subsequently be initialized by a
+     * call to {@link #initCause}.
+     *
+     * <p>The {@link #fillInStackTrace()} method is called to initialize
+     * the stack trace data in the newly created throwable.
+     */
+    public Throwable() {
+        fillInStackTrace();
+    }
 }

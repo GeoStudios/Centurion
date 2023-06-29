@@ -31,7 +31,7 @@ package java.core.java.io;
  * @author Logan Abernathy
  */
 
-public abstract class Writer {
+public abstract class Writer implements Flushable {
     /**
      * Temporary buffer used to hold writes of strings and single characters
      */

@@ -102,9 +102,7 @@ public class Error extends Throwable {
      * @param writableStackTrace whether or not the stack trace should
      *                           be writable
      */
-    protected Error(String message, Throwable cause,
-                    boolean enableSuppression,
-                    boolean writableStackTrace) {
+    protected Error(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
