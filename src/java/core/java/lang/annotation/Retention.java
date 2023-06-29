@@ -20,21 +20,29 @@
  *
  */
 
-package java.core.java.lang;
-
-import java.core.java.io.Serial;
+package java.core.java.lang.annotation;
 
 /**
- * Thrown when an application tries to call an abstract method.
- * Normally, this error is caught by the compiler; this error can
- * only occur at run time if the definition of some class has
- * incompatibly changed since the currently executing method was last
- * compiled.
+ * Indicates how long annotations with the annotated interface are to
+ * be retained.  If no Retention annotation is present on
+ * an annotation interface declaration, the retention policy defaults to
+ * {@code RetentionPolicy.CLASS}.
  *
+ * <p>A Retention meta-annotation has effect only if the
+ * meta-annotated interface is used directly for annotation.  It has no
+ * effect if the meta-annotated interface is used as a member interface in
+ * another annotation interface.
+ *
+ * @author Logan Abernathy
  * @since Alpha CDK 0.2
  */
 
-public class MethodAbstractError {
-    @Serial
-    private static final long serialVersionUID = -1654391082989018462L;
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.ANNOTATION_TYPE)
+public @interface Retention {
+    /**
+     * Returns the retention policy.
+     * @return the retention policy
+     */
+    RetentionPolicy value();
 }

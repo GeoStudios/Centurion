@@ -20,21 +20,36 @@
  *
  */
 
-package java.core.java.lang;
-
-import java.core.java.io.Serial;
+package java.core.java.lang.annotation;
 
 /**
- * Thrown when an application tries to call an abstract method.
- * Normally, this error is caught by the compiler; this error can
- * only occur at run time if the definition of some class has
- * incompatibly changed since the currently executing method was last
- * compiled.
+ * Annotation retention policy.  The constants of this enumerated class
+ * describe the various policies for retaining annotations.  They are used
+ * in conjunction with the {@link Retention} meta-annotation interface to
+ * specify how long annotations are to be retained.
  *
+ * @author Logan Abernathy
  * @since Alpha CDK 0.2
  */
+public enum RetentionPolicy {
+    /**
+     * Annotations are to be discarded by the compiler.
+     */
+    SOURCE,
 
-public class MethodAbstractError {
-    @Serial
-    private static final long serialVersionUID = -1654391082989018462L;
+    /**
+     * Annotations are to be recorded in the class file by the compiler
+     * but need not be retained by the VM at run time.  This is the default
+     * behavior.
+     */
+    CLASS,
+
+    /**
+     * Annotations are to be recorded in the class file by the compiler and
+     * retained by the VM at run time, so they may be read reflectively.
+     *
+     * @see java.lang.reflect.AnnotatedElement
+     */
+    RUNTIME
 }
+

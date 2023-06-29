@@ -22,6 +22,8 @@
 
 package java.core.java.io;
 
+import java.core.java.lang.Override;
+
 /**
  * This contains an internal buffer that contains bytes that may be
  * read from the stream. An internal counter keeps track of the next byte to be supplied
@@ -67,6 +69,7 @@ public class ArrayByteInputStream extends StreamInput {
      * passed to the constructor (or 0 if the offset was not supplied).
      */
     //TODO: Implement @OVERWRITE
+
     protected int mark = 0;
 
     /**
@@ -129,9 +132,8 @@ public class ArrayByteInputStream extends StreamInput {
      * cannot block.
      *
      * @return  {@inheritDoc}
-     *
-     * TODO: Implement this to be @Override
      */
+    @Override
     public synchronized int read() {
         return (pos < count) ? (buffer[pos++] & 0xff) : -1;
     }
@@ -159,9 +161,8 @@ public class ArrayByteInputStream extends StreamInput {
      * @param len
      * @return
      */
-
+    @Override
     public synchronized int read(byte[] a, int off, int len) {
-
         if (pos >= count) {
             return -1;
         }
@@ -176,6 +177,7 @@ public class ArrayByteInputStream extends StreamInput {
         pos += len;
         return len;
     }
+    @Override
     public int readNBytes(byte[] a, int off, int len) {
         int n = read(a, off, len);
         return n == -1 ? 0 : n;
@@ -195,12 +197,12 @@ public class ArrayByteInputStream extends StreamInput {
      *
      * @since 0.2
      */
+    @Override
     public synchronized long skip(long n) {
         long k = count - pos;
         if (n < k) {
             k= n < 0 ? 0 : n;
         }
-
         pos += (int) k;
         return k;
     }
@@ -217,6 +219,7 @@ public class ArrayByteInputStream extends StreamInput {
      *
      * @since 0.2
      */
+    @Override
     public synchronized int available() {
         return count - pos;
     }
@@ -229,6 +232,7 @@ public class ArrayByteInputStream extends StreamInput {
      *
      * @since 0.2
      */
+    @Override
     public boolean markSupported() {
         return true;
     }
@@ -245,6 +249,7 @@ public class ArrayByteInputStream extends StreamInput {
      *
      * @since 0.2
      */
+    @Override
     public void mark(int readAheadLimit) {
         mark = pos;
     }
@@ -255,6 +260,7 @@ public class ArrayByteInputStream extends StreamInput {
      *
      * @since 0.2
      */
+    @Override
     public synchronized void reset() {
         pos = mark;
     }

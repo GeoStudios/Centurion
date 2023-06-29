@@ -20,21 +20,19 @@
  *
  */
 
-package java.core.java.lang;
+package java.core.java.lang.annotation;
 
-import java.core.java.io.Serial;
-
-/**
- * Thrown when an application tries to call an abstract method.
- * Normally, this error is caught by the compiler; this error can
- * only occur at run time if the definition of some class has
- * incompatibly changed since the currently executing method was last
- * compiled.
- *
- * @since Alpha CDK 0.2
- */
-
-public class MethodAbstractError {
-    @Serial
-    private static final long serialVersionUID = -1654391082989018462L;
+public enum ElementType {
+    TYPE,
+    FIELD,
+    METHOD,
+    PARAMETER,
+    CONSTRUCTOR,
+    LOCAL_VARIABLE,
+    ANNOTATION_TYPE,
+    PACKAGE,
+    TYPE_PARAMETER,
+    TYPE_USE,
+    MODULE,
+    RECORD_COMPONENT
 }

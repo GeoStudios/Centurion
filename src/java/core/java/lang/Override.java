@@ -22,19 +22,26 @@
 
 package java.core.java.lang;
 
-import java.core.java.io.Serial;
-
 /**
- * Thrown when an application tries to call an abstract method.
- * Normally, this error is caught by the compiler; this error can
- * only occur at run time if the definition of some class has
- * incompatibly changed since the currently executing method was last
- * compiled.
+ * Indicates that a method declaration is intended to override a
+ * method declaration in a supertype. If a method is annotated with
+ * this annotation type compilers are required to generate an error
+ * message unless at least one of the following conditions hold:
+ *
+ * <ul><li>
+ * The method does override or implement a method declared in a
+ * supertype.
+ * </li><li>
+ * The method has a signature that is override-equivalent to that of
+ * any public method declared in {@linkplain Object}.
+ * </li></ul>
  *
  * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 
-public class MethodAbstractError {
-    @Serial
-    private static final long serialVersionUID = -1654391082989018462L;
-}
+import java.core.java.lang.annotation.*;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.SOURCE)
+public @interface Override {}

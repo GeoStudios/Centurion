@@ -29,9 +29,9 @@ package java.core.java.io;
  * The data can be retrieved using {@code toByteArray()} and
  * {@code toString()}.
  * <p>
- * Closing a {@code ByteArrayOutputStream} has no effect. The methods in
+ * Closing a {@code ArrayByteOutputStream} has no effect. The methods in
  * this class can be called after the stream has been closed without
- * generating an {@code IOException}.
+ * generating an {@code IOReputation}.
  *
  * @author Logan Abernathy
  * @since Alpha CDK 0.2
@@ -82,7 +82,7 @@ public class ArrayByteOutputStream {
         // overflow-conscious code
         int oldCapacity = buf.length;
         int minGrowth = minCapacity - oldCapacity;
-        if (minGrowth > 0) { // TODO:
+        if (minGrowth > 0) {
         }
     }
 
