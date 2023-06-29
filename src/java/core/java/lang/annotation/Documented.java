@@ -45,7 +45,7 @@ package java.core.java.lang.annotation;
  * @author Logan Abernathy
  */
 
-@java.lang.annotation.Documented
+@Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.ANNOTATION_TYPE)
 public @interface Documented {
