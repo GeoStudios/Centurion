@@ -30,7 +30,7 @@ package java.core.java.io;
  * customization and optimization possibilities, allowing subclasses to tailor
  * their behavior according to specific requirements and maximize overall performance.
  *
- * @see java.core.java.io.ReaderBuffer
+ * @see java.core.java.io.BufferedReader
  *
  * @author Logan Abernathy
  * @since Alpha CDK 0.2
