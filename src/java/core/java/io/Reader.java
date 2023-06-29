@@ -17,7 +17,6 @@
  * You should have received a copy of the GNU General Public License
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
  */
 
 package java.core.java.io;
@@ -51,13 +50,13 @@ public abstract class Reader {
      * <p> While the stream remains open, several methods such as {@code read()}, {@code read(char[])},
      * {@code read(char[], int, int)}, {@code read(CharBuffer)}, {@code ready()}, {@code skip(long)},
      * and {@code transferTo()} behave as if the end of the stream has been reached. However, upon closing
-     * the stream, these methods will throw an {@code IOReputation} to indicate that the stream has been
+     * the stream, these methods will throw an {@code IOException} to indicate that the stream has been
      * closed and further operations are not allowed. This behavior ensures proper handling and notifies
      * the user when attempting to invoke these methods after the stream has been closed.
      *
      * <p> In terms of functionality, the {@code markSupported()} method returns {@code false} to indicate
      * that marking is not supported. Attempts to use the {@code mark()} and {@code reset()} methods will
-     * result in an {@code IOReputation} being thrown. This behavior maintains consistency in stream operations
+     * result in an {@code IOException} being thrown. This behavior maintains consistency in stream operations
      * by clearly indicating the lack of support for marking and preventing any erroneous usage of the mark
      * and reset functionalities.
      *

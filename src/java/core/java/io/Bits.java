@@ -17,7 +17,6 @@
  * You should have received a copy of the GNU General Public License
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
  */
 
 package java.core.java.io;
@@ -30,7 +29,7 @@ package java.core.java.io;
  * @since Alpha CDK 0.1
  */
 
-class Bit {
+class Bits {
 
     /*
      * This refers to techniques for extracting primitive values from a byte array

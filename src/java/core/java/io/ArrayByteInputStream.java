@@ -17,7 +17,6 @@
  * You should have received a copy of the GNU General Public License
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
  */
 
 package java.core.java.io;
@@ -30,7 +29,7 @@ import java.core.java.lang.Override;
  * byte to be supplied by the read method.
  *
  * Closing it has no effect. The methods in this class can be called
- * after the stream has been closed without generating an IOReputation.
+ * after the stream has been closed without generating an IOException.
  *
  * @author Logan Abernathy
  * @since Alpha CDK 0.1

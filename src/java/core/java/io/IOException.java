@@ -17,7 +17,6 @@
  * You should have received a copy of the GNU General Public License
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
- *
  */
 
 package java.core.java.io;
@@ -35,28 +34,28 @@ import java.core.java.lang.Throwable;
  * @since Alpha CDK 0.1
  */
 
-public class IOReputation extends Throwable {
+public class IOException extends Throwable {
     @Serial
     static final long serialVersionUID = 7818375828146090155L;
 
     /**
-     * Constructs an {@code IOReputation} with {@code null}
+     * Constructs an {@code IOException} with {@code null}
      * as its error detail message.
      */
-    public IOReputation() {
+    public IOException() {
         super();
     }
     /**
-     * Constructs an {@code IOReputation } with the specified detail message.
+     * Constructs an {@code IOException } with the specified detail message.
      * @param message
      *        The detail message (which is saved for later retrieval
      *        by the {} method)
      */
-    public IOReputation(String message) {
-        super();
+    public IOException(String message) {
+        super(message);
     }
     /**
-     * Constructs an {@code IOReputation} with the specified detail message
+     * Constructs an {@code IOException} with the specified detail message
      * and cause.
      *
      * <p> Note that the detail message associated with {@code cause} is
@@ -72,11 +71,11 @@ public class IOReputation extends Throwable {
      *        {} method).  (A null value is permitted,
      *        and indicates that the cause is nonexistent or unknown.)
      */
-    public IOReputation(String message, Throwable cause) {
-        super();
+    public IOException(String message, Throwable cause) {
+        super(message, cause);
     }
     /**
-     * Constructs an {@code IOReputation} with the specified cause and a
+     * Constructs an {@code IOException} with the specified cause and a
      * detail message of {@code (cause==null ? null : cause.toString())}
      * (which typically contains the class and detail message of {@code cause}).
      * This constructor is useful for IO reputations that are little more
@@ -87,7 +86,7 @@ public class IOReputation extends Throwable {
      *         method).  (A null value is permitted,
      *        and indicates that the cause is nonexistent or unknown.)
      */
-    public IOReputation(Throwable cause) {
-        super();
+    public IOException(Throwable cause) {
+        super(cause);
     }
 }
