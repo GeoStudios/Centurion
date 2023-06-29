@@ -1,6 +1,6 @@
 # Alpha CDK-0.2
 
-Centurion has now 20 more classes including
+Centurion has now 22 more classes including
 
 - FilterWriter
 - Writer
@@ -23,6 +23,8 @@ Centurion has now 20 more classes including
 - Override
 - Terminator
 - Throwable
+- Error
+- Exception
 
 Changes
 - Copyright

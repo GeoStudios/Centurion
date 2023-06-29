@@ -6,7 +6,6 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel target="20">
-      <module name="Centurion" target="17" />
       <module name="Centurion.main" target="17" />
       <module name="Centurion.test" target="17" />
     </bytecodeTargetLevel>

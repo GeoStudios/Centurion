@@ -22,6 +22,9 @@
 package java.core.java.lang;
 
 import java.core.java.io.Serial;
+import java.io.Serializable;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
@@ -68,7 +71,7 @@ import java.core.java.io.Serial;
  *
  * <p>A cause can be associated with a throwable in two ways: through a
  * constructor that takes the cause as an argument or through the
- * {@link #initCause(java.lang.Throwable)} method. Throwable classes that
+ * {@link (java.core.java.lang.Throwable)} method. Throwable classes that
  * allow associating causes should provide constructors that take a cause and
  * delegate to one of the {@code Throwable} constructors that accept a cause.
  * The {@code initCause} method is public, allowing a cause to be associated
@@ -87,51 +90,57 @@ import java.core.java.io.Serial;
  * @author Logan Abernathy
  */
 
-public class Throwable {
-    /** use serialVersionUID from JDK 0.2 for interoperability */
+public class Throwable implements Serializable {
+    /** use serialVersionUID from CDK-0.1 for interoperability */
+
     @Serial
     private static final long serialVersionUID = -3042686055658047285L;
 
-    /**
-     * The JVM saves some indication of the stack backtrace in this slot.
-     */
+    /** The JVM saves some indication of the stack trace in this field. */
     private transient Object backtrace;
 
     /**
-     * Specific details about the Throwable.  For example, for
-     * {@code FileNotFoundException}, this contains the name of
-     * the file that could not be found.
-     *
-     * @serial
+     * Specific details about the Throwable. For example, fpr {@code FileNotFoundException}, this contains
+     * the name of the file that could not be found.
      */
     private String detailMessage;
 
-    /**
-     * Holder class to defer initializing sentinel objects only used
-     * for serialization.
-     */
+    /** Holder class to defer initializing sentinel objects only used for serialization. */
     private static class SentinelHolder {
         /**
-         * {@linkplain (StackTraceElement[]) Setting the
-         * stack trace} to a one-element array containing this sentinel
-         * value indicates future attempts to set the stack trace will be
-         * ignored.  The sentinel is equal to the result of calling:<br>
-         * {@code new StackTraceElement("", "", null, Integer.MIN_VALUE)}
+         * Setting the stack trace to a one-element array containing this sentinel value indicates future
+         * attempts to set the stack trace will be ignored. The sentinal is equal to the result of calling:
+         * new StackTraceElement("", "", null, Integer.MIN_VALUE)
          */
-        public static final StackTraceElement STACK_TRACE_ELEMENT_SENTINEL =
-                new StackTraceElement("", "", null, Integer.MIN_VALUE);
-
-        /**
-         * Sentinel value used in the serial form to indicate an immutable
-         * stack trace.
-         */
-        public static final StackTraceElement[] STACK_TRACE_SENTINEL =
-                new StackTraceElement[] {STACK_TRACE_ELEMENT_SENTINEL};
+        public static final StackTraceElement STACK_TRACE_ELEMENT_SENTINEL = new StackTraceElement("", "", null, Integer.MIN_VALUE);
     }
 
-    /**
-     * A shared value for an empty stack.
-     */
-    private static final StackTraceElement[] UNASSIGNED_STACK = new StackTraceElement[0];
+    /** Sentinel value used in the serial form to indicate an immutable stack trace */
+    private static final StackTraceElement[] SENTINEL_STACK_TRACE = new StackTraceElement[] {SentinelHolder.STACK_TRACE_ELEMENT_SENTINEL};
 
+    /*
+     * To allow Throwable objects to be made immutable and safely
+     * reused by the JVM, such as OutOfMemoryErrors, fields of
+     * Throwable that are writable in response to user actions, cause,
+     * stackTrace, and suppressedExceptions obey the following
+     * protocol:
+     *
+     * 1) The fields are initialized to a non-null sentinel value
+     * which indicates the value has logically not been set.
+     *
+     * 2) Writing a null to the field indicates further writes
+     * are forbidden
+     *
+     * 3) The sentinel value may be replaced with another non-null
+     * value.
+     *
+     * For example, implementations of the HotSpot JVM have
+     * preallocated OutOfMemoryError objects to provide for better
+     * diagnosability of that situation.  These objects are created
+     * without calling the constructor for that class and the fields
+     * in question are initialized to null.  To support this
+     * capability, any new fields added to Throwable that require
+     * being initialized to a non-null value require a coordinated JVM
+     * change.
+     */
 }
