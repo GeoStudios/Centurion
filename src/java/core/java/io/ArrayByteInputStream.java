@@ -66,6 +66,7 @@ public class ArrayByteInputStream extends StreamInput {
      * If no mark has been set, then the value of mark is the offset
      * passed to the constructor (or 0 if the offset was not supplied).
      */
+    //TODO: Implement @OVERWRITE
     protected int mark = 0;
 
     /**
@@ -174,5 +175,87 @@ public class ArrayByteInputStream extends StreamInput {
         }
         pos += len;
         return len;
+    }
+    public int readNBytes(byte[] a, int off, int len) {
+        int n = read(a, off, len);
+        return n == -1 ? 0 : n;
+    }
+
+    /**
+     * Skips {@code n} bytes of input from this input stream. Fewer
+     * bytes might be skipped if the end of the input stream is reached.
+     * The actual number {@code k}
+     * of bytes to be skipped is equal to the smaller
+     * of {@code n} and  {@code count-pos}.
+     * The value {@code k} is added into {@code pos}
+     * and {@code k} is returned.
+     *
+     * @param   n   {@inheritDoc}
+     * @return  the actual number of bytes skipped.
+     *
+     * @since 0.2
+     */
+    public synchronized long skip(long n) {
+        long k = count - pos;
+        if (n < k) {
+            k= n < 0 ? 0 : n;
+        }
+
+        pos += (int) k;
+        return k;
+    }
+
+    /**
+     * Returns the number of remaining bytes that can be read (or skipped over)
+     * from this input stream.
+     * <p>
+     * The value returned is {@code count&nbsp;- pos}, which is the number of
+     * bytes remaining to be read from the input buffer.
+     *
+     * @return  the number of remaining bytes that can be read (or skipped
+     *          over) from this input stream without blocking.
+     *
+     * @since 0.2
+     */
+    public synchronized int available() {
+        return count - pos;
+    }
+
+    /**
+     * Tests if this {@code InputStream} supports mark/reset. The {@code markSupported}
+     * method of {@code ByteArrayInputStream} always returns {@code true}.
+     *
+     * @return  a {@code boolean} indicating if this stream type supports mark/reset.
+     *
+     * @since 0.2
+     */
+    public boolean markSupported() {
+        return true;
+    }
+
+    /**
+     * Set the current marked position in the stream. ByteArrayInputStream objects are
+     * marked at position zero by default when constructed. They may be marked at another
+     * position within the buffer by this method.
+     * <p>
+     * If no mark has been set, then the value of the mark is the offset passed to the
+     * constructor (or 0 if the offset was not supplied).
+     *
+     * <p> Note: The {@code readAheadLimit} for this class has no meaning.
+     *
+     * @since 0.2
+     */
+    public void mark(int readAheadLimit) {
+        mark = pos;
+    }
+
+    /**
+     * Resets the buffer to the marked position. The marked position is 0 unless
+     * another position was marked or an offset was specified in the constructor.
+     *
+     * @since 0.2
+     */
+    public synchronized void reset() {
+        pos = mark;
     }
 }

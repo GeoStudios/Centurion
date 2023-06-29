@@ -69,5 +69,4 @@ versatility and adaptability.
 
 ## Changes from last version
 - Added Copyright to everyfile
-- 
-    
+- Added a reader to the ArrayByteInputStream class 

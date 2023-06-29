@@ -9,6 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="my-library-1.0" level="application" />
-    <orderEntry type="library" name="alpha-cdk-0.1" level="application" />
+    <orderEntry type="library" name="alpha-cdk-0.2" level="application" />
   </component>
 </module>
