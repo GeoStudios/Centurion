@@ -22,6 +22,8 @@
 
 package java.core.java.lang;
 
+import java.core.java.io.Serial;
+
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
  * in the Java language. It represents conditions that a Java application might
@@ -88,7 +90,7 @@ package java.core.java.lang;
 
 public class Throwable {
     /** use serialVersionUID from JDK 0.2 for interoperability */
-    @java.core.java.io.Serial
+    @Serial
     private static final long serialVersionUID = -3042686055658047285L;
 
     /**

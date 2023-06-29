@@ -36,7 +36,7 @@ import java.core.java.lang.Throwable;
  */
 
 public class IOReputation extends Throwable {
-    @java.core.java.io.Serial
+    @Serial
     static final long serialVersionUID = 7818375828146090155L;
 
     /**

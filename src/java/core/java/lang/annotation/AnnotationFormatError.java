@@ -22,6 +22,8 @@
 
 package java.core.java.lang.annotation;
 
+import java.core.java.io.Serial;
+
 /**
  * Indicates that the annotation parser has encountered a malformed annotation
  * while attempting to read it from a class file. This error is thrown by the
@@ -30,7 +32,8 @@ package java.core.java.lang.annotation;
  * @author Logan Abernathy
  * @since Alpha CDK 0.2
  */
-public class AnnotationFormatError extends Error{
+public class AnnotationFormatError extends Error {
+    @Serial
     private static final long serialVersionUID = -4256701562333669892L;
 
     /**

@@ -22,6 +22,8 @@
 
 package java.core.java.lang.annotation;
 
+import java.core.java.io.Serial;
+
 /**
  * Thrown to indicate that a program has attempted to access an element of
  * an annotation interface that was added to the annotation interface definition
@@ -34,6 +36,7 @@ package java.core.java.lang.annotation;
  * @author Logan Abernathy
  */
 public class IncompleteAnnotationException extends RuntimeException {
+    @Serial
     private static final long serialVersionUID = 8445097402741811912L;
 
     /**
