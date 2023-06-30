@@ -53,7 +53,6 @@ public class NoSuchElementException extends RuntimeException {
      * @param s     the detail message, or null
      * @param cause the cause (which is saved for later retrieval by the
      *              {@link #getCause()} method), or null
-     * @since 15
      */
     public NoSuchElementException(String s, Throwable cause) {
         super(s, cause);
@@ -67,7 +66,6 @@ public class NoSuchElementException extends RuntimeException {
      *
      * @param cause the cause (which is saved for later retrieval by the
      *              {@link #getCause()} method)
-     * @since 15
      */
     public NoSuchElementException(Throwable cause) {
         super(cause);

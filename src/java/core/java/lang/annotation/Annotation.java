@@ -106,5 +106,5 @@ public interface Annotation {
      * @return the annotation interface of this annotation
      * @see Enum#getDeclaringClass
      */
-    Class<? extends java.lang.annotation.Annotation> annotationType();
+    Class<? extends java.core.java.lang.annotation.Annotation> annotationType();
 }

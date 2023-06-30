@@ -19,16 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.jdk.internal.access;
 
-/**
- * Utility class used for setting up and tearing down platform-specific
- * support for termination-triggered shutdowns. This class has package-private
- * access and is intended for internal use only.
- *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
- */
+public class SharedSecrets {
 
-class Terminator {
+    public static void setJavaIOAccess(JavaIOAccess access) {
+        javaIOAccess = access;
+    }
 }

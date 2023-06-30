@@ -19,16 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.java.io;
 
-/**
- * Utility class used for setting up and tearing down platform-specific
- * support for termination-triggered shutdowns. This class has package-private
- * access and is intended for internal use only.
- *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
- */
+public class IOError extends Error {
+    /**
+     * Constructs a new instance of IOError with the specified cause. The
+     * IOError is created with the detail message of
+     * {@code (cause==null ? null : cause.toString())} (which typically
+     * contains the class and detail message of cause).
+     *
+     * @param  cause
+     *         The cause of this error, or {@code null} if the cause
+     *         is not known
+     */
+    public IOError(Throwable cause) {
+        super(cause);
+    }
 
-class Terminator {
+    @Serial
+    private static final long serialVersionUID = 67100927991680413L;
 }

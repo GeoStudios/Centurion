@@ -19,16 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.java.io;
 
-/**
- * Utility class used for setting up and tearing down platform-specific
- * support for termination-triggered shutdowns. This class has package-private
- * access and is intended for internal use only.
- *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
- */
+import jdk.internal.misc.InternalLock;
 
-class Terminator {
+import java.nio.charset.Charset;
+import java.util.Formatter;
+
+public class PrintStream {
 }

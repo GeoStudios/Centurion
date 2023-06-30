@@ -19,16 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.java.io;
 
-/**
- * Utility class used for setting up and tearing down platform-specific
- * support for termination-triggered shutdowns. This class has package-private
- * access and is intended for internal use only.
- *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
- */
+public class StreamCorruptedException extends ObjectOutputStream {
 
-class Terminator {
+    @Serial
+    static final long serialVersionUID = 8983558208146090155L;
+
+    /**
+     * Create a StreamCorruptedException and list a reason why thrown.
+     *
+     * @param reason  String describing the reason for the exception.
+     */
+    public StreamCorruptedException(String reason) {
+        super(reason);
+    }
+
+    /**
+     * Create a StreamCorruptedException and list no reason why thrown.
+     */
+    public StreamCorruptedException() {
+        super();
+    }
 }
