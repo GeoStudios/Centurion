@@ -29,6 +29,8 @@ package java.core.java.lang.annotation;
  * header files to determine whether a header file is required, and
  * if so, what declarations it should contain.
  *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
  */
 
 @Documented

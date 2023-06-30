@@ -30,7 +30,7 @@ public class RuntimeException extends Exception {
 
     /** Constructs a new runtime exception with {@code null} as its
      * detail message.  The cause is not initialized, and may subsequently be
-     * initialized by a call to {@link #initCause}.
+     * initialized by a call to.
      */
     public RuntimeException() {
         super();
@@ -38,10 +38,10 @@ public class RuntimeException extends Exception {
 
     /** Constructs a new runtime exception with the specified detail message.
      * The cause is not initialized, and may subsequently be initialized by a
-     * call to {@link #initCause}.
+     * call to.
      *
      * @param   message   the detail message. The detail message is saved for
-     *          later retrieval by the {@link #getMessage()} method.
+     *          later retrieval by the  method.
      */
     public RuntimeException(String message) {
         super(message);
@@ -54,9 +54,9 @@ public class RuntimeException extends Exception {
      * this runtime exception's detail message.
      *
      * @param  message the detail message (which is saved for later retrieval
-     *         by the {@link #getMessage()} method).
+     *         by the  method).
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A {@code null} value is
+     *          method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */
@@ -71,7 +71,7 @@ public class RuntimeException extends Exception {
      * that are little more than wrappers for other throwables.
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A {@code null} value is
+     *         {} method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */

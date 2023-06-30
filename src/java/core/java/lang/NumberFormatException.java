@@ -28,7 +28,7 @@ import java.core.java.io.Serial;
  * a string to one of the numeric types, but that the string does not
  * have the appropriate format.
  *
- * @see     java.core.java.lang.Integer#parseInt(String)
+ * @see     java.core.java.lang.Integer(String)
  * @since Alpha CDK 0.2
  * @author Logan Abernathy
  */

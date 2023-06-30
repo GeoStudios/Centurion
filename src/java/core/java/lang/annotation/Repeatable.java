@@ -19,39 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.java.lang.annotation;
 
-import java.core.java.lang.annotation.Native;
+/**
+ * The annotation interface {@code java.lang.annotation.Repeatable} is
+ * used to indicate that the annotation interface whose declaration it
+ * (meta-)annotates is <em>repeatable</em>. The value of
+ * {@code @Repeatable} indicates the <em>containing annotation
+ * interface</em> for the repeatable annotation interface.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
 
-public final class Integer extends Number {
-
-    @Native
-    public static final int   MIN_VALUE = 0x80000000;
-
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.ANNOTATION_TYPE)
+public @interface Repeatable {
     /**
-     * A constant holding the maximum value an {@code int} can
-     * have, 2<sup>31</sup>-1.
+     * Indicates the <em>containing annotation interface</em> for the
+     * repeatable annotation interface.
+     * @return the containing annotation interface
      */
-    @Native
-    public static final int   MAX_VALUE = 0x7fffffff;
-
-    /**
-     * The {@code Class} instance representing the primitive type
-     * {@code int}.
-     *
-     */
-    @SuppressWarnings("unchecked")
-    public static final Class<java.lang.Integer>  TYPE = (Class<java.lang.Integer>) Class.getPrimitiveClass("int");
-
-    /**
-     * All possible chars for representing a number as a String
-     */
-    static final char[] digits = {
-            '0' , '1' , '2' , '3' , '4' , '5' ,
-            '6' , '7' , '8' , '9' , 'a' , 'b' ,
-            'c' , 'd' , 'e' , 'f' , 'g' , 'h' ,
-            'i' , 'j' , 'k' , 'l' , 'm' , 'n' ,
-            'o' , 'p' , 'q' , 'r' , 's' , 't' ,
-            'u' , 'v' , 'w' , 'x' , 'y' , 'z'
-    };
+    Class<? extends Annotation> value();
 }

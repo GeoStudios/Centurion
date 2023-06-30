@@ -26,7 +26,7 @@ package java.core.java.io;
  * Indicates that an annotated field or method is part of the {@linkplain Serializable serialization mechanism}
  * defined by the <a href="{@docRoot}/../specs/serialization/output.html"><cite>Java Object Serialization Specification</cite></a>.
  * This annotation type is intended to allow compile-time checking of serialization-related declarations,
- * analogous to the checking enabled by the {@link java.lang.Override} annotation type to validate method overriding.
+ * analogous to the checking enabled by the {@link java.core.java.lang.Override} annotation type to validate method overriding.
  * {@code Serializable} classes are encouraged to use {@code @Serial} annotations to help a compiler catch mis-declared
  * serialization-related fields and methods, mis-declarations that may otherwise be difficult to detect.
  *

@@ -19,39 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang;
+package java.core.java.util;
 
-import java.core.java.lang.annotation.Native;
+import java.core.java.util.NoSuchElementException;
 
-public final class Integer extends Number {
-
-    @Native
-    public static final int   MIN_VALUE = 0x80000000;
-
+public interface Iterator<E> {
     /**
-     * A constant holding the maximum value an {@code int} can
-     * have, 2<sup>31</sup>-1.
-     */
-    @Native
-    public static final int   MAX_VALUE = 0x7fffffff;
-
-    /**
-     * The {@code Class} instance representing the primitive type
-     * {@code int}.
+     * Returns {@code true} if the iteration has more elements.
      *
+     * @return {@code true} if the iteration has more elements
      */
-    @SuppressWarnings("unchecked")
-    public static final Class<java.lang.Integer>  TYPE = (Class<java.lang.Integer>) Class.getPrimitiveClass("int");
+    boolean hasNext();
 
     /**
-     * All possible chars for representing a number as a String
+     * Returns the next element in the iteration.
+     *
+     * @return the next element in the iteration
+     * @throws NoSuchElementException if the iteration has no more elements
      */
-    static final char[] digits = {
-            '0' , '1' , '2' , '3' , '4' , '5' ,
-            '6' , '7' , '8' , '9' , 'a' , 'b' ,
-            'c' , 'd' , 'e' , 'f' , 'g' , 'h' ,
-            'i' , 'j' , 'k' , 'l' , 'm' , 'n' ,
-            'o' , 'p' , 'q' , 'r' , 's' , 't' ,
-            'u' , 'v' , 'w' , 'x' , 'y' , 'z'
-    };
+    E next();
 }

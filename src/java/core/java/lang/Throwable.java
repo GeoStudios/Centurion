@@ -23,6 +23,8 @@ package java.core.java.lang;
 
 import java.core.java.io.Serial;
 import java.core.java.io.Serializable;
+import java.core.java.io.*;
+import java.core.java.util.*;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
@@ -88,33 +90,50 @@ import java.core.java.io.Serializable;
  * @author Logan Abernathy
  */
 
+@Deprecated(since = "Alpha CDK 0.2", forRemoval = false)
 public class Throwable implements Serializable {
     /** use serialVersionUID from CDK-0.1 for interoperability */
 
     @Serial
     private static final long serialVersionUID = -3042686055658047285L;
 
-    /** The JVM saves some indication of the stack trace in this field. */
-    private transient Object backtrace;
+    /**
+     * The JVM saves some indication of the stack backtrace in this slot.
+     */
+    private transient java.lang.Object backtrace;
 
     /**
-     * Specific details about the Throwable. For example, fpr {@code FileNotFoundException}, this contains
-     * the name of the file that could not be found.
+     * Specific details about the Throwable.  For example, for
+     * {@code FileNotFoundException}, this contains the name of
+     * the file that could not be found.
+     *
+     * @serial
      */
     private String detailMessage;
 
-    /** Holder class to defer initializing sentinel objects only used for serialization. */
+
+    /**
+     * Holder class to defer initializing sentinel objects only used
+     * for serialization.
+     */
     private static class SentinelHolder {
         /**
-         * Setting the stack trace to a one-element array containing this sentinel value indicates future
-         * attempts to set the stack trace will be ignored. The sentinal is equal to the result of calling:
-         * new StackTraceElement("", "", null, Integer.MIN_VALUE)
+         * {@linkplain #setStackTrace(StackTraceElement[]) Setting the
+         * stack trace} to a one-element array containing this sentinel
+         * value indicates future attempts to set the stack trace will be
+         * ignored.  The sentinel is equal to the result of calling:<br>
+         * {@code new StackTraceElement("", "", null, Integer.MIN_VALUE)}
          */
-        public static final StackTraceElement STACK_TRACE_ELEMENT_SENTINEL = new StackTraceElement("", "", null, Integer.MIN_VALUE);
-    }
+        public static final StackTraceElement STACK_TRACE_ELEMENT_SENTINEL =
+                new StackTraceElement("", "", null, java.lang.Integer.MIN_VALUE);
 
-    /** Sentinel value used in the serial form to indicate an immutable stack trace */
-    private static final StackTraceElement[] SENTINEL_STACK_TRACE = new StackTraceElement[] {SentinelHolder.STACK_TRACE_ELEMENT_SENTINEL};
+        /**
+         * Sentinel value used in the serial form to indicate an immutable
+         * stack trace.
+         */
+        public static final StackTraceElement[] STACK_TRACE_SENTINEL =
+                new StackTraceElement[] {STACK_TRACE_ELEMENT_SENTINEL};
+    }
 
     /**
      * A shared value for an empty stack.
@@ -156,7 +175,7 @@ public class Throwable implements Serializable {
      *
      * @serial
      */
-    private final Throwable cause = this;
+    private Throwable cause = this;
 
     /**
      * The stack trace, as returned by {@link #getStackTrace()}.
@@ -168,7 +187,7 @@ public class Throwable implements Serializable {
      *
      * @serial
      */
-    private final StackTraceElement[] stackTrace = UNASSIGNED_STACK;
+    private StackTraceElement[] stackTrace = UNASSIGNED_STACK;
 
     /**
      * The JVM code sets the depth of the backtrace for later retrieval
@@ -177,7 +196,7 @@ public class Throwable implements Serializable {
 
     // Setting this static field introduces an acceptable
     // initialization dependency on a few java.util classes.
-    private static final List<Throwable> SUPPRESSED_SENTINEL = Collections.emptyList();
+    private static final java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL = Collections.emptyList();
 
     /**
      * The list of suppressed exceptions, as returned by {@link
@@ -187,9 +206,10 @@ public class Throwable implements Serializable {
      * zero-element list, the field is reset to the sentinel value.
      *
      * @serial
+     * @since 1.7
      */
     @SuppressWarnings("serial") // Not statically typed as Serializable
-    private final List<Throwable> suppressedExceptions = SUPPRESSED_SENTINEL;
+    private List<Throwable> suppressedExceptions = SUPPRESSED_SENTINEL;
 
     /** Message for trying to suppress a null exception. */
     private static final String NULL_CAUSE_MESSAGE = "Cannot suppress a null exception.";
@@ -213,5 +233,872 @@ public class Throwable implements Serializable {
      */
     public Throwable() {
         fillInStackTrace();
+    }
+
+    /**
+     * Constructs a new throwable with the specified detail message.  The
+     * cause is not initialized, and may subsequently be initialized by
+     * a call to {@link #initCause}.
+     *
+     * <p>The {@link #fillInStackTrace()} method is called to initialize
+     * the stack trace data in the newly created throwable.
+     *
+     * @param   message   the detail message. The detail message is saved for
+     *          later retrieval by the {@link #getMessage()} method.
+     */
+    public Throwable(String message) {
+        fillInStackTrace();
+        detailMessage = message;
+    }
+
+    /**
+     * Constructs a new throwable with the specified detail message and
+     * cause.  <p>Note that the detail message associated with
+     * {@code cause} is <i>not</i> automatically incorporated in
+     * this throwable's detail message.
+     *
+     * <p>The {@link #fillInStackTrace()} method is called to initialize
+     * the stack trace data in the newly created throwable.
+     *
+     * @param  message the detail message (which is saved for later retrieval
+     *         by the {@link #getMessage()} method).
+     * @param  cause the cause (which is saved for later retrieval by the
+     *         {@link #getCause()} method).  (A {@code null} value is
+     *         permitted, and indicates that the cause is nonexistent or
+     *         unknown.)
+     */
+    public Throwable(String message, java.lang.Throwable cause) {
+        fillInStackTrace();
+        detailMessage = message;
+        this.cause = cause;
+    }
+
+    /**
+     * Constructs a new throwable with the specified cause and a detail
+     * message of {@code (cause==null ? null : cause.toString())} (which
+     * typically contains the class and detail message of {@code cause}).
+     * This constructor is useful for throwables that are little more than
+     * wrappers for other throwables (for example, {@link
+     * java.security.PrivilegedActionException}).
+     *
+     * <p>The {@link #fillInStackTrace()} method is called to initialize
+     * the stack trace data in the newly created throwable.
+     *
+     * @param  cause the cause (which is saved for later retrieval by the
+     *         {@link #getCause()} method).  (A {@code null} value is
+     *         permitted, and indicates that the cause is nonexistent or
+     *         unknown.)
+     */
+    public Throwable(java.lang.Throwable cause) {
+        fillInStackTrace();
+        detailMessage = (cause==null ? null : cause.toString());
+        this.cause = cause;
+    }
+
+    /**
+     * Constructs a new throwable with the specified detail message,
+     * cause, {@linkplain #addSuppressed suppression} enabled or
+     * disabled, and writable stack trace enabled or disabled.  If
+     * suppression is disabled, {@link #getSuppressed} for this object
+     * will return a zero-length array and calls to {@link
+     * #addSuppressed} that would otherwise append an exception to the
+     * suppressed list will have no effect.  If the writable stack
+     * trace is false, this constructor will not call {@link
+     * #fillInStackTrace()}, a {@code null} will be written to the
+     * {@code stackTrace} field, and subsequent calls to {@code
+     * fillInStackTrace} and {@link
+     * #setStackTrace(StackTraceElement[])} will not set the stack
+     * trace.  If the writable stack trace is false, {@link
+     * #getStackTrace} will return a zero length array.
+     *
+     * <p>Note that the other constructors of {@code Throwable} treat
+     * suppression as being enabled and the stack trace as being
+     * writable.  Subclasses of {@code Throwable} should document any
+     * conditions under which suppression is disabled and document
+     * conditions under which the stack trace is not writable.
+     * Disabling of suppression should only occur in exceptional
+     * circumstances where special requirements exist, such as a
+     * virtual machine reusing exception objects under low-memory
+     * situations.  Circumstances where a given exception object is
+     * repeatedly caught and rethrown, such as to implement control
+     * flow between two sub-systems, is another situation where
+     * immutable throwable objects would be appropriate.
+     *
+     * @param  message the detail message.
+     * @param cause the cause.  (A {@code null} value is permitted,
+     * and indicates that the cause is nonexistent or unknown.)
+     * @param enableSuppression whether or not suppression is enabled
+     * @param writableStackTrace whether or not the stack trace is writable
+     *
+     * @see OutOfMemoryError
+     * @see NullPointerException
+     * @see ArithmeticException
+     */
+    protected Throwable(String message, java.lang.Throwable cause,
+                        boolean enableSuppression,
+                        boolean writableStackTrace) {
+        if (writableStackTrace) {
+            fillInStackTrace();
+        } else {
+            stackTrace = null;
+        }
+        detailMessage = message;
+        this.cause = cause;
+        if (!enableSuppression)
+            suppressedExceptions = null;
+    }
+
+    /**
+     * Returns the detail message string of this throwable.
+     *
+     * @return  the detail message string of this {@code Throwable} instance
+     *          (which may be {@code null}).
+     */
+    public String getMessage() {
+        return detailMessage;
+    }
+
+    /**
+     * Creates a localized description of this throwable.
+     * Subclasses may override this method in order to produce a
+     * locale-specific message.  For subclasses that do not override this
+     * method, the default implementation returns the same result as
+     * {@code getMessage()}.
+     *
+     * @return  The localized description of this throwable.
+     */
+    public String getLocalizedMessage() {
+        return getMessage();
+    }
+
+    /**
+     * Returns the cause of this throwable or {@code null} if the
+     * cause is nonexistent or unknown.  (The cause is the throwable that
+     * caused this throwable to get thrown.)
+     *
+     * <p>This implementation returns the cause that was supplied via one of
+     * the constructors requiring a {@code Throwable}, or that was set after
+     * creation with the {@link #initCause(java.lang.Throwable)} method.  While it is
+     * typically unnecessary to override this method, a subclass can override
+     * it to return a cause set by some other means.  This is appropriate for
+     * a "legacy chained throwable" that predates the addition of chained
+     * exceptions to {@code Throwable}.  Note that it is <i>not</i>
+     * necessary to override any of the {@code PrintStackTrace} methods,
+     * all of which invoke the {@code getCause} method to determine the
+     * cause of a throwable.
+     *
+     * @return  the cause of this throwable or {@code null} if the
+     *          cause is nonexistent or unknown.
+     */
+    public synchronized Throwable getCause() {
+        return (cause==this ? null : cause);
+    }
+
+    /**
+     * Initializes the <i>cause</i> of this throwable to the specified value.
+     * (The cause is the throwable that caused this throwable to get thrown.)
+     *
+     * <p>This method can be called at most once.  It is generally called from
+     * within the constructor, or immediately after creating the
+     * throwable.  If this throwable was created
+     * with {@link #Throwable(Throwable)} or
+     * {@link #Throwable(String, Throwable)}, this method cannot be called
+     * even once.
+     *
+     * <p>An example of using this method on a legacy throwable type
+     * without other support for setting the cause is:
+     *
+     * <pre>
+     * try {
+     *     lowLevelOp();
+     * } catch (LowLevelException le) {
+     *     throw (HighLevelException)
+     *           new HighLevelException().initCause(le); // Legacy constructor
+     * }
+     * </pre>
+     *
+     * @param  cause the cause (which is saved for later retrieval by the
+     *         {@link #getCause()} method).  (A {@code null} value is
+     *         permitted, and indicates that the cause is nonexistent or
+     *         unknown.)
+     * @return  a reference to this {@code Throwable} instance.
+     * @throws java.lang.IllegalArgumentException if {@code cause} is this
+     *         throwable.  (A throwable cannot be its own cause.)
+     * @throws IllegalStateException if this throwable was
+     *         created with {@link #Throwable(java.lang.Throwable)} or
+     *         {@link #Throwable(String, java.lang.Throwable)}, or this method has already
+     *         been called on this throwable.
+     */
+    public synchronized java.lang.Throwable initCause(java.lang.Throwable cause) {
+        if (this.cause != this)
+            throw new IllegalStateException("Can't overwrite cause with " +
+                    Objects.toString(cause, "a null"), this);
+        if (cause == this)
+            throw new java.lang.IllegalArgumentException("Self-causation not permitted", this);
+        this.cause = cause;
+        return this;
+    }
+
+    /*
+     * This is called by readObject of a few exceptions such as
+     * ClassNotFoundException and ExceptionInInitializerError to deserialize
+     * a stream output from an older runtime version where the cause may
+     * have set to null.
+     */
+    final void setCause(java.lang.Throwable t) {
+        this.cause = t;
+    }
+
+    /**
+     * Returns a short description of this throwable.
+     * The result is the concatenation of:
+     * <ul>
+     * <li> the {@linkplain Class#getName() name} of the class of this object
+     * <li> ": " (a colon and a space)
+     * <li> the result of invoking this object's {@link #getLocalizedMessage}
+     *      method
+     * </ul>
+     * If {@code getLocalizedMessage} returns {@code null}, then just
+     * the class name is returned.
+     *
+     * @return a string representation of this throwable.
+     */
+    public String toString() {
+        String s = getClass().getName();
+        String message = getLocalizedMessage();
+        return (message != null) ? (s + ": " + message) : s;
+    }
+
+    /**
+     * Prints this throwable and its backtrace to the
+     * standard error stream. This method prints a stack trace for this
+     * {@code Throwable} object on the error output stream that is
+     * the value of the field {@code System.err}. The first line of
+     * output contains the result of the {@link #toString()} method for
+     * this object.  Remaining lines represent data previously recorded by
+     * the method {@link #fillInStackTrace()}. The format of this
+     * information depends on the implementation, but the following
+     * example may be regarded as typical:
+     * <blockquote><pre>
+     * java.lang.NullPointerException
+     *         at MyClass.mash(MyClass.java:9)
+     *         at MyClass.crunch(MyClass.java:6)
+     *         at MyClass.main(MyClass.java:3)
+     * </pre></blockquote>
+     * This example was produced by running the program:
+     * <pre>
+     * class MyClass {
+     *     public static void main(String[] args) {
+     *         crunch(null);
+     *     }
+     *     static void crunch(int[] a) {
+     *         mash(a);
+     *     }
+     *     static void mash(int[] b) {
+     *         System.out.println(b[0]);
+     *     }
+     * }
+     * </pre>
+     * The backtrace for a throwable with an initialized, non-null cause
+     * should generally include the backtrace for the cause.  The format
+     * of this information depends on the implementation, but the following
+     * example may be regarded as typical:
+     * <pre>
+     * HighLevelException: MidLevelException: LowLevelException
+     *         at Junk.a(Junk.java:13)
+     *         at Junk.main(Junk.java:4)
+     * Caused by: MidLevelException: LowLevelException
+     *         at Junk.c(Junk.java:23)
+     *         at Junk.b(Junk.java:17)
+     *         at Junk.a(Junk.java:11)
+     *         ... 1 more
+     * Caused by: LowLevelException
+     *         at Junk.e(Junk.java:30)
+     *         at Junk.d(Junk.java:27)
+     *         at Junk.c(Junk.java:21)
+     *         ... 3 more
+     * </pre>
+     * Note the presence of lines containing the characters {@code "..."}.
+     * These lines indicate that the remainder of the stack trace for this
+     * exception matches the indicated number of frames from the bottom of the
+     * stack trace of the exception that was caused by this exception (the
+     * "enclosing" exception).  This shorthand can greatly reduce the length
+     * of the output in the common case where a wrapped exception is thrown
+     * from the same method as the "causative exception" is caught.  The above
+     * example was produced by running the program:
+     * <pre>
+     * public class Junk {
+     *     public static void main(String args[]) {
+     *         try {
+     *             a();
+     *         } catch(HighLevelException e) {
+     *             e.printStackTrace();
+     *         }
+     *     }
+     *     static void a() throws HighLevelException {
+     *         try {
+     *             b();
+     *         } catch(MidLevelException e) {
+     *             throw new HighLevelException(e);
+     *         }
+     *     }
+     *     static void b() throws MidLevelException {
+     *         c();
+     *     }
+     *     static void c() throws MidLevelException {
+     *         try {
+     *             d();
+     *         } catch(LowLevelException e) {
+     *             throw new MidLevelException(e);
+     *         }
+     *     }
+     *     static void d() throws LowLevelException {
+     *        e();
+     *     }
+     *     static void e() throws LowLevelException {
+     *         throw new LowLevelException();
+     *     }
+     * }
+     *
+     * class HighLevelException extends Exception {
+     *     HighLevelException(Throwable cause) { super(cause); }
+     * }
+     *
+     * class MidLevelException extends Exception {
+     *     MidLevelException(Throwable cause)  { super(cause); }
+     * }
+     *
+     * class LowLevelException extends Exception {
+     * }
+     * </pre>
+     * As of release 7, the platform supports the notion of
+     * <i>suppressed exceptions</i> (in conjunction with the {@code
+     * try}-with-resources statement). Any exceptions that were
+     * suppressed in order to deliver an exception are printed out
+     * beneath the stack trace.  The format of this information
+     * depends on the implementation, but the following example may be
+     * regarded as typical:
+     *
+     * <pre>
+     * Exception in thread "main" java.lang.Exception: Something happened
+     *         at Foo.bar(Foo.java:10)
+     *         at Foo.main(Foo.java:5)
+     *         Suppressed: Resource$CloseFailException: Resource ID = 0
+     *                 at Resource.close(Resource.java:26)
+     *                 at Foo.bar(Foo.java:9)
+     *                 ... 1 more
+     * </pre>
+     * Note that the "... n more" notation is used on suppressed exceptions
+     * just as it is used on causes. Unlike causes, suppressed exceptions are
+     * indented beyond their "containing exceptions."
+     *
+     * <p>An exception can have both a cause and one or more suppressed
+     * exceptions:
+     * <pre>
+     * Exception in thread "main" java.lang.Exception: Main block
+     *         at Foo3.main(Foo3.java:7)
+     *         Suppressed: Resource$CloseFailException: Resource ID = 2
+     *                 at Resource.close(Resource.java:26)
+     *                 at Foo3.main(Foo3.java:5)
+     *         Suppressed: Resource$CloseFailException: Resource ID = 1
+     *                 at Resource.close(Resource.java:26)
+     *                 at Foo3.main(Foo3.java:5)
+     * Caused by: java.lang.Exception: I did it
+     *         at Foo3.main(Foo3.java:8)
+     * </pre>
+     * Likewise, a suppressed exception can have a cause:
+     * <pre>
+     * Exception in thread "main" java.lang.Exception: Main block
+     *         at Foo4.main(Foo4.java:6)
+     *         Suppressed: Resource2$CloseFailException: Resource ID = 1
+     *                 at Resource2.close(Resource2.java:20)
+     *                 at Foo4.main(Foo4.java:5)
+     *         Caused by: java.lang.Exception: Rats, you caught me
+     *                 at Resource2$CloseFailException.&lt;init&gt;(Resource2.java:45)
+     *                 ... 2 more
+     * </pre>
+     */
+    public void printStackTrace() {
+        printStackTrace(System.err);
+    }
+
+    /**
+     * Prints this throwable and its backtrace to the specified print stream.
+     *
+     * @param s {@code PrintStream} to use for output
+     */
+    public void printStackTrace(PrintStream s) {
+        printStackTrace(new java.lang.Throwable.WrappedPrintStream(s));
+    }
+
+    private void printStackTrace(java.lang.Throwable.PrintStreamOrWriter s) {
+        java.lang.Object lock = s.lock();
+        if (lock instanceof InternalLock locker) {
+            locker.lock();
+            try {
+                lockedPrintStackTrace(s);
+            } finally {
+                locker.unlock();
+            }
+        } else synchronized (lock) {
+            lockedPrintStackTrace(s);
+        }
+    }
+
+    private void lockedPrintStackTrace(java.lang.Throwable.PrintStreamOrWriter s) {
+        // Guard against malicious overrides of Throwable.equals by
+        // using a Set with identity equality semantics.
+        Set<java.lang.Throwable> dejaVu = Collections.newSetFromMap(new IdentityHashMap<>());
+        dejaVu.add(this);
+
+        // Print our stack trace
+        s.println(this);
+        StackTraceElement[] trace = getOurStackTrace();
+        for (StackTraceElement traceElement : trace)
+            s.println("\tat " + traceElement);
+
+        // Print suppressed exceptions, if any
+        for (java.lang.Throwable se : getSuppressed())
+            se.printEnclosedStackTrace(s, trace, SUPPRESSED_CAPTION, "\t", dejaVu);
+
+        // Print cause, if any
+        java.lang.Throwable ourCause = getCause();
+        if (ourCause != null)
+            ourCause.printEnclosedStackTrace(s, trace, CAUSE_CAPTION, "", dejaVu);
+    }
+
+    /**
+     * Print our stack trace as an enclosed exception for the specified
+     * stack trace.
+     */
+    private void printEnclosedStackTrace(java.lang.Throwable.PrintStreamOrWriter s,
+                                         StackTraceElement[] enclosingTrace,
+                                         String caption,
+                                         String prefix,
+                                         Set<java.lang.Throwable> dejaVu) {
+        assert s.isLockedByCurrentThread();
+        if (dejaVu.contains(this)) {
+            s.println(prefix + caption + "[CIRCULAR REFERENCE: " + this + "]");
+        } else {
+            dejaVu.add(this);
+            // Compute number of frames in common between this and enclosing trace
+            StackTraceElement[] trace = getOurStackTrace();
+            int m = trace.length - 1;
+            int n = enclosingTrace.length - 1;
+            while (m >= 0 && n >=0 && trace[m].equals(enclosingTrace[n])) {
+                m--; n--;
+            }
+            int framesInCommon = trace.length - 1 - m;
+
+            // Print our stack trace
+            s.println(prefix + caption + this);
+            for (int i = 0; i <= m; i++)
+                s.println(prefix + "\tat " + trace[i]);
+            if (framesInCommon != 0)
+                s.println(prefix + "\t... " + framesInCommon + " more");
+
+            // Print suppressed exceptions, if any
+            for (java.lang.Throwable se : getSuppressed())
+                se.printEnclosedStackTrace(s, trace, SUPPRESSED_CAPTION,
+                        prefix +"\t", dejaVu);
+
+            // Print cause, if any
+            java.lang.Throwable ourCause = getCause();
+            if (ourCause != null)
+                ourCause.printEnclosedStackTrace(s, trace, CAUSE_CAPTION, prefix, dejaVu);
+        }
+    }
+
+    /**
+     * Prints this throwable and its backtrace to the specified
+     * print writer.
+     *
+     * @param s {@code PrintWriter} to use for output
+     * @since   1.1
+     */
+    public void printStackTrace(PrintWriter s) {
+        printStackTrace(new java.lang.Throwable.WrappedPrintWriter(s));
+    }
+
+    /**
+     * Wrapper class for PrintStream and PrintWriter to enable a single
+     * implementation of printStackTrace.
+     */
+    private abstract static class PrintStreamOrWriter {
+        /** Returns the object to be locked when using this StreamOrWriter */
+        abstract java.lang.Object lock();
+
+        boolean isLockedByCurrentThread() {
+            java.lang.Object lock = lock();
+            if (lock instanceof InternalLock locker) {
+                return locker.isHeldByCurrentThread();
+            } else {
+                return Thread.holdsLock(lock);
+            }
+        }
+
+        /** Prints the specified string as a line on this StreamOrWriter */
+        abstract void println(java.lang.Object o);
+    }
+
+    private static class WrappedPrintStream extends java.lang.Throwable.PrintStreamOrWriter {
+        private final PrintStream printStream;
+
+        WrappedPrintStream(PrintStream printStream) {
+            this.printStream = printStream;
+        }
+
+        java.lang.Object lock() {
+            return SharedSecrets.getJavaIOPrintStreamAccess().lock(printStream);
+        }
+
+        void println(java.lang.Object o) {
+            printStream.println(o);
+        }
+    }
+
+    private static class WrappedPrintWriter extends java.lang.Throwable.PrintStreamOrWriter {
+        private final PrintWriter printWriter;
+
+        WrappedPrintWriter(PrintWriter printWriter) {
+            this.printWriter = printWriter;
+        }
+
+        java.lang.Object lock() {
+            return SharedSecrets.getJavaIOPrintWriterAccess().lock(printWriter);
+        }
+
+        void println(java.lang.Object o) {
+            printWriter.println(o);
+        }
+    }
+
+    /**
+     * Fills in the execution stack trace. This method records within this
+     * {@code Throwable} object information about the current state of
+     * the stack frames for the current thread.
+     *
+     * <p>If the stack trace of this {@code Throwable} {@linkplain
+     * java.lang.Throwable#Throwable(String, java.lang.Throwable, boolean, boolean) is not
+     * writable}, calling this method has no effect.
+     *
+     * @return  a reference to this {@code Throwable} instance.
+     * @see     java.lang.Throwable#printStackTrace()
+     */
+    public synchronized java.lang.Throwable fillInStackTrace() {
+        if (stackTrace != null ||
+                backtrace != null /* Out of protocol state */ ) {
+            fillInStackTrace(0);
+            stackTrace = UNASSIGNED_STACK;
+        }
+        return this;
+    }
+
+    private native java.lang.Throwable fillInStackTrace(int dummy);
+
+    /**
+     * Provides programmatic access to the stack trace information printed by
+     * {@link #printStackTrace()}.  Returns an array of stack trace elements,
+     * each representing one stack frame.  The zeroth element of the array
+     * (assuming the array's length is non-zero) represents the top of the
+     * stack, which is the last method invocation in the sequence.  Typically,
+     * this is the point at which this throwable was created and thrown.
+     * The last element of the array (assuming the array's length is non-zero)
+     * represents the bottom of the stack, which is the first method invocation
+     * in the sequence.
+     *
+     * <p>Some virtual machines may, under some circumstances, omit one
+     * or more stack frames from the stack trace.  In the extreme case,
+     * a virtual machine that has no stack trace information concerning
+     * this throwable is permitted to return a zero-length array from this
+     * method.  Generally speaking, the array returned by this method will
+     * contain one element for every frame that would be printed by
+     * {@code printStackTrace}.  Writes to the returned array do not
+     * affect future calls to this method.
+     *
+     * @return an array of stack trace elements representing the stack trace
+     *         pertaining to this throwable.
+     * @since  1.4
+     */
+    public StackTraceElement[] getStackTrace() {
+        return getOurStackTrace().clone();
+    }
+
+    private synchronized StackTraceElement[] getOurStackTrace() {
+        // Initialize stack trace field with information from
+        // backtrace if this is the first call to this method
+        if (stackTrace == UNASSIGNED_STACK || stackTrace == null) {
+            if (backtrace != null) { /* Out of protocol state */
+                stackTrace = StackTraceElement.of(backtrace, depth);
+            } else {
+                // no backtrace, fillInStackTrace overridden or not called
+                return UNASSIGNED_STACK;
+            }
+        }
+        return stackTrace;
+    }
+
+    /**
+     * Sets the stack trace elements that will be returned by
+     * {@link #getStackTrace()} and printed by {@link #printStackTrace()}
+     * and related methods.
+     *
+     * This method, which is designed for use by RPC frameworks and other
+     * advanced systems, allows the client to override the default
+     * stack trace that is either generated by {@link #fillInStackTrace()}
+     * when a throwable is constructed or deserialized when a throwable is
+     * read from a serialization stream.
+     *
+     * <p>If the stack trace of this {@code Throwable} {@linkplain
+     * java.lang.Throwable#Throwable(String, java.lang.Throwable, boolean, boolean) is not
+     * writable}, calling this method has no effect other than
+     * validating its argument.
+     *
+     * @param   stackTrace the stack trace elements to be associated with
+     * this {@code Throwable}.  The specified array is copied by this
+     * call; changes in the specified array after the method invocation
+     * returns will have no effect on this {@code Throwable}'s stack
+     * trace.
+     *
+     * @throws NullPointerException if {@code stackTrace} is
+     *         {@code null} or if any of the elements of
+     *         {@code stackTrace} are {@code null}
+     *
+     * @since  1.4
+     */
+    public void setStackTrace(StackTraceElement[] stackTrace) {
+        // Validate argument
+        StackTraceElement[] defensiveCopy = stackTrace.clone();
+        for (int i = 0; i < defensiveCopy.length; i++) {
+            if (defensiveCopy[i] == null)
+                throw new NullPointerException("stackTrace[" + i + "]");
+        }
+
+        synchronized (this) {
+            if (this.stackTrace == null && // Immutable stack
+                    backtrace == null) // Test for out of protocol state
+                return;
+            this.stackTrace = defensiveCopy;
+        }
+    }
+
+    /**
+     * Reads a {@code Throwable} from a stream, enforcing
+     * well-formedness constraints on fields.  Null entries and
+     * self-pointers are not allowed in the list of {@code
+     * suppressedExceptions}.  Null entries are not allowed for stack
+     * trace elements.  A null stack trace in the serial form results
+     * in a zero-length stack element array. A single-element stack
+     * trace whose entry is equal to {@code new StackTraceElement("",
+     * "", null, Integer.MIN_VALUE)} results in a {@code null} {@code
+     * stackTrace} field.
+     *
+     * Note that there are no constraints on the value the {@code
+     * cause} field can hold; both {@code null} and {@code this} are
+     * valid values for the field.
+     *
+     * @param  s the {@code ObjectInputStream} from which data is read
+     * @throws IOException if an I/O error occurs
+     * @throws ClassNotFoundException if a serialized class cannot be loaded
+     */
+    @java.io.Serial
+    private void readObject(ObjectInputStream s)
+            throws IOException, ClassNotFoundException {
+        s.defaultReadObject();     // read in all fields
+
+        // Set suppressed exceptions and stack trace elements fields
+        // to marker values until the contents from the serial stream
+        // are validated.
+        java.util.List<java.lang.Throwable> candidateSuppressedExceptions = suppressedExceptions;
+        suppressedExceptions = SUPPRESSED_SENTINEL;
+
+        StackTraceElement[] candidateStackTrace = stackTrace;
+        stackTrace = UNASSIGNED_STACK.clone();
+
+        if (candidateSuppressedExceptions != null) {
+            int suppressedSize = validateSuppressedExceptionsList(candidateSuppressedExceptions);
+            if (suppressedSize > 0) { // Copy valid Throwables to new list
+                var suppList  = new ArrayList<java.lang.Throwable>(Math.min(100, suppressedSize));
+
+                for (java.lang.Throwable t : candidateSuppressedExceptions) {
+                    // Enforce constraints on suppressed exceptions in
+                    // case of corrupt or malicious stream.
+                    Objects.requireNonNull(t, NULL_CAUSE_MESSAGE);
+                    if (t == this)
+                        throw new java.lang.IllegalArgumentException(SELF_SUPPRESSION_MESSAGE);
+                    suppList.add(t);
+                }
+                // If there are any invalid suppressed exceptions,
+                // implicitly use the sentinel value assigned earlier.
+                suppressedExceptions = suppList;
+            }
+        } else {
+            suppressedExceptions = null;
+        }
+
+        /*
+         * For zero-length stack traces, use a clone of
+         * UNASSIGNED_STACK rather than UNASSIGNED_STACK itself to
+         * allow identity comparison against UNASSIGNED_STACK in
+         * getOurStackTrace.  The identity of UNASSIGNED_STACK in
+         * stackTrace indicates to the getOurStackTrace method that
+         * the stackTrace needs to be constructed from the information
+         * in backtrace.
+         */
+        if (candidateStackTrace != null) {
+            // Work from a clone of the candidateStackTrace to ensure
+            // consistency of checks.
+            candidateStackTrace = candidateStackTrace.clone();
+            if (candidateStackTrace.length >= 1) {
+                if (candidateStackTrace.length == 1 &&
+                        // Check for the marker of an immutable stack trace
+                        java.lang.Throwable.SentinelHolder.STACK_TRACE_ELEMENT_SENTINEL.equals(candidateStackTrace[0])) {
+                    stackTrace = null;
+                } else { // Verify stack trace elements are non-null.
+                    for (StackTraceElement ste : candidateStackTrace) {
+                        Objects.requireNonNull(ste, "null StackTraceElement in serial stream.");
+                    }
+                    stackTrace = candidateStackTrace;
+                }
+            }
+        }
+        // A null stackTrace field in the serial form can result from
+        // an exception serialized without that field in older JDK
+        // releases; treat such exceptions as having empty stack
+        // traces by leaving stackTrace assigned to a clone of
+        // UNASSIGNED_STACK.
+    }
+
+    private int validateSuppressedExceptionsList(List<java.lang.Throwable> deserSuppressedExceptions)
+            throws IOException {
+        if (!java.lang.Object.class.getModule().
+                equals(deserSuppressedExceptions.getClass().getModule())) {
+            throw new StreamCorruptedException("List implementation not in base module.");
+        } else {
+            int size = deserSuppressedExceptions.size();
+            if (size < 0) {
+                throw new StreamCorruptedException("Negative list size reported.");
+            }
+            return size;
+        }
+    }
+
+    /**
+     * Write a {@code Throwable} object to a stream.
+     *
+     * A {@code null} stack trace field is represented in the serial
+     * form as a one-element array whose element is equal to {@code
+     * new StackTraceElement("", "", null, Integer.MIN_VALUE)}.
+     *
+     * @param  s the {@code ObjectOutputStream} to which data is written
+     * @throws IOException if an I/O error occurs
+     */
+    @java.io.Serial
+    private synchronized void writeObject(ObjectOutputStream s)
+            throws IOException {
+        // Ensure that the stackTrace field is initialized to a
+        // non-null value, if appropriate.  As of JDK 7, a null stack
+        // trace field is a valid value indicating the stack trace
+        // should not be set.
+        getOurStackTrace();
+
+        StackTraceElement[] oldStackTrace = stackTrace;
+        try {
+            if (stackTrace == null)
+                stackTrace = java.lang.Throwable.SentinelHolder.STACK_TRACE_SENTINEL;
+            s.defaultWriteObject();
+        } finally {
+            stackTrace = oldStackTrace;
+        }
+    }
+
+    /**
+     * Appends the specified exception to the exceptions that were
+     * suppressed in order to deliver this exception. This method is
+     * thread-safe and typically called (automatically and implicitly)
+     * by the {@code try}-with-resources statement.
+     *
+     * <p>The suppression behavior is enabled <em>unless</em> disabled
+     * {@linkplain #Throwable(String, java.lang.Throwable, boolean, boolean) via
+     * a constructor}.  When suppression is disabled, this method does
+     * nothing other than to validate its argument.
+     *
+     * <p>Note that when one exception {@linkplain
+     * #initCause(java.lang.Throwable) causes} another exception, the first
+     * exception is usually caught and then the second exception is
+     * thrown in response.  In other words, there is a causal
+     * connection between the two exceptions.
+     *
+     * In contrast, there are situations where two independent
+     * exceptions can be thrown in sibling code blocks, in particular
+     * in the {@code try} block of a {@code try}-with-resources
+     * statement and the compiler-generated {@code finally} block
+     * which closes the resource.
+     *
+     * In these situations, only one of the thrown exceptions can be
+     * propagated.  In the {@code try}-with-resources statement, when
+     * there are two such exceptions, the exception originating from
+     * the {@code try} block is propagated and the exception from the
+     * {@code finally} block is added to the list of exceptions
+     * suppressed by the exception from the {@code try} block.  As an
+     * exception unwinds the stack, it can accumulate multiple
+     * suppressed exceptions.
+     *
+     * <p>An exception may have suppressed exceptions while also being
+     * caused by another exception.  Whether or not an exception has a
+     * cause is semantically known at the time of its creation, unlike
+     * whether or not an exception will suppress other exceptions
+     * which is typically only determined after an exception is
+     * thrown.
+     *
+     * <p>Note that programmer written code is also able to take
+     * advantage of calling this method in situations where there are
+     * multiple sibling exceptions and only one can be propagated.
+     *
+     * @param exception the exception to be added to the list of
+     *        suppressed exceptions
+     * @throws java.lang.IllegalArgumentException if {@code exception} is this
+     *         throwable; a throwable cannot suppress itself.
+     * @throws NullPointerException if {@code exception} is {@code null}
+     * @since 1.7
+     */
+    public final synchronized void addSuppressed(java.lang.Throwable exception) {
+        if (exception == this)
+            throw new java.lang.IllegalArgumentException(SELF_SUPPRESSION_MESSAGE, exception);
+
+        Objects.requireNonNull(exception, NULL_CAUSE_MESSAGE);
+
+        if (suppressedExceptions == null) // Suppressed exceptions not recorded
+            return;
+
+        if (suppressedExceptions == SUPPRESSED_SENTINEL)
+            suppressedExceptions = new ArrayList<>(1);
+
+        suppressedExceptions.add(exception);
+    }
+
+    private static final java.lang.Throwable[] EMPTY_THROWABLE_ARRAY = new java.lang.Throwable[0];
+
+    /**
+     * Returns an array containing all of the exceptions that were
+     * suppressed, typically by the {@code try}-with-resources
+     * statement, in order to deliver this exception.
+     *
+     * If no exceptions were suppressed or {@linkplain
+     * #Throwable(String, java.lang.Throwable, boolean, boolean) suppression is
+     * disabled}, an empty array is returned.  This method is
+     * thread-safe.  Writes to the returned array do not affect future
+     * calls to this method.
+     *
+     * @return an array containing all of the exceptions that were
+     *         suppressed to deliver this exception.
+     * @since 1.7
+     */
+    public final synchronized java.lang.Throwable[] getSuppressed() {
+        if (suppressedExceptions == SUPPRESSED_SENTINEL ||
+                suppressedExceptions == null)
+            return EMPTY_THROWABLE_ARRAY;
+        else
+            return suppressedExceptions.toArray(EMPTY_THROWABLE_ARRAY);
     }
 }
