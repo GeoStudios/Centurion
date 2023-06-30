@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/Centurion.png" width="250">
+<img src="https://raw.githubusercontent.com/GeoStudios/ContentStorage/main/Projects/Centurion/Logo.png" width="750">
 </div>
 
 -----------------
