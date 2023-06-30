@@ -21,47 +21,5 @@
 
 package java.core.main.util;
 
-import java.core.main.lang.Override;
-import java.core.jdk.internal.vm.annotation.Stable;
-
-final class KeyValueHolder<K,V> implements Map.Entry<K,V> {
-    @Stable
-    final K key;
-    @Stable
-    final V value;
-
-    KeyValueHolder(K k, V v) {
-        key = Objects.requireNonNull(k);
-        value = Objects.requireNonNull(v);
-    }
-
-    @Override
-    public K getKey() {
-        return key;
-    }
-
-    @Override
-    public V getValue() {
-        return value;
-    }
-
-    @Override
-    public V setValue(V newValue) {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        return o instanceof java.util.Map.Entry<?, ?> e && key.equals(e.getKey()) && value.equals(e.getValue());
-    }
-
-    @Override
-    public int hashCode() {
-        return key.hashCode() ^ value.hashCode();
-    }
-
-    @Override
-    public String toString() {
-        return key + "=" + value;
-    }
+final class KeyValueHolder<K,V>  {
 }

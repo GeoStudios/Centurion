@@ -108,14 +108,14 @@ import java.core.main.lang.Object;
  * backing collection to store the actual elements. Operations that are not handled
  * by the view collection itself are delegated to the backing collection. Examples of
  * view collections include the wrapper collections returned by methods such as
- * {@link java.util.Collections#checkedCollection Collections.checkedCollection},
- * {@link java.util.Collections Collections.synchronizedCollection}, and
- * {@link java.util.Collections#unmodifiableCollection Collections.unmodifiableCollection}.
+ * {@link Collections#checkedCollection Collections.checkedCollection},
+ * {@link Collections Collections.synchronizedCollection}, and
+ * {@link Collections#unmodifiableCollection Collections.unmodifiableCollection}.
  * Other examples of view collections include collections that provide a
  * different representation of the same elements, for example, as
- * provided by {@link java.util.List#subList List.subList},
- * {@link java.util.NavigableSet#subSet NavigableSet.subSet}, or
- * {@link java.util.Map#entrySet Map.entrySet}.
+ * provided by {@link List#subList List.subList},
+ * {@link NavigableSet#subSet NavigableSet.subSet}, or
+ * {@link Map#entrySet Map.entrySet}.
  * Any changes made to the backing collection are visible in the view collection.
  * Correspondingly, any changes made to the view collection &mdash; if changes
  * are permitted &mdash; are written through to the backing collection.
@@ -170,8 +170,8 @@ import java.core.main.lang.Object;
  * an internal collection, while preventing them from modifying such
  * collections unexpectedly. Examples of unmodifiable view collections
  * are those returned by the
- * {@link java.util.Collections#unmodifiableCollection Collections.unmodifiableCollection},
- * {@link java.util.Collections#unmodifiableList Collections.unmodifiableList}, and
+ * {@link Collections#unmodifiableCollection Collections.unmodifiableCollection},
+ * {@link Collections#unmodifiableList Collections.unmodifiableList}, and
  * related methods.
  *
  * <p>Note that changes to the backing collection might still be possible,

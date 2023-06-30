@@ -43,7 +43,7 @@ import java.core.main.util.Objects;
  *
  * <p> Methods in this class never throw I/O exceptions, although some of its
  * constructors may.  The client may inquire as to whether any errors have
- * occurred by invoking {@link #checkError checkError()}.
+ * occurred by invoking {@link()}.
  *
  * <p> This class always replaces malformed and unmappable character sequences with
  * the charset's default replacement string.

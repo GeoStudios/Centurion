@@ -22,6 +22,11 @@
 package java.core.main.io;
 
 
+import java.core.main.lang.annotation.ElementType;
+import java.core.main.lang.annotation.Retention;
+import java.core.main.lang.annotation.RetentionPolicy;
+import java.core.main.lang.annotation.Target;
+
 /**
  * Indicates that an annotated field or method is part of the {@linkplain Serializable serialization mechanism}
  * defined by the <a href="{@docRoot}/../specs/serialization/output.html"><cite>Java Object Serialization Specification</cite></a>.
@@ -78,6 +83,6 @@ package java.core.main.io;
  * @since Alpha CDK 0.2
  */
 
-@java.lang.annotation.Target({java.lang.annotation.ElementType.METHOD, java.lang.annotation.ElementType.FIELD})
-@java.lang.annotation.Retention(java.lang.annotation.RetentionPolicy.SOURCE)
+@Target({ElementType.METHOD, ElementType.FIELD})
+@Retention(RetentionPolicy.SOURCE)
 public @interface Serial {}

@@ -21,5 +21,12 @@
 
 package java.core.main.io;
 
+/**
+ * Flushable is a designation of data that can be flushed. The flush method is invoked to
+ * write any buffered output to the underlying stream.
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
 public interface Flushable {
 }

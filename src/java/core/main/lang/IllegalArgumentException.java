@@ -44,7 +44,7 @@ public class IllegalArgumentException extends RuntimeException {
      * Constructs an {@code IllegalArgumentException} with the
      * specified detail message.
      *
-     * @param   s   the detail message.
+     * @param s the detail message.
      */
     public IllegalArgumentException(String s) {
         super(s);

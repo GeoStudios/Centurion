@@ -24,5 +24,5 @@ package java.core.main.util;
 import java.core.main.lang.FunctionalInterface;
 
 @FunctionalInterface
-public interface Comparator<T>
+public interface Comparator<T> {
 }

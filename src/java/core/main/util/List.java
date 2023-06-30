@@ -158,7 +158,7 @@ public interface List<E> extends Collection<E> {
      *         list does not permit null elements
      * (<a href="Collection.html#optional-restrictions">optional</a>)
      */
-    boolean contains(java.lang.Object o);
+    boolean contains(Object o);
 
     /**
      * Returns an iterator over the elements in this list in proper sequence.
@@ -181,7 +181,7 @@ public interface List<E> extends Collection<E> {
      *
      * @return an array containing all of the elements in this list in proper
      *         sequence
-     * @see java.util.Arrays#asList(java.lang.Object[])
+     * @see Arrays(Object[])
      */
     java.lang.Object[] toArray();
 
@@ -241,7 +241,7 @@ public interface List<E> extends Collection<E> {
      * on what elements may be added.
      *
      * @param e element to be appended to this list
-     * @return {@code true} (as specified by {@link java.util.Collection#add})
+     * @return {@code true} (as specified by {@link Collection})
      * @throws UnsupportedOperationException if the {@code add} operation
      *         is not supported by this list
      * @throws ClassCastException if the class of the specified element
@@ -295,9 +295,9 @@ public interface List<E> extends Collection<E> {
      *         elements
      *         (<a href="Collection.html#optional-restrictions">optional</a>),
      *         or if the specified collection is null
-     * @see #contains(java.lang.Object)
+     * @see (Object)
      */
-    boolean containsAll(java.util.Collection<?> c);
+    boolean containsAll(Collection<?> c);
 
     /**
      * Appends all of the elements in the specified collection to the end of
@@ -318,9 +318,9 @@ public interface List<E> extends Collection<E> {
      *         elements, or if the specified collection is null
      * @throws IllegalArgumentException if some property of an element of the
      *         specified collection prevents it from being added to this list
-     * @see #add(java.lang.Object)
+     * @see (Object)
      */
-    boolean addAll(java.util.Collection<? extends E> c);
+    boolean addAll(Collection<? extends E> c);
 
     /**
      * Inserts all of the elements in the specified collection into this
@@ -349,7 +349,7 @@ public interface List<E> extends Collection<E> {
      * @throws IndexOutOfBoundsException if the index is out of range
      *         ({@code index < 0 || index > size()})
      */
-    boolean addAll(int index, java.util.Collection<? extends E> c);
+    boolean addAll(int index, Collection<? extends E> c);
 
     /**
      * Removes from this list all of its elements that are contained in the
@@ -366,10 +366,10 @@ public interface List<E> extends Collection<E> {
      *         specified collection does not permit null elements
      *         (<a href="Collection.html#optional-restrictions">optional</a>),
      *         or if the specified collection is null
-     * @see #remove(java.lang.Object)
-     * @see #contains(java.lang.Object)
+     * @see (Object)
+     * @see #contains(Object)
      */
-    boolean removeAll(java.util.Collection<?> c);
+    boolean removeAll(Collection<?> c);
 
     /**
      * Retains only the elements in this list that are contained in the
@@ -388,8 +388,8 @@ public interface List<E> extends Collection<E> {
      *         specified collection does not permit null elements
      *         (<a href="Collection.html#optional-restrictions">optional</a>),
      *         or if the specified collection is null
-     * @see #remove(java.lang.Object)
-     * @see #contains(java.lang.Object)
+     * @see (Object)
+     * @see (Object)
      */
-    boolean retainAll(java.util.Collection<?> c);
+    boolean retainAll(Collection<?> c);
 }

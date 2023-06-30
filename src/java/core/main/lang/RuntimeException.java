@@ -95,6 +95,4 @@ public class RuntimeException extends Exception {
     protected RuntimeException(String message, java.core.main.lang.Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
-
-
 }

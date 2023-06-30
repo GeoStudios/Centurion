@@ -21,6 +21,7 @@
 
 package java.core.main.lang;
 
+import java.core.main.io.Serial;
 import java.core.main.io.Serializable;
 
 /**
@@ -88,4 +89,20 @@ import java.core.main.io.Serializable;
  */
 
 public class Throwable implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = -3042686055658047285L;
+
+    /**
+     * JVM saves some indication of the stack backtrace in this slot.
+     */
+    private transient Object backtrace;
+
+    /**
+     * Specific details about the Throwable. For example, for FileNotFoundException, this contains the
+     * name of the file that could not be found.
+     */
+    private String detailMessage;
+
+    /**
 }

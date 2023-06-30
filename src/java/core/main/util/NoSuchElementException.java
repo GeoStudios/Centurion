@@ -29,7 +29,7 @@ import java.core.main.lang.RuntimeException;
  * does not exist.
  *
  * @see java.util.Enumeration#nextElement()
- * @see java.core.main.util.Iterator#next()
+ * @see Iterator#next()
  * @since Alpha CDK 0.2
  * @author Logan Abernathy
  */

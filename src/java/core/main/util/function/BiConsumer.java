@@ -24,7 +24,8 @@ package java.core.main.util.function;
 import java.core.main.lang.FunctionalInterface;
 
 @FunctionalInterface
-public interface BiConsumer <T, U>{
+public interface
+BiConsumer <T, U>{
 
     void accept(T t, U u);
 
