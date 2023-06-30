@@ -19,7 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+public class ObjectInputStream extends InputStream {
+
+    /** handle value representing null */
+    private static final int NULL_HANDLE = -1;
+
+    /** marker for unshared objects in internal handle table */
+    private static final Object unsharedMarker = new Object();
 }

@@ -19,7 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
+/**
+ * Object is the root of the class hierarchy. Ever class has Object as a superclass. ALl objects,
+ * including arrays, implement the methods of this class.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+public class Object {
+
+    /** Constructs a new object */
+    public Object() {}
 }

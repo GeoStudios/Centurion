@@ -31,39 +31,4 @@ public class InternalLock {
             CAN_USE_INTERNAL_LOCKl = true;
         }
     }
-
-    private final ReentrantLock lock;
-
-    private InternalLock() {
-        this.lock = new ReentrantLock();
-    }
-
-    /** Returns a new Internallock or null. */
-    public static InternalLock newInternalLock() {
-        return (CAN_USE_INTERNAL_LOCK) ? new jdk.internal.misc.InternalLock() : null;
-    }
-
-    /**
-     * Returns a new InternalLock or the given object.
-     */
-    public static Object newLockOr(Object obj) {
-        return (CAN_USE_INTERNAL_LOCK) ? new jdk.internal.misc.InternalLock() : obj;
-    }
-
-    public boolean tryLock() {
-        return lock.tryLock();
-    }
-
-    public void lock() {
-        lock.lock();
-    }
-
-    public void unlock() {
-        lock.unlock();
-    }
-
-    public boolean isHeldByCurrentThread() {
-        return lock.isHeldByCurrentThread();
-    }
-
 }

@@ -19,7 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.util.function;
 
-public class SharedSecrets {
+import java.core.main.lang.FunctionalInterface;
+
+@FunctionalInterface
+public interface BiFunction<T, U, R> {
+
+    R apply(T t, U u);
+
+    default <V> BiFunction<T, U, V> andThen(Function<? super R, ? extends V> after) {
+        return (T t, U u) -> after.apply(apply(t, u));
+    }
 }

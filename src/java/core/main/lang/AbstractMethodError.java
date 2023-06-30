@@ -19,7 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
+import java.core.main.io.Serial;
+
+/**
+ * Thrown when an application tries to call an abstract method. Normally, this error
+ * is caught by the compiler. However, this error can occur at runtime if the definition
+ * of a class has changed in an incompatible way since the currently executing method
+ * was last compiled.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+public class AbstractMethodError {
+    @Serial
+    private static final long serialVersionUID = -1654391082989018462L;
 }

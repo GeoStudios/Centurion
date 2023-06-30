@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+/**
+ * This abstract class provides a foundation for reading character streams.
+ * Subclasses are required to implement the read(char[], int, int) and close()
+ * methods, while also having the flexibility to override other methods defined
+ * in this class. This allows subclasses to enhance efficiency, add additional
+ * functionality, or achieve a combination of both. Such design enables greater
+ * customization and optimization possibilities, allowing subclasses to tailor
+ * their behavior according to specific requirements and maximize overall performance.
+ *
+ * @see java.core.main.io.BufferedReader
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
+
+public abstract class Reader {
 }

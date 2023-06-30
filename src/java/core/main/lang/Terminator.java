@@ -19,7 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
+/**
+ * Utility class used for setting up and tearing down platform-specific
+ * support for termination-triggered shutdowns. This class has package-private
+ * access and is intended for internal use only.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+class Terminator {
 }

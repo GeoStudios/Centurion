@@ -19,7 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+/**
+ * This code represents an abstract class specifically designed for writing filtered character streams.
+ * The abstract class, called {@code FilterWriter}, provides default methods that efficiently pass along
+ * all requests to the underlying stream. It is expected that subclasses of {@code FilterWriter} will
+ * override specific methods as necessary and potentially introduce additional methods and fields to
+ * enhance functionality.
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
+
+public abstract class FilterWriter extends Writer {
+
+    /** The underlying char-output stream. */
+    protected Writer out;
 }

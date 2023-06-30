@@ -19,7 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+public class StreamCorruptedException extends ObjectOutputStream {
+
+    @Serial
+    static final long serialVersionUID = 8983558208146090155L;
 }

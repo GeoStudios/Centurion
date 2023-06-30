@@ -82,10 +82,10 @@ package java.core.jdk.internal.vm.annotation;
  * @author Logan Abernathy
  */
 
-import java.core.java.lang.annotation.ElementType;
-import java.core.java.lang.annotation.Retention;
-import java.core.java.lang.annotation.RetentionPolicy;
-import java.core.java.lang.annotation.Target;
+import java.core.main.lang.annotation.ElementType;
+import java.core.main.lang.annotation.Retention;
+import java.core.main.lang.annotation.RetentionPolicy;
+import java.core.main.lang.annotation.Target;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

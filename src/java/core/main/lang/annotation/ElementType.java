@@ -19,7 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang.annotation;
 
-public class SharedSecrets {
+public enum ElementType {
+    TYPE,
+    FIELD,
+    METHOD,
+    PARAMETER,
+    CONSTRUCTOR,
+    LOCAL_VARIABLE,
+    ANNOTATION_TYPE,
+    PACKAGE,
+    TYPE_PARAMETER,
+    TYPE_USE,
+    MODULE,
+    RECORD_COMPONENT
 }

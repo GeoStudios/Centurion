@@ -19,7 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
-}
+/**
+ * Indicates that a method declaration is intended to override a method declaration
+ * in a supertype. Compilers are required to generate an error message if a method
+ * annotated with this annotation type does not meet at least one of the following
+ * conditions:
+ *
+ * <ul>
+ *   <li>The method overrides or implements a method declared in a supertype.</li>
+ *   <li>The method has a signature that is override-equivalent to that of any public
+ *       method declared in {@linkplain Object}.</li>
+ * </ul>
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+import java.core.main.lang.annotation.*;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.SOURCE)
+public @interface Override {}

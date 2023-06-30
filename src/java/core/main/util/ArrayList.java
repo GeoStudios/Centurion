@@ -19,7 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.util;
 
-public class SharedSecrets {
+import java.core.main.io.Serializable;
+
+public class ArrayList<E> implements Serializable {
+
 }

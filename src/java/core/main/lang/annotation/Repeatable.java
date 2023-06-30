@@ -19,7 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang.annotation;
 
-public class SharedSecrets {
+/**
+ * The annotation interface {@code java.core.java.lang.annotation.Repeatable} is
+ * used to indicate that the annotation interface whose declaration it
+ * (meta-)annotates is <em>repeatable</em>. The value of
+ * {@code @Repeatable} indicates the <em>containing annotation
+ * interface</em> for the repeatable annotation interface.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.ANNOTATION_TYPE)
+public @interface Repeatable {
+    /**
+     * Indicates the <em>containing annotation interface</em> for the
+     * repeatable annotation interface.
+     * @return the containing annotation interface
+     */
+    Class<? extends Annotation> value();
 }
