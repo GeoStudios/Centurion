@@ -19,7 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+/**
+ * This interface provides for
+ * changing data from any of the Java
+ * primitive types to a series of bytes
+ * and writing these bytes to a binary
+ * stream.
+ * 
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.1
+ */
+
+public interface DataOutput {
 }

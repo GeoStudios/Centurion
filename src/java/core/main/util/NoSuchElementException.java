@@ -19,7 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.util;
 
-public class SharedSecrets {
+import java.core.main.io.Serial;
+import java.core.main.lang.RuntimeException;
+
+/**
+ * Thrown by various accessor methods to indicate that the element being requested
+ * does not exist.
+ *
+ * @see java.util.Enumeration#nextElement()
+ * @see java.core.main.util.Iterator#next()
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+public class NoSuchElementException extends RuntimeException {
+    @Serial
+    private static final long serialVersionUID = 6769829250639411880L;
+
+    /**
+     * Constructs a {@code NoSuchElementException} with {@code null}
+     * as its error message string.
+     */
+    public NoSuchElementException() {
+        super();
+    }
 }

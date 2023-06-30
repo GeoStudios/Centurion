@@ -19,7 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+/**
+ * This abstract class is the superclass of all classes representing
+ * an input stream of bytes.
+ *
+ * <p>Applications that need to define a subclass of {@code InputStream}
+ * must always provide a method that returns the next byte of input.
+ *
+ * @author Logan Abernathy
+ * @since Alpha CDK 0.2
+ */
+
+public abstract class InputStream {
+
+    // MAX_SKIP_BUFFER_SIZE is used to determine the maximum buffer size to
+    // use when skipping.
+    private static final int MAX_SKIP_BUFFER_SIZE = 2048;
+
+    private static final int DEFAULT_BUFFER_SIZE = 8192;
+
+    /**
+     * Construnctor for subclasses to call.
+     */
+    public InputStream() {}
+
+    public static InputStream nullImputStream() {
+        return new InputStream() {
+            private volatile boolean closed;
+        };
+    }
 }

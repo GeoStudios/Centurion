@@ -19,7 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+/**
+ * This is an abstract class designed for writing to character streams.
+ * Subclasses are expected to implement the required methods: write(char[], int, int),
+ * flush(), and close(). Additional methods can be overridden to improve efficiency
+ * and provide extra functionality if needed.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+public abstract class Writer implements Flushable {
+    /**
+     * Temporary buffer used to hold writes of strings and single characters
+     */
+    private char[] writeBuffer;
+
+    /**
+     * Size of writeBuffer, must be >= 1
+     */
+    private static final int WRITE_BUFFER_SIZE = 1024;
+
+    public static Writer nullWriter() {
+        return new Writer() {
+            private volatile boolean closed;
+        };
+    }
 }

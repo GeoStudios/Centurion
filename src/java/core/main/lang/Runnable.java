@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
+/**
+ * Represents an operation that does not return a result.
+ *
+ * <p> This is a {@linkplain java.util.function functional interface}
+ * whose functional method is {@link #run()}.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+@FunctionalInterface
+public interface Runnable {
+    /**
+     * Performs this operation.
+     */
+    void run();
 }

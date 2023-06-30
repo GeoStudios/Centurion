@@ -21,7 +21,7 @@
 
 package java.core.jdk.internal.access;
 
-import java.core.java.io.PrintWriter;
+import java.core.main.io.PrintWriter;
 
 public interface JavaIOPrintWriterAccess {
     Object lock(PrintWriter pw);

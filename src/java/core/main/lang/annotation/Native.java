@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang.annotation;
 
-public class SharedSecrets {
+/**
+ * Indicates that a field defining a constant value may be referenced
+ * from native code.
+ *
+ * The annotation may be used as a hint by tools that generate native
+ * header files to determine whether a header file is required, and
+ * if so, what declarations it should contain.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+@Documented
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.SOURCE)
+public @interface Native {
 }

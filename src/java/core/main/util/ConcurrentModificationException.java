@@ -19,7 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.util;
 
-public class SharedSecrets {
+import java.core.main.io.Serial;
+
+public class ConcurrentModificationException extends RuntimeException {
+
+    @Serial
+    private static final long serialVersionUID = -3666751008965953603L;
+
+    public ConcurrentModificationException() {
+    }
+
+    public ConcurrentModificationException(String message) {
+        super(message);
+    }
+
+    public ConcurrentModificationException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public ConcurrentModificationException(Throwable cause) {
+        super(cause);
+    }
 }

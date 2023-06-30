@@ -19,7 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+public class BufferedReader extends Reader {
+    private static final int INVALIDATED = -2;
+    private static final int UNMARKED = -1;
+    private final int markedChar = UNMARKED;
+    private final int readAheadLimit = 0;
+
+    /** If the next character is a line feed, skip it. */
+    private final boolean skipLF = false;
+
+    /** The skipLF flag when the mark was set */
+    private final boolean markedSkipLF = false;
+
+    private static final int defaultCharBufferSize = 8192;
+    private static final int defaultExpectedLineLength = 80;
 }

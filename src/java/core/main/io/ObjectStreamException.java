@@ -19,7 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.io;
 
-public class SharedSecrets {
+public abstract class ObjectStreamException extends IOException {
+
+    @Serial
+    private static final long serialVersionUID = 7260898174833392607L;
+
+    /**
+     * Create an ObjectStreamException with the specified argument.
+     *
+     * @param message the detailed message for the exception
+     */
+    protected ObjectStreamException(String message) {
+        super(message);
+    }
 }

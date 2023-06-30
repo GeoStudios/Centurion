@@ -21,8 +21,8 @@
 
 package java.core.jdk.internal.function;
 
-import java.core.java.lang.FunctionalInterface;
-import java.core.java.util.Objects;
+import java.core.main.lang.FunctionalInterface;
+import java.core.main.util.Objects;
 
 @FunctionalInterface
 public interface Consumer<T> {
@@ -32,21 +32,4 @@ public interface Consumer<T> {
      * @param t the input argument
      */
     void accept(T t);
-
-    /**
-     * Returns a composed {@code Consumer} that performs, in sequence, this
-     * operation followed by the {@code after} operation. If performing either
-     * operation throws an exception, it is relayed to the caller of the
-     * composed operation.  If performing this operation throws an exception,
-     * the {@code after} operation will not be performed.
-     *
-     * @param after the operation to perform after this operation
-     * @return a composed {@code Consumer} that performs in sequence this
-     * operation followed by the {@code after} operation
-     * @throws NullPointerException if {@code after} is null
-     */
-    default Consumer<T> andThen(Consumer<? super T> after) {
-        Objects.requireNonNull(after);
-        return (T t) -> { accept(t); after.accept(t); };
-    }
 }

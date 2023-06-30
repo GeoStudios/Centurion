@@ -19,7 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.util.function;
 
-public class SharedSecrets {
+import java.core.main.lang.FunctionalInterface;
+
+@FunctionalInterface
+public interface BiConsumer <T, U>{
+
+    void accept(T t, U u);
+
+    default BiConsumer<T, U> andThen(BiConsumer<? super T, ? super U> after) {
+        return (T t, U u) -> { accept(t, u); after.accept(t, u); };
+    }
 }

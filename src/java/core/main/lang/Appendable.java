@@ -19,7 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.jdk.internal.access;
+package java.core.main.lang;
 
-public class SharedSecrets {
+import java.core.main.io.IOException;
+
+/**
+ * An object to which {@code char} sequences and values can be appended.  The
+ * {@code Appendable} interface must be implemented by any class whose
+ * instances are intended to receive formatted output from a {@link
+ * java.core.main.util.Formatter}.
+ *
+ * <p> The characters to be appended should be valid Unicode characters as
+ * described in <a href="Character.html#unicode">Unicode Character
+ * Representation</a>.  Note that supplementary characters may be composed of
+ * multiple 16-bit {@code char} values.
+ *
+ * <p> Appendables are not necessarily safe for multithreaded access.  Thread
+ * safety is the responsibility of classes that extend and implement this
+ * interface.
+ *
+ * <p> Since this interface may be implemented by existing classes
+ * with different styles of error handling there is no guarantee that
+ * errors will be propagated to the invoker.
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+
+public interface Appendable {
 }
