@@ -56,7 +56,7 @@ public class ArrayByteOutputStream extends Reader {
      * the specified size, in bytes.
      *
      * @param   size   the initial size.
-     * @exception  IllegalArgumentException if size is negative.
+     * @exception IllegalArgumentException if size is negative.
      */
 
     public ArrayByteOutputStream(int size) {
