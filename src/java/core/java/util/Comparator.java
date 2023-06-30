@@ -19,27 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.lang.annotation;
+package java.core.java.util;
 
-/**
- * The annotation interface {@code java.core.java.lang.annotation.Repeatable} is
- * used to indicate that the annotation interface whose declaration it
- * (meta-)annotates is <em>repeatable</em>. The value of
- * {@code @Repeatable} indicates the <em>containing annotation
- * interface</em> for the repeatable annotation interface.
- *
- * @since Alpha CDK 0.2
- * @author Logan Abernathy
- */
+import java.core.java.io.Serializable;
+import java.core.java.lang.FunctionalInterface;
 
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.ANNOTATION_TYPE)
-public @interface Repeatable {
-    /**
-     * Indicates the <em>containing annotation interface</em> for the
-     * repeatable annotation interface.
-     * @return the containing annotation interface
-     */
-    Class<? extends Annotation> value();
+@FunctionalInterface
+public interface Comparator<T> {
+
+    int compare(T o1, T o2);
+
+    boolean equals(Object obj);
+
+    default Comparator<T> reversed() {
+        return Collections.reverseOrder(this);
+    }
+
+    default Comparator<T> thenComparing(Comparator<? super T> other) {
+        Objects.requireNonNull(other);
+        return (Comparator<T> & Serializable) (c1, c2) -> {
+            int res = compare(c1, c2);
+            return (res != 0) ? res : other.compare(c1, c2);
+        };
+    }
+
+    default <U> Comparator<T> thenComparing(Function<? super T, ? extends U> keyExtractor, Comparator<? super U> keyComparator) {
+        return thenComparing(comparing(keyExtractor, keyComparator));
+    }
 }

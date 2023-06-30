@@ -21,9 +21,6 @@
 
 package java.core.java.io;
 
-import java.io.EOFException;
-import java.io.IOException;
-
 /**
  * The {@code DataInput} interface provides
  * for reading bytes from a binary stream and

@@ -21,8 +21,6 @@
 
 package java.core.java.util;
 
-import java.core.java.util.List;
-
 public class Objects {
     private Objects() {
         throw new AssertionError("No java.core.java.util.Objects instances for you!");

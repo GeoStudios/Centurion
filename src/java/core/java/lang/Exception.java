@@ -58,7 +58,7 @@ public class Exception extends Throwable {
      *          later retrieval by the method.
      */
     public Exception(String message) {
-        super();
+        super(message);
     }
 
     /**
@@ -75,7 +75,7 @@ public class Exception extends Throwable {
      *         unknown.)
      */
     public Exception(String message, Throwable cause) {
-        super();
+        super(message, cause);
     }
 
     /**
@@ -92,7 +92,7 @@ public class Exception extends Throwable {
      *         unknown.)
      */
     public Exception(Throwable cause) {
-        super();
+        super(cause);
     }
 
     /**
@@ -109,6 +109,6 @@ public class Exception extends Throwable {
      *                           be writable
      */
     protected Exception(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super();
+        super(message, cause, enableSuppression, writableStackTrace);
     }
 }

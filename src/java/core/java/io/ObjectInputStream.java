@@ -21,13 +21,6 @@
 
 package java.core.java.io;
 
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetIntegerAction;
-
-import java.io.ObjectInputFilter;
-import java.lang.reflect.InvocationHandler;
-import java.util.Map;
-
 public class ObjectInputStream extends InputStream {
 
     /** handle value representing null */

@@ -75,7 +75,7 @@ public class RuntimeException extends Exception {
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */
-    public RuntimeException(java.core.java.lang.Throwable cause) {
+    public RuntimeException(Throwable cause) {
         super(cause);
     }
 
@@ -95,4 +95,6 @@ public class RuntimeException extends Exception {
     protected RuntimeException(String message, java.core.java.lang.Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
+
+
 }
