@@ -53,7 +53,7 @@ public interface Appendable {
      *
      * <p> Depending on which class implements the character sequence
      * {@code csq}, the entire sequence may not be appended.  For
-     * instance, if {@code csq} is a {@link java.core.java.nio.CharBuffer} then
+     * instance, if {@code csq} is a then
      * the subsequence to append is defined by the buffer's position and limit.
      *
      * @param  csq

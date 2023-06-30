@@ -19,7 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.io;
+package java.core.jdk.internal.access;
 
-public class File implements Serializable {
+import java.core.java.io.PrintWriter;
+
+public interface JavaIOPrintWriterAccess {
+    Object lock(PrintWriter pw);
 }

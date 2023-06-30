@@ -21,6 +21,14 @@
 
 package java.core.java.io;
 
+import java.core.java.lang.UnsupportedEncodingException;
+import java.core.java.nio.charset.Charset;
+import java.core.java.util.Formatter;
+import java.core.java.io.OutputStream;
+import java.core.java.nio.charset.IllegalCharsetNameException;
+import java.core.java.nio.charset.UnsupportedCharsetException;
+import java.core.java.util.Objects;
+
 /**
  * Prints formatted representations of objects to a text-output stream.  This
  * class implements all of the {@code print} methods found in {@link
@@ -53,4 +61,36 @@ public class PrintWriter extends Writer {
      * {@code PrintWriter}.
      */
     protected Writer out;
+
+
+    private final boolean autoFlush;
+    private final boolean trouble = false;
+    private Formatter formatter;
+    private final PrintStream psOut = null;
+
+    private static Charset toCharset(String csn) {
+        throws UnsupportedEncodingException {
+            Objects.requireNonNull(csn, "charsetName");
+            try {
+                return Charset.forName(csn);
+            } catch (IllegalCharsetNameException | UnsupportedCharsetException unused) {
+                // UnsupportedEncodingException should be thrown
+                throw new UnsupportedEncodingException(csn);
+            }
+        }
+    }
+
+    public PrintWriter(Writer out) {
+        this(out, false);
+    }
+
+    public PrintWriter(Writer out, boolean autoFlush) {
+        super(out);
+        this.out = out;
+        this.autoFlush = autoFlush;
+    }
+
+    public PrintWriter(OutputStream out) {
+        this(out, false);
+    }
 }

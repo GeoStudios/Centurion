@@ -27,6 +27,7 @@ import java.core.java.io.*;
 import java.core.java.util.*;
 import java.core.jdk.internal.access.SharedSecrets;
 import java.core.jdk.internal.misc.InternalLock;
+import java.core.jdk.internal.access.JavaIOPrintWriterAccess;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
@@ -655,7 +656,7 @@ public class Throwable implements Serializable {
             s.println("\tat " + traceElement);
 
         // Print suppressed exceptions, if any
-        for (java.core.java.lang.Throwable se : getSuppressed())
+        for (Throwable se : getSuppressed())
             se.printEnclosedStackTrace(s, trace, SUPPRESSED_CAPTION, "\t", dejaVu);
 
         // Print cause, if any
@@ -761,6 +762,22 @@ public class Throwable implements Serializable {
         }
 
         void println(java.lang.Object o) {
+            printWriter.println(o);
+        }
+    }
+
+    private static class WrappedPrintWriter extends Throwable.PrintStreamOrWriter {
+        private final PrintWriter printWriter;
+
+        WrappedPrintWriter(PrintWriter printWriter) {
+            this.printWriter = printWriter;
+        }
+
+        Object lock() {
+            return SharedSecrets.getJavaIOPrintWriterAccess().lock(printWriter);
+        }
+
+        void println(Object o) {
             printWriter.println(o);
         }
     }
@@ -906,13 +923,14 @@ public class Throwable implements Serializable {
         if (candidateSuppressedExceptions != null) {
             int suppressedSize = validateSuppressedExceptionsList(candidateSuppressedExceptions);
             if (suppressedSize > 0) { // Copy valid Throwables to new list
-                var suppList  = new ArrayList<Throwable>(Math.min(100, suppressedSize));
+                var suppList  = new java.util.ArrayList<Throwable>(Math.min(100, suppressedSize));
 
                 for (Throwable t : candidateSuppressedExceptions) {
                     // Enforce constraints on suppressed exceptions in
                     // case of corrupt or malicious stream.
-                    Objects.requireNonNull(t, NULL_CAUSE_MESSAGE);
-                    if (t == this) throw new IllegalArgumentException(SELF_SUPPRESSION_MESSAGE);
+                    java.util.Objects.requireNonNull(t, NULL_CAUSE_MESSAGE);
+                    if (t == this)
+                        throw new IllegalArgumentException(SELF_SUPPRESSION_MESSAGE);
                     suppList.add(t);
                 }
                 // If there are any invalid suppressed exceptions,
@@ -980,7 +998,11 @@ public class Throwable implements Serializable {
      * @throws IOException if an I/O error occurs
      */
     @Serial
-    private synchronized void writeObject(ObjectOutputStream s) throws IOException {
+    private synchronized void writeObject(ObjectOutputStream s) throws java.io.IOException {
+        // Ensure that the stackTrace field is initialized to a
+        // non-null value, if appropriate.  As of JDK 7, a null stack
+        // trace field is a valid value indicating the stack trace
+        // should not be set.
         getOurStackTrace();
 
         StackTraceElement[] oldStackTrace = stackTrace;
@@ -1057,7 +1079,7 @@ public class Throwable implements Serializable {
         suppressedExceptions.add(exception);
     }
 
-    private static final finalThrowable[] EMPTY_THROWABLE_ARRAY = newThrowable[0];
+    private static final Throwable[] EMPTY_THROWABLE_ARRAY = new Throwable[0];
 
     /**
      * Returns an array containing all of the exceptions that were
@@ -1072,9 +1094,8 @@ public class Throwable implements Serializable {
      *
      * @return an array containing all of the exceptions that were
      *         suppressed to deliver this exception.
-     * @since 1.7
      */
-    public final synchronizedThrowable[] getSuppressed() {
+    public final synchronized Throwable[] getSuppressed() {
         if (suppressedExceptions == SUPPRESSED_SENTINEL ||
                 suppressedExceptions == null)
             return EMPTY_THROWABLE_ARRAY;

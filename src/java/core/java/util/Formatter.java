@@ -19,7 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.io;
+package java.core.java.util;
 
-public class File implements Serializable {
+import java.core.java.io.Flushable;
+import java.text.DecimalFormatSymbols;
+
+public final class Formatter implements Flushable {
+    private static final DecimalFormatSymbols DFS = null;
 }

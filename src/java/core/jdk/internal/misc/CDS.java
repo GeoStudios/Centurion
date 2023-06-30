@@ -23,7 +23,6 @@ package java.core.jdk.internal.misc;
 
 import java.core.java.io.BufferedReader;
 import java.core.java.io.File;
-import java.core.java.io.InputStreamReader;
 import java.core.java.io.InputStream;
 import java.core.java.io.IOException;
 import java.core.java.io.PrintStream;
@@ -32,7 +31,6 @@ import java.core.java.util.ArrayList;
 import java.core.java.util.List;
 import java.core.java.util.Map;
 import java.core.java.util.Objects;
-import java.core.java.util.stream.Stream;
 
 public class CDS {
     private static final boolean isDumpingClassList;

@@ -19,7 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.java.io;
+package java.core.java.nio.charset;
 
-public class File implements Serializable {
+import java.core.java.lang.Comparable;
+
+public abstract class Charset implements Comparable<Charset> {
+    private static final String[] zeroAliases = new String[0];
+
+    private static volatile Object[] cache1; // "Level 1" cache
+    private static volatile Object[] cache2; // "Level 2" cache
+
+    private static void cache(String charsetName, Charset cs) {
+        cache2 = cache1;
+        cache1 = new Object[] { charsetName, cs };
+    }
 }
