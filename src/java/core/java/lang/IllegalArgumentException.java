@@ -65,7 +65,7 @@ public class IllegalArgumentException extends RuntimeException {
      *         is permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */
-    public IllegalArgumentException(String message, java.core.java.lang.Throwable cause) {
+    public IllegalArgumentException(String message, Throwable cause) {
         super(message, cause);
     }
 
@@ -78,11 +78,11 @@ public class IllegalArgumentException extends RuntimeException {
      * java.security.PrivilegedActionException}).
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link java.lang.Throwable#getCause()} method).  (A {@code null} value is
+     *         {@link Throwable#getCause()} method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */
-    public IllegalArgumentException(java.core.java.lang.Throwable cause) {
+    public IllegalArgumentException(Throwable cause) {
         super(cause);
     }
 
