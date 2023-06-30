@@ -1,4 +1,4 @@
-package map;
+package json.map;
 
 public class map {
     

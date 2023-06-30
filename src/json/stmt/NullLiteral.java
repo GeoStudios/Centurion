@@ -1,4 +1,4 @@
-package stmt;
+package json.stmt;
 
 public class NullLiteral extends Stmt {
 

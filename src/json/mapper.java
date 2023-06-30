@@ -1,16 +1,16 @@
 package json;
 
-import map.map;
-import stmt.Stmt;
-import stmt.Program;
-import stmt.Property;
-import stmt.ObjectLiteral;
-import stmt.ArrayLiteral;
-import stmt.BooleanLiteral;
-import stmt.IntLiteral;
-import stmt.FloatLiteral;
-import stmt.NullLiteral;
-import stmt.StringLiteral;
+import json.map.map;
+import json.stmt.Stmt;
+import json.stmt.Program;
+import json.stmt.Property;
+import json.stmt.ObjectLiteral;
+import json.stmt.ArrayLiteral;
+import json.stmt.BooleanLiteral;
+import json.stmt.IntLiteral;
+import json.stmt.FloatLiteral;
+import json.stmt.NullLiteral;
+import json.stmt.StringLiteral;
 
 public class mapper {
 
@@ -47,7 +47,7 @@ public class mapper {
             case "Int":
                 return ((IntLiteral) node).Value;
             case "Float":
-                return ((stmt.FloatLiteral) node).Value;
+                return ((FloatLiteral) node).Value;
             case "Boolean":
                 return ((BooleanLiteral) node).Value;
             case "Null":

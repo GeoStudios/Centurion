@@ -1,15 +1,15 @@
 package json;
 
-import stmt.Stmt;
-import stmt.Program;
-import stmt.Property;
-import stmt.ObjectLiteral;
-import stmt.ArrayLiteral;
-import stmt.BooleanLiteral;
-import stmt.IntLiteral;
-import stmt.FloatLiteral;
-import stmt.NullLiteral;
-import stmt.StringLiteral;
+import json.stmt.Stmt;
+import json.stmt.Program;
+import json.stmt.Property;
+import json.stmt.ObjectLiteral;
+import json.stmt.ArrayLiteral;
+import json.stmt.BooleanLiteral;
+import json.stmt.IntLiteral;
+import json.stmt.FloatLiteral;
+import json.stmt.NullLiteral;
+import json.stmt.StringLiteral;
 
 public class parser {
 
@@ -53,33 +53,33 @@ public class parser {
         this.pointer = 0;
     }
 
-    public stmt.Program Parse() {
-        return new stmt.Program("Program", this.ParseStmt());
+    public Program Parse() {
+        return new Program("Program", this.ParseStmt());
     }
 
-    private stmt.Stmt ParseStmt() {
+    private Stmt ParseStmt() {
         
         switch (this.at().Type) {
             case Int:
-                return new stmt.IntLiteral("Int", Integer.parseInt(this.next().Value));
+                return new IntLiteral("Int", Integer.parseInt(this.next().Value));
             case Float:
-                return new stmt.FloatLiteral("Float", Float.parseFloat(this.next().Value));
+                return new FloatLiteral("Float", Float.parseFloat(this.next().Value));
             case String:
-                return new stmt.StringLiteral("String", this.next().Value);
+                return new StringLiteral("String", this.next().Value);
             case Boolean:
                 boolean q = false;
                 if (this.next().Value.contains("true")) {
                     q = true;
                 }
-                return new stmt.BooleanLiteral("Boolean", q);
+                return new BooleanLiteral("Boolean", q);
             case Null:
                 this.next();
-                return new stmt.NullLiteral("Null");
+                return new NullLiteral("Null");
             case OpenBracket:
                 this.next();
-                stmt.Stmt[] elements = new stmt.Stmt[0];
+                Stmt[] elements = new Stmt[0];
                 while (this.at().Type != Types.ClosedBracket) {
-                    stmt.Stmt[] ne = new stmt.Stmt[elements.length+1];
+                    Stmt[] ne = new Stmt[elements.length+1];
                     for (int i = 0; i < elements.length; i++) {
                         ne[i] = elements[i];
                     }
@@ -92,10 +92,10 @@ public class parser {
                 this.expect(
                     Types.ClosedBracket,
                     "Expected Closing For Array");
-                return new stmt.ArrayLiteral("Array", elements);
+                return new ArrayLiteral("Array", elements);
             case OpenBrace:
                 this.next();
-                stmt.Property[] properties = new stmt.Property[0];
+                Property[] properties = new Property[0];
                 while (this.at().Type != Types.ClosedBrace) {
                     String key = this.expect(
                     Types.String,
@@ -103,11 +103,11 @@ public class parser {
                     this.expect(
                     Types.Colon,
                     "Expected Colon for Key:Value Pair");
-                    stmt.Property[] ne = new stmt.Property[properties.length+1];
+                    Property[] ne = new Property[properties.length+1];
                     for (int i = 0; i < properties.length; i++) {
                         ne[i] = properties[i];
                     }
-                    ne[properties.length] = new stmt.Property("Property", key, this.ParseStmt());
+                    ne[properties.length] = new Property("Property", key, this.ParseStmt());
                     properties = ne;
                     if (this.at().Type == Types.Comma) {
                         this.next();
@@ -116,7 +116,7 @@ public class parser {
                         break;
                     }
                 }
-                return new stmt.ObjectLiteral("Object", properties);
+                return new ObjectLiteral("Object", properties);
             default:
                 System.out.println("Invalid Token Found During Parsing");
                 System.out.println(this.at().Value);
@@ -124,7 +124,7 @@ public class parser {
                 System.exit(1);
                 break;
         }
-        return new stmt.NullLiteral("Null");
+        return new NullLiteral("Null");
     }
 
 }

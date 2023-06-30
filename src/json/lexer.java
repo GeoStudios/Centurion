@@ -92,7 +92,13 @@ public class lexer {
                 this.column = 0;
                 this.next();
                 break;
-            case "\r", "\b", "\f", "\t", "\n\r", " ", "":
+            case "\r":
+            case "\b":
+            case "\f":
+            case "\t":
+            case "\n\r":
+            case " ":
+            case "":
                 this.next();
                 break;
         }
@@ -142,7 +148,19 @@ public class lexer {
 
     private void check() {
         switch (this.at()) {
-            case "[", "]", "{", "}", "\"", ":", ",", "\n", "\r", "\b", "\f", "\t", " ":
+            case "[":
+            case"]":
+            case"{":
+            case"}":
+            case"\"":
+            case":":
+            case",":
+            case"\n":
+            case"\r":
+            case"\b":
+            case"\f":
+            case"\t":
+            case" ":
                 break;
             default:
                 System.out.println("Invalid Character: "+this.at()+" Line: "+Integer.toString(this.line)+" Pos: "+Integer.toString(this.column));
