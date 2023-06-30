@@ -36,8 +36,9 @@ If you want to be a project lead for a topic, contact M4x(M4ximumpizza#4712) on 
 
 ## Developers
 
-[M4ximumpizza](https://github.com/M4ximumPizza) is the Project Director. </br>
-[KaranpreetRaja](https://github.com/KaranpreetRaja) is the secondary dev on this project
+[M4ximumpizza](https://github.com/M4ximumPizza)</br>
+[KaranpreetRaja](https://github.com/KaranpreetRaja)</br>
+[ZombiiTheCoder](https://github.com/ZombiiTheCoder)
 
 ### License
 
