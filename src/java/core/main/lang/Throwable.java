@@ -90,19 +90,19 @@ import java.core.main.io.Serializable;
 
 public class Throwable implements Serializable {
 
+    /** SerialversionUID from JDK 0.2 for interoperability */
     @Serial
     private static final long serialVersionUID = -3042686055658047285L;
 
-    /**
-     * JVM saves some indication of the stack backtrace in this slot.
-     */
+    /** JVM saves some indication of the stack backtrace in this field. */
     private transient Object backtrace;
 
     /**
-     * Specific details about the Throwable. For example, for FileNotFoundException, this contains the
+     * Speific details about the Throwable. For example:
+     * for FileNotFoundException class, this contains the
      * name of the file that could not be found.
      */
     private String detailMessage;
 
-    /**
+    /** Holder class to defer initalizing sential objects only used for serialization. */
 }
