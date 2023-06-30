@@ -78,7 +78,7 @@ public class IllegalArgumentException extends RuntimeException {
      * java.security.PrivilegedActionException}).
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link Throwable#getCause()} method).  (A {@code null} value is
+     *         {@link Throwable()} method).  (A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      */

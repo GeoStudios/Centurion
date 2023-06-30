@@ -46,7 +46,7 @@ public final class System {
      * open and ready to supply input data. Typically this stream
      * corresponds to keyboard input or another input source specified by
      * the host environment or user. In case this stream is wrapped
-     * in a InputStreamReader, {@link Console#charset()}
+     * in a InputStream, {@link Console#charset()}
      * should be used for the charset, or consider using
      * {@link Console#reader()}.
      *

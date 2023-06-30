@@ -293,7 +293,6 @@ public interface Map<K, V> {
      * @param <V> the type of the value
      *
      * @see Map#entrySet()
-     * @since 1.2
      */
     interface Entry<K, V> {
         /**
