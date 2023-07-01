@@ -22,6 +22,7 @@
 package java.core.main.util;
 
 import java.core.main.lang.Object;
+import java.core.main.util.function.UnaryOperator;
 
 /**
  * An ordered collection (also known as a <i>sequence</i>).  The user of this
@@ -392,4 +393,12 @@ public interface List<E> extends Collection<E> {
      * @see (Object)
      */
     boolean retainAll(Collection<?> c);
+
+    default void replaceAll(UnaryOperator<E> operator) {
+        Objects.requireNonNull(operator);
+        final ListIterator<E> li = this.listIterator();
+        while (li.hasNext()) {
+            li.set(operator.apply(li.next()));
+        }
+    }
 }

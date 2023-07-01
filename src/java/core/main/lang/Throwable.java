@@ -23,6 +23,7 @@ package java.core.main.lang;
 
 import java.core.main.io.Serial;
 import java.core.main.io.Serializable;
+import java.core.main.util.List;
 
 /**
  * The {@code Throwable} class is the superclass for all errors and exceptions
@@ -36,7 +37,7 @@ import java.core.main.io.Serializable;
  * subclasses that are not subclasses of {@link RuntimeException} or
  * {@link Error} are considered checked exceptions.
  *
- * <p>Two subclasses, {@link java.lang.Error} and {@link java.lang.Exception},
+ * <p>Two subclasses, {@link Error} and {@link Exception},
  * are typically used to indicate exceptional situations. Instances of these
  * subclasses are usually created with relevant information such as stack trace
  * data.
@@ -69,7 +70,7 @@ import java.core.main.io.Serializable;
  *
  * <p>A cause can be associated with a throwable in two ways: through a
  * constructor that takes the cause as an argument or through the
- * {@link (java.core.main.lang.Throwable)} method. Throwable classes that
+ * {@link (Throwable)} method. Throwable classes that
  * allow associating causes should provide constructors that take a cause and
  * delegate to one of the {@code Throwable} constructors that accept a cause.
  * The {@code initCause} method is public, allowing a cause to be associated
@@ -105,4 +106,95 @@ public class Throwable implements Serializable {
     private String detailMessage;
 
     /** Holder class to defer initalizing sential objects only used for serialization. */
+
+    private static class SentinelHolder {
+        /** Common sentinel for null array */
+        public static final StackTranceElement[] STACK_TRACE_SENTINEL = new StackTranceElement[0];
+
+        /** Sentinel for stackTrace field to indicate the stacktrace is initialized. */
+        public static final StackTranceElement[] STACK_TRACE_INITIALIZED_SENTINEL = new StackTranceElement[0];
+    }
+
+    /** A shared value for any empty stack. */
+    private static final StackTranceElement[] UNASSIGNED_STACK = new StackTranceElement[0];
+
+    /*
+     * To allow Throwable objects to be made immutable and safely
+     * reused by the JVM, such as OutOfMemoryErrors, fields of
+     * Throwable that are writable in response to user actions, cause,
+     * stackTrace, and suppressedExceptions obey the following
+     * protocol:
+     *
+     * 1) The fields are initialized to a non-null sentinel value
+     * which indicates the value has logically not been set.
+     *
+     * 2) Writing a null to the field indicates further writes
+     * are forbidden
+     *
+     * 3) The sentinel value may be replaced with another non-null
+     * value.
+     *
+     * For example, implementations of the HotSpot JVM have
+     * preallocated OutOfMemoryError objects to provide for better
+     * diagnosability of that situation.  These objects are created
+     * without calling the constructor for that class and the fields
+     * in question are initialized to null.  To support this
+     * capability, any new fields added to Throwable that require
+     * being initialized to a non-null value require a coordinated JVM
+     * change.
+     */
+
+    /**
+     * The throwable that caused this throwable to get thrown, or null if this
+     * throwable was not caused by another throwable, or if the causative
+     * throwable is unknown.  If this field is equal to this throwable itself,
+     * it indicates that the cause of this throwable has not yet been
+     * initialized.
+     */
+    private final Throwable cause = this;
+
+    /**
+     * The stack trace, as returned by {@link #getStackTrace()}.
+     *
+     * The field is initialized to a zero-length array.  A {@code
+     * null} value of this field indicates subsequent calls to {@link
+     * #setStackTrace(StackTraceElement[])} and {@link
+     * #fillInStackTrace()} will be no-ops.
+     *
+     */
+    private final StackTranceElement[] stackTrace = UNASSIGNED_STACK;
+
+    /**
+     * The JVM code sets the depth of the backtrace for later retrieval.
+     */
+    private transient int depth;
+
+    /**
+     * The list of suppressed exceptions, as returned by {@link
+     * }.  The list is initialized to a zero-element
+     * unmodifiable sentinel list.  When a serialized Throwable is
+     * read in, if the {@code suppressedExceptions} field points to a
+     * zero-element list, the field is reset to the sentinel value.
+     */
+    private final List<Throwable> suppressedExceptions = SUPPRESSED_SENTINEL;
+
+    /**
+     * Message for trying to suppress a null exception.
+     */
+    private static final String NULL_CAUSE_MESSAGE = "Cannot suppress a null exception.";
+
+    /**
+     * Message for trying to suppress oneself.
+     */
+    private static final String SELF_SUPPRESSION_MESSAGE = "Self-suppression not permitted";
+
+    /**
+     * Caption  for labeling causative exception stack traces.
+     */
+    private static final String CAUSE_CAPTION = "Caused by: ";
+
+    /**
+     * Caption for labeling suppressed exception stack traces.
+     */
+    private static final String SUPPRESSED_CAPTION = "Suppressed: ";
 }

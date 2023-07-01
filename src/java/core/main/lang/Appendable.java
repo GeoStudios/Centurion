@@ -22,12 +22,13 @@
 package java.core.main.lang;
 
 import java.core.main.io.IOException;
+import java.core.main.util.Formatter;
 
 /**
  * An object to which {@code char} sequences and values can be appended.  The
  * {@code Appendable} interface must be implemented by any class whose
  * instances are intended to receive formatted output from a {@link
- * java.core.main.util.Formatter}.
+ * Formatter}.
  *
  * <p> The characters to be appended should be valid Unicode characters as
  * described in <a href="Character.html#unicode">Unicode Character

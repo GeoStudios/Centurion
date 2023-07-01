@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.main.util;
+package java.core.main.lang;
 
-public class Objects {
-    private Objects() {
-        throw new Assertion
+import java.core.main.io.Serial;
+
+public class IncompatibleClassChangeError extends LinkageError {
+
+    @Serial
+    private static final long serialVersionUID = 3579600108157160122L;
+
+    public IncompaitibleClassChangeError() {
+        super();
+    }
+
+    public IncompaitibleClassChangeError(String message) {
+        super(message);
+    }
+
+    public IncompaitibleClassChangeError(String message, Throwable cause) {
+        super(message, cause);
     }
 }

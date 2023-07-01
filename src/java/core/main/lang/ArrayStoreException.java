@@ -19,10 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.core.main.util;
+package java.core.main.lang;
 
-public class Objects {
-    private Objects() {
-        throw new Assertion
+import java.core.main.io.Serial;
+
+/**
+ * Thrown to indicate that an attempt has been made to store the
+ * wrong type of object into an array of objects. For example, the
+ * following code generates an {@code ArrayStoreException}:
+ * <blockquote><pre>
+ *     Object x[] = new String[3];
+ *     x[0] = Integer.valueOf(0);
+ * </pre></blockquote>
+ *
+ * @since Alpha CDK 0.2
+ * @author Logan Abernathy
+ */
+public class ArrayStoreException  extends RuntimeException {
+
+    @Serial
+    private static final long serialVersionUID = -4522193890499838241L;
+
+    public ArrayStoreException() {
+        super();
+    }
+
+    public ArrayStoreException(String message) {
+        super(message);
     }
 }

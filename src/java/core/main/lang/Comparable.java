@@ -95,7 +95,7 @@ import java.core.main.util.*;
  *
  * @param <T> the type of objects that this object may be compared to
  *
- * @see java.core.main.util.Comparator
+ * @see Comparator
  * @since Alpha CDK 0.2
  * @author Logan Abernathy
  */
