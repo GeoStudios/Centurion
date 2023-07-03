@@ -21,8 +21,6 @@
 
 package core.main.input;
 
-import java.io.IOException;
-
 /**
  * This abstract class is the superclass of all classes representing
  * an input stream of bytes.
@@ -418,7 +416,7 @@ public abstract class InputStream {
      * a buffer intended to hold all data in this stream.
      *
      * <p> A subclass's implementation of this method may choose to throw an
-     * {@link IOException} if this input stream has been closed by invoking the
+     *  if this input stream has been closed by invoking the
      * {@link #close()} method.
      *
      * @implSpec

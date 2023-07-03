@@ -19,20 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package core.main.combination;
+package core.lang;
 
-/**
- * A {@code Flushable} is a destination of data that can be flushed.  The
- * flush method is invoked to write any buffered output to the underlying
- * stream.
- *
- * @since Alpha CDK 0.1
- */
-public interface Flushable {
+public interface Readable {
 
-    /**
-     * Flushes this stream by writing any buffered output to the underlying
-     * stream.
-     */
-    private void flush() {}
+    int read();
 }

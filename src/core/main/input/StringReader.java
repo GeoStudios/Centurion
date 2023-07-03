@@ -21,8 +21,6 @@
 
 package core.main.input;
 
-import java.io.IOException;
-
 /**
  * A character stream whose source is a string.
  *
