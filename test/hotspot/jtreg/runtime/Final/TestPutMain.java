@@ -1,0 +1,57 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 8160527
+ * @summary The VM does not always perform checks added by 8157181 when updating final instance fields
+ * @library /test/lib
+ * @compile TestPutField.jasm
+ * @compile TestPutStatic.jasm
+ * @compile TestPutMain.java
+ * @run main/othervm TestPutMain
+ */
+
+import jdk.test.lib.Asserts;
+
+public class TestPutMain {
+    public static void main(String[] args) {
+        boolean exception = false;
+        try {
+            TestPutField.test();
+        } catch (java.lang.IllegalAccessError e) {
+            exception = true;
+        }
+
+        Asserts.assertTrue(exception, "FAILED: Expected IllegalAccessError for illegal update to final instance field was not thrown.");
+
+        exception = false;
+        try {
+            TestPutStatic.test();
+        } catch (java.lang.IllegalAccessError e) {
+            exception = true;
+        }
+
+        Asserts.assertTrue(exception, "FAILED: Expected IllegalAccessError for illegal update to final static field was not thrown.");
+
+        System.out.println("PASSED: Expected IllegalAccessError was thrown.");
+    }
+}

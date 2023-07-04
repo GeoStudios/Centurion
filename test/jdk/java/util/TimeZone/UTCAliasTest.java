@@ -1,0 +1,51 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 6282072
+ * @summary Make sure that "UTC" is an alias of "Etc/UTC" as defined in the tzdata backward.
+ * @modules java.base/sun.util.calendar
+ * @compile -XDignore.symbol.file UTCAliasTest.java
+ * @run main UTCAliasTest
+ */
+
+import java.util.*;
+import sun.util.calendar.ZoneInfo;
+
+public class UTCAliasTest {
+    public static void main(String[] args) {
+        Map<String,String> map = ZoneInfo.getAliasTable();
+        String alias = map.get("UTC");
+        if (!alias.equals("Etc/UTC")) {
+            throw new RuntimeException("got " + alias + ", expected Etc/UTC");
+        }
+        TimeZone GMT = TimeZone.getTimeZone("GMT");
+        TimeZone UTC = TimeZone.getTimeZone("UTC");
+        if (!GMT.hasSameRules(UTC)) {
+            throw new RuntimeException("GMT and UTC have different rules");
+        }
+        TimeZone EtcUTC = TimeZone.getTimeZone("Etc/UTC");
+        if (!UTC.hasSameRules(EtcUTC)) {
+            throw new RuntimeException("UTC and Etc/UTC have different rules");
+        }
+    }
+}

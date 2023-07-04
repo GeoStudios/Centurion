@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 4972087
+ * @summary Verifies that JPEGImageWriteParam.getCompressionQualityValues()
+ *          returns an array that is one longer than the one returned by
+ *          getCompressionQualityDescriptions()
+ */
+
+import javax.imageio.ImageWriteParam;
+import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
+
+public class CompressionVals {
+
+    public static void main(String[] args) {
+        ImageWriteParam iwp = new JPEGImageWriteParam(null);
+        iwp.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);
+        float[] vals = iwp.getCompressionQualityValues();
+        String[] descs = iwp.getCompressionQualityDescriptions();
+        if (vals.length != (descs.length + 1)) {
+            throw new RuntimeException("Test failed: Values array is not " +
+                                       "one larger than descriptions array");
+        }
+    }
+}

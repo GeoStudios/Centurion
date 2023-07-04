@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE mode PUBLIC
+          "-//NetBeans//DTD Mode Properties 2.0//EN"
+          "http://www.netbeans.org/dtds/mode-properties2_0.dtd">
+
+<mode version="2.0">
+    <name unique="properties" />
+    <kind type="view" />
+    <state type="joined" />
+    <constraints>
+        <path orientation="horizontal" number="90" weight="0.2"/>
+        <path orientation="vertical" number="1" weight="0.50"/>
+    </constraints>
+    <relative-bounds x="75" y="56" width="15" height="32" />
+    <active-tc id="properties" />
+    <empty-behavior permanent="true" />
+</mode>

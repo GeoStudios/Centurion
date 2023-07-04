@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="en"/>
+		<territory type="PK"/>
+	</identity>
+	<dates>
+		<calendars>
+			<calendar type="generic">
+				<dateFormats>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd-MMM-y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<intervalFormats>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="d" draft="unconfirmed">M/d – M/d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">M/d – M/d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="d" draft="unconfirmed">E, M/d – E, M/d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, M/d – E, M/d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="d" draft="unconfirmed">MMM d – d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">MMM d – MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, MMM d – E, MMM d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, MMM d – E, MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M" draft="unconfirmed">M/y – M/y G</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">M/y – M/y G</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="d" draft="unconfirmed">M/d/y – M/d/y G</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">M/d/y – M/d/y G</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">M/d/y – M/d/y G</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, M/d/y – E, M/d/y G</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, M/d/y – E, M/d/y G</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">E, M/d/y – E, M/d/y G</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="d" draft="unconfirmed">MMM d – d, y G</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">MMM d – MMM d, y G</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">MMM d, y – MMM d, y G</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, MMM d – E, MMM d, y G</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, MMM d – E, MMM d, y G</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">E, MMM d, y – E, MMM d, y G</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="gregorian">
+				<dateFormats>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd-MMM-y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<intervalFormats>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="d" draft="unconfirmed">M/d – M/d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">M/d – M/d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="d" draft="unconfirmed">E, M/d – E, M/d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, M/d – E, M/d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="d" draft="unconfirmed">MMM d – d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">MMM d – MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, MMM d – E, MMM d</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, MMM d – E, MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M" draft="unconfirmed">M/y – M/y</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">M/y – M/y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="d" draft="unconfirmed">M/d/y – M/d/y</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">M/d/y – M/d/y</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">M/d/y – M/d/y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, M/d/y – E, M/d/y</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, M/d/y – E, M/d/y</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">E, M/d/y – E, M/d/y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="d" draft="unconfirmed">MMM d – d, y</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">MMM d – MMM d, y</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">MMM d, y – MMM d, y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="d" draft="unconfirmed">E, MMM d – E, MMM d, y</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, MMM d – E, MMM d, y</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">E, MMM d, y – E, MMM d, y</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<currencies>
+			<currency type="PKR">
+				<symbol>Rs</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>

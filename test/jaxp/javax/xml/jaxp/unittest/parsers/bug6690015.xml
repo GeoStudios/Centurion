@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<block>
+<lang>
+<text dna="8233" ro="hello, and i'll type some normal characters in (&gt;=1.5 mm) ro" it="here to make sure international characters don't play a part(&gt;=1.5mm) it" tr="make sure international characters don't play a part (&gt;=1.5 mm) tr" pt_br="make sure international characters don't play a part (&gt;=1,5 mm) pt_br" de="make sure international characters don't play a part (&gt;=1,5 mm) de" el="make sure international characters don't play a part (&gt;= 1.5 mm) el" zh_cn="make sure international characters don't play a part¿&gt;= 1.5 mm¿ zh_cn" pt="make sure international characters don't play a part (&gt;=1,5 mm) pt" bg="make sure international characters don't play a part (&gt;= 1.5 mm) bg" fr="make sure international characters don't play a part (&gt;= 1,5 mm) fr" en="make sure international characters don't play a part (&gt;= 1.5 mm) en" ru="make sure international characters don't play a part (&gt;=1.5 ¿¿) ru" es="make sure international characters don't play a part (&gt;=1.5 mm) es" ja="make sure international characters don't play a part¿&gt;=1.5mm¿ ja" nl="make sure international characters don't play a part (&gt;= 1,5 mm) nl" />
+</lang>
+</block>

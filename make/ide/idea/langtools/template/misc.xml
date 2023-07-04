@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="JTRegService">
+    <path>@IDEA_JTREG_HOME@</path>
+    <workDir>build</workDir>
+    <jre alt="true" value="@IDEA_TARGET_JDK@" />
+    <options>@XPATCH@</options>
+    <ant>
+      <target file="file://$PROJECT_DIR$/make/ide/idea/langtools/build.xml" name="build-all-classes" />
+    </ant>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build" />
+  </component>
+</project>

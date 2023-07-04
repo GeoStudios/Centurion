@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE organization [
+    <!ELEMENT organization (company*,ids)>
+    <!ELEMENT company (#PCDATA | department | equipment:instance)*>
+    <!ELEMENT ids (id*)>
+    <!ELEMENT id EMPTY>
+    <!ELEMENT department EMPTY>
+    <!ELEMENT equipment:instance EMPTY>
+
+    <!ATTLIST organization  id              ID  #IMPLIED
+                            xmlns:equipment CDATA  #FIXED "http://namespaces.tksoft.com/equipment/"
+    >
+    <!ATTLIST company   id                  ID  #REQUIRED
+                        count               CDATA  #REQUIRED
+    >
+    <!ATTLIST department    id              ID  #REQUIRED
+    >
+    <!ATTLIST equipment:instance    id          ID  #REQUIRED
+    >
+    <!ATTLIST id
+        value       IDREF   #REQUIRED
+    >
+]>
+<organization>
+    <company id="ca" count="2">
+        <department id="da"/>
+        <equipment:instance id="ea"/>
+        <equipment:instance id="eb"/>
+    </company>
+    <company id="cb" count="0"/>
+    <company id="cc" count="5"/>
+    <ids>
+        <id value="ca"/>
+        <id value="cb"/>
+    </ids>
+</organization>

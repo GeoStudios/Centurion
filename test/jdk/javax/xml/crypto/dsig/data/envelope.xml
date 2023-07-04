@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE Envelope [
+  <!ENTITY dsig 'http://www.w3.org/2000/09/xmldsig#'>
+  <!ENTITY c14n 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315'>
+  <!ENTITY xpath 'http://www.w3.org/TR/1999/REC-xpath-19991116'>
+  <!ENTITY xslt 'http://www.w3.org/TR/1999/REC-xslt-19991116'>
+  <!ATTLIST Notaries Id ID #IMPLIED>
+]>
+<!-- Preamble -->
+<Envelope xmlns:foo="http://example.org/foo" xmlns="http://example.org/usps">
+  <DearSir>foo</DearSir>
+  <Body>bar</Body>
+  <YoursSincerely>
+  </YoursSincerely>
+  <PostScript>bar</PostScript>
+  <Notaries xmlns="" Id="notaries">
+    <Notary name="Great, A. T." />
+    <Notary name="Hun, A. T." />
+  </Notaries>
+  <!-- Commentary -->
+</Envelope>
+<!-- Postamble -->

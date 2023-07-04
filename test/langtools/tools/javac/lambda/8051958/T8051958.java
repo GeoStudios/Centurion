@@ -1,0 +1,67 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 8051958
+ * @summary Cannot assign a value to final variable in lambda
+ * @compile T8051958.java
+ */
+
+class T8051958 {
+    Runnable inst_r = ()-> {
+        final int x;
+        x = 1;
+    };
+
+    Runnable static_r = ()-> {
+        final int x;
+        x = 1;
+    };
+
+    {
+        Runnable inst_r = ()-> {
+            final int x;
+            x = 1;
+        };
+    }
+
+    static {
+        Runnable static_r = ()-> {
+            final int x;
+            x = 1;
+        };
+    }
+
+    void instTest() {
+        Runnable static_r = ()-> {
+            final int x;
+            x = 1;
+        };
+    }
+
+    static void staticTest() {
+        Runnable static_r = ()-> {
+            final int x;
+            x = 1;
+        };
+    }
+}

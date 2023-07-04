@@ -1,0 +1,63 @@
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!-- importing.xml -->
+<project name="jdk">
+
+    <taskdef name="wrapLogger" classname="idea.IdeaLoggerWrapper" classpath="${idea.dir}/classes"/>
+
+    <wrapLogger/>
+
+    <macrodef name="call-make">
+        <attribute name="dir"/>
+        <attribute name="args"/>
+        <sequential>
+            <exec executable="make" dir="@{dir}" failonerror="true">
+                <arg line="@{args}"/>
+                <env key="CLASSPATH" value = ""/>
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <target name="cond-clean" unless="${intellij.ismake}">
+        <antcall target="clean"/>
+    </target>
+
+    <target name="post-make" depends="cond-clean, build-module"/>
+
+    <!--
+        **** Global JDK Build Targets
+    -->
+
+    <target name="clean">
+        <echo message="base = ${basedir}"/>
+        <call-make dir = "${build.target.dir}" args = "reconfigure"/>
+        <call-make dir = "${build.target.dir}" args = "clean"/>
+    </target>
+
+    <target name="images">
+        <call-make dir = "${build.target.dir}" args = "images"/>
+    </target>
+
+    <target name="build-module">
+        <call-make dir = "${build.target.dir}" args = "${module.name}"/>
+    </target>
+</project>

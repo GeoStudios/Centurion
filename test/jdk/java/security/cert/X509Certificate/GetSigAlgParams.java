@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 8259428
+ * @summary Verify X509Certificate.getSigAlgParams() returns new array each
+ *          time it is called
+ * @modules java.base/sun.security.tools.keytool java.base/sun.security.x509
+ */
+
+import java.security.cert.X509Certificate;
+import sun.security.tools.keytool.CertAndKeyGen;
+import sun.security.x509.X500Name;
+
+public class GetSigAlgParams {
+
+    public static void main(String[] args) throws Exception {
+
+        CertAndKeyGen cakg = new CertAndKeyGen("RSASSA-PSS", "RSASSA-PSS");
+        cakg.generate(1024);
+        X509Certificate c = cakg.getSelfCertificate(new X500Name("CN=Me"), 100);
+        if (c.getSigAlgParams() == c.getSigAlgParams()) {
+            throw new Exception("Encoded params are the same byte array");
+        }
+    }
+}

@@ -1,0 +1,51 @@
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!--
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+-->
+<!-- $Id: package.html,v 1.2.4.1 2005/09/15 08:15:34 suresh_emailid Exp $ -->
+<html>
+  <title>Xalan Serializer Package.</title>
+  <body>
+    <p>Processes SAX events into streams.</p>
+    
+    <p>The {@link com.sun.org.apache.xml.internal.serializer.SerializerFactory} is used to 
+    create a {@link com.sun.org.apache.xml.internal.serializer.Serializer} from a set of 
+    output properties (see {@link javax.xml.transform.OutputKeys}).</p>
+    <p>{@link com.sun.org.apache.xml.internal.serializer.ToStream} acts as the main 
+    baseclass for the Xalan serializer implementations.  
+    {@link com.sun.org.apache.xml.internal.serializer.ToHTMLStream} derives from this 
+    to implement HTML serialization.  
+    {@link com.sun.org.apache.xml.internal.serializer.ToTextStream}
+    implements plain text serialization.
+    {@link com.sun.org.apache.xml.internal.serializer.ToXMLStream}
+    implements XML serialization.
+    </p>
+    <p>XML mapping from characters to entity references is defined in 
+    XMLEntities.res.  HTML entity reference mapping is defined in HTMLEntities.res.
+    </p>
+    <p>Encoding information is defined in {@link com.sun.org.apache.xml.internal.serializer.Encodings}.</p>
+ </body>
+</html>
+
+

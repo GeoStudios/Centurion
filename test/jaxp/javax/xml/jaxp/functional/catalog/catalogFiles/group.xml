@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" xml:base="http://local/base/dtd/">
+    <group>
+        <system systemId="http://remote/dtd/sys/alice/docAlice.dtd" uri="docAliceSys.dtd" />
+        <public publicId="-//REMOTE//DTD ALICE DOCALICE XML//EN" uri="docAlicePub.dtd" />
+        <uri name="http://remote/dtd/uri/alice/docAlice.dtd" uri="docAliceURI.dtd" />
+    </group>
+
+    <group xml:base="http://local/bobBase/dtd/">
+        <system systemId="http://remote/dtd/sys/bob/docBob.dtd" uri="docBobSys.dtd" />
+        <public publicId="-//REMOTE//DTD BOB DOCBOB XML//EN" uri="docBobPub.dtd" />
+        <uri name="http://remote/dtd/uri/bob/docBob.dtd" uri="docBobURI.dtd" />
+    </group>
+
+    <system systemId="http://remote/dtd/sys/carl/docCarl.dtd" uri="docCarlSys1.dtd" />
+    <public publicId="-//REMOTE//DTD CARL DOCCARL XML//EN" uri="docCarlPub1.dtd" />
+    <uri name="http://remote/dtd/uri/carl/docCarl.dtd" uri="docCarlURI1.dtd" />
+    <group>
+        <system systemId="http://remote/dtd/sys/carl/docCarl.dtd" uri="docCarlSys2.dtd" />
+        <public publicId="-//REMOTE//DTD CARL DOCCARL XML//EN" uri="docCarlPub2.dtd" />
+        <uri name="http://remote/dtd/uri/carl/docCarl.dtd" uri="docCarlURI2.dtd" />
+    </group>
+    <system systemId="http://remote/dtd/sys/carl/docCarl.dtd" uri="docCarlSys3.dtd" />
+    <public publicId="-//REMOTE//DTD CARL DOCCARL XML//EN" uri="docCarlPub3.dtd" />
+    <uri name="http://remote/dtd/uri/carl/docCarl.dtd" uri="docCarlURI3.dtd" />
+</catalog>

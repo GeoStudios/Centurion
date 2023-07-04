@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+      <folder name="Filters">
+        <file name="Color by category" url="filters/color.filter">
+            <attr name="enabled" boolvalue="true"/>
+        </file>
+        <file name="Color by execution frequency" url="filters/colorFrequency.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Color by category"/>
+        </file>
+        <file name="Simplify graph" url="filters/structural.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Color by execution frequency"/>
+        </file>
+        <file name="Hide data subgraph" url="filters/hideData.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Simplify graph"/>
+        </file>
+        <file name="Hide memory subgraph" url="filters/hideMemory.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide data subgraph"/>
+        </file>
+        <file name="Hide control subgraph" url="filters/hideControl.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide memory subgraph"/>
+        </file>
+        <file name="Hide mixed subgraph" url="filters/hideMixed.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide control subgraph"/>
+        </file>
+        <file name="Hide other subgraph" url="filters/hideOther.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide mixed subgraph"/>
+        </file>
+        <file name="Show control flow only" url="filters/onlyControlFlow.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide other subgraph"/>
+        </file>
+        <file name="Hide data edges" url="filters/hideDataEdges.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Show control flow only"/>
+        </file>
+        <file name="Hide memory edges" url="filters/hideMemoryEdges.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide data edges"/>
+        </file>
+        <file name="Hide control edges" url="filters/hideControlEdges.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide memory edges"/>
+        </file>
+        <file name="Hide mixed edges" url="filters/hideMixedEdges.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide control edges"/>
+        </file>
+        <file name="Hide other edges" url="filters/hideOtherEdges.filter">
+            <attr name="enabled" boolvalue="false"/>
+            <attr name="after" stringvalue="Hide mixed edges"/>
+        </file>
+    </folder>
+</filesystem>

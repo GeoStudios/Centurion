@@ -1,0 +1,53 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package com.sun.source.tree;
+
+/**
+ * A tree node for the conditional operator {@code ? :}.
+ *
+ * For example:
+ * <pre>
+ *   <em>condition</em> ? <em>trueExpression</em> : <em>falseExpression</em>
+ * </pre>
+ *
+ * @jls 15.25 Conditional Operator ? :
+ *
+ */
+public interface ConditionalExpressionTree extends ExpressionTree {
+    /**
+     * Returns the condition.
+     * @return the condition
+     */
+    ExpressionTree getCondition();
+
+    /**
+     * Returns the expression to be evaluated if the condition is true.
+     * @return the expression to be evaluated if the condition is true
+     */
+    ExpressionTree getTrueExpression();
+
+    /**
+     * Returns the expression to be evaluated if the condition is false.
+     * @return the expression to be evaluated if the condition is false
+     */
+    ExpressionTree getFalseExpression();
+}

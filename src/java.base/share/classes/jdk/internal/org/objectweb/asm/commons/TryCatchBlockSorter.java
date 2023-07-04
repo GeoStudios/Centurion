@@ -1,0 +1,118 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package jdk.internal.org.objectweb.asm.commons;
+
+import java.util.Collections;
+import java.util.Comparator;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.internal.org.objectweb.asm.tree.MethodNode;
+import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
+
+/**
+ * A {@link MethodVisitor} adapter to sort the exception handlers. The handlers are sorted in a
+ * method innermost-to-outermost. This allows the programmer to add handlers without worrying about
+ * ordering them correctly with respect to existing, in-code handlers.
+ *
+ * <p>Behavior is only defined for properly-nested handlers. If any "try" blocks overlap (something
+ * that isn't possible in Java code) then this may not do what you want. In fact, this adapter just
+ * sorts by the length of the "try" block, taking advantage of the fact that a given try block must
+ * be larger than any block it contains).
+ *
+ */
+public class TryCatchBlockSorter extends MethodNode {
+
+    /**
+      * Constructs a new {@link TryCatchBlockSorter}.
+      *
+      * @param methodVisitor the method visitor to which this visitor must delegate method calls. May
+      *     be {@literal null}.
+      * @param access the method's access flags (see {@link Opcodes}). This parameter also indicates if
+      *     the method is synthetic and/or deprecated.
+      * @param name the method's name.
+      * @param descriptor the method's descriptor (see {@link jdk.internal.org.objectweb.asm.Type}).
+      * @param signature the method's signature. May be {@literal null} if the method parameters,
+      *     return type and exceptions do not use generic types.
+      * @param exceptions the internal names of the method's exception classes (see {@link
+      *     jdk.internal.org.objectweb.asm.Type#getInternalName()}). May be {@literal null}.
+      */
+    public TryCatchBlockSorter(
+            final MethodVisitor methodVisitor,
+            final int access,
+            final String name,
+            final String descriptor,
+            final String signature,
+            final String[] exceptions) {
+        this(
+                /* latest api = */ Opcodes.ASM8,
+                methodVisitor,
+                access,
+                name,
+                descriptor,
+                signature,
+                exceptions);
+        if (getClass() != TryCatchBlockSorter.class) {
+            throw new IllegalStateException();
+        }
+    }
+
+    protected TryCatchBlockSorter(
+            final int api,
+            final MethodVisitor methodVisitor,
+            final int access,
+            final String name,
+            final String descriptor,
+            final String signature,
+            final String[] exceptions) {
+        super(api, access, name, descriptor, signature, exceptions);
+        this.mv = methodVisitor;
+    }
+
+    @Override
+    public void visitEnd() {
+        // Sort the TryCatchBlockNode elements by the length of their "try" block.
+        Collections.sort(
+                tryCatchBlocks,
+                new Comparator<TryCatchBlockNode>() {
+
+                    @Override
+                    public int compare(
+                            final TryCatchBlockNode tryCatchBlockNode1,
+                            final TryCatchBlockNode tryCatchBlockNode2) {
+                        return blockLength(tryCatchBlockNode1) - blockLength(tryCatchBlockNode2);
+                    }
+
+                    private int blockLength(final TryCatchBlockNode tryCatchBlockNode) {
+                        int startIndex = instructions.indexOf(tryCatchBlockNode.start);
+                        int endIndex = instructions.indexOf(tryCatchBlockNode.end);
+                        return endIndex - startIndex;
+                    }
+                });
+        // Update the 'target' of each try catch block annotation.
+        for (int i = 0; i < tryCatchBlocks.size(); ++i) {
+            tryCatchBlocks.get(i).updateIndex(i);
+        }
+        if (mv != null) {
+            accept(mv);
+        }
+    }
+}

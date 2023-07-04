@@ -1,0 +1,21 @@
+-Xdoclint:all '-quiet'
+-Xdoclint:all/private '-quiet'
+-Xdoclint:none '-quiet'
+-author 
+-d 'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\build\\javadoc'
+-doclint:none '-quiet'
+-doctitle 'my-library'
+-encoding 'UTF-8'
+-footer 'my-library'
+-header 'my-library'
+-notimestamp 
+-quiet 
+-use 
+-version 
+-windowtitle 'my-library'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\ArrayByteInputStream.java'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\Bit.java'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\DataOutput.java'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\Flushable.java'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\IOReputation.java'
+'D:\\CODING PROJECTS\\In Devlopment\\Centurion\\src\\java\\core\\java\\io\\StreamInput.java'

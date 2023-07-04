@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* @test
+   @summary Test SoftAudioSynthesizer getFormat method
+   @modules java.desktop/com.sun.media.sound
+*/
+
+import javax.sound.midi.MidiUnavailableException;
+import javax.sound.midi.Patch;
+import javax.sound.sampled.*;
+
+import com.sun.media.sound.*;
+
+public class GetFormat {
+
+    private static void assertEquals(Object a, Object b) throws Exception
+    {
+        if(!a.equals(b))
+            throw new RuntimeException("assertEquals fails!");
+    }
+
+    private static void assertTrue(boolean value) throws Exception
+    {
+        if(!value)
+            throw new RuntimeException("assertTrue fails!");
+    }
+
+    public static void main(String[] args) throws Exception {
+        AudioSynthesizer synth = new SoftSynthesizer();
+        AudioFormat defformat = synth.getFormat();
+        assertTrue(defformat != null);
+        synth.openStream(null, null);
+        assertTrue(synth.getFormat().toString().equals(defformat.toString()));
+        synth.close();
+        AudioFormat custformat = new AudioFormat(8000, 16, 1, true, false);
+        synth.openStream(custformat, null);
+        assertTrue(synth.getFormat().toString().equals(custformat.toString()));
+        synth.close();
+    }
+}

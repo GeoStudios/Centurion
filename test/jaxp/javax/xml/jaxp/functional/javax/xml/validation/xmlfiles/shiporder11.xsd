@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="orderperson" type="xs:string"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="address" type="xs:string"/>
+<xs:element name="city" type="xs:string"/>
+<xs:element name="country" type="xs:string"/>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="note" type="xs:string"/>
+<xs:element name="quantity" type="xs:positiveInteger"/>
+<xs:element name="price" type="xs:decimal"/>
+
+<!-- definition of attributes -->
+<xs:attribute name="orderid" type="xs:string"/>
+
+<!-- definition of complex elements -->
+<xs:element name="shipto">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="name"/>
+<xs:element ref="address"/>
+<xs:element ref="city"/>
+<xs:element ref="country"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="item">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="title"/>
+<xs:element ref="note" minOccurs="0"/>
+<xs:element ref="quantity"/>
+<xs:element ref="price"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="shiporder">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="orderperson"/>
+<xs:element ref="shipto"/>
+<xs:element ref="item" maxOccurs="unbounded"/>
+</xs:sequence>
+<xs:attribute ref="orderid" use="required"/>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>

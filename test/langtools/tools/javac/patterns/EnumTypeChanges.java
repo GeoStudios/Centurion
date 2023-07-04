@@ -1,0 +1,78 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 8262891
+ * @summary Verify pattern switches work properly when the set of enum constant changes.
+ * @compile --enable-preview -source ${jdk.version} EnumTypeChanges.java
+ * @compile --enable-preview -source ${jdk.version} EnumTypeChanges2.java
+ * @run main/othervm --enable-preview EnumTypeChanges
+ */
+
+import java.util.function.Function;
+import java.util.Objects;
+
+public class EnumTypeChanges {
+
+    public static void main(String... args) throws Exception {
+        new EnumTypeChanges().run();
+    }
+
+    void run() throws Exception {
+        doRun(this::statementEnum);
+        doRun(this::expressionEnum);
+    }
+
+    void doRun(Function<EnumTypeChangesEnum, String> c) throws Exception {
+        assertEquals("A", c.apply(EnumTypeChangesEnum.A));
+        assertEquals("D", c.apply(EnumTypeChangesEnum.valueOf("C")));
+    }
+
+    String statementEnum(EnumTypeChangesEnum e) {
+        switch (e) {
+            case A -> { return "A"; }
+            case EnumTypeChangesEnum e1 && false -> throw new AssertionError();
+            case B -> { return "B"; }
+            default -> { return "D"; }
+        }
+    }
+
+    String expressionEnum(EnumTypeChangesEnum e) {
+        return switch (e) {
+            case A -> "A";
+            case EnumTypeChangesEnum e1 && false -> throw new AssertionError();
+            case B -> "B";
+            default -> "D";
+        };
+    }
+
+    private static void assertEquals(Object o1, Object o2) {
+        if (!Objects.equals(o1, o2)) {
+            throw new AssertionError();
+        }
+    }
+}
+
+enum EnumTypeChangesEnum {
+    A,
+    B;
+}

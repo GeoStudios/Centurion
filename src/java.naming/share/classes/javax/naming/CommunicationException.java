@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package javax.naming;
+
+/**
+  * This exception is thrown when the client is
+  * unable to communicate with the directory or naming service.
+  * The inability to communicate with the service might be a result
+  * of many factors, such as network partitioning, hardware or interface problems,
+  * failures on either the client or server side.
+  * This exception is meant to be used to capture such communication problems.
+  * <p>
+  * Synchronization and serialization issues that apply to NamingException
+  * apply directly here.
+  *
+  */
+public class CommunicationException extends NamingException {
+    /**
+     * Constructs a new instance of CommunicationException using the
+     * arguments supplied.
+     *
+     * @param   explanation     Additional detail about this exception.
+     * @see java.lang.Throwable#getMessage
+     */
+    public CommunicationException(String explanation) {
+        super(explanation);
+    }
+
+    /**
+      * Constructs a new instance of CommunicationException.
+      */
+    public CommunicationException() {
+        super();
+    }
+
+    /**
+     * Use serialVersionUID from JNDI 1.1.1 for interoperability
+     */
+    private static final long serialVersionUID = 3618507780299986611L;
+}

@@ -1,0 +1,69 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+import java.io.Serializable;
+
+// control: this class should generate warnings
+class Serial implements Serializable
+{
+    static class Inner implements Serializable
+    {
+    }
+
+    @SuppressWarnings("serial")
+    void m() {
+        class Inner implements Serializable
+        {
+        }
+    }
+}
+
+// tests: the warnings that would otherwise be generated should all be suppressed
+@SuppressWarnings("serial")
+class Serial1 implements Serializable
+{
+    static class Inner implements Serializable
+    {
+    }
+}
+
+class Serial2
+{
+    @SuppressWarnings("serial")
+    static class Inner implements Serializable
+    {
+    }
+
+    @SuppressWarnings("serial")
+    void m() {
+        class Inner implements Serializable
+        {
+        }
+    }
+}
+
+// this class should produce warnings because @SuppressWarnings should not be inherited
+class Serial3 extends Serial1
+{
+    static class Inner implements Serializable
+    {
+    }
+}

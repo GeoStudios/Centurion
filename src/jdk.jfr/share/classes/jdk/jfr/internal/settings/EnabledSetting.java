@@ -1,0 +1,69 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package jdk.jfr.internal.settings;
+
+import java.util.Objects;
+import java.util.Set;
+
+import jdk.jfr.Description;
+import jdk.jfr.BooleanFlag;
+import jdk.jfr.Label;
+import jdk.jfr.MetadataDefinition;
+import jdk.jfr.Name;
+import jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.internal.Type;
+
+@MetadataDefinition
+@Label("Enabled")
+@Description("Record event")
+@Name(Type.SETTINGS_PREFIX + "Enabled")
+@BooleanFlag
+public final class EnabledSetting extends JDKSettingControl {
+    private final BooleanValue booleanValue;
+    private final PlatformEventType eventType;
+
+    public EnabledSetting(PlatformEventType eventType, String defaultValue) {
+        this.booleanValue = BooleanValue.valueOf(defaultValue);
+        this.eventType = Objects.requireNonNull(eventType);
+    }
+
+    @Override
+    public String combine(Set<String> values) {
+        return booleanValue.union(values);
+    }
+
+    @Override
+    public void setValue(String value) {
+        booleanValue.setValue(value);
+        eventType.setEnabled(booleanValue.getBoolean());
+        if (eventType.isEnabled() && !eventType.isJVM()) {
+            if (!eventType.isInstrumented()) {
+                eventType.markForInstrumentation(true);
+            }
+        }
+    }
+
+    @Override
+    public String getValue() {
+        return booleanValue.getValue();
+    }
+}

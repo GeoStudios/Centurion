@@ -1,0 +1,74 @@
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="a" xmlns:a="a" xmlns:b="b">
+
+ <xs:element name="doc" type="a:derived"/>
+ <xs:complexType name="base">
+     <xs:sequence>
+	<xs:element name="sub" type="a:derived2"/>
+     </xs:sequence>
+     <xs:attributeGroup ref="a:attG-a1"/>
+ </xs:complexType>
+
+ <xs:complexType name="derived">
+    <xs:complexContent>
+	<xs:extension base="a:base">
+     <xs:sequence />
+     <xs:attributeGroup ref="a:attG-a2"/>
+	</xs:extension>
+    </xs:complexContent>
+ </xs:complexType>
+
+<xs:complexType name="base2">
+     <xs:sequence />
+     <xs:attributeGroup ref="a:attG1-54"/>
+ </xs:complexType>
+
+ <xs:complexType name="derived2">
+    <xs:complexContent>
+	<xs:extension base="a:base2">
+     <xs:sequence />
+     <xs:attributeGroup ref="a:attG2-54"/>
+	</xs:extension>
+    </xs:complexContent>
+ </xs:complexType>
+
+
+ <xs:attribute name="attA"/>
+ <xs:attributeGroup name="attG-a1">
+     <xs:anyAttribute namespace="##other" processContents="lax"/>
+ </xs:attributeGroup>
+
+ <xs:attributeGroup name="attG-a2">
+     <xs:anyAttribute namespace="##targetNamespace b c" processContents="lax"/>
+ </xs:attributeGroup>
+
+<xs:attributeGroup name="attG1-54">
+     <xs:anyAttribute namespace="##other" processContents="lax"/>
+ </xs:attributeGroup>
+
+ <xs:attributeGroup name="attG2-54">
+     <xs:anyAttribute namespace="##local b c" processContents="lax"/>
+ </xs:attributeGroup>
+
+</xs:schema>
+

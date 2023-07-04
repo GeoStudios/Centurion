@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package a;
+
+import annotations.*;
+
+import a.T7101822.B.C;
+import z.T7101822Aux;
+
+@TriggersComplete(of=T7101822.B.class, at=Phase.IMPORTS)
+public class T7101822 {
+
+    @TriggersComplete(of=z.T7101822Aux.class, at=Phase.HIERARCHY)
+    class B extends T7101822Aux {
+
+        class C {
+        }
+    }
+
+    class D {
+
+        Class foo() {
+            return C.class;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package com.sun.jdi.event;
+
+import com.sun.jdi.ObjectReference;
+import com.sun.jdi.ThreadReference;
+
+/**
+ * Notification that a thread in the target VM is about to
+ * wait on a monitor object.
+ *
+ * @see EventQueue
+ * @see MonitorWaitedEvent
+ *
+ */
+public interface MonitorWaitEvent extends LocatableEvent {
+
+    /**
+     * Returns the thread in which monitor wait event has occurred.
+     *
+     * @return a {@link ThreadReference} which mirrors the event's thread in
+     * the target VM.
+     */
+    ThreadReference thread();
+
+    /**
+     * Returns the monitor object that the thread about to wait.
+     *
+     * @return an {@link ObjectReference} for the monitor.
+     */
+    ObjectReference monitor();
+
+    /**
+     * Returns the number of millisecond the thread will wait.
+     *
+     * @return a {@code jlong} containing monitor wait time in milliseconds.
+     */
+    long timeout();
+}

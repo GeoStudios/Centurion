@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="ar"/>
+		<territory type="LY"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="arn" draft="contributed">المابودونجونية</language>
+			<language type="gn" draft="contributed">الغورانية</language>
+			<language type="hsb" draft="contributed">صوربيا العليا</language>
+			<language type="lo" draft="contributed">اللاوو</language>
+			<language type="sh" draft="contributed">الكرواتية الصربية</language>
+			<language type="sma" draft="contributed">سامي الجنوبية</language>
+			<language type="sw" draft="contributed">السواحيلية</language>
+			<language type="sw_CD" draft="contributed">السواحيلية الكونغولية</language>
+			<language type="ti" draft="contributed">التيغرينية</language>
+		</languages>
+		<territories>
+			<territory type="EA" draft="contributed">سبتة ومليلية</territory>
+			<territory type="MS" draft="contributed">مونتيسيرات</territory>
+			<territory type="UY" draft="contributed">أوروغواي</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters type="numbers">[\u200E \- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<dayPeriods>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="abbreviated">
+							<dayPeriod type="morning1">فجرًا</dayPeriod>
+							<dayPeriod type="morning2">ص</dayPeriod>
+							<dayPeriod type="afternoon1">ظهرًا</dayPeriod>
+							<dayPeriod type="afternoon2">بعد الظهر</dayPeriod>
+							<dayPeriod type="evening1">مساءً</dayPeriod>
+							<dayPeriod type="night1">في المساء</dayPeriod>
+							<dayPeriod type="night2">ل</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+				</dayPeriods>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
+		<symbols numberSystem="latn">
+			<decimal>,</decimal>
+			<group>.</group>
+		</symbols>
+	</numbers>
+</ldml>

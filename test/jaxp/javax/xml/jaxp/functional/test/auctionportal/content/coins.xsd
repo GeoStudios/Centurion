@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+
+<!--
+  ~ Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software; you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License version 2 only, as published
+  ~ by the Free Software Foundation. Geo-Studios designates this particular
+  ~ file as subject to the "Classpath" exception as provided
+  ~ by Geo-Studio in the LICENSE file that accompanied this code.
+  ~
+  ~ This code is distributed in the hope that it will be useful, but WITHOUT
+  ~ ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License version 2 for more details (a copy is
+  ~ included in the LICENSE file that accompanied this code).
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ version 2 along with this work; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.hibid.com/items"
+           xmlns="http://www.hibid.com/items"
+           xmlns:im="http://someimport.com"
+           elementFormDefault="qualified"
+           xmlns:it="http://www.hibid.com/items" >
+
+        <xs:import schemaLocation="coinsImportMe.xsd" namespace="http://someimport.com"/>
+
+          
+
+        <xs:element name="coin">
+           <xs:complexType>
+              <xs:sequence>
+	         <xs:element name="description" type="it:description" />
+	         <xs:element name="dates_data" type="im:dates_data" />
+              </xs:sequence>
+	   </xs:complexType>
+  	</xs:element>
+
+           <xs:complexType name="description">
+              <xs:sequence>
+	         <xs:element name="info" type="xs:string" />
+              </xs:sequence>
+	   </xs:complexType>
+
+
+          <xs:simpleType name="yearType">
+           <xs:restriction base="xs:int">
+              <xs:enumeration value="1930" />
+              <xs:enumeration value="1949" />
+           </xs:restriction>
+        </xs:simpleType>
+
+        <xs:element name="YearInfo">
+           <xs:complexType>
+              <xs:sequence>
+                 <xs:element name="reMintYear" type="yearType" />
+              </xs:sequence>
+           </xs:complexType>
+        </xs:element>
+
+
+</xs:schema>

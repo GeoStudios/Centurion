@@ -1,0 +1,64 @@
+/*
+ * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2 only, as published
+ * by the Free Software Foundation. Geo-Studios designates this particular
+ * file as subject to the "Classpath" exception as provided
+ * by Geo-Studio in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License version 2 for more details (a copy is
+ * included in the LICENSE file that accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 2 along with this work; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+ * @test
+ * @bug 8245487
+ * @summary Check that if the VM rejects classes from packages starting with "java/", it will exit
+ *          cleanly after InstanceKlass::verify_on(), and not leave freed memory in _local_interfaces.
+ * @library /test/lib
+ * @compile BadClassPackage.jasm
+ * @run driver TestBadPackageWithInterface
+ */
+
+import java.io.InputStream;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+public class TestBadPackageWithInterface {
+    public static void main(String args[]) throws Throwable {
+        ProcessBuilder pb = ProcessTools.createJavaProcessBuilder(
+            "-cp", System.getProperty("test.classes"),
+            "-XX:+UnlockDiagnosticVMOptions",
+            "-XX:+VerifyBeforeExit", MyLoader.class.getName());
+        OutputAnalyzer oa = new OutputAnalyzer(pb.start());
+        oa.shouldHaveExitValue(0);
+
+    }
+
+    static class MyLoader extends ClassLoader {
+        public static void main(String args[]) throws Throwable {
+            try {
+                ClassLoader loader = TestBadPackageWithInterface.class.getClassLoader();
+                InputStream in = loader.getResourceAsStream("java/lang/BadClassPackage.class");
+                byte[] bytes = in.readAllBytes();
+
+                MyLoader myLoader = new MyLoader();
+                myLoader.defineClass(bytes, 0, bytes.length);
+            }
+            catch (SecurityException expected) {
+                System.out.println("Expected ==================================================");
+                expected.printStackTrace(System.out);
+                System.out.println("==================================================");
+            }
+        }
+    }
+}

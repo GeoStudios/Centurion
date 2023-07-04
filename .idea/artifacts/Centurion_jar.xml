@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact name="Centurion:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Centurion_jar</output-path>
+    <root id="root" />
+  </artifact>
+</component>
