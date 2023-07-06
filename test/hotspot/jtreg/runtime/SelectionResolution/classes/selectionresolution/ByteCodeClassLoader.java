@@ -21,23 +21,9 @@
 
 package selectionresolution;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ByteCodeClassLoader extends ClassLoader {
     ArrayList<ClassConstruct> classes = new ArrayList<>();
@@ -52,7 +38,6 @@ public class ByteCodeClassLoader extends ClassLoader {
             findClass(clazz.getDottedName());
         }
     }
-
 
     @Override
     public Class findClass(String name) throws ClassNotFoundException {

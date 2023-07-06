@@ -21,23 +21,9 @@
 
 package utils;
 
-
 import common.ToolResults;
 import java.text.NumberFormat;
 import java.text.ParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Results of running the jstat tool Concrete subclasses will detail the jstat

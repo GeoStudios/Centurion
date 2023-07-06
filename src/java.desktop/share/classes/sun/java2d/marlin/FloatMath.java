@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Faster Math ceil / floor routines derived from StrictMath
  */

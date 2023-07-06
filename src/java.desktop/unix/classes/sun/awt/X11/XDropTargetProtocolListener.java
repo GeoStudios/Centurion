@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface XDropTargetProtocolListener {
     void handleDropTargetNotification(XWindow xwindow, int x, int y,
                                       int dropAction, int actions,

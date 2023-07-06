@@ -21,23 +21,8 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.util.Properties;
 import java.sql.share.classes.java.util.concurrent.Executor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <P>A connection (session) with a specific
@@ -508,7 +493,6 @@ public interface Connection  extends Wrapper, AutoCloseable {
      */
     void clearWarnings() throws SQLException;
 
-
     //--------------------------JDBC 2.0-----------------------------
 
     /**
@@ -662,7 +646,6 @@ public interface Connection  extends Wrapper, AutoCloseable {
     void setTypeMap(java.util.Map<String,Class<?>> map) throws SQLException;
 
     //--------------------------JDBC 3.0-----------------------------
-
 
     /**
      * Changes the default holdability of {@code ResultSet} objects
@@ -889,7 +872,6 @@ public interface Connection  extends Wrapper, AutoCloseable {
     CallableStatement prepareCall(String sql, int resultSetType,
                                   int resultSetConcurrency,
                                   int resultSetHoldability) throws SQLException;
-
 
     /**
      * Creates a default {@code PreparedStatement} object that has
@@ -1443,7 +1425,6 @@ throws SQLException;
      * @see Executor
      */
     void setNetworkTimeout(Executor executor, int milliseconds) throws SQLException;
-
 
     /**
      * Retrieves the number of milliseconds the driver will

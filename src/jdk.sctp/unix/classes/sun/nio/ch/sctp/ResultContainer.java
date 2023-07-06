@@ -21,22 +21,7 @@
 
 package jdk.sctp.unix.classes.sun.nio.ch.sctp;
 
-
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Wraps the actual message or notification so that it can be

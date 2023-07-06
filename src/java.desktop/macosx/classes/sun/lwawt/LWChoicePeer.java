@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Point;
 import java.awt.Choice;
 import java.awt.event.ItemEvent;
@@ -31,20 +30,6 @@ import javax.accessibility.Accessible;
 import javax.swing.JComboBox;
 import javax.swing.SwingUtilities;
 import javax.swing.JPopupMenu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link ChoicePeer}. Delegates most of the work

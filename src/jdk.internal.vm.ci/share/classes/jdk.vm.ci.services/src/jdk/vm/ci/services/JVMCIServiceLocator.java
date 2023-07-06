@@ -21,25 +21,10 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services.Services.IS_BUILDING_NATIVE_IMAGE;.extended
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service-provider class for the runtime to locate providers of JVMCI services where the latter are

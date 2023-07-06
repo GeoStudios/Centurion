@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Manifest;
@@ -30,25 +29,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignatureFactory;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: NoSuchMechanismException.java,v 1.4 2005/05/10 15:47:42 mullan Exp $
  */
-
-
 
 /**
  * This exception is thrown when a particular XML mechanism is requested but

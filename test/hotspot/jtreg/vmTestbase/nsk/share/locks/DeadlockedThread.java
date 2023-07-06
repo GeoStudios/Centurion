@@ -21,21 +21,7 @@
 
 package nsk.share.locks;
 
-
 import nsk.share.Wicket;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Thread class used for deadlock creation, requires instance of DeadlockLocker to created deadlock.

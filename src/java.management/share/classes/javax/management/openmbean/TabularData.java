@@ -21,30 +21,14 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.util.Set;
 import java.util.Collection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // java import
 //
 
 // jmx import
 //
-
 
 /**
  * The {@code TabularData} interface specifies the behavior of a specific type of complex <i>open data</i> objects
@@ -53,9 +37,7 @@ import java.util.Collection;
  */
 public interface TabularData /*extends Map*/ {
 
-
     /* *** TabularData specific information methods *** */
-
 
     /**
      * Returns the <i>tabular type</i> describing this
@@ -64,7 +46,6 @@ public interface TabularData /*extends Map*/ {
      * @return the tabular type.
      */
     TabularType getTabularType();
-
 
     /**
      * Calculates the index that would be used in this {@code TabularData} instance to refer to the specified
@@ -85,9 +66,6 @@ public interface TabularData /*extends Map*/ {
      *                                    row type definition.
      */
     Object[] calculateIndex(CompositeData value) ;
-
-
-
 
     /* *** Content information query methods *** */
 
@@ -148,11 +126,7 @@ public interface TabularData /*extends Map*/ {
      */
     CompositeData get(Object[] key) ;
 
-
-
-
     /* *** Content modification operations (one element at a time) *** */
-
 
     /**
      * Adds <var>value</var> to this {@code TabularData} instance.
@@ -197,11 +171,7 @@ public interface TabularData /*extends Map*/ {
      */
     CompositeData remove(Object[] key) ;
 
-
-
-
     /* ***   Content modification bulk operations   *** */
-
 
     /**
      * Add all the elements in <var>values</var> to this {@code TabularData} instance.
@@ -228,11 +198,7 @@ public interface TabularData /*extends Map*/ {
      */
     void clear();
 
-
-
-
     /* ***   Collection views of the keys and values   *** */
-
 
     /**
      * Returns a set view of the keys (ie the index values) of the
@@ -259,11 +225,7 @@ public interface TabularData /*extends Map*/ {
      */
     Collection<?> values();
 
-
-
-
     /* ***  Commodity methods from java.lang.Object  *** */
-
 
     /**
      * Compares the specified <var>obj</var> parameter with this {@code TabularData} instance for equality.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Insets;
@@ -30,20 +29,6 @@ import java.awt.event.Mousejava.util.Listener;
 import java.awt.event.MouseMotionjava.util.Listener;
 import java.awt.image.BufferedImage;
 import java.desktop.share.classes.javax.swing.JComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class DiagramComponent extends JComponent implements MouseListener, MouseMotionListener {

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.DropTargetjava.util.Listener;
@@ -33,20 +32,6 @@ import java.util.*;
 import static java.desktop.unix.classes.sun.awt.X11.XEmbedHelper.*;.extended
 import java.security.AccessController;
 import java.desktop.unix.classes.sun.security.action.GetBooleanAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XEmbedCanvasPeer extends XCanvasPeer implements WindowFocusListener, KeyEventPostProcessor, ModalityListener, WindowIDProvider {
     private static final PlatformLogger xembedLog = PlatformLogger.getLogger("sun.awt.X11.xembed.XEmbedCanvasPeer");
@@ -492,7 +477,6 @@ public class XEmbedCanvasPeer extends XCanvasPeer implements WindowFocusListener
             XlibWrapper.unsafe.freeMemory(data);
         }
     }
-
 
     /**
      * Grab/ungrab key functionality is an unofficial API supported by

@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.Declaration;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
@@ -29,19 +28,6 @@ import jdk.test.lib.jittester.ProductionParams;
 import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class DeclarationFactory extends Factory<Declaration> {
     private final int operatorLimit;

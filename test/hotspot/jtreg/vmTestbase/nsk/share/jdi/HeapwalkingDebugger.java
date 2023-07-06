@@ -21,23 +21,9 @@
 
 package nsk.share.jdi;
 
-
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Debugger class used in tests for heapwalking(tests for VirtualMachine.instanceCounts, ReferenceType.instances, ObjectReference.referrers)

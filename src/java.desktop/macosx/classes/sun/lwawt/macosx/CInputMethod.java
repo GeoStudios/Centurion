@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.im.spi.*;
 import java.util.*;
 import java.awt.*;
@@ -38,20 +37,6 @@ import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.awt.im.InputMethodAdapter;
 import java.desktop.macosx.classes.sun.lwawt.*;
 import static java.desktop.macosx.classes.sun.awt.AWTAccessor.ComponentAccessor;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CInputMethod extends InputMethodAdapter {
     private InputMethodContext fIMContext;
@@ -99,7 +84,6 @@ public class CInputMethod extends InputMethodAdapter {
 
     public CInputMethod() {
     }
-
 
     /**
         * Sets the input method context, which is used to dispatch input method
@@ -230,7 +214,6 @@ public class CInputMethod extends InputMethodAdapter {
     public void dispatchEvent(final AWTEvent event) {
         // No-op for Mac OS X.
     }
-
 
     /**
      * Activate and deactivate are no-ops on Mac OS X.
@@ -799,7 +782,6 @@ public class CInputMethod extends InputMethodAdapter {
     {
         return nativeGetCurrentInputMethodInfo();
     }
-
 
     // =========================== Native methods ===========================
     // Note that if nativePeer isn't something that normally accepts keystrokes (i.e., a CPanel)

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.desktop.share.classes.sun.awt.FontConfiguration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Font support for graphics environment

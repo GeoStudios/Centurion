@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.table.*;
 import sun.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BasicTableHeaderUI implementation
@@ -800,7 +785,6 @@ public class BasicTableHeaderUI extends TableHeaderUI {
         }
         return new Dimension((int)width, getHeaderHeight());
     }
-
 
     /**
      * Return the minimum size of the header. The minimum width is the sum

@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.lang.annotation.Annotation;
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -33,20 +32,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.MetadataRepository;
 import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes an event, its fields, settings and annotations.

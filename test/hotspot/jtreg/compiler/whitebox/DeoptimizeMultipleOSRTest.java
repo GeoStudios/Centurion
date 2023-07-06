@@ -21,22 +21,8 @@
 
 package compiler.whitebox;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test DeoptimizeMultipleOSRTest
@@ -54,9 +40,6 @@ import java.lang.reflect.Method;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.DeoptimizeMultipleOSRTest::triggerOSR
  *                   compiler.whitebox.DeoptimizeMultipleOSRTest
  */
-
-
-
 
 public class DeoptimizeMultipleOSRTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

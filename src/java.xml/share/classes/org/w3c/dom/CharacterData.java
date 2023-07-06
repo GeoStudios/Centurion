@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>CharacterData</code> interface extends Node with a set of
  * attributes and methods for accessing character data in the DOM. For

@@ -21,22 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The interface for a DemoSurface that animates.
  */

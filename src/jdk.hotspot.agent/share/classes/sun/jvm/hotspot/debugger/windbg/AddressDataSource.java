@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
-
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AddressDataSource implements DataSource {
   public AddressDataSource(Address addr) {

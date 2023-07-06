@@ -21,22 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Common interface for all wrappings of snippet source to Java source.
  *

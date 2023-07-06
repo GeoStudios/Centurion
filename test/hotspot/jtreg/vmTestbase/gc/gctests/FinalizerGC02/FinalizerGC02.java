@@ -21,21 +21,7 @@
 
 package gc.gctests.FinalizerGC02;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm gc.gctests.FinalizerGC02.FinalizerGC02
  */
-
-
 
 class node {
     byte [] arr;
@@ -105,7 +89,6 @@ class CircularLinkedList{
      FinalizerGC02.listHolder.buildNMegList(1);
    }
 }
-
 
 public class FinalizerGC02 {
 

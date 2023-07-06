@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>The standard mapping in the Java programming language for an SQL
  * structured type. A {@code Struct} object contains a

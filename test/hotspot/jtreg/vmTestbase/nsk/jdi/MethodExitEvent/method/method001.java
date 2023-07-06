@@ -21,7 +21,6 @@
 
 package nsk.jdi.MethodExitEvent.method;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -32,19 +31,6 @@ import java.lang.Thread;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugger application in the test
 public class method001 {

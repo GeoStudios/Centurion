@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.CYAN;.extended
@@ -43,20 +42,6 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Compositing shapes on images.

@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * INVOKESPECIAL - Invoke instance method; special handling for superclass, private
@@ -68,11 +50,9 @@ public class INVOKESPECIAL extends InvokeInstruction {
     INVOKESPECIAL() {
     }
 
-
     public INVOKESPECIAL(final int index) {
         super(Const.INVOKESPECIAL, index);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -92,7 +72,6 @@ public class INVOKESPECIAL extends InvokeInstruction {
             ExceptionConst.ABSTRACT_METHOD_ERROR,
             ExceptionConst.UNSATISFIED_LINK_ERROR);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

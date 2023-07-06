@@ -21,24 +21,10 @@
 
 package nsk.jdb.classes.classes001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class classes001a {
@@ -50,7 +36,6 @@ public class classes001a {
        classes001a _classes001a = new classes001a();
        System.exit(classes001.JCK_STATUS_BASE + _classes001a.runIt(args, System.out));
     }
-
 
     static void lastBreak () {}
 

@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6885584
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm -Xbatch compiler.c2.Test6885584
  */
-
 
 public class Test6885584 {
    static private int i1;

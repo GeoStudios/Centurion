@@ -21,23 +21,8 @@
 
 package java.rmi.share.classes.java.rmi.registry;
 
-
 import java.rmi.share.classes.java.rmi.RemoteException;
 import java.rmi.share.classes.java.rmi.UnknownHostException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>RegistryHandler</code> is an interface used internally by the RMI

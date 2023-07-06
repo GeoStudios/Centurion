@@ -21,22 +21,7 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface of an event from a HotSpot compilation log. Events can have a

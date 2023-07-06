@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
-
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import sun.security.util.DerValue;
 import sun.security.util.DerOutputStream;
 import sun.security.util.ObjectIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents Universal Object Identifiers (Oids) and their
@@ -103,7 +88,6 @@ public class Oid {
                           "Improperly formatted ASN.1 DER encoding for Oid");
         }
     }
-
 
     /**
      * Creates an Oid object from its ASN.1 DER encoding.  This refers to
@@ -173,7 +157,6 @@ public class Oid {
             return false;
     }
 
-
     /**
      * Returns the full ASN.1 DER encoding for this oid object, which
      * includes the tag and length.
@@ -212,7 +195,6 @@ public class Oid {
 
         return (false);
     }
-
 
     /**
      * Returns a hashcode value for this Oid.

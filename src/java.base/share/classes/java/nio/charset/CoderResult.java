@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.nio.charset;
 
-
 import java.base.share.classes.java.nio.BufferOverflowException;
 import java.base.share.classes.java.nio.BufferUnderflowException;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A description of the result state of a coder.

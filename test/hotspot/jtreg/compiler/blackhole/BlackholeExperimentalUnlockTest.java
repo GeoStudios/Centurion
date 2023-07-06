@@ -21,7 +21,6 @@
 
 package compiler.blackhole;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -30,27 +29,12 @@ import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @library /test/lib /
  * @requires vm.flagless
  * @run driver compiler.blackhole.BlackholeExperimentalUnlockTest
  */
-
-
 
 public class BlackholeExperimentalUnlockTest {
 

@@ -21,25 +21,10 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Result of a query for buffered notifications.  Notifications in

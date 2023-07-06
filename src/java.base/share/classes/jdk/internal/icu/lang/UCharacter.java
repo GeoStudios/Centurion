@@ -21,26 +21,11 @@
 
 package java.base.share.classes.jdk.internal.icu.lang;
 
-
 import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
 import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
 import java.base.share.classes.jdk.internal.icu.text.Normalizer2;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The UCharacter class provides extensions to the

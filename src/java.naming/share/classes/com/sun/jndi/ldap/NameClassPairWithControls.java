@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import javax.naming.*;
 import javax.naming.ldap.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class NameClassPairWithControls extends NameClassPair implements HasControls {
     private final Control[] controls;

@@ -21,7 +21,6 @@
 
 package test.sql;
 
-
 import java.sql.ClientInfoStatus;
 import java.sql.SQLClientInfoException;
 import java.sql.SQLException;
@@ -29,19 +28,6 @@ import java.util.HashMap;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SQLClientInfoExceptionTests extends BaseTest {
 

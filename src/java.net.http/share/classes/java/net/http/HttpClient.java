@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
 import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.net.http.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.http.share.classes.java.nio.channels.Selector;
@@ -42,20 +41,6 @@ import javax.net.ssl.SSLParameters;
 import java.net.http.share.classes.java.net.http.HttpResponse.BodyHandler;
 import java.net.http.share.classes.java.net.http.HttpResponse.PushPromiseHandler;
 import jdk.internal.net.http.HttpClientBuilderImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An HTTP Client.
@@ -204,7 +189,6 @@ public abstract class HttpClient {
          * {@link HttpClient} that uses no proxy.
          */
         ProxySelector NO_PROXY = ProxySelector.of(null);
-
 
         /**
          * Sets a cookie handler.
@@ -376,7 +360,6 @@ public abstract class HttpClient {
          */
         HttpClient build();
     }
-
 
     /**
      * Returns an {@code Optional} containing this client's {@link

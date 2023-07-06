@@ -21,24 +21,9 @@
 
 package java.base.windows.classes.sun.net.dns;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * An implementation of sun.net.ResolverConfiguration for Windows.
@@ -192,7 +177,6 @@ public class ResolverConfigurationImpl
             }
         }
     }
-
 
     // --- Native methods --
 

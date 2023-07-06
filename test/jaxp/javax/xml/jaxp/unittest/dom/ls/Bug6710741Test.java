@@ -21,7 +21,6 @@
 
 package dom.ls;
 
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.testng.Assert;
@@ -31,19 +30,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

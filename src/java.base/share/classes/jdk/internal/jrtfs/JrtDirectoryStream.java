@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.nio.file.DirectoryStream;
 import java.nio.file.ClosedDirectoryStreamException;
 import java.nio.file.DirectoryIteratorException;
@@ -31,20 +30,6 @@ import java.util.Iterator;
 import java.base.share.classes.java.util.Objects;
 import java.util.NoSuchElementException;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DirectoryStream implementation for jrt file system implementations.

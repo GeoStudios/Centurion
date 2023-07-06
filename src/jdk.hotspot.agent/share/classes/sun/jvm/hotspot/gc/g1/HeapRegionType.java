@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
@@ -30,20 +29,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Mirror class for HeapRegionType. Currently we don't actually include
 // any of its fields but only iterate over it.

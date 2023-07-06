@@ -21,26 +21,11 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
-
 import utils.IdealGraphVisualizer.Data.src.test.java.util.java.util.java.util.java.util.Arrays;
 import utils.IdealGraphVisualizer.Data.src.test.java.util.LinkedHashSet;
 import utils.IdealGraphVisualizer.Data.src.test.java.util.java.util.java.util.java.util.List;
 import static org.junit.Assert.assertEquals;.extended
 import org.junit.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

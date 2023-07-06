@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
@@ -38,20 +37,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.NamespaceMappings;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Nov 2019
@@ -71,11 +56,9 @@ public class DOM2TO implements XMLReader, Locator2 {
      */
     private final SerializationHandler _handler;
 
-
     private String xmlVersion = null;
 
     private String xmlEncoding = null;
-
 
     public DOM2TO(Node root, SerializationHandler handler) {
         _dom = root;
@@ -383,7 +366,6 @@ public class DOM2TO implements XMLReader, Locator2 {
     public String getSystemId() {
         return null;
     }
-
 
     private void setDocumentInfo(Document document) {
         if (!document.getXmlStandalone())

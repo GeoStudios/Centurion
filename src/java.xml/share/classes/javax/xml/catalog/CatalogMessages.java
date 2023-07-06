@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.net.URI;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Catalog Error messages

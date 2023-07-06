@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Equality of instructions isn't clearly to be defined. You might
@@ -80,7 +63,6 @@ public interface InstructionComparator {
         }
         return false;
     };
-
 
     boolean equals( Instruction i1, Instruction i2 );
 }

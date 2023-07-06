@@ -21,21 +21,6 @@
 
 package nsk.share.gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An object with two fields of same type.
  */

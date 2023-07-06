@@ -21,7 +21,6 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.main;
 
-
 import jdk.jpackage.share.classes.jdk.jpackage.internal.Arguments;
 import jdk.jpackage.share.classes.jdk.jpackage.internal.Log;
 import jdk.jpackage.share.classes.jdk.jpackage.internal.CLIHelp;
@@ -30,20 +29,6 @@ import java.util.ResourceBundle;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Main {
 

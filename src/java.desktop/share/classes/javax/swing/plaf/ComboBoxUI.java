@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.desktop.share.classes.javax.swing.JComboBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pluggable look and feel interface for JComboBox.

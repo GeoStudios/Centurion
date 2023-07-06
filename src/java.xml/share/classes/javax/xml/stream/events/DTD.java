@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the top level interface for events dealing with DTDs

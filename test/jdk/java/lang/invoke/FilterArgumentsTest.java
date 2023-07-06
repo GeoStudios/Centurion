@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -31,28 +30,11 @@ import static java.lang.invoke.MethodType.methodType;.extended
 import org.testng.annotations.*;
 import static org.testng.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8194554
  * @run testng/othervm test.java.lang.invoke.FilterArgumentsTest
  */
-
-
-
-
 
 public class FilterArgumentsTest {
 

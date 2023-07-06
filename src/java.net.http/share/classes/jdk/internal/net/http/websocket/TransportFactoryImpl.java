@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TransportFactoryImpl implements TransportFactory {
 
     private final RawChannel channel;

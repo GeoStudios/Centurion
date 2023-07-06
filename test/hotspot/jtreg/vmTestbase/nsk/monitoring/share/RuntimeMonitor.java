@@ -21,23 +21,9 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>RuntimeMonitor</code> class is a wrapper of <code>RuntimeMXBean</code>.

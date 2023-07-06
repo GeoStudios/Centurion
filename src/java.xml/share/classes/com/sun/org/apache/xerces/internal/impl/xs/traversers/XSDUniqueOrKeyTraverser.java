@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identit
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.UniqueOrKey;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains code that is used to traverse both <key>s and
@@ -58,7 +43,6 @@ class XSDUniqueOrKeyTraverser extends XSDAbstractIDConstraintTraverser {
                                   XSAttributeChecker gAttrCheck) {
         super(handler, gAttrCheck);
     }
-
 
     void traverse(Element uElem, XSElementDecl element,
             XSDocumentInfo schemaDoc, SchemaGrammar grammar) {

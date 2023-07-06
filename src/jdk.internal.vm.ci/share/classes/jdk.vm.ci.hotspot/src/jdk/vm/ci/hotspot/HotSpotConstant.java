@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Constant;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Marker interface for hotspot specific constants.

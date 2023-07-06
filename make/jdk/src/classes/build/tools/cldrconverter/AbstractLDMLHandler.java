@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is an abstract class for general LDML parsing purpose.
  * LDMLParseHandler, SupplementLDMLParseHandler, and NumberingLDMLParseHandler
@@ -199,7 +149,6 @@ abstract class AbstractLDMLHandler<V> extends DefaultHandler {
             currentContainer = new StringListElement(qName, currentContainer, index, count);
         }
     }
-
 
     private boolean pushIfIgnored(String qName, Attributes attributes) {
         if (isIgnored(attributes) || currentContainer instanceof IgnoredContainer) {

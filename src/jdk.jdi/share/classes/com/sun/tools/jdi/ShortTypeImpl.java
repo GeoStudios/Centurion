@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
 import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
 import jdk.jdi.share.classes.com.sun.jdi.ShortType;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ShortTypeImpl extends PrimitiveTypeImpl implements ShortType {
 

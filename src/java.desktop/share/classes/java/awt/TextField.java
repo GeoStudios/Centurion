@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.ActionEvent;
 import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.TextFieldPeer;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code TextField} object is a text component
@@ -341,7 +326,6 @@ public class TextField extends TextComponent {
         }
         return text;
     }
-
 
     /**
      * Indicates whether or not this text field has a
@@ -676,7 +660,6 @@ public class TextField extends TextComponent {
         return str;
     }
 
-
     /*
      * Serialization support.
      */
@@ -757,11 +740,9 @@ public class TextField extends TextComponent {
         }
     }
 
-
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the AccessibleContext associated with this TextField.

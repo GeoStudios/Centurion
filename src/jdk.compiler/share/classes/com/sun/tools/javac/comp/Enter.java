@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.Map;
 import java.util.Optional;
 import javax.tools.JavaFileObject;
@@ -42,20 +41,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Diagnost
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class enters symbols for all encountered definitions into
  *  the symbol table. The pass consists of high-level two phases,
@@ -189,7 +174,6 @@ public class Enter extends JCTree.Visitor {
  * environment construction
  *************************************************************************/
 
-
     /** Create a fresh environment for class bodies.
      *  This will create a fresh scope for local symbols of a class, referred
      *  to by the environments info.scope field.
@@ -266,7 +250,6 @@ public class Enter extends JCTree.Visitor {
                                    // when annotations have been processed
         return localEnv;
     }
-
 
 /* ************************************************************************
  * Visitor methods for phase 1: class enter

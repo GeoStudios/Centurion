@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.io.ObjectStreamField;
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.security.AccessControlContext;
@@ -39,20 +38,6 @@ import jdk.internal.util.random.RandomSupport.*;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.misc.VM;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -66,9 +51,6 @@ import jdk.internal.misc.VM;
  * Additional modifications by Guy Steele in 2019 to refactor the code
  * and to implement the {@link RandomGenerator} interface.
  */
-
-
-
 
 /**
  * A random number generator (with period 2<sup>64</sup>) isolated

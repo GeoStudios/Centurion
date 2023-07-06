@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Defines a document filter that acts as both a receiver and an emitter
@@ -53,6 +36,5 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocument
  */
 public interface XMLDocumentFilter
     extends XMLDocumentHandler, XMLDocumentSource {
-
 
 } // interface XMLDocumentFilter

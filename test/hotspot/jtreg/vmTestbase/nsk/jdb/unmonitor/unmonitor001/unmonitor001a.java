@@ -21,29 +21,12 @@
 
 package nsk.jdb.unmonitor.unmonitor001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    THIS TEST IS LINE NUMBER SENSITIVE
-
-
-
 
 /* This is debuggee aplication */
 public class unmonitor001a {

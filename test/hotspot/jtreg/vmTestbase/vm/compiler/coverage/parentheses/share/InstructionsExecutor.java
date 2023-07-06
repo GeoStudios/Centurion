@@ -21,21 +21,7 @@
 
 package vm.compiler.coverage.parentheses.share;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base interface for instructions executors:

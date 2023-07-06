@@ -21,27 +21,12 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.function.IntUnaryOperator;
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("cast")
 abstract class AbstractVector<E> extends Vector<E> {
@@ -188,7 +173,6 @@ abstract class AbstractVector<E> extends Vector<E> {
     ByteVector asByteVectorRawTemplate() {
         return (ByteVector) asVectorRawTemplate(LaneType.BYTE);
     }
-
 
     abstract AbstractMask<E> maskFromArray(boolean[] bits);
 

@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -90,20 +89,6 @@ import java.desktop.windows.classes.sun.java2d.Disposer;
 import java.desktop.windows.classes.sun.java2d.DisposerRecord;
 import java.desktop.windows.classes.sun.java2d.DisposerTarget;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class which initiates and executes a Win32 printer job.
  *
@@ -112,7 +97,6 @@ public final class WPrinterJob extends RasterPrinterJob
         implements DisposerTarget {
 
  /* Class Constants */
-
 
 /* Instance Variables */
 
@@ -205,7 +189,6 @@ public final class WPrinterJob extends RasterPrinterJob
      * Pageable MAX pages
      */
     private static final int MAX_UNKNOWN_PAGES = 9999;
-
 
     /* Collation and copy flags.
      * The Windows PRINTDLG struct has a nCopies field which on return
@@ -470,7 +453,6 @@ public final class WPrinterJob extends RasterPrinterJob
             return page;
         }
     }
-
 
     private boolean displayNativeDialog() {
         // "attributes" is required for getting the updated attributes
@@ -822,7 +804,6 @@ public final class WPrinterJob extends RasterPrinterJob
         return pathGraphics;
     }
 
-
     @Override
     protected double getXRes() {
         if (mAttXRes != 0) {
@@ -1075,7 +1056,6 @@ public final class WPrinterJob extends RasterPrinterJob
         return getPenX(getPrintDC());
     }
 
-
     /**
      * Return the y coordinate of the current pen
      * position in the print device context.
@@ -1093,7 +1073,6 @@ public final class WPrinterJob extends RasterPrinterJob
         selectClipPath(getPrintDC());
     }
 
-
     protected void frameRect(float x, float y, float width, float height) {
         frameRect(getPrintDC(), x, y, width, height);
     }
@@ -1108,7 +1087,6 @@ public final class WPrinterJob extends RasterPrinterJob
                  (int) (rgb[2] * MAX_WCOLOR));
     }
 
-
     protected void selectPen(float width, Color color) {
 
         float[] rgb = color.getRGBColorComponents(null);
@@ -1118,7 +1096,6 @@ public final class WPrinterJob extends RasterPrinterJob
                   (int) (rgb[1] * MAX_WCOLOR),
                   (int) (rgb[2] * MAX_WCOLOR));
     }
-
 
     protected boolean selectStylePen(int cap, int join, float width,
                                      Color color) {
@@ -1253,7 +1230,6 @@ public final class WPrinterJob extends RasterPrinterJob
         textOut(getPrintDC(), glyphStr, glyphs.length, true, x, y, positions);
     }
 
-
     /**
      * Get the advance of this text that GDI returns for the
      * font currently selected into the GDI device context for
@@ -1288,7 +1264,6 @@ public final class WPrinterJob extends RasterPrinterJob
                                      float destWidth, float destHeight,
                                      float srcX, float srcY,
                                      float srcWidth, float srcHeight) {
-
 
         drawDIBImage(getPrintDC(), image,
                      destX, destY,
@@ -1389,7 +1364,6 @@ public final class WPrinterJob extends RasterPrinterJob
         mAttCopies = copies;
         setNativeCopies(copies);
     }
-
 
  /* Native Methods */
 
@@ -1626,13 +1600,11 @@ public final class WPrinterJob extends RasterPrinterJob
                                      int rotation,
                                      float awScale);
 
-
     /**
      * Set the GDI color for text drawing.
      */
     protected native void setTextColor(long printDC,
                                        int red, int green, int blue);
-
 
     /**
      * Draw the string {@code text} into the device
@@ -1642,7 +1614,6 @@ public final class WPrinterJob extends RasterPrinterJob
     protected native void textOut(long printDC, String text,
                                   int strlen, boolean glyphs,
                                   float x, float y, float[] positions);
-
 
     private native int getGDIAdvance(long printDC, String text);
 
@@ -1667,7 +1638,6 @@ public final class WPrinterJob extends RasterPrinterJob
                                      float srcX, float srcY,
                                      float srcWidth, float srcHeight,
                                      int bitCount, byte[] bmiColors);
-
 
     //** BEGIN Functions called by native code for querying/updating attributes
 
@@ -1752,8 +1722,6 @@ public final class WPrinterJob extends RasterPrinterJob
             mAttCopies = copies;
         }
     }
-
-
 
     private boolean getDestAttrib() {
         return (mDestination != null);
@@ -1902,8 +1870,6 @@ public final class WPrinterJob extends RasterPrinterJob
     private int getMediaTrayAttrib() {
         return mAttMediaTray;
     }
-
-
 
     private boolean getPrintToFileEnabled() {
         @SuppressWarnings("removal")
@@ -2328,9 +2294,6 @@ class PrintToFileErrorDialog extends Dialog implements ActionListener{
         dispose();
     }
 }
-
-
-
 
     /**
      * Initialize JNI field and method ids

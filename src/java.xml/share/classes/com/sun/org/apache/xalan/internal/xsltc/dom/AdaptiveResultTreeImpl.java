@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
@@ -38,20 +37,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.u
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AdaptiveResultTreeImpl is a adaptive DOM model for result tree fragments (RTF). It is
@@ -111,7 +96,6 @@ public class AdaptiveResultTreeImpl extends SimpleResultTreeImpl
 
     // The element name
     private String _openElementName;
-
 
     // Create a AdaptiveResultTreeImpl
     public AdaptiveResultTreeImpl(XSLTCDTMManager dtmManager, int documentID,
@@ -592,7 +576,6 @@ public class AdaptiveResultTreeImpl extends SimpleResultTreeImpl
                 String uri =_dom.getNamespaceURI(_openElementName.substring(0,index));
                 _dom.startElement(uri, _openElementName.substring(index+1), _openElementName, _attributes);
            }
-
 
             _openElementName = null;
         }

@@ -21,7 +21,6 @@
 
 package nsk.jvmti.ResourceExhausted;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.PrintStream;
@@ -31,19 +30,6 @@ import java.util.regex.Matcher;
 import nsk.share.Consts;
 import nsk.share.test.Stresser;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class resexhausted003 {
 
@@ -72,7 +58,6 @@ public class resexhausted003 {
         Node next;
     };
 
-
     static byte[] fileBytes(String fileName) {
         try {
             File f = new File(fileName);
@@ -89,7 +74,6 @@ public class resexhausted003 {
             throw new RuntimeException("Exception when reading file '" + fileName + "'", e);
         }
     }
-
 
     public static int run(String args[], PrintStream out) {
         String testclasspath = System.getProperty("test.class.path");

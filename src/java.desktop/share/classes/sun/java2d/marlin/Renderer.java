@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import static java.desktop.share.classes.sun.java2d.marlin.OffHeapArray.SIZE_INT;.extended
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Renderer implements DPathConsumer2D, MarlinConst {
 
@@ -417,7 +402,6 @@ final class Renderer implements DPathConsumer2D, MarlinConst {
             }
             _edges.resize(edgeNewSize);
         }
-
 
         final Unsafe _unsafe = OffHeapArray.UNSAFE;
         final long SIZE_INT = 4L;
@@ -838,7 +822,6 @@ final class Renderer implements DPathConsumer2D, MarlinConst {
 
         int lastY = -1; // last emited row
 
-
         // Iteration on scanlines
         for (; y < ymax; y++, bucket++) {
             // --- from former ScanLineIterator.next()
@@ -949,7 +932,6 @@ final class Renderer implements DPathConsumer2D, MarlinConst {
                     }
                 } // ptrLen != 0
             } // bucketCount != 0
-
 
             if (numCrossings != 0) {
                 /*
@@ -1144,7 +1126,6 @@ final class Renderer implements DPathConsumer2D, MarlinConst {
                 ptrLen = 0;
                 // --- from former ScanLineIterator.next()
 
-
                 /* note: bboxx0 and bboxx1 must be pixel boundaries
                    to have correct coverage computation */
 
@@ -1159,7 +1140,6 @@ final class Renderer implements DPathConsumer2D, MarlinConst {
                 if (x1 > maxX) {
                     maxX = x1; // subpixel coordinate
                 }
-
 
                 // compute pixel coverages
                 prev = curx = x0;

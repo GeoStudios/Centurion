@@ -21,7 +21,6 @@
 
 package test.auctionportal;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static jaxp.library.JAXPTestUtilities.bomStream;.extended
 import static org.testng.Assert.assertEquals;.extended
@@ -60,19 +59,6 @@ import org.w3c.dom.TypeInfo;
 import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSSerializer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the user controller  class for the Auction portal HiBid.com.
@@ -197,7 +183,6 @@ public class AuctionController {
         assertEquals(data, "dd");
     }
 
-
     /**
      * Check the UTF-16 XMLEncoding xml file.
      *
@@ -285,7 +270,6 @@ public class AuctionController {
             assertFalse(eh.isAnyError());
         }
     }
-
 
     /**
      * Check for the same imported schemas but will use SAXParserFactory and try

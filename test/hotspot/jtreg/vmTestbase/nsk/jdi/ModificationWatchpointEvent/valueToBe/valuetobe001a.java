@@ -21,23 +21,9 @@
 
 package nsk.jdi.ModificationWatchpointEvent.valueToBe;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugged application in the test
 
@@ -51,7 +37,6 @@ class valuetobe001a {
     static final String COMMAND_QUIT  = "quit";
     static final String COMMAND_GO    = "go";
     static final String COMMAND_DONE  = "done";
-
 
     public static void main(String args[]) {
         System.exit(JCK_STATUS_BASE + run(args));

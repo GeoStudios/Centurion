@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;.extended
@@ -49,20 +48,6 @@ import java.base.share.classes.java.time.temporal.TemporalQuery;
 import java.base.share.classes.java.time.temporal.TemporalUnit;
 import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.base.share.classes.java.time.temporal.ValueRange;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date in the Hijrah calendar system.

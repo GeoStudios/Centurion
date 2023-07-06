@@ -21,21 +21,6 @@
 
 package compiler.jvmci.common.testcases;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface MultipleImplementersInterfaceExtender
         extends MultipleImplementersInterface {
     // provide default implementation for parent interface

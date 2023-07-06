@@ -21,24 +21,9 @@
 
 package java.scripting.share.classes.javax.script;
 
-
 import java.io.Reader;
 import java.util.Map;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>ScriptEngine</code> is the fundamental interface whose methods must be
@@ -103,7 +88,6 @@ public interface ScriptEngine  {
      */
     String LANGUAGE_VERSION ="javax.script.language_version";
 
-
     /**
      * Causes the immediate execution of the script whose source is the String
      * passed as the first argument.  The script may be reparsed or recompiled before
@@ -129,7 +113,6 @@ public interface ScriptEngine  {
      * @throws NullPointerException if either argument is null.
      */
     Object eval(String script, ScriptContext context) throws ScriptException;
-
 
     /**
      * Same as <code>eval(String, ScriptContext)</code> where the source of the script
@@ -215,8 +198,6 @@ public interface ScriptEngine  {
      */
     Object eval(Reader reader , Bindings n) throws ScriptException;
 
-
-
     /**
      * Sets a key/value pair in the state of the ScriptEngine that may either create
      * a Java Language Binding to be used in the execution of scripts or be used in some
@@ -231,7 +212,6 @@ public interface ScriptEngine  {
      */
     void put(String key, Object value);
 
-
     /**
      * Retrieves a value set in the state of this engine.  The value might be one
      * which was set using <code>setValue</code> or some other value in the state
@@ -245,7 +225,6 @@ public interface ScriptEngine  {
      * @throws IllegalArgumentException if key is empty.
      */
     Object get(String key);
-
 
     /**
      * Returns a scope of named values.  The possible scopes are:
@@ -306,14 +285,12 @@ public interface ScriptEngine  {
      */
     void setBindings(Bindings bindings, int scope);
 
-
     /**
      * Returns an uninitialized <code>Bindings</code>.
      *
      * @return A <code>Bindings</code> that can be used to replace the state of this <code>ScriptEngine</code>.
      **/
     Bindings createBindings();
-
 
     /**
      * Returns the default <code>ScriptContext</code> of the <code>ScriptEngine</code> whose Bindings, Reader

@@ -21,22 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5.internal;
 
-
 import org.ietf.jgss.ChannelBinding;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TLS Channel Binding wrapper class to determine internal

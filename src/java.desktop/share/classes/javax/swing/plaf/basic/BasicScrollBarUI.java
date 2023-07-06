@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.awt.*;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import static sun.swing.SwingUtilities2.drawHLine;.extended
 import static sun.swing.SwingUtilities2.drawRect;.extended
 import static sun.swing.SwingUtilities2.drawVLine;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of ScrollBarUI for the Basic Look and Feel
@@ -430,7 +415,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     private Handler getHandler() {
         if (handler == null) {
             handler = new Handler();
@@ -513,7 +497,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     /**
      * A vertical scrollbar's preferred width is the maximum of
      * preferred widths of the (non <code>null</code>)
@@ -535,7 +518,6 @@ public class BasicScrollBarUI
             ? new Dimension(scrollBarWidth, 48)
             : new Dimension(48, scrollBarWidth);
     }
-
 
     /**
      * @param c The JScrollBar that's delegating this method to us.
@@ -573,7 +555,6 @@ public class BasicScrollBarUI
                                     UIManager.getColor("ScrollBar.thumbHighlight"));
     }
 
-
     /**
      * Paints the decrease highlight.
      * @param g the graphics
@@ -608,7 +589,6 @@ public class BasicScrollBarUI
             g.fillRect(x, y, w, h);
         }
     }
-
 
     /**
      * Paints the increase highlight.
@@ -645,7 +625,6 @@ public class BasicScrollBarUI
             g.fillRect(x, y, w, h);
         }
     }
-
 
     /**
      * Paints the track.
@@ -699,7 +678,6 @@ public class BasicScrollBarUI
         g.translate(-thumbBounds.x, -thumbBounds.y);
     }
 
-
     /**
      * Returns the smallest acceptable size for the thumb.  If the scrollbar
      * becomes so small that this size isn't available, the thumb will be
@@ -729,7 +707,6 @@ public class BasicScrollBarUI
     protected Dimension getMaximumThumbSize()   {
         return maximumThumbSize;
     }
-
 
     /*
      * LayoutManager Implementation
@@ -987,7 +964,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     /**
      * Set the bounds of the thumb and force a repaint that includes
      * the old thumbBounds and the new one.
@@ -1025,7 +1001,6 @@ public class BasicScrollBarUI
         setThumbRollover(false);
     }
 
-
     /**
      * Return the current size/location of the thumb.
      * <p>
@@ -1038,7 +1013,6 @@ public class BasicScrollBarUI
     protected Rectangle getThumbBounds() {
         return thumbRect;
     }
-
 
     /**
      * Returns the current bounds of the track, i.e. the space in between
@@ -1186,7 +1160,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     /**
      * Track mouse drags.
      */
@@ -1229,7 +1202,6 @@ public class BasicScrollBarUI
             useCachedValue = true;
             scrollbar.setValueIsAdjusting(false);
         }
-
 
         /**
          * If the mouse is pressed above the "thumb" component
@@ -1319,7 +1291,6 @@ public class BasicScrollBarUI
             scrollListener.setScrollByBlock(true);
             startScrollTimerIfNecessary();
         }
-
 
         /**
          * Set the models value to the position of the thumb's top of Vertical
@@ -1491,7 +1462,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     /**
      * Listener for cursor keys.
      */
@@ -1533,7 +1503,6 @@ public class BasicScrollBarUI
             scrollbar.setValueIsAdjusting(false);
         }
     }
-
 
     /**
      * Listener for scrolling events initiated in the
@@ -1655,7 +1624,6 @@ public class BasicScrollBarUI
         scrollbar.repaint(getThumbBounds());
     }
 
-
     /** Property change handler */
     public class PropertyChangeHandler implements PropertyChangeListener
     {
@@ -1673,7 +1641,6 @@ public class BasicScrollBarUI
             getHandler().propertyChange(e);
         }
     }
-
 
     /**
      * Used for scrolling the scrollbar.
@@ -1750,7 +1717,6 @@ public class BasicScrollBarUI
         }
     }
 
-
     //
     // EventHandler
     //
@@ -1765,7 +1731,6 @@ public class BasicScrollBarUI
         public void focusLost(FocusEvent e) {
             scrollbar.repaint();
         }
-
 
         //
         // PropertyChangeListener

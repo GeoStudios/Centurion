@@ -21,22 +21,8 @@
 
 package vm.share.gc;
 
-
 import sun.hotspot.WhiteBox;
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TriggerUnloadingWithWhiteBox implements TriggerUnloadingHelper {
 

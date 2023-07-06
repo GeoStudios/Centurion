@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the look and feel implementation for

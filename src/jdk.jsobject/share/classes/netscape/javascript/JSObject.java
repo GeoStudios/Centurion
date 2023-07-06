@@ -21,25 +21,10 @@
 
 package jdk.jsobject.share.classes.netscape.javascript;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Iterator;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

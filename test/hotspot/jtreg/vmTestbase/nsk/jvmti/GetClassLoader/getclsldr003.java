@@ -21,22 +21,8 @@
 
 package nsk.jvmti.GetClassLoader;
 
-
 import java.io.*;
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getclsldr003 {
 

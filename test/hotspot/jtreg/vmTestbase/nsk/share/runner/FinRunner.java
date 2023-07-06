@@ -21,21 +21,6 @@
 
 package nsk.share.runner;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Helper that calls System.runFinalization().
  */

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.security.SecureRandom;
 import java.security.InvalidParameterException;
 import java.security.InvalidAlgorithmParameterException;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Arrays;
 import javax.crypto.KeyGeneratorSpi;
 import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class generates a secret key for use with the HMAC-MD5 algorithm.

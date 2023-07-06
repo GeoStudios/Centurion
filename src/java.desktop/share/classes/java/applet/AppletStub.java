@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.applet;
 
-
 import java.desktop.share.classes.java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * When an applet is first created, an applet stub is attached to it using the

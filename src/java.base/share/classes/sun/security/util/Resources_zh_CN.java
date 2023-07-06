@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents the <code>ResourceBundle</code>
  * for javax.security.auth and sun.security.
@@ -168,7 +152,6 @@ public class Resources_zh_CN extends java.util.ListResourceBundle {
         {"unable.to.instantiate.Subject.based.policy",
                 "\u65E0\u6CD5\u5B9E\u4F8B\u5316\u57FA\u4E8E\u4E3B\u9898\u7684\u7B56\u7565"}
     };
-
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

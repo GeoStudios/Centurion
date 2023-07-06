@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.color;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class is used to serve as a color space tag to identify the
@@ -256,7 +241,6 @@ public abstract class ColorSpace implements Serializable {
      * Generic 15 component color spaces.
      */
     @Native public static final int TYPE_FCLR = 25;
-
 
     /**
      * The built-in sRGB color space defined at

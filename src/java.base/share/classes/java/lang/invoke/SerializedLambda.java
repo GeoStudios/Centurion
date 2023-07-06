@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectStreamException;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedActionException;
 import java.base.share.classes.java.security.PrivilegedExceptionAction;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Serialized form of a lambda expression.  The properties of this class

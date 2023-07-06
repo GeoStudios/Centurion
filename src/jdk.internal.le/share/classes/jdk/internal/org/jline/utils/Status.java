@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.util.Collections;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -30,20 +29,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.AbstractTerminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Status {
 
@@ -67,7 +52,6 @@ public class Status {
                 ? ((AbstractTerminal) terminal).getStatus(create)
                 : null;
     }
-
 
     public Status(AbstractTerminal terminal) {
         this.terminal = Objects.requireNonNull(terminal, "terminal can not be null");

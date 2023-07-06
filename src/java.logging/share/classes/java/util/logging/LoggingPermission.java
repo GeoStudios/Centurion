@@ -21,22 +21,7 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
 import java.logging.share.classes.java.security.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The permission which the SecurityManager will check when code

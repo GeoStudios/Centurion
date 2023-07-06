@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8027571
@@ -46,7 +31,6 @@ package compiler.types;
  *                   -XX:-BackgroundCompilation
  *                   compiler.types.TestMeetTopArrayExactConstantArray
  */
-
 
 public class TestMeetTopArrayExactConstantArray {
 

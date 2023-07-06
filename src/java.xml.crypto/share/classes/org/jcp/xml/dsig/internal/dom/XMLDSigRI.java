@@ -21,32 +21,14 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import javax.xml.crypto.dsig.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * The XMLDSig RI Provider.
@@ -159,7 +141,6 @@ public final class XMLDSigRI extends Provider {
 
                 putService(new ProviderService(p, "KeyInfoFactory",
                     "DOM", "org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory"));
-
 
                 // Inclusive C14N
                 putService(new ProviderService(p, "TransformService",

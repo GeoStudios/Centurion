@@ -21,21 +21,6 @@
 
 package gc.g1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestRegionAlignment.java
  * @bug 8013791

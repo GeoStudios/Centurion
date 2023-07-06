@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.*;
 import java.awt.geom.Dimension2D;
 import java.awt.image.*;
@@ -31,20 +30,6 @@ import java.awt.image.MultiResolutionImage;
 import java.util.concurrent.atomic.AtomicReference;
 import java.desktop.macosx.classes.sun.awt.image.MultiResolutionCachedImage;
 import java.desktop.macosx.classes.sun.awt.image.SunWritableRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CImage extends CFRetainedResource {
     private static native long nativeCreateNSImageFromArray(int[] buffer, int w, int h);

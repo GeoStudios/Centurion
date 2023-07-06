@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class for detecting inadvertent uses of boxing in

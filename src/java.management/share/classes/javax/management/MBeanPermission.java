@@ -21,24 +21,9 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.security.Permission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Permission controlling access to MBeanServer operations.  If a

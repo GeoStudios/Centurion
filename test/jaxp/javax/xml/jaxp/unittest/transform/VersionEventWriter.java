@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLEventWriter;
@@ -29,19 +28,6 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.StartDocument;
 import javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VersionEventWriter implements XMLEventWriter {
 

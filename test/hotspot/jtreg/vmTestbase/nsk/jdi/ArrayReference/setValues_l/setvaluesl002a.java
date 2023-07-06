@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayReference.setValues_l;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setvaluesl002a {
     public static void main (String argv[]) {

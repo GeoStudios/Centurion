@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The mirror for a type in the target VM.
  * This interface is the root of a type hierarchy encompassing primitive

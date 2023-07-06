@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
 import java.awt.GraphicsConfiguration;
@@ -40,20 +39,6 @@ import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.unix.classes.sun.java2d.opengl.GLXGraphicsConfig;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.java2d.xr.XRGraphicsConfig;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of a GraphicsDevice object for a single
@@ -147,7 +132,6 @@ public final class X11GraphicsDevice extends GraphicsDevice
     public String getIDstring() {
         return ":0."+screen;
     }
-
 
     GraphicsConfiguration[] configs;
     GraphicsConfiguration defaultConfig;

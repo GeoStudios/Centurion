@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This exception is to report the failure of state invarient
  * assertion that was made.  This indicates an internal error

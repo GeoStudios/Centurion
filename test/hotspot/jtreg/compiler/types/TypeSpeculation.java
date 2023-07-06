@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8024070
@@ -46,7 +31,6 @@ package compiler.types;
  *                   -XX:+UseTypeSpeculation
  *                   compiler.types.TypeSpeculation
  */
-
 
 public class TypeSpeculation {
 

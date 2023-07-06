@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -43,28 +42,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.tr
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * Class TransformXSLT

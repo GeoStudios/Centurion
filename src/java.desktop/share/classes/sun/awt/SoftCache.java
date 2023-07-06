@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.lang.ref.SoftReference;
 import java.lang.ref.ReferenceQueue;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A memory-sensitive implementation of the <code>Map</code> interface.
@@ -117,7 +102,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
        ValueCell class, which is a simple extension of the SoftReference class.
      */
 
-
     private static class ValueCell extends SoftReference<Object> {
         private static final Object INVALID_KEY = new Object();
         private static int dropped = 0;
@@ -155,13 +139,11 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
 
     }
 
-
     /* Hash table mapping keys to ValueCells */
     private final Map<Object, Object> hash;
 
     /* Reference queue for cleared ValueCells */
     private final ReferenceQueue<Object> queue = new ReferenceQueue<>();
-
 
     /* Process any ValueCells that have been cleared and enqueued by the
        garbage collector.  This method should be invoked once by each public
@@ -175,7 +157,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
             else ValueCell.dropped--;
         }
     }
-
 
     /* -- Constructors -- */
 
@@ -216,7 +197,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
         hash = new HashMap<>();
     }
 
-
     /* -- Simple queries -- */
 
     /**
@@ -244,7 +224,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
     public boolean containsKey(Object key) {
         return ValueCell.strip(hash.get(key), false) != null;
     }
-
 
     /* -- Lookup and modification operations -- */
 
@@ -340,13 +319,11 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
         hash.clear();
     }
 
-
     /* -- Views -- */
 
     private static boolean valEquals(Object o1, Object o2) {
         return Objects.equals(o1, o2);
     }
-
 
     /* Internal class for entries.
        Because it uses SoftCache.this.queue, this class cannot be static.
@@ -389,7 +366,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
         }
 
     }
-
 
     /* Internal class for entry sets */
     private class EntrySet extends AbstractSet<Map.Entry<Object, Object>> {
@@ -448,7 +424,6 @@ public class SoftCache extends AbstractMap<Object, Object> implements Map<Object
         }
 
     }
-
 
     private Set<Map.Entry<Object, Object>> entrySet = null;
 

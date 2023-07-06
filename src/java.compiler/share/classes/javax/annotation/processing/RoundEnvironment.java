@@ -21,27 +21,12 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
 import java.compiler.share.classes.javax.lang.model.element.Element;
 import java.compiler.share.classes.javax.lang.model.element.TypeElement;
 import java.util.LinkedHashSet;
 import java.util.Collections;
 import java.util.Set;
 import java.lang.annotation.Annotation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An annotation processing tool framework will {@linkplain

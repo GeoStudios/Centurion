@@ -21,26 +21,12 @@
 
 package nsk.jdi.ArrayReference.getValues_ii;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getvaluesii004 {
     final static int MIN_LENGTH = -50;

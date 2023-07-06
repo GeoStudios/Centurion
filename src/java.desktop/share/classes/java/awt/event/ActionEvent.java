@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A semantic event which indicates that a component-defined action occurred.
@@ -91,7 +76,6 @@ public class ActionEvent extends AWTEvent {
      * down during the event.
      */
     public static final int ALT_MASK = 1 << 3;
-
 
     /**
      * The first number in the range of ids used for action events.

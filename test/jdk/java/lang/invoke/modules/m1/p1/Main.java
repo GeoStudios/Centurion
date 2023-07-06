@@ -21,7 +21,6 @@
 
 package p1;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -30,19 +29,6 @@ import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic test case for module access checks and Lookup.in.
@@ -290,7 +276,6 @@ public class Main {
         // unnamed
         findConstructor(lookup, unnamedClass, void.class);
     }
-
 
     /**
      * Hop from publicLookup to accessible type in named module.

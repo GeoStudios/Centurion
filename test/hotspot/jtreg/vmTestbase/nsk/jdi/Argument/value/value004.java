@@ -21,7 +21,6 @@
 
 package nsk.jdi.Argument.value;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -31,19 +30,6 @@ import java.io.*;
 import javax.naming.directory.Attribute;
 import java.util.*;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for the control of

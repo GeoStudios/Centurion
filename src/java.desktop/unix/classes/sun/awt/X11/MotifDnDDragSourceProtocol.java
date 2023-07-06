@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.dnd.DnDConstants;
 import java.awt.dnd.InvalidDnDOperationException;
 import java.util.Map;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XDragSourceProtocol implementation for Motif DnD protocol.

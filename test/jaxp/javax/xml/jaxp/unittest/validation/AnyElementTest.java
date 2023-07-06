@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import java.net.URISyntaxException;
 import javax.xml.transform.stream.StreamSource;
@@ -33,19 +32,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8080907
@@ -54,9 +40,6 @@ import org.xml.sax.SAXParseException;
  * @run testng/othervm validation.AnyElementTest
  * @summary Test processContents attribute of any element
  */
-
-
-
 
 @Listeners({jaxp.library.FilePolicy.class})
 public class AnyElementTest {

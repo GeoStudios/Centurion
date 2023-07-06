@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.TextComponent;
 import java.desktop.share.classes.java.awt.im.InputMethodRequests;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for {@link TextComponent}.

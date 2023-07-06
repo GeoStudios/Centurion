@@ -21,7 +21,6 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -42,20 +41,6 @@ import jdk.jpackage.windows.classes.jdk.jpackage.internal.IOUtils.XmlConsumer;
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
 import jdk.jpackage.windows.classes.jdk.jpackage.internal.WixAppImageFragmentBuilder.ShortcutsFolder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates UI WiX fragment.

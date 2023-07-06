@@ -21,7 +21,6 @@
 
 package test.auctionportal;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;.extended
@@ -49,19 +48,6 @@ import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSSerializer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the user controller class for the Auction portal HiBid.com.
@@ -152,7 +138,6 @@ public class UserController {
                 = (DOMImplementationLS) DOMImplementationRegistry
                         .newInstance().getDOMImplementation("LS");
         LSSerializer writer = impl.createLSSerializer();
-
 
         try(FileOutputStream output = new FileOutputStream(resultFile)) {
             MyDOMOutput mydomoutput = new MyDOMOutput();

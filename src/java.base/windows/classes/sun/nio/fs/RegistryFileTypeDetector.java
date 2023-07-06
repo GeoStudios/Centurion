@@ -21,23 +21,8 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File type detector that does lookup of file extension using Windows Registry.

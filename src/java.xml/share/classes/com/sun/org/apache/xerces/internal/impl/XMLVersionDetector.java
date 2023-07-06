@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.io.CharConversionException;
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
@@ -33,20 +32,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 import java.xml.share.classes.com.sun.xml.internal.stream.Entity.ScannedEntity;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class scans the version of the document to determine
@@ -63,7 +48,6 @@ public class XMLVersionDetector {
     //
 
     private final static char[] XML11_VERSION = new char[]{'1', '.', '1'};
-
 
     // property identifiers
 
@@ -148,7 +132,6 @@ public class XMLVersionDetector {
 
         scanner.startEntity(fXMLSymbol, fEntityManager.getCurrentResourceIdentifier(), fEncoding, null);
     }
-
 
     /**
      * This methods scans the XML declaration to find out the version

@@ -21,23 +21,9 @@
 
 package nsk.jdi.PathSearchingVirtualMachine.classPath;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the classpath001 JDI test.
@@ -93,7 +79,6 @@ public class classpath001a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the methodsByName(String name) method of ReferenceType interface for UNLOADED class
-
 
 class methbyname_s003b {}

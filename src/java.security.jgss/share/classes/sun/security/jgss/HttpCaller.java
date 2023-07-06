@@ -21,22 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import java.security.jgss.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A special kind of GSSCaller, which origins from HTTP/Negotiate and contains

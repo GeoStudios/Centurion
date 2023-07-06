@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -76,20 +75,6 @@ import java.desktop.macosx.classes.sun.java2d.opengl.OGLRenderQueue;
 import java.desktop.macosx.classes.sun.java2d.pipe.Region;
 import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class LWComponentPeer<T extends Component, D extends JComponent>
     implements ComponentPeer, DropTargetPeer
@@ -442,7 +427,6 @@ public abstract class LWComponentPeer<T extends Component, D extends JComponent>
         // LWWindowPeer and doesn't call super()
         return getWindowPeer().getGraphicsConfiguration();
     }
-
 
     // Just a helper method
     public final LWGraphicsConfig getLWGC() {

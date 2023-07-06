@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
@@ -37,20 +36,6 @@ import javax.imageio.ImageReadParam;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.plugins.tiff.TIFFImageReadParam;
 import javax.imageio.plugins.tiff.TIFFTagSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFRenderedImage implements RenderedImage {
 

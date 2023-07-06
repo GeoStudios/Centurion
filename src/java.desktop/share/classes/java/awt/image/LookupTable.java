@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This abstract class defines a lookup table object.  ByteLookupTable
  * and ShortLookupTable are subclasses, which

@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
 
-
 import java.math.BigInteger;
 import java.security.KeyException;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
@@ -39,26 +38,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dom.DOMStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: KeyInfoFactory.java,v 1.12 2005/05/10 16:35:35 mullan Exp $
  */
-
-
-
 
 /**
  * A factory for creating {@link KeyInfo} objects from scratch or for

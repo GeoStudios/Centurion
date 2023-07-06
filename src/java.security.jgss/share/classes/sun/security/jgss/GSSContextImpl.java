@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.jgss.share.classes.sun.security.util.ObjectIdentifier;
@@ -32,20 +31,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the JGSS security context and its associated

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.util.*;
 import java.util.java.util.java.util.java.util.List;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A box that does layout asynchronously.  This
@@ -708,7 +693,6 @@ public class AsyncBoxView extends View {
         }
         return Integer.MAX_VALUE;
     }
-
 
     /**
      * Returns the number of views in this view.  Since

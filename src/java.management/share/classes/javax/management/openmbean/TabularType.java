@@ -21,32 +21,16 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // java import
 //
 
 // jmx import
 //
-
 
 /**
  * The <code>TabularType</code> class is the <i> open type</i> class
@@ -57,7 +41,6 @@ public class TabularType extends OpenType<TabularData> {
 
     /* Serial version */
     static final long serialVersionUID = 6554071860220659261L;
-
 
     /**
      * @serial The composite type of rows
@@ -71,10 +54,8 @@ public class TabularType extends OpenType<TabularData> {
     @SuppressWarnings("serial") // Conditionally serializable
     private final List<String> indexNames;
 
-
     private transient Integer myHashCode = null; // As this instance is immutable, these two values
     private transient String  myToString = null; // need only be calculated once.
-
 
     /* *** Constructor *** */
 
@@ -179,7 +160,6 @@ public class TabularType extends OpenType<TabularData> {
         }
     }
 
-
     /* *** Tabular type specific information methods *** */
 
     /**
@@ -252,7 +232,6 @@ public class TabularType extends OpenType<TabularData> {
             return false;
         return getRowType().isAssignableFrom(tt.getRowType());
     }
-
 
     /* *** Methods overriden from class Object *** */
 

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Class {@code AccessibleRole} determines the role of a component. The role of
  * a component describes its generic function. (E.G., "push button," "table," or
@@ -179,7 +163,6 @@ public class AccessibleRole extends AccessibleBundle {
      */
     public static final AccessibleRole COLOR_CHOOSER
             = new AccessibleRole("colorchooser");
-
 
     /**
      * A pane that allows the user to navigate through and select the contents
@@ -622,7 +605,6 @@ public class AccessibleRole extends AccessibleBundle {
      */
     public static final AccessibleRole PROGRESS_MONITOR =
         new AccessibleRole("progressMonitor");
-
 
 // The following are all under consideration for potential future use.
 

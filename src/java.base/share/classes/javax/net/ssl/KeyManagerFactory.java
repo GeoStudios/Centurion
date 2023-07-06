@@ -21,25 +21,10 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.security.Security;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.util.Objects;
 import sun.security.jca.GetInstance;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class acts as a factory for key managers based on a
@@ -259,7 +244,6 @@ public class KeyManagerFactory {
         return this.provider;
     }
 
-
     /**
      * Initializes this factory with a source of key material.
      * <P>
@@ -284,7 +268,6 @@ public class KeyManagerFactory {
         factorySpi.engineInit(ks, password);
     }
 
-
     /**
      * Initializes this factory with a source of provider-specific
      * key material.
@@ -305,7 +288,6 @@ public class KeyManagerFactory {
             InvalidAlgorithmParameterException {
         factorySpi.engineInit(spec);
     }
-
 
     /**
      * Returns one key manager for each type of key material.

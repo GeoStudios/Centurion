@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
@@ -52,20 +51,6 @@ import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the non validating parser configuration. It extends the basic
@@ -121,11 +106,9 @@ public class NonValidatingConfiguration
     protected static final String NOTIFY_CHAR_REFS =
         Constants.XERCES_FEATURE_PREFIX + Constants.NOTIFY_CHAR_REFS_FEATURE;
 
-
     /** Feature identifier: expose schema normalized value */
     protected static final String NORMALIZE_DATA =
     Constants.XERCES_FEATURE_PREFIX + Constants.SCHEMA_NORMALIZED_VALUE;
-
 
     /** Feature identifier: send element default value via characters() */
     protected static final String SCHEMA_ELEMENT_DEFAULT =
@@ -217,7 +200,6 @@ public class NonValidatingConfiguration
     /** DTD scanner. */
     protected XMLDTDScanner fDTDScanner;
 
-
     protected ValidationManager fValidationManager;
 
     // private data
@@ -228,12 +210,10 @@ public class NonValidatingConfiguration
     /** Default Xerces implementation of scanner*/
     private XMLDocumentScannerImpl fNonNSScanner;
 
-
         /** fConfigUpdated is set to true if there has been any change to the configuration settings,
          * i.e a feature or a property was changed.
          */
         protected boolean fConfigUpdated = false;
-
 
     // state
 
@@ -675,7 +655,6 @@ public class NonValidatingConfiguration
                 fDTDScanner.setDTDHandler(fDTDHandler);
                 fDTDScanner.setDTDContentModelHandler(fDTDContentModelHandler);
         }
-
 
     } // configurePipeline()
 

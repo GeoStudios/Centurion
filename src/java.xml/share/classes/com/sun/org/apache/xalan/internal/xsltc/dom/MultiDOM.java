@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
@@ -39,20 +38,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -88,7 +73,6 @@ public final class MultiDOM implements DOM {
             }
             return _source.next();
         }
-
 
         public void setRestartable(boolean flag) {
             if (_source != null) {
@@ -170,7 +154,6 @@ public final class MultiDOM implements DOM {
         }
     } // end of AxisIterator
 
-
     /**************************************************************
      * This is a specialised iterator for predicates comparing node or
      * attribute values to variable or parameter values.
@@ -209,7 +192,6 @@ public final class MultiDOM implements DOM {
                 return null;
             }
         }
-
 
         public void setRestartable(boolean isRestartable) {
             _isRestartable = isRestartable;
@@ -515,7 +497,6 @@ public final class MultiDOM implements DOM {
             _adapters[node >>> DTMManager.IDENT_DTM_NODE_BITS].copy(node, handler);
         }
     }
-
 
     public String shallowCopy(final int node, SerializationHandler handler)
             throws TransletException

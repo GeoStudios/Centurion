@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import javax.net.ssl.SSLHandshakeException;
 import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code OutputRecord} implementation for {@code SSLEngine}.

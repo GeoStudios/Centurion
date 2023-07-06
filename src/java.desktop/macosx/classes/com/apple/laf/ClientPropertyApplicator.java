@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.beans.*;
 import java.util.*;
 import javax.swing.JComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClientPropertyApplicator<T extends JComponent, N> implements PropertyChangeListener {
     private final Map<String, Property<N>> properties = new HashMap<String, Property<N>>();

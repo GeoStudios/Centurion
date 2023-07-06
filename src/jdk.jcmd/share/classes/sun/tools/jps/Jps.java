@@ -21,24 +21,9 @@
 
 package jdk.jcmd.share.classes.sun.tools.jps;
 
-
 import java.util.*;
 import java.net.*;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Application to provide a listing of monitorable java processes.

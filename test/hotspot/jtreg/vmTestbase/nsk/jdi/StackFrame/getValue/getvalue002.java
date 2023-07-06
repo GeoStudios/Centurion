@@ -21,7 +21,6 @@
 
 package nsk.jdi.StackFrame.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -166,7 +152,6 @@ public class getvalue002 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -205,7 +190,6 @@ public class getvalue002 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -217,7 +201,6 @@ public class getvalue002 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -301,7 +284,6 @@ public class getvalue002 {
                     expresult = returnCode1;
                     break label1;
                 }
-
 
                 log2("     getting LocalVariable locvar1 for checking up");
 
@@ -397,7 +379,6 @@ public class getvalue002 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -453,7 +434,6 @@ public class getvalue002 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

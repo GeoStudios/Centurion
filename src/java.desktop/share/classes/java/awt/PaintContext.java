@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.image.Raster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code PaintContext} interface defines the encapsulated

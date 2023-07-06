@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.DocFlavor;
 import java.desktop.share.classes.javax.print.PrintService;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.print.attribute.AttributeSet;
 import java.desktop.share.classes.javax.print.attribute.DocAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code MediaPrintableArea} is a printing attribute used to distinguish

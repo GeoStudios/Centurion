@@ -21,22 +21,8 @@
 
 package shared;
 
-
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class Checker {
     protected Class staticTargetClass;

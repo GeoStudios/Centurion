@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.FocusTraversalPolicy;
@@ -34,20 +33,6 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.HashSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FocusTraversalPolicy which provides support for legacy applications which

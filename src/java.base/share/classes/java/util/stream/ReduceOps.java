@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Optional;
 import java.base.share.classes.java.util.OptionalDouble;
@@ -39,20 +38,6 @@ import java.base.share.classes.java.util.function.ObjDoubleConsumer;
 import java.base.share.classes.java.util.function.ObjIntConsumer;
 import java.base.share.classes.java.util.function.ObjLongConsumer;
 import java.base.share.classes.java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for creating instances of {@code TerminalOp} that implement

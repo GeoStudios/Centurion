@@ -21,22 +21,7 @@
 
 package java.scripting.share.classes.javax.script;
 
-
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extended by classes that store results of compilations.  State
@@ -101,7 +86,6 @@ public abstract class CompiledScript {
 
         return eval(ctxt);
     }
-
 
     /**
      * Executes the program stored in the <code>CompiledScript</code> object.  The

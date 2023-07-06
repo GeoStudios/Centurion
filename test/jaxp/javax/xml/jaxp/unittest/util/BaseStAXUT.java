@@ -21,7 +21,6 @@
 
 package util;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileReader;
@@ -38,19 +37,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.XMLEvent;
 import org.testng.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for all StaxTest unit test classes. Contains shared

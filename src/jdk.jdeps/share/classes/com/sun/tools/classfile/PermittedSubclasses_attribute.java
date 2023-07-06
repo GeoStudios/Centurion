@@ -21,24 +21,9 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.stream.IntStream;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PermittedSubclasses_attribute extends Attribute {
 

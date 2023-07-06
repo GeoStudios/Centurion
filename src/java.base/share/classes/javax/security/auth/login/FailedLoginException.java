@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.auth.login;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that user authentication failed.
  *

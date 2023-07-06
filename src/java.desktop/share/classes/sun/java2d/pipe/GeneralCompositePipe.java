@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.AlphaComposite;
 import java.awt.CompositeContext;
 import java.awt.PaintContext;
@@ -38,20 +37,6 @@ import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.Blit;
 import java.desktop.share.classes.sun.java2d.loops.MaskBlit;
 import java.desktop.share.classes.sun.java2d.loops.CompositeType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GeneralCompositePipe implements CompositePipe {
     class TileContext {

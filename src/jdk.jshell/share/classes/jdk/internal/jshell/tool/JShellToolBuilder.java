@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.base.share.classes.java.util.Locale;
@@ -31,20 +30,6 @@ import java.util.Set;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import jdk.jshell.share.classes.jdk.jshell.tool.JavaShellToolBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builder for programmatically building the jshell tool.

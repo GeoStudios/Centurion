@@ -21,21 +21,6 @@
 
 package nsk.share.gc.lock;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Marker interface for getting Locker.
  */

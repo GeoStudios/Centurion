@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -34,20 +33,6 @@ import com.sun.java.swing.ui.StatusBar;
 import com.sun.java.swing.ui.CommonToolBar;
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.DelegateAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassBrowserPanel extends JPanel implements ActionListener {
    private final StatusBar           statusBar;

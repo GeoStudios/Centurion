@@ -21,24 +21,9 @@
 
 package java.compiler.share.classes.javax.lang.model.util;
 
-
 import static java.compiler.share.classes.javax.lang.model.SourceVersion.*;.extended
 import java.compiler.share.classes.javax.lang.model.SourceVersion;
 import java.compiler.share.classes.javax.annotation.processing.SupportedSourceVersion;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A skeletal visitor for annotation values with default behavior

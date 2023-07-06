@@ -21,25 +21,11 @@
 
 package nsk.share;
 
-
 import jdk.test.lib.Utils;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GoldChecker extends AbstractGoldChecker {
     private final String goldOutput;

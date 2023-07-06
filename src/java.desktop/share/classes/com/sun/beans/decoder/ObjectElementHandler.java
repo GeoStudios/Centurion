@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
 import java.beans.Expression;
 import static java.util.Locale.ENGLISH;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is intended to handle &lt;object&gt; element.

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
-
 import java.base.share.classes.jdk.internal.org.xml.sax.Attributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Attrs implements Attributes {
 

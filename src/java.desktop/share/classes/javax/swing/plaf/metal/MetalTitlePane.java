@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import sun.swing.SwingUtilities2;
 import sun.awt.SunToolkit;
 import java.awt.*;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class that manages a JLF awt.Window-descendant class's title bar.
@@ -154,7 +139,6 @@ class MetalTitlePane extends JComponent {
      */
     private final MetalRootPaneUI rootPaneUI;
 
-
     // Colors
     private final Color inactiveBackground = UIManager.getColor("inactiveCaption");
     private final Color inactiveForeground = UIManager.getColor("inactiveCaptionText");
@@ -176,7 +160,6 @@ class MetalTitlePane extends JComponent {
                           MetalLookAndFeel.getControlHighlight(),
                           MetalLookAndFeel.getControlDarkShadow(),
                           MetalLookAndFeel.getControl() );
-
 
     public MetalTitlePane(JRootPane root, MetalRootPaneUI ui) {
         this.rootPane = root;
@@ -802,7 +785,6 @@ class MetalTitlePane extends JComponent {
         }
     }
 
-
     /**
      * Actions used to <code>iconfiy</code> the <code>Frame</code>.
      */
@@ -817,7 +799,6 @@ class MetalTitlePane extends JComponent {
             iconify();
         }
     }
-
 
     /**
      * Actions used to <code>restore</code> the <code>Frame</code>.
@@ -834,7 +815,6 @@ class MetalTitlePane extends JComponent {
         }
     }
 
-
     /**
      * Actions used to <code>restore</code> the <code>Frame</code>.
      */
@@ -849,7 +829,6 @@ class MetalTitlePane extends JComponent {
             maximize();
         }
     }
-
 
     /**
      * Class responsible for drawing the system menu. Looks up the
@@ -977,8 +956,6 @@ class MetalTitlePane extends JComponent {
         }
     }
 
-
-
     /**
      * PropertyChangeListener installed on the Window. Updates the necessary
      * state as the state of the Window changes.
@@ -1037,7 +1014,6 @@ class MetalTitlePane extends JComponent {
                                                        IMAGE_HEIGHT);
         }
     }
-
 
     /**
      * WindowListener installed on the Window, updates the state as necessary.

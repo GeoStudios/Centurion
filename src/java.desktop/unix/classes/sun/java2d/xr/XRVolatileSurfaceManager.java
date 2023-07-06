@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
-
 import java.awt.GraphicsConfiguration;
 import java.awt.ImageCapabilities;
 import java.awt.image.ColorModel;
 import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
 import java.desktop.unix.classes.sun.awt.image.VolatileSurfaceManager;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XRender platform implementation of the VolatileSurfaceManager class.

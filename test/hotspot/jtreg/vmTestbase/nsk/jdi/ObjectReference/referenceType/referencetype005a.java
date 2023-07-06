@@ -21,32 +21,15 @@
 
 package nsk.jdi.ObjectReference.referenceType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 // ObjectReference  InterfaceName               ObjectReference
 // referenceType  MethodName            referenceType
 // referencetype005  TestName           referencetype005a
 // ------------------------------------------------------
-
-
-
 
 /**
  * This class is used as debuggee application for the referencetype005 JDI test.
@@ -94,7 +77,6 @@ public class referencetype005a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {

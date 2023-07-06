@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
 import java.awt.Window;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.awt.event.FocusEvent;
 import java.desktop.unix.classes.sun.awt.KeyboardFocusManagerPeerImpl;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XKeyboardFocusManagerPeer extends KeyboardFocusManagerPeerImpl {
     private static final PlatformLogger focusLog = PlatformLogger.getLogger("sun.awt.X11.focus.XKeyboardFocusManagerPeer");

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAnnotatedType;
@@ -95,20 +94,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A visitor that compares two lambda bodies for structural equality. */
 public class TreeDiffer extends TreeScanner {

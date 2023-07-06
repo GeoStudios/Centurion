@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.lang.reflect.Field;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
@@ -41,20 +40,6 @@ import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.function.UnaryOperator;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A thread-safe variant of {@link java.util.ArrayList} in which all mutative

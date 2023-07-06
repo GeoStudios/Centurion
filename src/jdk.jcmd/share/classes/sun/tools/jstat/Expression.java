@@ -21,22 +21,6 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class that represents a mathematical expression as a tree structure
  * containing operators as interior nodes and operands as leaves. The

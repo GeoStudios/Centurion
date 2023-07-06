@@ -21,22 +21,8 @@
 
 package jit.t.t088;
 
-
 import nsk.share.GoldChecker;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -67,11 +53,8 @@ import java.io.File;
  *      -WorkDir ./jit/t/t088
  */
 
-
 // Just like the one before except that the two patched calls
 // are attempted from distinct call sites.
-
-
 
 class foo {
     static void bar() {

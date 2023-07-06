@@ -21,7 +21,6 @@
 
 package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter002;
 
-
 import java.io.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import com.sun.jdi.ThreadReference;
@@ -32,19 +31,6 @@ import nsk.share.TestBug;
 import nsk.share.jdi.*;
 import nsk.share.jdi.sde.*;
 import nsk.share.jpda.AbstractDebuggeeTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -88,9 +74,6 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -testWorkDir .
  *      -sourceCount 2
  */
-
-
-
 
 public class addSourceNameFilter002 extends SDEDebugger {
 

@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.common;
 
-
 import org.testng.annotations.Test;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
@@ -29,19 +28,6 @@ import java.util.concurrent.atomic.AtomicReference;
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertFalse;.extended
 import static org.testng.Assert.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DemandTest {
 

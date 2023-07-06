@@ -21,7 +21,6 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -32,20 +31,6 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WiX pipeline. Compiles and links WiX sources.

@@ -21,23 +21,9 @@
 
 package compiler.codecache.jmx;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.util.EnumSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test CodeHeapBeanPresenceTest
@@ -57,9 +43,6 @@ import java.util.EnumSet;
  *     -XX:+SegmentedCodeCache
  *     compiler.codecache.jmx.CodeHeapBeanPresenceTest
  */
-
-
-
 
 public class CodeHeapBeanPresenceTest {
 

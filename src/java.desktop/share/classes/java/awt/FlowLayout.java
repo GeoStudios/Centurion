@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A flow layout arranges components in a directional flow, much
@@ -488,10 +473,6 @@ public class FlowLayout implements LayoutManager, java.io.Serializable {
         dim.height += insets.top + insets.bottom + vgap*2;
         return dim;
 
-
-
-
-
       }
     }
 
@@ -696,6 +677,5 @@ public class FlowLayout implements LayoutManager, java.io.Serializable {
         }
         return getClass().getName() + "[hgap=" + hgap + ",vgap=" + vgap + str + "]";
     }
-
 
 }

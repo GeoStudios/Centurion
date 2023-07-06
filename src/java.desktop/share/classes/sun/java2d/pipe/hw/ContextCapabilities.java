@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a set of capabilities of a BufferedContext and associated
  * AccelGraphicsConfig.

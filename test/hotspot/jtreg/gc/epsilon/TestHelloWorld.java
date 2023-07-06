@@ -21,21 +21,6 @@
 
 package gc.epsilon;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TestHelloWorld
  * @requires vm.gc.Epsilon

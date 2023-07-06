@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
@@ -32,20 +31,6 @@ import java.util.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.tree.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The metal look and feel implementation of <code>TreeUI</code>.
@@ -183,7 +168,6 @@ public class MetalTreeUI extends BasicTreeUI {
             Insets i = tree.getInsets();
             int    boxLeftX = (i != null) ? i.left : 0;
 
-
             boxLeftX += (((rowLevel + depthOffset - 1) * totalChildIndent) +
                         getLeftChildIndent()) - boxWidth/2;
 
@@ -196,7 +180,6 @@ public class MetalTreeUI extends BasicTreeUI {
 
     public void paint(Graphics g, JComponent c) {
         super.paint( g, c );
-
 
         // Paint the lines
         if (lineStyle == HORIZ_LINE_STYLE && !largeModel) {

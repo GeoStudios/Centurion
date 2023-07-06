@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * InnerShadowEffect - This effect currently only works with ARGB type buffered

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.dnd.peer;
 
-
 import java.desktop.share.classes.java.awt.dnd.DropTarget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

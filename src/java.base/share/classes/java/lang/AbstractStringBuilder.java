@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import jdk.internal.math.FloatingDecimal;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Spliterator;
@@ -33,20 +32,6 @@ import static java.base.share.classes.java.lang.String.UTF16;.extended
 import static java.base.share.classes.java.lang.String.LATIN1;.extended
 import static java.base.share.classes.java.lang.String.checkIndex;.extended
 import static java.base.share.classes.java.lang.String.checkOffset;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mutable sequence of characters.
@@ -690,7 +675,6 @@ abstract class AbstractStringBuilder implements Appendable, CharSequence {
         }
         return this;
     }
-
 
     /**
      * Appends the string representation of the {@code char} array

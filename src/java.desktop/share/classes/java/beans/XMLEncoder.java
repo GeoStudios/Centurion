@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.io.*;
 import java.desktop.share.classes.java.util.*;
 import java.desktop.share.classes.java.lang.reflect.*;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.java.nio.charset.Charset;
 import java.desktop.share.classes.java.nio.charset.CharsetEncoder;
 import java.desktop.share.classes.java.nio.charset.IllegalCharsetNameException;
 import java.desktop.share.classes.java.nio.charset.UnsupportedCharsetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code XMLEncoder} class is a complementary alternative to
@@ -348,7 +333,6 @@ public class XMLEncoder extends Encoder implements AutoCloseable {
         return list;
     }
 
-
     private void mark(Object o, boolean isArgument) {
         if (o == null || o == this) {
             return;
@@ -387,7 +371,6 @@ public class XMLEncoder extends Encoder implements AutoCloseable {
         }
         mark(stm.getTarget(), stm instanceof Expression);
     }
-
 
     /**
      * Records the Statement so that the Encoder will
@@ -435,7 +418,6 @@ public class XMLEncoder extends Encoder implements AutoCloseable {
         }
         this.internal = internal;
     }
-
 
     /**
      * Records the Expression so that the Encoder will
@@ -528,7 +510,6 @@ public class XMLEncoder extends Encoder implements AutoCloseable {
         }
         return null;
     }
-
 
     /**
      * This method calls {@code flush}, writes the closing

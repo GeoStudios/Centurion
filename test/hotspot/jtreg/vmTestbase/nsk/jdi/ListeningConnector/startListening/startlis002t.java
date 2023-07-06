@@ -21,21 +21,6 @@
 
 package nsk.jdi.ListeningConnector.startListening;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class startlis002t {
     public static void main(String args[]) {
         System.exit(startlis002.JCK_STATUS_BASE + startlis002.PASSED);

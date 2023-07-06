@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.util.StringJoiner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code CompoundControl}, such as a graphic equalizer, provides control over

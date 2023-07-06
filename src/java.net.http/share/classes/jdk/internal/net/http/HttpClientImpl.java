@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
@@ -85,20 +84,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.OperationTracker
 import java.net.http.share.classes.jdk.internal.net.http.common.OperationTrackers.Tracker;
 import java.net.http.share.classes.jdk.internal.net.http.websocket.BuilderImpl;
 import java.net.http.share.classes.jdk.internal.misc.InnocuousThread;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Client implementation. Contains all configuration information and also
@@ -1156,7 +1141,6 @@ final class HttpClientImpl extends HttpClient implements Trackable {
     public Redirect followRedirects() {
         return followRedirects;
     }
-
 
     @Override
     public Optional<CookieHandler> cookieHandler() {

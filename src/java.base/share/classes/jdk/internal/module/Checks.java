@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class for checking module, package, and class names.

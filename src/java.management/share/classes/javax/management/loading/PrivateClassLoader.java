@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.loading;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Marker interface indicating that a ClassLoader should not be added
  * to the {@link ClassLoaderRepository}.  When a ClassLoader is

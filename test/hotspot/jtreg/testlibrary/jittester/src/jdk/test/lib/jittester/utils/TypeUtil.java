@@ -21,25 +21,11 @@
 
 package jdk.test.lib.jittester.utils;
 
-
 import jdk.test.lib.jittester.BuiltInType;
 import jdk.test.lib.jittester.Type;
 import java.util.Collection;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility functions for type system

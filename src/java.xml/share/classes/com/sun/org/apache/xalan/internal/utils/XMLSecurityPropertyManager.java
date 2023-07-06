@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
 
-
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class manages security related properties
@@ -70,7 +55,6 @@ public final class XMLSecurityPropertyManager extends FeaturePropertyBase {
             return defaultValue;
         }
     }
-
 
     /**
      * Default constructor. Establishes default values

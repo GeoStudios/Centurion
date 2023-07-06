@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.net.ftp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface describes a parser for the FtpClient class. Such a parser is
  * used when listing a remote directory to transform text lines like:

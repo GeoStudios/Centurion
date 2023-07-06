@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The document handler interface defines callback methods to report
@@ -307,10 +290,8 @@ public interface XMLDocumentHandler {
      */
     void endDocument(Augmentations augs) throws XNIException;
 
-
     /** Sets the document source. */
     void setDocumentSource(XMLDocumentSource source);
-
 
     /** Returns the document source. */
     XMLDocumentSource getDocumentSource();

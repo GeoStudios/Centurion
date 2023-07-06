@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormatImpl;
 import com.sun.imageio.plugins.tiff.TIFFIFD;
 import com.sun.imageio.plugins.tiff.TIFFImageMetadata;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A convenience class for simplifying interaction with TIFF native

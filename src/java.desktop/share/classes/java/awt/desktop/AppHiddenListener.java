@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implementors are notified when the app is hidden or shown by the user. This
  * notification is helpful for discontinuing a costly animation if it's not

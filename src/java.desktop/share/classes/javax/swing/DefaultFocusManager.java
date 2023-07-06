@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.FocusTraversalPolicy;
 import java.util.Comparator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class has been obsoleted by the 1.4 focus APIs. While client code may

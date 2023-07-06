@@ -21,21 +21,6 @@
 
 package propertiesparser.parser;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Common interface to all kinds of diagnostic argument types.
  */

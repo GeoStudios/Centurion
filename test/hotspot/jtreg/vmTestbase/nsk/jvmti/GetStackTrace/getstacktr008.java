@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetStackTrace;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getstacktr008 {
 

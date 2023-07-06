@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ELFSectionHeader {
     /** Undefined section header index. */
     int NDX_UNDEFINED = 0;

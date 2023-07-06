@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.share;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.lang.management.MemoryUsage;
@@ -56,19 +55,6 @@ import vm.mlvm.meth.share.transform.v2.MHTFPair;
 import vm.mlvm.meth.share.transform.v2.MHThrowCatchTFPair;
 import vm.mlvm.meth.share.transform.v2.MHVarargsCollectSpreadTF;
 import vm.mlvm.share.Env;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MHTransformationGen {
 

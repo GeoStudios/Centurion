@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> This is a tag interface (similar to Cloneable) which indicates
     that the contained address is "special" and is updated under the
     hood by the VM. The purpose is to support implementation of

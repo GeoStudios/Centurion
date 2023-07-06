@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface BMPConstants {
     // bmp versions
     String VERSION_2 = "BMP v. 2.x";

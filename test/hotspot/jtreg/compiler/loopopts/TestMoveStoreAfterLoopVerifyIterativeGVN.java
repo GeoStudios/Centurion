@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8238756
@@ -44,7 +29,6 @@ package compiler.loopopts;
  *
  * @run main/othervm -Xbatch -XX:+VerifyIterativeGVN compiler.loopopts.TestMoveStoreAfterLoopVerifyIterativeGVN
  */
-
 
 public class TestMoveStoreAfterLoopVerifyIterativeGVN {
 

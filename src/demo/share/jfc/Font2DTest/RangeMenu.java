@@ -21,7 +21,6 @@
 
 package demo.share.jfc.Font2DTest;
 
-
 import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -32,20 +31,6 @@ import javax.swing.*;
 import java.util.*;
 import java.util.regex.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -54,12 +39,8 @@ import java.util.regex.*;
  * this sample code.
  */
 
-
 /*
  */
-
-
-
 
 /**
  * RangeMenu.java

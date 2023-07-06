@@ -21,23 +21,9 @@
 
 package compiler.runtime;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test SpreadNullArg
@@ -47,8 +33,6 @@ import java.lang.invoke.MethodType;
  * @run main compiler.runtime.SpreadNullArg
  * @author volker.simonis@gmail.com
  */
-
-
 
 public class SpreadNullArg {
 

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.util.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple implementation of <code>SpinnerModel</code> whose
@@ -70,7 +55,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
     private List<?> list;
     private int index;
 
-
     /**
      * Constructs a <code>SpinnerModel</code> whose sequence of
      * values is defined by the specified <code>List</code>.
@@ -91,7 +75,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
         this.index = 0;
     }
 
-
     /**
      * Constructs a <code>SpinnerModel</code> whose sequence of values
      * is defined by the specified array.  The initial value of the model
@@ -111,7 +94,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
         this.index = 0;
     }
 
-
     /**
      * Constructs an effectively empty <code>SpinnerListModel</code>.
      * The model's list will contain a single
@@ -120,7 +102,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
     public SpinnerListModel() {
         this(new Object[]{"empty"});
     }
-
 
     /**
      * Returns the <code>List</code> that defines the sequence for this model.
@@ -131,7 +112,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
     public List<?> getList() {
         return list;
     }
-
 
     /**
      * Changes the list that defines this sequence and resets the index
@@ -157,7 +137,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
         }
     }
 
-
     /**
      * Returns the current element of the sequence.
      *
@@ -168,7 +147,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
     public Object getValue() {
         return list.get(index);
     }
-
 
     /**
      * Changes the current element of the sequence and notifies
@@ -199,7 +177,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
         }
     }
 
-
     /**
      * Returns the next legal value of the underlying sequence or
      * <code>null</code> if value is already the last element.
@@ -213,7 +190,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
         return (index >= (list.size() - 1)) ? null : list.get(index + 1);
     }
 
-
     /**
      * Returns the previous element of the underlying sequence or
      * <code>null</code> if value is already the first element.
@@ -226,7 +202,6 @@ public class SpinnerListModel extends AbstractSpinnerModel implements Serializab
     public Object getPreviousValue() {
         return (index <= 0) ? null : list.get(index - 1);
     }
-
 
     /**
      * Returns the next object that starts with <code>substring</code>.

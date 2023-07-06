@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
-
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.base.share.classes.java.util.Locale;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.NamingEnumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This class provides a basic implementation
@@ -330,7 +315,6 @@ public class BasicAttributes implements Attributes {
             put((Attribute)s.readObject());
         }
     }
-
 
 class AttrEnumImpl implements NamingEnumeration<Attribute> {
 

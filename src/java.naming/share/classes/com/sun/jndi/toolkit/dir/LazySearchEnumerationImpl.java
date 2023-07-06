@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
 import java.util.NoSuchElementException;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * Given an enumeration of candidates, check whether each
@@ -55,10 +40,6 @@ import java.util.Hashtable;
   * items from the search enumeration are requested.
   *
   */
-
-
-
-
 
 public final class LazySearchEnumerationImpl
         implements NamingEnumeration<SearchResult> {
@@ -101,7 +82,6 @@ public final class LazySearchEnumerationImpl
                 this.cons = cons;
             }
     }
-
 
     public LazySearchEnumerationImpl(NamingEnumeration<Binding> candidates,
         AttrFilter filter, SearchControls cons,

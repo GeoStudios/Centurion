@@ -21,22 +21,7 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Platform-specific management interface for the thread system

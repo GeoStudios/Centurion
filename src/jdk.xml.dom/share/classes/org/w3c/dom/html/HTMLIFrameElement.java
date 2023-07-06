@@ -21,22 +21,7 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Document;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Inline subwindows. See the  IFRAME element definition in HTML 4.0.

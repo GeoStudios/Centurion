@@ -21,7 +21,6 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.digest;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
@@ -34,20 +33,6 @@ import java.util.logging.Level;
 import javax.security.sasl.*;
 import javax.security.auth.callback.*;
 import static java.nio.charset.StandardCharsets.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of the DIGEST-MD5 server SASL mechanism.

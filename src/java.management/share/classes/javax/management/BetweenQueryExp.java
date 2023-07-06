@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used by the query-building mechanism to represent binary
  * relations.
@@ -63,7 +47,6 @@ class BetweenQueryExp extends QueryEval implements QueryExp {
      */
     private ValueExp exp3;
 
-
     /**
      * Basic Constructor.
      */
@@ -79,7 +62,6 @@ class BetweenQueryExp extends QueryEval implements QueryExp {
         exp2  = v2;
         exp3  = v3;
     }
-
 
     /**
      * Returns the checked value of the query.

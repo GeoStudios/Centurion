@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The constants of this enumerated class provide a simple classification of the
  * syntactic locations where annotations may appear in a Java program. These

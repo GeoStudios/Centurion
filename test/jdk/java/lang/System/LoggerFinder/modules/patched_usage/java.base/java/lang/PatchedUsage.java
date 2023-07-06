@@ -21,22 +21,8 @@
 
 package java.lang;
 
-
 import java.lang.System.Logger;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * PatchedUsage is patched into java.base, it will be used by

@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * EventIterators are unmodifiable.

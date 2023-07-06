@@ -21,22 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Class holding the cursor position.
  *

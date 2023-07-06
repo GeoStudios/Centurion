@@ -21,32 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Containts the map between qnames and XSObject's.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Metal implementation of JInternalFrame.
@@ -66,7 +51,6 @@ public class MetalInternalFrameUI extends BasicInternalFrameUI {
   private static final String NORMAL_FRAME   = "normal";
   private static final String PALETTE_FRAME  = "palette";
   private static final String OPTION_DIALOG  = "optionDialog";
-
 
   /**
    * Constructs a new {@code MetalInternalFrameUI} instance.
@@ -150,11 +134,9 @@ public class MetalInternalFrameUI extends BasicInternalFrameUI {
         }
   }
 
-
   protected JComponent createNorthPane(JInternalFrame w) {
       return new MetalInternalFrameTitlePane(w);
   }
-
 
   private void setFrameType( String frameType )
   {
@@ -226,7 +208,6 @@ public class MetalInternalFrameUI extends BasicInternalFrameUI {
       }
   } // end class MetalPropertyChangeHandler
 
-
     private class BorderListener1 extends BorderListener implements SwingConstants
     {
 
@@ -263,7 +244,6 @@ public class MetalInternalFrameUI extends BasicInternalFrameUI {
             }
         }
     }    /// End BorderListener Class
-
 
     /**
      * Returns the <code>MouseInputAdapter</code> that will be installed

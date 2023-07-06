@@ -21,22 +21,7 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Document;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Generic embedded object.  Note. In principle, all properties on the object

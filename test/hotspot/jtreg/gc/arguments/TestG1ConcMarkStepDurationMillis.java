@@ -21,24 +21,10 @@
 
 package gc.arguments;
 
-
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.util.*;
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestG1ConcMarkStepDurationMillis
@@ -50,7 +36,6 @@ import java.util.regex.*;
  *          java.management
  * @run driver gc.arguments.TestG1ConcMarkStepDurationMillis
  */
-
 
 public class TestG1ConcMarkStepDurationMillis {
 

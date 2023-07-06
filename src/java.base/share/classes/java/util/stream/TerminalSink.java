@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link Sink} which accumulates state as elements are accepted, and allows

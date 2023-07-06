@@ -21,7 +21,6 @@
 
 package java.base.share.classes.javax.crypto;
 
-
 import java.base.share.classes.java.security.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -37,20 +36,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains CryptoPermission objects, organized into
@@ -226,7 +211,6 @@ implements Serializable {
         }
 
         CryptoPermissions ret = new CryptoPermissions();
-
 
         PermissionCollection thatWildcard =
                 other.perms.get(CryptoPermission.ALG_NAME_WILDCARD);

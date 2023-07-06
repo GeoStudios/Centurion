@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code MetalTheme} provides the color palette and fonts used by

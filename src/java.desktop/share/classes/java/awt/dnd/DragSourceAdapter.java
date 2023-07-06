@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An abstract adapter class for receiving drag source events. The methods in
  * this class are empty. This class exists only as a convenience for creating

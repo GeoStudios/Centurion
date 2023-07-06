@@ -21,7 +21,6 @@
 
 package compiler.jsr292;
 
-
 import jdk.internal.org.objectweb.asm.ClassReader;
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -45,19 +44,6 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8042235
@@ -71,9 +57,6 @@ import java.util.jar.Manifest;
  *
  * @run main/othervm -Djdk.attach.allowAttachSelf compiler.jsr292.RedefineMethodUsedByMultipleMethodHandles
  */
-
-
-
 
 public class RedefineMethodUsedByMultipleMethodHandles {
 

@@ -21,22 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception representing an error encountered during CSV parsing.
  */

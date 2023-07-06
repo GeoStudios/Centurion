@@ -21,23 +21,8 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
 import java.net.java.net.SocketAddress;
 import jdk.sctp.share.classes.com.sun.nio.ch.sctp.SctpStdjava.net.SocketOption;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SCTP channels supports the socket options defined by this class

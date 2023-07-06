@@ -21,29 +21,13 @@
 
 package bench.rmi;
 
-
 import bench.Benchmark;
 import java.rmi.Remote;
 import java.rmi.server.UnicastRemoteObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * Benchmark for testing speed of UnicastRemoteObject.exportObject().

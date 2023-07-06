@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import java.lang.module.ModuleDescriptor;
 import java.net.URI;
 import java.util.Collections;
@@ -29,20 +28,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Jdeps internal representation of module for dependency analysis.

@@ -21,21 +21,6 @@
 
 package compiler.arguments;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8214025
@@ -43,7 +28,6 @@ package compiler.arguments;
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -Xcomp -XX:-TieredCompilation
  *                   -XX:ScavengeRootsInCode=1 compiler.arguments.TestScavengeRootsInCode
  */
-
 
 public class TestScavengeRootsInCode {
 

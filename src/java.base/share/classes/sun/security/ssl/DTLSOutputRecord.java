@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.*;
 import java.nio.*;
 import java.util.*;
 import javax.net.ssl.*;
 import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DTLS {@code OutputRecord} implementation for {@code SSLEngine}.

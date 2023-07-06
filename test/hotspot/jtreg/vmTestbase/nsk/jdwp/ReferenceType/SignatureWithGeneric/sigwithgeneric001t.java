@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ReferenceType.SignatureWithGeneric;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class sigwithgeneric001t {
     public static void main(String args[]) {

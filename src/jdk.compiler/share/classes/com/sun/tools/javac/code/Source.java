@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.util.*;
 import javax.lang.model.SourceVersion;
 import static javax.lang.model.SourceVersion.*;.extended
@@ -32,20 +31,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** The source language version accepted.
  *

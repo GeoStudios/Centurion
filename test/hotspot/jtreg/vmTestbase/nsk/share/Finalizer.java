@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.util.Stack;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Finalizer performs object finalization when virtual mashine shuts down.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
 
 /**
@@ -579,7 +578,6 @@ class DESCrypt extends SymmetricCipher implements DESConstants {
         cipherBlock(cipher, cipherOffset, plain, plainOffset);
     }
 
-
     void cipherBlock(byte[] in, int inOffset, byte[] out, int outOffset) {
         byte[] key;
         int temp;
@@ -669,7 +667,6 @@ class DESCrypt extends SymmetricCipher implements DESConstants {
         high |= permRightE[temp & 0x0000000f];
         temp >>= 4;
         low  |= permLeftF[temp & 0x0000000f];
-
 
         out[offset] = (byte)low;
         out[offset + 1] = (byte)(low >> 8);

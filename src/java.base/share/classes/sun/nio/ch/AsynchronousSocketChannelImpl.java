@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.net.java.net.SocketOption;
@@ -37,20 +36,6 @@ import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
 import java.base.share.classes.sun.net.NetHooks;
 import java.base.share.classes.sun.net.ext.Extendedjava.net.SocketOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of AsynchronousSocketChannel

@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.CMenuItem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK implementation class
 final class ScreenMenuItem extends MenuItem

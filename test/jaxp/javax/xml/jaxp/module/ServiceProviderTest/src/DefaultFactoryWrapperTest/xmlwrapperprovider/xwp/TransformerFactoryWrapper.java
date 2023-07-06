@@ -21,7 +21,6 @@
 
 package xwp;
 
-
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Source;
 import javax.xml.transform.Templates;
@@ -29,19 +28,6 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.URIResolver;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TransformerFactoryWrapper extends TransformerFactory {
     private TransformerFactory defaultImpl = TransformerFactory.newDefaultInstance();

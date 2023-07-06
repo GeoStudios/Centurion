@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
@@ -44,28 +43,10 @@ import javax.xml.crypto.dsig.DigestMethod;
 import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 public abstract class SignatureBaseRSA extends SignatureAlgorithmSpi {
 

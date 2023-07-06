@@ -21,26 +21,12 @@
 
 package gc.g1.logging;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestG1LoggingFailure
@@ -52,7 +38,6 @@ import jdk.test.lib.Utils;
  * @build gc.g1.logging.TestG1LoggingFailure
  * @run main/timeout=300 gc.g1.logging.TestG1LoggingFailure
  */
-
 
 public class TestG1LoggingFailure {
 

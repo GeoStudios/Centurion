@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An "IndexedPropertyChange" event gets delivered whenever a component that

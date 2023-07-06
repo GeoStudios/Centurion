@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.java.io.java.io.java.io.IOException;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a check box -- an item that can be selected or
@@ -97,7 +82,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
      */
     private static final String uiClassID = "CheckBoxUI";
 
-
     /**
      * Creates an initially unselected check box button with no text, no icon.
      */
@@ -145,7 +129,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
         this();
         setAction(a);
     }
-
 
     /**
      * Creates a check box with text and specifies whether
@@ -233,7 +216,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
         setUI((ButtonUI)UIManager.getUI(this));
     }
 
-
     /**
      * Returns a string that specifies the name of the L&amp;F class
      * that renders this component.
@@ -247,7 +229,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * The icon for checkboxs comes from the look and feel,
@@ -272,7 +253,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
         }
      }
 
-
     /**
      * See JComponent.readObject() for information about serialization
      * in Swing.
@@ -286,7 +266,6 @@ public class JCheckBox extends JToggleButton implements Accessible {
             updateUI();
         }
     }
-
 
     /**
      * Returns a string representation of this JCheckBox. This method

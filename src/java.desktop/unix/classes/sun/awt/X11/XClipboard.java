@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.DataFlavor;
 import java.util.SortedMap;
@@ -34,20 +33,6 @@ import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
 import java.desktop.unix.classes.sun.awt.datatransfer.SunClipboard;
 import java.desktop.unix.classes.sun.awt.datatransfer.ClipboardTransferable;
 import java.desktop.unix.classes.sun.security.action.GetIntegerAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which interfaces with the X11 selection service in order to support
@@ -123,7 +108,6 @@ public final class XClipboard extends SunClipboard implements OwnershipListener
     protected void clearNativeContext() {
         selection.reset();
     }
-
 
     protected long[] getClipboardFormats() {
         return selection.getTargets(XToolkit.getCurrentServerTime());

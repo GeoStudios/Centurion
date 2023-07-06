@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryHandles;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
@@ -42,20 +41,6 @@ import static java.lang.invoke.MethodHandles.collectArguments;.extended
 import static java.lang.invoke.MethodHandles.filterArguments;.extended
 import static java.lang.invoke.MethodHandles.insertArguments;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The binding operators defined in the Binding class can be combined into argument and return value processing 'recipes'.
@@ -411,7 +396,6 @@ public abstract class Binding {
     public static Dup dup() {
         return Dup.INSTANCE;
     }
-
 
     public static Binding.Builder builder() {
         return new Binding.Builder();

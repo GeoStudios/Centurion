@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.util.*;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.SwingConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>CompositeView</code> is an abstract <code>View</code>
@@ -521,7 +506,6 @@ public abstract class CompositeView extends View {
 
     // --- local methods ----------------------------------------------------
 
-
     /**
      * Tests whether a point lies before the rectangle range.
      *
@@ -802,9 +786,7 @@ public abstract class CompositeView extends View {
         return false;
     }
 
-
     // ---- member variables ---------------------------------------------
-
 
     private static final View[] ZERO = new View[0];
 

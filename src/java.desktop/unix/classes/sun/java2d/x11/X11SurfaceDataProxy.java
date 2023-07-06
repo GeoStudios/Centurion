@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
-
 import java.awt.Color;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
@@ -32,20 +31,6 @@ import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
 import java.desktop.unix.classes.sun.java2d.SurfaceDataProxy;
 import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The proxy class contains the logic for when to replace a

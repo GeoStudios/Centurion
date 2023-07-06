@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ObjectReference.InvokeMethod;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP command: ObjectReference.InvokeMethod.
@@ -225,7 +211,6 @@ public class invokemeth001 {
         log.display("Getting object value from static field: " + OBJECT_FIELD_NAME);
         objectID = queryObjectID(classID, OBJECT_FIELD_NAME, JDWP.Tag.OBJECT);
         log.display("  ... got objectID: " + objectID);
-
 
         // test JDWP command
         log.display("\n>> Testing JDWP command \n");

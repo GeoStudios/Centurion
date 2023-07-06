@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.InvalidPathException;
 import java.time.Duration;
@@ -40,20 +39,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 import jdk.jfr.share.classes.jdk.jfr.internal.WriteableUserPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JFR.dump

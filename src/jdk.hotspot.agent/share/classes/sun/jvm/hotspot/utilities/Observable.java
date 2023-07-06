@@ -21,21 +21,5 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @SuppressWarnings("deprecation")
 public class Observable extends java.util.Observable { }

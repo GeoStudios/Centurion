@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.invoke.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Utility routines for dealing with bytecode-level names.
  * Includes universal mangling rules for the JVM.
@@ -632,6 +616,5 @@ public class BytecodeName {
         }
         return -1;
     }
-
 
 }

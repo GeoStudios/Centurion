@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes the type of program element an extended annotation (or extended

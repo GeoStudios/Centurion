@@ -21,22 +21,7 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
-
 import org.openide.windows.WindowManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -157,7 +142,6 @@ private void okButtonClicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_
 private void cancelButtonClicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelButtonClicked
     setVisible(false);
 }//GEN-LAST:event_cancelButtonClicked
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton cancelButton;

@@ -21,21 +21,6 @@
 
 package gc.epsilon;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TestLogTrace
  * @requires vm.gc.Epsilon

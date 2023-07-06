@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import jdk.internal.access.JavaAWTFontAccess;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class JavaAWTFontAccessImpl implements JavaAWTFontAccess {
 

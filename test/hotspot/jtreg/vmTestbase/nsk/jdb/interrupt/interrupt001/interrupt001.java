@@ -21,7 +21,6 @@
 
 package nsk.jdb.interrupt.interrupt001;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
@@ -29,19 +28,6 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -79,9 +65,6 @@ import java.util.stream.Collectors;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class interrupt001 extends JdbTest {
 

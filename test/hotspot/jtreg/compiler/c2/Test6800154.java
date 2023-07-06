@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -48,9 +34,6 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6800154::divcomp
  *      compiler.c2.Test6800154
  */
-
-
-
 
 public class Test6800154 implements Runnable {
     static final long[] DIVIDENDS = {

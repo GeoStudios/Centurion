@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enumeration for RowId life-time values.

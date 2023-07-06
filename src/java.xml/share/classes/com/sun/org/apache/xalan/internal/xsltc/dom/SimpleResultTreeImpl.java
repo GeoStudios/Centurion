@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
@@ -41,20 +40,6 @@ import javax.xml.transform.SourceLocator;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a light-weight DOM model for simple result tree fragment(RTF).
@@ -243,7 +228,6 @@ public class SimpleResultTreeImpl extends EmptySerializer implements DOM, DTM
             public DTMAxisIterator cloneIterator() { return this; }
             public void setRestartable(boolean isRestartable) { }
         };
-
 
     // The root node id of the simple RTF
     public static final int RTF_ROOT = 0;

@@ -21,7 +21,6 @@
 
 package catalog;
 
-
 import java.io.File;
 import java.io.StringReader;
 import javax.xml.stream.XMLResolver;
@@ -41,19 +40,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -82,7 +68,6 @@ public class CatalogSupport5 extends CatalogSupportBase {
     public void setUpClass() throws Exception {
         setUp();
     }
-
 
     /*
        Verifies the Catalog support on SAXParser.

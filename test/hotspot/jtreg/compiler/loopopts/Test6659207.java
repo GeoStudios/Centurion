@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6659207
@@ -43,7 +28,6 @@ package compiler.loopopts;
  *
  * @run main compiler.loopopts.Test6659207
  */
-
 
 public class Test6659207 {
     static int[] array = new int[12];

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.*;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import javax.xml.namespace.NamespaceContext;
@@ -36,20 +35,6 @@ import javax.xml.xpath.XPathVariableResolver;
 import jdk.xml.internal.JdkXmlFeatures;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The XPathImpl class provides implementation for the methods defined  in
@@ -82,7 +67,6 @@ public class XPathImpl extends XPathImplUtil implements javax.xml.xpath.XPath {
                 JdkXmlFeatures.XmlFeature.JDK_OVERRIDE_PARSER);
 
     }
-
 
     //-Override-
     public void setXPathVariableResolver(XPathVariableResolver resolver) {

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.AMPM_OF_DAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
@@ -49,20 +48,6 @@ import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A provider to obtain the textual form of a date-time field.

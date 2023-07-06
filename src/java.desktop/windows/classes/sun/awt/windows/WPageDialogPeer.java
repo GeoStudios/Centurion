@@ -21,22 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class WPageDialogPeer extends WPrintDialogPeer {
 
     WPageDialogPeer(WPageDialog target) {

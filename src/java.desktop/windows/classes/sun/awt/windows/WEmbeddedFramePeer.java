@@ -21,26 +21,11 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Dialog;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.desktop.windows.classes.sun.awt.EmbeddedFrame;
 import java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WEmbeddedFramePeer extends WFramePeer {
 

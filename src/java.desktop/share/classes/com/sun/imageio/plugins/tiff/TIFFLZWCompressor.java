@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.desktop.share.classes.com.sun.imageio.plugins.common.LZWCompressor;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LZW Compressor.

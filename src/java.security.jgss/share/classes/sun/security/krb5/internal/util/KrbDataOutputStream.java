@@ -21,24 +21,9 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.util;
 
-
 import java.io.BufferedOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a buffered output stream. It provides methods to write a chunck of

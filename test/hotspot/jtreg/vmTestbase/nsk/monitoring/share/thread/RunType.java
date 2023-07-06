@@ -21,21 +21,6 @@
 
 package nsk.monitoring.share.thread;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * RunType defines how particular code should run - pure java,
  * pure native or mixed.

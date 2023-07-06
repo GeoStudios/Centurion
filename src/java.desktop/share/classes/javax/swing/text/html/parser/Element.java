@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import java.util.Hashtable;
 import java.util.BitSet;
 import java.io.*;
 import sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An element as described in a DTD using the ELEMENT construct.
@@ -243,7 +228,6 @@ class Element implements DTDConstants, Serializable {
         }
         return null;
     }
-
 
     static Hashtable<String, Integer> contentTypes = new Hashtable<String, Integer>();
 

@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.desktop.macosx.classes.sun.lwawt.LWCursorManager;
 import java.awt.Cursor;
 import java.awt.Point;
 import java.awt.geom.Point2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class CCursorManager extends LWCursorManager {
 

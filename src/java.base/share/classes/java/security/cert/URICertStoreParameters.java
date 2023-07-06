@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parameters used as input for {@code CertStore} algorithms which use

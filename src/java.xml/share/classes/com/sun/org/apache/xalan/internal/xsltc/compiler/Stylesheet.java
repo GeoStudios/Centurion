@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ANEWARRAY;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BasicType;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
@@ -60,26 +59,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Stylesheet.java,v 1.5 2005/09/28 13:48:16 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017

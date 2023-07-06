@@ -21,22 +21,8 @@
 
 package gc;
 
-
 import static jdk.test.lib.Asserts.*;.extended
 import gc.testlibrary.PerfCounters;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestGenerationPerfCounterSerial
  * @bug 8080345

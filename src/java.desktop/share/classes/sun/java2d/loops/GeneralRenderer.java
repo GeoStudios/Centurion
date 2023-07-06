@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
-
 import java.awt.image.WritableRaster;
 import java.awt.image.DataBuffer;
 import java.awt.image.ColorModel;
@@ -33,25 +32,8 @@ import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.ProcessPath;
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
 
 /**
  * GeneralRenderer collection
@@ -354,7 +336,6 @@ public final class GeneralRenderer {
             doSetRect(sData, pw, cx1, cy1, cx2, cy2);
             return;
         }
-
 
         if (cy1 == y) {
             doSetRect(sData, pw,   cx1,   cy1,   cx2, cy1+1);

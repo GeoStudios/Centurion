@@ -21,21 +21,6 @@
 
 package nsk.share.gc.classes;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Class1 {
         public Class1(){
 

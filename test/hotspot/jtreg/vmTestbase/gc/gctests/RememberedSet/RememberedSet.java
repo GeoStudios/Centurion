@@ -21,7 +21,6 @@
 
 package gc.gctests.RememberedSet;
 
-
 import java.lang.reflect.Field;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -31,25 +30,11 @@ import nsk.share.gc.ThreadedGCTest;
 import nsk.share.test.ExecutionController;
 import jdk.internal.misc.Unsafe;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This test stress RememberetSet procerssing in the G1 by creation of references
  * between different 1MB blocks.
  * Test is specific for G1, for other GCs it should just pass.
  */
-
 
 /*
  * @test
@@ -63,8 +48,6 @@ import jdk.internal.misc.Unsafe;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.RememberedSet.RememberedSet
  */
-
-
 
 public class RememberedSet extends ThreadedGCTest {
 
@@ -118,7 +101,6 @@ public class RememberedSet extends ThreadedGCTest {
     class Worker implements Runnable {
 
         static final long BLOCK_SIZE = 1024 * 1024;
-
 
         // this method tries to allocate a new MemoryObject
         // which is in another 1MB block

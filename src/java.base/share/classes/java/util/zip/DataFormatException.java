@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.zip;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that a data format error has occurred.
  *

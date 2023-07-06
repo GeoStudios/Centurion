@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.filechooser;
 
-
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>FileFilter</code> is an abstract class used by {@code JFileChooser}

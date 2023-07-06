@@ -21,23 +21,8 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.compiler.share.classes.javax.lang.model.type.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a method, constructor, or initializer (static or

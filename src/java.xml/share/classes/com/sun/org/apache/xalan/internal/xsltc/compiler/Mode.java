@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.DUP;
@@ -52,26 +51,9 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Mode.java,v 1.2.4.1 2005/09/19 05:18:11 pvedula Exp $
  */
-
-
-
 
 /**
  * Mode gathers all the templates belonging to a given mode;
@@ -140,7 +122,6 @@ final class Mode implements Constants {
      * Test sequence for patterns with any other kernel type.
      */
     private TestSeq[] _testSeq;
-
 
     /**
      * A mapping between templates and test sequences.
@@ -754,7 +735,6 @@ final class Mode implements Constants {
         // has a value before the start of the loop.
         mainIL.append(NOP);
 
-
         // Create a local variable to hold the current node
         final LocalVariableGen current;
         current = methodGen.addLocalVariable2("current",
@@ -912,7 +892,6 @@ final class Mode implements Constants {
             }
         }
 
-
         // Handle pattern with match on root node - default: traverse children
         targets[DTM.ROOT_NODE] = _rootPattern != null
             ? getTemplateInstructionHandle(_rootPattern.getTemplate())
@@ -971,7 +950,6 @@ final class Mode implements Constants {
 
         // This DOM-type is not in use - default: process next node
         targets[DTM.NOTATION_NODE] = ihLoop;
-
 
         // Now compile test sequences for various match patterns:
         for (int i = DTM.NTYPES; i < targets.length; i++) {
@@ -1312,8 +1290,6 @@ final class Mode implements Constants {
 
         // This DOM-type is not in use - default: process next node
         targets[DTM.NOTATION_NODE] = ihLoop;
-
-
 
         // Now compile test sequences for various match patterns:
         for (int i = DTM.NTYPES; i < targets.length; i++) {

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Processes the &lt;BR&gt; tag.  In other words, forces a line break.

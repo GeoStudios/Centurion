@@ -21,31 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-
 import java.util.Stack;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Utility class implementing a (typesafe) stack of JavaClass objects.
@@ -56,21 +38,17 @@ public class ClassStack {
 
     private final Stack<JavaClass> stack = new Stack<>();
 
-
     public void push( final JavaClass clazz ) {
         stack.push(clazz);
     }
-
 
     public JavaClass pop() {
         return stack.pop();
     }
 
-
     public JavaClass top() {
         return stack.peek();
     }
-
 
     public boolean empty() {
         return stack.empty();

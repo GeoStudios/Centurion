@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.resume;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -159,7 +145,6 @@ public class resume001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -199,7 +184,6 @@ public class resume001 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -212,7 +196,6 @@ public class resume001 {
             String bpLine2 = "breakpointLineNumber2";
             String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -222,7 +205,6 @@ public class resume001 {
             BreakpointRequest breakpRequest3 = null;
 
             int suspCount = 0;
-
 
              label0: {
 
@@ -274,7 +256,6 @@ public class resume001 {
                 if (expresult != returnCode0)
                     break label1;
 
-
                 log2("......checking up that thread2.resume() has no effect to not suspended thread");
 
                 log2("       enabling breakpRequest1");
@@ -299,7 +280,6 @@ public class resume001 {
 
                 if (expresult != returnCode0)
                     break label1;
-
 
                 log2("......checking up that thread2.resume() resumes thread2 suspended with thread2.suspend()");
 
@@ -329,7 +309,6 @@ public class resume001 {
                         break label1;
                 log2("       thread2 is at breakpoint");
 
-
                 log2("......checking up that thread2.resume() resumes thread2 suspended at a breakpoint");
 
                 log2("       enabling breakpRequest2");
@@ -343,7 +322,6 @@ public class resume001 {
                 if (expresult != returnCode0)
                     break label1;
                 log2("       thread2 is at breakpoint");
-
 
                 log2("......checking up that thread2.resume() resumes thread2 suspended with VirtualMachine.suspend()");
 
@@ -368,7 +346,6 @@ public class resume001 {
                 if (expresult != returnCode0)
                         break label1;
                 log2("       thread2 is at breakpoint");
-
 
                 log2("      resuming the thread2");
                 thread2.resume();
@@ -406,7 +383,6 @@ public class resume001 {
         }
         return testExitCode;
     }
-
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
@@ -463,7 +439,6 @@ public class resume001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

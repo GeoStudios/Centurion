@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8231988
@@ -44,7 +29,6 @@ package compiler.loopopts;
  * @run main/othervm -XX:-TieredCompilation -XX:-BackgroundCompilation
  *      compiler.loopopts.TestRemoveEmptyLoop
  */
-
 
 public class TestRemoveEmptyLoop {
 

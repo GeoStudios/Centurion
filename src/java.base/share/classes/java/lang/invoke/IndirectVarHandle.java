@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.Stable;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An indirect var handle can be thought of as an aggregate of the method handles implementing its supported access modes.

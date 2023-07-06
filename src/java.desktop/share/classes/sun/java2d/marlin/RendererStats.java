@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Timer;
@@ -33,20 +32,6 @@ import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.
 import java.desktop.share.classes.sun.java2d.marlin.stats.Histogram;
 import java.desktop.share.classes.sun.java2d.marlin.stats.Monitor;
 import java.desktop.share.classes.sun.java2d.marlin.stats.StatLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class gathers global rendering statistics for debugging purposes only

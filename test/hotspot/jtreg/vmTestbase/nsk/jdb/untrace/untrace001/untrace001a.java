@@ -21,24 +21,10 @@
 
 package nsk.jdb.untrace.untrace001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class untrace001a {
@@ -135,7 +121,6 @@ public class untrace001a {
         return untrace001.PASSED;
     }
 }
-
 
 class MyThread extends Thread {
     Object lock;

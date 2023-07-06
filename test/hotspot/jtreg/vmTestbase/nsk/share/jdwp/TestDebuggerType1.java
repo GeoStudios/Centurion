@@ -21,23 +21,9 @@
 
 package nsk.share.jdwp;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class can be used as base for debugger.
@@ -304,7 +290,6 @@ abstract public class TestDebuggerType1 {
             return null;
         }
     }
-
 
     private boolean currentSuccess = false;
     protected void forceGC() {

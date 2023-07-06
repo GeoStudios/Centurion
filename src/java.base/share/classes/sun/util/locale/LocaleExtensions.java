@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale;
 
-
 import java.util.Collections;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -32,20 +31,6 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveChar;
 import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LocaleExtensions {
 

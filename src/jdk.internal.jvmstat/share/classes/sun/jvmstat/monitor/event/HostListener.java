@@ -21,22 +21,7 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for listeners of MonitoredHost events.

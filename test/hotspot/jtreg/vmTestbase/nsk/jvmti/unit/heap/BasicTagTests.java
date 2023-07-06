@@ -21,29 +21,13 @@
 
 package nsk.jvmti.unit.heap;
 
-
 import nsk.share.jvmti.unit.*;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Unit tests for JVMTI SetTag and GetTag functions
  *
  */
-
-
 
 public class BasicTagTests {
 

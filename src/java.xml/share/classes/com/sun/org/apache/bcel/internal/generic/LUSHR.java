@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * LUSHR - Logical shift right long
@@ -53,7 +36,6 @@ public class LUSHR extends ArithmeticInstruction {
     public LUSHR() {
         super(com.sun.org.apache.bcel.internal.Const.LUSHR);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

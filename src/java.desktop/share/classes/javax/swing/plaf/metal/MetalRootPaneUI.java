@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Cursor;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.desktop.share.classes.javax.swing.event.MouseInputjava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicRootPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the metal look and feel implementation of <code>RootPaneUI</code>.
@@ -186,7 +171,6 @@ public class MetalRootPaneUI extends BasicRootPaneUI
             installClientDecorations(root);
         }
     }
-
 
     /**
      * Invokes supers implementation to uninstall any of its state. This will
@@ -681,7 +665,6 @@ public class MetalRootPaneUI extends BasicRootPaneUI
         public float getLayoutAlignmentY(Container target) { return 0.0f; }
         public void invalidateLayout(Container target) {}
     }
-
 
     /**
      * Maps from positions to cursor type. Refer to calculateCorner and

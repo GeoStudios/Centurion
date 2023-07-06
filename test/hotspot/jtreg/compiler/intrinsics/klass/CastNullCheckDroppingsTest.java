@@ -21,7 +21,6 @@
 
 package compiler.intrinsics.klass;
 
-
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Platform;
@@ -36,19 +35,6 @@ import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test NullCheckDroppingsTest
@@ -67,9 +53,6 @@ import java.util.function.BiFunction;
  *                   -XX:CompileCommand=exclude,compiler.intrinsics.klass.CastNullCheckDroppingsTest::runTest
  *                   compiler.intrinsics.klass.CastNullCheckDroppingsTest
  */
-
-
-
 
 public class CastNullCheckDroppingsTest {
 

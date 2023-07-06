@@ -21,21 +21,6 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // A simple class to extend an abstract class and get loaded with different
 // loaders. This class is loaded via the bootstrap loader. A similar named class will
 // be loaded via Loader2.

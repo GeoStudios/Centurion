@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -33,20 +32,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Sep 14, 2000:
 //  Fixed problem with namespace handling. Contributed by
@@ -60,10 +45,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 //  Reported by Mikael Staldal <d96-mst-ingen-reklam@d.kth.se>
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
-
-
-
-
 
 /**
  * Implements an XML serializer supporting both DOM and SAX pretty
@@ -151,7 +132,6 @@ extends XMLSerializer {
         _format.setVersion("1.1");
     }
 
-
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -161,7 +141,6 @@ extends XMLSerializer {
         super( format );
         _format.setVersion("1.1");
     }
-
 
     /**
      * Constructs a new serializer that writes to the specified writer
@@ -175,7 +154,6 @@ extends XMLSerializer {
         super( writer, format );
         _format.setVersion("1.1");
     }
-
 
     /**
      * Constructs a new serializer that writes to the specified output
@@ -193,7 +171,6 @@ extends XMLSerializer {
     //-----------------------------------------//
     // SAX content handler serializing methods //
     //-----------------------------------------//
-
 
     public void characters( char[] chars, int start, int length )
         throws SAXException
@@ -413,8 +390,6 @@ extends XMLSerializer {
         }
     }
 
-
-
     protected final void surrogates(int high, int low, boolean inContent) throws IOException{
         if (XMLChar.isHighSurrogate(high)) {
             if (!XMLChar.isLowSurrogate(low)) {
@@ -444,7 +419,6 @@ extends XMLSerializer {
         }
 
     }
-
 
     protected void printText( String text, boolean preserveSpace, boolean unescaped )
     throws IOException {

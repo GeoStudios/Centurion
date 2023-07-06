@@ -21,24 +21,10 @@
 
 package jit.inline.inline003;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,9 +36,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.inline.inline003.inline003
  */
-
-
-
 
 class inline003_1 {
         final protected static int[] inlineClassObj1 = { 1, 2 };
@@ -126,7 +109,6 @@ public class inline003 extends inline003_1 {
         private final Object MPAT_Handle_fi() {
                 return this;
         }
-
 
         private void runFinals () {
                 int jcount=0;
@@ -343,7 +325,6 @@ public class inline003 extends inline003_1 {
                 }
         }
 
-
         public static int result() {
                 String[] label = {
                         "MPAT_Const4_fs00",
@@ -397,7 +378,6 @@ public class inline003 extends inline003_1 {
         public static void main( String args[] ) {
                 int ierr=0;
                 inline003 myInline_f = new inline003();
-
 
                 if (args.length > 0 && args[0].equals("-help")) {
                         inline003.goldChecker.println("usage: java inline003 [-print]");

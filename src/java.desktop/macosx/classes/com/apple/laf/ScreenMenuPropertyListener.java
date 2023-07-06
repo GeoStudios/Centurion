@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.beans.*;
 import javax.accessibility.*;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ScreenMenuPropertyListener implements PropertyChangeListener {
     ScreenMenuPropertyHandler fMenu;

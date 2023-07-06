@@ -21,22 +21,8 @@
 
 package nsk.share.gc.lock.jni;
 
-
 import nsk.share.gc.lock.CriticalSectionObjectLocker;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IntArrayCriticalLocker extends CriticalSectionObjectLocker<int[]> {
         private native int criticalNative(long enterTime, long sleepTime);

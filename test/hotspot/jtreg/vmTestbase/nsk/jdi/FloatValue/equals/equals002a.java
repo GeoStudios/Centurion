@@ -21,23 +21,9 @@
 
 package nsk.jdi.FloatValue.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>equals002a</code> is deugee's part of the test.<br>

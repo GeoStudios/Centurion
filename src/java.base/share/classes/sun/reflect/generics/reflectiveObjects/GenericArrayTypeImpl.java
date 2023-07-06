@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
-
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.Type;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of GenericArrayType interface for core reflection.
@@ -61,7 +46,6 @@ public class GenericArrayTypeImpl
     public static GenericArrayTypeImpl make(Type ct) {
         return new GenericArrayTypeImpl(ct);
     }
-
 
     /**
      * Returns a {@code Type} object representing the component type

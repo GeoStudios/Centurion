@@ -21,23 +21,8 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Element;
 import jdk.xml.dom.share.classes.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>XPathNamespace</code> interface is returned by

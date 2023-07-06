@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Graphics;
 import java.desktop.share.classes.javax.swing.JComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SynthUI is used to fetch the SynthContext for a particular Component.

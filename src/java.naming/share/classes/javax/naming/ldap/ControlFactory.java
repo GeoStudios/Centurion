@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.Context;
 import java.util.Hashtable;
 import com.sun.naming.internal.FactoryEnumeration;
 import com.sun.naming.internal.ResourceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This abstract class represents a factory for creating LDAPv3 controls.

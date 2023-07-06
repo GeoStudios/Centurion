@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import javax.lang.model.element.VariableElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface for writing field output.

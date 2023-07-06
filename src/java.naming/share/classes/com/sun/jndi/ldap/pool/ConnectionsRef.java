@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Is a reference to Connections that is stored in Pool.
  * This is an intermediate object that is outside of the circular

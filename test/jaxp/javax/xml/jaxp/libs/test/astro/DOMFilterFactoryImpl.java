@@ -21,7 +21,6 @@
 
 package test.astro;
 
-
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import static test.astro.AstroConstants.DECXSL;.extended
 import static test.astro.AstroConstants.RAXSL;.extended
@@ -33,19 +32,6 @@ import javax.xml.transform.Source;
 import javax.xml.transform.dom.DOMSource;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Implementation of the filter factory interface that utilizes DOM
@@ -60,7 +46,6 @@ public class DOMFilterFactoryImpl extends SourceFilterFactory {
         Document document = getStylesheetDOM(xslFileName);
         return new DOMSource(document);
     }
-
 
     @Override
     protected String getRAXsl() {

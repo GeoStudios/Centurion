@@ -21,26 +21,11 @@
 
 package jdk.jcmd.linux.classes.sun.tools.common;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper class that retrieves the main class name for

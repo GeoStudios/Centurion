@@ -21,27 +21,12 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Colors;
 
-
 import static java.awt.Color.RED;.extended
 import static java.awt.Color.WHITE;.extended
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.Ellipse2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creating colors with an alpha value.

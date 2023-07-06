@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The class implements a buffered output stream. By setting up such
  * an output stream, an application can write bytes to the underlying

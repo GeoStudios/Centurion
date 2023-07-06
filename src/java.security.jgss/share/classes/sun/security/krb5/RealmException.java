@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class RealmException extends KrbException {
 
     private static final long serialVersionUID = -9100385213693792864L;

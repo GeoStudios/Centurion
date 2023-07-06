@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Field;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ZGlobals {
     private static Field instanceField;

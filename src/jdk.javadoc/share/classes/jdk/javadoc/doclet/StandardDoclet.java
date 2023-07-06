@@ -21,27 +21,12 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.doclet;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import javax.lang.model.element.Element;
 import javax.lang.model.SourceVersion;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlDoclet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This doclet generates HTML-formatted documentation for the specified modules,

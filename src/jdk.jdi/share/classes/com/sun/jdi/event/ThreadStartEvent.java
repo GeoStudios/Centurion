@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Notification of a new running thread in the target VM.

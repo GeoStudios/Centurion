@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.tools;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -44,20 +43,6 @@ import java.util.ResourceBundle;
 import java.util.ServiceLoader;
 import java.base.share.classes.sun.security.util.FilePaths;
 import java.base.share.classes.sun.security.util.PropertyExpander;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p> This class provides several utilities to <code>KeyStore</code>.

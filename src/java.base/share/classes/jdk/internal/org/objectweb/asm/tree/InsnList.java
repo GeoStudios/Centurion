@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
-
 import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A doubly linked list of {@link AbstractInsnNode} objects. <i>This implementation is not thread

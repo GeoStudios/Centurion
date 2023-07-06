@@ -21,26 +21,11 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import javax.swing.*;
 import static javax.swing.SwingConstants.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.JConsole.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 abstract class OverviewPanel extends PlotterPanel {
@@ -78,7 +63,6 @@ abstract class OverviewPanel extends PlotterPanel {
             setPlotter(plotter);
         }
     }
-
 
     public JLabel getInfoLabel() {
         if (infoLabel == null) {

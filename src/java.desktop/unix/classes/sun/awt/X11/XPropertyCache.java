@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements abstract X window property caching mechanism.  The

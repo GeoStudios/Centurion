@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface SSLHandshakeBinding {
     default SSLHandshake[] getRelatedHandshakers(

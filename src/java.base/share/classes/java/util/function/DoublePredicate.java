@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.function;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a predicate (boolean-valued function) of one {@code double}-valued

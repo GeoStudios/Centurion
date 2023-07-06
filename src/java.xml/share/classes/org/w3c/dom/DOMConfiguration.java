@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>DOMConfiguration</code> interface represents the configuration
  * of a document and maintains a table of recognized parameters. Using the

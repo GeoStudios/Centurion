@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -33,20 +32,6 @@ import jdk.jdi.share.classes.com.sun.jdi.connect.IllegalConnectorArgumentsExcept
 import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
 import jdk.jdi.share.classes.com.sun.jdi.connect.VMStartException;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SunCommandLineLauncher extends AbstractLauncher {
 

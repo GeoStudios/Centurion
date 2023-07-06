@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spnego;
 
-
 import java.io.*;
 import java.security.Provider;
 import org.ietf.jgss.*;
@@ -29,20 +28,6 @@ import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.jgss.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the mechanism specific context class for SPNEGO
@@ -470,7 +455,6 @@ public class SpNegoContext implements GSSContextSpi {
 
         return retVal;
     }
-
 
     /**
      * Acceptor's context establishment call. This method may be

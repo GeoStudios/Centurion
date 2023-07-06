@@ -21,23 +21,8 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.io.*;
 import java.util.spi.ToolProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Main {
     public static void main(String... args) throws Exception {

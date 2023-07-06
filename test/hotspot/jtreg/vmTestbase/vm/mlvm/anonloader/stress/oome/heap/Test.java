@@ -21,7 +21,6 @@
 
 package vm.mlvm.anonloader.stress.oome.heap;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.util.java.util.java.util.java.util.List;
@@ -31,19 +30,6 @@ import vm.mlvm.share.MlvmOOMTest;
 import vm.mlvm.share.MlvmTestExecutor;
 import vm.mlvm.share.Env;
 import vm.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -62,9 +48,6 @@ import vm.share.FileUtils;
  *
  * @run main/othervm -XX:-UseGCOverheadLimit -Xmx128m vm.mlvm.anonloader.stress.oome.heap.Test
  */
-
-
-
 
 /**
  * This test loads a class using defineHiddenClass, creates instances

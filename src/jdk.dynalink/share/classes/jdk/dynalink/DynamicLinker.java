@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
 import java.lang.StackWalker.StackFrame;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -38,20 +37,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.SimpleLinkRequest;
 import jdk.dynalink.share.classes.jdk.dynalink.support.ChainedCallSite;
 import jdk.dynalink.share.classes.jdk.dynalink.support.SimpleRelinkableCallSite;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -59,8 +44,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.support.SimpleRelinkableCallSite;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * The linker for {@link RelinkableCallSite} objects. A dynamic linker is a main

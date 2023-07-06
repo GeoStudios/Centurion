@@ -21,21 +21,6 @@
 
 package nsk.jdi.ClassUnloadEvent.classSignature;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then unloaded
 
 public class signature001c {

@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8233529
@@ -44,7 +29,6 @@ package compiler.loopopts;
  *                   -XX:CompileCommand=compileonly,compiler.loopopts.TestRemoveMainPostLoops::test
  *                   compiler.loopopts.TestRemoveMainPostLoops
  */
-
 
 public class TestRemoveMainPostLoops {
     static int cnt1 = 0;

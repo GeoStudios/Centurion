@@ -21,26 +21,11 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of {@link System.Logger System.Logger}
@@ -72,7 +57,6 @@ abstract class AbstractLoggerWrapper<L extends Logger>
     // -----------------------------------------------------------------
     // Generic methods taking a Level as parameter
     // -----------------------------------------------------------------
-
 
     @Override
     public boolean isLoggable(Level level) {
@@ -378,7 +362,6 @@ abstract class AbstractLoggerWrapper<L extends Logger>
             platformProxy.logrb(level, bundle, msg, params);
         }
     }
-
 
     @Override
     public LoggerConfiguration getLoggerConfiguration() {

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.sampled.Mixer;
 import javax.sound.sampled.spi.MixerProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DirectAudioDevice provider.

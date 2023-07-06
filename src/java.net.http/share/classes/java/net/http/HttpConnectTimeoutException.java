@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when a connection, over which an {@code HttpRequest} is intended to be
  * sent, is not successfully established within a specified time period.

@@ -21,23 +21,8 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Element;
 import jdk.xml.dom.share.classes.org.w3c.dom.stylesheets.DocumentStyle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface represents a document with a CSS view.

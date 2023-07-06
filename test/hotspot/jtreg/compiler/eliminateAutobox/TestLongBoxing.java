@@ -21,21 +21,6 @@
 
 package compiler.eliminateAutobox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6934604
@@ -55,7 +40,6 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestLongBoxing
  */
 
-
 public class TestLongBoxing {
 
   static final Long ibc = new Long(1);
@@ -65,7 +49,6 @@ public class TestLongBoxing {
   static void dummy()     { }
   static long  foo(long i)  { return i; }
   static Long  foob(long i) { return Long.valueOf(i); }
-
 
   static long simple(long i) {
     Long ib = new Long(i);
@@ -377,7 +360,6 @@ public class TestLongBoxing {
     return j1 + j2;
   }
 
-
   //===============================================
   // Safepointa and debug info for deoptimization
   static long simple_deop(long i) {
@@ -646,7 +628,6 @@ public class TestLongBoxing {
     return j1 + j2;
   }
 
-
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -688,7 +669,6 @@ public class TestLongBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0;
     }
-
 
     for (long i = 0; i < 12000; i++) {
       res[0] += simple(i);

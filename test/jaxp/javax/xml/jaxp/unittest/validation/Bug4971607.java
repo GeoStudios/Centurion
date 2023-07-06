@@ -21,25 +21,11 @@
 
 package validation;
 
-
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.ValidatorHandler;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

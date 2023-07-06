@@ -21,23 +21,9 @@
 
 package vm.share.monitoring.data;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MemoryManagerData implements MemoryManagerMXBean, Serializable {
         private String[] memoryPoolNames;

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.File;
@@ -34,20 +33,6 @@ import javax.sound.midi.spi.SoundbankReader;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.UnsupportedAudioFileException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Soundbank reader that uses audio files as soundbanks.

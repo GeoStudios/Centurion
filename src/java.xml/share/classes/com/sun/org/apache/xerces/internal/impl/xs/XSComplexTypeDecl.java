@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.*;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.XSCMValidator;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The XML representation for a complexType
@@ -546,8 +531,6 @@ public class XSComplexTypeDecl implements XSComplexTypeDefinition, TypeInfo {
 
         return false;
     }
-
-
 
     public void reset(){
         fName = null;

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -34,20 +33,6 @@ import java.awt.Window;
 import java.beans.PropertyVetoException;
 import sun.awt.AWTAccessor;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This is an implementation of the <code>DesktopManager</code>.
   * It currently implements the basic behaviors for managing
@@ -466,7 +451,6 @@ public class DefaultDesktopManager implements DesktopManager, java.io.Serializab
         }
     }
 
-
     /** This moves the <code>JComponent</code> and repaints the damaged areas. */
     public void setBoundsForFrame(JComponent f, int newX, int newY, int newWidth, int newHeight) {
         f.setBounds(newX, newY, newWidth, newHeight);
@@ -519,7 +503,6 @@ public class DefaultDesktopManager implements DesktopManager, java.io.Serializab
 
       Rectangle parentBounds = c.getBounds();
       Component [] components = c.getComponents();
-
 
       //
       // Iterate through valid default icon locations and return the
@@ -635,7 +618,6 @@ public class DefaultDesktopManager implements DesktopManager, java.io.Serializab
         return (f.getClientProperty(HAS_BEEN_ICONIFIED_PROPERTY) == Boolean.TRUE);
     }
 
-
     JDesktopPane getDesktopPane( JComponent frame ) {
         JDesktopPane pane = null;
         Component c = frame.getParent();
@@ -655,7 +637,6 @@ public class DefaultDesktopManager implements DesktopManager, java.io.Serializab
 
         return pane;
     }
-
 
   // =========== stuff for faster frame dragging ===================
 
@@ -835,6 +816,5 @@ public class DefaultDesktopManager implements DesktopManager, java.io.Serializab
         }
 
    }
-
 
 }

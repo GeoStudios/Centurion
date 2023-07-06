@@ -21,7 +21,6 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach.spi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collections;
 import java.util.Iterator;
@@ -32,20 +31,6 @@ import jdk.attach.share.classes.com.sun.tools.attach.VirtualMachineDescriptor;
 import jdk.attach.share.classes.com.sun.tools.attach.AttachPermission;
 import jdk.attach.share.classes.com.sun.tools.attach.AttachNotSupportedException;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Attach provider class for attaching to a Java virtual machine.
@@ -220,7 +205,6 @@ public abstract class AttachProvider {
      *          Java virtual machines known to this provider (may be empty).
      */
     public abstract List<VirtualMachineDescriptor> listVirtualMachines();
-
 
     /**
      * Returns a list of the installed attach providers.

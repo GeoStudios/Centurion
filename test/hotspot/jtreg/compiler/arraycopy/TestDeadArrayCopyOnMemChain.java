@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8080699
@@ -44,7 +29,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-UseOnStackReplacement -XX:-BackgroundCompilation
  *                   compiler.arraycopy.TestDeadArrayCopyOnMemChain
  */
-
 
 public class TestDeadArrayCopyOnMemChain {
     static class A {

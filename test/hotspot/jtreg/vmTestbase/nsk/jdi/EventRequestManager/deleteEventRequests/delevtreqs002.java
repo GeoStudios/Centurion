@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.deleteEventRequests;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -201,7 +187,6 @@ public class delevtreqs002 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -294,12 +279,10 @@ public class delevtreqs002 extends JDIBase {
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
 
-
             Field field1 = debuggeeClass.fieldByName(fieldName1);
 
             ReferenceType refType = (ReferenceType)
                                 debuggeeClass.getValue(debuggeeClass.fieldByName(fieldName2)).type();
-
 
             log2("......creating EventRequests");
             for (int i1 = 0; i1 < length1; i1++) {
@@ -326,7 +309,6 @@ public class delevtreqs002 extends JDIBase {
                     requestArray[ii1][ii2].putProperty("number", "request " + ii1 + " " + ii2);
                 }
             }
-
 
             log2("......deleting Requests and checking up on Lists");
             for (int i2 = 0; i2 < length1; i2++) {

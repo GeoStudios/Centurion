@@ -21,22 +21,7 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import java.management.share.classes.java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The management interface for the thread system of
@@ -859,7 +844,6 @@ public interface ThreadMXBean extends PlatformManagedObject {
      *
      */
     ThreadInfo[] dumpAllThreads(boolean lockedMonitors, boolean lockedSynchronizers);
-
 
     /**
      * Returns the thread info for all live threads

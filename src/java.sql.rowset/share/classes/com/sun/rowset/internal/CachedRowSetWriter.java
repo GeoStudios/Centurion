@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
-
 import java.sql.*;
 import javax.sql.*;
 import java.util.*;
@@ -36,20 +35,6 @@ import javax.sql.rowset.serial.SerialBlob;
 import javax.sql.rowset.serial.SerialClob;
 import javax.sql.rowset.serial.SerialStruct;
 import javax.sql.rowset.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The facility called on internally by the {@code RIOptimisticProvider} implementation to
@@ -290,7 +275,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
 
         con = reader.connect(caller);
 
-
         if (con == null) {
             throw new SQLException(resBundle.handleGetObject("crswriter.connect").toString());
         }
@@ -474,7 +458,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
         try {
             updateWhere = buildWhereClause(updateWhere, origVals);
 
-
              /**
               *  The following block of code is for checking a particular type of
               *  query where in there is a where clause. Without this block, if a
@@ -484,7 +467,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
               *  CachedRowSet object would already have been populated with this
               *  query before coming to this point.
               **/
-
 
             String tempselectCmd = selectCmd.toLowerCase();
 
@@ -741,7 +723,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
                 if(iChangedValsInDbAndCRS != 0 || iChangedValsinDbOnly != 0) {
                    return true;
                 }
-
 
                 updateExec += updateWhere;
 
@@ -1126,7 +1107,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
          */
         updateCmd = "UPDATE " + buildTableName(dbmd, catalog, schema, table);
 
-
         /**
          *  The following block of code is for checking a particular type of
          *  query where in there is a where clause. Without this block, if a
@@ -1397,7 +1377,6 @@ public class CachedRowSetWriter implements TransactionalWriter, Serializable {
 
         int id = pStmt.executeUpdate();
       }
-
 
     /**
      *

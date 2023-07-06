@@ -21,26 +21,11 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Executor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Executes tasks within a given access control context, and by a given executor.

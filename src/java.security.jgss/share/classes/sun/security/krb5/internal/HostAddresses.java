@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.Config;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 import java.security.jgss.share.classes.sun.security.krb5.KrbException;
@@ -31,20 +30,6 @@ import java.net.*;
 import java.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CCacheOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the ASN.1 HostAddresses type.
@@ -148,7 +133,6 @@ public class HostAddresses implements Cloneable {
 
     }
 
-
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -192,7 +176,6 @@ public class HostAddresses implements Cloneable {
             tempAddresses.copyInto(addresses);
         }
     }
-
 
    /**
     * Encodes a <code>HostAddresses</code> object.
@@ -263,7 +246,6 @@ public class HostAddresses implements Cloneable {
                       addresses[i].address.length);
         }
     }
-
 
     public InetAddress[] getInetAddresses() {
 

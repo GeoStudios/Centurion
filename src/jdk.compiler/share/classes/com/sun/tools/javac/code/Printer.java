@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.base.share.classes.java.util.Locale;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
@@ -34,20 +33,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.exten
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.FORALL;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A combined type/symbol visitor for generating non-trivial localized string

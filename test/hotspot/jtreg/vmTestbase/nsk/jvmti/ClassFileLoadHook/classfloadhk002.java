@@ -21,24 +21,10 @@
 
 package nsk.jvmti.ClassFileLoadHook;
 
-
 import java.io.*;
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Debuggee class of JVMTI test.

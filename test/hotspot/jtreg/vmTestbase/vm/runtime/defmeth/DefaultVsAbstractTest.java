@@ -21,26 +21,12 @@
 
 package vm.runtime.defmeth;
 
-
 import java.util.Set;
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.data.*;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,9 +43,6 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.DefaultVsAbstractTest
  */
-
-
-
 
 /**
  * Tests on interaction of default methods with abstract methods
@@ -354,7 +337,6 @@ public class DefaultVsAbstractTest extends DefMethTest {
             .build();
 
         ConcreteClass C = b.clazz("C").extend(D).implement(I, J).build();
-
 
         b.test() // I i = new C(); ...
             .callSite(I, C, "m", "()I").returns(3)

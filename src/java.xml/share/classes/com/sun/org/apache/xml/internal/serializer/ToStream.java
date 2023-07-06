@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3.DOMConstants;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
@@ -50,20 +49,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class is a base class for other stream
@@ -132,7 +117,6 @@ abstract public class ToStream extends SerializerBase {
     protected BoolStack m_preserveSpaces = new BoolStack();
 
     protected boolean m_ispreserveSpace = false;
-
 
     /**
      * State flag that tells if the previous node processed
@@ -475,7 +459,6 @@ abstract public class ToStream extends SerializerBase {
                         }
                        // The encoding was good, or was forced to UTF-8 above
 
-
                        // If there is already a non-default set encoding and we
                        // are trying to set the default encoding, skip the this block
                        // as the non-default value is already the one to use.
@@ -731,7 +714,6 @@ abstract public class ToStream extends SerializerBase {
                     osw = null;
                 }
 
-
             if (osw == null) {
                 System.out.println(
                     "Warning: encoding \""
@@ -759,7 +741,6 @@ abstract public class ToStream extends SerializerBase {
         }
     }
 
-
     /**
      * @see SerializationHandler#setEscaping(boolean)
      */
@@ -770,7 +751,6 @@ abstract public class ToStream extends SerializerBase {
         return temp;
 
     }
-
 
     /**
      * Might print a newline character and the indentation amount
@@ -1430,7 +1410,6 @@ abstract public class ToStream extends SerializerBase {
         if (m_tracer != null)
             super.fireCharEvent(chars, start, length);
     }
-
 
     /**
      * This method checks if the content in current element should be formatted.
@@ -3405,7 +3384,6 @@ abstract public class ToStream extends SerializerBase {
         }
     }
 
-
     /**
      * This inner class is used to buffer the text nodes and the entity
      * reference nodes if indentation is on. There is only one CharacterBuffer
@@ -3567,7 +3545,6 @@ abstract public class ToStream extends SerializerBase {
             bufferedCharacters.clear();
         }
     }
-
 
     // Implement DTDHandler
     /**

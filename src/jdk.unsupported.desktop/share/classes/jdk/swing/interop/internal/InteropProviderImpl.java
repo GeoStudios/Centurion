@@ -21,22 +21,7 @@
 
 package jdk.unsupported.desktop.share.classes.jdk.swing.interop.internal;
 
-
 import sun.swing.InteropProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

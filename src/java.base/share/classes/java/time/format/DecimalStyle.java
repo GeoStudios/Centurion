@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import java.base.share.classes.java.text.DecimalFormatSymbols;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.HashSet;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.concurrent.ConcurrentMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Localized decimal style used in date and time formatting.

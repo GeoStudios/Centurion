@@ -21,23 +21,8 @@
 
 package java.base.windows.classes.java.net;
 
-
 import java.base.windows.classes.java.util.Properties;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines a factory for creating DatagramSocketImpls. It defaults

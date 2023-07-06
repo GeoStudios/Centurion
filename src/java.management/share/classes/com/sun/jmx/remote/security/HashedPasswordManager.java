@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.security;
 
-
 import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
 import java.io.*;
 import java.nio.ByteBuffer;
@@ -37,20 +36,6 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * HashedPasswordManager loads passwords from the password file and optionally

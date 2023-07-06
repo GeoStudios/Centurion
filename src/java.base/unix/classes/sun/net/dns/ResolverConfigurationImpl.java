@@ -21,27 +21,12 @@
 
 package java.base.unix.classes.sun.net.dns;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * An implementation of ResolverConfiguration for Solaris
@@ -125,7 +110,6 @@ public class ResolverConfigurationImpl
     private LinkedList<String> searchlist;
     private LinkedList<String> nameservers;
 
-
     // Load DNS configuration from OS
 
     @SuppressWarnings("removal")
@@ -157,7 +141,6 @@ public class ResolverConfigurationImpl
         // update the timestamp on the configuration
         lastRefresh = System.currentTimeMillis();
     }
-
 
     // obtain search list or local domain
 
@@ -221,7 +204,6 @@ public class ResolverConfigurationImpl
         return sl;
     }
 
-
     // ----
 
     ResolverConfigurationImpl() {
@@ -253,7 +235,6 @@ public class ResolverConfigurationImpl
     public Options options() {
         return opts;
     }
-
 
     // --- Native methods --
 

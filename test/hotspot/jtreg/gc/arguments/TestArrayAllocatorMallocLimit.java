@@ -21,24 +21,10 @@
 
 package gc.arguments;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestArrayAllocatorMallocLimit
@@ -51,7 +37,6 @@ import java.math.BigInteger;
  *          java.management
  * @run driver gc.arguments.TestArrayAllocatorMallocLimit
  */
-
 
 public class TestArrayAllocatorMallocLimit {
   public static void main(String [] args) throws Exception {

@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import javax.xml.transform.Source;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * {@link Source} that represents an {@link XMLInputSource}.

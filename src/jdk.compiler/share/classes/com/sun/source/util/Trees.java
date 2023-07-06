@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.util;
 
-
 import java.lang.reflect.Method;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.AnnotationMirror;
@@ -40,20 +39,6 @@ import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
 import jdk.compiler.share.classes.com.sun.source.tree.MethodTree;
 import jdk.compiler.share.classes.com.sun.source.tree.Scope;
 import jdk.compiler.share.classes.com.sun.source.tree.Tree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Bridges JSR 199, JSR 269, and the Tree API.

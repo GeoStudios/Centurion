@@ -21,23 +21,9 @@
 
 package nsk.share.classload;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Custom classloader that does not delegate to it's parent.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.io.Serial;
 import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A menu item that can be selected or deselected. If selected, the menu
@@ -221,7 +206,6 @@ public class JCheckBoxMenuItem extends JMenuItem implements SwingConstants,
         setSelected(b);
     }
 
-
     /**
      * Returns an array (length 1) containing the check box menu item
      * label or null if the check box is not selected.
@@ -253,7 +237,6 @@ public class JCheckBoxMenuItem extends JMenuItem implements SwingConstants,
             }
         }
     }
-
 
     /**
      * Returns a string representation of this JCheckBoxMenuItem. This method

@@ -21,23 +21,9 @@
 
 package compiler.compilercontrol.directives;
 
-
 import compiler.compilercontrol.share.SingleCommand;
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.Scenario;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import compiler.compilercontrol.share.scenario.Scenario;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.directives.CompileOnlyTest
  */
-
-
 
 public class CompileOnlyTest {
     public static void main(String[] args) {

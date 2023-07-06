@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.regex;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Grapheme {
 

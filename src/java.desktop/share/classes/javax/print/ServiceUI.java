@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.print;
 
-
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.awt.HeadlessException;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.javax.print.attribute.standard.Destination;
 import java.desktop.share.classes.javax.print.attribute.standard.Fidelity;
 import sun.print.ServiceDialog;
 import sun.print.SunAlternateMedia;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a collection of UI convenience methods which provide a

@@ -21,24 +21,10 @@
 
 package nsk.monitoring.GarbageCollectorMXBean.getCollectionCount;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getcollectioncount001 {
 

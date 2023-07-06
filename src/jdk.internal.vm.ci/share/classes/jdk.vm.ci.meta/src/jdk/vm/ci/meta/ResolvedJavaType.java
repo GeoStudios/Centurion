@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.reflect.AnnotatedElement;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.Assumptions.AssumptionResult;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a resolved Java type. Types include primitives, objects, {@code void}, and arrays

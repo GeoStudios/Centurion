@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.javax.xml.datatype;
 
-
 import java.io.File;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -31,20 +30,6 @@ import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Implements pluggable Datatypes.</p>

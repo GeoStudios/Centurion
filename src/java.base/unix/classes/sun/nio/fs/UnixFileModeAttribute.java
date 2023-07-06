@@ -21,23 +21,8 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.nio.file.attribute.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class UnixFileModeAttribute {
     static final int ALL_PERMISSIONS =

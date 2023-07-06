@@ -21,21 +21,6 @@
 
 package nsk.stress.except;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class throws exception while static initialization.
  * The test should load this class via reflection in order

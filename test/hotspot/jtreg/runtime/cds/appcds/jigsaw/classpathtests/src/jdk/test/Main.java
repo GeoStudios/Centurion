@@ -21,28 +21,12 @@
 
 package jdk.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Tests loading an archived class that has the same class name as one in the
  * jimage. The class should normally fail to load since a classpath class is not
  * allowed to have the same package name as a module in the jimage. However,
  * if --limit-modules was used then archived class should be loaded.
  */
-
 
 public class Main {
     static final ClassLoader BOOT_LOADER     = null;

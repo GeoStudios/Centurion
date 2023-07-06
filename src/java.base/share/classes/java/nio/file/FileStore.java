@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.nio.file.attribute.*;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Storage for files. A {@code FileStore} represents a storage pool, device,

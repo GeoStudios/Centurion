@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESTATIC;
@@ -38,26 +37,10 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  */
@@ -106,7 +89,6 @@ final class CopyOf extends Instruction {
 
         final String getDoc_SIG = "()"+NODE_SIG;
         final int getDoc = cpg.addInterfaceMethodref(DOM_INTF, "getDocument", getDoc_SIG);
-
 
         if (tselect instanceof NodeSetType) {
             il.append(methodGen.loadDOM());

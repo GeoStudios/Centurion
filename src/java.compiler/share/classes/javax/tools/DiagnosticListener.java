@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for receiving diagnostics from tools.
  *

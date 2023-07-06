@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for functions that accept an undetermined number of multiple
@@ -195,7 +180,6 @@ public class FunctionMultiArgs extends Function3Args
       return m_args[m_argIndex];
     }
 
-
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -205,7 +189,6 @@ public class FunctionMultiArgs extends Function3Args
         m_args[m_argIndex] = exp;
     }
   }
-
 
     /**
      * @see com.sun.org.apache.xpath.internal.XPathVisitable#callVisitors(ExpressionOwner, XPathVisitor)

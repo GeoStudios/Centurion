@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -43,20 +42,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.TypeLibrary;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.JdkJfrConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Metadata extends Command {
 

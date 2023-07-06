@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents exceptions thrown in the MBean server when using the
  * java.lang.reflect classes to invoke methods on MBeans. It "wraps" the
@@ -52,7 +36,6 @@ public class ReflectionException extends JMException   {
      * @serial The wrapped {@link Exception}
      */
     private final java.lang.Exception exception ;
-
 
     /**
      * Creates a <CODE>ReflectionException</CODE> that wraps the actual <CODE>java.lang.Exception</CODE>.

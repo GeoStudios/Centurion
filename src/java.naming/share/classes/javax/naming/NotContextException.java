@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This exception is thrown when a naming operation proceeds to a point
   * where a context is required to continue the operation, but the

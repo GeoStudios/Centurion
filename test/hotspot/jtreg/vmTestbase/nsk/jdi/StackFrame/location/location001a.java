@@ -21,23 +21,9 @@
 
 package nsk.jdi.StackFrame.location;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the location001 JDI test.
@@ -86,7 +72,6 @@ public class location001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -156,7 +141,6 @@ public class location001a {
     }
 }
 
-
 class Threadlocation001a extends Thread {
 
     public Threadlocation001a(String threadName) {
@@ -193,7 +177,6 @@ class Threadlocation001a extends Thread {
     }
 
     public static final int breakpointLineNumber1 = 3;
-
 
     void log(String str) {
         location001a.log2("thread2: " + str);

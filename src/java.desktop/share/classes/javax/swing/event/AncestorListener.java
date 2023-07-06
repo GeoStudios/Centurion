@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.awt.event.*;
 import java.awt.*;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AncestorListener

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class implements the {@code Cloneable} interface to
  * indicate to the {@link java.lang.Object#clone()} method that it

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.File;
 import java.base.share.classes.java.io.FilePermission;
@@ -52,20 +51,6 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.perf.PerfCounter;
 import sun.net.www.ParseUtil;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class loader is used to load classes and resources from a search
@@ -195,7 +180,6 @@ public class URLClassLoader extends SecureClassLoader implements Closeable {
         this.acc = AccessController.getContext();
         this.ucp = new URLClassPath(urls, factory, acc);
     }
-
 
     /**
      * Constructs a new named {@code URLClassLoader} for the specified URLs.

@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.security.PrivilegedAction;
@@ -42,20 +41,6 @@ import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableObject;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import sun.awt.image.MultiResolutionCachedImage;
 import sun.lwawt.macosx.CImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaImageFactory {
     public static IconUIResource getConfirmImageIcon() {

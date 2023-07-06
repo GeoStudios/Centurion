@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.setNullVMInit;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTest {
 

@@ -21,22 +21,8 @@
 
 package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
 
-
 import java.util.concurrent.atomic.AtomicInteger;
 import nsk.share.jvmti.RedefineAgent;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -67,7 +53,6 @@ import nsk.share.jvmti.RedefineAgent;
    asynchronous manner from specified number of JVMTI agents. The VM
    works in default mode.
 */
-
 
 public class hs103t002 extends RedefineAgent {
     private static final int size = 10;

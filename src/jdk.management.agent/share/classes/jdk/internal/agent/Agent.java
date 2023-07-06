@@ -21,7 +21,6 @@
 
 package jdk.management.agent.share.classes.jdk.internal.agent;
 
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -52,20 +51,6 @@ import jdk.management.agent.share.classes.jdk.internal.vm.VMSupport;
 import sun.management.jdp.JdpController;
 import sun.management.jdp.JdpException;
 import sun.management.jmxremote.ConnectorBootstrap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the methods to start the management agent.

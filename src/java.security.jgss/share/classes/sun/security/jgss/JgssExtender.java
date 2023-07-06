@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.GSSContext;
 import org.ietf.jgss.GSSCredential;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The extending point of basic JGSS-API.

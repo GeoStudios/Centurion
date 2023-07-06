@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -34,20 +33,6 @@ import javax.swing.plaf.UIResource;
 import javax.swing.text.View;
 import sun.swing.SwingUtilities2;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaTabbedPaneContrastUI extends AquaTabbedPaneUI {
     public static ComponentUI createUI(final JComponent c) {

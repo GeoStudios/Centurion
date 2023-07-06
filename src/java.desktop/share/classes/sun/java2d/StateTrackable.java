@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface is implemented by classes which contain complex state
  * so that other objects can track whether or not their state has changed

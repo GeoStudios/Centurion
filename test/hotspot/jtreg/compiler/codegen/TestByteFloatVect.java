@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7119644
@@ -45,7 +30,6 @@ package compiler.codegen;
  *    -XX:-TieredCompilation -XX:-OptimizeFill
  *    compiler.codegen.TestByteFloatVect
  */
-
 
 public class TestByteFloatVect {
   private static final int ARRLEN = 997;

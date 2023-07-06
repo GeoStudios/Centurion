@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetClassLoaderClasses;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class clsldrclss001 {
 

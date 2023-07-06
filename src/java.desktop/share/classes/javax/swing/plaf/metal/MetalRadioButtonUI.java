@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
 import java.awt.*;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RadioButtonUI implementation for MetalRadioButtonUI
@@ -158,7 +143,6 @@ public class MetalRadioButtonUI extends BasicRadioButtonUI {
         return focusColor;
     }
 
-
     // ********************************
     //        Paint Methods
     // ********************************
@@ -202,7 +186,6 @@ public class MetalRadioButtonUI extends BasicRadioButtonUI {
             g.fillRect(0,0, size.width, size.height);
         }
 
-
         // Paint the radio button
         if(altIcon != null) {
 
@@ -240,7 +223,6 @@ public class MetalRadioButtonUI extends BasicRadioButtonUI {
         } else {
             getDefaultIcon().paintIcon(c, g, iconRect.x, iconRect.y);
         }
-
 
         // Draw the Text
         if(text != null) {

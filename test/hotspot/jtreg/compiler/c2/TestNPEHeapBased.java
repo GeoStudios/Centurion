@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8176518
@@ -55,7 +40,6 @@ public class TestNPEHeapBased {
     public void set_i(int value) {
         instance.i = value;
     }
-
 
     static final int loop_cnt = 200000;
 

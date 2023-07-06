@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>
  * A {@code SwitchPoint} is an object which can publish state transitions to other threads.

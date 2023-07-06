@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.org.xml.sax.Attributejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Default implementation for AttributeList.
@@ -101,7 +86,6 @@ public class AttributeListImpl implements AttributeList
     {
     }
 
-
     /**
      * Construct a persistent copy of an existing attribute list.
      *
@@ -117,12 +101,9 @@ public class AttributeListImpl implements AttributeList
         setAttributeList(atts);
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Methods specific to this class.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Set the attribute list, discarding previous contents.
@@ -143,7 +124,6 @@ public class AttributeListImpl implements AttributeList
         }
     }
 
-
     /**
      * Add an attribute to an attribute list.
      *
@@ -163,7 +143,6 @@ public class AttributeListImpl implements AttributeList
         types.add(type);
         values.add(value);
     }
-
 
     /**
      * Remove an attribute from the list.
@@ -190,7 +169,6 @@ public class AttributeListImpl implements AttributeList
         }
     }
 
-
     /**
      * Clear the attribute list.
      *
@@ -208,12 +186,9 @@ public class AttributeListImpl implements AttributeList
         values.clear();
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.AttributeList
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Return the number of attributes in the list.
@@ -225,7 +200,6 @@ public class AttributeListImpl implements AttributeList
     {
         return names.size();
     }
-
 
     /**
      * Get the name of an attribute (by position).
@@ -246,7 +220,6 @@ public class AttributeListImpl implements AttributeList
             return null;
         }
     }
-
 
     /**
      * Get the type of an attribute (by position).
@@ -270,7 +243,6 @@ public class AttributeListImpl implements AttributeList
         }
     }
 
-
     /**
      * Get the value of an attribute (by position).
      *
@@ -291,7 +263,6 @@ public class AttributeListImpl implements AttributeList
         }
     }
 
-
     /**
      * Get the type of an attribute (by name).
      *
@@ -306,7 +277,6 @@ public class AttributeListImpl implements AttributeList
         return getType(names.indexOf(name));
     }
 
-
     /**
      * Get the value of an attribute (by name).
      *
@@ -317,8 +287,6 @@ public class AttributeListImpl implements AttributeList
     {
         return getValue(names.indexOf(name));
     }
-
-
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

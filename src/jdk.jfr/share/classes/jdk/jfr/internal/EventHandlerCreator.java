@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -42,20 +41,6 @@ import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.FieldInfo;
 import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.SettingInfo;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class EventHandlerCreator {
     // TODO:

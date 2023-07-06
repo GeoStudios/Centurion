@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.io.OutputStream;
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
@@ -40,28 +39,10 @@ import java.xml.crypto.share.classes.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * DOM-based abstract implementation of Transform.

@@ -21,23 +21,8 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.Vmjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for interacting with a monitorable Java Virtual Machine.
@@ -102,7 +87,6 @@ public interface MonitoredVm {
      * with this object should be avoided.
      */
     void detach();
-
 
     /* ---- Methods to support polled MonitoredVm Implementations ---- */
 

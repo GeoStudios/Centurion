@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType._bounds_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up the methods of com.sun.jdi.ReferenceType:

@@ -21,22 +21,7 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth;
 
-
 import java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A user principal identified by a username or account name.

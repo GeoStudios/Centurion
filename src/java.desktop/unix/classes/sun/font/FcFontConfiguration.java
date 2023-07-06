@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -45,20 +44,6 @@ import java.desktop.unix.classes.sun.font.FontConfigManager.FontConfigInfo;
 import java.desktop.unix.classes.sun.font.FontConfigManager.FcCompFont;
 import java.desktop.unix.classes.sun.font.FontConfigManager.FontConfigFont;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FcFontConfiguration extends FontConfiguration {
 

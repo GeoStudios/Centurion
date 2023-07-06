@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -40,20 +39,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFilesHa
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builds the summary for a given class.

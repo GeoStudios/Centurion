@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import java.base.share.classes.java.time.Duration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A standard set of date periods units.

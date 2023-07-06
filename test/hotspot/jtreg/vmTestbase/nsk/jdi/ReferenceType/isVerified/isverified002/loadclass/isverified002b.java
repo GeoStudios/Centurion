@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.isVerified;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the isVerified() method of ReferenceType interface for UNLOADED class
-
 
 class isverified002b {}

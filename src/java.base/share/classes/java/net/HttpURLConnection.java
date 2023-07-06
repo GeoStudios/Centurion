@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.security.Permission;
 import java.base.share.classes.java.util.Date;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A URLConnection with support for HTTP-specific features. See
@@ -609,7 +594,6 @@ public abstract class HttpURLConnection extends URLConnection {
         }
         return Default;
     }
-
 
     /**
      * Indicates that other requests to the server

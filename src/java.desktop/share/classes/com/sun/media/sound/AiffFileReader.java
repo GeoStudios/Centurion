@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.DataInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import javax.sound.sampled.AudioFileFormat.Type;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.UnsupportedAudioFileException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AIFF file reader and writer.
@@ -185,7 +170,6 @@ public final class AiffFileReader extends SunFileReader {
         long hiMant = 0, loMant = 0;
         long t1, t2;
         double HUGE = 3.40282346638528860e+38;
-
 
         expon = dis.readUnsignedShort();
 

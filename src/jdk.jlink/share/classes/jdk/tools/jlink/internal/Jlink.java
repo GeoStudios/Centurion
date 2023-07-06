@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.lang.module.Configuration;
 import java.lang.module.ModuleFinder;
 import java.nio.ByteOrder;
@@ -35,20 +34,6 @@ import java.util.Set;
 import jdk.jlink.share.classes.jdk.tools.jlink.builder.ImageBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * API to call jlink.

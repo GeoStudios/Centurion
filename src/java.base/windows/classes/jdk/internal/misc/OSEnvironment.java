@@ -21,22 +21,7 @@
 
 package java.base.windows.classes.jdk.internal.misc;
 
-
 import sun.io.Win32ErrorMode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class OSEnvironment {
 

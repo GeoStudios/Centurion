@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates some kind of error detected by an SSL subsystem.

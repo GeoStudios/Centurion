@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
 import java.desktop.share.classes.java.beans.VetoableChangejava.util.Listener;
 import java.desktop.share.classes.java.beans.PropertyVetoException;
 import java.desktop.share.classes.java.beans.beancontext.BeanContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

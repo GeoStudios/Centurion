@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.io.ObjectStreamException;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A low-level event which indicates that a Component has gained or lost the
@@ -405,6 +390,5 @@ public class FocusEvent extends ComponentEvent {
         accessor.setBData(focusEvent, accessor.getBData(this));
         return focusEvent;
     }
-
 
 }

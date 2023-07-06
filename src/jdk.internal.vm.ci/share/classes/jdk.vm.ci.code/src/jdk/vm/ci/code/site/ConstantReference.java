@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-
 import java.base.share.classes.java.util.Objects;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.VMConstant;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an embedded {@link VMConstant} in the code or data section that needs to be

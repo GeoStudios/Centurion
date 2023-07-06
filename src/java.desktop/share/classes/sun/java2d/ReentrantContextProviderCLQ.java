@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.lang.ref.Reference;
 import java.util.concurrent.ConcurrentLinkedQueue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This ReentrantContextProvider implementation uses one ConcurrentLinkedQueue

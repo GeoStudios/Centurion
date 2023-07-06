@@ -21,7 +21,6 @@
 
 package stream.XMLInputFactoryTest;
 
-
 import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;.extended
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import java.util.PropertyPermission;
@@ -29,19 +28,6 @@ import javax.xml.stream.XMLInputFactory;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -86,7 +72,6 @@ public class Bug6756677Test {
             Assert.fail(oe.getMessage());
         }
     }
-
 
     String XMLInputFactoryClassName = "com.sun.xml.internal.stream.XMLInputFactoryImpl";
     String XMLInputFactoryID = "javax.xml.stream.XMLInputFactory";

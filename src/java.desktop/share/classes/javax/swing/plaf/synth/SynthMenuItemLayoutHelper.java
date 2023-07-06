@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import sun.swing.StringUIClientPropertyKey;
 import sun.swing.MenuItemLayoutHelper;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.View;
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Calculates preferred size and layouts synth menu items.

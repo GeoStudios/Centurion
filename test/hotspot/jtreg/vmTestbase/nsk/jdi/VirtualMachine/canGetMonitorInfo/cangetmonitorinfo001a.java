@@ -21,32 +21,15 @@
 
 package nsk.jdi.VirtualMachine.canGetMonitorInfo;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 // VirtualMachine  InterfaceName                VirtualMachine
 // canGetMonitorInfo  MethodName                canGetMonitorInfo
 // cangetmonitorinfo001  TestName               cangetmonitorinfo001a
 // ------------------------------------------------------
-
-
-
 
 /**
  * This class is used as debuggee application for the cangetmonitorinfo001 JDI test.
@@ -99,7 +82,6 @@ public class cangetmonitorinfo001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -120,7 +102,6 @@ public class cangetmonitorinfo001a {
                          thread2 = new
                               Threadcangetmonitorinfo001a("Thread2");
                          log1("       thread2 is created");
-
 
                      label: {
                          synchronized (Threadcangetmonitorinfo001a.lockingObject) {
@@ -185,7 +166,6 @@ class Threadcangetmonitorinfo001a extends Thread {
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
 
-
     private int i1 = 0, i2 = 10;
 
     public void run() {
@@ -206,7 +186,6 @@ class Threadcangetmonitorinfo001a extends Thread {
         log("method 'run' exit");
         return;
     }
-
 
     void log(String str) {
         cangetmonitorinfo001a.log2("thread2: " + str);

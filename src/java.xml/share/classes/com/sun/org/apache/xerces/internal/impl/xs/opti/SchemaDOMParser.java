@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -41,27 +40,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLI
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * @xerces.internal
@@ -156,7 +138,6 @@ public class SchemaDOMParser extends DefaultXMLDocumentHandler {
         // schemaDOM.printDOM();
     } // endDocument()
 
-
     /**
      * A comment.
      *
@@ -235,7 +216,6 @@ public class SchemaDOMParser extends DefaultXMLDocumentHandler {
 
     }
 
-
     /**
      * The start of an element.
      *
@@ -292,7 +272,6 @@ public class SchemaDOMParser extends DefaultXMLDocumentHandler {
                 fLocator.getCharacterOffset());
 
     }
-
 
     /**
      * An empty element.
@@ -367,7 +346,6 @@ public class SchemaDOMParser extends DefaultXMLDocumentHandler {
             schemaDOM.endAnnotationElement(element);
         }
     }
-
 
     /**
      * The end of an element.
@@ -483,7 +461,6 @@ public class SchemaDOMParser extends DefaultXMLDocumentHandler {
             schemaDOM.endAnnotationCDATA();
         }
     }
-
 
     //
     // other methods

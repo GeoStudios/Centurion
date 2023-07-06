@@ -21,21 +21,7 @@
 
 package gc.g1.unloading.keepref;
 
-
 import gc.g1.unloading.check.cleanup.UnusedThreadKiller;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *     This holder prevents class from being collected by keeping link in static field of running thread.

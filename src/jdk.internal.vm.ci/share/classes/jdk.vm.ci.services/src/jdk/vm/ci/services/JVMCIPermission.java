@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
 
-
 import java.security.BasicPermission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the permission to access JVMCI services.

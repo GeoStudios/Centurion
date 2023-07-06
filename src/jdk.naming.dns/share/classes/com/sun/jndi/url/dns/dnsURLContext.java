@@ -21,7 +21,6 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.url.dns;
 
-
 import java.net.MalformedURLException;
 import java.util.Hashtable;
 import javax.naming.*;
@@ -29,26 +28,11 @@ import javax.naming.spi.ResolveResult;
 import jdk.naming.dns.share.classes.com.sun.jndi.dns.*;
 import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.GenericURLDirContext;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A DNS URL context resolves names that are DNS pseudo-URLs.
  * See com.sun.jndi.dns.DnsUrl for a description of the URL format.
  *
  */
-
 
 public class dnsURLContext extends GenericURLDirContext {
 

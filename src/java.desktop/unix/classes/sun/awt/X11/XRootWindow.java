@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents AWT application root window functionality.
  * Object of this class is singleton, all window reference it to have

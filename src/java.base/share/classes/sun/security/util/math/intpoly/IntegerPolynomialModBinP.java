@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.util.math.intpoly;
 
-
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The field of integers modulo a binomial prime. This is a general-purpose
@@ -103,7 +88,6 @@ public class IntegerPolynomialModBinP extends IntegerPolynomial {
             modReduceInBits(limbs, numLimbs, reduceBits, c * reduceLimbs[j]);
         }
     }
-
 
     /**
      * Allow more general (and slower) input conversion that takes a large

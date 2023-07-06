@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Checkbox;
 import java.awt.CheckboxGroup;
 import java.awt.Component;
@@ -35,20 +34,6 @@ import javax.swing.JComponent;
 import javax.swing.JRadioButton;
 import javax.swing.JToggleButton;
 import javax.swing.SwingUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link CheckboxPeer}. Delegates most of the

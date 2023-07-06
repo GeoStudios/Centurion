@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.Deque;
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -50,9 +35,6 @@ import java.base.share.classes.java.util.NoSuchElementException;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A {@link Deque} that additionally supports blocking operations that wait

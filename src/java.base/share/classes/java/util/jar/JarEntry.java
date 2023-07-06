@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.jar;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.zip.ZipEntry;
 import java.base.share.classes.java.security.CodeSigner;
 import java.base.share.classes.java.security.cert.Certificate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to represent a JAR file entry.

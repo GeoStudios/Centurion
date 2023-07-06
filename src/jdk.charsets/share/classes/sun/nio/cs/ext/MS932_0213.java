@@ -21,27 +21,12 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CharsetDecoder;
 import jdk.charsets.share.classes.sun.nio.cs.DoubleByte;
 import jdk.charsets.share.classes.sun.nio.cs.*;
 import static jdk.charsets.share.classes.sun.nio.cs.CharsetMapping.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MS932_0213 extends Charset {
     public MS932_0213() {

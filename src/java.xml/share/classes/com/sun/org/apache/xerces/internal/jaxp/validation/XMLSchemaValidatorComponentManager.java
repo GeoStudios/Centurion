@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
@@ -53,20 +52,6 @@ import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlUtils;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
 import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An implementation of XMLComponentManager for a schema validator.</p>

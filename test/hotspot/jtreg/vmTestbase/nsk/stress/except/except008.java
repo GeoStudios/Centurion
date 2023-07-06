@@ -21,23 +21,9 @@
 
 package nsk.stress.except;
 
-
 import java.io.PrintStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -77,8 +63,6 @@ import java.lang.reflect.Method;
  *
  * @run main/othervm -Xms50M -Xmx200M -XX:-UseGCOverheadLimit nsk.stress.except.except008
  */
-
-
 
 /**
  * This checks if various exceptions are thrown (and caught) correctly

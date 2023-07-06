@@ -21,23 +21,9 @@
 
 package nsk.share.gc.lock.jni;
 
-
 import nsk.share.gc.lock.CriticalSectionObjectLocker;
 import nsk.share.gc.gp.string.RandomStringProducer;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StringCriticalLocker extends CriticalSectionObjectLocker<String> {
         private native char criticalNative(long enterTime, long sleepTime);

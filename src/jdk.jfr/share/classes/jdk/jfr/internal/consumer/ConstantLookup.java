@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class ConstantLookup {
     private final Type type;

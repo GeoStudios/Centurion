@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineUnavailableException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AbstractDataLine
@@ -104,7 +89,6 @@ abstract class AbstractDataLine extends AbstractLine implements DataLine {
         this.format = defaultFormat;
         this.bufferSize = defaultBufferSize;
     }
-
 
     // DATA LINE METHODS
 

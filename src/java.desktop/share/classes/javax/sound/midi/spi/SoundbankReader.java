@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.midi.spi;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.net.URL;
 import java.desktop.share.classes.javax.sound.midi.InvalidMidiDataException;
 import java.desktop.share.classes.javax.sound.midi.Soundbank;
 import java.desktop.share.classes.javax.sound.midi.Synthesizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code SoundbankReader} supplies soundbank file-reading services. Concrete

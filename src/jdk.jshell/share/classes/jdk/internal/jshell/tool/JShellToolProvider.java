@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
@@ -31,20 +30,6 @@ import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.tools.Tool;
 import jdk.jshell.share.classes.jdk.jshell.tool.JavaShellToolBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provider for launching the jshell tool.

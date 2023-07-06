@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.Provider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the default implementation of the GSSManager

@@ -21,21 +21,7 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
-
 import vm.mlvm.meth.share.Argument;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MHBindTF extends MHInsertTF {
 

@@ -21,20 +21,5 @@
 
 package p1.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class C {
 }

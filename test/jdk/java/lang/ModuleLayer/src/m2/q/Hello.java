@@ -21,21 +21,7 @@
 
 package q;
 
-
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Hello {
 

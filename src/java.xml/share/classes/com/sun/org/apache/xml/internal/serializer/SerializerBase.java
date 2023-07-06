@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
 import java.io.java.io.java.io.java.io.IOException;
@@ -38,20 +37,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class acts as a base class for the XML "serializers"
@@ -555,7 +540,6 @@ public abstract class SerializerBase
         setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, doctypePublic);
     }
 
-
     /**
      * Returns the previously set value of the value to be used
      * as the system identifier in the document type declaration (DTD).
@@ -889,7 +873,6 @@ public abstract class SerializerBase
         }
     }
 
-
     /**
      * @see org.xml.sax.ErrorHandler#error(SAXParseException)
      */
@@ -971,7 +954,6 @@ public abstract class SerializerBase
         }
     }
 
-
     /**
      * To fire off end entity trace event
      * @param name Name of entity
@@ -996,7 +978,6 @@ public abstract class SerializerBase
             m_tracer.fireGenerateEvent(SerializerTrace.EVENTTYPE_STARTDOCUMENT);
         }
     }
-
 
     /**
      * To fire off end document trace event
@@ -1029,7 +1010,6 @@ public abstract class SerializerBase
         }
     }
 
-
     /**
      * To fire off the end element event
      * @param name Name of element
@@ -1040,7 +1020,6 @@ public abstract class SerializerBase
 //        if (m_tracer != null)
 //            m_tracer.fireGenerateEvent(SerializerTrace.EVENTTYPE_ENDELEMENT,name, (Attributes)null);
 //    }
-
 
     /**
      * To fire off the PI trace event
@@ -1056,7 +1035,6 @@ public abstract class SerializerBase
             m_tracer.fireGenerateEvent(SerializerTrace.EVENTTYPE_PI,name, data);
         }
     }
-
 
     /**
      * To fire off the entity reference trace event
@@ -1252,7 +1230,6 @@ public abstract class SerializerBase
         // A particular sub-class of SerializerBase provides the implementation (if desired)
     }
 
-
     /**
      * The CDATA section names stored in a whitespace separateed list with
      * each element being a word of the form "{uri}localName" This list
@@ -1348,7 +1325,6 @@ public abstract class SerializerBase
         h.put(uri,uri);
 
     }
-
 
     /**
      * Return true if nothing has been sent to this result tree yet.
@@ -1447,7 +1423,6 @@ public abstract class SerializerBase
 
         return uri;
     }
-
 
     /**
      * Get the value of an output property,

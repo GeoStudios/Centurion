@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the redefined class for the redefineclasses001 JDI test.

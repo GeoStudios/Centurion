@@ -21,22 +21,8 @@
 
 package nsk.jvmti.unit.GetConstantPool;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getcpool001 {
 

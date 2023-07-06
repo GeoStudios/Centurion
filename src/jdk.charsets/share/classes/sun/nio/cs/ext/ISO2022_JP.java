@@ -21,7 +21,6 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -36,20 +35,6 @@ import jdk.charsets.share.classes.sun.nio.cs.Surrogate;
 import jdk.charsets.share.classes.sun.nio.cs.US_ASCII;
 import jdk.charsets.share.classes.sun.nio.cs.*;
 import static jdk.charsets.share.classes.sun.nio.cs.CharsetMapping.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Implementation notes:

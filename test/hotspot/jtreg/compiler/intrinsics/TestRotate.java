@@ -21,21 +21,6 @@
 
 package compiler.intrinsics;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8248830 8256823

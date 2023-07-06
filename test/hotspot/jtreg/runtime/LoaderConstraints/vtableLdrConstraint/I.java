@@ -21,20 +21,5 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface I extends J {
 }

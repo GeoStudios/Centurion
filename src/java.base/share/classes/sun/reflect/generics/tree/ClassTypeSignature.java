@@ -21,30 +21,14 @@
 
 package java.base.share.classes.sun.reflect.generics.tree;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AST representing class types.
  */
 public class ClassTypeSignature implements FieldTypeSignature {
     private final List<SimpleClassTypeSignature> path;
-
 
     private ClassTypeSignature(List<SimpleClassTypeSignature> p) {
         path = p;

@@ -21,23 +21,9 @@
 
 package compiler.lib.ir_framework;
 
-
 import compiler.lib.ir_framework.test.DeclaredTest;
 import compiler.lib.ir_framework.test.TestVM;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test info class which provides some useful utility methods and information about a <b>checked test</b>.

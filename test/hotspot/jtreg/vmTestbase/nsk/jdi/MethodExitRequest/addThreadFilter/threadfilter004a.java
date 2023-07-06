@@ -21,23 +21,9 @@
 
 package nsk.jdi.MethodExitRequest.addThreadFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the threadfilter004 JDI test.
@@ -128,7 +114,6 @@ public class threadfilter004a {
                     log1("synchronized(lockingObj[1])");
                 }
 
-
 //-------------------------------------------------    standard end section
 
                 default:
@@ -140,7 +125,6 @@ public class threadfilter004a {
         log1("debuggee exits");
         System.exit(exitCode + PASS_BASE);
     }
-
 
     static Object waitnotifyObj = new Object();
 
@@ -157,7 +141,6 @@ public class threadfilter004a {
         }
         return PASSED;
     }
-
 
     static Object lockingObj[] = new Object[2];
     static volatile int number = 0;

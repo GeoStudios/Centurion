@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
@@ -40,20 +39,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A validator to check for errors and conflicts between modules.

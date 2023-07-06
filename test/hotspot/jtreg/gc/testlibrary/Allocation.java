@@ -21,21 +21,6 @@
 
 package gc.testlibrary;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Allocation {
     public static volatile Object obj;
 

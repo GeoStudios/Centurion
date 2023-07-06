@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
 import jdk.crypto.ec.share.classes.sun.security.util.math.*;
 import jdk.crypto.ec.share.classes.sun.security.util.math.intpoly.*;
@@ -32,20 +31,6 @@ import java.security.spec.ECParameterSpec;
 import java.security.spec.EllipticCurve;
 import java.util.Map;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Elliptic curve point arithmetic for prime-order curves where a=-3.

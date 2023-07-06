@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import javax.imageio.metadata.IIOMetadataFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TIFFElementInfo {
     String[] childNames;

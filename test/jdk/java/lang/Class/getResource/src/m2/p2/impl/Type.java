@@ -21,19 +21,4 @@
 
 package p2.impl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Type { }

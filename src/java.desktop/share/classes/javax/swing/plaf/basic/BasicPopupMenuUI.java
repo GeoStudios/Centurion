@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
@@ -42,20 +41,6 @@ import java.util.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Windows L&amp;F implementation of PopupMenuUI.  This implementation
@@ -289,7 +274,6 @@ public class BasicPopupMenuUI extends PopupMenuUI {
         return (invokerPresent == invokerLast);
     }
 
-
     /**
      * This Listener fires the Action that provides the correct auditory
      * feedback.
@@ -432,7 +416,6 @@ public class BasicPopupMenuUI extends PopupMenuUI {
         // Used for parent/child actions
         private static final boolean PARENT = false;
         private static final boolean CHILD = true;
-
 
         Actions(String key) {
             super(key);

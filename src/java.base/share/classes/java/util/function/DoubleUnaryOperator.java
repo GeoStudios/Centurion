@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.function;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an operation on a single {@code double}-valued operand that produces

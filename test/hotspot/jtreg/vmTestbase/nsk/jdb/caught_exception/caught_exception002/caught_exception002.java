@@ -21,24 +21,10 @@
 
 package nsk.jdb.caught_exception.caught_exception002;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,9 +61,6 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class caught_exception002 extends JdbTest {
 

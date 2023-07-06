@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver.spi;
 
-
 import jdk.httpserver.share.classes.com.sun.net.httpserver.HttpServer;
 import jdk.httpserver.share.classes.com.sun.net.httpserver.HttpsServer;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.security.PrivilegedAction;
 import java.util.Iterator;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service provider class for HttpServer.

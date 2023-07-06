@@ -21,26 +21,11 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
-
 import java.sql.*;
 import java.io.*;
 import java.util.Map;
 import java.net.URL;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A serialized version of an <code>Array</code>
@@ -303,7 +288,6 @@ public class SerialArray implements Array, Serializable, Cloneable {
 
         }
 
-
     }
 
     /**
@@ -517,7 +501,6 @@ public class SerialArray implements Array, Serializable, Cloneable {
         throw  se;
     }
 
-
     /**
      * Retrieves a result set holding the elements of the subarray that starts at
      * Retrieves a <code>ResultSet</code> object that contains a subarray of the
@@ -555,7 +538,6 @@ public class SerialArray implements Array, Serializable, Cloneable {
         se.initCause(new UnsupportedOperationException());
         throw  se;
     }
-
 
     /**
      * Compares this SerialArray to the specified object.  The result is {@code

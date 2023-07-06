@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -39,20 +38,6 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File system provider for jrt file systems. Conditionally creates jrt fs on

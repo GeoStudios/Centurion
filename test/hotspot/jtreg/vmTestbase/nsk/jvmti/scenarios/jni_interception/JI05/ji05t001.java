@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.jni_interception.JI05;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test exercises the JVMTI target area "JNI Function Interception".

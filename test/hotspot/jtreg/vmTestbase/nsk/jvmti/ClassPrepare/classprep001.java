@@ -21,21 +21,7 @@
 
 package nsk.jvmti.ClassPrepare;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class classprep001 {
 

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.print;
 
-
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Pageable} implementation represents a set of

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.IterateThroughHeap.abort;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -53,9 +39,6 @@ import nsk.share.jvmti.*;
  *          /test/lib
  * @run main/othervm/native -agentlib:Abort=-waittime=5 nsk.jvmti.IterateThroughHeap.abort.Abort
  */
-
-
-
 
 public class Abort extends DebugeeClass {
 

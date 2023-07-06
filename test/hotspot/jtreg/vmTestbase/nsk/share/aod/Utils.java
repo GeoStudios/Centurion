@@ -21,22 +21,8 @@
 
 package nsk.share.aod;
 
-
 import java.io.File;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Utils {
 

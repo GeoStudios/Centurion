@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
@@ -50,20 +49,6 @@ import javax.management.remote.NotificationResult;
 import javax.management.remote.TargetedNotification;
 import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A circular buffer of notifications received from an MBean server. */
 /*
@@ -246,7 +231,6 @@ public class ArrayNotificationBuffer implements NotificationBuffer {
 
         private final int size;
     }
-
 
     // ARRAYNOTIFICATIONBUFFER IMPLEMENTATION
 

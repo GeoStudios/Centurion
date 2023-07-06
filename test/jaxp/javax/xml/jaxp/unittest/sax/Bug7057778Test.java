@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.tryRunWithTmpPermission;.extended
@@ -48,19 +47,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

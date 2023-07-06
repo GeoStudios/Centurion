@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An interface to be implemented by objects that can determine the
  * settings of an {@code IIOMetadata} object, either by putting

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
 import java.security.SecureRandom;
@@ -29,20 +28,6 @@ import java.base.share.classes.sun.security.x509.Extension;
 import java.base.share.classes.sun.security.x509.PKIXExtensions;
 import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.util.DerValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represent the OCSP Nonce Extension.

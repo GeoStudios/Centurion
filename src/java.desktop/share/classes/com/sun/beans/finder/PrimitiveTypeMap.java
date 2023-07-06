@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This utility class associates

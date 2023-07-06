@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.net.java.net.SocketOption;
 import java.base.share.classes.java.net.java.net.SocketAddress;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A channel to a network socket.

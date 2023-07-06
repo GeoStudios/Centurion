@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.Insets;
 import java.desktop.macosx.classes.sun.lwawt.PlatformComponent;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * On OSX {@code CPlatformComponent} stores pointer to the native CAlayer which

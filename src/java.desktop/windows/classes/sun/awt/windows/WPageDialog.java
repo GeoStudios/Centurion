@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Container;
 import java.awt.Dialog;
 import java.awt.Frame;
@@ -30,20 +29,6 @@ import java.awt.peer.ComponentPeer;
 import java.awt.print.PrinterJob;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 final class WPageDialog extends WPrintDialog {
@@ -59,7 +44,6 @@ final class WPageDialog extends WPrintDialog {
         this.page = page;
         this.painter = painter;
     }
-
 
     WPageDialog(Dialog parent, PrinterJob control, PageFormat page, Printable painter) {
         super(parent, control);

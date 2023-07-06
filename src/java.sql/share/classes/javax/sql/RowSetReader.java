@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.javax.sql;
 
-
 import java.sql.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The facility that a disconnected {@code RowSet} object calls on

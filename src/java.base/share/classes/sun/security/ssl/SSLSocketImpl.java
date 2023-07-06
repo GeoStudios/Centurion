@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -47,20 +46,6 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import jdk.internal.access.JavaNetInetAddressAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of an SSL socket.
@@ -1248,7 +1233,6 @@ public final class SSLSocketImpl
         }
     }
 
-
     /**
      * OutputStream for application data as returned by
      * SSLSocket.getOutputStream().
@@ -1731,7 +1715,6 @@ public final class SSLSocketImpl
             return Plaintext.PLAINTEXT_NULL;
         }
     }
-
 
     @Override
     public String getPeerHost() {

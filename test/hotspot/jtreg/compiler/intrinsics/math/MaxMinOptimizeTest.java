@@ -21,21 +21,7 @@
 
 package compiler.intrinsics.math;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import java.base.share.classes.java.util.Arrays;
  * @run main/othervm -Xcomp -XX:-TieredCompilation
  *      compiler.intrinsics.math.MaxMinOptimizeTest
  */
-
-
 
 public class MaxMinOptimizeTest {
 

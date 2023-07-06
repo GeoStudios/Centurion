@@ -21,30 +21,15 @@
 
 package test.java.lang.invoke;
 
-
 import org.junit.Test;
 import java.lang.reflect.Method;
 import static org.junit.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @summary unit tests for java.lang.invoke.LambdaForm
  * @modules java.base/java.lang.invoke:open
  * @run junit/othervm test.java.lang.invoke.LambdaFormTest
  */
-
 
 public class LambdaFormTest {
     static final Method M_shortenSignature;

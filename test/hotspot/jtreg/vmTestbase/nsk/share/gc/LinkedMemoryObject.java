@@ -21,21 +21,6 @@
 
 package nsk.share.gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  An object that occupies approximately given number of bytes in memory
  *  and has forward and backward links to other objects.

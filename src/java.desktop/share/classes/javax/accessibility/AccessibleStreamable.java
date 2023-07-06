@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code AccessibleStreamable} interface should be implemented by the

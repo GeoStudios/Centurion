@@ -21,35 +21,18 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import javax.naming.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A name parser for DNS names.
  *
  */
 
-
 class DnsNameParser implements NameParser {
 
     public Name parse(String name) throws NamingException {
         return new DnsName(name);
     }
-
 
     // Every DnsNameParser is created equal.
 

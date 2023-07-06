@@ -21,25 +21,11 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.util.Iterator;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.TreeSet;
 import jdk.test.lib.jittester.factories.Factory;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Rule. A helper to perform production.

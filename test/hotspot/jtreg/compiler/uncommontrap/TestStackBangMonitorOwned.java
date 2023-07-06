@@ -21,21 +21,6 @@
 
 package compiler.uncommontrap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8032410
@@ -46,7 +31,6 @@ package compiler.uncommontrap;
  *      -XX:CompileCommand=exclude,compiler.uncommontrap.TestStackBangMonitorOwned::m2
  *      compiler.uncommontrap.TestStackBangMonitorOwned
  */
-
 
 public class TestStackBangMonitorOwned {
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
@@ -31,20 +30,6 @@ import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLProtocolException;
 import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code InputRecord} implementation for {@code SSLEngine}.

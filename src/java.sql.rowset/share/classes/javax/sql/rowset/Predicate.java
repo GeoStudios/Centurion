@@ -21,23 +21,8 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.sql.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard interface that provides the framework for all
@@ -125,7 +110,6 @@ public interface Predicate {
      *     <code>false</code> otherwise
      */
     boolean evaluate(RowSet rs);
-
 
     /**
      * This method is called by a <code>FilteredRowSet</code> object

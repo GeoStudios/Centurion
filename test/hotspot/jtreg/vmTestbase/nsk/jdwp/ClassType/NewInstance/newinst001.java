@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ClassType.NewInstance;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP command: ClassType.NewInstance.

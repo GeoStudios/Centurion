@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.validation.Schema;
 import javax.xml.validation.Validator;
 import javax.xml.validation.ValidatorHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Abstract implementation of Schema for W3C XML Schemas.</p>

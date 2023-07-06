@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Throwing an instance of
  *  this class causes (silent) termination of the main compiler method.
  *

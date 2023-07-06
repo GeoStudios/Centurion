@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke.lib;
 
-
 import jdk.experimental.bytecode.BasicClassBuilder;
 import jdk.experimental.bytecode.BasicTypeHelper;
 import jdk.experimental.bytecode.Flag;
@@ -36,19 +35,6 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import static java.lang.invoke.MethodType.fromMethodDescriptorString;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class InstructionHelper {
 

@@ -21,22 +21,7 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class for applying an OptionFormat to a particular context, the context

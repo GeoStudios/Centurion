@@ -21,26 +21,11 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.ui;
 
-
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.LayoutManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -49,10 +34,6 @@ import java.awt.LayoutManager;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 public class CompactLayout implements LayoutManager {
     boolean horizontal;

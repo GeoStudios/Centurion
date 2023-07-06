@@ -21,7 +21,6 @@
 
 package org.xml.sax.ptests;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -32,19 +31,6 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This tests the Attributes interface. Here the startElement() callback of

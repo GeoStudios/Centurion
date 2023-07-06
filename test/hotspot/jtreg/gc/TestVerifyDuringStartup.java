@@ -21,22 +21,8 @@
 
 package gc;
 
-
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestVerifyDuringStartup.java
  * @bug 8010463 8011343 8011898
@@ -46,7 +32,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  * @modules java.base/jdk.internal.misc
  * @run driver gc.TestVerifyDuringStartup
  */
-
 
 public class TestVerifyDuringStartup {
   public static void main(String args[]) throws Exception {

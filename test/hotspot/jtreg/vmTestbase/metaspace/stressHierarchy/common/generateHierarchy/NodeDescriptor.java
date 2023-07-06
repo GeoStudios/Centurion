@@ -21,21 +21,6 @@
 
 package metaspace.stressHierarchy.common.generateHierarchy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class NodeDescriptor {
 
     public String className;

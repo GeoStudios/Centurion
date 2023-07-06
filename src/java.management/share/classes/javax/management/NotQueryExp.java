@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used by the query-building mechanism to represent negations
  * of relational expressions.
@@ -45,7 +29,6 @@ package java.management.share.classes.javax.management;
  */
 class NotQueryExp extends QueryEval implements QueryExp {
 
-
     /* Serial version */
     private static final long serialVersionUID = 5269643775896723397L;
 
@@ -53,7 +36,6 @@ class NotQueryExp extends QueryEval implements QueryExp {
      * @serial The negated {@link QueryExp}
      */
     private QueryExp exp;
-
 
     /**
      * Basic Constructor.
@@ -67,7 +49,6 @@ class NotQueryExp extends QueryEval implements QueryExp {
     public NotQueryExp(QueryExp q) {
         exp = q;
     }
-
 
     /**
      * Returns the negated query expression of the query.

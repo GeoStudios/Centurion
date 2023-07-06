@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import static java.desktop.share.classes.sun.font.EAttribute.*;.extended
 import static java.lang.Math.*;.extended
 import java.awt.Font;
@@ -42,20 +41,6 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class AttributeValues implements Cloneable {
     private int defined;
@@ -191,7 +176,6 @@ public final class AttributeValues implements Cloneable {
     public int getLigatures() { return ligatures; }
     public void setLigatures(int f) {
       this.ligatures = (byte)f; update(ELIGATURES); }
-
 
     public AffineTransform getBaselineTransform() { return baselineTransform; }
     public AffineTransform getCharTransform() { return charTransform; }

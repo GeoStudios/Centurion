@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -36,20 +35,6 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JFileChooserDemo
@@ -143,7 +128,6 @@ public class FileChooserDemo extends DemoModule {
 
         return fc;
     }
-
 
     public JButton createPlainFileChooserButton() {
         Action a = new AbstractAction(getString("FileChooserDemo.plainbutton")) {

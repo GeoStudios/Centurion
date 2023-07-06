@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
@@ -39,20 +38,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Flowjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.NodeTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Oct 2017

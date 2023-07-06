@@ -21,24 +21,10 @@
 
 package nsk.jdi.ClassLoaderReference.definedClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged applcation of the test.

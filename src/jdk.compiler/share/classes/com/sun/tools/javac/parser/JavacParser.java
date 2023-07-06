@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -56,20 +55,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerP
 import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndExplicitNotAllowed;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndImplicitNotAllowed;.extended
 import java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The parser maps a token sequence into an abstract syntax tree.
@@ -568,8 +553,6 @@ public class JavacParser implements Parser {
         return endPosTable.getEndPos(tree);
     }
 
-
-
 /* ---------- parsing -------------- */
 
     /**
@@ -767,7 +750,6 @@ public class JavacParser implements Parser {
         return term(EXPR);
     }
 
-
     /** parses patterns.
      */
 
@@ -835,8 +817,6 @@ public class JavacParser implements Parser {
 
         return result;
     }
-
-
 
     protected JCExpression term(int newmode) {
         int prevmode = mode;
@@ -1098,7 +1078,6 @@ public class JavacParser implements Parser {
             }
             return null;
         }
-
 
         /** optimization: To save allocating a new operand/operator stack
          *  for every binary operation, we use supplys.

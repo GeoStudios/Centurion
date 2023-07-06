@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6769124
@@ -45,7 +30,6 @@ package compiler.c1;
  *      -XX:CompileCommand=compileonly,compiler.c1.TestDeoptInt::m
  *      compiler.c1.TestDeoptInt
  */
-
 
 public class TestDeoptInt {
 

@@ -21,21 +21,5 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface FloatType extends Type {
 }

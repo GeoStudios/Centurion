@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.OutputStream;
@@ -33,20 +32,6 @@ import jdk.internal.util.StaticProperty;
 import sun.net.SocksProxy;
 import sun.net.spi.DefaultProxySelector;
 import sun.net.www.ParseUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SOCKS (V4 & V5) TCP socket implementation (RFC 1928).

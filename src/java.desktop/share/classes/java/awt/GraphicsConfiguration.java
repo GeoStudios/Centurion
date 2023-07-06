@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.image.BufferedImage;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.image.VolatileImage;
 import java.desktop.share.classes.java.awt.image.WritableRaster;
 import sun.awt.image.SunVolatileImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code GraphicsConfiguration} class describes the
@@ -194,7 +179,6 @@ public abstract class GraphicsConfiguration {
         WritableRaster wr = cm.createCompatibleWritableRaster(width, height);
         return new BufferedImage(cm, wr, cm.isAlphaPremultiplied(), null);
     }
-
 
     /**
      * Returns a {@link VolatileImage} with a data layout and color model

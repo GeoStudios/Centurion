@@ -21,25 +21,10 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.*;
 import java.desktop.windows.classes.com.sun.java.util.*;
 import javax.swing.*;
 import java.desktop.windows.classes.com.sun.awt.windows.ThemeReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * <p>These classes are designed to be used while the
@@ -55,11 +40,6 @@ import java.desktop.windows.classes.com.sun.awt.windows.ThemeReader;
  * encouraged.
  *
  */
-
-
-
-
-
 
 /**
  * Implements Windows Parts and their States and Properties for the Windows Look and Feel.
@@ -93,7 +73,6 @@ class TMSchema {
         WINDOW
     }
 
-
     /**
      * An enumeration of the Windows compoent parts
      */
@@ -124,7 +103,6 @@ class TMSchema {
         CP_DROPDOWNBUTTONRIGHT   (Control.COMBOBOX, 6),
         CP_DROPDOWNBUTTONLEFT    (Control.COMBOBOX, 7),
         CP_CUEBANNER             (Control.COMBOBOX, 8),
-
 
         EP_EDIT    (Control.EDIT, 0),
         EP_EDITTEXT(Control.EDIT, 1),
@@ -235,7 +213,6 @@ class TMSchema {
         }
     }
 
-
     /**
      * An enumeration of the possible component states
      */
@@ -312,7 +289,6 @@ class TMSchema {
         SORTEDPRESSED,
         SORTEDUP;
 
-
         /**
          * A map of allowed states for each Part
          */
@@ -383,7 +359,6 @@ class TMSchema {
                 UPHOVER,     DOWNHOVER, LEFTHOVER,    RIGHTHOVER
             });
 
-
             State[] spinnerStates = new State[] { NORMAL, HOT, PRESSED, DISABLED };
             stateMap.put(Part.SPNP_UP,   spinnerStates);
             stateMap.put(Part.SPNP_DOWN, spinnerStates);
@@ -430,7 +405,6 @@ class TMSchema {
             stateMap.put(Part.TABP_TABITEMLEFTEDGE,  tabStates);
             stateMap.put(Part.TABP_TABITEMRIGHTEDGE, tabStates);
 
-
             stateMap.put(Part.TP_BUTTON,
                        new State[] {
                         NORMAL, HOT, PRESSED, DISABLED, CHECKED, HOTCHECKED
@@ -464,7 +438,6 @@ class TMSchema {
 
         }
 
-
         public static synchronized int getValue(Part part, State state) {
             if (stateMap == null) {
                 initStates();
@@ -488,7 +461,6 @@ class TMSchema {
 
     }
 
-
     /**
      * An enumeration of the possible component attributes and the
      * corresponding value type
@@ -510,7 +482,6 @@ class TMSchema {
         TEXTSHADOWOFFSET(Point.class,    3402), // where char shadows are drawn, relative to orig. chars
 
         NORMALSIZE(Dimension.class,      3409), // size of dest rect that exactly source
-
 
         SIZINGMARGINS ( Insets.class,    3601), // margins used for 9-grid sizing
         CONTENTMARGINS(Insets.class,     3602), // margins that define where content can be placed
@@ -545,7 +516,6 @@ class TMSchema {
         }
     }
 
-
     /**
      * An enumeration of attribute values for some Props
      */
@@ -556,7 +526,6 @@ class TMSchema {
         TST_NONE(Prop.TEXTSHADOWTYPE, "none", 0),
         TST_SINGLE(Prop.TEXTSHADOWTYPE, "single", 1),
         TST_CONTINUOUS(Prop.TEXTSHADOWTYPE, "continuous", 2);
-
 
         TypeEnum(Prop prop, String enumName, int value) {
             this.prop = prop;
@@ -575,7 +544,6 @@ class TMSchema {
         String getName() {
             return enumName;
         }
-
 
         static TypeEnum getTypeEnum(Prop prop, int enumval) {
             for (TypeEnum e : TypeEnum.values()) {

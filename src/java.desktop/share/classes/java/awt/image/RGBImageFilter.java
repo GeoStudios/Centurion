@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.image.ImageConsumer;
 import java.desktop.share.classes.java.awt.image.ColorModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides an easy way to create an ImageFilter which modifies

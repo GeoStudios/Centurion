@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.constant;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandle;
 import java.base.share.classes.java.lang.invoke.MethodHandleInfo;
 import java.base.share.classes.java.util.OptionalInt;
@@ -36,20 +35,6 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_invo
 import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_newInvokeSpecial;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_putField;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_putStatic;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a direct

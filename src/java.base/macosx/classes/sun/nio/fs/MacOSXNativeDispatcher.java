@@ -21,22 +21,6 @@
 
 package java.base.macosx.classes.sun.nio.fs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * MacOSX specific system calls.
  */

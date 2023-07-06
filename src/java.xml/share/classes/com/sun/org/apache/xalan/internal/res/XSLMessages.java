@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHMessages;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Sets things up for issuing error messages. This class is misnamed, and should

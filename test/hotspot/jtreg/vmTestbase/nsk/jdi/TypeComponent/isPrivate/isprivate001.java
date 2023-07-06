@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.isPrivate;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isprivate001 {
 
@@ -152,7 +138,6 @@ public class isprivate001 {
             complain("Class '" + debuggeeName + "' not found.");
             return Consts.TEST_FAILED;
         }
-
 
         display("Checking isPrivate() method for debuggee's fields...");
 

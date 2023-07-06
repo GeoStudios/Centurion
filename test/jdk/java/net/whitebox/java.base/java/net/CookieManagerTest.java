@@ -21,24 +21,10 @@
 
 package java.net;
 
-
 import java.net.CookieManager;
 import java.net.HttpCookie;
 import java.util.*;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Whitebox Test of CookieManager.sortByPathAndAge
 
@@ -112,7 +98,6 @@ public class CookieManagerTest
                     .stream()
                     .map(this::createCookie)
                     .collect(Collectors.toList());
-
 
             // call PP method of CookieManager
             List<String> result = CookieManager.sortByPathAndAge(l2);

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.function;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a function that accepts two arguments and produces a double-valued
  * result.  This is the {@code double}-producing primitive specialization for

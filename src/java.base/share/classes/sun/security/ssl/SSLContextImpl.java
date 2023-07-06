@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.FileInputStream;
 import java.net.java.net.java.net.java.net.Socket;
 import java.base.share.classes.java.security.*;
@@ -32,20 +31,6 @@ import javax.net.ssl.*;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
 import java.base.share.classes.sun.security.validator.Validator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of an SSLContext.
@@ -84,7 +69,6 @@ public abstract class SSLContextImpl extends SSLContextSpi {
     private final ReentrantLock contextLock = new ReentrantLock();
     final HashMap<Integer,
             SessionTicketExtension.StatelessKey> keyHashMap = new HashMap<>();
-
 
     SSLContextImpl() {
         ephemeralKeyManager = new EphemeralKeyManager();
@@ -482,7 +466,6 @@ public abstract class SSLContextImpl extends SSLContextSpi {
 
         return Collections.emptyList();
     }
-
 
     private static List<ProtocolVersion> getAvailableProtocols(
             ProtocolVersion[] protocolCandidates) {
@@ -1705,7 +1688,6 @@ final class AbstractKeyManagerWrapper extends X509ExtendedKeyManager {
     // Inherit chooseEngineClientAlias() and chooseEngineServerAlias() from
     // X509ExtendedKeymanager. It defines them to return null;
 }
-
 
 // Dummy X509KeyManager implementation, never returns any certificates/keys.
 // Used if the application did not specify a proper X509TrustManager.

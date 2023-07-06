@@ -21,26 +21,12 @@
 
 package gc.g1.ihop.lib;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class to extract IHOP related information from the GC log.

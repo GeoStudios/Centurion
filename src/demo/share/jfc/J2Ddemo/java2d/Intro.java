@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.RED;.extended
@@ -84,20 +83,6 @@ import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Introduction to the J2Ddemo.
@@ -190,7 +175,6 @@ public class Intro extends JPanel {
         f.setVisible(true);
         intro.start();
     }
-
 
     /**
      * ScenesTable is the list of scenes known to the Director.
@@ -323,7 +307,6 @@ public class Intro extends JPanel {
             slider.repaint();
         }
     }  // End ScenesTable class
-
 
     /**
      * Surface is the stage where the Director plays its scenes.
@@ -467,7 +450,6 @@ public class Intro extends JPanel {
             thread = null;
         }
 
-
         /**
          * Part is a piece of the scene.  Classes must implement Part
          * in order to participate in a scene.
@@ -484,7 +466,6 @@ public class Intro extends JPanel {
 
             int getEnd();
         }
-
 
         /**
          * Director is the holder of the scenes, their names & pause amounts
@@ -592,7 +573,6 @@ public class Intro extends JPanel {
             }
         }
 
-
         /**
          * Scene is the manager of the parts.
          */
@@ -650,7 +630,6 @@ public class Intro extends JPanel {
                 System.gc();
             }
         } // End Scene class
-
 
         /**
          * Text Effect.  Transformation of characters.  Clip or fill.
@@ -823,7 +802,6 @@ public class Intro extends JPanel {
             }
         } // End TxE class
 
-
         /**
          * GradientPaint Effect.  Burst, split, horizontal and
          * vertical gradient fill effects.
@@ -969,7 +947,6 @@ public class Intro extends JPanel {
             }
         } // End GpE class
 
-
         /**
          * TexturePaint Effect.  Expand and collapse a texture.
          */
@@ -1064,7 +1041,6 @@ public class Intro extends JPanel {
                 return ending;
             }
         } // End TpE class
-
 
         /**
          * Close out effect.  Close out the buffered image with different
@@ -1175,7 +1151,6 @@ public class Intro extends JPanel {
                 return ending;
             }
         } // End CoE class
-
 
         /**
          * Dither Dissolve Effect. For each successive step in the animation,
@@ -1294,7 +1269,6 @@ public class Intro extends JPanel {
             }
         } // End DdE class
 
-
         /**
          * Subimage effect.  Subimage the scene's buffered
          * image then rotate and scale down the subimages.
@@ -1395,7 +1369,6 @@ public class Intro extends JPanel {
                 return ending;
             }
         } // End SiE class
-
 
         /**
          * Line Effect.  Flattened ellipse with lines from the center
@@ -1522,7 +1495,6 @@ public class Intro extends JPanel {
             }
         } // End LnE class
 
-
         /**
          * Template for Features & Contributors consisting of translating
          * blue and red rectangles and an image going from transparent to
@@ -1612,7 +1584,6 @@ public class Intro extends JPanel {
             }
         } // End Temp class
 
-
         /**
          * Features of Java2D(TM).  Single character advancement effect.
          */
@@ -1697,7 +1668,6 @@ public class Intro extends JPanel {
                 return ending;
             }
         } // End Features class
-
 
         /**
          * Scrolling text of Java2D(TM) contributors.

@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
@@ -29,20 +28,6 @@ import javax.swing.plaf.basic.*;
 import sun.swing.SwingUtilities2;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaLabelUI extends BasicLabelUI {
     private static final RecyclableSingleton<AquaLabelUI> aquaLabelUI = new RecyclableSingletonFromDefaultConstructor<AquaLabelUI>(AquaLabelUI.class);

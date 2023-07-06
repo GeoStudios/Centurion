@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.SortOrder;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>RowSorter</code> provides the basis for sorting and filtering.

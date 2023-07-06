@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A channel that can write bytes from a sequence of buffers.
@@ -133,7 +118,6 @@ public interface GatheringByteChannel
      */
     long write(ByteBuffer[] srcs, int offset, int length)
         throws IOException;
-
 
     /**
      * Writes a sequence of bytes to this channel from the given buffers.

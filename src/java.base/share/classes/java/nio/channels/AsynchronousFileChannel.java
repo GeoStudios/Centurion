@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.nio.file.*;
 import java.base.share.classes.java.nio.file.attribute.FileAttribute;
 import java.base.share.classes.java.nio.file.spi.*;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.concurrent.ExecutorService;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.HashSet;
 import java.base.share.classes.java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An asynchronous channel for reading, writing, and manipulating a file.

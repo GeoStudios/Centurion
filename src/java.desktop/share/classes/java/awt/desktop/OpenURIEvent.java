@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
 import java.desktop.share.classes.java.awt.Desktop;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.HeadlessException;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Event sent when the app is asked to open a {@code URI}.

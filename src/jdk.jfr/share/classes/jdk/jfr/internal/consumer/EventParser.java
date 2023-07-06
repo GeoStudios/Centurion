@@ -21,27 +21,12 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import static jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.FIELD_DURATION;.extended
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.share.classes.jdk.jfr.EventType;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parses an event and returns a {@link RecordedEvent}.

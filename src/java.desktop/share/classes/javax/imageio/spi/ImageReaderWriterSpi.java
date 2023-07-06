@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.spi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormat;
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A superclass containing instance variables and methods common to

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface {@code DocAttributeSet} specifies the interface for a set of doc
  * attributes, i.e. printing attributes that implement interface

@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.util.Map;
 import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
 import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
@@ -31,20 +30,6 @@ import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base plugin to update a static field in java.lang.VersionProps

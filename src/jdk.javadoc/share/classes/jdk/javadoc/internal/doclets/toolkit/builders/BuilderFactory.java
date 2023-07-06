@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import java.util.HashSet;
 import java.util.Set;
 import javax.lang.model.element.ModuleElement;
@@ -32,20 +31,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ClassWrite
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PropertyWriter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.WriterFactory;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The factory for constructing builders.

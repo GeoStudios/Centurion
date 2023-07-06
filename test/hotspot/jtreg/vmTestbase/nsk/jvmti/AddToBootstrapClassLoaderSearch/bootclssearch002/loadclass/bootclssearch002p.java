@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AddToBootstrapClassLoaderSearch;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Positive superclass for debuggee class. */
 public class bootclssearch002p {

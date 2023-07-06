@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Style information. See the  STYLE element definition in HTML 4.0, the
  * module and the <code>LinkStyle</code> interface in the  module.

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * DontCareFieldPosition defines no-op FieldDelegate. Its
  * singleton is used for the format methods that don't take a

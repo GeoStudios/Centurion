@@ -21,21 +21,7 @@
 
 package jit.t.t009;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t009.t009
  */
-
-
 
 public class t009
 {

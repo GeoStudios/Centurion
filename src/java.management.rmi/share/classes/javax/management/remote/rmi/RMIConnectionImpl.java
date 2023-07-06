@@ -21,7 +21,6 @@
 
 package java.management.rmi.share.classes.javax.management.remote.rmi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.MarshalledObject;
 import java.rmi.UnmarshalException;
@@ -53,20 +52,6 @@ import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
 import com.sun.jmx.remote.util.OrderClassLoaders;
 import java.management.rmi.share.classes.javax.management.loading.ClassLoaderRepository;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Implementation of the {@link RMIConnection} interface.  User
@@ -1337,7 +1322,6 @@ public class RMIConnectionImpl implements RMIConnection, Unreferenced {
         }
 
     }
-
 
     //------------------------------------------------------------------------
     // private methods

@@ -21,7 +21,6 @@
 
 package jdk.security.jgss.share.classes.com.sun.security.sasl.gsskerb;
 
-
 import javax.security.sasl.*;
 import java.io.*;
 import java.util.Map;
@@ -29,20 +28,6 @@ import java.util.logging.Level;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import javax.security.auth.callback.*;
 import org.ietf.jgss.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // JAAS
 
@@ -137,7 +122,6 @@ final class GssKrb5Server extends GssKrb5Base implements SaslServer {
         }
         logger.log(Level.FINE, "KRB5SRV02:Initialization complete");
     }
-
 
     /**
      * Processes the response data.

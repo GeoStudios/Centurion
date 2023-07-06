@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.nio.file.Path;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
@@ -49,20 +48,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.Pretty;
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class provides a basic implementation of the functionalities that should be provided
@@ -486,7 +471,6 @@ public abstract class AbstractDiagnosticFormatter implements DiagnosticFormatter
         public void setMultilineLimit(MultilineLimit limit, int value) {
             multilineLimits.put(limit, value < -1 ? -1 : value);
         }
-
 
         public void setVisible(Set<DiagnosticPart> diagParts) {
             visibleParts = EnumSet.copyOf(diagParts);

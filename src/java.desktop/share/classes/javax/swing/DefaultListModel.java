@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.util.Vector;
 import java.util.Collection;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class loosely implements the {@code java.util.Vector}
@@ -392,7 +377,6 @@ public class DefaultListModel<E> extends AbstractListModel<E>
         return rv;
     }
 
-
     /**
      * Removes all components from this list and sets its size to zero.
      * <blockquote>
@@ -412,7 +396,6 @@ public class DefaultListModel<E> extends AbstractListModel<E>
         }
     }
 
-
     /**
      * Returns a string that displays and identifies this
      * object's properties.
@@ -422,7 +405,6 @@ public class DefaultListModel<E> extends AbstractListModel<E>
    public String toString() {
         return delegate.toString();
     }
-
 
     /* The remaining methods are included for compatibility with the
      * Java 2 platform Vector class.

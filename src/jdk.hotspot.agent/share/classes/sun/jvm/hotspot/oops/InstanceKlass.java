@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.ClassLoaderData;
@@ -33,20 +32,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // An InstanceKlass is the VM level representation of a Java class.
 
@@ -515,7 +500,6 @@ public class InstanceKlass extends Klass {
     return (access & (~JVM_ACC_SUPER)) & JVM_ACC_WRITTEN_FLAGS;
   }
 
-
   // whether given Symbol is name of an inner/nested Klass of this Klass?
   // anonymous and local classes are excluded.
   public boolean isInnerClassName(Symbol sym) {
@@ -759,7 +743,6 @@ public class InstanceKlass extends Klass {
     return newField(fieldIndex);
   }
 
-
     /** Return a List of SA Fields for the fields declared in this class.
         Inherited fields are not included.
         Return an empty list if there are no fields declared in this class.
@@ -812,7 +795,6 @@ public class InstanceKlass extends Klass {
 
         return allFields;
     }
-
 
     /** Return a List of SA Methods declared directly in this class/interface.
         Return an empty list if there are none, or if this isn't a class/
@@ -907,7 +889,6 @@ public class InstanceKlass extends Klass {
     Address addr = getAddress().getAddressAt(innerClasses.getOffset());
     return VMObjectFactory.newObject(U2Array.class, addr);
   }
-
 
   //----------------------------------------------------------------------
   // Internals only below this point

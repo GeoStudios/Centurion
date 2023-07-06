@@ -21,25 +21,10 @@
 
 package utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.com.sun.hotspot.igv.selectioncoordinator;
 
-
 import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.Collections;
 import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.HashSet;
 import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

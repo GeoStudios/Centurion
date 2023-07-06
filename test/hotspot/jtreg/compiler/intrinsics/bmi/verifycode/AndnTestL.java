@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
-
 import compiler.intrinsics.bmi.TestAndnL;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,9 +38,6 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseBMI1Instructions
  *      compiler.intrinsics.bmi.verifycode.AndnTestL
  */
-
-
-
 
 public class AndnTestL extends AndnTestI {
 

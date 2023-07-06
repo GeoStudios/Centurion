@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.res;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class for issuing XPath error messages.

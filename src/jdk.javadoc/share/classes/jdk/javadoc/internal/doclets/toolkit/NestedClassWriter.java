@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The interface for writing class output.
  *

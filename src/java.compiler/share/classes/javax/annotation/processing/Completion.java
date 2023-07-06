@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A suggested {@linkplain Processor#getCompletions <em>completion</em>} for an
  * annotation.  A completion is text meant to be inserted into a

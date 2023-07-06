@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import java.awt.geom.Path2D;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.CacheStats;
 import java.desktop.share.classes.sun.java2d.marlin.DMarlinRenderingEngine.NormalizingPathIterator;
 import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveBasicMonotonizer;
 import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveClipSplitter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a renderer context dedicated to a single thread

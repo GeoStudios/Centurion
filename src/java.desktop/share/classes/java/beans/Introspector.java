@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.ref.SoftReference;
@@ -44,20 +43,6 @@ import com.sun.beans.introspect.PropertyInfo;
 import jdk.internal.access.JavaBeansAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Introspector class provides a standard way for tools to learn about
@@ -292,7 +277,6 @@ public class Introspector {
         //return new GenericBeanInfo(bi);
     }
 
-
     /**
      * Utility method to take a string and convert it to normal Java variable
      * name capitalization.  This normally means converting the first
@@ -357,7 +341,6 @@ public class Introspector {
         }
         ThreadGroupContext.getContext().getBeanInfoFinder().setPackages(path);
     }
-
 
     /**
      * Flush all of the Introspector's internal caches.  This method is

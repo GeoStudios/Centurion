@@ -21,21 +21,6 @@
 
 package compiler.rangechecks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8048170
@@ -44,7 +29,6 @@ package compiler.rangechecks;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.rangechecks.TestRangeCheckSmearingLoopOpts
  */
-
 
 public class TestRangeCheckSmearingLoopOpts {
 

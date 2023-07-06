@@ -21,24 +21,10 @@
 
 package nsk.jdi.EventQueue.remove_l;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the remove_l004 JDI test.
@@ -97,7 +83,6 @@ public class remove_l004a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

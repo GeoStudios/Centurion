@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.hierarchicallayout;
 
-
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Cluster;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Link;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Port;
@@ -33,20 +32,6 @@ import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.Collecti
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.HashSet;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.java.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -87,7 +72,6 @@ public class ClusterNode implements Vertex {
 
     public void updateSize() {
 
-
         calculateSize();
 
         final ClusterNode widget = this;
@@ -124,7 +108,6 @@ public class ClusterNode implements Vertex {
         int maxX = Integer.MIN_VALUE;
         int minY = Integer.MAX_VALUE;
         int maxY = Integer.MIN_VALUE;
-
 
         for (Vertex n : subNodes) {
             Point p = n.getPosition();

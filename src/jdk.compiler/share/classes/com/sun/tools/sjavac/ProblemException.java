@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Used to signal serious problems when running sjavac.
  *

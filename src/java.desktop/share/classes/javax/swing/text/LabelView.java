@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>LabelView</code> is a styled chunk of text
@@ -96,7 +81,6 @@ public class LabelView extends GlyphView implements TabableView {
     protected void setStrikeThrough(boolean s) {
         strike = s;
     }
-
 
     /**
      * Sets whether or not the view represents a

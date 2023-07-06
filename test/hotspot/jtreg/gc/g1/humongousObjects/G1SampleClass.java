@@ -21,24 +21,10 @@
 
 package gc.g1.humongousObjects;
 
-
 import gc.testlibrary.Helpers;
 import sun.hotspot.WhiteBox;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides generated and compiled sample classes and theirs expected sizes.

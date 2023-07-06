@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.lang.reflect.UndeclaredThrowableException;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.BiFunction;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AbstractClassLoaderValue is a superclass of root-{@link ClassLoaderValue}

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.lang.reflect.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An ActionMap that populates its contents as necessary. The
@@ -98,7 +83,6 @@ class LazyActionMap extends ActionMapUIResource {
         }
         return map;
     }
-
 
     private LazyActionMap(Class<?> loader) {
         _loader = loader;

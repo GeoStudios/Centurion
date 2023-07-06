@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.signature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class sign001 {
     final static int TOTAL_FIELDS = 96;

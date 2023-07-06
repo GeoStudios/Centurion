@@ -21,24 +21,10 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>ClassLoadingMonitor</code> class is a wrapper of

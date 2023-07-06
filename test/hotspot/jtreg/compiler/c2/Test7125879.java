@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7125879
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm -Xcomp compiler.c2.Test7125879
  */
-
 
 public class Test7125879 {
     String var_1 = "abc";

@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import java.lang.invoke.*;
 import java.util.*;
 import org.junit.*;
@@ -29,27 +28,11 @@ import static java.lang.invoke.MethodType.*;.extended
 import static java.lang.invoke.MethodHandles.*;.extended
 import static org.junit.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary unit tests for recursive method handles
  * @run junit/othervm -DRicochetTest.MAX_ARITY=255 test.java.lang.invoke.RicochetTest
  */
-
-
-
 
 /**
  *
@@ -640,7 +623,6 @@ public class RicochetTest {
             mt = mt.changeReturnType(to);
         return mt;
     }
-
 
     private static Object  convI_L(int     x) { stress(); return (Object)  x; }
     private static int     convL_I(Object  x) { stress(); return (int)     x; }

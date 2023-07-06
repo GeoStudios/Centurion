@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.JavaMethodProfile.ProfiledMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This profile object represents the method profile at a specific BCI. The precision of the

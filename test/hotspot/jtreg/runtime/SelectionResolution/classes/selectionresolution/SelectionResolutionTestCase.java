@@ -21,23 +21,9 @@
 
 package selectionresolution;
 
-
 import java.io.File;
 import java.io.FileWriter;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * One individual test case.  This class also defines a builder, which

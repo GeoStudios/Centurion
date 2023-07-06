@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import java.base.share.classes.java.lang.ref.Reference;
 import java.base.share.classes.java.nio.ByteBuffer;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.nio.ch.DirectBuffer;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class that can be used to compute the CRC-32 of a data stream.
@@ -57,7 +42,6 @@ public class CRC32 implements Checksum {
      */
     public CRC32() {
     }
-
 
     /**
      * Updates the CRC-32 checksum with the specified byte (the low

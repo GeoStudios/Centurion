@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.java_cup.internal.runtime;
 
-
 import java.util.Stack;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class implements a skeleton table driven LR parser.  In general,
  *  LR parsers are a form of bottom up shift-reduce parsers.  Shift-reduce
@@ -1233,7 +1218,6 @@ public abstract class lr_parser {
               return;
             }
         }
-
 
     }
 

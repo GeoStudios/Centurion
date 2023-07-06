@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.shell;
 
-
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
@@ -54,20 +53,6 @@ import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.NETWO
 import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.PERSONAL;.extended
 import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.RECENT;.extended
 import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.SMALL_ICON_SIZE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // NOTE: This class supersedes Win32ShellFolderManager, which was removed
 //       from distribution after version 1.4.2.
@@ -259,7 +244,6 @@ final class Win32ShellFolderManager2 extends ShellFolderManager {
         }
         return personal;
     }
-
 
     private static File[] roots;
 

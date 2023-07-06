@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.desktop.share.classes.com.sun.beans.TypeResolver;
 import java.desktop.share.classes.com.sun.beans.util.Cache;
 import java.lang.reflect.Method;
@@ -31,20 +30,6 @@ import java.lang.reflect.Type;
 import java.base.share.classes.java.util.Arrays;
 import static java.desktop.share.classes.com.sun.beans.util.Cache.Kind.SOFT;.extended
 import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This utility class provides {@code static} methods
@@ -200,7 +185,6 @@ public final class MethodFinder extends AbstractFinder<Method> {
         }
         throw new NoSuchMethodException("Method '" + name + "' is not accessible");
     }
-
 
     private final String name;
 

@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.doctree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tree node for a {@code doctype} declaration.
  *

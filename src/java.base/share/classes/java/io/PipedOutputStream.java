@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A piped output stream can be connected to a piped input stream

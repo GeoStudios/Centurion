@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.function;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a function that accepts two arguments and produces a result.

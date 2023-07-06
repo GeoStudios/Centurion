@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.*;
 import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.JEditorPane;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Establishes the set of things needed by a text component

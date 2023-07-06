@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.util.Vector;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XPopupMenuPeer extends XMenuWindow implements PopupMenuPeer {
 
@@ -105,7 +90,6 @@ public class XPopupMenuPeer extends XMenuWindow implements PopupMenuPeer {
         resetMapping();
         postPaintEvent();
     }
-
 
     @Override
     public void setEnabled(boolean enabled) {

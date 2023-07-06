@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Safely holds and disposes of native AppKit resources, using the

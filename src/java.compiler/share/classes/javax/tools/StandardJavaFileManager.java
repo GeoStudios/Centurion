@@ -21,7 +21,6 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File manager based on {@link File java.io.File} and {@link Path java.nio.file.Path}.
@@ -483,7 +468,6 @@ public interface StandardJavaFileManager extends JavaFileManager {
       *
       */
     default void setPathFactory(PathFactory f) { }
-
 
     private static Iterable<Path> asPaths(final Iterable<? extends File> files) {
         return () -> new Iterator<>() {

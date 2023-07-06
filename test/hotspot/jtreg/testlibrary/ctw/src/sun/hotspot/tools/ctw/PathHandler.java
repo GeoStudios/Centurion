@@ -21,7 +21,6 @@
 
 package sun.hotspot.tools.ctw;
 
-
 import java.io.Closeable;
 import java.net.URI;
 import java.nio.file.FileSystems;
@@ -39,19 +38,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Handler for a path, responsible for processing classes in the path.
@@ -193,7 +179,6 @@ public class PathHandler implements Closeable {
         this.entry = entry;
     }
 
-
     @Override
     public void close() {
         entry.close();
@@ -216,7 +201,6 @@ public class PathHandler implements Closeable {
     public long classCount() {
         return entry.classes().count();
     }
-
 
     /**
      * Processes specified class.

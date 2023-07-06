@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.javax.xml.parsers;
 
-
 import com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl;
 import java.xml.share.classes.javax.xml.validation.Schema;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines a factory API that enables applications to configure and
@@ -248,7 +233,6 @@ public abstract class SAXParserFactory {
     public abstract SAXParser newSAXParser()
         throws ParserConfigurationException, SAXException;
 
-
     /**
      * Specifies that the parser produced by this code will
      * provide support for XML namespaces. By default the value of this is set
@@ -371,7 +355,6 @@ public abstract class SAXParserFactory {
     public abstract boolean getFeature(String name)
         throws ParserConfigurationException, SAXNotRecognizedException,
                 SAXNotSupportedException;
-
 
     /**
      * Gets the {@link Schema} object specified through

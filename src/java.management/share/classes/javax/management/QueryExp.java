@@ -21,25 +21,9 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.io.Serializable;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
-
 
 /**
  * <p>Represents relational constraints similar to database query "where
@@ -55,7 +39,6 @@ import java.io.Serializable;
  * @see MBeanServer#queryNames MBeanServer.queryNames
  */
 public interface QueryExp extends Serializable {
-
 
      /**
       * Applies the QueryExp on an MBean.

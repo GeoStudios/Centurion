@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.NoninvertibleTransformException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class NativeStrike extends PhysicalStrike {
 
@@ -103,7 +88,6 @@ class NativeStrike extends PhysicalStrike {
      NativeStrike(NativeFont nativeFont, FontStrikeDesc desc) {
          super(nativeFont, desc);
          this.nativeFont = nativeFont;
-
 
          /* If this is a delegate for bitmaps, we expect to have
           * been invoked only for a simple scale. If that's not

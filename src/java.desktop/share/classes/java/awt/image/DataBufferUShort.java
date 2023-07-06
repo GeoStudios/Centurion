@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import static sun.java2d.StateTrackable.State.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class extends {@code DataBuffer} and stores data internally as

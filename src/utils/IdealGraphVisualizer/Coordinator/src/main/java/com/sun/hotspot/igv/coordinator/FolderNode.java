@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator;
 
-
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.RemoveCookie;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.*;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
@@ -34,20 +33,6 @@ import org.openide.nodes.Sheet;
 import org.openide.util.ImageUtilities;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

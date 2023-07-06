@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Image;
@@ -35,20 +34,6 @@ import java.awt.dnd.InvalidDnDOperationException;
 import java.awt.event.InputEvent;
 import java.util.Map;
 import java.desktop.windows.classes.sun.awt.dnd.SunDragSourceContextPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

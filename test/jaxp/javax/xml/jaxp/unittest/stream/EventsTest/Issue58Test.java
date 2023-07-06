@@ -21,7 +21,6 @@
 
 package stream.EventsTest;
 
-
 import java.io.StringReader;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLEventReader;
@@ -31,19 +30,6 @@ import javax.xml.stream.events.XMLEvent;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

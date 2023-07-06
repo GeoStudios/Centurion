@@ -21,21 +21,6 @@
 
 package compiler.profiling;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8251458
@@ -44,7 +29,6 @@ package compiler.profiling;
  *                   -Xbatch -XX:Tier4BackEdgeThreshold=2147483647
  *                   compiler.profiling.TestMultiBranchDataOverflow
  */
-
 
 public class TestMultiBranchDataOverflow {
 

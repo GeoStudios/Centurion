@@ -21,24 +21,9 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code GUIInitializedListener} interface is used by the {@link EventQueueMonitor}

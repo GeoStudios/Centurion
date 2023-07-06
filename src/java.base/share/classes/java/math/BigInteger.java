@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.math;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -35,20 +34,6 @@ import jdk.internal.math.FloatConsts;
 import jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Immutable arbitrary-precision integers.  All operations behave as if
@@ -279,7 +264,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
      * use the intrinsic.
      */
     private static final int MONTGOMERY_INTRINSIC_THRESHOLD = 512;
-
 
     // Constructors
 
@@ -1926,7 +1910,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
         }
     }
 
-
     /**
      * Returns a slice of a BigInteger for use in Toom-Cook multiplication.
      *
@@ -3120,7 +3103,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
         return n;
     }
 
-
     /*
      * Returns -1, 0 or +1 as big-endian unsigned int array arg1 is less than,
      * equal to, or greater than arg2 up to length len.
@@ -3555,7 +3537,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
         return valueOf(result);
     }
 
-
     // Single Bit Operations
 
     /**
@@ -3669,7 +3650,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
         }
         return lsb;
     }
-
 
     // Miscellaneous Bit Operations
 
@@ -3912,7 +3892,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
     public BigInteger max(BigInteger val) {
         return (compareTo(val) > 0 ? this : val);
     }
-
 
     // Hash Function
 
@@ -4463,7 +4442,6 @@ public class BigInteger extends Number implements Comparable<BigInteger> {
         // Find first non-sign (0xff) byte of input
         for (keep=off; keep < indexBound && a[keep] == -1; keep++)
             ;
-
 
         /* Allocate output array.  If all non-sign bytes are 0x00, we must
          * allocate space for one extra output byte. */

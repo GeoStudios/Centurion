@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines the minimum requirements in order to provide support

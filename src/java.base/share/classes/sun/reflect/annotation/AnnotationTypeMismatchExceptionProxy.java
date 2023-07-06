@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
 import java.lang.annotation.*;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ExceptionProxy for AnnotationTypeMismatchException.

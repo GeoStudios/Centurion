@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Paint;
 import java.desktop.share.classes.javax.swing.border.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory class for vending standard <code>Border</code> objects.  Wherever
@@ -58,7 +43,6 @@ public class BorderFactory
     /** Don't let anyone instantiate this class */
     private BorderFactory() {
     }
-
 
 //// LineBorder ///////////////////////////////////////////////////////////////
     /**

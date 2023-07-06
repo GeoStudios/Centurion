@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>TableModel</code> interface specifies the methods the

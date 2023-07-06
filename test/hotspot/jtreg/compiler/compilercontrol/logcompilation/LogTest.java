@@ -21,22 +21,8 @@
 
 package compiler.compilercontrol.logcompilation;
 
-
 import compiler.compilercontrol.share.processors.LogProcessor;
 import compiler.compilercontrol.share.scenario.Scenario;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import compiler.compilercontrol.share.scenario.Scenario;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.logcompilation.LogTest
  */
-
-
 
 public class LogTest {
     public static void main(String[] args) {

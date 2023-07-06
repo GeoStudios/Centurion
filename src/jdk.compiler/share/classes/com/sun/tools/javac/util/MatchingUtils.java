@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.util.regex.Pattern;
 import javax.lang.model.SourceVersion;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**Utilities to convert an import-like string to a regexp.
  *

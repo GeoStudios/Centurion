@@ -21,23 +21,8 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class WindowsRegistry {
 

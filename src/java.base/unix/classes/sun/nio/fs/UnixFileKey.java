@@ -21,22 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Container for device/inode to uniquely identify file.
  */

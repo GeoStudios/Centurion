@@ -21,22 +21,8 @@
 
 package jit.t.t019;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t019.t019
  */
-
-
 
 // opc_baload, opc_bastore,
 // opc_caload, opc_castore,

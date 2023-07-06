@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.UnsupportedEncodingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Holds information about a given encoding, which is the Java name for the
@@ -153,8 +136,6 @@ public final class EncodingInfo {
         this.javaName = javaName;
     }
 
-
-
     /**
      * A simple interface to isolate the implementation.
      * We could also use some new JRE 1.4 methods in another implementation
@@ -180,8 +161,6 @@ public final class EncodingInfo {
      * This class implements the
      */
     private class EncodingImpl implements InEncoding {
-
-
 
         public boolean isInEncoding(char ch1) {
             final boolean ret;

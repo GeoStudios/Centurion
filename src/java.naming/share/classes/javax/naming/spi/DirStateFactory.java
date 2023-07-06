@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
-
 import java.naming.share.classes.javax.naming.*;
 import java.naming.share.classes.javax.naming.directory.Attributes;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This interface represents a factory for obtaining the state of an
@@ -153,7 +138,6 @@ Result getStateToBind(Object obj, Name name, Context nameCtx,
                                  Attributes inAttrs)
         throws NamingException;
 
-
         /**
          * An object/attributes pair for returning the result of
          * DirStateFactory.getStateToBind().
@@ -163,7 +147,6 @@ Result getStateToBind(Object obj, Name name, Context nameCtx,
          * The possibly null object to be bound.
          */
         private final Object obj;
-
 
         /**
          * The possibly null attributes to be bound.

@@ -21,21 +21,6 @@
 
 package compiler.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6863420
@@ -46,7 +31,6 @@ package compiler.runtime;
 /*
  * Notice the internal timeout in timeout thread Test6863420.TOT.
  */
-
 
 public class Test6863420 {
 

@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.dnd.DropTarget;
@@ -31,20 +30,6 @@ import java.desktop.windows.classes.sun.awt.LightweightFrame;
 import java.desktop.windows.classes.sun.awt.OverrideNativeWindowHandle;
 import java.desktop.windows.classes.sun.swing.JLightweightFrame;
 import java.desktop.windows.classes.sun.swing.SwingAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WLightweightFramePeer extends WFramePeer implements OverrideNativeWindowHandle {
 

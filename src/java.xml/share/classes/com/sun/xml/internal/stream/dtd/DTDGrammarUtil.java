@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.dtd;
 
-
 import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
 import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl;
 import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLElementDecl;
@@ -40,25 +39,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import javax.xml.XMLConstants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
   */
 
 public class DTDGrammarUtil {
-
 
     /** Property identifier: symbol table. */
     protected static final String SYMBOL_TABLE =
@@ -66,7 +50,6 @@ public class DTDGrammarUtil {
 
     protected static final String NAMESPACES =
     Constants.SAX_FEATURE_PREFIX + Constants.NAMESPACES_FEATURE;
-
 
     /** Compile to true to debug attributes. */
     private static final boolean DEBUG_ATTRIBUTES = false;
@@ -151,7 +134,6 @@ public class DTDGrammarUtil {
         fElementDepth = -1;
     }
 
-
     /**
      * The start of an element.
      *
@@ -194,8 +176,6 @@ public class DTDGrammarUtil {
      */
     public void endCDATA(Augmentations augs) throws XNIException {
     }
-
-
 
     /** Add default attributes and validate. */
     public void addDTDDefaultAttrs(QName elementName, XMLAttributes attributes)
@@ -333,7 +313,6 @@ public class DTDGrammarUtil {
 
     } // addDTDDefaultAttrsAndValidate(int,XMLAttrList)
 
-
     /**
      * Normalize the attribute value of a non CDATA attributes collapsing
      * sequences of space characters (x20)
@@ -392,8 +371,6 @@ public class DTDGrammarUtil {
         return !attrValue.equals(newValue);
     }
 
-
-
     /** convert attribute type from ints to strings */
     private String getAttributeTypeName(XMLAttributeDecl attrDecl) {
 
@@ -433,7 +410,6 @@ public class DTDGrammarUtil {
 
     }
 
-
     /** ensure element stack capacity */
     private void ensureStackCapacity(int newElementDepth) {
         if (newElementDepth == fElementContentState.length) {
@@ -443,8 +419,6 @@ public class DTDGrammarUtil {
             fElementContentState = newStack;
         }
     }
-
-
 
     /** Handle element
      * @return true if validator is removed from the pipeline
@@ -469,7 +443,6 @@ public class DTDGrammarUtil {
         ensureStackCapacity(fElementDepth);
         fElementContentState[fElementDepth] = fInElementContent;
     }
-
 
     /** Handle end element. */
     protected void handleEndElement(QName element) throws XNIException {

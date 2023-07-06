@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.*;
 import java.util.function.BiConsumer;
 import javax.lang.model.element.ElementKind;
@@ -70,20 +69,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.ext
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.WILDCARD;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This is the main context-dependent analysis phase in GJC. It
  *  encompasses name resolution, type checking and constant folding as
@@ -496,7 +481,6 @@ public class Attr extends JCTree.Visitor {
             return true;
         }
     }
-
 
     class ResultInfo {
         final KindSelector pkind;
@@ -998,7 +982,6 @@ public class Attr extends JCTree.Visitor {
         try {
             deferredLintHandler.flush(tree.pos());
             chk.checkDeprecatedAnnotation(tree.pos(), m);
-
 
             // Create a new environment with local scope
             // for attributing the method.
@@ -1873,7 +1856,6 @@ public class Attr extends JCTree.Visitor {
             return t != null && t.tsym != null && (t.tsym.flags() & VALUE_BASED) != 0;
         }
 
-
     public void visitTry(JCTry tree) {
         // Create a new local environment with a local
         Env<AttrContext> localEnv = env.dup(tree, env.info.dup(env.info.scope.dup()));
@@ -1993,7 +1975,6 @@ public class Attr extends JCTree.Visitor {
         ResultInfo condInfo = tree.polyKind == PolyKind.STANDALONE ?
                 unknownExprInfo :
                 resultInfo.dup(conditionalContext(resultInfo.checkContext));
-
 
         // x ? y : z
         // include x's bindings when true in y
@@ -3747,7 +3728,6 @@ public class Attr extends JCTree.Visitor {
                                   KindSelector.VAL_TYP : KindSelector.TYP,
                                   Type.noType);
         }
-
 
     @SuppressWarnings("fallthrough")
     void checkReferenceCompatible(JCMemberReference tree, Type descriptor, Type refType, CheckContext checkContext, boolean speculativeAttr) {

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.InputStream;
 import javax.sound.midi.Soundbank;
 import javax.sound.midi.SoundbankResource;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Soundfont sample storage.

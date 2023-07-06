@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.platform;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
@@ -67,20 +66,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** PlatformProvider for JDK N.
  *

@@ -21,23 +21,9 @@
 
 package compiler.jsr292;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import static java.lang.invoke.MethodType.methodType;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,9 +32,6 @@ import static java.lang.invoke.MethodType.methodType;.extended
  *
  * @run main compiler.jsr292.Test7082949
  */
-
-
-
 
 public class Test7082949 implements Runnable {
     public static void main(String... args) throws Throwable {

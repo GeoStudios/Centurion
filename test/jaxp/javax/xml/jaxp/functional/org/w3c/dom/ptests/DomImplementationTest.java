@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;.extended
 import javax.xml.parsers.ParserConfigurationException;
@@ -31,19 +30,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.DocumentType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -82,7 +68,6 @@ public class DomImplementationTest {
         verifyDocumentType(documentType, name, publicId, systemId);
     }
 
-
     /*
      * Test createDocument method using a DocumentType, verify the document will
      * take that Doctype.
@@ -119,7 +104,6 @@ public class DomImplementationTest {
                 { impl, "XML", "", true } };
     }
 
-
     /*
      * Verify DOMImplementation for feature supporting.
      */
@@ -128,11 +112,9 @@ public class DomImplementationTest {
         assertEquals(impl.hasFeature(feature,version), isSupported);
     }
 
-
     private DOMImplementation getDOMImplementation() throws ParserConfigurationException {
         return createNewDocument().getImplementation();
     }
-
 
     private void verifyDocumentType(DocumentType documentType, String name, String publicId, String systemId) {
         assertEquals(documentType.getPublicId(), publicId);

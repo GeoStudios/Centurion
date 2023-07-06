@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8149797
@@ -46,7 +31,6 @@ package compiler.c2;
  *      -XX:CompileCommand=dontinline,compiler.c2.TestDominatingDeadCheckCast::not_inlined
  *      compiler.c2.TestDominatingDeadCheckCast
  */
-
 
 public class TestDominatingDeadCheckCast {
 

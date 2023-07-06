@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.AlphaComposite;
 import java.desktop.share.classes.java.awt.Graphics2D;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.awt.RenderingHints;
 import sun.awt.image.ImagingLib;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class performs a pixel-by-pixel rescaling of the data in the
@@ -99,7 +84,6 @@ public class RescaleOp implements BufferedImageOp, RasterOp {
 
     private int srcNbits;
     private int dstNbits;
-
 
     /**
      * Constructs a new RescaleOp with the desired scale factors
@@ -190,7 +174,6 @@ public class RescaleOp implements BufferedImageOp, RasterOp {
     public final int getNumFactors() {
         return length;
     }
-
 
     /**
      * Creates a ByteLookupTable to implement the rescale.
@@ -284,7 +267,6 @@ public class RescaleOp implements BufferedImageOp, RasterOp {
 
         return new ShortLookupTable(0, lutData);
     }
-
 
     /**
      * Determines if the rescale can be performed as a lookup.

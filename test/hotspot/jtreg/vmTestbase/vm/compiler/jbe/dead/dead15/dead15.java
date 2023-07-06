@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.dead.dead15;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.dead.dead15;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead15.dead15
  */
-
 
 // dead15.java
 
@@ -72,7 +56,6 @@ package vm.compiler.jbe.dead.dead15;
       the elimination of this assignment) will occur.
  */
 
-
 public class dead15 {
   int i00=0, i01=1, i02=2, i03=3, i04=4;
   int i05=5, i06=6, i07=7, i08=8, i09=9;
@@ -89,7 +72,6 @@ public class dead15 {
       throw new Error("Test dead15 Failed: f()=" + dce.f() + " != fopt()=" + dce.fopt());
     }
   }
-
 
   int f() {
     i00 = i00;

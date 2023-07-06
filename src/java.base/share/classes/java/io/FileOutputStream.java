@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.nio.channels.FileChannel;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
 import sun.nio.ch.FileChannelImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A file output stream is an output stream for writing data to a

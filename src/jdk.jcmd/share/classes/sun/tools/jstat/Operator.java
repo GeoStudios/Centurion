@@ -21,22 +21,7 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A typesafe enumeration for describing mathematical operators.

@@ -21,24 +21,9 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Within a String, mask code comments and ignored modifiers (within context).

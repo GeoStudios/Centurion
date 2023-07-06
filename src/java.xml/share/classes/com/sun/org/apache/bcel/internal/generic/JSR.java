@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * JSR - Jump to subroutine
@@ -59,11 +42,9 @@ public class JSR extends JsrInstruction implements VariableLengthInstruction {
     JSR() {
     }
 
-
     public JSR(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.JSR, target);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -81,7 +62,6 @@ public class JSR extends JsrInstruction implements VariableLengthInstruction {
         }
     }
 
-
     @Override
     protected int updatePosition( final int offset, final int max_offset ) {
         final int i = getTargetOffset(); // Depending on old position value
@@ -94,7 +74,6 @@ public class JSR extends JsrInstruction implements VariableLengthInstruction {
         }
         return 0;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

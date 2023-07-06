@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>This class represents a scope for identities. It is an Identity
@@ -151,7 +136,6 @@ class IdentityScope extends Identity {
         }
         return scope;
     }
-
 
     /**
      * Sets the system's identity scope.

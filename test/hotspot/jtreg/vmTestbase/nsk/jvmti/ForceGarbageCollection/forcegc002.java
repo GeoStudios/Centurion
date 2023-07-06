@@ -21,24 +21,10 @@
 
 package nsk.jvmti.ForceGarbageCollection;
 
-
 import java.io.PrintStream;
 import java.lang.ref.SoftReference;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class forcegc002 extends DebugeeClass {
 

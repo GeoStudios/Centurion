@@ -21,23 +21,8 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.io.*;
 import java.rmi.share.classes.java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An <code>RMIClientSocketFactory</code> instance is used by the RMI runtime

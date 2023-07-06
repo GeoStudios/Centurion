@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import javax.accessibility.AccessibleContext;
 import java.awt.*;
 import java.awt.event.FocusEvent.Cause;
@@ -44,20 +43,6 @@ import java.io.File;
 import java.util.ResourceBundle;
 import java.util.Vector;
 import javax.accessibility.AccessibleBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The AWTAccessor utility class.
@@ -239,7 +224,6 @@ public final class AWTAccessor {
          * Processes events occurring on this component.
          */
         void processEvent(Component comp, AWTEvent e);
-
 
         /*
          * Returns the acc this component was constructed with.

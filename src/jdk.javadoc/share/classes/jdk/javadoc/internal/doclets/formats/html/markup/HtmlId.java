@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A type-safe wrapper around a {@code String}, for use as an "id"
  * in {@code HtmlTree} objects.

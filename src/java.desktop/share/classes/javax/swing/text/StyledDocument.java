@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Font;
 import java.awt.Color;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for a generic styled document.
@@ -152,7 +137,6 @@ public interface StyledDocument extends Document {
      * @return the element
      */
     Element getCharacterElement(int pos);
-
 
     /**
      * Takes a set of attributes and turn it into a foreground color

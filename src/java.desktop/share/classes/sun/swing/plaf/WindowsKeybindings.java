@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.swing.plaf;
 
-
 import javax.swing.JTextField;
 import javax.swing.UIDefaults;
 import javax.swing.text.DefaultEditorKit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WindowsKeybindings - The standard set of keymaps for the Windows Platform

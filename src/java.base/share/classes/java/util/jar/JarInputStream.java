@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.jar;
 
-
 import java.base.share.classes.java.util.zip.*;
 import java.base.share.classes.java.io.*;
 import sun.security.util.ManifestEntryVerifier;
 import jdk.internal.util.jar.JarIndex;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code JarInputStream} class is used to read the contents of

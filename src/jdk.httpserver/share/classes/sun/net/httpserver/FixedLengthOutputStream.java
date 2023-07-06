@@ -21,25 +21,10 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.io.*;
 import java.net.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * a class which allows the caller to write up to a defined

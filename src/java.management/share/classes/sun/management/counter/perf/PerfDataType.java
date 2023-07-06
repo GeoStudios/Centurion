@@ -21,23 +21,8 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
-
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A typesafe enumeration for the data types supported for

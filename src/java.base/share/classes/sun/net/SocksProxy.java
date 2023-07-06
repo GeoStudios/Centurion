@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.net.Proxy;
 import java.net.java.net.SocketAddress;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Proxy wrapper class so we can determine the socks protocol version.

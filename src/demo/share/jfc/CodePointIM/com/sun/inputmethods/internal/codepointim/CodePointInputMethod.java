@@ -21,7 +21,6 @@
 
 package demo.share.jfc.CodePointIM.com.sun.inputmethods.internal.codepointim;
 
-
 import java.awt.AWTEvent;
 import java.awt.Toolkit;
 import java.awt.Rectangle;
@@ -36,20 +35,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.text.AttributedString;
 import java.base.share.classes.java.util.Locale;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -57,11 +42,6 @@ import java.base.share.classes.java.util.Locale;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 /**
  * The Code Point Input Method is a simple input method that allows Unicode

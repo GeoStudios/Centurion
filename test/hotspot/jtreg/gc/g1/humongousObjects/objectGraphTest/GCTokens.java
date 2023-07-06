@@ -21,21 +21,6 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Contains tokens that could appear in gc log
  */

@@ -21,24 +21,10 @@
 
 package java.net;
 
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A SocketImpl that delegates all operations to a platform SocketImpl. It also

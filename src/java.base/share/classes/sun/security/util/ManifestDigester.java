@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.security.MessageDigest;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -30,20 +29,6 @@ import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to compute digests on sections of the Manifest.

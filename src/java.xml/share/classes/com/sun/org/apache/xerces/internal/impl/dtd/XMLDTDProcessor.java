@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
@@ -51,20 +50,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The DTD processor. The processor implements a DTD
@@ -589,7 +574,6 @@ public class XMLDTDProcessor
 
     } // comment(XMLString)
 
-
     /**
      * A processing instruction. Processing instructions consist of a
      * target name and, optionally, text data. The data is only meaningful
@@ -637,7 +621,6 @@ public class XMLDTDProcessor
      * @throws XNIException Thrown by handler to signal an error.
      */
     public void startDTD(XMLLocator locator, Augmentations augs) throws XNIException {
-
 
         // initialize state
         fNDataDeclNotations.clear();
@@ -865,7 +848,6 @@ public class XMLDTDProcessor
                                                  XMLErrorReporter.SEVERITY_WARNING );
                     }
                 }
-
 
             //
             // a) VC: One ID per Element Type, If duplicate ID attribute
@@ -1113,7 +1095,6 @@ public class XMLDTDProcessor
 
     } // internalEntityDecl(String,XMLString,XMLString)
 
-
     /**
      * An external entity declaration.
      *
@@ -1276,7 +1257,6 @@ public class XMLDTDProcessor
      */
     public void endDTD(Augmentations augs) throws XNIException {
 
-
         // save grammar
         if(fDTDGrammar != null) {
             fDTDGrammar.endDTD(augs);
@@ -1363,7 +1343,6 @@ public class XMLDTDProcessor
     public XMLDTDContentModelSource getDTDContentModelSource() {
         return fDTDContentModelSource;
     } // getDTDContentModelSource():  XMLDTDContentModelSource
-
 
     /**
      * The start of a content model. Depending on the type of the content

@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.functions;
 
-
 import java.util.Collection;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -30,19 +29,6 @@ import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FunctionDefinition extends IRNode {
     private final FunctionInfo functionInfo;

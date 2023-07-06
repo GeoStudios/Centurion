@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class holds an instance of an argument on
@@ -123,7 +106,6 @@ public class Arg
       m_val.detach();
     }
   }
-
 
   /** Field m_expression: Stored expression value of this argument.
    * @see #setExpression

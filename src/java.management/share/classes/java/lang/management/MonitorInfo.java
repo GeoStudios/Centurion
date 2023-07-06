@@ -21,23 +21,8 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import javax.management.openmbean.CompositeData;
 import sun.management.MonitorInfoCompositeData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Information about an object monitor lock.  An object monitor is locked

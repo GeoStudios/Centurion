@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an interface to query namespace information.
@@ -126,7 +111,6 @@ public interface NamespaceContext {
      */
     boolean declarePrefix(String prefix, String uri);
 
-
     /**
      * Look up a prefix and get the currently-mapped Namespace URI.
      * <p>
@@ -159,7 +143,6 @@ public interface NamespaceContext {
      */
     String getPrefix(String uri);
 
-
     /**
      * Return a count of locally declared prefixes, including
      * the default prefix if bound.
@@ -189,6 +172,5 @@ public interface NamespaceContext {
      * the declaration of the prefixes "xmlns" and "xml" are available.</p>
      */
     void reset();
-
 
 } // interface NamespaceContext

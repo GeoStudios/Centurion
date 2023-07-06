@@ -21,7 +21,6 @@
 
 package p;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
@@ -37,29 +36,12 @@ import org.testng.annotations.Test;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
 import static org.testng.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary define a lambda proxy class whose target class has an invalid
  *          nest membership
  * @run testng/othervm p.LambdaNestedInnerTest
  */
-
-
-
-
 
 public class LambdaNestedInnerTest {
     private static final String INNER_CLASSNAME = "p.LambdaNestedInnerTest$Inner";

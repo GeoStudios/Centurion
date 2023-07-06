@@ -21,26 +21,11 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import java.lang.reflect.Method;
 import javax.management.MBeanInfo;
 import javax.management.MBeanServer;
 import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for Standard MBeans.

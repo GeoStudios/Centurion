@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.AWTException;
 import java.desktop.share.classes.java.awt.BufferCapabilities;
@@ -40,20 +39,6 @@ import java.desktop.share.classes.java.awt.event.PaintEvent;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.image.VolatileImage;
 import sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for {@link Component}. This is the top level peer

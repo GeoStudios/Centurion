@@ -21,27 +21,12 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
 import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
 import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ChunkHeader {
     static final long HEADER_SIZE = 68;
@@ -240,7 +225,6 @@ public final class ChunkHeader {
         m.metadataId = metadataId;
         return m;
     }
-
 
     public short getMajor() {
         return major;

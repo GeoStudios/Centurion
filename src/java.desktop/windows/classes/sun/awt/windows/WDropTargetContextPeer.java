@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.io.InputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -30,20 +29,6 @@ import java.desktop.windows.classes.sun.awt.PeerEvent;
 import java.desktop.windows.classes.sun.awt.SunToolkit;
 import java.desktop.windows.classes.sun.awt.dnd.SunDropTargetContextPeer;
 import java.desktop.windows.classes.sun.awt.dnd.SunDropTargetEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

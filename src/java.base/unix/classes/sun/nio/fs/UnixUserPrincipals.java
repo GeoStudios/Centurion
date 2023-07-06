@@ -21,24 +21,9 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.nio.file.attribute.*;
 import java.io.java.io.java.io.java.io.IOException;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unix implementation of java.nio.file.attribute.UserPrincipal

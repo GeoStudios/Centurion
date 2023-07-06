@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
@@ -110,20 +109,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.MDL
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.MTH;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleResolutionFlags;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  TODO: fill in
@@ -305,7 +290,6 @@ public class Modules extends JCTree.Visitor {
         }
         return modules;
     }
-
 
     private void enterModule(JCCompilationUnit toplevel, ClassSymbol c, Set<ModuleSymbol> modules) {
         boolean isModuleInfo = toplevel.sourcefile.isNameCompatible("module-info", Kind.SOURCE);

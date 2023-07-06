@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
 import java.util.Stack;
 import java.desktop.share.classes.javax.imageio.Ijava.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class implementing the {@code ImageInputStream} interface.

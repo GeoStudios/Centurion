@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.io.FilePermission;
 import java.security.AccessController;
 import java.security.Permission;
@@ -32,20 +31,6 @@ import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import sun.security.util.SecurityConstants;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class used to load the {@link java.lang.System.LoggerFinder}.
@@ -75,7 +60,6 @@ public final class LoggerFinderLoader {
     private LoggerFinderLoader() {
         throw new InternalError("LoggerFinderLoader cannot be instantiated");
     }
-
 
     // Return the loaded LoggerFinder, or load it if not already loaded.
     private static System.LoggerFinder service() {

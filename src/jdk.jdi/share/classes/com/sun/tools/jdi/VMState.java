@@ -21,26 +21,11 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.lang.ref.WeakReference;
 import java.util.*;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class VMState {
     private final VirtualMachineImpl vm;
@@ -230,7 +215,6 @@ class VMState {
         }
         return threads;
     }
-
 
     List<ThreadGroupReference> topLevelThreadGroups() {
         List<ThreadGroupReference> groups = null;

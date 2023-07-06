@@ -21,22 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implements the Windows95/98/ME/NT/2000 Look and Feel.
  *

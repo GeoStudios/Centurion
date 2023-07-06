@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol;
 
-
 import jdk.test.lib.dcmd.CommandExecutor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestCompilerDirectivesCompatibilityFlag
@@ -52,8 +38,6 @@ import jdk.test.lib.dcmd.CommandExecutor;
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityFlag
  * @summary Test compiler control compatibility with compile command
  */
-
-
 
 public class TestCompilerDirectivesCompatibilityFlag extends TestCompilerDirectivesCompatibilityBase {
 

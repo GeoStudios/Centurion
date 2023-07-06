@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import javax.print.attribute.PrintRequestAttribute;
 import javax.print.attribute.PrintRequestAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A class used to determine minimum and maximum pages.

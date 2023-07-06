@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary load/store elimination will print out instructions without bcis.
@@ -43,7 +28,6 @@ package compiler.c1;
  * @requires vm.debug == true & vm.compiler1.enabled
  * @run main/othervm -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xcomp -XX:+PrintIRDuringConstruction -XX:+Verbose compiler.c1.TestPrintIRDuringConstruction
  */
-
 
 public class TestPrintIRDuringConstruction {
     static class Dummy {

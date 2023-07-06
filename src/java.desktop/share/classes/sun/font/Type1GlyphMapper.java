@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This isn't a critical performance case, so don't do any
  * char->glyph map caching for Type1 fonts. The ones that are used
@@ -146,7 +130,6 @@ public final class Type1GlyphMapper extends CharToGlyphMapper {
             glyphs[i] = charToGlyph(unicodes[i]);
         }
     }
-
 
     /* This variant checks if shaping is needed and immediately
      * returns true if it does. A caller of this method should be expecting

@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.lang.module;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.net.URI;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A reference to a module's content.

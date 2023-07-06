@@ -21,22 +21,6 @@
 
 package java.instrument.share.classes.java.lang.instrument;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that a module cannot be modified.
  *

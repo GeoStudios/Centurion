@@ -21,26 +21,12 @@
 
 package test.astro;
 
-
 import static javax.xml.XMLConstants.DEFAULT_NS_PREFIX;.extended
 import static javax.xml.XMLConstants.NULL_NS_URI;.extended
 import static org.testng.Assert.assertEquals;.extended
 import javax.xml.namespace.QName;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

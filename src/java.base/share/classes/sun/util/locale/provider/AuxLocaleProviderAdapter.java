@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.spi.BreakIteratorProvider;
@@ -44,20 +43,6 @@ import java.util.spi.LocaleServiceProvider;
 import java.util.spi.TimeZoneNameProvider;
 import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
 import java.base.share.classes.sun.util.spi.CalendarProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract parent class for the

@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.java2d.SurfaceDataProxy;
 import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
 import java.awt.Color;
 import java.awt.Transparency;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The proxy class contains the logic for when to replace a

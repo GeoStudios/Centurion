@@ -21,23 +21,9 @@
 
 package failureAtomicity;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // For verification purposes only.
 

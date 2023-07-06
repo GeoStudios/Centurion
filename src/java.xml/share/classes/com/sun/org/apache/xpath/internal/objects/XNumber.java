@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an XPath number, and is capable of
@@ -360,7 +345,6 @@ public class XNumber extends XObject
            + s.substring(2, e);
   }
 
-
   /**
    * Return a string of '0' of the given length
    *
@@ -448,6 +432,5 @@ public class XNumber extends XObject
   {
         visitor.visitNumberLiteral(owner, this);
   }
-
 
 }

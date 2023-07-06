@@ -21,22 +21,6 @@
 
 package java.management.share.classes.sun.management.counter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Provides a typesafe enumeration for describing units of measurement
  * attribute for instrumentation objects.

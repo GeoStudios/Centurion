@@ -21,25 +21,11 @@
 
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues002;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -65,8 +51,6 @@ import nsk.share.jdi.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 /*
  * Test checks that method 'StackFrame.getArgumentValues()' returns the values of all arguments in this frame.

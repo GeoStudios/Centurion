@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Inherited;
 import java.util.Collections;
@@ -77,20 +76,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.lushr
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.lxor;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.string_add;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Root class for Java symbols. It contains subclasses
  *  for specific sorts of symbols, such as variables, methods and operators,
  *  types, packages. Each subclass is represented as a static inner class
@@ -145,7 +130,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
      * SymbolMetadata. The SymbolMetadata instance is NOT immutable.
      */
     protected SymbolMetadata metadata;
-
 
     /** An accessor method for the attributes of this symbol.
      *  Attributes of class symbols should be accessed through the accessor
@@ -741,7 +725,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
         return getRawAttributes();
     }
 
-
     // TODO: getEnclosedElements should return a javac List, fix in FilteredMemberList
     @DefinedBy(Api.LANGUAGE_MODEL)
     public java.util.List<Symbol> getEnclosedElements() {
@@ -958,7 +941,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
                         anno.position.type == TargetType.METHOD_TYPE_PARAMETER) &&
                         anno.position.parameter_index == index;
             }
-
 
         @Override @DefinedBy(Api.LANGUAGE_MODEL)
         public <R, P> R accept(ElementVisitor<R, P> v, P p) {
@@ -1468,7 +1450,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
             return (ClassSymbol) sup.tsym;
         }
 
-
         @Override
         protected <A extends Annotation> A[] getInheritedAnnotations(Class<A> annoType) {
 
@@ -1477,7 +1458,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
             return sup == null ? super.getInheritedAnnotations(annoType)
                                : sup.getAnnotationsByType(annoType);
         }
-
 
         @DefinedBy(Api.LANGUAGE_MODEL)
         public ElementKind getKind() {
@@ -1631,7 +1611,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
             return permitted.map(s -> s.type);
         }
     }
-
 
     /** A class for variable symbols
      */
@@ -1965,7 +1944,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
         public boolean isHandle() {
             return false;
         }
-
 
         public MethodHandleSymbol asHandle() {
             return new MethodHandleSymbol(this);
@@ -2403,7 +2381,6 @@ public abstract class Symbol extends AnnoConstruct implements PoolConstant, Elem
         public Symbol baseSymbol() {
             return refSym;
         }
-
 
         @Override
         public boolean isHandle() {

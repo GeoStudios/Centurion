@@ -21,23 +21,8 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -46,8 +31,6 @@ import java.base.share.classes.java.util.Objects;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Describes an operation that operates on at least one {@link Namespace} of

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Certificate Encoding Exception. This is thrown whenever an error
  * occurs while attempting to encode a certificate.

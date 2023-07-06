@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
 import java.io.Serial;
 import java.io.Serializable;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code TextSyntax} is an abstract base class providing the common

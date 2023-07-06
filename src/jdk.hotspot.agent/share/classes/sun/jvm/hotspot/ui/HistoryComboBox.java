@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Provides an editable text field with history. */
 

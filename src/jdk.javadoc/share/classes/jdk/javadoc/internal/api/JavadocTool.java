@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.api;
 
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -46,20 +45,6 @@ import com.sun.tools.javac.util.ClientCodeException;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Log;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides access to functionality specific to the JDK documentation tool,

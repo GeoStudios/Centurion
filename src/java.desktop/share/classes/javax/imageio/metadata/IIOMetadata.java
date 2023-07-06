@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
-
 import org.w3c.dom.Node;
 import java.lang.reflect.Method;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class to be extended by objects that represent metadata

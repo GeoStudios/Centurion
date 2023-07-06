@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Remind: need to enhance to extend component list with a fallback
  * list, which is not used in metrics or queries on the composite, but

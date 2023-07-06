@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This class represents the binary form of the address of
   * a communications end-point.
@@ -120,7 +104,6 @@ public class BinaryRefAddr extends RefAddr {
     public Object getContent() {
         return buf;
     }
-
 
     /**
       * Determines whether obj is equal to this address.  It is equal if

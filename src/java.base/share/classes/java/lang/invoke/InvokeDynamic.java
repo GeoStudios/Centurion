@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is a place-holder class.  Some HotSpot implementations need to see it.
  */

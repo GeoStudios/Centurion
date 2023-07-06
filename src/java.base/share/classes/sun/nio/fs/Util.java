@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import java.util.*;
 import java.nio.file.*;
 import java.nio.charset.Charset;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods
@@ -73,7 +58,6 @@ class Util {
     static String toString(byte[] bytes) {
         return new String(bytes, jnuEncoding);
     }
-
 
     /**
      * Splits a string around the given character. The array returned by this

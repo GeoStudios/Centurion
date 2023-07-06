@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -29,26 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolv
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Base for iterators that handle predicates.  Does the basic next
@@ -67,7 +50,6 @@ public abstract class BasicTestIterator extends LocPathIterator
   protected BasicTestIterator()
   {
   }
-
 
   /**
    * Create a LocPathIterator object.
@@ -137,7 +119,6 @@ public abstract class BasicTestIterator extends LocPathIterator
   {
     super(compiler, opPos, analysis, shouldLoadWalkers);
   }
-
 
   /**
    * Get the next node via getNextXXX.  Bottlenecked for derived class override.
@@ -243,6 +224,5 @@ public abstract class BasicTestIterator extends LocPathIterator
 
     return clone;
   }
-
 
 }

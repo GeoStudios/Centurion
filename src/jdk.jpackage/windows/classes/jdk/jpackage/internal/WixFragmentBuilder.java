@@ -21,7 +21,6 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.text.MessageFormat;
@@ -34,20 +33,6 @@ import jdk.jpackage.windows.classes.jdk.jpackage.internal.IOUtils.XmlConsumer;
 import jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.Source;
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates WiX fragment.

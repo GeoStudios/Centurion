@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Internal class LCount is used to track the number of
     listeners registered for a given event name, as an entry
     in a global Map. This should allow us to avoid generating,

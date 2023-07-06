@@ -21,21 +21,7 @@
 
 package vm.runtime.defmeth.shared;
 
-
 import static java.lang.String.format;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Set of constants which are used in the test suite.

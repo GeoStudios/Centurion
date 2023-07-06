@@ -21,21 +21,7 @@
 
 package gc.z;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestRelocateInPlace
@@ -43,7 +29,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  * @summary Test ZGC in-place relocateion
  * @run main/othervm -XX:+UseZGC -Xlog:gc*,gc+stats=off -Xmx256M -XX:+UnlockDiagnosticVMOptions -XX:+ZStressRelocateInPlace gc.z.TestRelocateInPlace
  */
-
 
 public class TestRelocateInPlace {
     private static final int allocSize = 100 * 1024 * 1024; // 100M

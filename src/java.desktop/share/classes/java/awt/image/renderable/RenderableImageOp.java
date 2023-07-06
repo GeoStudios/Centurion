@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
-
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.image.RenderedImage;
 import java.desktop.share.classes.java.awt.RenderingHints;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class handles the renderable aspects of an operation with help
@@ -57,7 +42,6 @@ public class RenderableImageOp implements RenderableImage {
 
     /** The bounding box of the results of this RenderableImageOp. */
     Rectangle2D boundingBox;
-
 
     /**
      * Constructs a RenderedImageOp given a

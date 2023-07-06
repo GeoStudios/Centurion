@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequestManager.stepRequests;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a debuggee class creating several dummy user and

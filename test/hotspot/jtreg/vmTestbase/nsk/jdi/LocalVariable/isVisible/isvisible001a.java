@@ -21,23 +21,9 @@
 
 package nsk.jdi.LocalVariable.isVisible;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the isvisible001 JDI test.
@@ -86,7 +72,6 @@ public class isvisible001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -194,7 +179,6 @@ class Threadisvisible001a extends Thread {
         int i3 = 0;
         return;
     }
-
 
     public static final int breakpointLineNumber1 = 3;
     //public static final int breakpointLineNumber3 = 7;

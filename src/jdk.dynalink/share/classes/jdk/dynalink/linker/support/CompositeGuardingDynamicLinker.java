@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker.support;
 
-
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
@@ -30,20 +29,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -51,8 +36,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A {@link GuardingDynamicLinker} that delegates sequentially to a list of

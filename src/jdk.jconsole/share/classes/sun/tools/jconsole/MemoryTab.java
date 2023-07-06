@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -36,20 +35,6 @@ import javax.swing.*;
 import javax.swing.border.*;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 class MemoryTab extends Tab implements ActionListener, ItemListener {
@@ -98,7 +83,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
                         Center: details
                         East:   poolChart
     */
-
 
     public static String getTabName() {
         return Messages.MEMORY;
@@ -152,7 +136,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
         poolChart = new PoolChart();
         bottomPanel.add(poolChart, BorderLayout.AFTER_LINE_ENDS);
     }
-
 
     private void createPlotters() throws IOException {
         plotterList = new ArrayList<Plotter>();
@@ -230,7 +213,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
             plotterList.add(poolPlotter);
         }
     }
-
 
     public void itemStateChanged(ItemEvent ev) {
         if (ev.getStateChange() == ItemEvent.SELECTED) {
@@ -350,7 +332,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
                     add(bottomPanel,  BorderLayout.SOUTH);
                 }
 
-
                 int n = plotterList.size();
                 int poolCount = 0;
 
@@ -463,7 +444,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
                               Resources.format(Messages.MEMORY_TAB_POOL_PLOTTER_ACCESSIBLE_NAME,
                                                name));
         }
-
 
         public String toString() {
             return name;
@@ -607,7 +587,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
             Color heapColor    = greenBar;
             Color nonHeapColor = greenBar;
 
-
             for (PoolPlotter poolPlotter : poolPlotters) {
                 if (poolPlotter.threshold > 0L && poolPlotter.value > poolPlotter.threshold) {
                     if (poolPlotter.isHeap) {
@@ -713,7 +692,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
         public void mouseEntered(MouseEvent e) {}
         public void mouseExited(MouseEvent e) {}
 
-
         public AccessibleContext getAccessibleContext() {
             if (accessibleContext == null) {
                 accessibleContext = new AccessiblePoolChart();
@@ -751,7 +729,6 @@ class MemoryTab extends Tab implements ActionListener, ItemListener {
             }
         }
     }
-
 
     OverviewPanel[] getOverviewPanels() {
         if (overviewPanel == null) {

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.datatype;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>Indicates a serious configuration error.</p>
  *

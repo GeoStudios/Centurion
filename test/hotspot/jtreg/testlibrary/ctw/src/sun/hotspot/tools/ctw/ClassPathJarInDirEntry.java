@@ -21,7 +21,6 @@
 
 package sun.hotspot.tools.ctw;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -29,19 +28,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Handler for dirs containing jar-files with classes to compile.

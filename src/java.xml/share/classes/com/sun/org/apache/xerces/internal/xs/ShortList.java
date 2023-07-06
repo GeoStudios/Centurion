@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>ShortList</code> is an immutable ordered collection of

@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Event encapsulating a relative magnification scale performed by the user.
  *

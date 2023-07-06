@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.ActionEvent;
 import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
 import java.desktop.share.classes.java.awt.event.Focusjava.util.Listener;
@@ -41,20 +40,6 @@ import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleSelection;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code List} component presents the user with a
@@ -1288,11 +1273,9 @@ public class List extends Component implements ItemSelectable, Accessible {
       }
     }
 
-
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the {@code AccessibleContext} associated with this
@@ -1651,7 +1634,6 @@ public class List extends Component implements ItemSelectable, Accessible {
                 return null;    // list elements can't have children
             }
 
-
             //
             // AccessibleComponent delegation to parent List
             //
@@ -1990,8 +1972,6 @@ public class List extends Component implements ItemSelectable, Accessible {
             public void removeFocusListener(FocusListener l) {
                 // nothing to do; a no-op
             }
-
-
 
         } // inner class AccessibleAWTListChild
 

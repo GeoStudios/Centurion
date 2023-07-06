@@ -21,7 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.base.share.classes.java.security.*;
@@ -32,20 +31,6 @@ import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 import jdk.crypto.cryptoki.share.classes.sun.security.util.DerValue;
 import jdk.crypto.cryptoki.share.classes.sun.security.util.ECUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * EC KeyFactory implementation.

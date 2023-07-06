@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.BorderLayout;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.Container;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            OkCancelButtonPanel, CommonUI

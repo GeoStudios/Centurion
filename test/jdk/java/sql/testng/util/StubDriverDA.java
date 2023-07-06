@@ -21,7 +21,6 @@
 
 package util;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.sql.DriverAction;
@@ -29,19 +28,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple java.sql.Driver stub class that registers the driver via a static

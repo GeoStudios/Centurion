@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * SpecialCaseMap has the responsibility of storing the
  * 1:M, locale-sensitive, and context sensitive case mappings
@@ -86,7 +36,6 @@ public class SpecialCaseMap implements Comparable<SpecialCaseMap> {
     SpecialCaseMap() {
         chSource = 0xFFFF;
     }
-
 
     /**
      * Read and parse a Unicode special case map file.
@@ -236,7 +185,6 @@ public class SpecialCaseMap implements Comparable<SpecialCaseMap> {
         return high;
     }
 
-
     /*
      * Extracts and returns the low surrogate value from a UTF-32 code point.
      * If argument is a BMP character, then it is converted to a char and returned;
@@ -316,7 +264,6 @@ public class SpecialCaseMap implements Comparable<SpecialCaseMap> {
     public String[] getContext() {
         return context;
     }
-
 
     int chSource;
     Locale locale;

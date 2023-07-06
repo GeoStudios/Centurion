@@ -21,21 +21,6 @@
 
 package compiler.uncommontrap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8032011
@@ -46,7 +31,6 @@ package compiler.uncommontrap;
  *      -XX:-BackgroundCompilation -XX:BiasedLockingStartupDelay=0
  *      compiler.uncommontrap.TestLockEliminatedAtDeopt
  */
-
 
 public class TestLockEliminatedAtDeopt {
 

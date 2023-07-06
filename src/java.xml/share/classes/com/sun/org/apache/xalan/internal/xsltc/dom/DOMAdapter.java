@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.Seriali
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -448,7 +433,6 @@ public final class DOMAdapter implements DOM {
             return _dom.getResultTreeFrag(initSize, rtfType, addToManager);
         }
     }
-
 
     /**
      * Returns a SerializationHandler class wrapped in a SAX adapter.

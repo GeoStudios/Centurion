@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.awt;
 
-
 import java.awt.Font;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -36,20 +35,6 @@ import java.util.Map;
 import java.desktop.macosx.classes.sun.java2d.MacosxSurfaceManagerFactory;
 import java.desktop.macosx.classes.sun.java2d.SunGraphicsEnvironment;
 import java.desktop.macosx.classes.sun.java2d.SurfaceManagerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the default

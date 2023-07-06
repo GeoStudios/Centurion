@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench;
 
-
 import java.awt.Component;
 import java.awt.Frame;
 import java.awt.GraphicsConfiguration;
@@ -37,20 +36,6 @@ import javax.swing.SwingUtilities;
 import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
 import demo.share.java2d.J2DBench.src.j2dbench.tests.ImageTests;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -58,12 +43,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.tests.ImageTests;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
-
 
 public abstract class Destinations extends Option.Enable {
     public static Group.EnableSet destroot;
@@ -380,7 +359,6 @@ public abstract class Destinations extends Option.Enable {
             }
         }
     }
-
 
     public static class BufImg extends Destinations {
         int type;

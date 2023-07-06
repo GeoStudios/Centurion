@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -40,20 +39,6 @@ import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 import java.base.share.classes.java.util.regex.Matcher;
 import java.base.share.classes.java.util.regex.Pattern;
 import java.base.share.classes.java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

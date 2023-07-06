@@ -21,7 +21,6 @@
 
 package lib.jdb;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
@@ -31,19 +30,6 @@ import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class JdbTest {
 
@@ -154,7 +140,6 @@ public abstract class JdbTest {
     }
 
     protected static final String lineSeparator = System.getProperty("line.separator");
-
 
     // Parses the specified source file for "@{id} breakpoint" tags and returns
     // list of the line numbers containing the tag.

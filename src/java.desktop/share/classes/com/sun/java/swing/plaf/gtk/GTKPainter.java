@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-
 import java.desktop.share.classes.com.sun.awt.ModalExclude;
 import java.desktop.share.classes.com.sun.awt.SunToolkit;
 import java.desktop.share.classes.com.sun.awt.UNIXToolkit;
@@ -38,20 +37,6 @@ import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.Shado
 import java.desktop.share.classes.com.sun.java.awt.image.BufferedImage;
 import java.desktop.share.classes.com.sun.java.lang.reflect.InvocationTargetException;
 import java.desktop.share.classes.com.sun.java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -111,7 +96,6 @@ class GTKPainter extends SynthPainter {
                                      int w, int h) {
         paintToolBarBackground(context, g, x, y, w, h);
     }
-
 
     //
     // TOOL_BAR
@@ -528,7 +512,6 @@ class GTKPainter extends SynthPainter {
             ENGINE.finishPainting();
         }
     }
-
 
     //
     // LIST
@@ -1117,7 +1100,6 @@ class GTKPainter extends SynthPainter {
         }
     }
 
-
     //
     // ROOT_PANE
     //
@@ -1143,7 +1125,6 @@ class GTKPainter extends SynthPainter {
                                   x, y, w, h,
                                   paintBG, paintFocus, false, toolButton);
     }
-
 
     //
     // SCROLL_BAR
@@ -1188,7 +1169,6 @@ class GTKPainter extends SynthPainter {
             ENGINE.finishPainting();
         }
     }
-
 
     //
     // SCROLL_BAR_THUMB
@@ -1265,7 +1245,6 @@ class GTKPainter extends SynthPainter {
         }
     }
 
-
     //
     // TREE_CELL
     //
@@ -1293,7 +1272,6 @@ class GTKPainter extends SynthPainter {
         paintFocus(context, g, id, state, "treeview", x, y, w, h);
     }
 
-
     //
     // TREE
     //
@@ -1302,7 +1280,6 @@ class GTKPainter extends SynthPainter {
         // As far as I can tell, these don't call into the ENGINE.
         fillArea(context, g, x, y, w, h, GTKColorType.TEXT_BACKGROUND);
     }
-
 
     //
     // VIEWPORT

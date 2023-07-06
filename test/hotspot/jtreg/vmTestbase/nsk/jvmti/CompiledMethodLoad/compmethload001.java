@@ -21,22 +21,8 @@
 
 package nsk.jvmti.CompiledMethodLoad;
 
-
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test exercises the JVMTI event <code>CompiledMethodLoad</code>.

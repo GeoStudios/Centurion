@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.io.OutputStreamWriter;
 import java.util.Properties;
 import java.util.StringTokenizer;
@@ -38,28 +37,10 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.Encodings;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  */
@@ -242,7 +223,6 @@ final class Output extends TopLevelElement {
         else {
             outputProperties.setProperty(OutputKeys.DOCTYPE_SYSTEM, _doctypeSystem);
         }
-
 
         _doctypePublic = getAttribute("doctype-public");
         if (_doctypePublic.equals(Constants.EMPTYSTRING)) {

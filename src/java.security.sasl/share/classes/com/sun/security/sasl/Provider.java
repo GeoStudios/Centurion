@@ -21,27 +21,12 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.InvalidParameterException;
 import java.base.share.classes.java.security.ProviderException;
 import static java.security.sasl.share.classes.com.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The SASL provider.

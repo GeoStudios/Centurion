@@ -21,21 +21,6 @@
 
 package gc.stress.gclocker;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestGCLockerWithG1
  * @library /

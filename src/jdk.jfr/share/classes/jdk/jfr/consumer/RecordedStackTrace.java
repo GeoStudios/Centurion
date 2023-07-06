@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recorded stack trace.

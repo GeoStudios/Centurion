@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An unchecked exception that wraps a DocletException.

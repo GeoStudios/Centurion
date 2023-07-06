@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.channels.Channel;
 import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.spi.AsynchronousChannelProvider;
@@ -35,20 +34,6 @@ import java.security.PrivilegedAction;
 import java.security.AccessController;
 import java.security.AccessControlContext;
 import java.base.share.classes.sun.security.action.GetIntegerAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of AsynchronousChannelGroup

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import javax.lang.model.element.AnnotationMirror;
@@ -31,20 +30,6 @@ import javax.lang.model.type.DeclaredType;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An annotation value.
  *

@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import java.desktop.share.classes.java.text.BreakIterator;
 import java.desktop.share.classes.java.text.CharacterIterator;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator;
 import java.desktop.share.classes.java.awt.font.FontRenderContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code LineBreakMeasurer} class allows styled text to be

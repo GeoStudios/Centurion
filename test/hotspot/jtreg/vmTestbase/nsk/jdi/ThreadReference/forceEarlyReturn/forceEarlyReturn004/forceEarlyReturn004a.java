@@ -21,22 +21,8 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn004;
 
-
 import nsk.share.Consts;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class forceEarlyReturn004a extends AbstractJDIDebuggee {
     static {

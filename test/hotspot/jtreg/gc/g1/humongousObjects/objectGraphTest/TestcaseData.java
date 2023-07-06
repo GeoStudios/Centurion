@@ -21,25 +21,11 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class TestcaseData {
     /**
@@ -66,7 +52,6 @@ public final class TestcaseData {
         public final boolean isHumongous;
         private final List<ObjectGraph.ReferenceType> referencesTypes;
         private final ArrayList<Integer> connectedTo;
-
 
         public FinalParsedNode(InternalParsedNode internalParsedNode) {
             referencesTypes = internalParsedNode.referencesTypes;

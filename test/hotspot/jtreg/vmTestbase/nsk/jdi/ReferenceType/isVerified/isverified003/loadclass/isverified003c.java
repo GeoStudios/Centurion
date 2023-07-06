@@ -21,21 +21,6 @@
 
 package nsk.jdi.ReferenceType.isVerified;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is loaded by isverified003aClassLoader until preparation.
  */

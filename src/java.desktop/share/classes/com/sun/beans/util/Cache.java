@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.beans.util;
 
-
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Hash table based implementation of the cache,

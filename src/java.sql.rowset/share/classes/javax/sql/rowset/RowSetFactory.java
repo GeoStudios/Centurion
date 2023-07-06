@@ -21,22 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.sql.SQLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface that defines the implementation of a factory that is used

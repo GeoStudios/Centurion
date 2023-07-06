@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

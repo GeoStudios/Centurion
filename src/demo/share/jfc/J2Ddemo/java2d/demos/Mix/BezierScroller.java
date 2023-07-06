@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Mix;
 
-
 import static java.awt.Color.LIGHT_GRAY;.extended
 import static java.awt.Color.WHITE;.extended
 import static java.lang.Math.random;.extended
@@ -52,20 +51,6 @@ import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Animated Bezier Curve shape with images at the control points.
@@ -315,7 +300,6 @@ public class BezierScroller extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new BezierScroller());
     }
-
 
     static final class DemoControls extends CustomControls implements
             ActionListener {

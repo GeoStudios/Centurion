@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BasicNamedFieldIdentifier implements NamedFieldIdentifier {
   private final Field field;

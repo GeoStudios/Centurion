@@ -21,21 +21,7 @@
 
 package gc.gctests.MemoryEaterMT;
 
-
 import nsk.share.gc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.MemoryEaterMT.MemoryEaterMT
  */
-
-
 
 /**
  * This test simply does Algorithms.eatMemory() in a loop

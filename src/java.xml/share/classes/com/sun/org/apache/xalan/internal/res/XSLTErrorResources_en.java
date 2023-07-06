@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Default implementation of XSLTErrorResources.  This is just

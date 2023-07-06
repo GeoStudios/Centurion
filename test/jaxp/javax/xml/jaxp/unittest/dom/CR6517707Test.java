@@ -21,7 +21,6 @@
 
 package dom;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
@@ -36,19 +35,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Entity;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

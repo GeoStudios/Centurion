@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.Writer;
 import java.io.StringWriter;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extends {@link Printer} and adds support for indentation and line
@@ -55,13 +40,11 @@ public class IndentPrinter
     extends Printer
 {
 
-
     /**
      * Holds the currently accumulating text line. This buffer will constantly
      * be reused by deleting its contents instead of reallocating it.
      */
     private StringBuffer    _line;
-
 
     /**
      * Holds the currently accumulating text that follows {@link #_line}.
@@ -70,7 +53,6 @@ public class IndentPrinter
      */
     private StringBuffer    _text;
 
-
     /**
      * Counts how many white spaces come between the accumulated line and the
      * current accumulated text. Multiple spaces at the end of the a line
@@ -78,20 +60,17 @@ public class IndentPrinter
      */
     private int             _spaces;
 
-
     /**
      * Holds the indentation for the current line that is now accumulating in
      * memory and will be sent for printing shortly.
      */
     private int             _thisIndent;
 
-
     /**
      * Holds the indentation for the next line to be printed. After this line is
      * printed, {@link #_nextIndent} is assigned to {@link #_thisIndent}.
      */
     private int             _nextIndent;
-
 
     public IndentPrinter( Writer writer, OutputFormat format)
     {
@@ -102,7 +81,6 @@ public class IndentPrinter
         _spaces = 0;
         _thisIndent = _nextIndent = 0;
     }
-
 
     /**
      * Called by any of the DTD handlers to enter DTD mode.
@@ -126,7 +104,6 @@ public class IndentPrinter
         }
     }
 
-
     /**
      * Called by the root element to leave DTD mode and if any
      * DTD parts were printer, will return a string with their
@@ -145,7 +122,6 @@ public class IndentPrinter
             return null;
     }
 
-
     /**
      * Called to print additional text. Each time this method is called
      * it accumulates more text. When a space is printed ({@link
@@ -160,24 +136,20 @@ public class IndentPrinter
         _text.append( text );
     }
 
-
     public void printText( StringBuffer text )
     {
         _text.append( text.toString() );
     }
-
 
     public void printText( char ch )
     {
         _text.append( ch );
     }
 
-
     public void printText( char[] chars, int start, int length )
     {
         _text.append( chars, start, length );
     }
-
 
     /**
      * Called to print a single space between text parts that may be
@@ -236,7 +208,6 @@ public class IndentPrinter
         ++_spaces;
     }
 
-
     /**
      * Called to print a line consisting of the text accumulated so
      * far. This is equivalent to calling {@link #printSpace} but
@@ -248,7 +219,6 @@ public class IndentPrinter
     {
         breakLine( false );
     }
-
 
     public void breakLine( boolean preserveSpace )
     {
@@ -272,7 +242,6 @@ public class IndentPrinter
                 _exception = except;
         }
     }
-
 
     /**
      * Flushes the line accumulated so far to the writer and get ready
@@ -318,7 +287,6 @@ public class IndentPrinter
         }
     }
 
-
     /**
      * Flush the output stream. Must be called when done printing
      * the document, otherwise some text might be buffered.
@@ -337,7 +305,6 @@ public class IndentPrinter
         }
     }
 
-
     /**
      * Increment the indentation for the next line.
      */
@@ -345,7 +312,6 @@ public class IndentPrinter
     {
         _nextIndent += _format.getIndent();
     }
-
 
     /**
      * Decrement the indentation for the next line.
@@ -361,23 +327,19 @@ public class IndentPrinter
             _thisIndent = _nextIndent;
     }
 
-
     public int getNextIndent()
     {
         return _nextIndent;
     }
-
 
     public void setNextIndent( int indent )
     {
         _nextIndent = indent;
     }
 
-
     public void setThisIndent( int indent )
     {
         _thisIndent = indent;
     }
-
 
 }

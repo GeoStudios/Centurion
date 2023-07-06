@@ -21,27 +21,12 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.common;
 
-
 import java.security.Principal;
 import java.util.java.util.java.util.java.util.List;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSessionContext;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.SNIServerName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * All mutating methods throw UnsupportedOperationException

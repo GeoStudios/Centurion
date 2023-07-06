@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8213479
@@ -44,7 +29,6 @@ package compiler.c2;
  * @run main/othervm -Xcomp -XX:-Inline -XX:CompileOnly=compiler.c2.Test8bitLogicalOperators::test
  *      compiler.c2.Test8bitLogicalOperators
  */
-
 
 public class Test8bitLogicalOperators {
     private static byte and = 0b0011, or = 0b0011, xor = 0b0011;

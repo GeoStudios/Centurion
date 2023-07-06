@@ -21,24 +21,10 @@
 
 package nsk.stress.stack;
 
-
 import nsk.share.Terminator;
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -70,10 +56,6 @@ import java.lang.reflect.Method;
  * @build nsk.share.Terminator
  * @run main/othervm/timeout=900 -Xss220K nsk.stress.stack.stack018 -eager
  */
-
-
-
-
 
 public class stack018 extends Thread {
     private final static int THREADS = 10;

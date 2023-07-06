@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8011706
@@ -44,7 +29,6 @@ package compiler.c1;
  * @run main/othervm -XX:-UseOnStackReplacement -XX:-BackgroundCompilation
  *      compiler.c1.Test8011706
  */
-
 
 public class Test8011706 {
     int[] array;

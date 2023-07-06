@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-
 import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link ModuleVisitor} that prints the fields it visits with a {@link Printer}.

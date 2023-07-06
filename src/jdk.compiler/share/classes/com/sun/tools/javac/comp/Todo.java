@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.AbstractQueue;
 import java.util.Collection;
 import java.util.HashMap;
@@ -31,20 +30,6 @@ import java.util.Map;
 import java.util.Queue;
 import javax.tools.JavaFileObject;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A queue of all as yet unattributed classes.
  *

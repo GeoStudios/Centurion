@@ -21,21 +21,6 @@
 
 package e1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CrackM5Access {
     private static void privateMethod() { }
 

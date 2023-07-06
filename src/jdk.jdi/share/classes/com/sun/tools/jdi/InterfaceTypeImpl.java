@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.lang.ref.SoftReference;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
@@ -31,20 +30,6 @@ import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
 import jdk.jdi.share.classes.com.sun.jdi.Method;
 import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final public class InterfaceTypeImpl extends InvokableTypeImpl
                                      implements InterfaceType {

@@ -21,27 +21,12 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.attribute.*;
 import java.util.concurrent.TimeUnit;
 import jdk.internal.misc.Unsafe;
 import java.base.windows.classes.sun.security.action.GetPropertyAction;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows implementation of DosFileAttributes/BasicFileAttributes
@@ -235,7 +220,6 @@ class WindowsFileAttributes
                                          0,  // fileIndexHigh
                                          0); // fileIndexLow
     }
-
 
     /**
      * Allocates a native buffer for a WIN32_FIND_DATA structure

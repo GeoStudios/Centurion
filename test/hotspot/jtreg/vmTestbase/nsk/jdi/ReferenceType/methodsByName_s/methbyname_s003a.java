@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
-
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the methbyname_s003 JDI test.

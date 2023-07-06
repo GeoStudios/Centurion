@@ -21,23 +21,8 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import jdk.internal.misc.Unsafe;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Win32 and library calls.
@@ -544,7 +529,6 @@ class WindowsNativeDispatcher {
                                                    DiskFreeSpace obj)
         throws WindowsException;
 
-
     private static native void GetDiskFreeSpace0(long lpRootPathName,
                                                  DiskFreeSpace obj)
         throws WindowsException;
@@ -568,7 +552,6 @@ class WindowsNativeDispatcher {
     }
     private static native String GetVolumePathName0(long lpFileName)
         throws WindowsException;
-
 
     /**
      * InitializeSecurityDescriptor(
@@ -682,7 +665,6 @@ class WindowsNativeDispatcher {
      */
     static native void SetSecurityDescriptorDacl(long pSecurityDescriptor, long pAcl)
         throws WindowsException;
-
 
     /**
      * GetAclInformation(
@@ -904,7 +886,6 @@ class WindowsNativeDispatcher {
     static native void AdjustTokenPrivileges(long token, long luid, int attributes)
         throws WindowsException;
 
-
     /**
      * AccessCheck(
      *   PSECURITY_DESCRIPTOR pSecurityDescriptor,
@@ -1059,7 +1040,6 @@ class WindowsNativeDispatcher {
     static native long CreateIoCompletionPort(long fileHandle, long existingPort,
         long completionKey) throws WindowsException;
 
-
     /**
      * GetQueuedCompletionStatus(
      *   HANDLE CompletionPort,
@@ -1119,7 +1099,6 @@ class WindowsNativeDispatcher {
                                              long bytesReturnedAddress,
                                              long pOverlapped)
         throws WindowsException;
-
 
     /**
      * CancelIo(

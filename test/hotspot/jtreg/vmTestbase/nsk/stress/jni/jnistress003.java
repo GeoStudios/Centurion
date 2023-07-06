@@ -21,24 +21,10 @@
 
 package nsk.stress.jni;
 
-
 import nsk.share.Consts;
 import nsk.share.Debug;
 import nsk.share.test.StressOptions;
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * jnistress003 is a class that sets up classes that do the work
@@ -73,9 +59,6 @@ import java.lang.reflect.Array;
  *      -garbageInterval 5
  *      -numIteration 260
  */
-
-
-
 
 public class jnistress003 extends Thread {
 

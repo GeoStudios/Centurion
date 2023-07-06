@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class BMPCompressionTypes {
 
     private static final String[] compressionTypeNames =

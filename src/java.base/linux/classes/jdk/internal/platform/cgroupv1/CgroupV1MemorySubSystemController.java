@@ -21,22 +21,6 @@
 
 package java.base.linux.classes.jdk.internal.platform.cgroupv1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CgroupV1MemorySubSystemController extends CgroupV1SubsystemController {
 
     private boolean hierarchical;

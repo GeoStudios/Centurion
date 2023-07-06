@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.nio.file.attribute.BasicFileAttributes;
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.nio.fs.BasicFileAttributesHolder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Walks a file tree, generating a sequence of events corresponding to the files
@@ -323,7 +308,6 @@ class FileTreeWalker implements Closeable {
         stack.push(new DirectoryNode(entry, attrs.fileKey(), stream));
         return new Event(EventType.START_DIRECTORY, entry, attrs);
     }
-
 
     /**
      * Start walking from the given file.

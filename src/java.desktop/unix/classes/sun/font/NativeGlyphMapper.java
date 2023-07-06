@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.awt.FontFormatException;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This needs work to distinguish between XMap's translation from unicode

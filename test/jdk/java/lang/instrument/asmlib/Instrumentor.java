@@ -21,7 +21,6 @@
 
 package asmlib;
 
-
 import java.io.PrintStream;
 import java.util.HashSet;
 import java.util.Set;
@@ -33,19 +32,6 @@ import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import java.util.function.Consumer;
 import jdk.internal.org.objectweb.asm.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Instrumentor {
     public static class InstrHelper {
@@ -100,7 +86,6 @@ public class Instrumentor {
         return new Instrumentor(classData);
     }
 
-
     private final ClassReader cr;
     private final ClassWriter output;
     private ClassVisitor instrumentingVisitor = null;
@@ -144,7 +129,6 @@ public class Instrumentor {
                 this.className = name;
                 super.visit(version, access, name, signature, superName, interfaces);
             }
-
 
             @Override
             public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {

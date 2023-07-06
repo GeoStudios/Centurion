@@ -21,25 +21,10 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class for generic linked lists. Links are supposed to be
  *  immutable, the only exception being the incremental construction of

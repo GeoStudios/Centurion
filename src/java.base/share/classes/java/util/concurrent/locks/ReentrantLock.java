@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.util.concurrent.locks;
 
-
 import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.concurrent.TimeUnit;
 import jdk.internal.vm.annotation.ReservedStackAccess;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -50,9 +35,6 @@ import jdk.internal.vm.annotation.ReservedStackAccess;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A reentrant mutual exclusion {@link Lock} with the same basic

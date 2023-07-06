@@ -21,7 +21,6 @@
 
 package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
@@ -38,20 +37,6 @@ import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerP
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class MacBaseInstallerBundler extends AbstractBundler {
 

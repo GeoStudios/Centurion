@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An {@code Error} is a subclass of {@code Throwable}
  * that indicates serious problems that a reasonable application

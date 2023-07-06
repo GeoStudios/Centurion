@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.timestamp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.sun.security.pkcs.PKCS7;
 import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.util.DerValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the response corresponding to a timestamp request,

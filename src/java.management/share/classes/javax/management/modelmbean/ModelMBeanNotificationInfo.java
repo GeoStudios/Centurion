@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
-
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.DescriptorAccess;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The ModelMBeanNotificationInfo object describes a notification emitted
@@ -320,7 +305,6 @@ public class ModelMBeanNotificationInfo
         return retStr.toString();
     }
 
-
     /**
      * Clones the passed in Descriptor, sets default values, and checks for validity.
      * If the Descriptor is invalid (for instance by having the wrong "name"),
@@ -383,7 +367,6 @@ public class ModelMBeanNotificationInfo
         return clone;
     }
 
-
     /**
      * Deserializes a {@link ModelMBeanNotificationInfo} from an
      * {@link ObjectInputStream}.
@@ -393,7 +376,6 @@ public class ModelMBeanNotificationInfo
         // New serial form ignores extra field "currClass"
         in.defaultReadObject();
     }
-
 
     /**
      * Serializes a {@link ModelMBeanNotificationInfo} to an

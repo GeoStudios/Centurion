@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.lang.ref.SoftReference;
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
@@ -32,20 +31,6 @@ import java.awt.geom.Point2D;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import static java.lang.Character.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * GlyphLayout is used to process a run of text into a run of run of
@@ -78,10 +63,6 @@ import static java.lang.Character.*;.extended
  * finished.  There's no particular problem if you don't call done,
  * but it assists in reuse of the GlyphLayout.
  */
-
-
-
-
 
 public final class GlyphLayout {
     // data for glyph vector

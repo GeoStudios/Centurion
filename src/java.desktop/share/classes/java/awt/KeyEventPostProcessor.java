@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.KeyEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A KeyEventPostProcessor cooperates with the current KeyboardFocusManager

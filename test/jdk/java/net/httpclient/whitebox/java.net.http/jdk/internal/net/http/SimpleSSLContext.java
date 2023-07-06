@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,19 +35,6 @@ import java.util.StringTokenizer;
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManagerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates a simple usable SSLContext for SSLSocketFactory

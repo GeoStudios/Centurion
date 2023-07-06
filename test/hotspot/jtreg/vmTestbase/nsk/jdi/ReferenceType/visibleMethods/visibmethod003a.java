@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
-
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the visibmethod003 JDI test.

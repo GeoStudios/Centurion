@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.text.ParseException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -29,20 +28,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Base class for XML-elements
 class XmlElement {

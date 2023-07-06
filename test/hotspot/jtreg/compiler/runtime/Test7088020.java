@@ -21,24 +21,10 @@
 
 package compiler.runtime;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.WrongMethodTypeException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -47,8 +33,6 @@ import java.lang.invoke.WrongMethodTypeException;
  *
  * @run main compiler.runtime.Test7088020
  */
-
-
 
 public class Test7088020 {
     public static boolean test() {

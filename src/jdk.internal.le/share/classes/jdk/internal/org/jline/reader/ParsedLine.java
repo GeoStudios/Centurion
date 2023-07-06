@@ -21,22 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>ParsedLine</code> objects are returned by the {@link Parser}

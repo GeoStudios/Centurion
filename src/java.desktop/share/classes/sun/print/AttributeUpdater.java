@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import javax.print.attribute.PrintServiceAttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * For use in updating listeners on attribute set changes.

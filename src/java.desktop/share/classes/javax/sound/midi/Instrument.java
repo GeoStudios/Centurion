@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An instrument is a sound-synthesis algorithm with certain parameter settings,
  * usually designed to emulate a specific real-world musical instrument or to

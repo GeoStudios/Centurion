@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -40,20 +39,6 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerOutputStream;
 import java.base.share.classes.sun.security.util.DerInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link java.security.cert.CertPath CertPath} (certification path)

@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-
 import java.util.Set;
 import javax.lang.model.element.Element;
 import com.sun.source.doctree.DocTree;
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet.Location;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the Taglet interface used internally within the doclet.

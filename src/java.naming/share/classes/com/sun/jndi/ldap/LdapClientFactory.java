@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.OutputStream;
 import javax.naming.InterruptedNamingException;
 import javax.naming.CommunicationException;
@@ -29,20 +28,6 @@ import javax.naming.NamingException;
 import java.naming.share.classes.com.sun.jndi.ldap.pool.PoolCallback;
 import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnection;
 import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnectionFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates an LdapClient. Encapsulates the parameters required to create

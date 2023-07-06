@@ -21,23 +21,9 @@
 
 package compiler.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
 import jdk.test.lib.Utils;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,9 +35,6 @@ import java.util.Random;
  *          java.management
  * @run main/othervm -Xbatch compiler.unsafe.UnsafeRaw
  */
-
-
-
 
 public class UnsafeRaw {
   public static class Tests {

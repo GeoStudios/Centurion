@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.parser;
 
-
 import compiler.compilercontrol.share.JSONFile;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.DirectiveWriter;
@@ -34,19 +33,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates a huge directive file

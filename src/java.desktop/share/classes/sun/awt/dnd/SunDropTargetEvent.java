@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt.dnd;
 
-
 import java.awt.Component;
 import java.awt.event.MouseEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 public final class SunDropTargetEvent extends MouseEvent {

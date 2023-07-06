@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class SearchResultWithControls extends SearchResult implements HasControls {
     private final Control[] controls;

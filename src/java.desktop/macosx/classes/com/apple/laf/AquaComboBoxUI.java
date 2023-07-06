@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -69,20 +68,6 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.Sizeable;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator.Property;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Inspired by MetalComboBoxUI, which also has a combined text-and-arrow button for noneditables
 public class AquaComboBoxUI extends BasicComboBoxUI implements Sizeable {

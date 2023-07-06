@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -35,20 +34,6 @@ import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Options;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.OK;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions.ToolOption.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Storage and support for javadoc tool options, as distinct from

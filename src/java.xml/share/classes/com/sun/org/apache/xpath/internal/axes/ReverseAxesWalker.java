@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Walker for a reverse axes.
@@ -109,7 +92,6 @@ public class ReverseAxesWalker extends AxesWalker
 
     return next;
   }
-
 
   /**
    * Tells if this is a reverse axes.  Overrides AxesWalker#isReverseAxes.

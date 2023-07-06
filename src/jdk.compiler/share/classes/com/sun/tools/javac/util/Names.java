@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Access to the compiler's name table.  Standard names are defined,
  * as well as methods to create new names.

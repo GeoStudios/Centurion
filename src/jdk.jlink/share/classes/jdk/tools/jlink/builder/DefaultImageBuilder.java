@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.builder;
 
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
@@ -59,20 +58,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
 import static java.util.stream.Collectors.groupingBy;.extended
 import static java.util.stream.Collectors.mapping;.extended
 import static java.util.stream.Collectors.toSet;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

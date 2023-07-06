@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import java.base.share.classes.java.time.ZoneId;
 import java.base.share.classes.java.time.chrono.Chronology;
 import java.base.share.classes.java.time.chrono.IsoChronology;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Context object used during date and time parsing.
@@ -304,7 +289,6 @@ final class DateTimeParseContext {
         parsed.zone = (parsed.zone != null ? parsed.zone : formatter.getZone());
         return parsed.resolve(resolverStyle, resolverFields);
     }
-
 
     //-----------------------------------------------------------------------
     /**

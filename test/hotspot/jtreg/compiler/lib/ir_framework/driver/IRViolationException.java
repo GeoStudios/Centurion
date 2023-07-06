@@ -21,22 +21,8 @@
 
 package compiler.lib.ir_framework.driver;
 
-
 import compiler.lib.ir_framework.IR;
 import compiler.lib.ir_framework.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Exception that is thrown if an {@link IR} rule/constraint failed. The exception message contains a detailed list of

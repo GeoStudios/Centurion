@@ -21,7 +21,6 @@
 
 package handle.invoker;
 
-
 import jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.CLinker;
 import jdk.incubator.foreign.FunctionDescriptor;
@@ -38,19 +37,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MethodHandleInvoker {
     public void call(MethodHandle methodHandle) throws Throwable {

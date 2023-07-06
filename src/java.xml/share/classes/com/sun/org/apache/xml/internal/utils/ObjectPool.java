@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pool of object of a given type to pick from to help memory usage
@@ -88,7 +73,6 @@ public class ObjectPool implements java.io.Serializable
     }
     freeStack = new ArrayList<>();
   }
-
 
   /**
    * Constructor ObjectPool

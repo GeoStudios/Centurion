@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.zone;
 
-
 import java.base.share.classes.java.io.DataInput;
 import java.base.share.classes.java.io.DataOutput;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A transition between two offsets caused by a discontinuity in the local time-line.

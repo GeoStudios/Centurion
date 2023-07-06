@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.misc.VM;
 import jdk.internal.module.ModuleHashes;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.util.HashSet;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Optional;
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An element in a stack trace, as returned by {@link
@@ -432,7 +417,6 @@ public final class StackTraceElement implements java.io.Serializable {
         return result;
     }
 
-
     /**
      * Called from of() methods to set the 'format' bitmap using the Class
      * reference stored in declaringClassObject, and then clear the reference.
@@ -528,7 +512,6 @@ public final class StackTraceElement implements java.io.Serializable {
             return HASHED_MODULES.contains(m.getName());
         }
     }
-
 
     /*
      * Returns an array of StackTraceElements of the given depth

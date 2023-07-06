@@ -21,25 +21,11 @@
 
 package gc.huge.quicklook.largeheap.MemOptions;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,9 +37,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver gc.huge.quicklook.largeheap.MemOptions.MemOptionsTest
  */
-
-
-
 
 /*
  * Test JVM startup with different memory options.

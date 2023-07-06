@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level;
 import java.nio.ByteBuffer;
@@ -35,20 +34,6 @@ import static java.util.stream.Collectors.joining;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NONE;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Internal utilities and stuff.

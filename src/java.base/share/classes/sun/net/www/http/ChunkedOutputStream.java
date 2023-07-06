@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.net.www.http;
 
-
 import java.io.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.sun.nio.cs.US_ASCII;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * OutputStream that sends the output to the underlying stream using chunked

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Uncompressed data with LSB-to-MSB fill order.

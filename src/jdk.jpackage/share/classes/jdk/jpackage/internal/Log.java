@@ -21,25 +21,10 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Log

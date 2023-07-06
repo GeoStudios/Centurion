@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
 import java.desktop.share.classes.javax.print.attribute.TextSyntax;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code RequestingUserName} is a printing attribute class, a text

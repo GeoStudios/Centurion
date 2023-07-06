@@ -21,25 +21,11 @@
 
 package nsk.jdi.ExceptionEvent.catchLocation;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.lang.Integer.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

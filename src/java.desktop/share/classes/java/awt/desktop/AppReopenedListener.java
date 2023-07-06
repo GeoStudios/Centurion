@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implementors receive notification when the app has been asked to open again.
  * <p>

@@ -21,23 +21,9 @@
 
 package vm.share.monitoring.data;
 
-
 import java.io.Serializable;
 import java.lang.management.MemoryUsage;
 import nsk.share.log.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MemoryUsageData implements Serializable {
         private long init;

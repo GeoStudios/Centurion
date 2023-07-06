@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
 import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
 import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.LongMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Holds mapping between a set of keys and their corresponding object.

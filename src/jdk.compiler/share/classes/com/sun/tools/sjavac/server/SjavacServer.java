@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
@@ -43,20 +42,6 @@ import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.client.PortFileInaccessibleException;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PooledSjavac;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.SjavacImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The JavacServer class contains methods both to setup a server that responds to requests and methods to connect to this server.
@@ -114,7 +99,6 @@ public class SjavacServer implements Terminable {
         this.keepalive = keepalive;
         this.myCookie = new Random().nextLong();
     }
-
 
     /**
      * Acquire the port file. Synchronized since several threads inside an smart javac wrapper client acquires the same port file at the same time.
@@ -208,7 +192,6 @@ public class SjavacServer implements Terminable {
         Log.debug("    port: " + getPort());
         Log.debug("    time: " + new java.util.Date());
         Log.debug("    poolsize: " + poolsize);
-
 
         keepAcceptingRequests.set(true);
         do {

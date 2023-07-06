@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.java.awt.dnd.DropTargetDragEvent;
 import java.desktop.share.classes.java.awt.dnd.DropTargetDropEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code DropTargetListener} interface

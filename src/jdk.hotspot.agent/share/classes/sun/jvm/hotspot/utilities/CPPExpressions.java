@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Provides helper routines for parsing simple C++ expressions such
     as "(JavaThread *) 0xf00" and "Universe::_collectedHeap". */

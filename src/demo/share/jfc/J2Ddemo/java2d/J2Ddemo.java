@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.START;.extended
 import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.STOP;.extended
 import static demo.share.jfc.J2Ddemo.java2d.DemoImages.newDemoImages;.extended
@@ -68,20 +67,6 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EtchedBorder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A demo that shows Java 2D(TM) API features.
@@ -466,7 +451,6 @@ public class J2Ddemo extends JPanel implements ItemListener, ActionListener, Dem
         panel.add(comp);
         gbl.setConstraints(comp, c);
     }
-
 
     /**
      * The Icon for the Intro tab.

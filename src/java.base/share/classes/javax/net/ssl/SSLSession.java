@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * In SSL, sessions are used to describe an ongoing relationship between
@@ -80,7 +65,6 @@ public interface SSLSession {
      */
     byte[] getId();
 
-
     /**
      * Returns the context in which this session is bound.
      * <P>
@@ -101,7 +85,6 @@ public interface SSLSession {
      */
     SSLSessionContext getSessionContext();
 
-
     /**
      * Returns the time at which this Session representation was created,
      * in milliseconds since midnight, January 1, 1970 UTC.
@@ -109,7 +92,6 @@ public interface SSLSession {
      * @return the time this Session was created
      */
     long getCreationTime();
-
 
     /**
      * Returns the last time this Session representation was accessed by the
@@ -129,7 +111,6 @@ public interface SSLSession {
      */
     long getLastAccessedTime();
 
-
     /**
      * Invalidates the session.
      * <P>
@@ -142,7 +123,6 @@ public interface SSLSession {
      */
     void invalidate();
 
-
     /**
      * Returns whether this session is valid and available for resuming or
      * joining.
@@ -152,7 +132,6 @@ public interface SSLSession {
      *
      */
     boolean isValid();
-
 
     /**
      *
@@ -175,7 +154,6 @@ public interface SSLSession {
      */
     void putValue(String name, Object value);
 
-
     /**
      * Returns the object bound to the given name in the session's
      * application layer data.  Returns null if there is no such binding.
@@ -189,7 +167,6 @@ public interface SSLSession {
      * @throws IllegalArgumentException if the argument is null.
      */
     Object getValue(String name);
-
 
     /**
      * Removes the object bound to the given name in the session's
@@ -206,7 +183,6 @@ public interface SSLSession {
      * @throws IllegalArgumentException if the argument is null.
      */
     void removeValue(String name);
-
 
     /**
      * Returns an array of the names of all the application layer
@@ -413,7 +389,6 @@ public interface SSLSession {
      *
      */
     int getPacketBufferSize();
-
 
     /**
      * Gets the current size of the largest application data that is

@@ -21,56 +21,6 @@
 
 package build.tools.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class GenModuleLoaderMap {
     private static final String USAGE =
         "GenModuleLoaderMap -o <output-file> -boot m1[,m2]* -platform m3[,m4]* <original-source>";

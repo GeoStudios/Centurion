@@ -21,21 +21,7 @@
 
 package utils;
 
-
 import common.ToolResults;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Results of running the JstatGcTool ("jstat -gcnew <pid>")
@@ -57,7 +43,6 @@ import common.ToolResults;
  * YGC     Number of young generation GC events.
  * YGCT   Young generation garbage collection time.
  */
-
 
 public class JstatGcNewResults extends JstatResults {
 

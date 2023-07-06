@@ -21,22 +21,8 @@
 
 package compiler.uncommontrap;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,9 +37,6 @@ import java.lang.reflect.Method;
  *      compiler.uncommontrap.DeoptReallocFailure
  *
  */
-
-
-
 
 public class DeoptReallocFailure {
     static class MemoryChunk {

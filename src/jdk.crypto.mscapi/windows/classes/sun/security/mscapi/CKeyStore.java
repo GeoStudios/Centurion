@@ -21,7 +21,6 @@
 
 package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -42,20 +41,6 @@ import java.security.cert.CertificateFactory;
 import java.security.interfaces.RSAPrivateCrtKey;
 import java.util.*;
 import jdk.crypto.mscapi.windows.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of key store for Windows using the Microsoft Crypto API.
@@ -745,7 +730,6 @@ abstract class CKeyStore extends KeyStoreSpi {
             uniqAlias = alias + " (" + (uniqNum++) + ")";
         }
     }
-
 
     /**
      * Generates a certificate chain from the collection of

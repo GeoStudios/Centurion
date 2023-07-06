@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.base.share.classes.java.util.Objects;
@@ -56,20 +55,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.CompletionCause;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This is the second phase of Enter, in which classes are completed
  *  by resolving their headers and entering their members in the into

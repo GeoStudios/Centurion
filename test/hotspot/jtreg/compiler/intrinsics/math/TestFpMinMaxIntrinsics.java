@@ -21,24 +21,10 @@
 
 package compiler.intrinsics.math;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
 import java.lang.reflect.Method;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import jdk.test.lib.Utils;
  *                   -XX:CompileCommand=compileonly,compiler/intrinsics/math/TestFpMinMaxIntrinsics.*Test*
  *                   compiler.intrinsics.math.TestFpMinMaxIntrinsics reductionTests 100
  */
-
-
 
 public class TestFpMinMaxIntrinsics {
 

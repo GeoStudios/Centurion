@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.javax.swing.tree.ExpandVetoException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * The listener that's notified when a tree expands or collapses

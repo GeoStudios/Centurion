@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.Font;
 import java.awt.MenuComponent;
 import java.awt.peer.MenuComponentPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class CMenuComponent extends CFRetainedResource
         implements MenuComponentPeer {

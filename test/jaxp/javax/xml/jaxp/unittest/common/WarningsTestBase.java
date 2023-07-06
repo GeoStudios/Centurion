@@ -21,7 +21,6 @@
 
 package common;
 
-
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -35,19 +34,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.xml.XMLConstants;
 import org.testng.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class helps to test suppression of unsupported parser properties

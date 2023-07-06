@@ -21,23 +21,9 @@
 
 package nsk.jdi.StackFrame.thisObject;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the thisobject001 JDI test.
@@ -86,7 +72,6 @@ public class thisobject001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -156,7 +141,6 @@ public class thisobject001a {
     }
 }
 
-
 class Threadthisobject001a extends Thread {
 
     public Threadthisobject001a(String threadName) {
@@ -185,7 +169,6 @@ class Threadthisobject001a extends Thread {
         log("method 'run' exit");
         return;
     }
-
 
     int i0 = 0;
 
@@ -224,7 +207,6 @@ class Threadthisobject001a extends Thread {
     public static final int breakpointLineNumber1 = 12;
     public static final int breakpointLineNumber2 = 2;
 //    public static final int breakpointLineNumber3 = 7;
-
 
     void log(String str) {
         thisobject001a.log2("thread2: " + str);

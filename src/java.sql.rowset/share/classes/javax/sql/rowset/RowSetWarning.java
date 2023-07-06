@@ -21,22 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.sql.SQLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An extension of <code>SQLException</code> that provides information

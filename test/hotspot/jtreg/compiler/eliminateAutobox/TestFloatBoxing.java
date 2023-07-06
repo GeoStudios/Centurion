@@ -21,21 +21,6 @@
 
 package compiler.eliminateAutobox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6934604
@@ -55,7 +40,6 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestFloatBoxing
  */
 
-
 public class TestFloatBoxing {
 
   static final Float ibc = new Float(1.f);
@@ -65,7 +49,6 @@ public class TestFloatBoxing {
   static void  dummy()       { }
   static float foo(float i)  { return i; }
   static Float foob(float i) { return Float.valueOf(i); }
-
 
   static float simple(float i) {
     Float ib = new Float(i);
@@ -377,7 +360,6 @@ public class TestFloatBoxing {
     return j1 + j2;
   }
 
-
   //===============================================
   // Safepointa and debug info for deoptimization
   static float simple_deop(float i) {
@@ -646,7 +628,6 @@ public class TestFloatBoxing {
     return j1 + j2;
   }
 
-
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -688,7 +669,6 @@ public class TestFloatBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0.f;
     }
-
 
     for (int i = 0; i < 12000; i++) {
       res[0] += simple(i);

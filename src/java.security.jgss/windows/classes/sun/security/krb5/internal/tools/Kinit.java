@@ -21,7 +21,6 @@
 
 package java.security.jgss.windows.classes.sun.security.krb5.internal.tools;
 
-
 import java.io.File;
 import java.security.jgss.windows.classes.sun.security.krb5.*;
 import java.security.jgss.windows.classes.sun.security.krb5.internal.*;
@@ -30,20 +29,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.windows.classes.sun.security.util.Password;
 import javax.security.auth.kerberos.KeyTab;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Kinit tool for obtaining Kerberos v5 tickets.

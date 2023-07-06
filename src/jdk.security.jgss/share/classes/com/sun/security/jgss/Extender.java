@@ -21,26 +21,11 @@
 
 package jdk.security.jgss.share.classes.com.sun.security.jgss;
 
-
 import org.ietf.jgss.GSSContext;
 import org.ietf.jgss.GSSCredential;
 import jdk.security.jgss.share.classes.com.sun.security.jgss.GSSContextImpl;
 import jdk.security.jgss.share.classes.com.sun.security.jgss.GSSCredentialImpl;
 import jdk.security.jgss.share.classes.com.sun.security.jgss.JgssExtender;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // The com.sun.security.jgss extension to JGSS-API
 class Extender extends JgssExtender {

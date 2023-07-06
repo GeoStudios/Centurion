@@ -21,22 +21,8 @@
 
 package compiler.testlibrary.rtm;
 
-
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test case for busy lock scenario.

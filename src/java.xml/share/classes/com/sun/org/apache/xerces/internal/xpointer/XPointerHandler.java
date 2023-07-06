@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
@@ -39,20 +38,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

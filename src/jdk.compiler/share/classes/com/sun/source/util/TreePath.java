@@ -21,25 +21,10 @@
 
 package jdk.compiler.share.classes.com.sun.source.util;
 
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.base.share.classes.java.util.Objects;
 import jdk.compiler.share.classes.com.sun.source.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A path of tree nodes, typically used to represent the sequence of ancestor

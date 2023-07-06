@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.isAtBreakpoint;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -159,7 +145,6 @@ public class isatbreakpoint001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -199,7 +184,6 @@ public class isatbreakpoint001 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -212,7 +196,6 @@ public class isatbreakpoint001 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -222,7 +205,6 @@ public class isatbreakpoint001 {
             //BreakpointRequest breakpRequest3 = null;
 
             //StackFrame stackFrame  = null;
-
 
             label0: {
 
@@ -265,7 +247,6 @@ public class isatbreakpoint001 {
                 if (expresult != returnCode0)
                     break label1;
 
-
                 log2("     checking up the thread2 locked but not at a breakpoint yet");
                 if (!thread2.isAtBreakpoint()) {
                      log2("     :  !thread2.isAtBreakpoint()");
@@ -294,7 +275,6 @@ public class isatbreakpoint001 {
                 if (expresult != returnCode0)
                     break label1;
                 log2("      thread2 is at breakpoint");
-
 
                 log2("       checking up the thread2 before to resume it");
                 if (thread2.isAtBreakpoint()) {
@@ -403,7 +383,6 @@ public class isatbreakpoint001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

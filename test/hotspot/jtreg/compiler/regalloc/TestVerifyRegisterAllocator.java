@@ -21,21 +21,6 @@
 
 package compiler.regalloc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8258243

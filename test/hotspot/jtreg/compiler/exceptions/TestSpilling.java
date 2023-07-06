@@ -21,21 +21,6 @@
 
 package compiler.exceptions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8263227

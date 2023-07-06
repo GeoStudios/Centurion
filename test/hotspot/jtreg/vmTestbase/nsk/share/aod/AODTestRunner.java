@@ -21,23 +21,9 @@
 
 package nsk.share.aod;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.java.net.SocketIOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  Class AODTestRunner is part of the framework used in the AttachOnDemand tests

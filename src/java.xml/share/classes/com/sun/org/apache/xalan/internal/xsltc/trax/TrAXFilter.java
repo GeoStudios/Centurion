@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Templates;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.XMLFilterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * skeleton extension of XMLFilterImpl for now.

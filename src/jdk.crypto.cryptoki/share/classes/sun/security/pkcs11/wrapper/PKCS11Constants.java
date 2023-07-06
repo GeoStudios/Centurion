@@ -21,22 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface holds constants of the PKCS#11 v3.00 standard.
  * This is mainly the content of the 'pkcs11t.h' header file.
@@ -190,7 +174,6 @@ public interface PKCS11Constants {
     long  CKF_RW_SESSION        = 0x00000002L;
     /* no parallel */
     long  CKF_SERIAL_SESSION    = 0x00000004L;
-
 
     /* The following classes of objects are defined: */
     long  CKO_DATA              = 0x00000000L;

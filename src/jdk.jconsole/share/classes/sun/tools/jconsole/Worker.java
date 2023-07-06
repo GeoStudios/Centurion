@@ -21,22 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Worker extends Thread {
     ArrayList<Runnable> jobs = new ArrayList<Runnable>();

@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.locationsOfLine_ssi;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

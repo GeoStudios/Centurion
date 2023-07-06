@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.java.security.ProviderException;
 import java.base.share.classes.java.util.Objects;

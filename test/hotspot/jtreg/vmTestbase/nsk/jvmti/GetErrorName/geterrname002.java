@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetErrorName;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class geterrname002 extends DebugeeClass {
 

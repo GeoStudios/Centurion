@@ -21,27 +21,10 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Thrown by {@link com.sun.org.apache.xml.internal.security.signature.SignedInfo#verify()} when

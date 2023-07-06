@@ -21,22 +21,7 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests.cmm;
 
-
 import demo.share.java2d.J2DBench.src.j2dbench.Group;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -45,9 +30,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.Group;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
 
 public class ColorConversionTests extends CMMTests {
 

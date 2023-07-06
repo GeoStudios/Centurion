@@ -21,26 +21,12 @@
 
 package nsk.jdi.TypeComponent.isPackagePrivate;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ispackageprivate002 {
 
@@ -95,7 +81,6 @@ public class ispackageprivate002 {
             complain("Class '" + debuggeeName + "' not found.");
             return Consts.TEST_FAILED;
         }
-
 
         display("Checking isPackagePrivate() method for debuggee's methods...");
 

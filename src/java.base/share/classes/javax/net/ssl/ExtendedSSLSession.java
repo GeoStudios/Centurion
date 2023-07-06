@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extends the {@code SSLSession} interface to support additional

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;.extended
 import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
@@ -37,20 +36,6 @@ import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeExcepti
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.time.temporal.WeekFields;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A day-of-week, such as 'Tuesday'.

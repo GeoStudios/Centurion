@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,9 +34,6 @@ import java.base.share.classes.java.security.PrivilegedAction;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A thread managed by a {@link ForkJoinPool}, which executes

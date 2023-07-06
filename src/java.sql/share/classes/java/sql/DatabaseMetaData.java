@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Comprehensive information about the database as a whole.
  * <P>
@@ -771,7 +755,6 @@ public interface DatabaseMetaData extends Wrapper {
      */
     boolean supportsCatalogsInPrivilegeDefinitions() throws SQLException;
 
-
     /**
      * Retrieves whether this database supports positioned {@code DELETE}
      * statements.
@@ -907,8 +890,6 @@ public interface DatabaseMetaData extends Wrapper {
      * @throws SQLException if a database access error occurs
      */
     boolean supportsOpenStatementsAcrossRollback() throws SQLException;
-
-
 
     //----------------------------------------------------------------------
     // The following group of methods exposes various limitations
@@ -1481,7 +1462,6 @@ public interface DatabaseMetaData extends Wrapper {
      * returned by the method {@code getProcedureColumns}.
      */
     int procedureNullableUnknown = 2;
-
 
     /**
      * Retrieves a description of the tables available in the given catalog.
@@ -3400,7 +3380,6 @@ public interface DatabaseMetaData extends Wrapper {
                                   String functionNamePattern,
                                   String columnNamePattern) throws SQLException;
 
-
     /**
      * Indicates that type of the parameter or column is unknown.
      * <P>
@@ -3459,7 +3438,6 @@ public interface DatabaseMetaData extends Wrapper {
      * returned by the method {@code getFunctionColumns}.
      */
     int functionColumnResult = 5;
-
 
     /**
      * Indicates that {@code NULL} values are not allowed.

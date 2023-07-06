@@ -21,29 +21,10 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * class  CK_INFO provides general information about Cryptoki.<p>
@@ -88,7 +69,6 @@ public class CK_INFO {
      * </PRE>
      */
     public long flags;
-
 
 /* libraryDescription and libraryVersion are new for v2.0 */
 

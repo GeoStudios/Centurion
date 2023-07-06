@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A collection of constants generally used for positioning and orienting
  * components on the screen.

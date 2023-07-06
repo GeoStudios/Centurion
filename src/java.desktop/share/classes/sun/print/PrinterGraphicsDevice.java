@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.Window;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class PrinterGraphicsDevice extends GraphicsDevice {
 

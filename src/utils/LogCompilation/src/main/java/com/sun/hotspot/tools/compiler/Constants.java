@@ -21,22 +21,6 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface Constants {
     int  JVM_ACC_PUBLIC        = 0x0001;  /* visible to everyone */
     int  JVM_ACC_PRIVATE       = 0x0002;  /* visible only to the defining class */

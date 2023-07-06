@@ -21,23 +21,9 @@
 
 package nsk.jdi.Field.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class equals003a {
     public static void main (String argv[]) {

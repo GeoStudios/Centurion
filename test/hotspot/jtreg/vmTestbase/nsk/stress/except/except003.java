@@ -21,21 +21,7 @@
 
 package nsk.stress.except;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,8 +61,6 @@ import java.io.PrintStream;
  *
  * @run main/othervm -Xms50M -Xmx200M nsk.stress.except.except003
  */
-
-
 
 /**
  * This checks if various exceptions are thrown (and caught) correctly

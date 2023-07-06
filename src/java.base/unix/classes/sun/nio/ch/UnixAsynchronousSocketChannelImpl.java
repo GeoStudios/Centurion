@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.ch;
 
-
 import java.nio.channels.*;
 import java.nio.ByteBuffer;
 import java.net.*;
@@ -32,20 +31,6 @@ import java.base.unix.classes.sun.net.ConnectionResetException;
 import java.base.unix.classes.sun.net.NetHooks;
 import java.base.unix.classes.sun.net.util.java.net.SocketExceptions;
 import java.base.unix.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unix implementation of AsynchronousSocketChannel
@@ -101,7 +86,6 @@ class UnixAsynchronousSocketChannelImpl
     private Object writeAttachment;
     private PendingFuture<Number,Object> writeFuture;
     private Future<?> writeTimer;
-
 
     UnixAsynchronousSocketChannelImpl(Port port)
         throws IOException

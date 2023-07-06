@@ -21,24 +21,10 @@
 
 package gc.serial;
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test HeapChangeLogging.java
@@ -49,8 +35,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  * @summary Allocate to get a promotion failure and verify that that heap change logging is present.
  * @run driver gc.serial.HeapChangeLogging
  */
-
-
 
 public class HeapChangeLogging {
   public static void main(String[] args) throws Exception {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolTipUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Metal L&amp;F extension of BasicToolTipUI.

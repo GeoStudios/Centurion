@@ -21,23 +21,9 @@
 
 package compiler.jsr292;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,9 +35,6 @@ import java.lang.invoke.MethodType;
  *      -XX:CompileCommand=exclude,compiler.jsr292.TestArrayReturnType::testArrayReturnType
  *      compiler.jsr292.TestArrayReturnType
  */
-
-
-
 
 public class TestArrayReturnType {
 

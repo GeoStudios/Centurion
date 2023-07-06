@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.reflect.generics.visitor;
 
-
 import java.lang.reflect.Type;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.base.share.classes.sun.reflect.generics.tree.*;
 import java.base.share.classes.sun.reflect.generics.factory.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Visitor that converts AST to reified types.
@@ -79,7 +64,6 @@ public class Reifier implements TypeTreeVisitor<Type> {
         return ts;
     }
 
-
     /**
      * Accessor for the result of the last visit by this visitor,
      * @return The type computed by this visitor based on its last
@@ -91,7 +75,6 @@ public class Reifier implements TypeTreeVisitor<Type> {
         resultType = getFactory().makeTypeVariable(ftp.getName(),
                                                    ftp.getBounds());
     }
-
 
     public void visitClassTypeSignature(ClassTypeSignature ct){
         // This method examines the pathname stored in ct, which has the form
@@ -221,6 +204,5 @@ public class Reifier implements TypeTreeVisitor<Type> {
     public void visitVoidDescriptor(VoidDescriptor v){
         resultType = getFactory().makeVoid();
     }
-
 
 }

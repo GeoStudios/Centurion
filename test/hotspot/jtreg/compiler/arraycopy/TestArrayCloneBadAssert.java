@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8073792
@@ -45,7 +30,6 @@ package compiler.arraycopy;
  *      -XX:CompileCommand=compileonly,compiler.arraycopy.TestArrayCloneBadAssert::m
  *      compiler.arraycopy.TestArrayCloneBadAssert
  */
-
 
 public class TestArrayCloneBadAssert {
 

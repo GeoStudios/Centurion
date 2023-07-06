@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that an array has been accessed with an illegal index. The
  * index is either negative or greater than or equal to the size of the array.

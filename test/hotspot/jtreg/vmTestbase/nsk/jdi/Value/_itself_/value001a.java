@@ -21,23 +21,9 @@
 
 package nsk.jdi.Value._itself_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the value001 JDI test.
@@ -78,7 +64,6 @@ public class value001a {
             { { {{true, false}, {true, false}}, {{true, false}, {true, false}} },
               { {{true, false}, {true, false}}, {{true, false}, {true, false}} }  };
 
-
     static String          threadGroupName = "threadGroup";
     static ThreadGroup     threadGroupObj  = new ThreadGroup(threadGroupName);
     static Threadvalue001a thread2         = null;
@@ -105,7 +90,6 @@ public class value001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -186,7 +170,6 @@ class Threadvalue001a extends Thread {
 
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
-
 
     private int i1 = 0, i2 = 10;
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents an observable object, or "data"
  * in the model-view paradigm. It can be subclassed to represent an

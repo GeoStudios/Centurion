@@ -21,21 +21,7 @@
 
 package jit.wide.wide01;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.wide.wide01.wide01
  */
-
-
 
 /*
      Check for intermediate results that are too wide.

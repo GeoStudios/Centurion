@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
-
 import java.xml.share.classes.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>MutationEvent</code> interface provides specific contextual

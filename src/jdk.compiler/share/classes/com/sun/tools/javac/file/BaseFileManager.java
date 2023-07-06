@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.SoftReference;
@@ -59,20 +58,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods for building a file manager.

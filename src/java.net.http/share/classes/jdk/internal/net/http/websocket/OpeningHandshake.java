@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.HttpClient;
 import java.net.http.HttpClient.Version;
 import java.net.http.HttpHeaders;
@@ -63,20 +62,6 @@ import static java.lang.String.format;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.isValidName;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.permissionForProxy;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.stringOf;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class OpeningHandshake {
 

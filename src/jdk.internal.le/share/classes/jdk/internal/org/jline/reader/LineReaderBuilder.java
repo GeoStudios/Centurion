@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
@@ -32,20 +31,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.history.
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class LineReaderBuilder {
 

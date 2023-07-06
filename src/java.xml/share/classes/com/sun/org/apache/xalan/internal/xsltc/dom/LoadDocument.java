@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
@@ -38,20 +37,6 @@ import java.io.FileNotFoundException;
 import javax.xml.transform.stream.StreamSource;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: May 2021
@@ -251,7 +236,6 @@ public final class LoadDocument {
             throw e;
         }
     }
-
 
     private static DTMAxisIterator document(DTMAxisIterator arg1,
                                             String baseURI,

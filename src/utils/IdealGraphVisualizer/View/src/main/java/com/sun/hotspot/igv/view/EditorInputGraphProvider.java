@@ -21,26 +21,11 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
 import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
 import org.openide.util.lookup.ServiceProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

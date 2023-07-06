@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
@@ -31,20 +30,6 @@ import javax.swing.*;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import static java.awt.Color.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Animated intersection clipping of lines, an image and a textured rectangle.
@@ -69,12 +54,10 @@ public class Intersection extends AnimatingControlsSurface {
     protected boolean doText;
     protected boolean threeSixty;
 
-
     public Intersection() {
         setBackground(WHITE);
         setControls(new Component[] { new DemoControls(this) });
     }
-
 
     @Override
     public void reset(int w, int h) {
@@ -101,7 +84,6 @@ public class Intersection extends AnimatingControlsSurface {
         ovals.append(new Ellipse2D.Double(  10, h-30, 20, 20), false);
         ovals.append(new Ellipse2D.Double(w-30, h-30, 20, 20), false);
     }
-
 
     @Override
     public void step(int w, int h) {
@@ -134,7 +116,6 @@ public class Intersection extends AnimatingControlsSurface {
             threeSixty = true;
         }
     }
-
 
     @Override
     public void render(int w, int h, Graphics2D g2) {
@@ -171,11 +152,9 @@ public class Intersection extends AnimatingControlsSurface {
         g2.draw(path);
     }
 
-
     public static void main(String[] argv) {
         createDemoFrame(new Intersection());
     }
-
 
     static final class DemoControls extends CustomControls implements ActionListener {
 
@@ -192,7 +171,6 @@ public class Intersection extends AnimatingControlsSurface {
             addTool("Ovals",     true );
         }
 
-
         public void addTool(String str, boolean state) {
             JToggleButton b = (JToggleButton) toolbar.add(new JToggleButton(str));
             b.setFocusPainted(false);
@@ -204,7 +182,6 @@ public class Intersection extends AnimatingControlsSurface {
             b.setMaximumSize(  prefSize);
             b.setMinimumSize(  prefSize);
         }
-
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -225,7 +202,6 @@ public class Intersection extends AnimatingControlsSurface {
         public Dimension getPreferredSize() {
             return new Dimension(200,40);
         }
-
 
         @Override
         @SuppressWarnings("SleepWhileHoldingLock")

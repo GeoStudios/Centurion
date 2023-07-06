@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Files;
@@ -48,20 +47,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.ClosestSymbol;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.LoadObject;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PlatformInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> An implementation of the JVMDebugger interface. The basic debug
     facilities are implemented through ptrace interface in the JNI code

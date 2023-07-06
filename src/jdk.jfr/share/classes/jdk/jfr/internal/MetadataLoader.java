@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.io.DataInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -44,20 +43,6 @@ import jdk.jfr.share.classes.jdk.jfr.Threshold;
 import jdk.jfr.share.classes.jdk.jfr.TransitionFrom;
 import jdk.jfr.share.classes.jdk.jfr.TransitionTo;
 import jdk.jfr.share.classes.jdk.jfr.Unsigned;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class MetadataLoader {
 

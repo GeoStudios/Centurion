@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple ListeningConnector without default arguments used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect002 test
  */
-
-
 
 public class PlugListenConnector002_01 extends PlugConnectors implements ListeningConnector {
 
@@ -57,7 +41,6 @@ public class PlugListenConnector002_01 extends PlugConnectors implements Listeni
         = new PlugConnectorsTransport("PlugListenConnector002_01_Transport");
     static Map<String, Connector.Argument> plugListenConnectorDefaultArguments
         = new HashMap<String, Connector.Argument>();
-
 
     public PlugListenConnector002_01() {
 

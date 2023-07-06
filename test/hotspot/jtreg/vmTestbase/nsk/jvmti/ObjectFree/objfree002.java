@@ -21,23 +21,9 @@
 
 package nsk.jvmti.ObjectFree;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test exercises the JVMTI event <code>ObjectFree</code>.

@@ -21,26 +21,11 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.MissingResourceException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class UBiDiProps {
     // constructors etc. --------------------------------------------------- ***
@@ -247,7 +232,6 @@ public final class UBiDiProps {
     private static int getMirrorIndex(int m) {
         return m>>>MIRROR_INDEX_SHIFT;
     }
-
 
     /*
      * public singleton instance

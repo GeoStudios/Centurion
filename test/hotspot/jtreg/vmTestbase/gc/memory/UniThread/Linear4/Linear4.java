@@ -21,22 +21,8 @@
 
 package gc.memory.UniThread.Linear4;
 
-
 import nsk.share.gc.*;
 import gc.memory.UniThread.Linear3.Linear3;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import gc.memory.UniThread.Linear3.Linear3;
  *          /test/lib
  * @run main/othervm gc.memory.UniThread.Linear4.Linear4 -iterations 5
  */
-
-
 
 /**
  * Test GC collection of linked lists.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.IllegalComponentStateException;
 import java.util.Collections;
 import java.util.Iterator;
@@ -31,20 +30,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to aid in keeping track of DisplayChangedListeners and

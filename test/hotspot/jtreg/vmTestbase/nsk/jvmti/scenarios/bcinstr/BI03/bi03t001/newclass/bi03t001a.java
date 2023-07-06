@@ -21,21 +21,6 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI03;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class bi03t001a {
 
     public int check() {

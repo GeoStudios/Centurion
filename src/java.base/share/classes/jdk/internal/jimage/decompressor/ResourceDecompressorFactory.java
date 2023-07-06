@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.jimage.decompressor;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

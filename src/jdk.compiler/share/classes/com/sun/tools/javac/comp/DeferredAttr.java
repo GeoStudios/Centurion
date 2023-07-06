@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.source.tree.LambdaExpressionTree.BodyKind;
 import jdk.compiler.share.classes.com.sun.source.tree.NewClassTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
@@ -62,20 +61,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberRefere
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.Queues;
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an helper class that is used to perform deferred type-analysis.

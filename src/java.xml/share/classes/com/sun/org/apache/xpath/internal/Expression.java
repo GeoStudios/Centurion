@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -34,20 +33,6 @@ import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class serves as the base for all expression objects.  An
@@ -172,7 +157,6 @@ public abstract class Expression implements java.io.Serializable, ExpressionNode
   {
         return execute(xctxt);
   }
-
 
   /**
    * Evaluate expression to a number.
@@ -306,7 +290,6 @@ public abstract class Expression implements java.io.Serializable, ExpressionNode
       xctxt.popCurrentNodeAndExpression();
     }
   }
-
 
   /**
    * Execute an expression in the XPath runtime context, and return the

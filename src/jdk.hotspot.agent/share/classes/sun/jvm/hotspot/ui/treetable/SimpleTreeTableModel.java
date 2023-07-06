@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.treetable;
 
-
 import javax.swing.tree.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An extension of SimpleTreeModel which implements the
     TreeTableModel interface. It supports a two-column "Name, Value"

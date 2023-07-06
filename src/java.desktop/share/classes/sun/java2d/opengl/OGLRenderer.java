@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.awt.Transparency;
 import java.awt.geom.Path2D;
 import java.desktop.share.classes.sun.java2d.InvalidPipeException;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.sun.java2d.pipe.ParallelogramPipe;
 import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.share.classes.sun.java2d.pipe.SpanIterator;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class OGLRenderer extends BufferedRenderPipe {
 

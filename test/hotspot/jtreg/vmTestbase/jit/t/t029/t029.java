@@ -21,22 +21,8 @@
 
 package jit.t.t029;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t029.t029
  */
-
-
 
 // opc_drem, opc_frem, opc_dreturn opc_freturn
 

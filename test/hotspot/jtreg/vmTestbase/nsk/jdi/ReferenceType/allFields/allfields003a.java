@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.allFields;
 
-
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the allfields003 JDI test.
@@ -49,7 +35,6 @@ public class allfields003a {
 
     static boolean verbose_mode = false;  // debugger may switch to true
                                           // - for more easy failure evaluation
-
 
     static String package_prefix = "nsk.jdi.ReferenceType.allFields.";
     static String checked_class_name = package_prefix + "allfields003b";

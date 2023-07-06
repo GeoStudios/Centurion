@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.StackTrace;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTest {
 
@@ -51,7 +37,6 @@ public class JvmtiTest {
     native static void RawMonitorWait(int i);
     native static void GetStackTrace(TestThread t);
     native static int GetFrameCount(TestThread t);
-
 
     static volatile int thrCount = 0;
 
@@ -73,7 +58,6 @@ public class JvmtiTest {
             t[i] = new TestThread(NAME_PREFIX + thrCount);
             t[i].start();
         }
-
 
         for (int i=0; i < THREADS_LIMIT-1; i++) {
             GetStackTrace(t[i]);

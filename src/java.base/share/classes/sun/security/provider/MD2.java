@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation for the MD2 algorithm, see RFC1319. It is very slow and

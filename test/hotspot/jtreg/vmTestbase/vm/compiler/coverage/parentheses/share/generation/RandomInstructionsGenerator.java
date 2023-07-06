@@ -21,26 +21,12 @@
 
 package vm.compiler.coverage.parentheses.share.generation;
 
-
 import vm.compiler.coverage.parentheses.share.Instruction;
 import vm.compiler.coverage.parentheses.share.InstructionSequence;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generates random but correct list of JVM instructions
@@ -64,7 +50,6 @@ public class RandomInstructionsGenerator {
         //this head with constants is necessary to avoid stack underflow
         instructions.add(Instruction.ICONST_1);
         instructions.add(Instruction.ICONST_2);
-
 
         String parenthesis = ParenthesesGenerator.generate(maxStackDepth - 2);
 

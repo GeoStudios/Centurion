@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.mirrorOf_long;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -205,7 +191,6 @@ public class mirrorof_long001 {
                         expresult = 1;
                     break;
 
-
             // tests for LongValue.equals()
 
             case 3: if (!val_4.equals(val_5))
@@ -220,7 +205,6 @@ public class mirrorof_long001 {
                         expresult = 1;
                     break;
 
-
             // tests for LongValue.hashCode()
 
             case 6: if (val_1.hashCode() != val_1.hashCode())
@@ -230,7 +214,6 @@ public class mirrorof_long001 {
             case 7: if (val_4.hashCode() != val_5.hashCode())
                         expresult = 1;
                     break;
-
 
             default: expresult = 2;
                      break ;
@@ -249,8 +232,6 @@ public class mirrorof_long001 {
         log1("      TESTING ENDS");
 
     //--------------------------------------------------   test summary section
-
-
 
     //-------------------------------------------------    standard end section
 

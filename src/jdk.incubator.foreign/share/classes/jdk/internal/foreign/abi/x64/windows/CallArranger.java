@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
@@ -44,20 +43,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.X86_64Architecture.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * For the Windowx x64 C ABI specifically, this class uses the ProgrammableInvoker API, namely CallingSequenceBuilder2

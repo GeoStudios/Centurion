@@ -21,7 +21,6 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import java.net.MalformedURLException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Hashtable;
@@ -30,20 +29,6 @@ import javax.naming.*;
 import javax.naming.spi.*;
 import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
 import jdk.naming.dns.share.classes.com.sun.net.dns.ResolverConfiguration;       // available since 1.4.1.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A DnsContextFactory serves as the initial context factory for DNS.
@@ -56,12 +41,10 @@ import jdk.naming.dns.share.classes.com.sun.net.dns.ResolverConfiguration;      
  *
  */
 
-
 public class DnsContextFactory implements InitialContextFactory {
 
     private static final String DEFAULT_URL = "dns:";
     private static final int DEFAULT_PORT = 53;
-
 
     public Context getInitialContext(Hashtable<?,?> env) throws NamingException {
         if (env == null) {

@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a registry for the supported drag and drop protocols.

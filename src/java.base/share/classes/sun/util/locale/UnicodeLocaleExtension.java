@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale;
 
-
 import java.util.Collections;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -29,21 +28,6 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.StringJoiner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class UnicodeLocaleExtension extends Extension {
     public static final char SINGLETON = 'u';

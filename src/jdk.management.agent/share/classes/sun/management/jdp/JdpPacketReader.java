@@ -21,7 +21,6 @@
 
 package jdk.management.agent.share.classes.sun.management.jdp;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -31,20 +30,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JdpPacketReader responsible for reading a packet <p>This class gets a byte
@@ -112,7 +97,6 @@ public final class JdpPacketReader {
         } catch (IOException e) {
             throw new JdpException("Broken JDP packet. Unable to read entry.");
         }
-
 
     }
 

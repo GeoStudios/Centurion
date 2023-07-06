@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A VetoableChange event gets fired whenever a bean changes a "constrained"
  * property.  You can register a VetoableChangeListener with a source bean

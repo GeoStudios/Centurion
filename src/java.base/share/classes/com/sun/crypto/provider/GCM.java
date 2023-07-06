@@ -21,22 +21,7 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface allows GHASH.java and GCTR.java to easily operate to

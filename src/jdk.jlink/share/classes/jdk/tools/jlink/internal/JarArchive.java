@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -32,20 +31,6 @@ import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.Archive.Entry.EntryType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An Archive backed by a jar file.

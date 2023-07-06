@@ -21,23 +21,9 @@
 
 package compiler.ciReplay;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VMBase extends CiReplayBase {
 

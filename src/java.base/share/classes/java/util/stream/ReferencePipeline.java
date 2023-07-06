@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
@@ -44,20 +43,6 @@ import java.base.share.classes.java.util.function.ToDoubleFunction;
 import java.base.share.classes.java.util.function.ToIntFunction;
 import java.base.share.classes.java.util.function.ToLongFunction;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract base class for an intermediate pipeline stage or pipeline source
@@ -146,14 +131,12 @@ abstract class ReferencePipeline<P_IN, P_OUT>
         return Nodes.builder(exactSizeIfKnown, generator);
     }
 
-
     // BaseStream
 
     @Override
     public final Iterator<P_OUT> iterator() {
         return Spliterators.iterator(spliterator());
     }
-
 
     // Stream
 
@@ -512,7 +495,6 @@ abstract class ReferencePipeline<P_IN, P_OUT>
             }
         };
     }
-
 
     @Override
     public final DoubleStream mapMultiToDouble(BiConsumer<? super P_OUT, ? super DoubleConsumer> mapper) {

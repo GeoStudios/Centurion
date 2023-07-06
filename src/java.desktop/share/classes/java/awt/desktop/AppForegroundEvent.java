@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
 import java.desktop.share.classes.java.awt.Desktop;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.HeadlessException;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Event sent when the application has become the foreground app, and when it is

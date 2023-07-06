@@ -21,22 +21,8 @@
 
 package nsk.jdwp.ThreadReference.ForceEarlyReturn.forceEarlyReturn002;
 
-
 import nsk.share.Consts;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class forceEarlyReturn002a extends AbstractJDWPDebuggee {
     static {

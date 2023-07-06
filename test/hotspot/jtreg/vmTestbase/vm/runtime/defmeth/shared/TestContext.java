@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth.shared;
 
-
 import vm.runtime.defmeth.shared.data.method.body.CallMethod;
 import vm.runtime.defmeth.shared.executor.MHInvokeWithArgsTest;
 import java.lang.invoke.MethodHandle;
@@ -31,19 +30,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encapsulates test context and provides utility methods to invoke methods

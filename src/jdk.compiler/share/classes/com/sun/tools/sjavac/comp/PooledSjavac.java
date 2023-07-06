@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.Sjavac;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An sjavac implementation that limits the number of concurrent calls by

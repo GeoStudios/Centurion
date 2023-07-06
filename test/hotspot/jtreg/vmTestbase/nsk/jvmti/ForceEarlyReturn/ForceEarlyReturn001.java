@@ -21,24 +21,10 @@
 
 package nsk.jvmti.ForceEarlyReturn;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
 import nsk.share.Consts;
 import java.lang.reflect.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ForceEarlyReturn001 {
     native static boolean doForceEarlyReturnObject(Thread thread, Object valToRet);
@@ -111,7 +97,6 @@ public class ForceEarlyReturn001 {
             return Consts.TEST_FAILED;
         }
 
-
         // Int
 
         out.println("\n>>>> Int:\n");
@@ -165,7 +150,6 @@ public class ForceEarlyReturn001 {
             return Consts.TEST_FAILED;
         }
 
-
         // Long
 
         out.println("\n>>>> Long:\n");
@@ -218,7 +202,6 @@ public class ForceEarlyReturn001 {
             out.println("Thread execution failed.");
             return Consts.TEST_FAILED;
         }
-
 
         // Float
 
@@ -330,7 +313,6 @@ public class ForceEarlyReturn001 {
             out.println("Thread execution failed.");
             return Consts.TEST_FAILED;
         }
-
 
         // Void
 

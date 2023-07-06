@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.net.java.net.SocketOption;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines socket options that are supported by the implementation

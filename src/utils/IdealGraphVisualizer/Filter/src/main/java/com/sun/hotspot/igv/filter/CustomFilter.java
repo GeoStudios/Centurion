@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
-
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.Diagram;
 import utils.IdealGraphVisualizer.Filter.src.main.java.io.BufferedReader;
 import utils.IdealGraphVisualizer.Filter.src.main.java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import org.openide.cookies.OpenCookie;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.Exceptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

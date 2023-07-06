@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.text.BreakIterator;
@@ -146,20 +145,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Position;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides an implementation of Trees.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.jar.JarFile;
 import java.base.share.classes.java.util.jar.JarEntry;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.jar.Attributes;
 import java.base.share.classes.java.util.jar.Manifest;
 import java.base.share.classes.java.security.Permission;
 import sun.net.www.ParseUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A URL Connection to a Java ARchive (JAR) file or an entry in a JAR

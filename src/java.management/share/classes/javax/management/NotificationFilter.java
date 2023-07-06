@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * To be implemented by a any class acting as a notification filter.
  * It allows a registered notification listener to filter the notifications of interest.

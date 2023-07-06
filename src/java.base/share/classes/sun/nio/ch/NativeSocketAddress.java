@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
@@ -35,20 +34,6 @@ import jdk.internal.access.JavaNetInetAddressAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.util.java.util.ArraysSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A native socket address that is the union of struct sockaddr, struct sockaddr_in,

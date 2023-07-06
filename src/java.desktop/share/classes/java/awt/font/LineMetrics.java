@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
 * The {@code LineMetrics} class allows access to the
 * metrics needed to layout characters along a line
@@ -51,7 +35,6 @@ package java.desktop.share.classes.java.awt.font;
 * metrics of the initial number of characters in that text, as
 * returned by {@link #getNumChars}.
 */
-
 
 public abstract class LineMetrics {
 

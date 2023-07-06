@@ -21,24 +21,9 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import static java.lang.String.format;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Huffman coding table.
@@ -500,7 +485,6 @@ public final class NaiveHuffman {
         addEOS (256, EOS.code,   EOS.length);
         // @formatter:on
     }
-
 
     /**
      * Calculates the number of bytes required to represent the given {@code

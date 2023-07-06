@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.math.BigInteger;
 import java.base.share.classes.java.security.spec.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Repository for well-known Elliptic Curve parameters. It is used by both

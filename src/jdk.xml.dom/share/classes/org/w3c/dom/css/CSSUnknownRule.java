@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>CSSUnknownRule</code> interface represents an at-rule not
  * supported by this user agent.

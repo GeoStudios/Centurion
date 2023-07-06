@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.lang.ref.Reference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.desktop.share.classes.sun.java2d.Disposer;
 import java.desktop.share.classes.sun.java2d.DisposerRecord;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This keeps track of data that needs to be cleaned up once a

@@ -21,26 +21,12 @@
 
 package gc.gctests.WeakReference;
 
-
 import java.util.Random;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.lang.ref.WeakReference;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Original description from JRockit test:

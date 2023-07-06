@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.util.Enumeration;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a composite name -- a sequence of
@@ -213,7 +198,6 @@ import java.util.Properties;
  *
  */
 
-
 public class CompositeName implements Name {
 
     private transient NameImpl impl;
@@ -302,7 +286,6 @@ public class CompositeName implements Name {
     public int hashCode() {
         return impl.hashCode();
     }
-
 
     /**
      * Compares this CompositeName with the specified Object for order.

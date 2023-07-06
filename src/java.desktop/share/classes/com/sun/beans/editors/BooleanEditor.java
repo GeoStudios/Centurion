@@ -21,30 +21,13 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
-
 import java.beans.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Property editor for a java builtin "boolean" type.
  */
 
-
 public class BooleanEditor extends PropertyEditorSupport {
-
 
     public String getJavaInitializationString() {
         Object value = getValue();

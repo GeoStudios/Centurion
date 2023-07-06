@@ -21,27 +21,12 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Collections;
 import java.io.ObjectInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.compiler.share.classes.javax.lang.model.element.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when an application attempts to access a sequence of {@link

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.function;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Comparator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an operation upon two operands of the same type, producing a result

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.invoke;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ABIDescriptorProxy {
     int shadowSpaceBytes();
 }

@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.util.Set;
 import jdk.jfr.share.classes.jdk.jfr.internal.settings.JDKSettingControl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class to extend to create setting controls.

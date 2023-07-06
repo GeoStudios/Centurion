@@ -21,7 +21,6 @@
 
 package compiler.types;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -43,19 +42,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -114,10 +100,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
  *
  * @author volker.simonis@gmail.com
  */
-
-
-
-
 
 public class TestMeetIncompatibleInterfaceArrays extends ClassLoader {
 

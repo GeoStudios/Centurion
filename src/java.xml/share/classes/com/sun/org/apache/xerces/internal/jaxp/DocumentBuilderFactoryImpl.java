@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DOMParser;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
@@ -37,20 +36,6 @@ import jdk.xml.internal.JdkProperty;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: May 2021

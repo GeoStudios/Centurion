@@ -21,22 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A skeletal handler that consumes notifications and continues.
  *

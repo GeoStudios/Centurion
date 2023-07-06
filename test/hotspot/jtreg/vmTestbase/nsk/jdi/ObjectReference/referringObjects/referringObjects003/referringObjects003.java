@@ -21,7 +21,6 @@
 
 package nsk.jdi.ObjectReference.referringObjects.referringObjects003;
 
-
 import java.io.PrintStream;
 import java.util.*;
 import com.sun.jdi.*;
@@ -29,19 +28,6 @@ import nsk.share.Consts;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdi.HeapwalkingDebugger;
 import nsk.share.jpda.AbstractDebuggeeTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -88,8 +74,6 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 public class referringObjects003 extends HeapwalkingDebugger {
 

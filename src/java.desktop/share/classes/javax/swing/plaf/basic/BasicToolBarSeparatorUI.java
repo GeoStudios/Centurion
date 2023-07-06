@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -31,20 +30,6 @@ import java.awt.Rectangle;
 import java.desktop.share.classes.javax.swing.JToolBar;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicSeparatorUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Basic L&amp;F implementation of ToolBarSeparatorUI.  This implementation

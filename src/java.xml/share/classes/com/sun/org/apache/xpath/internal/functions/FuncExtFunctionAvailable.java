@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.templates.Constants;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExtensionsProvider;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
@@ -29,26 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Functio
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Execute the ExtFunctionAvailable() function.

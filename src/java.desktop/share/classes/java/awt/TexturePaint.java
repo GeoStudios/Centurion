@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.image.BufferedImage;
 import java.desktop.share.classes.java.awt.image.ColorModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code TexturePaint} class provides a way to fill a

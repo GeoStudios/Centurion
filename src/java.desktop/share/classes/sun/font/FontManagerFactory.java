@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.AWTError;
 import java.awt.Font;
 import java.awt.GraphicsEnvironment;
@@ -29,20 +28,6 @@ import java.awt.Toolkit;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory class used to retrieve a valid FontManager instance for the current

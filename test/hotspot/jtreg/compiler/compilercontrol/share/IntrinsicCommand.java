@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.CommandGenerator;
@@ -31,19 +30,6 @@ import jdk.test.lib.Utils;
 import java.lang.reflect.Executable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IntrinsicCommand extends AbstractTestBase {
     public static String[] VALID_INTRINSIC_SAMPLES = {"+_fabs", "-_maxF", "+_newArray", "-_isDigit", "+_putInt"};

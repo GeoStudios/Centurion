@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.text.ParseException;
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //
 // CHANGELOG
@@ -49,8 +34,6 @@ import java.base.share.classes.jdk.internal.icu.text.UTF16;
 //      2007-08-14 Martin Buchholz
 //          - remove redundant casts
 //
-
-
 
 /**
  * Ported code from ICU punycode.c

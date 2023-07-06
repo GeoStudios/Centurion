@@ -21,35 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.Writer;
 import java.io.StringWriter;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Sep 14, 2000:
 //  Fixed serializer to report IO exception directly, instead at
 //  the end of document processing.
 //  Reported by Patrick Higgins <phiggins@transzap.com>
-
-
-
-
-
-
 
 /**
  * The printer is responsible for sending text to the output stream
@@ -67,7 +46,6 @@ import java.io.java.io.java.io.java.io.IOException;
 public class Printer
 {
 
-
     /**
      * The output format associated with this serializer. This will never
      * be a null reference. If no format was passed to the constructor,
@@ -76,12 +54,10 @@ public class Printer
      */
     protected final OutputFormat _format;
 
-
     /**
      * The writer to which the document is written.
      */
     protected Writer             _writer;
-
 
     /**
      * The DTD writer. When we switch to DTD mode, all output is
@@ -91,13 +67,11 @@ public class Printer
      */
     protected StringWriter       _dtdWriter;
 
-
     /**
      * Holds a reference to the document writer while we are
      * in DTD mode.
      */
     protected Writer          _docWriter;
-
 
     /**
      * Holds the exception thrown by the serializer.  Exceptions do not cause
@@ -105,24 +79,20 @@ public class Printer
      */
     protected IOException     _exception;
 
-
     /**
      * The size of the output buffer.
      */
     private static final int BufferSize = 4096;
-
 
     /**
      * Output buffer.
      */
     private final char[]  _buffer = new char[ BufferSize ];
 
-
     /**
      * Position within the output buffer.
      */
     private int           _pos = 0;
-
 
     public Printer( Writer writer, OutputFormat format)
     {
@@ -134,12 +104,10 @@ public class Printer
         _pos = 0;
     }
 
-
     public IOException getException()
     {
         return _exception;
     }
-
 
     /**
      * Called by any of the DTD handlers to enter DTD mode.
@@ -163,7 +131,6 @@ public class Printer
         }
     }
 
-
     /**
      * Called by the root element to leave DTD mode and if any
      * DTD parts were printer, will return a string with their
@@ -181,7 +148,6 @@ public class Printer
         } else
             return null;
     }
-
 
     public void printText( String text )
         throws IOException
@@ -205,7 +171,6 @@ public class Printer
         }
     }
 
-
     public void printText( StringBuffer text )
         throws IOException
     {
@@ -227,7 +192,6 @@ public class Printer
             throw except;
         }
     }
-
 
     public void printText( char[] chars, int start, int length )
         throws IOException
@@ -251,7 +215,6 @@ public class Printer
         }
     }
 
-
     public void printText( char ch )
         throws IOException
     {
@@ -270,7 +233,6 @@ public class Printer
             throw except;
         }
     }
-
 
     public void printSpace()
         throws IOException
@@ -291,7 +253,6 @@ public class Printer
         }
     }
 
-
     public void breakLine()
         throws IOException
     {
@@ -311,13 +272,11 @@ public class Printer
         }
     }
 
-
     public void breakLine( boolean preserveSpace )
         throws IOException
     {
         breakLine();
     }
-
 
     public void flushLine( boolean preserveSpace )
         throws IOException
@@ -333,7 +292,6 @@ public class Printer
         }
         _pos = 0;
     }
-
 
     /**
      * Flush the output stream. Must be called when done printing
@@ -355,33 +313,27 @@ public class Printer
         _pos = 0;
     }
 
-
     public void indent()
     {
         // NOOP
     }
-
 
     public void unindent()
     {
         // NOOP
     }
 
-
     public int getNextIndent()
     {
         return 0;
     }
 
-
     public void setNextIndent( int indent )
     {
     }
 
-
     public void setThisIndent( int indent )
     {
     }
-
 
 }

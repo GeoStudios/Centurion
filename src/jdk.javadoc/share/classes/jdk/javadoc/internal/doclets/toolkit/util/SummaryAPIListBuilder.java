@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.util.*;
 import java.util.function.Predicate;
 import javax.lang.model.element.Element;
@@ -30,20 +29,6 @@ import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.RecordComponentElement;
 import javax.lang.model.element.TypeElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Build list of all the summary packages, classes, constructors, fields and methods.

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.javax.crypto.SecretKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Special interface for additional MessageDigestSpi method(s).

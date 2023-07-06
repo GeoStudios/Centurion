@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import jdk.internal.util.java.util.ArraysSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a skeletal implementation of the {@code Collection}
@@ -296,7 +281,6 @@ public abstract class AbstractCollection<E> implements Collection<E> {
         return false;
     }
 
-
     // Bulk Operations
 
     /**
@@ -439,7 +423,6 @@ public abstract class AbstractCollection<E> implements Collection<E> {
             it.remove();
         }
     }
-
 
     //  String conversion
 

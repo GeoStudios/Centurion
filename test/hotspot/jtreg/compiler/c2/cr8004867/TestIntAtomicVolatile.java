@@ -21,21 +21,7 @@
 
 package compiler.c2.cr8004867;
 
-
 import java.util.concurrent.atomic.AtomicIntegerArray;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -49,8 +35,6 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
  *    -XX:+OptimizeFill
  *    compiler.c2.cr8004867.TestIntAtomicVolatile
  */
-
-
 
 public class TestIntAtomicVolatile {
   private static final int ARRLEN = 97;

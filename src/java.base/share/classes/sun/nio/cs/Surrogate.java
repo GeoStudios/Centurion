@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.CharBuffer;
 import java.nio.charset.CoderResult;
 import java.nio.charset.MalformedInputException;
 import java.nio.charset.UnmappableCharacterException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class for dealing with surrogates.

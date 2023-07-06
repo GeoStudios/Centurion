@@ -21,7 +21,6 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -33,25 +32,8 @@ import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
 import jdk.charsets.share.classes.sun.nio.cs.US_ASCII;
 import jdk.charsets.share.classes.sun.nio.cs.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
 
 public class ISO2022_CN
     extends Charset

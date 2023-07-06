@@ -21,26 +21,11 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.security.spec.*;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.javax.crypto.*;
 import javax.crypto.spec.RC2ParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JCE CipherSpi for the RC2(tm) algorithm as described in RFC 2268.

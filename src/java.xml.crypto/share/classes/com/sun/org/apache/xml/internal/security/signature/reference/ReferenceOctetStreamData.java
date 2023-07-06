@@ -21,29 +21,12 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference;
 
-
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * A representation of a {@code ReferenceData} type containing an OctetStream.

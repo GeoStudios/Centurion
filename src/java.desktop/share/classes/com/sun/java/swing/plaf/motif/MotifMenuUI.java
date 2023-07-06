@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
@@ -30,20 +29,6 @@ import javax.swing.plaf.*;
 import javax.swing.border.*;
 import javax.swing.plaf.basic.*;
 import javax.swing.plaf.basic.BasicMenuUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Motif {@literal L&F} implementation of MenuUI.
@@ -92,7 +77,6 @@ public class MotifMenuUI extends BasicMenuUI
         public MotifChangeHandler(JMenu m, MotifMenuUI ui) {
             super(m, ui);
         }
-
 
         public void stateChanged(ChangeEvent e) {
             JMenuItem c = (JMenuItem)e.getSource();

@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
 
-
 import javax.swing.*;
 import javax.swing.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A very simple interface for nodes in the SimpleTreeModel. */
 

@@ -21,26 +21,11 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
 
-
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.CHAR_INFO;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.CONSOLE_SCREEN_BUFFER_INFO;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.COORD;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.INPUT_RECORD;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.SMALL_RECT;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Kernel32Impl implements Kernel32 {
 

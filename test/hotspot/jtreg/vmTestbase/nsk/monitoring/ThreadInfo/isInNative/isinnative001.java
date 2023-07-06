@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadInfo.isInNative;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isinnative001 {
     public static void main(String[] argv) {

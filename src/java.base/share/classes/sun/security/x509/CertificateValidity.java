@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.cert.*;
 import java.util.Date;
 import java.util.Enumeration;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines the interval for which the certificate is valid.

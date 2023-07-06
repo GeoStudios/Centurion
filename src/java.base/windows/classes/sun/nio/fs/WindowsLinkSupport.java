@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.IOError;
@@ -30,20 +29,6 @@ import java.security.PrivilegedAction;
 import jdk.internal.misc.Unsafe;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods for symbolic link support on Windows Vista and newer.

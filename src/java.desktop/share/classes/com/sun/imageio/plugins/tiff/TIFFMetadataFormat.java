@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import javax.imageio.metadata.IIOMetadataFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class TIFFMetadataFormat implements IIOMetadataFormat {
 

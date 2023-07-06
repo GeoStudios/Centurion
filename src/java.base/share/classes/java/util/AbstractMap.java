@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.Map.Entry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a skeletal implementation of the {@code Map}
@@ -199,7 +184,6 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
         return null;
     }
 
-
     // Modification Operations
 
     /**
@@ -265,7 +249,6 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
         return oldValue;
     }
 
-
     // Bulk Operations
 
     /**
@@ -305,7 +288,6 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
     public void clear() {
         entrySet().clear();
     }
-
 
     // Views
 
@@ -456,7 +438,6 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
 
     public abstract Set<Entry<K,V>> entrySet();
 
-
     // Comparison and hashing
 
     /**
@@ -597,7 +578,6 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
     // of a field in a subclass, they can't share representations,
     // and the amount of duplicated code is too small to warrant
     // exposing a common abstract class.
-
 
     /**
      * An Entry maintaining a key and a value.  The value may be

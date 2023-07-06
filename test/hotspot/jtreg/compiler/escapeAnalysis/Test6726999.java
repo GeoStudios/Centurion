@@ -21,21 +21,6 @@
 
 package compiler.escapeAnalysis;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6726999
@@ -45,7 +30,6 @@ package compiler.escapeAnalysis;
  *                   -XX:CompileCommand=exclude,compiler.escapeAnalysis.Test6726999::dummy
  *                   compiler.escapeAnalysis.Test6726999
  */
-
 
 public class Test6726999 {
     static class Point {

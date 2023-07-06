@@ -21,27 +21,11 @@
 
 package helper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Helper class used for testing default/static method
  *
  * @author Yong Lu
  */
-
 
 public enum Mod {
     DEFAULT,

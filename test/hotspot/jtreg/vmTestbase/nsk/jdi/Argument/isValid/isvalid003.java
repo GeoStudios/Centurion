@@ -21,7 +21,6 @@
 
 package nsk.jdi.Argument.isValid;
 
-
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -34,19 +33,6 @@ import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.Argument;
 import com.sun.jdi.connect.Connector.BooleanArgument;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type <BR>
@@ -65,7 +51,6 @@ import com.sun.jdi.connect.Connector.BooleanArgument;
  * Otherwise, the test is passed and produces <BR>
  * the return value 95 and no message. <BR>
  */
-
 
 public class isvalid003 {
 

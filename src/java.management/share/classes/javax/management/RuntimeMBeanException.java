@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents runtime exceptions thrown by MBean methods in
  * the agent. It "wraps" the actual <CODE>java.lang.RuntimeException</CODE> exception thrown.
@@ -53,7 +37,6 @@ public class RuntimeMBeanException extends JMRuntimeException   {
      * @serial The encapsulated {@link RuntimeException}
      */
     private final java.lang.RuntimeException runtimeException ;
-
 
     /**
      * Creates a <CODE>RuntimeMBeanException</CODE> that wraps the actual <CODE>java.lang.RuntimeException</CODE>.

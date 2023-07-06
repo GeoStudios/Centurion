@@ -21,21 +21,6 @@
 
 package compiler.controldependency;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @key stress randomness
@@ -48,7 +33,6 @@ package compiler.controldependency;
  *      compiler.controldependency.TestEliminatedCastPPAtPhi
  *
  */
-
 
 public class TestEliminatedCastPPAtPhi {
 

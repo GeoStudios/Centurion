@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.beans.PropertyChangeEvent;
 import jdk.hotspot.agent.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
 import javax.swing.AbstractButton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ToggleActionPropertyChangeListener
     implements PropertyChangeListener

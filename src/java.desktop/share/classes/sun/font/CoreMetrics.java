@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.font.LineMetrics;
 import java.awt.font.GraphicAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class CoreMetrics {
 

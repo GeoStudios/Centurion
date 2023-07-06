@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
 import java.io.Writer;
 import java.xml.share.classes.javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the base event interface for handling markup events.
@@ -104,7 +89,6 @@ public interface XMLEvent extends javax.xml.stream.XMLStreamConstants {
    * @see Namespace
    */
   boolean isNamespace();
-
 
   /**
    * A utility function to check if this event is a EndElement.

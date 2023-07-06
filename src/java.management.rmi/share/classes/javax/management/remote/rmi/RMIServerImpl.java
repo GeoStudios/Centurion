@@ -21,7 +21,6 @@
 
 package java.management.rmi.share.classes.javax.management.remote.rmi;
 
-
 import com.sun.jmx.remote.internal.ArrayNotificationBuffer;
 import com.sun.jmx.remote.internal.NotificationBuffer;
 import com.sun.jmx.remote.security.JMXPluggableAuthenticator;
@@ -43,20 +42,6 @@ import java.management.rmi.share.classes.javax.management.MBeanServer;
 import java.management.rmi.share.classes.javax.management.remote.JMXAuthenticator;
 import java.management.rmi.share.classes.javax.management.remote.JMXConnectorServer;
 import java.management.rmi.share.classes.javax.security.auth.Subject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An RMI object representing a connector server.  Remote clients

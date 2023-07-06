@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.java.net;
 
-
 import java.base.windows.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.windows.classes.java.util.Collections;
 import java.base.windows.classes.java.util.HashSet;
@@ -29,20 +28,6 @@ import java.base.windows.classes.java.util.Set;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
 import sun.net.ext.Extendedjava.net.SocketOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines the plain DatagramSocketImpl that is used on

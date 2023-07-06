@@ -21,23 +21,8 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Node;
 import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>XPathResult</code> interface represents the result of the

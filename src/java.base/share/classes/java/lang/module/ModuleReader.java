@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.module;
 
-
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.nio.ByteBuffer;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Optional;
 import java.base.share.classes.java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides access to the content of a module.

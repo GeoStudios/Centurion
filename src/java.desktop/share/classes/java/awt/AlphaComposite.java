@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.java2d.SunCompositeContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code AlphaComposite} class implements basic alpha

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.beans.BeanProperty;
@@ -41,20 +40,6 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.DesktopPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A container used to create a multiple-document interface or a virtual desktop.
@@ -249,7 +234,6 @@ public class JDesktopPane extends JLayeredPane implements Accessible
     public void updateUI() {
         setUI((DesktopPaneUI)UIManager.getUI(this));
     }
-
 
     /**
      * Returns the name of the L&amp;F class that renders this component.

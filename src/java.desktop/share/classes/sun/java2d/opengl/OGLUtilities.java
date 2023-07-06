@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.awt.Graphics;
 import java.awt.GraphicsConfiguration;
 import java.awt.Rectangle;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains a number of static utility methods that may be

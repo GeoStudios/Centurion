@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.util.HashMap;
 import javax.swing.Action;
 import javax.swing.ImageIcon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Referenced classes of package com.sun.java.swing.action:
 //            DelegateAction, StateChangeAction, ActionUtilities

@@ -21,7 +21,6 @@
 
 package nsk.monitoring.LoggingMXBean.getLoggerNames;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
@@ -29,19 +28,6 @@ import nsk.monitoring.share.*;
 import java.util.*;
 import java.util.logging.*;
 import javax.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getloggernames001 {
 
@@ -134,7 +120,6 @@ public class getloggernames001 {
                 testFailed = true;
             }
         }
-
 
         if (testFailed)
             log.complain("TEST FAILED");

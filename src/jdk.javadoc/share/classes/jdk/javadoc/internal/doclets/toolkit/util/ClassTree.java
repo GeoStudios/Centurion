@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
@@ -39,20 +38,6 @@ import javax.lang.model.type.TypeMirror;
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Build Class Hierarchy for all the Classes. This class builds the Class

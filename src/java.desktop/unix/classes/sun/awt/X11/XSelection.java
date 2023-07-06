@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.io.ByteArrayOutputStream;
@@ -32,20 +31,6 @@ import java.desktop.unix.classes.sun.awt.AppContext;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.awt.UNIXToolkit;
 import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which interfaces with the X11 selection service.

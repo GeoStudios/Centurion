@@ -21,22 +21,6 @@
 
 package jdk.zipfs.share.classes.jdk.nio.zipfs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  */
 class ZipConstants {

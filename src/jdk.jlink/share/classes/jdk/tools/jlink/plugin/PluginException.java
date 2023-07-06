@@ -21,22 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An unchecked exception thrown by jlink plugin API for unrecoverable
  * conditions.

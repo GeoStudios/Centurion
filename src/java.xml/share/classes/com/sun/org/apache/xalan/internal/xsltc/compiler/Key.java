@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
@@ -47,26 +46,9 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Key.java,v 1.6 2006/04/25 02:25:08 jeffsuttor Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -174,7 +156,6 @@ final class Key extends TopLevelElement {
         final int keyDom = cpg.addMethodref(TRANSLET_CLASS,
                                          "setKeyIndexDom",
                                          "("+STRING_SIG+DOM_INTF_SIG+")V");
-
 
         // This variable holds the id of the node we found with the "match"
         // attribute of xsl:key. This is the id we store, with the value we

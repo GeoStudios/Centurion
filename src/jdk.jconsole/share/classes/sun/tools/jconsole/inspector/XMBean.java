@@ -21,27 +21,12 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.management.*;
 import javax.swing.Icon;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XMBean {
 

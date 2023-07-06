@@ -21,7 +21,6 @@
 
 package test.sql;
 
-
 import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;
@@ -36,19 +35,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TimestampTests extends BaseTest {
 

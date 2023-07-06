@@ -21,29 +21,13 @@
 
 package bench.rmi;
 
-
 import bench.Benchmark;
 import java.rmi.server.RMIClassLoader;
 import java.security.CodeSource;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * Benchmark for testing speed of repeated loading of a class not found in

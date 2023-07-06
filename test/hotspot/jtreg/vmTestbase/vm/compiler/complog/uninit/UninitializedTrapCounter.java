@@ -21,25 +21,11 @@
 
 package vm.compiler.complog.uninit;
 
-
 import java.util.*;
 import java.util.regex.*;
 import java.io.*;
 import nsk.share.TestFailure;
 import vm.compiler.complog.share.LogCompilationParser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser that finds uninitialized traps for each method and throws

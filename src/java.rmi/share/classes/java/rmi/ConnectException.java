@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A <code>ConnectException</code> is thrown if a connection is refused
  * to the remote host for a remote method call.

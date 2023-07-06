@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents "user defined" exceptions thrown by MBean methods
  * in the agent. It "wraps" the actual "user defined" exception thrown.
@@ -46,7 +30,6 @@ package java.management.share.classes.javax.management;
  */
 public class MBeanException extends JMException   {
 
-
     /* Serial version */
     private static final long serialVersionUID = 4066342430588744142L;
 
@@ -54,7 +37,6 @@ public class MBeanException extends JMException   {
      * @serial Encapsulated {@link Exception}
      */
     private final java.lang.Exception exception ;
-
 
     /**
      * Creates an <CODE>MBeanException</CODE> that wraps the actual <CODE>java.lang.Exception</CODE>.
@@ -77,7 +59,6 @@ public class MBeanException extends JMException   {
         super(message) ;
         exception = e ;
     }
-
 
     /**
      * Return the actual {@link Exception} thrown.

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class provides encode/decode for RFC 2045 Base64 as
  * defined by RFC 2045, N. Freed and N. Borenstein.

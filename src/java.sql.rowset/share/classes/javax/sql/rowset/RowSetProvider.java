@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.sql.SQLException;
@@ -29,20 +28,6 @@ import java.util.PropertyPermission;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A factory API that enables applications to obtain a
@@ -73,7 +58,6 @@ public class RowSetProvider {
      * Internal debug flag.
      */
     private static boolean debug = true;
-
 
     static {
         // Check to see if the debug property is set

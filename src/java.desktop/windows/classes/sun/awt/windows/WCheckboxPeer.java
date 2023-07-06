@@ -21,24 +21,9 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.ItemEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class WCheckboxPeer extends WComponentPeer implements CheckboxPeer {
 

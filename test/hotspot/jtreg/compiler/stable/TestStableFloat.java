@@ -21,22 +21,8 @@
 
 package compiler.stable;
 
-
 import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStableFloat
@@ -68,9 +54,6 @@ import java.lang.reflect.InvocationTargetException;
  *                                 -XX:-FoldStableValues
  *                                 compiler.stable.TestStableFloat
  */
-
-
-
 
 public class TestStableFloat {
     static final boolean isStableEnabled    = StableConfiguration.isStableEnabled;

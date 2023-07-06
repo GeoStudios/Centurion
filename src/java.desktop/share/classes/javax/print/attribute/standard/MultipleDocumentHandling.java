@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.EnumSyntax;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code MultipleDocumentHandling} is a printing attribute class, an
@@ -192,7 +177,6 @@ public class MultipleDocumentHandling extends EnumSyntax
      */
     public static final MultipleDocumentHandling
         SINGLE_DOCUMENT_NEW_SHEET = new MultipleDocumentHandling (3);
-
 
     /**
      * Construct a new multiple document handling enumeration value with the

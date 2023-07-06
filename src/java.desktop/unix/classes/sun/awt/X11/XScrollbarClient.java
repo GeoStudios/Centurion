@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
 * Interface for notifying a client that a scrollbar has changed.

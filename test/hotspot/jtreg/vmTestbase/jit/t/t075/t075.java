@@ -21,22 +21,8 @@
 
 package jit.t.t075;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t075.t075
  */
-
-
 
 public class t075{
     public static final GoldChecker goldChecker = new GoldChecker( "t075" );

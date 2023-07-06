@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Debugger extends SymbolLookup, ThreadAccess {
   /** Indicates whether this underlying debugger can provide a list of

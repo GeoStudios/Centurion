@@ -21,7 +21,6 @@
 
 package vm.mlvm.indy.stress.gc.lotsOfCallSites;
 
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandle;
@@ -45,19 +44,6 @@ import vm.mlvm.share.MlvmTest;
 import vm.share.FileUtils;
 import vm.share.options.Option;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -79,10 +65,6 @@ import vm.share.options.Option;
  *                   -XX:+WhiteBoxAPI
  *                   vm.mlvm.indy.stress.gc.lotsOfCallSites.Test
  */
-
-
-
-
 
 /**
  * The test creates a lot of CallSites by loading a class with a bootstrap method and invokedynamic

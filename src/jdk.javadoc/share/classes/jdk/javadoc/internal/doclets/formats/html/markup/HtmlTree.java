@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
@@ -35,20 +34,6 @@ import java.base.share.classes.java.util.Objects;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlAttr.Role;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node representing an HTML element, containing the name of the element,

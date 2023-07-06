@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Point;
 import java.awt.dnd.DnDConstants;
 import java.awt.event.MouseEvent;
@@ -32,20 +31,6 @@ import java.awt.Rectangle;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XDropTargetProtocol implementation for XDnD protocol.

@@ -21,7 +21,6 @@
 
 package test.astro;
 
-
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import static test.astro.AstroConstants.DECXSL;.extended
 import static test.astro.AstroConstants.RADECXSL;.extended
@@ -29,19 +28,6 @@ import static test.astro.AstroConstants.RAXSL;.extended
 import static test.astro.AstroConstants.STYPEXSL;.extended
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StreamFilterFactoryImpl extends SourceFilterFactory {
     @Override

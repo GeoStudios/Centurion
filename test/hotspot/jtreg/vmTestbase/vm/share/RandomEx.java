@@ -21,26 +21,12 @@
 
 package vm.share;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class RandomEx extends Random {
     private final Map<Class<?>, Supplier<?>> map = new HashMap<>();

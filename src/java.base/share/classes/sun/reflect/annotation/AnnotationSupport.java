@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.security.AccessController;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.reflect.ReflectionFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class AnnotationSupport {
     private static final JavaLangAccess LANG_ACCESS = SharedSecrets.getJavaLangAccess();
@@ -126,7 +111,6 @@ public final class AnnotationSupport {
         return valueArray;
     }
 
-
     /**
      * Figures out if container class comes before containee class among the
      * keys of the given map.
@@ -149,7 +133,6 @@ public final class AnnotationSupport {
         // Neither containee nor container present
         return false;
     }
-
 
     /**
      * Finds and returns all associated annotations matching the given class.
@@ -186,7 +169,6 @@ public final class AnnotationSupport {
 
         return result;
     }
-
 
     /* Reflectively invoke the values-method of the given annotation
      * (container), cast it to an array of annotations and return the result.
@@ -267,14 +249,12 @@ public final class AnnotationSupport {
         }
     }
 
-
     private static AnnotationFormatError invalidContainerException(Annotation anno,
                                                                    Throwable cause) {
         return new AnnotationFormatError(
                 anno + " is an invalid container for repeating annotations",
                 cause);
     }
-
 
     /* Sanity check type of all the annotation instances of type {@code annoClass}
      * from {@code container}.

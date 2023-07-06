@@ -21,26 +21,11 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
-
 import java.awt.*;
 import javax.swing.JButton;
 import java.awt.image.ImageObserver;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
 import demo.share.jfc.J2Ddemo.java2d.DemoPanel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Animated gif with a transparent background.

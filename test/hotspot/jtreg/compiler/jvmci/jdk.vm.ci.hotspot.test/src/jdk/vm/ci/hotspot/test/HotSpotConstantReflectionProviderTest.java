@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import jdk.vm.ci.meta.Constant;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.MemoryAccessProvider;
@@ -31,19 +30,6 @@ import jdk.vm.ci.meta.ResolvedJavaType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static jdk.vm.ci.hotspot.test.TestHelper.CONSTANT_REFLECTION_PROVIDER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test jdk.vm.ci.hotspot.test.HotSpotConstantReflectionProviderTest
@@ -60,9 +46,6 @@ import static jdk.vm.ci.hotspot.test.TestHelper.CONSTANT_REFLECTION_PROVIDER;.ex
  *      -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *      -XX:-UseJVMCICompiler jdk.vm.ci.hotspot.test.HotSpotConstantReflectionProviderTest
  */
-
-
-
 
 public class HotSpotConstantReflectionProviderTest {
 

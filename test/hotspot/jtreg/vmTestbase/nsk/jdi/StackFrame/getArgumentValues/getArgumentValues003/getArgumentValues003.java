@@ -21,24 +21,10 @@
 
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues003;
 
-
 import java.io.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -63,8 +49,6 @@ import nsk.share.jdi.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 /*
  * Test checks that method 'StackFrame.getArgumentValues()' throws InvalidStackFrameException if this stack

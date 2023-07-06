@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.sun.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class implements the FullScreenCapable interface to
  * indicate that it's capable to enter the full-screen mode.

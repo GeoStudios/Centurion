@@ -21,24 +21,10 @@
 
 package nsk.monitoring.ThreadMXBean;
 
-
 import java.util.*;
 import nsk.share.test.*;
 import nsk.monitoring.share.*;
 import nsk.share.gc.Memory;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class ThreadMXBeanTestBase extends MonitoringTestBase
         implements Initializable {

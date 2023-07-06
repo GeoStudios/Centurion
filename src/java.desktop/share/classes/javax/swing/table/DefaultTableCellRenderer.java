@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.Component;
@@ -30,20 +29,6 @@ import java.awt.Rectangle;
 import java.io.Serializable;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard class for rendering (displaying) individual cells
@@ -370,7 +355,6 @@ public class DefaultTableCellRenderer extends JLabel
      */
     public void firePropertyChange(String propertyName, boolean oldValue, boolean newValue) { }
 
-
     /**
      * Sets the <code>String</code> object for the cell being rendered to
      * <code>value</code>.
@@ -383,7 +367,6 @@ public class DefaultTableCellRenderer extends JLabel
     protected void setValue(Object value) {
         setText((value == null) ? "" : value.toString());
     }
-
 
     /**
      * A subclass of <code>DefaultTableCellRenderer</code> that

@@ -21,23 +21,9 @@
 
 package compiler.conversions;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.util.Random;
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

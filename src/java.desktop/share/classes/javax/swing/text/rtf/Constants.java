@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
    Class to hold dictionary keys used by the RTF reader/writer.
    These should be moved into StyleConstants.

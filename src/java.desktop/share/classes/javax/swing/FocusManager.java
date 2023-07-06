@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class has been obsoleted by the 1.4 focus APIs. While client code may

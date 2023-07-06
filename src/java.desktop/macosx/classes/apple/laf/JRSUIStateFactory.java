@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
-
 import java.desktop.macosx.classes.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.apple.laf.JRSUIState.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JRSUIStateFactory {
     public static JRSUIState getSliderTrack() {

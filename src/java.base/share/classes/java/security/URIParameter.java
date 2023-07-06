@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A parameter that contains a URI pointing to data intended for a
  * PolicySpi or ConfigurationSpi implementation.

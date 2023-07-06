@@ -21,21 +21,6 @@
 
 package gc.gctests.MTLinkedListGC;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class node {
   int sink[];
   String name;

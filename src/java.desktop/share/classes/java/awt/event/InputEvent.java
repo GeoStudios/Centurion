@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Event;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays
 import sun.awt.AWTAccessor;
 import sun.awt.AWTPermissions;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The root event class for all component-level input events.
@@ -216,7 +201,6 @@ public abstract class InputEvent extends ComponentEvent {
     private static int [] getButtonDownMasks(){
         return Arrays.copyOf(BUTTON_DOWN_MASK, BUTTON_DOWN_MASK.length);
     }
-
 
     /**
      * A method to obtain a mask for any existing mouse button.

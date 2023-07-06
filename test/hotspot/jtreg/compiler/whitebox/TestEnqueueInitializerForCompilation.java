@@ -21,21 +21,7 @@
 
 package compiler.whitebox;
 
-
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import sun.hotspot.WhiteBox;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *      -XX:+WhiteBoxAPI compiler.whitebox.TestEnqueueInitializerForCompilation
  */
-
-
 
 public class TestEnqueueInitializerForCompilation {
 

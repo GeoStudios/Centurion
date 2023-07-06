@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //These definitions should be kept in sync with the definitions in the HotSpot code.
 
 public enum GCWhen {
@@ -53,6 +37,4 @@ public enum GCWhen {
     return value;
   }
 }
-
-
 

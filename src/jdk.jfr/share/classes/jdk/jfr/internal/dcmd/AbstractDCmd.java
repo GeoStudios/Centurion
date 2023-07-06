@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
@@ -41,20 +40,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for JFR diagnostic commands
@@ -77,7 +62,6 @@ abstract class AbstractDCmd {
 
     // Called by native
     protected abstract void execute(ArgumentParser parser) throws DCmdException;
-
 
     // Called by native
     public final String[] execute(String source, String arg, char delimiter) throws DCmdException {
@@ -105,7 +89,6 @@ abstract class AbstractDCmd {
             throw e;
         }
     }
-
 
     protected final FlightRecorder getFlightRecorder() {
         return FlightRecorder.getFlightRecorder();

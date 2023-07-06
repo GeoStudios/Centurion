@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
    Class loader that loads classes from the process/core image

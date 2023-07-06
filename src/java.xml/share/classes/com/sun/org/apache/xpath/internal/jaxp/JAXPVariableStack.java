@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-
 import javax.xml.transform.TransformerException;
 import javax.xml.xpath.XPathVariableResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -31,29 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
-
 
 /**
  * Overrides {@link VariableStack} and delegates the call to

@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.server;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.DataOutputStream;
@@ -55,20 +54,6 @@ import java.rmi.share.classes.sun.rmi.registry.RegistryImpl;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
 import java.rmi.share.classes.sun.rmi.transport.LiveRef;
 import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class with static methods for creating stubs/proxies and

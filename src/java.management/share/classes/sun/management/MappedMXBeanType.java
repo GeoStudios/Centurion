@@ -21,7 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.MemoryUsage;
 import java.lang.management.MemoryNotificationInfo;
 import java.lang.management.MonitorInfo;
@@ -38,20 +37,6 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import javax.management.openmbean.*;
 import static javax.management.openmbean.SimpleType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mapped mxbean type maps a Java type to an open type.
@@ -227,7 +212,6 @@ public abstract class MappedMXBeanType {
         }
     }
 
-
     // Enum subclasses
     //   Mapped open type - String
     //
@@ -345,7 +329,6 @@ public abstract class MappedMXBeanType {
             }
             return openArray;
         }
-
 
         public Object toJavaTypeData(Object data)
             throws OpenDataException, InvalidObjectException {
@@ -515,7 +498,6 @@ public abstract class MappedMXBeanType {
             assert(argTypes.length == 2);
             this.keyType = getMappedType(argTypes[0]);
             this.valueType = getMappedType(argTypes[1]);
-
 
             // FIXME: generate typeName for generic
             typeName = "Map<" + keyType.getName() + "," +

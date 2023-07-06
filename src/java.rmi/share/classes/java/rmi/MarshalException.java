@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A <code>MarshalException</code> is thrown if a
  * <code>java.io.IOException</code> occurs while marshalling the remote call

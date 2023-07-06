@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jdi.share.classes.com.sun.jdi.connect.AttachingConnector;
@@ -40,20 +39,6 @@ import jdk.jdi.share.classes.com.sun.jdi.request.MonitorContendedEnteredRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitedRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.VMDeathRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A virtual machine targeted for debugging.
@@ -429,7 +414,6 @@ public interface VirtualMachine extends Mirror {
      */
     StringReference mirrorOf(String value);
 
-
     /**
      * Creates a {@link VoidValue}.  This value
      * can be passed to {@link ThreadReference#forceEarlyReturn}
@@ -728,7 +712,6 @@ public interface VirtualMachine extends Mirror {
      */
 
      boolean canGetMonitorFrameInfo();
-
 
     /**
      * Determines if the target VM supports reading class file

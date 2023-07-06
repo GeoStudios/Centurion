@@ -21,27 +21,12 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  A utility class to parse a string in a doc comment containing a

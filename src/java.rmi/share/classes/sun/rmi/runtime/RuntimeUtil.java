@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.runtime;
 
-
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
@@ -29,20 +28,6 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RMI runtime implementation utilities.

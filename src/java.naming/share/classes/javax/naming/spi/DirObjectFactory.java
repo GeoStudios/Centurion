@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
-
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.*;
 import java.naming.share.classes.javax.naming.directory.Attributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This interface represents a factory for creating an object given

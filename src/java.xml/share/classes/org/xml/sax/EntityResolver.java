@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic interface for resolving entities.
@@ -87,7 +72,6 @@ import java.io.java.io.java.io.java.io.IOException;
  * @see org.xml.sax.InputSource
  */
 public interface EntityResolver {
-
 
     /**
      * Allow the application to resolve external entities.

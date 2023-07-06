@@ -21,7 +21,6 @@
 
 package handle.lookup;
 
-
 import jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.CLinker;
 import java.lang.invoke.MethodHandle;
@@ -38,19 +37,6 @@ import jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.SegmentAllocator;
 import org.testng.annotations.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MethodHandleLookup {
 

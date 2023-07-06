@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.Focusjava.util.Listener;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicEditorPaneUI;
 import javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaEditorPaneUI extends BasicEditorPaneUI {
     public static ComponentUI createUI(final JComponent c){

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.util.Date;
 import java.util.Set;
 import java.security.cert.TrustAnchor;
 import java.security.cert.X509CertSelector;
 import java.security.cert.X509CRLSelector;
 import java.base.share.classes.sun.security.x509.GeneralNameInterface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class that allows access to JDK specific known-public methods in the

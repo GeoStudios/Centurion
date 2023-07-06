@@ -21,23 +21,9 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassFilter_s;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the filter_s002 JDI test.
@@ -153,7 +139,6 @@ public class filter_s002a {
 
 }
 
-
 class Thread1filter_s002a extends Thread {
 
     class TestClass10{
@@ -162,7 +147,6 @@ class Thread1filter_s002a extends Thread {
     class TestClass11 extends TestClass10{
         int var11 = 0;
     }
-
 
     String tName = null;
 

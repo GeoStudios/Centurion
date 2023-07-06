@@ -21,25 +21,10 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.security.BasicPermission;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This permission represents "trust" in a signer or codebase.

@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
@@ -35,20 +34,6 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotate instructions with details about local variables.

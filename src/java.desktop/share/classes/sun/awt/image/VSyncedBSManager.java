@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.BufferStrategy;
 import java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages v-synced buffer strategies.

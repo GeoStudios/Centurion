@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines the set of calls that pipeline objects
@@ -53,7 +38,6 @@ import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 public interface PixelFillPipe {
     void fillRect(SunGraphics2D sg,
                          int x, int y, int width, int height);
-
 
     void fillRoundRect(SunGraphics2D sg,
                               int x, int y, int width, int height,

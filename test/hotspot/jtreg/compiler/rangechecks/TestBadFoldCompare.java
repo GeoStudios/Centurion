@@ -21,21 +21,6 @@
 
 package compiler.rangechecks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8085832
@@ -45,7 +30,6 @@ package compiler.rangechecks;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.rangechecks.TestBadFoldCompare
  */
-
 
 public class TestBadFoldCompare {
 

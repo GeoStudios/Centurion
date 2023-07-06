@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A standard transformer used in connection blocks.
  * It expects input values to be between 0 and 1.

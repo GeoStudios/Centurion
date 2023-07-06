@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -31,20 +30,6 @@ import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
 import jdk.jfr.share.classes.jdk.jfr.Description;
 import jdk.jfr.share.classes.jdk.jfr.Label;
 import jdk.jfr.share.classes.jdk.jfr.Unsigned;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class AnnotationConstruct {
 

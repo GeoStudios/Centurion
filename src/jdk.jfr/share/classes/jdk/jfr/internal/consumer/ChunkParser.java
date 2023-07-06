@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collection;
 import java.util.Collections;
@@ -37,20 +36,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.LongMap;
 import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parses a chunk.

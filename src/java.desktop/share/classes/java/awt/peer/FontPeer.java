@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The peer interface for fonts. This is only a marker interface and not
  * used by AWT itself.

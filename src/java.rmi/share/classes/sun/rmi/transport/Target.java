@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.rmi.Remote;
 import java.rmi.NoSuchObjectException;
 import java.rmi.dgc.VMID;
@@ -34,20 +33,6 @@ import java.util.*;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
 import java.rmi.share.classes.sun.rmi.runtime.NewThreadAction;
 import java.rmi.share.classes.sun.rmi.server.Dispatcher;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A target contains information pertaining to a remote object that

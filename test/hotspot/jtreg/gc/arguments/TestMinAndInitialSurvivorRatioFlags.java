@@ -21,7 +21,6 @@
 
 package gc.arguments;
 
-
 import java.lang.management.MemoryUsage;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
@@ -30,19 +29,6 @@ import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestMinAndInitialSurvivorRatioFlags
@@ -55,7 +41,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver/timeout=240 gc.arguments.TestMinAndInitialSurvivorRatioFlags
  */
-
 
 /* Test verifies that VM can start with any GC when MinSurvivorRatio and
  * InitialSurvivorRatio flags passed and for Parallel GC it verifies that

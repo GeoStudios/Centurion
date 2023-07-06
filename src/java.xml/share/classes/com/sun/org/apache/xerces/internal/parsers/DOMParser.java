@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EntityResolverWrapper;
@@ -53,20 +52,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.EntityResolver2;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the main Xerces DOM parser class. It uses the abstract DOM
@@ -149,7 +134,6 @@ public class DOMParser
     public DOMParser(SymbolTable symbolTable) {
         this(symbolTable, null);
     } // <init>(SymbolTable)
-
 
     /**
      * Constructs a DOM parser using the specified symbol table and

@@ -21,23 +21,9 @@
 
 package cdsutils;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to simulate -Xshare:dump with -XX:ArchiveClassesAtExit.

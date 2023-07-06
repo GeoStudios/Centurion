@@ -21,23 +21,9 @@
 
 package nsk.jvmti.ThreadEnd;
 
-
 import java.io.PrintStream;
 import nsk.share.jvmti.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class threadend002 extends DebugeeClass {
 
@@ -55,7 +41,6 @@ public class threadend002 extends DebugeeClass {
     }
 
     Log.Logger logger;
-
 
     // run debuggee
     public int runIt(String argv[], PrintStream out) {

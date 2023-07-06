@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.net.http.share.classes.jdk.internal.net.http.websocket.Frame.Opcode;
@@ -34,20 +33,6 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A stateful producer of binary representations of WebSocket messages being

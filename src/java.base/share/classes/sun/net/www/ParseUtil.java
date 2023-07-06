@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www;
 
-
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -36,20 +35,6 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.util.HexFormat;
 import java.base.share.classes.sun.nio.cs.UTF_8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class that contains useful routines common to sun.net.www
@@ -174,7 +159,6 @@ public final class ParseUtil {
     private static byte unescape(String s, int i) {
         return (byte) Integer.parseInt(s, i + 1, i + 3, 16);
     }
-
 
     /**
      * Returns a new String constructed from the specified String by replacing
@@ -510,7 +494,6 @@ public final class ParseUtil {
         }
     }
 
-
     // -- Character classes for parsing --
 
     // To save startup time, we manually calculate the low-/highMask constants.
@@ -561,7 +544,6 @@ public final class ParseUtil {
     //        }
     //        return m;
     //     }
-
 
     // Character-class masks
 

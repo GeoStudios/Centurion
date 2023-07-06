@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.security.AccessController;
 import java.security.AlgorithmConstraints;
 import java.security.PrivilegedAction;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class contains common functionality for algorithm constraints classes.

@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Select - Abstract super class for LOOKUPSWITCH and TABLESWITCH instructions.
@@ -66,7 +51,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
     Select() {
     }
 
-
     /**
      * (Match, target) pairs for switch.
      * `Match' and `targets' must have the same length of course.
@@ -92,7 +76,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         indices = new int[match_length];
     }
 
-
     /**
      * Since this is a variable length instruction, it may shift the following
      * instructions which then need to update their position.
@@ -117,7 +100,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return super.getLength() - old_length;
     }
 
-
     /**
      * Dump instruction as byte code to stream out.
      * @param out Output stream
@@ -132,7 +114,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         out.writeInt(super.getIndex());
     }
 
-
     /**
      * Read needed data (e.g. index) from file.
      */
@@ -145,7 +126,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         // Default branch target common for both cases (TABLESWITCH, LOOKUPSWITCH)
         super.setIndex(bytes.readInt());
     }
-
 
     /**
      * @return mnemonic for instruction
@@ -168,7 +148,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return buf.toString();
     }
 
-
     /**
      * Set branch target for `i'th case
      */
@@ -176,7 +155,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         notifyTarget(targets[i], target, this);
         targets[i] = target;
     }
-
 
     /**
      * @param old_ih old target
@@ -200,7 +178,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         }
     }
 
-
     /**
      * @return true, if ih is target of this instruction
      */
@@ -217,7 +194,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return false;
     }
 
-
     @Override
     protected Object clone() throws CloneNotSupportedException {
         final Select copy = (Select) super.clone();
@@ -226,7 +202,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         copy.targets = targets.clone();
         return copy;
     }
-
 
     /**
      * Inform targets that they're not targeted anymore.
@@ -239,7 +214,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         }
     }
 
-
     /**
      * @return array of match indices
      */
@@ -247,14 +221,12 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return match;
     }
 
-
     /**
      * @return array of match target offsets
      */
     public int[] getIndices() {
         return indices;
     }
-
 
     /**
      * @return array of match targets
@@ -270,7 +242,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return match[index];
     }
 
-
     /**
      * @return index entry from indices
      */
@@ -285,14 +256,12 @@ public abstract class Select extends BranchInstruction implements VariableLength
         return targets[index];
     }
 
-
     /**
      * @return the fixed_length
      */
     final int getFixed_length() {
         return fixed_length;
     }
-
 
     /**
      * @param fixed_length the fixed_length to set
@@ -301,14 +270,12 @@ public abstract class Select extends BranchInstruction implements VariableLength
         this.fixed_length = fixed_length;
     }
 
-
     /**
      * @return the match_length
      */
     final int getMatch_length() {
         return match_length;
     }
-
 
     /**
      * @param match_length the match_length to set
@@ -358,7 +325,6 @@ public abstract class Select extends BranchInstruction implements VariableLength
     final int getPadding() {
         return padding;
     }
-
 
     final int setIndices(final int i, final int value) {
         indices[i] = value;

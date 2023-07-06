@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Package-visible class consolidating common code for

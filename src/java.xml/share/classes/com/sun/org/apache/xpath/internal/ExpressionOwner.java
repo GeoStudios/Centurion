@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Classes that implement this interface own an expression, which
@@ -62,6 +45,5 @@ public interface ExpressionOwner
    * @param exp the raw Expression object, which should not normally be null.
    */
   void setExpression(Expression exp);
-
 
 }

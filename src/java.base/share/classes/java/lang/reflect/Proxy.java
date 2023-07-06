@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandle;
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.MethodType;
@@ -57,20 +56,6 @@ import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
 import static java.base.share.classes.java.lang.invoke.MethodType.methodType;.extended
 import static java.base.share.classes.java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

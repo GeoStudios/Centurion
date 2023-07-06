@@ -21,21 +21,6 @@
 
 package compiler.integerArithmetic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestIntegerComparison
  * @bug 8043284 8042786

@@ -21,27 +21,12 @@
 
 package java.prefs.macosx.classes.java.util.prefs;
 
-
 import java.prefs.macosx.classes.java.util.HashMap;
 import java.prefs.macosx.classes.java.util.HashSet;
 import java.prefs.macosx.classes.java.util.Iterator;
 import java.prefs.macosx.classes.java.util.Timer;
 import java.prefs.macosx.classes.java.util.TimerTask;
 import java.prefs.macosx.classes.java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
   MacOSXPreferencesFile synchronization:
@@ -117,7 +102,6 @@ class MacOSXPreferencesFile {
     // Files that may have unflushed changes
     private static HashSet<MacOSXPreferencesFile> changedFiles;
 
-
     // Timer and pending sync and flush tasks (which are both scheduled
     // on the same timer)
     private static Timer timer = null;
@@ -176,7 +160,6 @@ class MacOSXPreferencesFile {
         return result;
     }
 
-
     // Write all prefs changes to disk and clear all cached prefs values
     // (so the next read will read from disk).
     static synchronized boolean syncWorld()
@@ -210,7 +193,6 @@ class MacOSXPreferencesFile {
 
         return ok;
     }
-
 
     // Sync only current user preferences
     static synchronized boolean syncUser() {
@@ -370,7 +352,6 @@ class MacOSXPreferencesFile {
         return timer;
     }
 
-
     // Node manipulation
     boolean addNode(String path)
     {
@@ -404,7 +385,6 @@ class MacOSXPreferencesFile {
         }
     }
 
-
     // Key manipulation
     void addKeyToNode(String path, String key, String value)
     {
@@ -429,7 +409,6 @@ class MacOSXPreferencesFile {
         }
     }
 
-
     // Enumerators
     String[] getChildrenForNode(String path)
     {
@@ -445,7 +424,6 @@ class MacOSXPreferencesFile {
         }
     }
 
-
     // Synchronization
     boolean synchronize()
     {
@@ -453,7 +431,6 @@ class MacOSXPreferencesFile {
             return synchronize(appName, user, host);
         }
     }
-
 
     // CF functions
     // Must be called when synchronized on MacOSXPreferencesFile.class

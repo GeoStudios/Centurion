@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-
 import java.awt.BufferCapabilities;
 import java.awt.ImageCapabilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides extended BufferStrategy capabilities, allowing to specify

@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Desktop.Action;
 import java.awt.EventQueue;
 import java.awt.desktop.SystemEventjava.util.Listener;
@@ -35,20 +34,6 @@ import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the interface {@code DesktopPeer} for

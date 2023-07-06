@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingUtilities2;
 import sun.swing.UIAction;
@@ -39,20 +38,6 @@ import sun.security.action.GetPropertyAction;
 import sun.awt.AppContext;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of utility methods for Swing.
@@ -75,7 +60,6 @@ public class SwingUtilities implements SwingConstants
      * drop support.
      */
     private static boolean checkedSuppressDropSupport;
-
 
     /**
      * Returns true if <code>setTransferHandler</code> should change the
@@ -135,7 +119,6 @@ public class SwingUtilities implements SwingConstants
         b.x = b.y = 0;
         return b;
     }
-
 
     /**
      * Returns the first <code>Window </code> ancestor of <code>c</code>, or
@@ -333,7 +316,6 @@ public class SwingUtilities implements SwingConstants
         return parent;
     }
 
-
     /**
      * Returns a MouseEvent similar to <code>sourceEvent</code> except that its x
      * and y members have been converted to <code>destination</code>'s coordinate
@@ -416,7 +398,6 @@ public class SwingUtilities implements SwingConstants
         }
         return newEvent;
     }
-
 
     /**
      * Convert a point from a component's coordinate system to
@@ -530,7 +511,6 @@ public class SwingUtilities implements SwingConstants
                 return true;
         return false;
     }
-
 
     /**
      * Convenience to calculate the intersection of two rectangles
@@ -1157,7 +1137,6 @@ public class SwingUtilities implements SwingConstants
             }
         }
 
-
         /* Compute textR.x,y given the verticalTextPosition and
          * horizontalTextPosition properties
          */
@@ -1256,7 +1235,6 @@ public class SwingUtilities implements SwingConstants
         return text;
     }
 
-
     /**
      * Paints a component to the specified <code>Graphics</code>.
      * This method is primarily useful to render
@@ -1326,7 +1304,6 @@ public class SwingUtilities implements SwingConstants
         paintComponent(g, c, p, r.x, r.y, r.width, r.height);
     }
 
-
     /*
      * Ensures that cell renderer <code>c</code> has a
      * <code>ComponentShell</code> parent and that
@@ -1382,7 +1359,6 @@ public class SwingUtilities implements SwingConstants
         }
     }
 
-
     /**
      * Causes <i>doRun.run()</i> to be executed asynchronously on the
      * AWT event dispatching thread.  This will happen after all
@@ -1422,7 +1398,6 @@ public class SwingUtilities implements SwingConstants
     public static void invokeLater(Runnable doRun) {
         EventQueue.invokeLater(doRun);
     }
-
 
     /**
      * Causes <code>doRun.run()</code> to be executed synchronously on the
@@ -1494,7 +1469,6 @@ public class SwingUtilities implements SwingConstants
     {
         return EventQueue.isDispatchThread();
     }
-
 
     /*
      * --- Accessibility Support ---
@@ -1657,7 +1631,6 @@ public class SwingUtilities implements SwingConstants
         return null;
     }
 
-
     /**
      * Returns the root component for the current component tree.
      *
@@ -1807,7 +1780,6 @@ public class SwingUtilities implements SwingConstants
         return true;
     }
 
-
     /**
      * Convenience method to change the UI InputMap for <code>component</code>
      * to <code>uiInputMap</code>. If <code>uiInputMap</code> is {@code null},
@@ -1831,7 +1803,6 @@ public class SwingUtilities implements SwingConstants
         }
     }
 
-
     /**
      * Convenience method to change the UI ActionMap for <code>component</code>
      * to <code>uiActionMap</code>. If <code>uiActionMap</code> is {@code null},
@@ -1853,7 +1824,6 @@ public class SwingUtilities implements SwingConstants
             map = parent;
         }
     }
-
 
     /**
      * Returns the InputMap provided by the UI for condition
@@ -1899,7 +1869,6 @@ public class SwingUtilities implements SwingConstants
         }
         return null;
     }
-
 
     // Don't use String, as it's not guaranteed to be unique in a Hashtable.
     private static final Object sharedOwnerFrameKey =
@@ -2020,13 +1989,11 @@ public class SwingUtilities implements SwingConstants
         AppContext.getAppContext().remove(key);
     }
 
-
     static Class<?> loadSystemClass(String className) throws ClassNotFoundException {
         ReflectUtil.checkPackageAccess(className);
         return Class.forName(className, true, Thread.currentThread().
                              getContextClassLoader());
     }
-
 
    /*
      * Convenience function for determining ComponentOrientation.  Helps us

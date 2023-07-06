@@ -21,27 +21,10 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
 
                                      // Formerly in sun.misc
-
 
 // ## In the fullness of time, this class will be eliminated
 

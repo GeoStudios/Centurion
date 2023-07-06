@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import java.io.Closeable;
 import java.io.EOFException;
 import java.io.File;
@@ -38,20 +37,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkHeader;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkParser;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recording file.
@@ -250,7 +235,6 @@ public final class RecordingFile implements Closeable {
     boolean isLastEventInChunk() {
         return isLastEventInChunk;
     }
-
 
     // either sets next to an event or sets eof to true
     private void findNext() throws IOException {

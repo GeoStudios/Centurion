@@ -21,22 +21,8 @@
 
 package compiler.c2;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.util.java.util.java.util.java.util.List;
  * @run main/othervm/timeout=600 -Xmx256m -XX:+IgnoreUnrecognizedVMOptions -XX:+UseCompressedOops
  *    compiler.c2.Test6851282
  */
-
-
 
 public class Test6851282 {
   void foo(A a, A[] as) {

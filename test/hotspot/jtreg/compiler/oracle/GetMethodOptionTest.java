@@ -21,24 +21,10 @@
 
 package compiler.oracle;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Executable;
 import java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -72,9 +58,6 @@ import java.util.function.BiFunction;
  *                   -XX:CompileCommand=TestOptionDouble,compiler.oracle.GetMethodOptionTest::test,1.123
  *                   compiler.oracle.GetMethodOptionTest
  */
-
-
-
 
 public class GetMethodOptionTest {
     private static final  WhiteBox WB = WhiteBox.getWhiteBox();

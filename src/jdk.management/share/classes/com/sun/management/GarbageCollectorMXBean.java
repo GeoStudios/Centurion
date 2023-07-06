@@ -21,23 +21,8 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Platform-specific management interface for a garbage collector

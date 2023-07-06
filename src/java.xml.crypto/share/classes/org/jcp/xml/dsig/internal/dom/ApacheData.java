@@ -21,30 +21,13 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import javax.xml.crypto.Data;
 import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * XMLSignatureInput Data wrapper.

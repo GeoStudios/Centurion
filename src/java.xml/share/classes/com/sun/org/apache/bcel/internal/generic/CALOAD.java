@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * CALOAD - Load char from array
@@ -55,7 +38,6 @@ public class CALOAD extends ArrayInstruction implements StackProducer {
     public CALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.CALOAD);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

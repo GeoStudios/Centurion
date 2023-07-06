@@ -21,21 +21,6 @@
 
 package compiler.escapeAnalysis.cr6716441;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6716441
@@ -47,10 +32,8 @@ package compiler.escapeAnalysis.cr6716441;
 
 /* Complexity upper bound: 70070 ops */
 
-
 class Tester_Class_0 {
     Object var_1;
-
 
     public Tester_Class_0()
     {
@@ -93,8 +76,6 @@ class Tester_Class_0 {
         var_1 = (new boolean[(byte)1546704177][(byte)6314352927310996480L][(byte)6838913812451802112L])["e".equalsIgnoreCase("d") ? (byte)3.964472879846357E307 : (byte)'L'];
         var_9 = (var_9 = false);
     }
-
-
 
     protected Object clone()
     {
@@ -155,8 +136,6 @@ class Tester_Class_0 {
         return false ^ ((false ? !true : true) ? false : (true ? ! !false : false));
     }
 
-
-
     public String toString()
     {
         String result =  "[\n";
@@ -167,15 +146,12 @@ class Tester_Class_0 {
     }
 }
 
-
 interface Tester_Interface_1 {
 }
-
 
 final class Tester_Class_2 extends Tester_Class_0 {
     static char var_13;
     final static long var_14 = ~ ~ (((false ? !true ^ !true : !false | true) ? (byte)1.4363583E38F : (byte)(short)'X') * + + +3767002589844008960L << (var_13 = (var_13 = 'X')));
-
 
     public Tester_Class_2()
     {
@@ -186,10 +162,6 @@ final class Tester_Class_2 extends Tester_Class_0 {
         Object[] var_27;
         var_1 = (var_1 = "glu");
     }
-
-
-
-
 
     private static int func_0(Tester_Interface_1 arg_0, Tester_Interface_1 arg_1, final int arg_2)
     {
@@ -370,7 +342,6 @@ public class Tester {
     static byte var_30 = 79;
     static boolean var_31 = false;
     final byte var_32 = 48;
-
 
     public short func_0(final byte arg_0, boolean arg_1, final double arg_2)
     {
@@ -830,7 +801,6 @@ public class Tester {
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
 
-
         public static String print(Object arg)
         {
             return print_r(new java.util.Stack(), arg);
@@ -954,5 +924,4 @@ public class Tester {
         }
     }
 }
-
 

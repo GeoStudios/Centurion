@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * LMUL - Multiply longs
@@ -54,7 +37,6 @@ public class LMUL extends ArithmeticInstruction {
     public LMUL() {
         super(com.sun.org.apache.bcel.internal.Const.LMUL);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

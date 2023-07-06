@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.ArrayDeque;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Collection;
@@ -38,20 +37,6 @@ import java.base.share.classes.java.util.function.IntConsumer;
 import java.base.share.classes.java.util.function.IntFunction;
 import java.base.share.classes.java.util.function.LongConsumer;
 import java.base.share.classes.java.util.function.LongFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory methods for constructing implementations of {@link Node} and

@@ -21,24 +21,10 @@
 
 package compiler.tiered;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jtreg.SkippedException;
 import java.lang.reflect.Executable;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test ConstantGettersTransitionsTest
@@ -55,9 +41,6 @@ import java.util.concurrent.Callable;
  *      -XX:CompileCommand=compileonly,compiler.tiered.ConstantGettersTransitionsTest$ConstantGettersTestCase$TrivialMethods::*
  *      compiler.tiered.ConstantGettersTransitionsTest
  */
-
-
-
 
 public class ConstantGettersTransitionsTest extends LevelTransitionTest {
     public static void main(String[] args) {

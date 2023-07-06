@@ -21,56 +21,6 @@
 
 package build.tools.projectcreator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Util {
 
     static String join(String padder, Vector<String> v) {
@@ -94,7 +44,6 @@ public class Util {
         return sb.toString();
     }
 
-
     static String prefixed_join(String padder, Vector<String> v, boolean quoted) {
         StringBuffer sb = new StringBuffer();
 
@@ -112,7 +61,6 @@ public class Util {
 
         return sb.toString();
     }
-
 
     static String normalize(String file) {
         file = file.replace('\\', '/');

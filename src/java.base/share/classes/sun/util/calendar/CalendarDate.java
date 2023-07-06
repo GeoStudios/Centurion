@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.util.calendar;
 
-
 import java.lang.Cloneable;
 import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>CalendarDate</code> class represents a specific instant
@@ -348,7 +333,6 @@ public abstract class CalendarDate implements Cloneable {
     public boolean isNormalized() {
         return normalized;
     }
-
 
     public boolean isStandardTime() {
         return forceStandardTime;

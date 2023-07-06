@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An object that implements the Enumeration interface generates a
  * series of elements, one at a time. Successive calls to the

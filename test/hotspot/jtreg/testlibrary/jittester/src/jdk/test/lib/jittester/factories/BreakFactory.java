@@ -21,22 +21,8 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.Break;
 import jdk.test.lib.jittester.ProductionFailedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class BreakFactory extends Factory<Break> {
     @Override

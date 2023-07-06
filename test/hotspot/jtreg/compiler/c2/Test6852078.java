@@ -21,24 +21,10 @@
 
 package compiler.c2;
 
-
 import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
 import com.sun.jndi.toolkit.corba.CorbaUtils;
 import java.nio.ByteBuffer;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -50,9 +36,6 @@ import java.util.Hashtable;
  * @ignore 8194310
  * @run main compiler.c2.Test6852078
  */
-
-
-
 
 public class Test6852078 {
 

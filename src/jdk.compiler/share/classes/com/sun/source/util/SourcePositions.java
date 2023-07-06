@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.source.util;
 
-
 import jdk.compiler.share.classes.com.sun.source.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides methods to obtain the position of a Tree within a CompilationUnit.

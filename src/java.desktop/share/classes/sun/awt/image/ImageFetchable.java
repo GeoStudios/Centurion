@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface allows the ImageFetcher class to drive the production
  * of image data in an ImageProducer class by calling the doFetch()

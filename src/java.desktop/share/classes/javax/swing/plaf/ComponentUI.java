@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.desktop.share.classes.javax.accessibility.Accessible;
@@ -30,20 +29,6 @@ import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Insets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base class for all UI delegate objects in the Swing pluggable

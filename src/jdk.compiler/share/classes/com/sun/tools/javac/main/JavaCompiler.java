@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.main;
 
-
 import java.io.*;
 import java.util.Collection;
 import java.util.Collections;
@@ -83,20 +82,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.exte
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;.extended
 import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCModuleDecl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class could be the main entry point for GJC when GJC is used as a
  *  component in a larger software system. It provides operations to
@@ -484,7 +469,6 @@ public class JavaCompiler {
      */
     public boolean sourceOutput;
 
-
     /** Generate code with the LineNumberTable attribute for debugging
      */
     public boolean lineDebugInfo;
@@ -641,7 +625,6 @@ public class JavaCompiler {
         protected boolean keepComments() {
             return keepComments || sourceOutput;
         }
-
 
     /** Parse contents of file.
      *  @param filename     The name of the file to be parsed.

@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Abstraction for simple relative URIs, consisting of a path and an
  * optional fragment. DocLink objects can be created by the constructors

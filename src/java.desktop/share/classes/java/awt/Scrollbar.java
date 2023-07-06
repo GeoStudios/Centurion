@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
 import java.desktop.share.classes.java.awt.event.Adjustmentjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.ScrollbarPeer;
@@ -36,20 +35,6 @@ import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import javax.accessibility.AccessibleValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Scrollbar} class embodies a scroll bar, a
@@ -970,8 +955,6 @@ public class Scrollbar extends Component implements Adjustable, Accessible {
         }
     }
 
-
-
     /**
      * Adds the specified adjustment listener to receive instances of
      * {@code AdjustmentEvent} from this scroll bar.
@@ -1150,7 +1133,6 @@ public class Scrollbar extends Component implements Adjustable, Accessible {
             ",isAdjusting=" + isAdjusting;
     }
 
-
     /* Serialization support.
      */
 
@@ -1224,7 +1206,6 @@ public class Scrollbar extends Component implements Adjustable, Accessible {
           s.readObject();
       }
     }
-
 
 /////////////////
 // Accessibility support

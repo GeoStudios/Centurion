@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.EncryptionKey;
 import java.util.BitSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AuthContext {
     public HostAddress remoteAddress;

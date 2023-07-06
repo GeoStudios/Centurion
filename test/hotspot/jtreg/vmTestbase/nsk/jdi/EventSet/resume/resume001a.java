@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventSet.resume;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the resume001 JDI test.
@@ -91,7 +77,6 @@ public class resume001a {
         log = argHandler.createDebugeeLog();
 
         log1("debuggee started!");
-
 
         label0:
         for (int i = 0; ; i++) {

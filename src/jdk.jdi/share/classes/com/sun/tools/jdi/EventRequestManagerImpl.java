@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
@@ -56,20 +55,6 @@ import jdk.jdi.share.classes.com.sun.jdi.request.ThreadDeathRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.ThreadStartRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.VMDeathRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.WatchpointRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface is used to create and remove Breakpoints, Watchpoints,

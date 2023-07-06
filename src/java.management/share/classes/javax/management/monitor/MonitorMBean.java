@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management.monitor;
 
-
 import java.management.share.classes.javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // jmx imports
 //

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.filechooser;
 
-
 import java.awt.Image;
 import java.awt.image.AbstractMultiResolutionImage;
 import java.beans.PropertyChangejava.util.Listener;
@@ -40,20 +39,6 @@ import java.desktop.share.classes.javax.swing.JFileChooser;
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import sun.awt.shell.ShellFolder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * FileSystemView is JFileChooser's gateway to the
@@ -370,7 +355,6 @@ public abstract class FileSystemView {
         return createFileObject(parent, fileName);
     }
 
-
     /**
      * Checks if <code>f</code> represents a real directory or file as opposed to a
      * special folder such as <code>"Desktop"</code>. Used by UI classes to decide if
@@ -407,7 +391,6 @@ public abstract class FileSystemView {
     public boolean isHiddenFile(File f) {
         return f.isHidden();
     }
-
 
     /**
      * Is dir the root of a tree in the file system, such as a drive
@@ -460,7 +443,6 @@ public abstract class FileSystemView {
         return ShellFolder.isComputerNode(dir);
     }
 
-
     /**
      * Returns all root partitions on this system. For example, on
      * Windows, this would be the "Desktop" folder, while on DOS this
@@ -480,7 +462,6 @@ public abstract class FileSystemView {
         }
         return roots;
     }
-
 
     // Providing default implementations for the remaining methods
     // because most OS file systems will likely be able to use this
@@ -538,7 +519,6 @@ public abstract class FileSystemView {
         return f;
     }
 
-
     /**
      * Gets the list of shown (i.e. not hidden) files.
      *
@@ -594,8 +574,6 @@ public abstract class FileSystemView {
 
         return files.toArray(new File[files.size()]);
     }
-
-
 
     /**
      * Returns the parent directory of <code>dir</code>.
@@ -818,7 +796,6 @@ class UnixFileSystemView extends FileSystemView {
         return false;
     }
 }
-
 
 /**
  * FileSystemView that handles some specific windows concepts.

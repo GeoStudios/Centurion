@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -61,14 +43,12 @@ public final class ConstantPackage extends Constant implements ConstantObject {
 
     private int nameIndex;
 
-
     /**
      * Initialize from another object.
      */
     public ConstantPackage(final ConstantPackage c) {
         this(c.getNameIndex());
     }
-
 
     /**
      * Initialize instance from file data.
@@ -80,7 +60,6 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         this(file.readUnsignedShort());
     }
 
-
     /**
      * @param nameIndex Name index in constant pool.  Should refer to a
      * ConstantUtf8.
@@ -89,7 +68,6 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         super(Const.CONSTANT_Package);
         this.nameIndex = nameIndex;
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitly
@@ -103,7 +81,6 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         v.visitConstantPackage(this);
     }
 
-
     /**
      * Dump constant package to file stream in binary format.
      *
@@ -116,7 +93,6 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         file.writeShort(nameIndex);
     }
 
-
     /**
      * @return Name index in constant pool of package name.
      */
@@ -124,14 +100,12 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         return nameIndex;
     }
 
-
     /**
      * @param nameIndex the name index in the constant pool of this Constant Package
      */
     public void setNameIndex( final int nameIndex ) {
         this.nameIndex = nameIndex;
     }
-
 
     /** @return String object
      */
@@ -141,13 +115,11 @@ public final class ConstantPackage extends Constant implements ConstantObject {
         return ((ConstantUtf8) c).getBytes();
     }
 
-
     /** @return dereferenced string
      */
     public String getBytes( final ConstantPool cp ) {
         return (String) getConstantValue(cp);
     }
-
 
     /**
      * @return String representation.

@@ -21,7 +21,6 @@
 
 package nsk.jdi.Argument.setValue;
 
-
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -35,19 +34,6 @@ import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.Argument;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The test for the implementation of an object of the type <BR>
  * Connector.Argument. <BR>
@@ -59,7 +45,6 @@ import com.sun.jdi.connect.Connector.Argument;
  * if a parameter is null-string.                               <BR>
  * <BR>
  */
-
 
 public class setvalue001 {
 

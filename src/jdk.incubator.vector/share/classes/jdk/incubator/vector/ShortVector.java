@@ -21,7 +21,6 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
@@ -37,20 +36,6 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -1576,8 +1561,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
         return lanewise(OR, e);
     }
 
-
-
     /// UNARY METHODS
 
     /**
@@ -1630,7 +1613,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
     public final ShortVector not() {
         return lanewise(NOT);
     }
-
 
     /// COMPARISONS
 
@@ -1875,8 +1857,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
     VectorMask<Short> compare(Comparison op, long e, VectorMask<Short> m) {
         return compare(op, broadcast(e), m);
     }
-
-
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -2336,7 +2316,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
     ShortVector bitwiseBlend(Vector<Short> bits, short mask) {
         return lanewise(BITWISE_BLEND, bits, mask);
     }
-
 
     // Type specific horizontal reductions
 
@@ -3008,7 +2987,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
         return vsp.vOp(m, n -> (short) a[offset + indexMap[mapOffset + n]]);
     }
 
-
     /**
      * Loads a vector from a {@linkplain ByteBuffer byte buffer}
      * starting at an offset into the byte buffer.
@@ -3411,7 +3389,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
              });
     }
 
-
     /**
      * {@inheritDoc} <!--workaround-->
      */
@@ -3532,7 +3509,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
             (arr, off, s) -> s.ldOp(arr, off,
                                     (arr_, off_, i) -> (short) arr_[off_ + i]));
     }
-
 
     @Override
     abstract
@@ -3676,7 +3652,6 @@ public abstract class ShortVector extends AbstractVector<Short> {
     static long charArrayAddress(char[] a, int index) {
         return ARRAY_CHAR_BASE + (((long)index) << ARRAY_CHAR_SHIFT);
     }
-
 
     @ForceInline
     static long byteArrayAddress(byte[] a, int index) {

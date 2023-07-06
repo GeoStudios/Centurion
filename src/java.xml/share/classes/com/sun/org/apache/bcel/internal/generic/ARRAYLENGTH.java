@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ARRAYLENGTH -  Get length of array
@@ -53,7 +38,6 @@ public class ARRAYLENGTH extends Instruction
         super(com.sun.org.apache.bcel.internal.Const.ARRAYLENGTH, (short) 1);
     }
 
-
     /** @return exceptions this instruction may cause
      */
     @Override
@@ -62,7 +46,6 @@ public class ARRAYLENGTH extends Instruction
             ExceptionConst.NULL_POINTER_EXCEPTION
         };
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

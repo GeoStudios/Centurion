@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import java.net.FileNameMap;
 import java.net.URLConnection;
 import java.nio.file.Path;
 import java.nio.file.spi.FileTypeDetector;
 import java.base.share.classes.java.util.Locale;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of FileTypeDetector

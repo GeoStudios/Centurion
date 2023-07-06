@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Conditional is used by the EventDispatchThread's message pumps to
  * determine if a given pump should continue to run, or should instead exit

@@ -21,23 +21,9 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.data.method.Method;
 import vm.runtime.defmeth.shared.data.method.result.Result;
 import vm.runtime.defmeth.shared.data.method.body.CallMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a single test assertion checker.

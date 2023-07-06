@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventSet.suspendPolicy;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -204,7 +190,6 @@ public class suspendpolicy016 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -251,7 +236,6 @@ public class suspendpolicy016 extends JDIBase {
             vm.exit(PASS_BASE);
             return;
         }
-
 
         eventRManager = vm.eventRequestManager();
 
@@ -323,7 +307,6 @@ public class suspendpolicy016 extends JDIBase {
         log1("    TESTING ENDS");
         return;
     }
-
 
     // ============================== test's additional methods
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio;
 
-
 import java.base.share.classes.java.io.FileDescriptor;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.base.share.classes.java.lang.ref.Reference;
@@ -30,20 +29,6 @@ import jdk.internal.access.foreign.MemorySegmentProxy;
 import jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.ScopedMemoryAccess;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A direct byte buffer whose content is a memory-mapped region of a file.

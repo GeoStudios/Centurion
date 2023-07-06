@@ -21,26 +21,11 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import javax.swing.JMenuItem;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Accessor interface for WindowsMenuItemUI to allow for "multiple implementation

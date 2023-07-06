@@ -21,26 +21,10 @@
 
 package jdk.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Used with -p or --upgrade-module-path to exercise the replacement
  * of classes in modules that are linked into the runtime image.
  */
-
 
 public class Main {
     static final ClassLoader PLATFORM_LOADER = ClassLoader.getPlatformClassLoader();

@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-
 import java.base.share.classes.java.util.Objects;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.DebugInfo;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.InvokeTarget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a call in the code.

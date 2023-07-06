@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.annotation.Annotation;
 import java.base.share.classes.java.lang.reflect.AnnotatedElement;
 import java.base.share.classes.java.net.MalformedURLException;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents metadata about a run-time package associated with a class loader.

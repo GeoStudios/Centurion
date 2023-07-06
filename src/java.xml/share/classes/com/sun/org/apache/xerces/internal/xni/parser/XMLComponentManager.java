@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The component manager manages a parser configuration and the components

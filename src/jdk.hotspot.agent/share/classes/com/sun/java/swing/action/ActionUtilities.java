@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
-
 import javax.swing.ImageIcon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ActionUtilities
 {

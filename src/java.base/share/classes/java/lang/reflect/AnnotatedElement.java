@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
 import java.base.share.classes.java.lang.annotation.Annotation;
 import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
 import java.base.share.classes.java.lang.annotation.Repeatable;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.stream.Collectors;
 import sun.reflect.annotation.AnnotationSupport;
 import sun.reflect.annotation.AnnotationType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an annotated construct of the program currently running

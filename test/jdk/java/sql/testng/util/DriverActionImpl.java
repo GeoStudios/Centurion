@@ -21,21 +21,7 @@
 
 package util;
 
-
 import java.sql.DriverAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple implementation of DriverAction which calls back into the Driver when

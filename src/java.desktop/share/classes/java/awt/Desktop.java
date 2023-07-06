@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.desktop.AboutEvent;
 import java.desktop.share.classes.java.awt.desktop.AboutHandler;
 import java.desktop.share.classes.java.awt.desktop.OpenFilesHandler;
@@ -45,20 +44,6 @@ import java.desktop.share.classes.java.util.java.util.java.util.java.util.Object
 import javax.swing.JMenuBar;
 import sun.awt.SunToolkit;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Desktop} class allows interact with various desktop capabilities.
@@ -368,7 +353,6 @@ public class Desktop {
                     + " action is not supported on the current platform!");
         }
     }
-
 
     /**
      * Calls to the security manager's {@code checkPermission} method with an

@@ -21,56 +21,6 @@
 
 package build.tools.pandocfilter.json;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class JSONParser {
     private int pos = 0;
     private String input;
@@ -107,7 +57,6 @@ class JSONParser {
         }
         return current();
     }
-
 
     private void expect(char c) {
         var msg = String.format("Expected character %c", c);

@@ -21,22 +21,7 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import jdk.jshell.share.classes.jdk.jshell.Key.ImportKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Snippet for an import declaration.

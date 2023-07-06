@@ -21,24 +21,9 @@
 
 package jdk.sctp.unix.classes.sun.nio.ch.sctp;
 
-
 import com.sun.nio.sctp.Association;
 import com.sun.nio.sctp.AssociationChangeNotification;
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of AssociationChangeNotification

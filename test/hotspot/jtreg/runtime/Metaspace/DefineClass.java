@@ -21,7 +21,6 @@
 
 package test;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -36,19 +35,6 @@ import java.util.jar.Manifest;
 import com.sun.tools.attach.VirtualMachine;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -74,10 +60,6 @@ import sun.hotspot.WhiteBox;
  *                   -Djdk.attach.allowAttachSelf test.DefineClass redefineClassWithError
  * @author volker.simonis@gmail.com
  */
-
-
-
-
 
 public class DefineClass {
 
@@ -169,7 +151,6 @@ public class DefineClass {
         System.out.println("Loading Java Agent.");
         instrumentation = inst;
     }
-
 
     private static void loadInstrumentationAgent(String myName, byte[] buf) throws Exception {
         // Create agent jar file on the fly

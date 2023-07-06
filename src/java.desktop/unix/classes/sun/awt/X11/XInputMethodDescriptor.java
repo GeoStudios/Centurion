@@ -21,23 +21,8 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.im.spi.InputMethod;
 import java.desktop.unix.classes.sun.awt.X11InputMethodDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class XInputMethodDescriptor extends X11InputMethodDescriptor {
 

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.lang.ref.ReferenceQueue;
@@ -32,20 +31,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ImageCache - A fixed pixel count sized cache of Images keyed by arbitrary set of arguments. All images are held with
@@ -69,7 +54,6 @@ class ImageCache {
     private final ReferenceQueue<Image> referenceQueue = new ReferenceQueue<Image>();
     // Singleton Instance
     private static final ImageCache instance = new ImageCache();
-
 
     /** Get static singleton instance */
     static ImageCache getInstance() {
@@ -195,7 +179,6 @@ class ImageCache {
         hash = 31 * hash + Arrays.deepHashCode(args);
         return hash;
     }
-
 
     /** Extended SoftReference that stores the pixel count even after the image is lost */
     private static class PixelCountSoftReference extends SoftReference<Image> {

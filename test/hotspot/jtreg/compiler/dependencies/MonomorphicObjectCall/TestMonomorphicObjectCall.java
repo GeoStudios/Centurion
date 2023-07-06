@@ -21,21 +21,6 @@
 
 package compiler.dependencies.MonomorphicObjectCall;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8050079
@@ -48,7 +33,6 @@ package compiler.dependencies.MonomorphicObjectCall;
  *                   -XX:CompileCommand=compileonly,java.lang.Object::finalizeObject
  *                   compiler.dependencies.MonomorphicObjectCall.TestMonomorphicObjectCall
  */
-
 
 public class TestMonomorphicObjectCall {
 

@@ -21,21 +21,7 @@
 
 package compiler.vectorization;
 
-
 import java.util.stream.IntStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import java.util.stream.IntStream;
  *
  * @run main/othervm -XX:CompileCommand=option,*::test,Vectorize compiler.vectorization.TestOptionVectorize
  */
-
-
 
 public class TestOptionVectorize {
     static final int RANGE = 512;

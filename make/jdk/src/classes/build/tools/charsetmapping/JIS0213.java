@@ -21,56 +21,6 @@
 
 package build.tools.charsetmapping;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class JIS0213 {
 
     // regex pattern to parse the "jis0213.map" file

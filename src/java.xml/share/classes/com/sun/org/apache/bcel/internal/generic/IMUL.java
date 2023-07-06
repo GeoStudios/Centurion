@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IMUL - Multiply ints
@@ -55,7 +38,6 @@ public class IMUL extends ArithmeticInstruction {
     public IMUL() {
         super(com.sun.org.apache.bcel.internal.Const.IMUL);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

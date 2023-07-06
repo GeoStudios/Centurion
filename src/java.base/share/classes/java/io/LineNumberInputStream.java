@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is an input stream filter that provides the added
  * functionality of keeping track of the current line number.
@@ -226,7 +210,6 @@ public class LineNumberInputStream extends FilterInputStream {
     public int getLineNumber() {
         return lineNumber;
     }
-
 
     /**
      * Returns the number of bytes that can be read from this input

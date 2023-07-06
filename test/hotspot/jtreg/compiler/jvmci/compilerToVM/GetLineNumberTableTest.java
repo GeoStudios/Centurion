@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.TestCase;
 import jdk.test.lib.Asserts;
@@ -30,19 +29,6 @@ import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 import java.lang.reflect.Executable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -64,9 +50,6 @@ import java.util.Map;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetLineNumberTableTest
  */
-
-
-
 
 public class GetLineNumberTableTest {
     public static void main(String[] args) {

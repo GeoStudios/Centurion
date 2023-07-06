@@ -21,24 +21,9 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.compiler.share.classes.javax.lang.model.type.TypeMirror;
 import java.compiler.share.classes.javax.lang.model.type.TypeVariable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a formal type parameter of a generic class, interface, method,

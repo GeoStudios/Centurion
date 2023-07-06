@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Super class for the family of arithmetic instructions.
@@ -59,14 +42,12 @@ public abstract class ArithmeticInstruction extends Instruction implements Typed
     ArithmeticInstruction() {
     }
 
-
     /**
      * @param opcode of instruction
      */
     protected ArithmeticInstruction(final short opcode) {
         super(opcode, (short) 1);
     }
-
 
     /** @return type associated with the instruction
      */

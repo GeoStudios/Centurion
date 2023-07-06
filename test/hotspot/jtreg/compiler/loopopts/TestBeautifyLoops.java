@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8240576
@@ -44,7 +29,6 @@ package compiler.loopopts;
  * @run main/othervm -XX:-TieredCompilation -XX:-BackgroundCompilation
  *      compiler.loopopts.TestBeautifyLoops
  */
-
 
 public class TestBeautifyLoops {
     private int mI = 0;

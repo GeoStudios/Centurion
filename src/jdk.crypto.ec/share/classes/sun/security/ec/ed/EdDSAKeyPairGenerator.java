@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.InvalidParameterException;
@@ -37,22 +36,7 @@ import java.base.share.classes.java.util.Arrays;
 import jdk.crypto.ec.share.classes.sun.security.jca.JCAUtil;
 import jdk.crypto.ec.share.classes.sun.security.util.SecurityProviderConstants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //import java.base.share.classes.java.security.*;
-
 
 /**
  * Key pair generator for the EdDSA signature algorithm.
@@ -118,7 +102,6 @@ public class EdDSAKeyPairGenerator extends KeyPairGeneratorSpi {
         }
         this.random = random == null ? JCAUtil.getSecureRandom() : random;
     }
-
 
     @Override
     public KeyPair generateKeyPair() {

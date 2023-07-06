@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.net.java.net.java.net.java.net.Socket;
 import java.base.share.classes.java.security.*;
 import java.security.cert.*;
@@ -31,20 +30,6 @@ import javax.net.ssl.*;
 import java.base.share.classes.sun.security.util.AnchorCertificates;
 import java.base.share.classes.sun.security.util.HostnameChecker;
 import java.base.share.classes.sun.security.validator.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the SunJSSE X.509 trust manager using the internal

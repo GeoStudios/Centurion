@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.desktop.unix.classes.sun.awt.UNIXToolkit;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -32,20 +31,6 @@ import java.awt.peer.DesktopPeer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the interface {@code DesktopPeer} for

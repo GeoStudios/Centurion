@@ -21,22 +21,8 @@
 
 package nsk.share.locks;
 
-
 import nsk.share.Consts;
 import nsk.share.Wicket;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class used for deadlock creation, acquires lock using JNI MonitorEnter

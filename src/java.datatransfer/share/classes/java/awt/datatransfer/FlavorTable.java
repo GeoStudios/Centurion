@@ -21,22 +21,7 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FlavorMap which relaxes the traditional 1-to-1 restriction of a Map. A

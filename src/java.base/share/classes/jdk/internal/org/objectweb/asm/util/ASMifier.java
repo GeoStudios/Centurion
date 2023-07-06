@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.base.share.classes.java.util.Arrays;
@@ -36,20 +35,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link Printer} that prints the ASM code to generate the classes if visits.

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.java.awt.AWTEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The listener interface for receiving notification of events

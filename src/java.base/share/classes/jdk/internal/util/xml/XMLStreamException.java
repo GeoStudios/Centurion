@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.xml;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A copy of the StAX XMLStreamException without Location support
  *
@@ -49,7 +33,6 @@ package java.base.share.classes.jdk.internal.util.xml;
 public class XMLStreamException extends Exception {
     @java.io.Serial
     private static final long serialVersionUID = 1L;
-
 
     protected Throwable nested;
 

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
-
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *   DrawGlyphListLCD- loops for LCDTextRenderer pipe

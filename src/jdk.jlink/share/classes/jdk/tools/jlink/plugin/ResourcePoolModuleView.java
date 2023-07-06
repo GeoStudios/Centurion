@@ -21,24 +21,9 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The module view of a ResourcePool.

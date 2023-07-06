@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.nio.BufferUnderflowException;
@@ -37,20 +36,6 @@ import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
 import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
 import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
 import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for Java programming language annotations.  Translates

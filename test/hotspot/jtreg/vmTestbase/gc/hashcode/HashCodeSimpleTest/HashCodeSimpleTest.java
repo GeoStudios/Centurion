@@ -21,23 +21,9 @@
 
 package gc.hashcode.HashCodeSimpleTest;
 
-
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.ThreadedGCTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,8 +43,6 @@ import nsk.share.gc.ThreadedGCTest;
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeSimpleTest.HashCodeSimpleTest
  */
 
-
-
 /**
  * Hash code regressiontests.
  */
@@ -67,8 +51,6 @@ public class HashCodeSimpleTest extends ThreadedGCTest {
     @Override
     protected Runnable createRunnable(int i) {
 
-
-
         /**
          * Test verifies that VM provided hashcodes are constant over invocations.
          * @return success if the test passes
@@ -76,7 +58,6 @@ public class HashCodeSimpleTest extends ThreadedGCTest {
          */
         return new Runnable() {
             long counter = 0;
-
 
             @Override
             public void run() {
@@ -95,7 +76,6 @@ public class HashCodeSimpleTest extends ThreadedGCTest {
                 if (counter++ % 1000000 == 0) {
                     log.info(counter / 1000000 + " million hashcodes verified");
                 }
-
 
             }
         };

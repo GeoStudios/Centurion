@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.configuration;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *    What reference should we keep if we want class to be collected
  *

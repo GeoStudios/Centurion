@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -30,20 +29,6 @@ import jdk.internal.util.StaticProperty;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.security.util.SecurityProviderConstants;
 import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getAliases;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines the entries of the SUN provider.
@@ -263,7 +248,6 @@ public final class SunEntries {
                 "sun.security.provider.JavaKeyStore$CaseExactJKS", attrs);
         add(p, "KeyStore", "DKS", "sun.security.provider.DomainKeyStore$DKS",
                 attrs);
-
 
         /*
          * CertStores

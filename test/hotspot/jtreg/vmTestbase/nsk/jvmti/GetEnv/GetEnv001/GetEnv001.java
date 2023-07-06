@@ -21,22 +21,8 @@
 
 package nsk.jvmti.GetEnv.GetEnv001;
 
-
 import nsk.share.Consts;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,8 +43,6 @@ import java.io.PrintStream;
  *          /test/lib
  * @run main/othervm/native -agentlib:GetEnv001 nsk.jvmti.GetEnv.GetEnv001.GetEnv001
  */
-
-
 
 public class GetEnv001 {
     native private static int getLoadedClassesCount();

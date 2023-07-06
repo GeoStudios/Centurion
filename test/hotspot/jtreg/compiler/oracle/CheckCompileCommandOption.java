@@ -21,23 +21,9 @@
 
 package compiler.oracle;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test CheckCompileCommandOption
@@ -50,9 +36,6 @@ import java.io.File;
  * @requires vm.debug == true
  * @run driver compiler.oracle.CheckCompileCommandOption
  */
-
-
-
 
 public class CheckCompileCommandOption {
 
@@ -302,7 +285,6 @@ public class CheckCompileCommandOption {
         out.shouldHaveExitValue(0);
 
     }
-
 
     public static void main(String[] args) throws Exception {
 

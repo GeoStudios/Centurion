@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -35,20 +34,6 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Default implementation of ExtendedTextLabel.
@@ -115,7 +100,6 @@ class ExtendedTextSourceLabel extends ExtendedTextLabel implements Decoration.La
       cm = CoreMetrics.get(lm);
     }
   }
-
 
   // TextLabel API
 
@@ -905,7 +889,6 @@ class ExtendedTextSourceLabel extends ExtendedTextLabel implements Decoration.La
   public int getNumJustificationInfos() {
     return getGV().getNumGlyphs();
   }
-
 
   public void getJustificationInfos(GlyphJustificationInfo[] infos, int infoStart, int charStart, int charLimit) {
     // This simple implementation only uses spaces for justification.

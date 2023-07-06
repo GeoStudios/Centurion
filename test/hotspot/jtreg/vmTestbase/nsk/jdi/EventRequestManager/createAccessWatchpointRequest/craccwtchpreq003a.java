@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequestManager.createAccessWatchpointRequest;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the craccwtchpreq003 JDI test.

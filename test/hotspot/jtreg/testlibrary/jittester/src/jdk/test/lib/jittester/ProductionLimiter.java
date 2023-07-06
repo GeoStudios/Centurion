@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // an utility class to limit steps in the production of an expression
 public class ProductionLimiter {
 

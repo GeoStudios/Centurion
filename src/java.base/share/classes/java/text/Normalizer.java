@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.text;
 
-
 import jdk.internal.icu.text.NormalizerBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the method {@code normalize} which transforms Unicode

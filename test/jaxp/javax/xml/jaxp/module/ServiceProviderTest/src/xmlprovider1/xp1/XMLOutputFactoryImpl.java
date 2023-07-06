@@ -21,7 +21,6 @@
 
 package xp1;
 
-
 import java.io.OutputStream;
 import java.io.Writer;
 import javax.xml.stream.XMLEventWriter;
@@ -29,19 +28,6 @@ import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.Result;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XMLOutputFactoryImpl extends XMLOutputFactory {
 

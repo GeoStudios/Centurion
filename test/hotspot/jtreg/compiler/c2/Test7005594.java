@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7005594
@@ -45,7 +30,6 @@ package compiler.c2;
                      -XX:CompileOnly=compiler.c2.Test7005594::test
                      compiler.c2.Test7005594
  */
-
 
 public class Test7005594 {
     static int test(byte a[]){

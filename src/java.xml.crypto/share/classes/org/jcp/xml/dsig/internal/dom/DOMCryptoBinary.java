@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.math.BigInteger;
 import javax.xml.crypto.*;
 import javax.xml.crypto.dom.DOMCryptoContext;
@@ -29,27 +28,10 @@ import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.org.w3c.dom.Text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * A DOM-based representation of the XML {@code CryptoBinary} simple type

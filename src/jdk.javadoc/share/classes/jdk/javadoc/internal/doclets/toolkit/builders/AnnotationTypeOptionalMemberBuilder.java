@@ -21,27 +21,12 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import javax.lang.model.element.TypeElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AnnotationTypeOptionalMemberWriter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AnnotationTypeRequiredMemberWriter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builds documentation for optional annotation type members.
@@ -65,7 +50,6 @@ public class AnnotationTypeOptionalMemberBuilder extends AnnotationTypeRequiredM
             AnnotationTypeOptionalMemberWriter writer) {
         super(context, typeElement, writer, ANNOTATION_TYPE_MEMBER_OPTIONAL);
     }
-
 
     /**
      * Construct a new AnnotationTypeMemberBuilder.

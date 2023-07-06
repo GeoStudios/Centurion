@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * D2F - Convert double to float
@@ -55,7 +38,6 @@ public class D2F extends ConversionInstruction {
     public D2F() {
         super(com.sun.org.apache.bcel.internal.Const.D2F);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

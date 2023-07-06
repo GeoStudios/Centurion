@@ -21,24 +21,9 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.url.dns;
 
-
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.spi.ObjectFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A DNS URL context factory creates contexts that can resolve names
@@ -48,7 +33,6 @@ import javax.naming.spi.ObjectFactory;
  * See com.sun.jndi.dns.DnsUrl for a description of the URL format.
  *
  */
-
 
 public class dnsURLContextFactory implements ObjectFactory {
 

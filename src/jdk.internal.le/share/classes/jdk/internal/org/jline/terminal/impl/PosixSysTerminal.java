@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -37,20 +36,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingRea
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.ShutdownHooks;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.ShutdownHooks.Task;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Signals;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PosixSysTerminal extends AbstractPosixTerminal {
 

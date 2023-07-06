@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a thread transfering bytes from

@@ -21,22 +21,8 @@
 
 package compiler.eliminateAutobox;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,7 +34,6 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.eliminateAutobox.TestEliminateBoxInDebugInfo
  */
-
 
 public class TestEliminateBoxInDebugInfo {
     public static void runTest() throws Exception {

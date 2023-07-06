@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -38,20 +37,6 @@ import jdk.jdi.share.classes.com.sun.jdi.connect.LaunchingConnector;
 import jdk.jdi.share.classes.com.sun.jdi.connect.VMStartException;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class AbstractLauncher extends ConnectorImpl
                                 implements LaunchingConnector

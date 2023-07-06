@@ -21,24 +21,10 @@
 
 package nsk.share.gc.gp.array;
 
-
 import nsk.share.test.LocalRandom;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.Memory;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * GarbageProducer implementation that produces short arrays.

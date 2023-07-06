@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.ref.SoftReference;
 import java.desktop.share.classes.java.lang.ref.WeakReference;
 import java.desktop.share.classes.java.lang.reflect.Method;
 import static sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class MethodRef {
     private String signature;

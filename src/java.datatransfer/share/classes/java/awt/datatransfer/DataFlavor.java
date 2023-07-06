@@ -21,7 +21,6 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.io.ByteArrayInputStream;
 import java.datatransfer.share.classes.java.io.CharArrayReader;
 import java.datatransfer.share.classes.java.io.Externalizable;
@@ -42,20 +41,6 @@ import java.datatransfer.share.classes.java.util.Collections;
 import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.datatransfer.DataFlavorUtil;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code DataFlavor} provides meta information about data. {@code DataFlavor}

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertPathValidatorException;
@@ -39,20 +38,6 @@ import java.base.share.classes.sun.security.x509.GeneralName;
 import java.base.share.classes.sun.security.x509.GeneralNameInterface;
 import java.base.share.classes.sun.security.x509.X500Name;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A specification of a forward PKIX validation state
@@ -80,7 +65,6 @@ class ForwardState implements State {
 
     /* Flag indicating if state is initial (path is just starting) */
     private boolean init = true;
-
 
     /* the untrusted certificates checker */
     UntrustedChecker untrustedChecker;

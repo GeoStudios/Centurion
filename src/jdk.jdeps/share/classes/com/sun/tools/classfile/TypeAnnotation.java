@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.TypeAnnotation.Position.TypePathEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JSR 308 specification, Section 3.

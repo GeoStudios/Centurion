@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface SectionFlags {
   /** Reserved for future use. */
   int IMAGE_SCN_TYPE_REG = 0x00000000;

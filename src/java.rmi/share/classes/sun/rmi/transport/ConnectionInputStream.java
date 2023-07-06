@@ -21,27 +21,12 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.*;
 import java.util.*;
 import java.rmi.RemoteException;
 import java.rmi.server.UID;
 import java.rmi.share.classes.sun.rmi.server.MarshalInputStream;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Special stream to keep track of refs being unmarshaled so that

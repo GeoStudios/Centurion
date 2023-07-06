@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.io.*;
 import java.base.share.classes.java.security.PublicKey;
 import java.util.*;
@@ -38,20 +37,6 @@ import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.Cache;
 import java.util.Base64;
 import java.base.share.classes.sun.security.pkcs.ParsingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines a certificate factory for X.509 v3 certificates {@literal &}

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -56,20 +55,6 @@ import java.desktop.share.classes.javax.swing.colorchooser.ColorSelectionModel;
 import java.desktop.share.classes.javax.swing.colorchooser.DefaultColorSelectionModel;
 import java.desktop.share.classes.javax.swing.plaf.ColorChooserUI;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JColorChooser</code> provides a pane of controls designed to allow
@@ -141,7 +126,6 @@ public class JColorChooser extends JComponent implements Accessible {
      * The chooserPanel array property name.
      */
     public static final String      CHOOSER_PANELS_PROPERTY = "chooserPanels";
-
 
     /**
      * Shows a modal color-chooser dialog and blocks until the
@@ -472,7 +456,6 @@ public class JColorChooser extends JComponent implements Accessible {
      */
     public AbstractColorChooserPanel removeChooserPanel( AbstractColorChooserPanel panel ) {
 
-
         int containedAt = -1;
 
         for (int i = 0; i < chooserPanels.length; i++) {
@@ -503,7 +486,6 @@ public class JColorChooser extends JComponent implements Accessible {
 
         return panel;
     }
-
 
     /**
      * Specifies the Color Panels used to choose a color value.
@@ -537,7 +519,6 @@ public class JColorChooser extends JComponent implements Accessible {
         return selectionModel;
     }
 
-
     /**
      * Sets the model containing the selected color.
      *
@@ -550,7 +531,6 @@ public class JColorChooser extends JComponent implements Accessible {
         selectionModel = newModel;
         firePropertyChange(JColorChooser.SELECTION_MODEL_PROPERTY, oldModel, newModel);
     }
-
 
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
@@ -568,7 +548,6 @@ public class JColorChooser extends JComponent implements Accessible {
             }
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JColorChooser</code>.
@@ -646,7 +625,6 @@ public class JColorChooser extends JComponent implements Accessible {
 
     } // inner class AccessibleJColorChooser
 }
-
 
 /*
  * Class which builds a color chooser dialog consisting of

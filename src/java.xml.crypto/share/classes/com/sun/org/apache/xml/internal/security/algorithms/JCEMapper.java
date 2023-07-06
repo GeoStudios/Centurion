@@ -21,35 +21,16 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
 
-
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignature;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * This class maps algorithm identifier URIs to JAVA JCE class names.

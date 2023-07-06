@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.AWTEvent;
 import java.awt.Component;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Sent when one of the following events occur on the grabbed window: <ul>

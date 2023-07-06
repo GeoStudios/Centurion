@@ -21,22 +21,7 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
 import java.compiler.share.classes.javax.lang.model.UnknownEntityException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates that an unknown kind of module directive was encountered.

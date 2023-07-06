@@ -21,24 +21,10 @@
 
 package java.lang;
 
-
 import java.lang.invoke.*;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.InvocationTargetException;
 import static java.lang.invoke.MethodType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Verify that a Lookup object can be obtained statically from java.base

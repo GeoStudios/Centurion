@@ -21,7 +21,6 @@
 
 package nsk.jdi.LocalVariable.isVisible;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -165,7 +151,6 @@ public class isvisible001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -232,7 +217,6 @@ public class isvisible001 {
             LocalVariable l_i3 = null;
 
             int expresult = returnCode0;
-
 
             label0: {
 
@@ -355,7 +339,6 @@ public class isvisible001 {
                 if (expresult != returnCode0)
                        break label2;
 
-
                 log2("      checkin up: l_i0.isVisible(stackFrame1);   expected: true");
                 try {
                     if (!l_i0.isVisible(stackFrame1)) {
@@ -463,7 +446,6 @@ public class isvisible001 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -519,7 +501,6 @@ public class isvisible001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

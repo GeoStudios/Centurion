@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.auth.callback;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p> Underlying security services instantiate and pass a
  * {@code PasswordCallback} to the {@code handle}

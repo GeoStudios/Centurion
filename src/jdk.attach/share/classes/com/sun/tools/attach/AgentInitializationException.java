@@ -21,22 +21,6 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The exception thrown when an agent fails to initialize in the target
  * Java virtual machine.

@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.Dialog;
 import java.awt.DisplayMode;
 import java.awt.Frame;
@@ -43,20 +42,6 @@ import java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_DEVICE_OK;.extended
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_EMPTY;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements D3D-specific functionality, such as fullscreen

@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Notification of a breakpoint in the target VM.

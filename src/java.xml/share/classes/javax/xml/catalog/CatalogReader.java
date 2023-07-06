@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.io.StringReader;
 import java.xml.share.classes.javax.xml.catalog.BaseEntry.CatalogEntryType;
 import java.xml.share.classes.javax.xml.parsers.SAXParser;
@@ -34,20 +33,6 @@ import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CatalogReader handles SAX events while parsing through a catalog file to
@@ -116,7 +101,6 @@ class CatalogReader extends DefaultHandler implements EntityResolver, URIResolve
             ignoreTheCatalog = true;
             return;
         }
-
 
         CatalogEntryType type = CatalogEntryType.getType(localName);
         if (type == null) {
@@ -249,7 +233,6 @@ class CatalogReader extends DefaultHandler implements EntityResolver, URIResolve
             inGroup = false;
         }
     }
-
 
     /**
      * Skips external DTD since resolving external DTD is not required

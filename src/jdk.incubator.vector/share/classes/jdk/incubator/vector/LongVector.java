@@ -21,7 +21,6 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
@@ -37,20 +36,6 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -487,7 +472,6 @@ public abstract class LongVector extends AbstractVector<Long> {
         return vsp.broadcast(e);
     }
 
-
     // Unary lanewise support
 
     /**
@@ -705,7 +689,6 @@ public abstract class LongVector extends AbstractVector<Long> {
                                   VectorMask<Long> m) {
         return blend(lanewise(op, e), m);
     }
-
 
     /*package-private*/
     abstract LongVector
@@ -1493,8 +1476,6 @@ public abstract class LongVector extends AbstractVector<Long> {
         return lanewise(OR, e);
     }
 
-
-
     /// UNARY METHODS
 
     /**
@@ -1547,7 +1528,6 @@ public abstract class LongVector extends AbstractVector<Long> {
     public final LongVector not() {
         return lanewise(NOT);
     }
-
 
     /// COMPARISONS
 
@@ -1768,7 +1748,6 @@ public abstract class LongVector extends AbstractVector<Long> {
         return compare(op, e).and(m);
     }
 
-
     /**
      * {@inheritDoc} <!--workaround-->
      */
@@ -1834,7 +1813,6 @@ public abstract class LongVector extends AbstractVector<Long> {
                                             VectorMask<Long> m) {
         return blend(broadcast(e), m);
     }
-
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -2206,7 +2184,6 @@ public abstract class LongVector extends AbstractVector<Long> {
     LongVector bitwiseBlend(Vector<Long> bits, long mask) {
         return lanewise(BITWISE_BLEND, bits, mask);
     }
-
 
     // Type specific horizontal reductions
 
@@ -2756,8 +2733,6 @@ public abstract class LongVector extends AbstractVector<Long> {
         }
     }
 
-
-
     /**
      * Loads a vector from a {@linkplain ByteBuffer byte buffer}
      * starting at an offset into the byte buffer.
@@ -2982,7 +2957,6 @@ public abstract class LongVector extends AbstractVector<Long> {
                 .add(offset);
         }
 
-
         vix = VectorIntrinsics.checkIndex(vix, a.length);
 
         VectorSupport.storeWithMap(
@@ -3046,8 +3020,6 @@ public abstract class LongVector extends AbstractVector<Long> {
                  });
         }
     }
-
-
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -3154,8 +3126,6 @@ public abstract class LongVector extends AbstractVector<Long> {
             (arr, off, s) -> s.ldOp(arr, off,
                                     (arr_, off_, i) -> arr_[off_ + i]));
     }
-
-
 
     @Override
     abstract
@@ -3289,8 +3259,6 @@ public abstract class LongVector extends AbstractVector<Long> {
     static long arrayAddress(long[] a, int index) {
         return ARRAY_BASE + (((long)index) << ARRAY_SHIFT);
     }
-
-
 
     @ForceInline
     static long byteArrayAddress(byte[] a, int index) {
@@ -3454,7 +3422,6 @@ public abstract class LongVector extends AbstractVector<Long> {
         public LongVector broadcast(long e) {
             return broadcastBits(toBits(e));
         }
-
 
         /*package-private*/
         @Override

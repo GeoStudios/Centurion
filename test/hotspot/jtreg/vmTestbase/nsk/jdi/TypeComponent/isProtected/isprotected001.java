@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.isProtected;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isprotected001 {
 
@@ -152,7 +138,6 @@ public class isprotected001 {
             complain("Class '" + debuggeeName + "' not found.");
             return Consts.TEST_FAILED;
         }
-
 
         display("Checking isProtected() method for debuggee's fields...");
 

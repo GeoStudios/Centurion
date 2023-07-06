@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.util.HashMap;
 import java.util.Vector;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.Size2DSyntax;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code MediaSize} is a two-dimensional size valued printing attribute

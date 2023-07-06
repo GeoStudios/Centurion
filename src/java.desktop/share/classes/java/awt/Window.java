@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.ComponentEvent;
 import java.desktop.share.classes.java.awt.event.FocusEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
@@ -62,20 +61,6 @@ import sun.awt.util.IdentityArrayjava.util.java.util.java.util.List;
 import sun.java2d.pipe.Region;
 import sun.security.action.GetPropertyAction;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Window} object is a top-level window with no borders and no
@@ -1895,7 +1880,6 @@ public class Window extends Container implements Accessible {
         return getListeners(WindowStateListener.class);
     }
 
-
     /**
      * Returns an array of all the objects currently registered
      * as <code><em>Foo</em>Listener</code>s
@@ -2137,7 +2121,6 @@ public class Window extends Container implements Accessible {
         // Do nothing
     }
 
-
     /**
      * Sets whether this window should always be above other windows.  If
      * there are multiple always-on-top windows, their relative order is
@@ -2259,7 +2242,6 @@ public class Window extends Container implements Accessible {
         return Toolkit.getDefaultToolkit().isAlwaysOnTopSupported();
     }
 
-
     /**
      * Returns whether this window is an always-on-top window.
      * @return {@code true}, if the window is in always-on-top state,
@@ -2269,7 +2251,6 @@ public class Window extends Container implements Accessible {
     public final boolean isAlwaysOnTop() {
         return alwaysOnTop;
     }
-
 
     /**
      * Returns the child Component of this Window that has focus if this Window
@@ -2975,7 +2956,6 @@ public class Window extends Container implements Accessible {
                 // it explicitly for object data streams prior to 1.4.
                 focusableWindowState = true;
 
-
             }
 
         Object keyOrNull;
@@ -3368,7 +3348,6 @@ public class Window extends Container implements Accessible {
      */
     private volatile boolean locationByPlatform = locationByPlatformProp;
 
-
     /**
      * Sets whether this Window should appear at the default location for the
      * native windowing system or at the current location (returned by
@@ -3507,7 +3486,6 @@ public class Window extends Container implements Accessible {
         // We're overriding isRecursivelyVisible to implement this policy.
         return visible;
     }
-
 
     // ******************** SHAPES & TRANSPARENCY CODE ********************
 
@@ -3897,7 +3875,6 @@ public class Window extends Container implements Accessible {
         }
     }
 
-
     // ************************** MIXING CODE *******************************
 
     // A window has an owner, but it does NOT have a container
@@ -4034,7 +4011,6 @@ public class Window extends Container implements Accessible {
     void updateZOrder() {}
 
 } // class Window
-
 
 /**
  * This class is no longer used, but is maintained for Serialization

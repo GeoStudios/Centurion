@@ -21,23 +21,9 @@
 
 package nsk.stress.except;
 
-
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -81,8 +67,6 @@ import java.lang.reflect.Method;
  *
  * @run main/othervm -Xms50M -Xmx200M nsk.stress.except.except001
  */
-
-
 
 /**
  * This checks if <code>OutOfMemoryError</code> exception is correctly

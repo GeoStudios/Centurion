@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.awt.Composite;
 import java.desktop.share.classes.sun.java2d.InvalidPipeException;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.share.classes.sun.java2d.pipe.BufferedMaskFill;
 import static java.desktop.share.classes.sun.java2d.loops.CompositeType.*;.extended
 import static java.desktop.share.classes.sun.java2d.loops.SurfaceType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class OGLMaskFill extends BufferedMaskFill {
 

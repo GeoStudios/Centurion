@@ -21,30 +21,14 @@
 
 package vm.share.options.test;
 
-
 import vm.share.options.Option;
 import vm.share.options.OptionSupport;
 import vm.share.options.Options;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 
 /**
  * This is again a simple example which shows the power of @Options annotation.
@@ -70,7 +54,6 @@ public class SimpleExampleWithOptionsAnnotation
          System.out.println("RM: " + running_mode);
          System.out.println("StressOptions " + stressOptions.getStressTime());
     }
-
 
     public static void main(String[] args)
     {

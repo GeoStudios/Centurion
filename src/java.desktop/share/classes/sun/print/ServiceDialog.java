@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -74,20 +73,6 @@ import java.net.URISyntaxException;
 import java.lang.reflect.Field;
 import java.net.MalformedURLException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class which implements a cross-platform print dialog.
  *
@@ -135,7 +120,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
     static {
         initResource();
     }
-
 
     /**
      * Constructor for the "standard" print dialog (containing all relevant
@@ -330,7 +314,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
         }
     }
 
-
     /**
      * Returns the current status of the dialog (whether the user has selected
      * the "Print" or "Cancel" button)
@@ -516,7 +499,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
         }
     }
 
-
     /**
      * Returns mnemonic character from resource
      */
@@ -656,9 +638,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
         bg.add(button);
         cont.add(button);
     }
-
-
-
 
     /**
      * The "General" tab.  Includes the controls for PrintService,
@@ -1339,9 +1318,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
         }
     }
 
-
-
-
     /**
      * The "Page Setup" tab.  Includes the controls for MediaSource/MediaTray,
      * OrientationRequested, and Sides.
@@ -1796,7 +1772,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             float pawMax = mpaMax.getWidth(units);
             float pahMax = mpaMax.getHeight(units);
 
-
             boolean invalid = false;
 
             // If the paper is set to something which is too small to
@@ -2035,7 +2010,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             }
         }
 
-
         /* this is ad hoc to keep things simple */
         public void addMediaListener(MarginsPanel pnl) {
             pnlMargins = pnl;
@@ -2147,7 +2121,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
                         asCurrent.add(new SunAlternateMedia(mt));
                     }
                 }
-
 
             }
             cbSize.addItemListener(this);
@@ -2261,7 +2234,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
                 }
             }
 
-
             rbPortrait.setEnabled(pSupported);
             rbLandscape.setEnabled(lSupported);
             rbRevPortrait.setEnabled(rpSupported);
@@ -2305,8 +2277,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             }
         }
     }
-
-
 
     /**
      * The "Appearance" tab.  Includes the controls for Chromaticity,
@@ -2430,7 +2400,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
                 }
             }
 
-
             rbMonochrome.setEnabled(monoSupported);
             rbColor.setEnabled(colorSupported);
 
@@ -2551,7 +2520,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             }
         }
 
-
     }
 
     @SuppressWarnings("serial") // Superclass is not serializable across versions
@@ -2656,7 +2624,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             }
         }
     }
-
 
     @SuppressWarnings("serial") // Superclass is not serializable across versions
     private class JobAttributesPanel extends JPanel
@@ -2841,9 +2808,6 @@ public class ServiceDialog extends JDialog implements ActionListener {
             lblUserName.setEnabled(unSupported);
         }
     }
-
-
-
 
     /**
      * A special widget that groups a JRadioButton with an associated icon,

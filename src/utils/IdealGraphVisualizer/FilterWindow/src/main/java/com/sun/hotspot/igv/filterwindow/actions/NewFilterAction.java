@@ -21,26 +21,11 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.actions;
 
-
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.FilterTopComponent;
 import javax.swing.Action;
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.CallableSystemAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

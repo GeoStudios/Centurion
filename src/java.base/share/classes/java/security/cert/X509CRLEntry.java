@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.util.Date;
 import javax.security.auth.x500.X500Principal;
 import sun.security.x509.X509CRLEntryImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Abstract class for a revoked certificate in a CRL (Certificate

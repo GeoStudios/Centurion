@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.MessageProp;
 import java.util.Linkedjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class that implements a number list that keeps track of which

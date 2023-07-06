@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.beans.beancontext.BeanContextMembershipEvent;
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

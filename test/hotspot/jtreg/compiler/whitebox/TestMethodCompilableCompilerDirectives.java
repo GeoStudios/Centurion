@@ -21,23 +21,9 @@
 
 package compiler.whitebox;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,8 +40,6 @@ import java.lang.reflect.Method;
  *      compiler.whitebox.TestMethodCompilableCompilerDirectives
  */
 
-
-
 public class TestMethodCompilableCompilerDirectives {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();
 
@@ -63,7 +47,6 @@ public class TestMethodCompilableCompilerDirectives {
     public static int c1Compiled() {
         return 3;
     }
-
 
     // Method first C1 and then C2 compiled.
     public static int c2Compiled() {
@@ -89,7 +72,6 @@ public class TestMethodCompilableCompilerDirectives {
         }
         compilable = WhiteBox.getWhiteBox().isMethodCompilable(c1CompiledMethod);
         Asserts.assertFalse(compilable);
-
 
         compilable = WhiteBox.getWhiteBox().isMethodCompilable(c2CompiledMethod);
         Asserts.assertFalse(compilable);

@@ -21,25 +21,11 @@
 
 package nsk.jdi.ExceptionEvent.exception;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.lang.Integer.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugged application in the test
 

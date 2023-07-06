@@ -21,30 +21,13 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.ByteOrder;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  */
 
                                      // Formerly in sun.misc
-
-
 
 // ## In the fullness of time, this class will be eliminated
 
@@ -173,7 +156,6 @@ class NativeObject {                                    // package-private
                 throw new InternalError("Address size not supported");
         }
     }
-
 
     /* -- Value accessors: No range checking! -- */
 

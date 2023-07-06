@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Transforms;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GRAY;.extended
@@ -40,20 +39,6 @@ import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Rotate ellipses with controls for increment and emphasis.
@@ -105,7 +90,6 @@ public class Rotate extends ControlsSurface {
     public static void main(String[] s) {
         createDemoFrame(new Rotate());
     }
-
 
     static class DemoControls extends CustomControls implements ActionListener {
 

@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface encapsulates a single GSS-API principal entity. The
  * application obtains an implementation of this interface

@@ -21,23 +21,9 @@
 
 package compiler.c2.stemmer;
 
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -94,8 +80,6 @@ import java.io.java.io.java.io.java.io.IOException;
 
 */
 
-
-
 /**
   * Stemmer, implementing the Porter Stemming Algorithm
   *
@@ -130,7 +114,6 @@ public class Stemmer
       }
       b[i++] = ch;
    }
-
 
    /** Adds wLen characters to the word being stemmed contained in a portion
     * of a char[] array. This is like repeated calls of add(char ch), but

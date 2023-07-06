@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
 
-
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.Filter;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
@@ -39,20 +38,6 @@ import org.openide.util.Lookupjava.util.Listener;
 import org.openide.util.Utilities;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

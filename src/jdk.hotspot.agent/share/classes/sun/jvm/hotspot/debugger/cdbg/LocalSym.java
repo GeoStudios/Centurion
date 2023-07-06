@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models a local variable in a scope. The meaning of the frame
     offset is platform-dependent, and is typically added to the base
     of frame pointer. */

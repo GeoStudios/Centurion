@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.javax.swing.plaf.synth.SynthContext;
 import java.desktop.share.classes.javax.swing.plaf.synth.SynthPainter;
 import java.desktop.share.classes.javax.swing.plaf.synth.SynthConstants;
 import java.desktop.share.classes.javax.swing.Painter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class SynthPainterImpl extends SynthPainter {
     private final NimbusStyle style;

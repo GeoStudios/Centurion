@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.util.ResourceBundle;
 import java.util.MissingResourceException;
 import java.awt.*;
@@ -30,20 +29,6 @@ import java.awt.event.ActionEvent;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 class WMenuItemPeer extends WObjectPeer implements MenuItemPeer {

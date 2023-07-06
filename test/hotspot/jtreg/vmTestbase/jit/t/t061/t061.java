@@ -21,22 +21,8 @@
 
 package jit.t.t061;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t061.t061
  */
-
-
 
 // Long and double array loads with variable and constant subscripts.
 

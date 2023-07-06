@@ -21,27 +21,12 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
 import javax.accessibility.*;
 import jdk.accessibility.share.classes.com.sun.java.security.AccessController;
 import jdk.accessibility.share.classes.com.sun.java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code EventQueueMonitor} class provides key core functionality for Assistive

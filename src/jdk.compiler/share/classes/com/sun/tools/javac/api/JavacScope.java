@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.util.function.Predicate;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
@@ -34,20 +33,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides an implementation of Scope.

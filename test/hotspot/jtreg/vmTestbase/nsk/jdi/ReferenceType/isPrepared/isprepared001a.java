@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isPrepared;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the isprepared001 JDI test.
@@ -94,7 +80,6 @@ class NotPreparedClass {}
 
 // not prepared interface
 interface NotPreparedInterface {}
-
 
 // prepared interface
 interface PreparedInterface {

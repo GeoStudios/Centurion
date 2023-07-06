@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8004051
@@ -44,7 +29,6 @@ package compiler.c1;
  *
  * @run main/othervm -Xcomp compiler.c1.Test8004051
  */
-
 
 public class Test8004051 {
     public static void main(String[] argv) {

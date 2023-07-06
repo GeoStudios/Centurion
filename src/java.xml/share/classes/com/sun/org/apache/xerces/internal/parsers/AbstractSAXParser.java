@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EntityResolver2Wrapper;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EntityResolverWrapper;
@@ -71,20 +70,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.ext.EntityResolver2;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the base class of all SAX parsers. It implements both the
@@ -224,7 +209,6 @@ public abstract class AbstractSAXParser
     // temp vars
     private final AttributesProxy fAttributesProxy = new AttributesProxy();
     private Augmentations fAugmentations = null;
-
 
     // temporary buffer for sending normalized values
     // REVISIT: what should be the size of the buffer?
@@ -555,7 +539,6 @@ public abstract class AbstractSAXParser
             return;
         }
 
-
         try {
             // SAX1
             if (fDocumentHandler != null) {
@@ -616,7 +599,6 @@ public abstract class AbstractSAXParser
      * @throws XNIException Thrown by handler to signal an error.
      */
     public void endElement(QName element, Augmentations augs) throws XNIException {
-
 
         try {
             // SAX1
@@ -747,7 +729,6 @@ public abstract class AbstractSAXParser
         }
 
     } // processingInstruction(String,XMLString)
-
 
     /**
      * The end of the document.
@@ -1667,7 +1648,6 @@ public abstract class AbstractSAXParser
                         "feature-read-only", new Object [] {featureId}));
                 }
 
-
                 //
                 // Drop through and perform default processing
                 //
@@ -1822,7 +1802,6 @@ public abstract class AbstractSAXParser
                     featureId.endsWith(Constants.USE_LOCATOR2_FEATURE))) {
                     return true;
                 }
-
 
                 //
                 // Drop through and perform default processing
@@ -2419,19 +2398,16 @@ public abstract class AbstractSAXParser
 
     } // class AttributesProxy
 
-
     // PSVIProvider methods
 
     public ElementPSVI getElementPSVI(){
         return (fAugmentations != null)?(ElementPSVI)fAugmentations.getItem(Constants.ELEMENT_PSVI):null;
     }
 
-
     public AttributePSVI getAttributePSVI(int index){
 
         return (AttributePSVI)fAttributesProxy.fAttributes.getAugmentations(index).getItem(Constants.ATTRIBUTE_PSVI);
     }
-
 
     public AttributePSVI getAttributePSVIByName(String uri,
                                                 String localname){

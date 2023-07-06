@@ -21,26 +21,11 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>HttpsURLConnection</code> extends <code>HttpURLConnection</code>

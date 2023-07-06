@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the isinit001 JDI test.
@@ -98,7 +84,6 @@ class NotInitializedClass {}
 
 // not initialized interface
 interface NotInitializedInterface {}
-
 
 // initialized interface
 interface InitializedInterface {

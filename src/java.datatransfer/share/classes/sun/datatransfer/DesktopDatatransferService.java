@@ -21,25 +21,10 @@
 
 package java.datatransfer.share.classes.sun.datatransfer;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorMap;
 import java.util.LinkedHashSet;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Contains services which desktop provides to the datatransfer system to enrich

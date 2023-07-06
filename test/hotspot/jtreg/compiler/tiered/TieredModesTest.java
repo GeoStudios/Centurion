@@ -21,21 +21,6 @@
 
 package compiler.tiered;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TieredModesTest
  * @summary Check that non-default tiered compilation modes tolerate invalid TieredStopAtLevel values
@@ -52,7 +37,6 @@ package compiler.tiered;
  *                   -XX:CompileCommand=compileonly,compiler.tiered.TieredModesTest::test
  *                   compiler.tiered.TieredModesTest
  */
-
 
 public class TieredModesTest {
     public static int sideEffect = 0;

@@ -21,22 +21,8 @@
 
 package compiler.onSpinWait;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestOnSpinWaitC1
@@ -50,8 +36,6 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.onSpinWait.TestOnSpinWaitC1
  */
-
-
 
 public class TestOnSpinWaitC1 {
 

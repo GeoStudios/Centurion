@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.awt.*;
 import java.awt.font.TextAttribute;
 import java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * View of a simple line-wrapping paragraph that supports
@@ -785,7 +770,6 @@ public class ParagraphView extends FlowView implements TabExpander {
         super.changedUpdate(changes, a, f);
     }
 
-
     // --- variables -----------------------------------------------
 
     private int justification;
@@ -953,7 +937,6 @@ public class ParagraphView extends FlowView implements TabExpander {
             return baselineRequirements(axis, r);
         }
 
-
         private boolean isLastRow() {
             View parent;
             return ((parent = getParent()) == null
@@ -999,7 +982,6 @@ public class ParagraphView extends FlowView implements TabExpander {
 
             return ret;
         }
-
 
         //Calls super method after setting spaceAddon to 0.
         //Justification should not affect MajorAxisRequirements

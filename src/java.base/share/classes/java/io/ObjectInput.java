@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * ObjectInput extends the DataInput interface to include the reading of
  * objects. DataInput includes methods for the input of primitive types,

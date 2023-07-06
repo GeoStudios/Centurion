@@ -21,21 +21,7 @@
 
 package nsk.jvmti.MethodEntry;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class mentry002 {
 

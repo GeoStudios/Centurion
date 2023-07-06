@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
-
 import java.xml.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>DOMImplementationLS</code> contains the factory methods for creating

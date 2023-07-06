@@ -21,7 +21,6 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -46,20 +45,6 @@ import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundler
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.WindowsAppImageBuilder.ICON_ICO;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class ExecutableRebrander {
     private static final ResourceBundle I18N = ResourceBundle.getBundle(
             "jdk.jpackage.internal.resources.WinResources");
@@ -72,7 +57,6 @@ final class ExecutableRebrander {
 
     private static final String INSTALLER_PROPERTIES_RESOURE_DIR_ID =
             "WinInstaller.properties";
-
 
     void rebrandInstaller(Map<String, ? super Object> params, Path target)
             throws IOException {

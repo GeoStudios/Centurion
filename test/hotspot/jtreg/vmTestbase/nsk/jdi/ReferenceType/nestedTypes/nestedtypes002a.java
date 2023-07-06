@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.nestedTypes;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the nestedtypes002 JDI test.
@@ -95,7 +81,6 @@ public class nestedtypes002a {
 
         int exitCode = PASSED;
 
-
         label0:
             for (int i = 0; ; i++) {
 
@@ -150,8 +135,6 @@ class nestedtypes002aTestClass {
     }
     NestedIface nestedIface        = new NestedClass();
     NestedIface nestedIfaceArray[] = { new NestedClass() };
-
-
 
     static class StaticNestedClass {
         boolean bsnc = true;

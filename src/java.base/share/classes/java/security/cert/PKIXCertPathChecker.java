@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class that performs one or more checks on an

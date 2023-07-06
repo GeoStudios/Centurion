@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RunAgentThread;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class agentthr002 {
 

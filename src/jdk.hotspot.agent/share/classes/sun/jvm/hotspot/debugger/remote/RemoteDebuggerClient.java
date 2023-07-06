@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
 
-
 import java.rmi.*;
 import java.util.*;
 import java.lang.reflect.*;
@@ -30,20 +29,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.amd64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.ppc64.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An implementation of Debugger which wraps a
     RemoteDebugger, providing remote debugging via RMI.
@@ -282,7 +267,6 @@ public class RemoteDebuggerClient extends DebuggerBase implements JVMDebugger {
     byte[] data = readBytes(address, jlongSize);
     return utils.dataToJLong(data, jlongSize);
   }
-
 
   //--------------------------------------------------------------------------------
   // Implementation of JVMDebugger interface

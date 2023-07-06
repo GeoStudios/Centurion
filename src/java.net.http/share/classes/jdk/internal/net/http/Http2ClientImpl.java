@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -45,20 +44,6 @@ import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFr
 import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.HEADER_TABLE_SIZE;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.MAX_CONCURRENT_STREAMS;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.MAX_FRAME_SIZE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Http2 specific aspects of HttpClientImpl

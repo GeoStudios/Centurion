@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.amd64;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.HotSpotVMConfigStore;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.services.Services;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Used to access AMD64 specific native configuration details.

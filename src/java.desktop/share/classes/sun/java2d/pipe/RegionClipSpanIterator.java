@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class clips a SpanIterator to a Region and outputs the
  * resulting spans as another SpanIterator.
@@ -138,7 +122,6 @@ public class RegionClipSpanIterator implements SpanIterator {
 
         this.rgn = rgn;
 
-
         row = lwm.createCopy();
         box = row.createCopy();
         doNextSpan = true;
@@ -179,7 +162,6 @@ public class RegionClipSpanIterator implements SpanIterator {
     public void intersectClipBox(int lox, int loy, int hix, int hiy) {
         spanIter.intersectClipBox(lox, loy, hix, hiy);
     }
-
 
     /*
      * Fetches the next span that needs to be operated on.
@@ -364,7 +346,6 @@ public class RegionClipSpanIterator implements SpanIterator {
         return true;
 
     }
-
 
     /**
      * This method tells the iterator that it may skip all spans

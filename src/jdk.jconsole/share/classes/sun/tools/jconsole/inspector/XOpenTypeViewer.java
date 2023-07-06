@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
@@ -38,20 +37,6 @@ import javax.management.openmbean.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Resources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XOpenTypeViewer extends JPanel implements ActionListener {

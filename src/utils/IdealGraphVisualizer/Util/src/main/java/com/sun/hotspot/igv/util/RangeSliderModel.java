@@ -21,27 +21,12 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
-
 import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.ChangedEventProvider;
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.Color;
 import utils.IdealGraphVisualizer.Util.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Util.src.main.java.util.Collections;
 import utils.IdealGraphVisualizer.Util.src.main.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

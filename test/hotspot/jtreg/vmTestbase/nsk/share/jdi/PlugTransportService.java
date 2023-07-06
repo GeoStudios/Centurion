@@ -21,32 +21,16 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.io.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Super class for Transport Services used by
  * nsk/jdi/PlugConnectors tests
  */
-
-
 
 public class PlugTransportService extends TransportService {
 

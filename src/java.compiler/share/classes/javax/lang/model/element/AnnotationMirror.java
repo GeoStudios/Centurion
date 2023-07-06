@@ -21,23 +21,8 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
 import java.util.Map;
 import java.compiler.share.classes.javax.lang.model.type.DeclaredType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an annotation.  An annotation associates a value with

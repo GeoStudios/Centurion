@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.jar;
 
-
 import java.base.share.classes.java.util.zip.*;
 import java.base.share.classes.java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code JarOutputStream} class is used to write the contents

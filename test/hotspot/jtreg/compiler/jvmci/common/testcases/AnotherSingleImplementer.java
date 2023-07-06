@@ -21,21 +21,6 @@
 
 package compiler.jvmci.common.testcases;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class AnotherSingleImplementer implements AnotherSingleImplementerInterface {
 
     @Override

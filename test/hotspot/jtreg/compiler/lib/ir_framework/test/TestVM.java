@@ -21,7 +21,6 @@
 
 package compiler.lib.ir_framework.test;
 
-
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.Compiler;
 import compiler.lib.ir_framework.shared.*;
@@ -35,19 +34,6 @@ import java.lang.reflect.*;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class' main method is called from {@link TestFramework} and represents the so-called "test VM". The class is
@@ -558,7 +544,6 @@ public class TestVM {
                                 "Cannot " + AbstractInfo.class + " or any of its subclasses as return type at " +
                                 "@Test method " + m);
     }
-
 
     /**
      * Get the appropriate level as permitted by the test scenario and VM flags.

@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Augmentations interface defines a table of additional data that may
@@ -56,7 +41,6 @@ import java.util.Enumeration;
 
 public interface Augmentations {
 
-
     /**
      * Add additional information identified by a key to the Augmentations structure.
      *
@@ -68,7 +52,6 @@ public interface Augmentations {
      */
     Object putItem (String key, Object item);
 
-
     /**
      * Get information identified by a key from the Augmentations structure
      *
@@ -79,7 +62,6 @@ public interface Augmentations {
      */
     Object getItem(String key);
 
-
     /**
      * Remove additional info from the Augmentations structure
      *
@@ -89,13 +71,11 @@ public interface Augmentations {
      */
     Object removeItem (String key);
 
-
     /**
      * Returns an enumeration of the keys in the Augmentations structure
      *
      */
     Enumeration<Object> keys ();
-
 
     /**
      * Remove all objects from the Augmentations structure.

@@ -21,7 +21,6 @@
 
 package dom.ls;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringBufferInputStream;
 import javax.xml.parsers.DocumentBuilder;
@@ -43,19 +42,6 @@ import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSParserFilter;
 import org.w3c.dom.traversal.NodeFilter;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

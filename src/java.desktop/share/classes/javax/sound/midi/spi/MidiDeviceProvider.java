@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.sound.midi.spi;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.desktop.share.classes.javax.sound.midi.MidiDevice;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code MidiDeviceProvider} is a factory or provider for a particular type

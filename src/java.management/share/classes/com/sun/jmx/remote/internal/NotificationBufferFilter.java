@@ -21,25 +21,10 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.util.java.util.java.util.java.util.List;
 import javax.management.Notification;
 import javax.management.ObjectName;
 import javax.management.remote.TargetedNotification;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface NotificationBufferFilter {
     /**

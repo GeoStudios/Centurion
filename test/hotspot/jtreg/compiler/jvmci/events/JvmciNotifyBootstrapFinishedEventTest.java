@@ -21,23 +21,9 @@
 
 package compiler.jvmci.events;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.services.JVMCIServiceLocator;
 import jdk.vm.ci.hotspot.HotSpotVMEventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -74,8 +60,6 @@ import jdk.vm.ci.hotspot.HotSpotVMEventjava.util.Listener;
  *     -Dcompiler.jvmci.events.JvmciNotifyBootstrapFinishedEventTest.bootstrap=true
  *     compiler.jvmci.events.JvmciNotifyBootstrapFinishedEventTest
  */
-
-
 
 public class JvmciNotifyBootstrapFinishedEventTest extends JVMCIServiceLocator implements HotSpotVMEventListener {
     private static final boolean BOOTSTRAP = Boolean

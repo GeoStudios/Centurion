@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicToolBarSeparatorUI;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaToolBarSeparatorUI extends BasicToolBarSeparatorUI {
     private static final RecyclableSingleton<AquaToolBarSeparatorUI> instance = new RecyclableSingletonFromDefaultConstructor<AquaToolBarSeparatorUI>(AquaToolBarSeparatorUI.class);

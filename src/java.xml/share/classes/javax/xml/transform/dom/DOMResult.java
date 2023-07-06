@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.transform.dom;
 
-
 import java.xml.share.classes.javax.xml.transform.Result;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Acts as a holder for a transformation result tree

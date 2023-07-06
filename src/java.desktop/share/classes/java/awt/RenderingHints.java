@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.lang.ref.WeakReference;
 import java.desktop.share.classes.java.util.Collection;
 import java.desktop.share.classes.java.util.Collections;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.java.util.HashMap;
 import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.Set;
 import sun.awt.SunHints;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code RenderingHints} class defines and manages collections of
@@ -520,7 +505,6 @@ public class RenderingHints
      */
     public static final Object VALUE_TEXT_ANTIALIAS_LCD_VBGR =
          SunHints.VALUE_TEXT_ANTIALIAS_LCD_VBGR;
-
 
     /**
      * LCD text contrast rendering hint key.

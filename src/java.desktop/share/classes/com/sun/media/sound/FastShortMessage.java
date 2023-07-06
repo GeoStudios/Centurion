@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.ShortMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * an optimized ShortMessage that does not need an array.

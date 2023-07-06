@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This interface allows us to pass fields, variables, and

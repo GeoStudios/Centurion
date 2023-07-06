@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Adjustable;
 import java.awt.Scrollbar;
 import java.awt.event.AdjustmentEvent;
 import java.awt.event.Adjustmentjava.util.Listener;
 import java.awt.peer.ScrollbarPeer;
 import javax.swing.JScrollBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link ScrollbarPeer}. Delegates most of the

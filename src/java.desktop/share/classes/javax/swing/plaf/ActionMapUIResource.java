@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.desktop.share.classes.javax.swing.ActionMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of javax.swing.ActionMap that implements UIResource.

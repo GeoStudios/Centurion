@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.LaunchConnector.plugLaunchConnect002.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple LaunchingConnector used by
  * nsk/jdi/PlugConnectors/LaunchConnector/plugLaunchConnect002 test
  */
-
-
 
 public class PlugLaunchConnector002 extends PlugConnectors implements LaunchingConnector {
 
@@ -105,7 +89,6 @@ public class PlugLaunchConnector002 extends PlugConnectors implements LaunchingC
 
         return plugLaunchConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
-
 
     public PlugLaunchConnector002() {
 

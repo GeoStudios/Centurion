@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.MenuItem;
 import java.awt.MenuShortcut;
 import java.awt.event.ActionEvent;
@@ -31,20 +30,6 @@ import java.awt.peer.MenuItemPeer;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.desktop.macosx.classes.sun.awt.SunToolkit;
 import java.desktop.macosx.classes.sun.lwawt.LWToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CMenuItem extends CMenuComponent implements MenuItemPeer {
 

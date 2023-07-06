@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Insets;
@@ -42,20 +41,6 @@ import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicScrollPaneUI;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

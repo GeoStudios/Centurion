@@ -21,7 +21,6 @@
 
 package jdk.attach.aix.classes.sun.tools.attach;
 
-
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -30,20 +29,6 @@ import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Aix implementation of HotSpotVirtualMachine
@@ -192,7 +177,6 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
             ioe = x;
         }
 
-
         // Create an input stream to read reply
         SocketInputStream sis = new SocketInputStream(s);
 
@@ -309,7 +293,6 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
         b[0] = 0;
         write(fd, b, 0, 1);
     }
-
 
     //-- native methods
 

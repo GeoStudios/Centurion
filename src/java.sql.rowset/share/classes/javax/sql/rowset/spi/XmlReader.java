@@ -21,25 +21,10 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
-
 import java.sql.SQLException;
 import java.io.Reader;
 import java.sql.rowset.share.classes.javax.sql.RowSetReader;
 import java.sql.rowset.share.classes.javax.sql.rowset.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A specialized interface that facilitates an extension of the

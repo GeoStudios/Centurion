@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.Hidden;
@@ -33,20 +32,6 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
 import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Construction and caching of often-used invokers.
@@ -369,7 +354,6 @@ class Invokers {
             lform = mtype.form().setCachedLambdaForm(which, lform);
         return lform;
     }
-
 
     static MemberName varHandleInvokeLinkerMethod(MethodType mtype) {
         if (mtype.parameterSlotCount() > MethodType.MAX_MH_ARITY - MH_LINKER_ARG_APPENDED) {

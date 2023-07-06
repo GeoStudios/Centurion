@@ -21,25 +21,11 @@
 
 package gc.gctests.SoftReference.soft003;
 
-
 import java.lang.ref.Reference;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.TestFailure;
 import java.lang.ref.SoftReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,8 +38,6 @@ import java.lang.ref.SoftReference;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.SoftReference.soft003.soft003 -t 1
  */
-
-
 
 /**
  * Test that GC clears soft references before throwing OOM.

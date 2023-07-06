@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.pool.PoolHelper;
 import jdk.test.lib.util.Pair;
@@ -32,19 +31,6 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class that builds states by applying

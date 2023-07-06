@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
@@ -30,26 +29,10 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
 import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Our own document implementation, which knows how to create an element

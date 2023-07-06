@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.subcommon.subcommon05;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.subcommon.subcommon05;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon05.subcommon05
  */
-
 
 /* -- Common subexpression elimination testing
    This is a test for simple CSE elimination within a basic block.

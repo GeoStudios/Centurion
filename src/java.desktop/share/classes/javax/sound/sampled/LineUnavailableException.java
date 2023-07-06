@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code LineUnavailableException} is an exception indicating that a line

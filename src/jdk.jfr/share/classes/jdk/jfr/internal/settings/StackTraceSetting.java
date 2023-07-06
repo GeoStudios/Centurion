@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.settings;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import jdk.jfr.share.classes.jdk.jfr.Description;
@@ -31,20 +30,6 @@ import jdk.jfr.share.classes.jdk.jfr.MetadataDefinition;
 import jdk.jfr.share.classes.jdk.jfr.Name;
 import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @MetadataDefinition
 @Label("Stack Trace")

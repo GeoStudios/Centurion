@@ -21,21 +21,6 @@
 
 package compiler.eliminateAutobox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6934604
@@ -54,7 +39,6 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestByteBoxing
  */
 
-
 public class TestByteBoxing {
 
   static final Byte ibc = new Byte((byte)1);
@@ -64,7 +48,6 @@ public class TestByteBoxing {
   static void dummy()      { }
   static byte foo(byte i)  { return i; }
   static Byte foob(byte i) { return Byte.valueOf(i); }
-
 
   static byte simple(byte i) {
     Byte ib = new Byte(i);
@@ -376,7 +359,6 @@ public class TestByteBoxing {
     return (byte)(j1 + j2);
   }
 
-
   //===============================================
   // Safepointa and debug info for deoptimization
   static byte simple_deop(byte i) {
@@ -645,7 +627,6 @@ public class TestByteBoxing {
     return (byte)(j1 + j2);
   }
 
-
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -687,7 +668,6 @@ public class TestByteBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0;
     }
-
 
     for (int i = 0; i < 12000; i++) {
       res[0] += simple((byte)i);

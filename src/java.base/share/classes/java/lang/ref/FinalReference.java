@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Final references, used to implement finalization
  */

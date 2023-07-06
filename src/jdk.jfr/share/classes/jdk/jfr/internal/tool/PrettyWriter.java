@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.PrintWriter;
 import java.time.Duration;
 import java.time.OffsetDateTime;
@@ -47,20 +46,6 @@ import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedThread;
 import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Print events in a human-readable format.

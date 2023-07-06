@@ -21,22 +21,8 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import org.testng.annotations.DataProvider;
 import static jdk.vm.ci.hotspot.test.TestHelper.DUMMY_CLASS_INSTANCE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ForStringDataProvider {
     @DataProvider(name = "forStringDataProvider")

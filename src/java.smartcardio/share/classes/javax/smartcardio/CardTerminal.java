@@ -21,22 +21,7 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Smart Card terminal, sometimes referred to as a Smart Card Reader.

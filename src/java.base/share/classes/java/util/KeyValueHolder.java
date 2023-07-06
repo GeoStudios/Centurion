@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An immutable container for a key and a value, suitable for use

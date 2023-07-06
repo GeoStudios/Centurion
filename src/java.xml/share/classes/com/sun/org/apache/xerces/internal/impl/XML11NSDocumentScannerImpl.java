@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidatorFilter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
@@ -36,20 +35,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 import javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The scanner acts as the source for the document
@@ -108,7 +93,6 @@ public class XML11NSDocumentScannerImpl extends XML11DocumentScannerImpl {
      * where a DTD external subset may be read after scanning the element name.
      */
     private boolean fSawSpace;
-
 
     /**
      * The scanner is responsible for removing DTD validator
@@ -813,7 +797,6 @@ public class XML11NSDocumentScannerImpl extends XML11DocumentScannerImpl {
         return new NS11ContentDriver();
     } // createContentDriver():Driver
 
-
     /** return the next state on the input
      *
      * @return int
@@ -830,7 +813,6 @@ public class XML11NSDocumentScannerImpl extends XML11DocumentScannerImpl {
 
         return fScannerLastState = super.next();
     }
-
 
     /**
      * Driver to handle content scanning.

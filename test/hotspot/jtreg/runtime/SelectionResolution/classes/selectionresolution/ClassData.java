@@ -21,21 +21,6 @@
 
 package selectionresolution;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A representation of information about a class.  Note that classes
  * here define only one method.

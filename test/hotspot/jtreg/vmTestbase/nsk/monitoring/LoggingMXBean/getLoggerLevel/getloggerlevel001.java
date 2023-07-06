@@ -21,25 +21,11 @@
 
 package nsk.monitoring.LoggingMXBean.getLoggerLevel;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
 import java.util.logging.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getloggerlevel001 {
 
@@ -86,7 +72,6 @@ public class getloggerlevel001 {
             }
         }
 
-
         // Test case 2. check
         // if the specified logger does not exist, null is returned
         if (loggingMonitor.getLoggerLevel("no such logger") != null) {
@@ -96,7 +81,6 @@ public class getloggerlevel001 {
             log.complain("loggingMXBean.getLoggerLevel(\"no such logger\") does "
                 + "not return null");
         }
-
 
         // A Logger object created with the call Logger.getLogger(testLogName),
         // stores it in a method local and expects it to be alive in the method scope

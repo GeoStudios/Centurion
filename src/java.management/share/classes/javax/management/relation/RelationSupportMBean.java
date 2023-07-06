@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A RelationSupport object is used internally by the Relation Service to
  * represent simple relations (only roles, no properties or methods), with an

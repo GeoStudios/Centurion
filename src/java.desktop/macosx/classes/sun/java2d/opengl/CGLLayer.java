@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.sun.java2d.opengl;
 
-
 import java.awt.GraphicsConfiguration;
 import java.desktop.macosx.classes.sun.awt.CGraphicsConfig;
 import java.desktop.macosx.classes.sun.java2d.NullSurfaceData;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.lwawt.macosx.CFLayer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CGLLayer extends CFLayer {
 

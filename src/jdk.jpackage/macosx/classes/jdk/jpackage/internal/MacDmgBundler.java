@@ -21,7 +21,6 @@
 
 package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,20 +41,6 @@ import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerP
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERBOSE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MacDmgBundler extends MacBaseInstallerBundler {
 
@@ -539,7 +524,6 @@ public class MacDmgBundler extends MacBaseInstallerBundler {
 
         return finalDMG;
     }
-
 
     //////////////////////////////////////////////////////////////////////////
     // Implement Bundler

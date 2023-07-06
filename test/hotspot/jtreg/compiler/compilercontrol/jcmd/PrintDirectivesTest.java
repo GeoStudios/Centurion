@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.jcmd;
 
-
 import compiler.compilercontrol.share.AbstractTestBase;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
@@ -32,19 +31,6 @@ import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.Utils;
 import java.lang.reflect.Executable;
 import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,10 +45,6 @@ import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SA
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.jcmd.PrintDirectivesTest
  */
-
-
-
-
 
 public class PrintDirectivesTest extends AbstractTestBase {
     private static final int AMOUNT = Utils.getRandomInstance().nextInt(

@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -47,11 +32,6 @@ import java.util.StringTokenizer;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 class PatternReferenceTypeSpec implements ReferenceTypeSpec {
     final String classId;

@@ -21,22 +21,8 @@
 
 package compiler.arguments;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver compiler.arguments.TestPrintOptoAssemblyLineNumbers
  */
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

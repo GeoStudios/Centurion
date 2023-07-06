@@ -21,21 +21,7 @@
 
 package gc.gctests.ClassDeallocGC;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm gc.gctests.ClassDeallocGC.ClassDeallocGC
  */
-
-
 
 public class ClassDeallocGC
 {
@@ -108,7 +92,6 @@ class ClassOne {
       return class_two.getCounter();
     }
 }
-
 
 class ClassTwo {
     static int counter = 0;

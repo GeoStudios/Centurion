@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
 import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface declares a simple filter interface that one can

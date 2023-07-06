@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import java.awt.BasicStroke;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
@@ -38,20 +37,6 @@ import java.desktop.share.classes.sun.java2d.pipe.AATileGenerator;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
 import java.desktop.share.classes.sun.java2d.pipe.RenderingEngine;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Marlin RendererEngine implementation (derived from Pisces)

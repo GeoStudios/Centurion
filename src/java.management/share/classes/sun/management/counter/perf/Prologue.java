@@ -21,23 +21,8 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
-
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Prologue {
     // these constants should match their #define counterparts in vmdata.hpp
@@ -76,7 +61,6 @@ class Prologue {
         static final int PROLOGUE_2_0_SIZE = NUM_ENTRIES + NUM_ENTRIES_SIZE;
     }
 
-
     private final ByteBuffer header;
     private final int magic;
 
@@ -95,7 +79,6 @@ class Prologue {
             throw new InstrumentationException("Bad Magic: " +
                                                Integer.toHexString(getMagic()));
         }
-
 
         // set the buffer's byte order according to the value of its
         // byte order field.

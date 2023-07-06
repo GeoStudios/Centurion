@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-
 import jdk.crypto.ec.share.classes.sun.security.ec.point.AffinePoint;
 import java.io.ByteArrayOutputStream;
 import java.security.AlgorithmParameters;
@@ -41,20 +40,6 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.EdDSAParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class EdDSASignature extends SignatureSpi {
 

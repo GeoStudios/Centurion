@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.canGetBytecodes;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -147,7 +133,6 @@ public class cangetbytecodes001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -194,7 +179,6 @@ public class cangetbytecodes001 {
                 log2("......getting Method mtd object");
                 testedclass = (ReferenceType) vm.classesByName(debuggeeName).get(0);
                 mtd = (Method) testedclass.methodsByName("testedMethod").get(0);
-
 
                 if (vm.canGetBytecodes()) {
 

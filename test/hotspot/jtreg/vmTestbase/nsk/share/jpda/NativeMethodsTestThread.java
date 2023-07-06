@@ -21,22 +21,8 @@
 
 package nsk.share.jpda;
 
-
 import java.net.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This thread class executes in loop native methods with different return types

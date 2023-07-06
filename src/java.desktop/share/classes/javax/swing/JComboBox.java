@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.EventQueue;
@@ -68,20 +67,6 @@ import java.desktop.share.classes.javax.swing.event.java.util.ListSelectionjava.
 import java.desktop.share.classes.javax.swing.event.PopupMenuEvent;
 import java.desktop.share.classes.javax.swing.event.PopupMenujava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.ComboBoxUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A component that combines a button or editable field and a drop-down list.
@@ -323,7 +308,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
         }
     }
 
-
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -335,7 +319,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * Returns the L&amp;F object that renders this component.
@@ -1213,7 +1196,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
                              null);
     }
 
-
     private static class ComboBoxActionPropertyChangeListener
                  extends ActionPropertyChangeListener<JComboBox<?>> {
         ComboBoxActionPropertyChangeListener(JComboBox<?> b, Action a) {
@@ -1524,7 +1506,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
         return new DefaultKeySelectionManager();
     }
 
-
     /**
      * The interface that defines a <code>KeySelectionManager</code>.
      * To qualify as a <code>KeySelectionManager</code>,
@@ -1588,7 +1569,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
         }
     }
 
-
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
      * <code>JComponent</code> for more
@@ -1605,7 +1585,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
             }
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JComboBox</code>.
@@ -1630,7 +1609,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
         ",maximumRowCount=" + maximumRowCount +
         ",selectedItemReminder=" + selectedItemReminderString;
     }
-
 
 ///////////////////
 // Accessibility support
@@ -1670,7 +1648,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
     @SuppressWarnings("serial") // Same-version serialization only
     protected class AccessibleJComboBox extends AccessibleJComponent
     implements AccessibleAction, AccessibleSelection {
-
 
         private JList<?> popupList; // combo box popup list
         private Accessible previousSelectedAccessible = null;
@@ -1819,7 +1796,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
             }
         }
 
-
         /**
          * Returns the number of accessible children in the object.  If all
          * of the children of this object implement Accessible, than this
@@ -1944,7 +1920,6 @@ implements ItemSelectable,ListDataListener,ActionListener, Accessible {
                 return false;
             }
         }
-
 
         /**
          * Get the AccessibleSelection associated with this object.  In the

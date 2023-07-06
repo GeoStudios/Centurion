@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * BASTORE -  Store into byte or boolean array
@@ -55,7 +38,6 @@ public class BASTORE extends ArrayInstruction implements StackConsumer {
     public BASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.BASTORE);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

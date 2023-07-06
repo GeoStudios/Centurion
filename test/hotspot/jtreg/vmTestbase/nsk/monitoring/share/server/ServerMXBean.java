@@ -21,7 +21,6 @@
 
 package nsk.monitoring.share.server;
 
-
 import javax.management.*;
 import javax.management.openmbean.CompositeData;
 import java.lang.management.*;
@@ -30,19 +29,6 @@ import nsk.monitoring.share.*;
 import java.lang.reflect.Method;
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ServerMXBean {
         protected MBeanServer mbeanServer;
@@ -120,7 +106,6 @@ public class ServerMXBean {
                         throw convertException(e);
                 }
         }
-
 
         /**
          * Sets the <code>boolean</code> value to the specified attribute from

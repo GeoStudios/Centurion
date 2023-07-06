@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations;
 
-
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.cert.Certificate;
@@ -34,27 +33,10 @@ import java.util.NoSuchElementException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverSpi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Makes the Certificates from a JAVA {@link KeyStore} object available to the

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.calendar;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.BufferedInputStream;
 import java.io.DataInput;
@@ -47,20 +46,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.zip.CRC32;
 import jdk.internal.util.StaticProperty;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Loads TZDB time-zone rules for j.u.TimeZone

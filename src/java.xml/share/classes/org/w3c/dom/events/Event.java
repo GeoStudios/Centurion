@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>Event</code> interface is used to provide contextual information
  * about an event to the handler processing the event. An object which

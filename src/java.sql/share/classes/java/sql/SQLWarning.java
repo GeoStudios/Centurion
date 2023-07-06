@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <P>An exception that provides information on  database access
  * warnings. Warnings are silently chained to the object whose method
@@ -75,7 +59,6 @@ public class SQLWarning extends SQLException {
                               ") SQLState(" + SQLState +
                               ") vendor code(" + vendorCode + ")");
     }
-
 
     /**
      * Constructs a {@code SQLWarning} object

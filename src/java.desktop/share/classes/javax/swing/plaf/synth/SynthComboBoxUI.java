@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -52,20 +51,6 @@ import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxEditor;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.ComboPopup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -546,7 +531,6 @@ public class SynthComboBoxUI extends BasicComboBoxUI implements
         }
     }
 
-
     private static class SynthComboBoxEditor
             extends BasicComboBoxEditor.UIResource {
 
@@ -556,7 +540,6 @@ public class SynthComboBoxUI extends BasicComboBoxUI implements
             return f;
         }
     }
-
 
     /**
      * Handles all the logic for treating the combo as a button when it is

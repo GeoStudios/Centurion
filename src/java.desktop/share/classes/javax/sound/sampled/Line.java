@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code Line} interface represents a mono or multi-channel audio feed. A
  * line is an element of the digital audio "pipeline," such as a mixer, an input
@@ -291,7 +275,6 @@ public interface Line extends AutoCloseable {
             // targetDataLine.matches(prospective_match) == true
             // => prospective_match may be other things as well, but it is at least a targetDataLine
             // targetDataLine defines the requirements which prospective_match must meet.
-
 
             // "if this Class object represents a declared class, this method returns
             // true if the specified Object argument is an instance of the represented

@@ -21,25 +21,9 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.management.share.classes.javax.management.OperationsException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //RI import
-
 
 /**
  * Represents exceptions raised when a requested service is not supported.

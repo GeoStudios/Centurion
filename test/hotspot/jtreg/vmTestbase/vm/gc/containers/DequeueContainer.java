@@ -21,23 +21,9 @@
 
 package vm.gc.containers;
 
-
 import java.util.Deque;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The dequeue container update remove a first or last

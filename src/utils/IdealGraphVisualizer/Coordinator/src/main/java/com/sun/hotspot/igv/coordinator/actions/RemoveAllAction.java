@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
 
-
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.OutlineTopComponent;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.event.InputEvent;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.event.KeyEvent;
@@ -31,25 +30,10 @@ import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.CallableSystemAction;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  */
 public final class RemoveAllAction extends CallableSystemAction {
-
 
     @Override
     public String getName() {

@@ -21,22 +21,8 @@
 
 package nsk.jvmti.GetThreadState;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class thrstat002 {
 

@@ -21,22 +21,8 @@
 
 package jit.t.t028;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t028.t028
  */
-
-
 
 // opc_dneg, opc_fneg
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.util.resources;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class TimeZoneNames extends TimeZoneNamesBundle {
 
     protected Object[][] getContents() {

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.file.spi;
 
-
 import java.base.share.classes.java.nio.file.Path;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A file type detector for probing a file to guess its file type.

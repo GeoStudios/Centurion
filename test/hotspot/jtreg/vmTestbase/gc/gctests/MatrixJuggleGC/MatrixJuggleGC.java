@@ -21,24 +21,10 @@
 
 package gc.gctests.MatrixJuggleGC;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Stack;
 import java.util.EmptyStackException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -99,8 +85,6 @@ import java.util.EmptyStackException;
  *          /test/lib
  * @run main/othervm gc.gctests.MatrixJuggleGC.MatrixJuggleGC -iterations 1000000
  */
-
-
 
 public class MatrixJuggleGC extends GCTestBase {
         private int threadCount = 5;

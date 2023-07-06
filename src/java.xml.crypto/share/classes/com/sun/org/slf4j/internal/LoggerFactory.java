@@ -21,22 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.slf4j.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Bridge to java.util.logging.
 public class LoggerFactory {
 

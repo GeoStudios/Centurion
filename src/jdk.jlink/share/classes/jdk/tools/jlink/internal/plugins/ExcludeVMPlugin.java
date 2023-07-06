@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
@@ -38,20 +37,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

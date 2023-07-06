@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import com.sun.jndi.ldap.Ber;
 import com.sun.jndi.ldap.BerDecoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates the end of a batch of search results.

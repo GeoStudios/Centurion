@@ -21,23 +21,8 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Supported platforms

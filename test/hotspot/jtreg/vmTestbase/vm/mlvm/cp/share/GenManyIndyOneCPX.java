@@ -21,25 +21,11 @@
 
 package vm.mlvm.cp.share;
 
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.org.objectweb.asm.Handle;
 import vm.mlvm.share.ClassfileGenerator;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GenManyIndyOneCPX extends GenFullCP {
 

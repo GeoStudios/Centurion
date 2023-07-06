@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Loops04;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,7 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.Loops04.Loops04
  */
-
 
 // Test working with nested loops.
 
@@ -123,9 +108,6 @@ public class Loops04
 
   }
 
-
-
-
    public void Echeck(double er, double ER)
    {
 
@@ -139,9 +121,5 @@ public class Loops04
         }
 
    }
-
-
-
-
 
 }

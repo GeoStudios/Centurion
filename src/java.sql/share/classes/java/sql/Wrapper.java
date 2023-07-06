@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for JDBC classes which provide the ability to retrieve the delegate instance when the instance
  * in question is in fact a proxy class.

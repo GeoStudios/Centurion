@@ -21,24 +21,9 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import java.awt.Color;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JTabbedPane;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The implementation of 'DemoInstVarsAccessor' interface with empty methods.

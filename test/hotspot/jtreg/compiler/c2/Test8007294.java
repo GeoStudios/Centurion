@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8007294
@@ -46,7 +31,6 @@ package compiler.c2;
  *      -XX:-UseOnStackReplacement -XX:-BackgroundCompilation
  *      compiler.c2.Test8007294
  */
-
 
 public class Test8007294 {
 

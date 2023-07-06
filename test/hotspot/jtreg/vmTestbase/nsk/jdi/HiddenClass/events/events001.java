@@ -21,7 +21,6 @@
 
 package nsk.jdi.HiddenClass.events;
 
-
 import com.sun.jdi.Field;
 import com.sun.jdi.Method;
 import com.sun.jdi.ReferenceType;
@@ -30,19 +29,6 @@ import nsk.jdi.HiddenClass.events.DebuggerBase;
 import nsk.jdi.HiddenClass.events.EventHandler;
 import nsk.share.Log;
 import nsk.share.jdi.ArgumentHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,11 +52,6 @@ import nsk.share.jdi.ArgumentHandler;
  *      -debugee.vmkeys="-Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *                       -XX:+WhiteBoxAPI ${test.vm.opts} ${test.java.opts}"
  */
-
-
-
-
-
 
 // This class is the test debugger
 public class events001 extends DebuggerBase {

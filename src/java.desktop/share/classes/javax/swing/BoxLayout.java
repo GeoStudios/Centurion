@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.beans.ConstructorProperties;
 import java.io.Serializable;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A layout manager that allows multiple components to be laid out either
@@ -417,7 +402,6 @@ public class BoxLayout implements LayoutManager2, Serializable {
         int absoluteAxis = resolveAxis( axis, o );
         boolean ltr = absoluteAxis == axis || o.isLeftToRight();
 
-
         // determine the child placements
         synchronized(this) {
             checkRequests();
@@ -523,7 +507,6 @@ public class BoxLayout implements LayoutManager2, Serializable {
         }
         return absoluteAxis;
    }
-
 
     private final int axis;
     private final Container target;

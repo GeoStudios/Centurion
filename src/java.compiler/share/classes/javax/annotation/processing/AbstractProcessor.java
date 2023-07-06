@@ -21,7 +21,6 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.HashSet;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Objects;
 import java.compiler.share.classes.javax.lang.model.element.*;
 import java.compiler.share.classes.javax.lang.model.SourceVersion;
 import java.compiler.share.classes.javax.tools.Diagnostic;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract annotation processor designed to be a convenient
@@ -149,7 +134,6 @@ public abstract class AbstractProcessor implements Processor {
             sv = ssv.value();
         return sv;
     }
-
 
     /**
      * Initializes the processor with the processing environment by

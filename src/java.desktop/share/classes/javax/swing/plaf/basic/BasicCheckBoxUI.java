@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.awt.AppContext;
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CheckboxUI implementation for BasicCheckboxUI

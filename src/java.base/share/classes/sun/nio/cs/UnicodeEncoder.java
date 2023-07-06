@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.*;
 import java.nio.charset.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for different flavors of UTF-16 encoders

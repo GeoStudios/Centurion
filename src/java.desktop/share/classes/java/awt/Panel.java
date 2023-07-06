@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code Panel} is the simplest container class. A panel

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
-
 import java.io.*;
 import java.net.PasswordAuthentication;
 import java.net.ProtocolException;
@@ -37,20 +36,6 @@ import java.base.share.classes.sun.net.NetProperties;
 import java.base.share.classes.sun.net.www.HeaderParser;
 import java.base.share.classes.sun.nio.cs.ISO_8859_1;
 import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DigestAuthentication: Encapsulate an http server authentication using

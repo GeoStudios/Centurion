@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.Point;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
@@ -32,20 +31,6 @@ import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.WritableRaster;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WritableRasterNative

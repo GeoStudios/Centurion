@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import javax.xml.stream.events.XMLEvent;
@@ -31,20 +30,6 @@ import javax.xml.stream.events.StartElement;
 import javax.xml.namespace.QName;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** DummyEvent is an abstract class. It provides functionality for most of the
  * function of XMLEvent.
@@ -75,7 +60,6 @@ public abstract class DummyEvent implements XMLEvent {
     protected void setEventType(int eventType){
         fEventType = eventType;
     }
-
 
     public boolean isStartElement() {
         return fEventType == XMLEvent.START_ELEMENT;

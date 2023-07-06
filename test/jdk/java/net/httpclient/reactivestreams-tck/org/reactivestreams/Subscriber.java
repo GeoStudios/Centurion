@@ -21,21 +21,6 @@
 
 package org.reactivestreams;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Will receive call to {@link #onSubscribe(Subscription)} once after passing an instance of {@link Subscriber} to {@link Publisher#subscribe(Subscriber)}.
  * <p>

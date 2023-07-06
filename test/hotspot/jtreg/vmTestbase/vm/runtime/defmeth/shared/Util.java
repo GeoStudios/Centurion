@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth.shared;
 
-
 import vm.runtime.defmeth.shared.data.Clazz;
 import java.io.PrintWriter;
 import java.lang.instrument.ClassFileTransformer;
@@ -37,19 +36,6 @@ import java.util.regex.Pattern;
 import nsk.share.Pair;
 import nsk.share.TestFailure;
 import vm.runtime.defmeth.shared.data.method.param.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class with auxiliary miscellaneous methods.
@@ -435,7 +421,6 @@ public class Util {
             throw new TestFailure("redefineClass failed: "+clz.getName());
         }
     }
-
 
     native static public boolean redefineClassIntl(Class<?> clz, byte[] classFile);
 

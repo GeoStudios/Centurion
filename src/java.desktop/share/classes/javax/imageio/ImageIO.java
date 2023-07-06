@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio;
 
-
 import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
 import java.io.File;
@@ -50,20 +49,6 @@ import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
 import java.desktop.share.classes.javax.imageio.stream.ImageOutputStream;
 import sun.awt.AppContext;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class containing static convenience methods for locating

@@ -21,28 +21,12 @@
 
 package compiler.stringopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8237950
  * @summary Test very long chain of StringBuilder append calls.
  * @run main/othervm -Xbatch compiler.stringopts.TestLongStringConcat
  */
-
 
 public class TestLongStringConcat {
 

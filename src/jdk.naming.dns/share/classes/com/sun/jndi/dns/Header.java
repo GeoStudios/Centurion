@@ -21,28 +21,12 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import javax.naming.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Header class represents the header of a DNS message.
  *
  */
-
 
 class Header {
 

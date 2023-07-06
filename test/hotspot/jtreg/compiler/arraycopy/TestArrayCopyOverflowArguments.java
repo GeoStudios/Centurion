@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary Test that overflowed integers passed to arraycopy don't do any harm. This might
@@ -47,7 +32,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestArrayCopyOverflowArguments
  */
-
 
 public class TestArrayCopyOverflowArguments {
 

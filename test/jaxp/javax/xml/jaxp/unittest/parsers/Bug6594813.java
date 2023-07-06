@@ -21,7 +21,6 @@
 
 package parsers;
 
-
 import java.io.StringReader;
 import java.io.StringWriter;
 import javax.xml.parsers.SAXParser;
@@ -35,19 +34,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,28 +21,12 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
-
 import java.beans.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Property editor for a java builtin "byte" type.
  *
  */
-
 
 public class ByteEditor extends NumberEditor {
 

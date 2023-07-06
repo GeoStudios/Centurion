@@ -21,7 +21,6 @@
 
 package vm.mlvm.share;
 
-
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.java.util.java.util.java.util.List;
@@ -34,19 +33,6 @@ import nsk.share.test.StressOptions;
 import nsk.share.test.Stresser;
 import vm.share.options.Option;
 import vm.mlvm.share.ExceptionsOptionObjectFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base class for MLVM tests.

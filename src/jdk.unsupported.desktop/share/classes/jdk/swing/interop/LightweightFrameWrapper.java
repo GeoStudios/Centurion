@@ -21,7 +21,6 @@
 
 package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
 
-
 import java.awt.AWTEvent;
 import java.awt.Container;
 import java.awt.Component;
@@ -33,20 +32,6 @@ import sun.awt.LightweightFrame;
 import sun.awt.UngrabEvent;
 import sun.awt.AWTAccessor;
 import sun.swing.JLightweightFrame;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class wraps sun.swing.JLightweightFrame and implements

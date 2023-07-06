@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.print;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrintException} encapsulates a printing-related error condition

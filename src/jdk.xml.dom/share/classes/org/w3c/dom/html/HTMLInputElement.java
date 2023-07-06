@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Form control.  Note. Depending upon the environment in which the page is
  * being viewed, the value property may be read-only for the file upload

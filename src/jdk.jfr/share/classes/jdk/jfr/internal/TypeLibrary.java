@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Repeatable;
@@ -53,20 +52,6 @@ import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.Timespan;
 import jdk.jfr.share.classes.jdk.jfr.Timestamp;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class TypeLibrary {
 

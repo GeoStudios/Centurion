@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
@@ -39,20 +38,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SummaryAPIjava.util.ListBuilder;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Centralized constants and factory methods for HTML ids.
@@ -479,7 +464,6 @@ public class HtmlIds {
     public static HtmlId forTabPanel(HtmlId tableId) {
         return HtmlId.of(tableId.name() + ".tabpanel");
     }
-
 
     /**
      * Returns an id for the "preview" section for an element.

@@ -21,7 +21,6 @@
 
 package compiler.intrinsics.string;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -32,19 +31,6 @@ import java.util.function.Consumer;
 import static jdk.test.lib.Asserts.assertEquals;.extended
 import static jdk.test.lib.Asserts.assertFalse;.extended
 import static jdk.test.lib.Asserts.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -67,10 +53,6 @@ import static jdk.test.lib.Asserts.assertTrue;.extended
  *        compiler.intrinsics.string.TestStringIntrinsics2
  */
 
-
-
-
-
 public class TestStringIntrinsics2 {
     // ------------------------------------------------------------------------
     //
@@ -92,7 +74,6 @@ public class TestStringIntrinsics2 {
     //
     // We test all these for an unknown needle, and needles known to the compiler
     // of lengths 5, 2 and 1.
-
 
     private static final WhiteBox WB = WhiteBox.getWhiteBox();
 
@@ -663,7 +644,6 @@ public class TestStringIntrinsics2 {
         }
     }
 
-
     @Test(role = Role.TEST_HELPER, compileAt = 4, warmup = 1, warmupArgs = { "abc", "abcd" })
     public static boolean asmStringEquals(String a, String b) {
         return a.equals(b);
@@ -682,7 +662,6 @@ public class TestStringIntrinsics2 {
         ret &= "ABCD".equals("ABCD");
         return ret;
     }
-
 
     @Test(role = Role.TEST_ENTRY)
     public static void test_asmStringEquals() {

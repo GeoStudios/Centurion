@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.im.spi;
 
-
 import java.desktop.share.classes.java.util.Locale;
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.lang.Character.Subset;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines the interface for an input method that supports complex text input.

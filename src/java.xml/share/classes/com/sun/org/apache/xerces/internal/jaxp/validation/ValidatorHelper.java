@@ -21,34 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * <p>Instances of ValidatorHelper are able to validate

@@ -21,31 +21,14 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
-
 import java.beans.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Property editor for a java builtin "int" type.
  *
  */
 
-
 public class IntegerEditor extends NumberEditor {
-
 
     public void setAsText(String text) throws IllegalArgumentException {
         setValue((text == null) ? null : Integer.decode(text));

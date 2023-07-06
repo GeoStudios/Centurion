@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Autoscroller is responsible for generating synthetic mouse dragged
@@ -85,7 +70,6 @@ class Autoscroller implements ActionListener {
     public static void processMouseDragged(MouseEvent e) {
         sharedInstance._processMouseDragged(e);
     }
-
 
     Autoscroller() {
     }

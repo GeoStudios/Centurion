@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Family of classes used to represent the parsed form of a {@link Descriptor}

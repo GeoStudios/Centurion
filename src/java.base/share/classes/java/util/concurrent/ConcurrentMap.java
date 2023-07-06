@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -52,9 +37,6 @@ import java.base.share.classes.java.util.function.Function;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A {@link Map} providing thread safety and atomicity guarantees.

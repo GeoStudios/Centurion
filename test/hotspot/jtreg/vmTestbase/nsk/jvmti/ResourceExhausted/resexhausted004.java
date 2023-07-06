@@ -21,25 +21,11 @@
 
 package nsk.jvmti.ResourceExhausted;
 
-
 import java.io.*;
 import java.util.Random;
 import jdk.test.lib.Utils;
 import nsk.share.Consts;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class resexhausted004 {
     public static int run(String args[], PrintStream out) {

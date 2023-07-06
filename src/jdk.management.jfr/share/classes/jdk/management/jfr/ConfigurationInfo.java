@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
@@ -29,20 +28,6 @@ import java.util.Map;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
 import jdk.management.jfr.share.classes.jdk.jfr.Configuration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Management representation of a {@code Configuration}.

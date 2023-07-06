@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -30,20 +29,6 @@ import javax.management.openmbean.CompositeData;
 import jdk.management.jfr.share.classes.jdk.jfr.Category;
 import jdk.management.jfr.share.classes.jdk.jfr.EventType;
 import jdk.management.jfr.share.classes.jdk.jfr.SettingDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Management representation of an {@code EventType}.

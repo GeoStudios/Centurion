@@ -21,22 +21,8 @@
 
 package nsk.stress.stack;
 
-
 import nsk.share.Terminator;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -64,10 +50,6 @@ import java.io.PrintStream;
  * @build nsk.share.Terminator
  * @run main/othervm/timeout=900 -Xss200K nsk.stress.stack.stack019 -eager
  */
-
-
-
-
 
 public class stack019 {
     private final static int CYCLES = 50;

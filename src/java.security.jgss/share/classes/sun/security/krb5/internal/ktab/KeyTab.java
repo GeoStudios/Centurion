@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-
 import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
@@ -39,20 +38,6 @@ import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.Vector;
 import java.security.jgss.share.classes.sun.security.jgss.krb5.ServiceCreds;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents key table. The key table functions deal with storing
@@ -328,8 +313,6 @@ public class KeyTab implements KeyTabConstants {
 
         return retVal;
     }
-
-
 
     /**
      * Searches for the service entry in the keytab file.

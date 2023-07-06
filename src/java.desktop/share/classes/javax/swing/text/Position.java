@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a location within a document.  It is intended to abstract away
  * implementation details of the document and enable specification of

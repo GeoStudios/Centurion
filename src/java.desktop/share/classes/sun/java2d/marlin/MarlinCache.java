@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object used to cache pre-rendered complex paths.

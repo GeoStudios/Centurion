@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
 
-
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
@@ -32,26 +31,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 public class RetrievalMethod extends SignatureElementProxy implements KeyInfoContent {
 

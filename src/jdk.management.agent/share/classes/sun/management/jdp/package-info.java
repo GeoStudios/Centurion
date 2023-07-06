@@ -21,22 +21,6 @@
 
 package jdk.management.agent.share.classes.sun.management.jdp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -110,5 +94,4 @@ package jdk.management.agent.share.classes.sun.management.jdp;
  * - `com.sun.management.jdp.pause`       -- set broadcast interval in seconds default is 5
  * - `com.sun.management.jdp.source_addr` -- an address of interface to use for broadcast
  */
-
 

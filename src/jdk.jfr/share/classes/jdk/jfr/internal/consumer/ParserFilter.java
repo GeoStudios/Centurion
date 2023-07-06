@@ -21,24 +21,9 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.StringJoiner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class ParserFilter {
     public static final ParserFilter ACCEPT_ALL = new ParserFilter(true, Map.of());

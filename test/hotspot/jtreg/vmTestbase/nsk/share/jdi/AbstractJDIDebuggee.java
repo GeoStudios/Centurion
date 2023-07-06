@@ -21,21 +21,7 @@
 
 package nsk.share.jdi;
 
-
 import nsk.share.jpda.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AbstractJDIDebuggee extends AbstractDebuggeeTest {
 

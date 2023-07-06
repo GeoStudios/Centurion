@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.management;
 
-
 import java.nio.file.Paths;
 import java.nio.file.Path;
 import java.time.LocalDateTime;
@@ -29,20 +28,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Allows a remote streaming client to create chunk files
 // with same naming scheme as the JVM.

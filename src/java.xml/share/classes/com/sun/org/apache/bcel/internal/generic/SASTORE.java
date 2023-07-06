@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * SASTORE - Store into short array
@@ -53,7 +36,6 @@ public class SASTORE extends ArrayInstruction implements StackConsumer {
     public SASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.SASTORE);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

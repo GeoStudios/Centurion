@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.SignatureAlgorithmsExtension.SignatureSchemesSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the "signature_algorithms_cert" extensions.

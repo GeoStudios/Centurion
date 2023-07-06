@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.ExceptionRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
 import jdk.jdi.share.classes.com.sun.jdi.event.ClassPrepareEvent;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -50,10 +35,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 abstract class EventRequestSpec {
 

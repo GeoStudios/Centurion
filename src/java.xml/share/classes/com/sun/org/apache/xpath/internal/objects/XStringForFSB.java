@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer;
@@ -29,26 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class will wrap a FastStringBuffer and allow for

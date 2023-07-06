@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Constants in module-info.class files
 
 public class ClassFileConstants {

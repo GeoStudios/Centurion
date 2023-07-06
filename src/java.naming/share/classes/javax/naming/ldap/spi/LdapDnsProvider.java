@@ -21,25 +21,10 @@
 
 package java.naming.share.classes.javax.naming.ldap.spi;
 
-
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.util.Map;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service-provider class for DNS lookups when performing LDAP operations.

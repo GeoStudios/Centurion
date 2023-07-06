@@ -21,21 +21,7 @@
 
 package java.util;
 
-
 import nsk.jvmti.AttachOnDemand.attach024.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

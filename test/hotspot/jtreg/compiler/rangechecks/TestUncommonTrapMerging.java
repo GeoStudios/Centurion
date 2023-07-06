@@ -21,21 +21,6 @@
 
 package compiler.rangechecks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8140574
@@ -47,7 +32,6 @@ package compiler.rangechecks;
  * @run main/othervm -XX:CompileCommand=compileonly,compiler.rangechecks.TestUncommonTrapMerging::test*
  *                   compiler.rangechecks.TestUncommonTrapMerging Test2
  */
-
 
 public class TestUncommonTrapMerging {
 

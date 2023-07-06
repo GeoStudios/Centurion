@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.hpack;
 
-
 import jdk.internal.net.http.hpack.SimpleHeaderTable.HeaderField;
 import org.testng.annotations.Test;
 import java.util.HashMap;
@@ -30,19 +29,6 @@ import java.util.Map;
 import java.util.Set;
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.AssertJUnit.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HeaderTableTest extends SimpleHeaderTableTest {
 

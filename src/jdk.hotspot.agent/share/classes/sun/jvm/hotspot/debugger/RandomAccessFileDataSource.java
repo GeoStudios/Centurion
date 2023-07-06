@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This class is used by the Windows COFF and Posix ELF implementations. */
 public class RandomAccessFileDataSource implements DataSource {

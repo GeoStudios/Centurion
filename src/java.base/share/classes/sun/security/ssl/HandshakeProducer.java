@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface HandshakeProducer {
     // return the encoded producing if it has not been dumped to the context

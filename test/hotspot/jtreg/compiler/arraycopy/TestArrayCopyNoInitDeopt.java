@@ -21,24 +21,10 @@
 
 package compiler.arraycopy;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -55,9 +41,6 @@ import java.lang.reflect.Method;
  *                   -XX:-BackgroundCompilation -XX:-UseOnStackReplacement -XX:TypeProfileLevel=020
  *                   compiler.arraycopy.TestArrayCopyNoInitDeopt
  */
-
-
-
 
 public class TestArrayCopyNoInitDeopt {
 

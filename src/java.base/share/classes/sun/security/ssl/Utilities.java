@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.math.BigInteger;
 import java.util.*;
 import java.util.regex.Pattern;
 import javax.net.ssl.*;
 import java.base.share.classes.sun.net.util.IPAddressUtil;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class to share the static methods.

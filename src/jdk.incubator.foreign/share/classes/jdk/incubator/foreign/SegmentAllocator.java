@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ArenaAllocator;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
@@ -32,20 +31,6 @@ import java.nio.ByteOrder;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface models a memory allocator. Clients implementing this interface

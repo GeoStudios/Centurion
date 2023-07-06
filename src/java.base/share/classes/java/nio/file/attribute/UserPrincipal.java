@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import java.base.share.classes.java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Principal} representing an identity used to determine access rights

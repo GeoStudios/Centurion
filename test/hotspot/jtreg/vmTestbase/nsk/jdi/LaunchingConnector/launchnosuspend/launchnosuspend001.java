@@ -21,7 +21,6 @@
 
 package nsk.jdi.LaunchingConnector.launchnosuspend;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.event.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This tiny debugger-like application starts debugee VM

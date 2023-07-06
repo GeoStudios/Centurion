@@ -21,22 +21,7 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Name} interface represents a generic name -- an ordered

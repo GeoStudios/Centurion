@@ -21,31 +21,15 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Super class for pluggable connectors used by
  * nsk/jdi/PlugConnectors tests
  */
-
-
 
 public class PlugConnectors implements Connector {
 
@@ -443,7 +427,6 @@ public class PlugConnectors implements Connector {
                 + errorLogPrefix + "Expected number of default arguments = '" + referenceConnectorArgumentsNumber + "'\n"
                 + errorLogPrefix + "Actual number of default arguments = '" + checkedConnectorArgumentsNumber + "'\n";
         }
-
 
         return errorMessage;
     }  // end of compareConnectors(...) method

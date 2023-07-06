@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTError;
 import java.awt.LayoutManager;
 import java.awt.Component;
@@ -31,20 +30,6 @@ import java.awt.Point;
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The default layout manager for <code>JViewport</code>.
@@ -91,7 +76,6 @@ public class ViewportLayout implements LayoutManager, Serializable
      */
     public void removeLayoutComponent(Component c) { }
 
-
     /**
      * Returns the preferred dimensions for this layout given the components
      * in the specified target container.
@@ -113,7 +97,6 @@ public class ViewportLayout implements LayoutManager, Serializable
         }
     }
 
-
     /**
      * Returns the minimum dimensions needed to layout the components
      * contained in the specified target container.
@@ -126,7 +109,6 @@ public class ViewportLayout implements LayoutManager, Serializable
     public Dimension minimumLayoutSize(Container parent) {
         return new Dimension(4, 4);
     }
-
 
     /**
      * Called by the AWT when the specified container needs to be laid out.

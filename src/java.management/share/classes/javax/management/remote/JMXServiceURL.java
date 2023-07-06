@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
 import java.io.java.io.java.io.java.io.IOException;
@@ -39,20 +38,6 @@ import java.util.BitSet;
 import java.util.Enumeration;
 import java.base.share.classes.java.util.Locale;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The address of a JMX API connector server.  Instances of this class
@@ -578,7 +563,6 @@ public class JMXServiceURL implements Serializable {
     }
 
     private static final Exception randomException = new Exception();
-
 
     /**
      * <p>The protocol part of the Service URL.

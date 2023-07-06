@@ -21,22 +21,7 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mixin interface for an element that has type parameters.

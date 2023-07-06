@@ -21,21 +21,6 @@
 
 package compiler.whitebox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test SetForceInlineMethodTest
  * @bug 8006683 8007288 8022832
@@ -50,7 +35,6 @@ package compiler.whitebox;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.whitebox.SetForceInlineMethodTest
  */
-
 
 public class SetForceInlineMethodTest extends CompilerWhiteBoxTest {
 

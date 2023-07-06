@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Position.LineMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The lexical analyzer maps an input stream consisting of ASCII

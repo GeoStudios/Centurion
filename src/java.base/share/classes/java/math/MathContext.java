@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.math;
 
-
 import java.base.share.classes.java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Immutable objects which encapsulate the context settings which

@@ -21,7 +21,6 @@
 
 package compiler.vectorapi;
 
-
 import java.util.Random;
 import jdk.incubator.vector.ByteVector;
 import jdk.incubator.vector.DoubleVector;
@@ -33,19 +32,6 @@ import jdk.incubator.vector.VectorSpecies;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8268966
@@ -53,7 +39,6 @@ import org.testng.annotations.Test;
  * @modules jdk.incubator.vector
  * @run testng/othervm -XX:-TieredCompilation compiler.vectorapi.VectorCastShape128Test
  */
-
 
 public class VectorCastShape128Test {
 
@@ -102,7 +87,6 @@ public class VectorCastShape128Test {
             da[i] = r.nextDouble();
         }
     }
-
 
     private static void testDoubleToByte() {
         for (int i = 0; i < dspec.loopBound(LENGTH); i += dspec.length()) {
@@ -164,7 +148,6 @@ public class VectorCastShape128Test {
         }
     }
 
-
     private static void testFloatToByte() {
         for (int i = 0; i < fspec.loopBound(LENGTH); i += fspec.length()) {
             FloatVector va = FloatVector.fromArray(fspec, fa, i);
@@ -224,7 +207,6 @@ public class VectorCastShape128Test {
             }
         }
     }
-
 
     private static void testIntToByte() {
         for (int i = 0; i < ispec.loopBound(LENGTH); i += ispec.length()) {
@@ -286,7 +268,6 @@ public class VectorCastShape128Test {
         }
     }
 
-
     private static void testLongToByte() {
         for (int i = 0; i < lspec.loopBound(LENGTH); i += lspec.length()) {
             LongVector va = LongVector.fromArray(lspec, la, i);
@@ -346,7 +327,6 @@ public class VectorCastShape128Test {
             }
         }
     }
-
 
     private static void testShortToByte() {
         for (int i = 0; i < sspec.loopBound(LENGTH); i += sspec.length()) {
@@ -408,7 +388,6 @@ public class VectorCastShape128Test {
         }
     }
 
-
     private static void testByteToShort() {
         for (int i = 0; i < bspec.loopBound(LENGTH); i += bspec.length()) {
             ByteVector va = ByteVector.fromArray(bspec, ba, i);
@@ -468,7 +447,6 @@ public class VectorCastShape128Test {
             }
         }
     }
-
 
     @Test
     public void testCastShape128() {

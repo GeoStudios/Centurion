@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.source.tree.AssignmentTree;
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.CompilationUnitTree;
@@ -118,20 +117,6 @@ import static jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Completenes
 import static jdk.jshell.share.classes.jdk.jshell.TreeDissector.printType;.extended
 import static java.util.stream.Collectors.joining;.extended
 import javax.lang.model.type.IntersectionType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The concrete implementation of SourceCodeAnalysis.
@@ -1081,7 +1066,6 @@ class SourceCodeAnalysisImpl extends SourceCodeAnalysis {
 
         return candidate;
     }
-
 
     private TypeMirror resultTypeOf(Element el) {
         //TODO: should reflect the type of site!

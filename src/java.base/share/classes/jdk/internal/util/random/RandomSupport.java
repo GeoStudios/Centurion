@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.random;
 
-
 import java.lang.annotation.*;
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Objects;
@@ -38,20 +37,6 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Low-level utility methods helpful for implementing pseudorandom number
@@ -1707,7 +1692,6 @@ public class RandomSupport {
             return stream(makeLeapsSpliterator(0L, streamSize, leapDistance()));
         }
 
-
         /**
          * Spliterator for int streams. We multiplex the four int versions into
          * one class by treating a bound less than origin as unbounded, and also
@@ -2429,7 +2413,6 @@ public class RandomSupport {
         }
 
         public abstract SplittableGenerator split(SplittableGenerator source, long brine);
-
 
         /* ---------------- spliterator ---------------- */
         /**

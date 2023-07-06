@@ -21,28 +21,12 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
-
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.LongBuffer;
 import java.nio.ReadOnlyBufferException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PerfLongArrayCounter extends AbstractCounter
        implements LongArrayCounter {
-
 
     @SuppressWarnings("serial") // Value indirectly copied as a long[] in writeReplace
     LongBuffer lb;

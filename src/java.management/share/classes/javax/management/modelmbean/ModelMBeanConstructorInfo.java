@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
-
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -37,20 +36,6 @@ import java.management.share.classes.javax.management.DescriptorKey;
 import java.management.share.classes.javax.management.MBeanConstructorInfo;
 import java.management.share.classes.javax.management.MBeanParameterInfo;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The ModelMBeanConstructorInfo object describes a constructor of the ModelMBean.
@@ -156,7 +141,6 @@ public class ModelMBeanConstructorInfo
         private Descriptor consDescriptor = validDescriptor(null);
 
         private static final String currClass = "ModelMBeanConstructorInfo";
-
 
         /**
         * Constructs a ModelMBeanConstructorInfo object with a default
@@ -319,7 +303,6 @@ public class ModelMBeanConstructorInfo
          * @see #setDescriptor
          */
 
-
         @Override
         public Descriptor getDescriptor()
         {
@@ -383,7 +366,6 @@ public class ModelMBeanConstructorInfo
                 }
                 return retStr;
         }
-
 
         /**
          * Clones the passed in Descriptor, sets default values, and checks for validity.
@@ -460,7 +442,6 @@ public class ModelMBeanConstructorInfo
       // New serial form ignores extra field "currClass"
       in.defaultReadObject();
     }
-
 
     /**
      * Serializes a {@link ModelMBeanConstructorInfo} to an {@link ObjectOutputStream}.

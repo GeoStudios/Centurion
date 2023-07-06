@@ -21,23 +21,8 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
 import java.compiler.share.classes.javax.tools.Diagnostic;
 import java.compiler.share.classes.javax.lang.model.element.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Messager} provides the way for an annotation processor to

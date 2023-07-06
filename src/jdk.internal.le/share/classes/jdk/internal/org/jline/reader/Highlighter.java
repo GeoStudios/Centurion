@@ -21,23 +21,8 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
 import java.util.regex.Pattern;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Highlighter {
 

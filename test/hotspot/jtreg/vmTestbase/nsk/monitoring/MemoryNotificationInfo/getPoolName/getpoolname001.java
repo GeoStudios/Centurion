@@ -21,23 +21,9 @@
 
 package nsk.monitoring.MemoryNotificationInfo.getPoolName;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getpoolname001 {
     private static boolean testFailed = false;

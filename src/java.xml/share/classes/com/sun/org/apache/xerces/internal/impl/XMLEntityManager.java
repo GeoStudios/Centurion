@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UCSReader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
@@ -65,20 +64,6 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Will keep track of current entity.
@@ -130,7 +115,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
      * http://apache.org/xml/features/standard-uri-conformant
      */
     protected boolean fStrictURI;
-
 
     /** Feature identifier: external general entities. */
     protected static final String EXTERNAL_GENERAL_ENTITIES =
@@ -379,7 +363,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
     // NOTE:  this *is not* the same as whether they're external entities!
     protected boolean fInExternalSubset = false;
 
-
     // handlers
     /** Entity handler. */
     protected XMLEntityHandler fEntityHandler;
@@ -415,7 +398,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
     protected XMLEntityStorage fEntityStorage ;
 
     protected final Object [] defaultEncoding = new Object[]{"UTF-8", null};
-
 
     // temp vars
 
@@ -544,7 +526,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
 
     } // addExternalEntity(String,String,String,String)
 
-
     /**
      * Adds an unparsed entity declaration.
      * <p>
@@ -578,7 +559,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
             }
         }
     } // addUnparsedEntity(String,String,String,String)
-
 
     /** get the entity storage object from entity manager */
     public XMLEntityStorage getEntityStore(){
@@ -887,7 +867,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         return encoding;
     } //setupCurrentEntity(String, XMLInputSource, boolean, boolean):  String
 
-
     /**
      * Checks whether an entity given by name is external.
      *
@@ -920,8 +899,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         }
         return entity.isEntityDeclInExternalSubset();
     }
-
-
 
     //
     // Public methods
@@ -956,8 +933,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         }
         return entity.isUnparsed();
     }
-
-
 
     // this simply returns the fResourceIdentifier object;
     // this should only be used with caution by callers that
@@ -1540,7 +1515,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         }
 
     } // endEntity()
-
 
     //
     // XMLComponent methods
@@ -2416,7 +2390,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
     // Protected methods
     //
 
-
     /**
      * Returns the IANA encoding name that is auto-detected from
      * the bytes specified, with the endian-ness of that encoding where appropriate.
@@ -2616,7 +2589,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
 
     } // createReader(InputStream,String, Boolean): Reader
 
-
     /**
      * Return the public identifier for the current document event.
      * <p>
@@ -2777,7 +2749,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         return -1;
     } // getColumnNumber():int
 
-
     //
     // Protected static methods
     //
@@ -2836,7 +2807,6 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         return str;
 
     } // fixURI(String):String
-
 
     //
     // Package visible methods

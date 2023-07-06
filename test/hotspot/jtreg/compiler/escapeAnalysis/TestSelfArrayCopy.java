@@ -21,21 +21,7 @@
 
 package compiler.escapeAnalysis;
 
-
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import jdk.test.lib.Utils;
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.escapeAnalysis.TestSelfArrayCopy::test*
  *                   compiler.escapeAnalysis.TestSelfArrayCopy
  */
-
-
 
 public class TestSelfArrayCopy {
     private static boolean b = false;

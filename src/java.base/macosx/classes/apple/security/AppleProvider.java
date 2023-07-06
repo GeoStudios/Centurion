@@ -21,10 +21,8 @@
 
 package java.base.macosx.classes.apple.security;
 
-
 import java.base.share.classes.java.security.*;
 import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;
-
 
 /**
  * The Apple Security Provider.
@@ -69,7 +67,6 @@ public final class AppleProvider extends Provider {
                 " " + type);
         }
     }
-
 
     @SuppressWarnings("removal")
     public AppleProvider() {

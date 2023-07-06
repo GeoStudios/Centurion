@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
 import java.awt.Rectangle;
 import java.beans.BeanProperty;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <strong>Warning:</strong>
@@ -518,7 +503,6 @@ public abstract class AbstractLayoutCache implements RowMapper {
     protected boolean isFixedRowHeight() {
         return (rowHeight > 0);
     }
-
 
     /**
      * Used by <code>AbstractLayoutCache</code> to determine the size

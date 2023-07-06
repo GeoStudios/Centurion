@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
@@ -30,20 +29,6 @@ import jdk.incubator.foreign.share.classes.jdk.internal.ref.CleanerFactory;
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class manages the temporal bounds associated with a memory segment as well
@@ -195,7 +180,6 @@ public abstract non-sealed class ResourceScopeImpl implements ResourceScope, Sco
      * @return {@code true} if this scope is not closed yet.
      */
     public abstract boolean isAlive();
-
 
     /**
      * This is a faster version of {@link #checkValidStateSlow()}, which is called upon memory access, and which

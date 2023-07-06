@@ -21,23 +21,9 @@
 
 package nsk.share.jdwp;
 
-
 import nsk.share.*;
 import java.io.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a socket transport for JDWP.

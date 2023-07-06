@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Sequence} is a data structure containing musical information (often

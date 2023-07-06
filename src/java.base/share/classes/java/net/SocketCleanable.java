@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import jdk.internal.access.JavaIOFileDescriptorAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.base.share.classes.java.lang.ref.Cleaner;
 import sun.net.ResourceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Cleanable for a socket/datagramsocket FileDescriptor when it becomes phantom reachable.

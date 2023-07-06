@@ -21,23 +21,9 @@
 
 package nsk.jvmti.CompiledMethodUnload;
 
-
 import java.io.*;
 import java.math.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Dummy class used only to provoke method compiling/inlining

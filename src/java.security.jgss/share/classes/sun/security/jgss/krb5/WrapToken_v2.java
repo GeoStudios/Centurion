@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.io.InputStream;
@@ -30,20 +29,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
 import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.share.classes.sun.security.krb5.Confounder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the new format of GSS tokens, as specified in RFC

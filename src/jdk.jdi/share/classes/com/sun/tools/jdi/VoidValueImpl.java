@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.VoidValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VoidValueImpl extends ValueImpl implements VoidValue {
 

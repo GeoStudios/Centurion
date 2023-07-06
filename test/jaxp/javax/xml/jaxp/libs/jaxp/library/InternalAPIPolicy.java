@@ -21,21 +21,7 @@
 
 package jaxp.library;
 
-
 import org.testng.ITestContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This policy can access internal jaxp packages.

@@ -21,23 +21,9 @@
 
 package gc.metaspace;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestMetaspaceSizeFlags

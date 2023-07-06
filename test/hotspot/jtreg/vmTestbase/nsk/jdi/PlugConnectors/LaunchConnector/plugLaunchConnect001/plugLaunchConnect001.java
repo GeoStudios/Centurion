@@ -21,7 +21,6 @@
 
 package nsk.jdi.PlugConnectors.LaunchConnector.plugLaunchConnect001;
 
-
 import nsk.jdi.PlugConnectors.LaunchConnector.plugLaunchConnect001.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -87,10 +73,6 @@ import java.io.*;
  *      -debugee.vmkind=java
  *      -transport.address=dynamic
  */
-
-
-
-
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
@@ -156,7 +138,6 @@ public class plugLaunchConnect001 {
         return result;
     }
 
-
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;
 
@@ -171,7 +152,6 @@ public class plugLaunchConnect001 {
         logAlways("==> nsk/jdi/PlugConnectors/LaunchConnector/plugLaunchConnect001 test...");
         logOnVerbose
             ("==> Test checks that expected pluggable launching connector is created properly.");
-
 
         VirtualMachineManager virtualMachineManager = Bootstrap.virtualMachineManager();
         if (virtualMachineManager == null) {

@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6875866
@@ -43,8 +28,6 @@ package compiler.codegen;
  *
  * @run main/othervm -Xcomp compiler.codegen.Test6875866
  */
-
-
 
 public class Test6875866 {
 

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constan
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Read class file(s) and convert them into HTML files.
@@ -126,7 +111,6 @@ public class Class2HTML {
         attribute_html.close();
     }
 
-
     public static void main( final String[] argv ) throws IOException {
         final String[] file_name = new String[argv.length];
         int files = 0;
@@ -191,7 +175,6 @@ public class Class2HTML {
                 + "</A>";
     }
 
-
     static String referenceType( final String type ) {
         String short_type = Utility.compactClassName(type);
         short_type = Utility.compactClassName(short_type, class_package + ".", true);
@@ -206,7 +189,6 @@ public class Class2HTML {
         }
         return "<A HREF=\"" + base_type + ".html\" TARGET=_top>" + short_type + "</A>";
     }
-
 
     static String toHTML( final String str ) {
         final StringBuilder buf = new StringBuilder();
@@ -231,7 +213,6 @@ public class Class2HTML {
         }
         return buf.toString();
     }
-
 
     private void writeMainHTML( final AttributeHTML attribute_html ) throws IOException {
         try (PrintWriter file = new PrintWriter(new FileOutputStream(dir + class_name + ".html"))) {

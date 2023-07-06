@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
-
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -80,20 +79,6 @@ import static java.security.KeyStore.*;.extended
 import static java.base.share.classes.sun.security.tools.keytool.Main.Command.*;.extended
 import static java.base.share.classes.sun.security.tools.keytool.Main.Option.*;.extended
 import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This tool manages keystores.
@@ -1076,7 +1061,6 @@ public final class Main {
                         count++;
                     } while ((storePass == null) && count < 3);
 
-
                     if (storePass == null) {
                         System.err.println
                                 (rb.getString("Too.many.failures.try.later"));
@@ -1432,7 +1416,6 @@ public final class Main {
     private void doGenCert(String alias, String sigAlgName, InputStream in, PrintStream out)
             throws Exception {
 
-
         if (!keyStore.containsAlias(alias)) {
             MessageFormat form = new MessageFormat
                     (rb.getString("Alias.alias.does.not.exist"));
@@ -1566,7 +1549,6 @@ public final class Main {
         lastDate.setTime(lastDate.getTime() + validity*1000*24*60*60);
         CertificateValidity interval = new CertificateValidity(firstDate,
                                                                lastDate);
-
 
         PrivateKey privateKey =
                 (PrivateKey)recoverKey(alias, storePass, keyPass).fst;

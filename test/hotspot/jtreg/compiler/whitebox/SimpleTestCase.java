@@ -21,25 +21,11 @@
 
 package compiler.whitebox;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public enum SimpleTestCase implements CompilerWhiteBoxTest.TestCase {
     /** constructor test case */

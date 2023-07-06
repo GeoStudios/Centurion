@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
@@ -34,26 +33,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: KeyIndex.java,v 1.6 2006/06/19 19:49:02 spericas Exp $
  */
-
-
-
 
 /**
  * Stores mappings of key values or IDs to DTM nodes.
@@ -520,7 +502,6 @@ public class KeyIndex extends DTMAxisIteratorBase {
      * Used to represent an empty node set.
      */
     final private static IntegerArray EMPTY_NODES = new IntegerArray(0);
-
 
     /**
      * An iterator representing the result of a reference to either the

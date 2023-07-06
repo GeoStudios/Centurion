@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd.DTDDVFactoryImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd.XML11DTDDVFactoryImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The factory to create and return DTD types. The implementation should

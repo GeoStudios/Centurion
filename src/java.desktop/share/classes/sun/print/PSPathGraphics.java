@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -43,20 +42,6 @@ import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class converts paths into PostScript
@@ -93,7 +78,6 @@ class PSPathGraphics extends PathGraphics {
                                   getPageIndex(),
                                   canDoRedraws());
     }
-
 
     /**
      * Override the inherited implementation of fill
@@ -144,7 +128,6 @@ class PSPathGraphics extends PathGraphics {
      public void drawString(String str, float x, float y) {
          drawString(str, x, y, getFont(), getFontRenderContext(), 0f);
      }
-
 
     protected boolean canDrawStringToWidth() {
         return true;
@@ -413,7 +396,6 @@ class PSPathGraphics extends PathGraphics {
 
             if (boundsWidth > 0 && boundsHeight > 0) {
 
-
                 /* If the image has transparent or semi-transparent
                  * pixels then we'll have the application re-render
                  * the portion of the page covered by the image.
@@ -606,7 +588,6 @@ class PSPathGraphics extends PathGraphics {
                                     (float) (rotBounds.getWidth() * scaleX),
                                     (float) (rotBounds.getHeight() * scaleY));
 
-
                     /* Pull the raster data from the buffered image
                      * and pass it along to PS.
                      */
@@ -624,7 +605,6 @@ class PSPathGraphics extends PathGraphics {
                     /* Reset the device clip to match user clip */
                     psPrinterJob.setClip(
                                getTransform().createTransformedShape(holdClip));
-
 
                     imageGraphics.dispose();
                 }
@@ -703,7 +683,6 @@ class PSPathGraphics extends PathGraphics {
          */
         psPrinterJob.setClip(savedTransform.createTransformedShape(savedClip));
 
-
         /* Scale the bounding rectangle by the scale transform.
          * Because the scaling transform has only x and y
          * scaling components it is equivalent to multiply
@@ -718,7 +697,6 @@ class PSPathGraphics extends PathGraphics {
                         (float) (region.getWidth() * scaleX),
                         (float) (region.getHeight() * scaleY));
 
-
         /* Pull the raster data from the buffered image
          * and pass it along to PS.
          */
@@ -732,9 +710,7 @@ class PSPathGraphics extends PathGraphics {
                             deepImage.getWidth(), deepImage.getHeight(),
                             deepImage.getWidth(), deepImage.getHeight());
 
-
     }
-
 
     /*
      * Fill the path defined by {@code pathIter}
@@ -774,7 +750,6 @@ class PSPathGraphics extends PathGraphics {
                                   Color color) {
         fill(new Rectangle2D.Float(x, y, width, height));
     }
-
 
     /*
      * This method should not be invoked by PSPathGraphics.

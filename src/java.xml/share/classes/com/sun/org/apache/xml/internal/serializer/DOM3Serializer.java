@@ -21,33 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id:  $
  */
-
-
-
-
 
 /**
  * Interface for a DOM serializer capable of serializing DOMs as specified in

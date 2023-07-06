@@ -21,21 +21,6 @@
 
 package translet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MainGC {
     public static void go() {
         test.MainGC.callback();

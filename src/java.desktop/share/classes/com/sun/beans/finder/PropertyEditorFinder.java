@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.desktop.share.classes.com.sun.beans.WeakCache;
 import java.beans.PropertyEditor;
 import java.desktop.share.classes.com.sun.beans.editors.BooleanEditor;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.com.sun.beans.editors.FloatEditor;
 import java.desktop.share.classes.com.sun.beans.editors.IntegerEditor;
 import java.desktop.share.classes.com.sun.beans.editors.LongEditor;
 import java.desktop.share.classes.com.sun.beans.editors.ShortEditor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is utility class that provides functionality

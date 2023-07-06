@@ -21,22 +21,8 @@
 
 package common;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Common results of running an executable such as the saved exit code, the

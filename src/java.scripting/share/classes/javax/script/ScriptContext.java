@@ -21,24 +21,9 @@
 
 package java.scripting.share.classes.javax.script;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.io.Writer;
 import java.io.Reader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface whose implementing classes are used to connect Script Engines
@@ -49,7 +34,6 @@ import java.io.Reader;
  *
  */
 public interface ScriptContext {
-
 
     /**
      * EngineScope attributes are visible during the lifetime of a single
@@ -62,7 +46,6 @@ public interface ScriptContext {
      * GlobalScope attributes are visible to all engines created by same ScriptEngineFactory.
      */
     int GLOBAL_SCOPE = 200;
-
 
     /**
      * Associates a <code>Bindings</code> instance with a particular scope in this
@@ -150,7 +133,6 @@ public interface ScriptContext {
      */
     Object getAttribute(String name);
 
-
     /**
      * Get the lowest scope in which an attribute is defined.
      * @param name Name of the attribute
@@ -169,7 +151,6 @@ public interface ScriptContext {
      */
     Writer getWriter();
 
-
     /**
      * Returns the <code>Writer</code> used to display error output.
      *
@@ -183,7 +164,6 @@ public interface ScriptContext {
      * @param writer The new <code>Writer</code>.
      */
     void setWriter(Writer writer);
-
 
     /**
      * Sets the <code>Writer</code> used to display error output.
@@ -199,7 +179,6 @@ public interface ScriptContext {
      * @return The <code>Reader</code>.
      */
     Reader getReader();
-
 
     /**
      * Sets the <code>Reader</code> for scripts to read input

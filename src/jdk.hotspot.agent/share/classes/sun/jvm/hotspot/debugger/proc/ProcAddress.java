@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ProcAddress implements Address {
   protected ProcDebugger debugger;
@@ -302,7 +287,6 @@ class ProcAddress implements Address {
   long getValue() {
     return addr;
   }
-
 
   private static void check(boolean arg, String failMessage) {
     if (!arg) {

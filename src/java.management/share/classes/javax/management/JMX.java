@@ -21,26 +21,11 @@
 
 package java.management.share.classes.javax.management;
 
-
 import com.sun.jmx.mbeanserver.Introspector;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Static methods from the JMX API.  There are no instances of this class.

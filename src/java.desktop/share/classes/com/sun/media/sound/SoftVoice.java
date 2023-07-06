@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import javax.sound.midi.VoiceStatus;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Software synthesizer voice class.
@@ -641,7 +626,6 @@ public final class SoftVoice extends VoiceStatus {
             if (osc_stream != null)
                 osc_stream.noteOn(softchannel, this, noteOn_noteNumber,
                         noteOn_velocity);
-
 
         }
         if (audiostarted) {

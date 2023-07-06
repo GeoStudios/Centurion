@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.EnumSet;
 import java.base.share.classes.java.security.SecureRandom;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.nio.file.attribute.PosixFilePermission;
 import java.base.share.classes.java.nio.file.attribute.PosixFilePermissions;
 import static java.base.share.classes.java.nio.file.attribute.PosixFilePermission.*;.extended
 import jdk.internal.util.StaticProperty;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class to support creation of temporary files and directories with

@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.createMethodExitRequest;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -195,7 +181,6 @@ public class mexreg001 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -259,7 +244,6 @@ public class mexreg001 extends JDIBase {
     //------------------------------------------------------  testing section
 
         MethodExitRequest mexRequest1 = null;
-
 
         log1("     TESTING BEGINS");
 

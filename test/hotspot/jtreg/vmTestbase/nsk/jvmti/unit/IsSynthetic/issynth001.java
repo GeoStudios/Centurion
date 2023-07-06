@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.IsSynthetic;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class issynth001 {
 

@@ -21,23 +21,9 @@
 
 package ir_framework.tests;
 
-
 import compiler.lib.ir_framework.Scenario;
 import compiler.lib.ir_framework.Test;
 import compiler.lib.ir_framework.TestFramework;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

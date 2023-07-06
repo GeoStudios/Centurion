@@ -21,30 +21,13 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * A simple Unsynced ByteArrayOutputStream

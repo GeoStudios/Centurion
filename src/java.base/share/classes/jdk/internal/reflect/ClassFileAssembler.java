@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ClassFileAssembler implements ClassFileConstants {
     private final ByteVector vec;
     private short cpIdx = 0;

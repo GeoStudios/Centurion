@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
@@ -31,26 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class implements a general iterator for
@@ -85,7 +68,6 @@ public class OneStepIterator extends ChildTestIterator
     m_axis = WalkerFactory.getAxisFromStep(compiler, firstStepPos);
 
   }
-
 
   /**
    * Create a OneStepIterator object.
@@ -184,8 +166,6 @@ public class OneStepIterator extends ChildTestIterator
 
     return clone;
   }
-
-
 
   /**
    * Tells if this is a reverse axes.  Overrides AxesWalker#isReverseAxes.
@@ -360,6 +340,5 @@ public class OneStepIterator extends ChildTestIterator
 
     return m_axis == ((OneStepIterator) expr).m_axis;
   }
-
 
 }

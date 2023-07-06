@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import java.util.BitSet;
 import java.util.Vector;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A stack of tags. Used while parsing an HTML document.
@@ -132,7 +117,6 @@ class TagStack implements DTDConstants {
     boolean excluded(int elemIndex) {
         return (exclusions != null) && exclusions.get(elem.getIndex());
     }
-
 
     /**
      * Advance the state by reducing the given element.

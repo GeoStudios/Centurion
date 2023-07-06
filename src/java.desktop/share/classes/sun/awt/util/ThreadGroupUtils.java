@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A utility class needed to access the root {@code ThreadGroup}
  *

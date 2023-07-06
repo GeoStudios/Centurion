@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -44,20 +43,6 @@ import java.desktop.share.classes.javax.accessibility.AccessibleState;
 import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
 import java.desktop.share.classes.javax.swing.plaf.ToolBarUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JToolBar</code> provides a component that is useful for
@@ -204,8 +189,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
         invalidate();
     }
 
-
-
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -217,7 +200,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * Returns the index of the specified component.
@@ -306,7 +288,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
      {
          return paintBorder;
      }
-
 
      /**
       * Sets the <code>borderPainted</code> property, which is
@@ -576,7 +557,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * A toolbar-specific separator. An object with dimension but
      * no contents used to divide buttons on a tool bar into groups.
@@ -689,7 +669,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
      * <code>JComponent</code> for more
@@ -706,7 +685,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
             }
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JToolBar</code>.
@@ -734,7 +712,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
         ",orientation=" + orientationString +
         ",paintBorder=" + paintBorderString;
     }
-
 
     private class DefaultToolBarLayout
         implements LayoutManager2, Serializable, PropertyChangeListener, UIResource {
@@ -802,7 +779,6 @@ public class JToolBar extends JComponent implements SwingConstants, Accessible
             }
         }
     }
-
 
     public void setLayout(LayoutManager mgr) {
         LayoutManager oldMgr = getLayout();

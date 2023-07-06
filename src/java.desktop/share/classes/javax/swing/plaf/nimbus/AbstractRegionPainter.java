@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.awt.*;
 import java.awt.image.*;
 import java.lang.reflect.Method;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.Painter;
 import java.awt.print.PrinterGraphics;
 import sun.reflect.misc.MethodUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Convenient base class for defining Painter instances for rendering a

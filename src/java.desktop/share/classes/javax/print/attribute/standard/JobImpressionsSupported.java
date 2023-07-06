@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.SetOfIntegerSyntax;
 import java.desktop.share.classes.javax.print.attribute.SupportedValuesAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code JobImpressionsSupported} is a printing attribute class, a set of

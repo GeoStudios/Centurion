@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
-
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *   DrawGlyphList - loops for SolidTextRenderer pipe.
@@ -76,7 +61,6 @@ public class DrawGlyphList extends GraphicsPrimitive {
     {
         super(pNativePrim, methodSignature, primTypeID, srctype, comptype, dsttype);
     }
-
 
     public native void DrawGlyphList(SunGraphics2D sg2d, SurfaceData dest,
                                      GlyphList srcData,

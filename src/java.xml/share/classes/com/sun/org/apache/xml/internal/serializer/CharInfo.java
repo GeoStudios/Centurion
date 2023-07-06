@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
@@ -40,20 +39,6 @@ import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 import javax.xml.transform.TransformerException;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides services that tell if a character should have
@@ -123,7 +108,6 @@ final class CharInfo
      */
     private final int[] array_of_bits = createEmptySetOfIntegers(65535);
 
-
     // 5 for 32 bit words,  6 for 64 bit words ...
     /*
      * This constant is used to shift an integer to quickly
@@ -149,7 +133,6 @@ final class CharInfo
      * in the array array_of_bits[] that is not used.
      */
     private int firstWordNotUsed;
-
 
     /**
      * Constructor that reads in a resource file that describes the mapping of
@@ -346,8 +329,6 @@ final class CharInfo
             isSpecialTextASCII[ch] = true;
         }
 
-
-
         onlyQuotAmpLtGt = noExtraEntities;
 
         // initialize the array with a cache of the BitSet values
@@ -475,7 +456,6 @@ final class CharInfo
         return isCleanTextASCII[value];
     }
 
-
     /**
      * Read an internal resource file that describes the mapping of
      * characters to entity references; Construct a CharInfo object.
@@ -596,7 +576,6 @@ final class CharInfo
 
         array_of_bits[j] |= (1 << (i & LOW_ORDER_BITMASK));
     }
-
 
     /**
      * Return true if the integer (character)is in the set of integers.
@@ -727,8 +706,6 @@ final class CharInfo
         m_char = c;
       }
 
-
-
       /**
        * Get the hash value of the character.
        *
@@ -751,6 +728,5 @@ final class CharInfo
         return ((CharKey)obj).m_char == m_char;
       }
     }
-
 
 }

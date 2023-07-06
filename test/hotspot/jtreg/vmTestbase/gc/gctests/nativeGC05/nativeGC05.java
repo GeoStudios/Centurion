@@ -21,24 +21,10 @@
 
 package gc.gctests.nativeGC05;
 
-
 import nsk.share.TestFailure;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Stack;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -101,8 +87,6 @@ import java.util.Stack;
  * @run main/othervm/native gc.gctests.nativeGC05.nativeGC05
  */
 
-
-
 public class nativeGC05 extends GCTestBase {
         private final int threadCount = 5;
         private Stack<IndexPair> emptiedLocations = new Stack<IndexPair>();
@@ -139,7 +123,6 @@ public class nativeGC05 extends GCTestBase {
                 }
         }
 
-
         private class StackDump extends Thread {
                 public StackDump() {
                 }
@@ -153,7 +136,6 @@ public class nativeGC05 extends GCTestBase {
                         }
                 }
         }
-
 
         public void run() {
                 Thread emptierArray[] = new Thread[threadCount];

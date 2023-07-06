@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetSourceDebugExtension;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks that the SourceDebugExtension attribute can be

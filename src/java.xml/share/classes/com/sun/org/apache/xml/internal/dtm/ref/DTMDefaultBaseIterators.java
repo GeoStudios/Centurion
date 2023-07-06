@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.*;
 import javax.xml.transform.Source;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
@@ -29,29 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResour
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.NodeCounter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
-
 
 /**
  * This class implements the traversers for DTMDefaultBase.
@@ -1338,8 +1318,6 @@ public abstract class DTMDefaultBaseIterators extends DTMDefaultBaseTraversers
 
         _startNode = node;
         _stack[index = 0] = node;
-
-
 
                 parent=node;
                 while ((parent = _parent(parent)) != NULL)

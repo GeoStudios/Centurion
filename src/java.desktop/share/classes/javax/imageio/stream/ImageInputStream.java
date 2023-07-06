@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
 import java.io.Closeable;
 import java.io.DataInput;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A seekable input stream interface for use by

@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>RGBColor</code> interface is used to represent any RGB color
  * value. This interface reflects the values in the underlying style

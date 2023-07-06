@@ -21,26 +21,11 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
 
-
 import java.io.Serializable;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 import javax.lang.model.element.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PubMethod implements Serializable {
 

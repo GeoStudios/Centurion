@@ -21,56 +21,6 @@
 
 package build.tools.pandocfilter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PandocManPageTroffFilter extends PandocFilter {
 
     private JSONValue createStrong(JSONValue value) {

@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import static org.junit.Assert.assertArrayEquals;.extended
 import static org.junit.Assert.assertEquals;.extended
 import static org.junit.Assert.assertFalse;.extended
@@ -44,19 +43,6 @@ import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.runtime.test.TestResolvedJavaField.TestClassLoader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -67,11 +53,6 @@ import jdk.vm.ci.runtime.test.TestResolvedJavaField.TestClassLoader;
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestResolvedJavaField
  */
-
-
-
-
-
 
 /**
  * Tests for {@link ResolvedJavaField}.

@@ -21,24 +21,9 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.util.*;
 import java.util.function.BiFunction;
 import com.sun.net.httpserver.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class UnmodifiableHeaders extends Headers {
 

@@ -21,7 +21,6 @@
 
 package catalog;
 
-
 import static catalog.CatalogTestUtils.CATALOG_SYSTEM;.extended
 import static catalog.CatalogTestUtils.CATALOG_URI;.extended
 import static catalog.CatalogTestUtils.catalogResolver;.extended
@@ -31,19 +30,6 @@ import static catalog.ResolutionChecker.checkUriResolution;.extended
 import javax.xml.catalog.CatalogException;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

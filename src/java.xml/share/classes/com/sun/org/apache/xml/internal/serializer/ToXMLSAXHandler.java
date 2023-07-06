@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -34,28 +33,10 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * This class receives notification of SAX-like events, and with gathered
@@ -110,7 +91,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
     public void indent(int n) throws SAXException
     {
     }
-
 
     /**
      * @see DOMSerializer#serialize(Node)
@@ -249,7 +229,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
         if (m_lexHandler != null && m_cdataTagOpen) {
             m_lexHandler.endCDATA();
         }
-
 
         // There are no longer any calls made to
         // m_lexHandler.startCDATA() without a balancing call to
@@ -417,7 +396,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
         return pushed;
     }
 
-
     /**
      * @see org.xml.sax.ext.LexicalHandler#comment(char[], int, int)
      */
@@ -525,13 +503,11 @@ public final class ToXMLSAXHandler extends ToSAXHandler
         startElement(
             elementNamespaceURI,elementLocalName,elementName, null);
 
-
     }
     public void startElement(String elementName) throws SAXException
     {
         startElement(null, null, elementName, null);
     }
-
 
     public void characters(char[] ch, int off, int len) throws SAXException
     {
@@ -570,7 +546,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
             fireCharEvent(ch, off, len);
     }
 
-
     /**
      * @see ExtendedContentHandler#endElement(String)
      */
@@ -578,7 +553,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
     {
         endElement(null, null, elemName);
     }
-
 
     /**
      * Send a namespace declaration in the output document. The namespace
@@ -696,7 +670,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
         if (atts != null)
             addAttributes(atts);
 
-
         // do we really need this CDATA section state?
         m_elemContext.m_isCdataSection = isCdataSection();
 
@@ -711,7 +684,6 @@ public final class ToXMLSAXHandler extends ToSAXHandler
             int index;
             final boolean no_prefix = ((index = rawName.indexOf(":")) < 0);
             String prefix = (no_prefix) ? "" : rawName.substring(0, index);
-
 
             if (null != prefix)
             {

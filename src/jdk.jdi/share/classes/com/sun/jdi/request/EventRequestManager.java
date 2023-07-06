@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.request;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.jdi.share.classes.com.sun.jdi.Field;
 import jdk.jdi.share.classes.com.sun.jdi.Location;
@@ -35,20 +34,6 @@ import jdk.jdi.share.classes.com.sun.jdi.event.Event;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
 import jdk.jdi.share.classes.com.sun.jdi.event.ExceptionEvent;
 import jdk.jdi.share.classes.com.sun.jdi.event.VMDeathEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages the creation and deletion of {@link EventRequest}s. A single

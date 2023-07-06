@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.UnsafeAccess.UNSAFE;.extended
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Constant;
@@ -29,20 +28,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Jav
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaKind;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.MemoryAccessProvider;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.PrimitiveConstant;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * HotSpot implementation of {@link MemoryAccessProvider}.
@@ -157,7 +142,6 @@ class HotSpotMemoryAccessProviderImpl implements HotSpotMemoryAccessProvider {
             return runtime.getCompilerToVM().getResolvedJavaType(((HotSpotObjectConstantImpl) base), displacement, compressed);
         }
     }
-
 
     @Override
     public Constant readKlassPointerConstant(Constant base, long displacement) {

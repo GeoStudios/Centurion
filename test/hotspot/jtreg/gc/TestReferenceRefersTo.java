@@ -21,25 +21,11 @@
 
 package gc;
 
-
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @requires vm.gc != "Epsilon"
@@ -51,7 +37,6 @@ import sun.hotspot.WhiteBox;
  *      -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      gc.TestReferenceRefersTo
  */
-
 
 public class TestReferenceRefersTo {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

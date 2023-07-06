@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception class for an unrecognized identifier.
  *
@@ -56,7 +40,6 @@ public class SAXNotRecognizedException extends SAXException
     {
         super();
     }
-
 
     /**
      * Construct a new exception with the given message.

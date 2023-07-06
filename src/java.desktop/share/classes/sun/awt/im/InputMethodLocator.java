@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
-
 import java.awt.AWTException;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides complete information to make and handle the selection

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.launcher;
 
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -82,20 +81,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.resources.LauncherProperti
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
 import jdk.internal.misc.VM;
 import static javax.tools.JavaFileObject.Kind.SOURCE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Compiles a source file, and executes the main method it contains.
@@ -613,7 +598,6 @@ public class Main {
                 return c;
             }
         }
-
 
         /**
          * Override getResource to check for resources (i.e. class files) defined in the

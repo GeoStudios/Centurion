@@ -21,22 +21,7 @@
 
 package jdk.jdi.windows.classes.com.sun.tools.jdi;
 
-
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates platform-specific details of the

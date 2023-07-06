@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.event.*;
 import java.text.*;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DateFormatter is an <code>InternationalFormatter</code> that does its
@@ -106,7 +91,6 @@ public class DateFormatter extends InternationalFormatter {
         }
         return Calendar.getInstance();
     }
-
 
     /**
      * Returns true, as DateFormatterFilter will support

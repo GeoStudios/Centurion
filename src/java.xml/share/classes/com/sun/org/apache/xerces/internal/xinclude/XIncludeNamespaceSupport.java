@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This is an implementation of NamespaceContext which is intended to be used for

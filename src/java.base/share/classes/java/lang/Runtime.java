@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.*;
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.util.regex.Matcher;
@@ -34,20 +33,6 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.loader.NativeLibrary;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Every Java application has a single instance of class
@@ -499,7 +484,6 @@ public class Runtime {
     public Process exec(String[] cmdarray, String[] envp) throws IOException {
         return exec(cmdarray, envp, null);
     }
-
 
     /**
      * Executes the specified command and arguments in a separate process with

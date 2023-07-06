@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -45,20 +44,6 @@ import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface;
 import java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class D3DGraphicsConfig
     extends Win32GraphicsConfig

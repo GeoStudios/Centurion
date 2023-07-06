@@ -21,22 +21,8 @@
 
 package sanity;
 
-
 import jdk.test.lib.process.ProcessTools;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,21 +21,6 @@
 
 package gc.g1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestInvalidateArrayCopy
  * @bug 8182050

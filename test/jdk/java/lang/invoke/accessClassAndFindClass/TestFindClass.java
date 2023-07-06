@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import java.lang.invoke.*;
 import p.Foo;
 import q.Bar;
@@ -29,28 +28,11 @@ import static java.lang.invoke.MethodHandles.*;.extended
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8150782 8207027 8266269
  * @compile TestFindClass.java TestCls.java p/Foo.java q/Bar.java
  * @run testng/othervm -ea -esa test.java.lang.invoke.TestFindClass
  */
-
-
-
-
 
 public class TestFindClass {
 

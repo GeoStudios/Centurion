@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.io.OutputStream;
 import java.util.Iterator;
 import java.base.share.classes.java.util.Locale;
@@ -54,20 +53,6 @@ import javax.print.attribute.standard.OrientationRequested;
 import javax.print.attribute.standard.PageRanges;
 import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PSStreamPrintService extends StreamPrintService
     implements SunPrinterJobService {
@@ -109,7 +94,6 @@ public class PSStreamPrintService extends StreamPrintService
         return PSStreamPrinterFactory.psMimeType;
     }
 
-
     public DocFlavor[] getSupportedDocFlavors() {
         return PSStreamPrinterFactory.getFlavors();
     }
@@ -133,7 +117,6 @@ public class PSStreamPrintService extends StreamPrintService
     public void removePrintServiceAttributeListener(
                             PrintServiceAttributeListener listener) {
     }
-
 
     public <T extends PrintServiceAttribute>
         T getAttribute(Class<T> category)
@@ -169,7 +152,6 @@ public class PSStreamPrintService extends StreamPrintService
         return false;
     }
 
-
     public Class<?>[] getSupportedAttributeCategories() {
         Class<?>[] cats = new Class<?>[suppAttrCats.length];
         System.arraycopy(suppAttrCats, 0, cats, 0, cats.length);
@@ -194,7 +176,6 @@ public class PSStreamPrintService extends StreamPrintService
         }
         return false;
     }
-
 
     public Object
         getDefaultAttributeValue(Class<? extends Attribute> category)
@@ -255,7 +236,6 @@ public class PSStreamPrintService extends StreamPrintService
         } else
             return null;
     }
-
 
     public Object
         getSupportedAttributeValues(Class<? extends Attribute> category,

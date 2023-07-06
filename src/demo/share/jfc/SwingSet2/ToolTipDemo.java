@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -36,20 +35,6 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ToolTip Demo
@@ -90,7 +75,6 @@ public class ToolTipDemo extends DemoModule {
         p.add(Box.createRigidArea(new Dimension(1, 150)));
         p.add(cow);
     }
-
 
     class Cow extends JLabel {
         Polygon cowgon = new Polygon();

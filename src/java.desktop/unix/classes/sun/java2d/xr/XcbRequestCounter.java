@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * UInt32 "emulation", mimics the behaviour of xcb's request counter.
  * In order to be compatible with xcb we have to wrap exactly when xcb would do.

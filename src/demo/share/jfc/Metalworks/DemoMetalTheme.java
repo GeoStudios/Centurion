@@ -21,26 +21,11 @@
 
 package demo.share.jfc.Metalworks;
 
-
 import java.awt.Font;
 import javax.swing.UIDefaults;
 import javax.swing.plaf.FontUIResource;
 import javax.swing.plaf.metal.DefaultMetalTheme;
 import javax.swing.plaf.metal.MetalIconFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -49,10 +34,6 @@ import javax.swing.plaf.metal.MetalIconFactory;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * This class describes a theme using large fonts.
@@ -119,10 +100,7 @@ public class DemoMetalTheme extends DefaultMetalTheme {
         table.put("InternalFrame.minimizeIcon", MetalIconFactory.
                 getInternalFrameAltMaximizeIcon(internalFrameIconSize));
 
-
         table.put("ScrollBar.width", 21);
-
-
 
     }
 }

@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Growable int array, designed to allow subclasses to emulate

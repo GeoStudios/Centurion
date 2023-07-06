@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when the Java Virtual Machine attempts to read a class
  * file and determines that the major and minor version numbers

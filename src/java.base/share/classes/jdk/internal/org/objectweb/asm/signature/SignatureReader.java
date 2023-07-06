@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.signature;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A parser for signature literals, as defined in the Java Virtual Machine Specification (JVMS), to
  * visit them with a SignatureVisitor.

@@ -21,31 +21,13 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference;
 
-
 import java.util.Iterator;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * An abstract representation of a {@code ReferenceData} type containing a node-set.

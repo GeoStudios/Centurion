@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.text.*;
@@ -37,20 +36,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.accessibility.*;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines common behaviors for buttons and menu items.
@@ -164,7 +149,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
      * disabled and selected.
      */
     public static final String DISABLED_SELECTED_ICON_CHANGED_PROPERTY = "disabledSelectedIcon";
-
 
     /** The data model that determines the button's state. */
     protected ButtonModel model                = null;
@@ -322,7 +306,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
             repaint();
         }
     }
-
 
     /**
      * Returns the state of the button. True if the
@@ -820,7 +803,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         repaint();
     }
 
-
     /**
      * Returns the vertical position of the text relative to the icon.
      * @return the <code>verticalTextPosition</code> property,
@@ -1315,7 +1297,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         return createActionPropertyChangeListener0(a);
     }
 
-
     PropertyChangeListener createActionPropertyChangeListener0(Action a) {
         return new ButtonActionPropertyChangeListener(this, a);
     }
@@ -1733,7 +1714,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         }
     }
 
-
     /**
      * Returns the L&amp;F object that renders this component.
      * @return the ButtonUI object
@@ -1742,7 +1722,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
     public ButtonUI getUI() {
         return (ButtonUI) ui;
     }
-
 
     /**
      * Sets the L&amp;F object that renders this component.
@@ -1761,7 +1740,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
             setDisabledSelectedIcon(null);
         }
     }
-
 
     /**
      * Resets the UI property to a value from the current look
@@ -1932,7 +1910,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         }
     }
 
-
     /**
      * Notifies all listeners that have registered interest for
      * notification on this event type.  The event instance
@@ -2029,7 +2006,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
     protected ItemListener createItemListener() {
         return getHandler();
     }
-
 
     /**
      * Enables (or disables) the button.
@@ -2135,7 +2111,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         setAlignmentX(LEFT_ALIGNMENT);
         setAlignmentY(CENTER_ALIGNMENT);
     }
-
 
     /**
      * This is overridden to return false if the current <code>Icon</code>'s
@@ -2269,14 +2244,12 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         ",text=" + text;
     }
 
-
     private Handler getHandler() {
         if (handler == null) {
             handler = new Handler();
         }
         return handler;
     }
-
 
     //
     // Listeners that are added to model
@@ -2563,7 +2536,6 @@ public abstract class AbstractButton extends JComponent implements ItemSelectabl
         public Number getMaximumAccessibleValue() {
             return Integer.valueOf(1);
         }
-
 
         /* AccessibleText ---------- */
 

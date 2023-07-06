@@ -21,21 +21,6 @@
 
 package gc.stress.gcbasher;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Bytecode {
     public static final int IINC               = 132;
     public static final int TABLESWITCH        = 170;

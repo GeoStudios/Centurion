@@ -21,7 +21,6 @@
 
 package compiler.vectorization;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteBuffer;
@@ -30,19 +29,6 @@ import java.nio.IntBuffer;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -61,10 +47,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  * @run driver compiler.vectorization.TestBufferVectorization bufferDirect
  * @run driver compiler.vectorization.TestBufferVectorization arrayView
  */
-
-
-
-
 
 public class TestBufferVectorization {
     final static int N = 500;

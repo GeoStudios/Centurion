@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
@@ -37,20 +36,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.j
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Sep 14, 2000:
 //  Fixed serializer to report IO exception directly, instead at
 //  the end of document processing.
@@ -64,11 +49,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 //   If no output format is provided the serializer now defaults
 //   to ISO-8859-1 encoding. Reported by Mikael Staldal
 //   <d96-mst@d.kth.se>
-
-
-
-
-
 
 /**
  * Implements an HTML/XHTML serializer supporting both DOM and SAX
@@ -114,18 +94,15 @@ public class HTMLSerializer
     extends BaseMarkupSerializer
 {
 
-
     /**
      * True if serializing in XHTML format.
      */
     private final boolean _xhtml;
 
-
     public static final String XHTMLNamespace = "http://www.w3.org/1999/xhtml";
 
     // for users to override XHTMLNamespace if need be.
     private String fUserXHTMLNamespace = null;
-
 
     /**
      * Constructs a new HTML/XHTML serializer depending on the value of
@@ -140,7 +117,6 @@ public class HTMLSerializer
         _xhtml = xhtml;
     }
 
-
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -151,7 +127,6 @@ public class HTMLSerializer
         this( false, new OutputFormat( Method.HTML, "ISO-8859-1", false ) );
     }
 
-
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -161,8 +136,6 @@ public class HTMLSerializer
     {
         this( false, format != null ? format : new OutputFormat( Method.HTML, "ISO-8859-1", false ) );
     }
-
-
 
     /**
      * Constructs a new serializer that writes to the specified writer
@@ -178,7 +151,6 @@ public class HTMLSerializer
         setOutputCharStream( writer );
     }
 
-
     /**
      * Constructs a new serializer that writes to the specified output
      * stream using the specified output format. If <tt>format</tt>
@@ -193,7 +165,6 @@ public class HTMLSerializer
         setOutputByteStream( output );
     }
 
-
     public void setOutputFormat( OutputFormat format )
     {
         super.setOutputFormat( format != null ? format : new OutputFormat( Method.HTML, "ISO-8859-1", false ) );
@@ -207,7 +178,6 @@ public class HTMLSerializer
     //-----------------------------------------//
     // SAX content handler serializing methods //
     //-----------------------------------------//
-
 
     public void startElement( String namespaceURI, String localName,
                               String rawName, Attributes attrs )
@@ -386,7 +356,6 @@ public class HTMLSerializer
         }
     }
 
-
     public void endElement( String namespaceURI, String localName,
                             String rawName )
         throws SAXException
@@ -397,7 +366,6 @@ public class HTMLSerializer
             throw new SAXException( except );
         }
     }
-
 
     public void endElementIO( String namespaceURI, String localName,
                               String rawName )
@@ -466,11 +434,9 @@ public class HTMLSerializer
             _printer.flush();
     }
 
-
     //------------------------------------------//
     // SAX document handler serializing methods //
     //------------------------------------------//
-
 
     public void characters( char[] chars, int start, int length )
         throws SAXException
@@ -487,7 +453,6 @@ public class HTMLSerializer
         }
     }
 
-
     public void startElement( String tagName, AttributeList attrs )
         throws SAXException
     {
@@ -503,7 +468,6 @@ public class HTMLSerializer
                                     DOMMessageFormatter.formatMessage(
                                     DOMMessageFormatter.SERIALIZER_DOMAIN,
                     "NoWriterSupplied", null));
-
 
             state = getElementState();
             if ( isDocumentState() ) {
@@ -614,18 +578,15 @@ public class HTMLSerializer
         }
     }
 
-
     public void endElement( String tagName )
         throws SAXException
     {
         endElement( null, null, tagName );
     }
 
-
     //------------------------------------------//
     // Generic node serializing methods methods //
     //------------------------------------------//
-
 
     /**
      * Called to serialize the document's DOCTYPE by the root element.
@@ -704,7 +665,6 @@ public class HTMLSerializer
         // Always serialize these, even if not te first root element.
         serializePreRoot();
     }
-
 
     /**
      * Called to serialize a DOM element. Equivalent to calling {@link
@@ -859,8 +819,6 @@ public class HTMLSerializer
         }
     }
 
-
-
     protected void characters( String text )
         throws IOException
     {
@@ -871,12 +829,10 @@ public class HTMLSerializer
         super.characters( text );
     }
 
-
     protected String getEntityRef( int ch )
     {
         return HTMLdtd.fromChar( ch );
     }
-
 
     protected String escapeURI( String uri )
     {
@@ -890,6 +846,5 @@ public class HTMLSerializer
         else
             return uri;
     }
-
 
 }

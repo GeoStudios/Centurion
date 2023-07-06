@@ -21,22 +21,8 @@
 
 package c1;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class C1 {
     public C1() { }

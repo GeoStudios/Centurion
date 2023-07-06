@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.vm.annotation.Stable;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import java.base.share.classes.java.util.function.Function;
 import static java.base.share.classes.java.lang.invoke.MethodType.methodType;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Methods to facilitate the creation of String concatenation methods, that

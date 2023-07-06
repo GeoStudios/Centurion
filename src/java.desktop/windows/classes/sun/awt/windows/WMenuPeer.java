@@ -21,23 +21,8 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.awt.peer.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WMenuPeer extends WMenuItemPeer implements MenuPeer {
 

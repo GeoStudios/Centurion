@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.regex;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown to indicate a syntax error in a
  * regular-expression pattern.

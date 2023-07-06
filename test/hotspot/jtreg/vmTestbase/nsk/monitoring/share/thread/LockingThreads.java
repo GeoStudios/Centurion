@@ -21,24 +21,10 @@
 
 package nsk.monitoring.share.thread;
 
-
 import java.lang.management.*;
 import nsk.share.log.*;
 import java.util.Map;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Scenario that starts two threads that use locks * to synchronize.
@@ -239,7 +225,6 @@ public class LockingThreads implements ThreadMonitoringScenario, LogAware {
                         return super.isStackTraceElementExpected(element) || checkStackTraceElement(element, expectedMethodsThread2);
                 }
         }
-
 
         public void begin() {
                 thread1 = new Thread1(log, recursionType, maxDepth);

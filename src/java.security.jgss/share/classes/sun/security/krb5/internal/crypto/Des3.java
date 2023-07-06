@@ -21,24 +21,9 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk.Des3DkCrypto;
 import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
 import java.security.GeneralSecurityException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class with static methods for doing Triple DES operations.

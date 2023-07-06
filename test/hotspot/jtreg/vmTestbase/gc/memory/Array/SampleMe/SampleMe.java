@@ -21,21 +21,6 @@
 
 package gc.memory.Array.SampleMe;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -66,7 +51,6 @@ package gc.memory.Array.SampleMe;
  *          /test/lib
  * @run main/othervm gc.memory.Array.SampleMe.SampleMe
  */
-
 
 //SampleMe.java
 // import SampleClass;

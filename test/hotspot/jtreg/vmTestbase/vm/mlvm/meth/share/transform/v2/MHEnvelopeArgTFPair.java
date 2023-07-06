@@ -21,22 +21,8 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
-
 import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.Arguments;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class MHEnvelopeArgTFPair extends MHTFPair {
 

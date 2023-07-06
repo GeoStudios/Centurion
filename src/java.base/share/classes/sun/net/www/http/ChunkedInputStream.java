@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.net.www.http;
 
-
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.sun.net.www.*;
 import java.base.share.classes.sun.nio.cs.US_ASCII;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>ChunkedInputStream</code> provides a stream for reading a body of
@@ -177,7 +162,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
      */
     private int state;
 
-
     /**
      * Check to make sure that this stream has not been closed.
      */
@@ -186,7 +170,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
             throw new IOException("stream is closed");
         }
     }
-
 
     /**
      * Ensures there is <code>size</code> bytes available in
@@ -212,7 +195,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
             rawPos = 0;
         }
     }
-
 
     /**
      * Close the underlying input stream by either returning it to the
@@ -349,7 +331,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
                     }
                     break;
 
-
                 /**
                  * We are awaiting raw entity data (some may have already been
                  * read). chunkSize is the size of the chunk; chunkRead is the
@@ -403,7 +384,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
                     }
                     break;
 
-
                 /**
                  * Awaiting CRLF after the chunk
                  */
@@ -428,7 +408,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
                      */
                     state = STATE_AWAITING_CHUNK_HEADER;
                     break;
-
 
                 /**
                  * Last chunk has been read so not we're waiting for optional
@@ -494,7 +473,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
             } /* switch */
         }
     }
-
 
     /**
      * Reads any available bytes from the underlying stream into
@@ -673,7 +651,6 @@ public class ChunkedInputStream extends InputStream implements Hurryable {
             readLock.unlock();
         }
     }
-
 
     /**
      * Reads bytes from this stream into the specified byte array, starting at

@@ -21,22 +21,8 @@
 
 package compiler.rangechecks;
 
-
 import java.util.function.BiFunction;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -47,8 +33,6 @@ import java.util.function.Function;
  *                   -XX:-BackgroundCompilation
  *                   compiler.rangechecks.PowerOf2SizedArraysChecks
  */
-
-
 
 public class PowerOf2SizedArraysChecks {
 

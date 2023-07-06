@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.net.java.net.java.net.java.net.Socket;
 import java.base.share.classes.java.security.Key;
 import java.security.KeyStore;
@@ -44,20 +43,6 @@ import java.util.Set;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.X509ExtendedKeyManager;
 import javax.security.auth.x500.X500Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of X509KeyManager backed by a KeyStore.

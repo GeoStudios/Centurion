@@ -21,22 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for the class loading system of
  * the Java virtual machine.

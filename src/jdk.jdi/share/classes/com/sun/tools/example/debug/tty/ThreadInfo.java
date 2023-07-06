@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
 import jdk.jdi.share.classes.com.sun.jdi.IncompatibleThreadStateException;
@@ -30,20 +29,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -51,10 +36,6 @@ import java.util.Collections;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 class ThreadInfo {
     // This is a list of all known ThreadInfo objects. It survives

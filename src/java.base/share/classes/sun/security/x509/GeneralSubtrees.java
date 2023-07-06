@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.*;
 import java.util.*;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represent the GeneralSubtrees ASN.1 object.

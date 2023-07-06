@@ -21,27 +21,12 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.accessibility.util.internal.*;
 import jdk.accessibility.share.classes.com.sun.java.beans.*;
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
 import javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Do not import Swing classes.  This module is intended to work
 // with both Swing and AWT.
@@ -204,7 +189,6 @@ public class Translator extends AccessibleContext
         return java.util.Objects.hashCode(source);
     }
 
-
 // Accessible methods
 
     /**
@@ -269,7 +253,6 @@ public class Translator extends AccessibleContext
     public AccessibleRole getAccessibleRole() {
         return AccessibleRole.UNKNOWN;
     }
-
 
     /**
      * Get the state of this object, given an already populated state.

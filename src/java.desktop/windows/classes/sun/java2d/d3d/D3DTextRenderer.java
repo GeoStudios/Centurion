@@ -21,27 +21,12 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.Composite;
 import java.desktop.windows.classes.sun.font.Glyphjava.util.java.util.java.util.List;
 import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
 import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
 import java.desktop.windows.classes.sun.java2d.pipe.BufferedTextPipe;
 import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class D3DTextRenderer extends BufferedTextPipe {
 

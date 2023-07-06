@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.access.foreign;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface NativeLibraryProxy {
     long lookup(String name) throws NoSuchMethodException;
 }

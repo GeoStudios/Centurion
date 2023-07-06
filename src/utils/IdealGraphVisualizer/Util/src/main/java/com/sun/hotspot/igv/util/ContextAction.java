@@ -21,24 +21,9 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
-
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.EventQueue;
 import org.openide.util.*;
 import org.openide.util.actions.CallableSystemAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-
 import java.util.EnumSet;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link SignatureVisitor} that checks that its methods are properly used.

@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -34,27 +33,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverLocalFilesystem;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverXPointer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * During reference validation, we have to retrieve resources from somewhere.

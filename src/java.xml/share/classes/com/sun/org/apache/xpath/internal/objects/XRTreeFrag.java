@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
@@ -31,27 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.RTFIterator;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents an XPath result tree fragment object, and is capable of
@@ -64,7 +46,6 @@ public class XRTreeFrag extends XObject implements Cloneable
   private DTMXRTreeFrag m_DTMXRTreeFrag;
   private int m_dtmRoot = DTM.NULL;
   protected boolean m_allowRelease = false;
-
 
   /**
    * Create an XRTreeFrag Object.
@@ -216,7 +197,6 @@ public class XRTreeFrag extends XObject implements Cloneable
     XString xstring = (XString)xstr();
     xstring.appendToFsb(fsb);
   }
-
 
   /**
    * Cast result object to a string.

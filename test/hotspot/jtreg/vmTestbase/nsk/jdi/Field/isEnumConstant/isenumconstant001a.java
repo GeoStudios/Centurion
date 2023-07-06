@@ -21,23 +21,9 @@
 
 package nsk.jdi.Field.isEnumConstant;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.
@@ -88,7 +74,6 @@ public class isenumconstant001a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(isenumconstant001.SIGNAL_READY);
-
 
         //pipe.println(isenumconstant001.SIGNAL_GO);
         receiveSignal(isenumconstant001.SIGNAL_QUIT);

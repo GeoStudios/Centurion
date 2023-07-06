@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.net.URI;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -54,20 +53,6 @@ import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  A utility class.
  *
@@ -76,11 +61,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  */
-
-
-
-
-
 
 public class CommentUtils {
 

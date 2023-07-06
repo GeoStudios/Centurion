@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.Component;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.Graphics2D;
@@ -30,20 +29,6 @@ import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.ja
 import javax.swing.JComponent;
 import org.openide.awt.UndoRedo;
 import org.openide.util.Lookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

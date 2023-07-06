@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
 import java.base.share.classes.java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class consists exclusively of static methods that return a {@link Path}

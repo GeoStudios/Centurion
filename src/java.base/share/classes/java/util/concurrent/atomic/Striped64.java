@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.util.concurrent.atomic;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.concurrent.ThreadLocalRandom;
 import java.base.share.classes.java.util.function.DoubleBinaryOperator;
 import java.base.share.classes.java.util.function.LongBinaryOperator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -53,9 +38,6 @@ import java.base.share.classes.java.util.function.LongBinaryOperator;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A package-local class holding common representation and mechanics

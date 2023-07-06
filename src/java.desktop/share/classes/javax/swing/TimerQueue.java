@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
@@ -29,20 +28,6 @@ import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
 import java.util.concurrent.atomic.AtomicLong;
 import sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Internal class to manage all Timers using one thread.
@@ -80,7 +65,6 @@ class TimerQueue implements Runnable
         startIfNeeded();
     }
 
-
     public static TimerQueue sharedInstance() {
         synchronized (classLock) {
             TimerQueue sharedInst = (TimerQueue)
@@ -93,7 +77,6 @@ class TimerQueue implements Runnable
             return sharedInst;
         }
     }
-
 
     @SuppressWarnings("removal")
     void startIfNeeded() {
@@ -168,7 +151,6 @@ class TimerQueue implements Runnable
         }
     }
 
-
     public void run() {
         runningLock.lock();
         try {
@@ -223,7 +205,6 @@ class TimerQueue implements Runnable
         }
     }
 
-
     public String toString() {
         StringBuilder buf = new StringBuilder();
         buf.append("TimerQueue (");
@@ -259,7 +240,6 @@ class TimerQueue implements Runnable
         /** Sequence number to break ties FIFO */
         private final long sequenceNumber;
 
-
         /** The time the task is enabled to execute in nanoTime units */
         private volatile long time;
 
@@ -270,7 +250,6 @@ class TimerQueue implements Runnable
             time = nanos;
             sequenceNumber = sequencer.getAndIncrement();
         }
-
 
         public final long getDelay(TimeUnit unit) {
             return  unit.convert(time - now(), TimeUnit.NANOSECONDS);

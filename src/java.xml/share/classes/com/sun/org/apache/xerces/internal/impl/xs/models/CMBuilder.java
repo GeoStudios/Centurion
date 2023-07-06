@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSDecla
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class constructs content models for a given grammar.

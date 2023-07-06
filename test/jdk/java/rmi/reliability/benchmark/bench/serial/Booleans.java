@@ -21,29 +21,13 @@
 
 package bench.serial;
 
-
 import bench.Benchmark;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * Benchmark for testing speed of boolean reads/writes.

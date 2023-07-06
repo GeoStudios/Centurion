@@ -21,24 +21,9 @@
 
 package jdk.management.agent.share.classes.sun.management.jdp;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JdpPacketWriter responsible for writing a packet

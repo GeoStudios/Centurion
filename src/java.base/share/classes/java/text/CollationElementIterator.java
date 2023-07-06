@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.lang.Character;
 import java.base.share.classes.java.util.Vector;
 import sun.text.CollatorUtilities;
 import jdk.internal.icu.text.NormalizerBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code CollationElementIterator} class is used as an iterator
@@ -469,7 +454,6 @@ public final class CollationElementIterator
     {
         return (text != null) ? text.getIndex() : 0;
     }
-
 
     /**
      * Return the maximum length of any expansion sequences that end

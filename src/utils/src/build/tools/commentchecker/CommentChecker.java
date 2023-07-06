@@ -21,23 +21,8 @@
 
 package utils.src.build.tools.commentchecker;
 
-
 import java.io.*;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CommentChecker is a utility which verifies that there aren't

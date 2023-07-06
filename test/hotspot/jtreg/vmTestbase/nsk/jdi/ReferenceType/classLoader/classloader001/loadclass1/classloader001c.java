@@ -21,22 +21,6 @@
 
 package nsk.jdi.ReferenceType.classLoader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded by bootstrap class loader
-
 
 class classloader001c {}

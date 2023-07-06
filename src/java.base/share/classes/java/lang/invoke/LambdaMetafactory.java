@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.lang.reflect.Array;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Methods to facilitate the creation of simple "function objects" that

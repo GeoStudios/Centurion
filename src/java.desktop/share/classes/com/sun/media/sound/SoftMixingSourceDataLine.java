@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.base.share.classes.java.util.Arrays;
@@ -32,20 +31,6 @@ import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SourceDataLine implementation for the SoftMixingMixer.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.ActionEvent;
 import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
 import java.desktop.share.classes.java.awt.event.ComponentEvent;
@@ -40,20 +39,6 @@ import java.desktop.share.classes.java.security.AccessControlContext;
 import java.desktop.share.classes.java.security.AccessController;
 import java.desktop.share.classes.java.util.EventObject;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The root event class for all AWT events.

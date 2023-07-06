@@ -21,7 +21,6 @@
 
 package compiler.intrinsics.bigInteger;
 
-
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
 import compiler.whitebox.CompilerWhiteBoxTest;
@@ -34,19 +33,6 @@ import java.lang.reflect.Method;
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -62,9 +48,6 @@ import java.util.Random;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      compiler.intrinsics.bigInteger.MontgomeryMultiplyTest
  */
-
-
-
 
 public class MontgomeryMultiplyTest {
 

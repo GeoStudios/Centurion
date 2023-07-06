@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.security.PrivateKey;
 import java.base.share.classes.java.security.PublicKey;
@@ -45,28 +44,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * KeyResolverSpi implementation which resolves public keys, private keys, secret keys, and X.509 certificates from a

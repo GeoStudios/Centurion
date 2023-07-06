@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8150102 8150514 8150534 8171435
@@ -60,7 +45,6 @@ package compiler.c1;
  *                   -XX:-BackgroundCompilation -XX:ScavengeRootsInCode=1
  *                   compiler.c1.CanonicalizeArrayLength
  */
-
 
 public class CanonicalizeArrayLength {
     int[] arr = new int[42];
@@ -182,6 +166,5 @@ public class CanonicalizeArrayLength {
             return 42;
         }
     }
-
 
 }

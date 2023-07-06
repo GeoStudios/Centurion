@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.isAbstract;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the isAbstract() method of ReferenceType interface for UNLOADED class
-
 
 abstract class isabstract002b {}

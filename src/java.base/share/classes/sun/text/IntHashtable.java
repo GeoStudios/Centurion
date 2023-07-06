@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Simple internal class for doing hash mapping. Much, much faster than the
  * standard Hashtable for integer to integer mappings,
  * and doesn't require object creation.<br>

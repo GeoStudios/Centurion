@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Paths;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
 import static java.awt.Color.WHITE;.extended
@@ -31,20 +30,6 @@ import java.awt.font.TextLayout;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Path2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic implementation of GeneralPath, filling & drawing a path w/o closing it.

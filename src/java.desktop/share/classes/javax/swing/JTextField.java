@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTEvent;
 import java.awt.Dimension;
 import java.awt.EventQueue;
@@ -50,20 +49,6 @@ import java.desktop.share.classes.javax.swing.text.Document;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.desktop.share.classes.javax.swing.text.PlainDocument;
 import java.desktop.share.classes.javax.swing.text.TextAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JTextField</code> is a lightweight component that allows the editing
@@ -280,7 +265,6 @@ public class JTextField extends JTextComponent implements SwingConstants {
         return uiClassID;
     }
 
-
     /**
      * Associates the editor with a text document.
      * The currently registered factory is used to build a view for
@@ -317,7 +301,6 @@ public class JTextField extends JTextComponent implements SwingConstants {
     public boolean isValidateRoot() {
         return !(SwingUtilities.getUnwrappedParent(this) instanceof JViewport);
     }
-
 
     /**
      * Returns the horizontal alignment of the text.
@@ -876,7 +859,6 @@ public class JTextField extends JTextComponent implements SwingConstants {
 
     }
 
-
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
      * <code>JComponent</code> for more
@@ -893,7 +875,6 @@ public class JTextField extends JTextComponent implements SwingConstants {
             }
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JTextField</code>.
@@ -927,11 +908,9 @@ public class JTextField extends JTextComponent implements SwingConstants {
         ",horizontalAlignment=" + horizontalAlignmentString;
     }
 
-
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the <code>AccessibleContext</code> associated with this

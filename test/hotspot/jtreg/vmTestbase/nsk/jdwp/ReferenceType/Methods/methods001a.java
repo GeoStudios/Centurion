@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ReferenceType.Methods;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class methods001a {
 

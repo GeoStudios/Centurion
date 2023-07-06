@@ -21,23 +21,8 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker;
 
-
 import java.lang.invoke.MethodHandle;
 import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -46,8 +31,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A generic interface describing operations that transform method handles.

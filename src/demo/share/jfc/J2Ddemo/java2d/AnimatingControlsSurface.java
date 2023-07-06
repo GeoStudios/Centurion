@@ -21,23 +21,8 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.START;.extended
 import java.awt.Component;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Demos that animate and have custom controls extend this class.

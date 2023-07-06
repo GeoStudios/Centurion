@@ -21,23 +21,8 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Collection;
 import jdk.jshell.share.classes.jdk.jshell.Key.MethodKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Snippet for a method definition.

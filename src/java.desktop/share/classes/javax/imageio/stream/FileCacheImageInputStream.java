@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
 import java.io.File;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import com.sun.imageio.stream.StreamCloser;
 import com.sun.imageio.stream.StreamFinalizer;
 import sun.java2d.Disposer;
 import sun.java2d.DisposerRecord;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of {@code ImageInputStream} that gets its

@@ -21,21 +21,6 @@
 
 package nsk.share.gc.gp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface that defines a way to produce garbage.
  */

@@ -21,7 +21,6 @@
 
 package test.astro;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static test.astro.AstroConstants.DEC_MAX;.extended
 import static test.astro.AstroConstants.DEC_MIN;.extended
@@ -43,19 +42,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * AstroProcessor is to carry out the user's query with filters and produce a table of

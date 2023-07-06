@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.SwingConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class AquaTabbedPaneTabState {
     static final int FIXED_SCROLL_TAB_LENGTH = 27;
@@ -118,7 +103,6 @@ class AquaTabbedPaneTabState {
         System.arraycopy(visibleTabList, 0, visibleTabList, 1, length);
         visibleTabList[0] = idToAdd;
     }
-
 
     void relayoutForScrolling(final Rectangle[] rects, final int startX, final int startY, final int returnAt, final int selectedIndex, final boolean verticalTabRuns, final int tabCount, final boolean isLeftToRight) {
         if (!needsScrollers) {

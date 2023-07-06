@@ -21,7 +21,6 @@
 
 package vm.compiler.optimizations.partialpeel;
 
-
 import nsk.share.GoldChecker;
 import vm.compiler.share.CompilerTest;
 import vm.compiler.share.CompilerTestLauncher;
@@ -29,21 +28,7 @@ import vm.compiler.share.Random;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class WhileWhile {
-
 
     public static void main(String[] args) {
         GoldChecker goldChecker = new GoldChecker("WhileWhile");
@@ -87,7 +72,6 @@ public class WhileWhile {
                 return s + k;
             }
         },
-
 
         //inner while with condition on outer while counter
         new CompilerTest<Integer>("whilewhile2") {

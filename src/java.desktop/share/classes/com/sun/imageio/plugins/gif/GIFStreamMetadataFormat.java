@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
-
 import java.base.share.classes.java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GIFStreamMetadataFormat extends IIOMetadataFormatImpl {
 

@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.lang.ref.Reference;
 import java.nio.file.*;
 import java.nio.ByteBuffer;
@@ -30,20 +29,6 @@ import java.util.*;
 import jdk.internal.misc.Unsafe;
 import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;.extended
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unix implementation of UserDefinedFileAttributeView using extended attributes.

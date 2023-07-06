@@ -21,21 +21,6 @@
 
 package compiler.inlining;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8036100
@@ -47,7 +32,6 @@ package compiler.inlining;
  *      -XX:CompileCommand=compileonly,compiler.inlining.InlineDefaultMethod1$I2::m
  *      compiler.inlining.InlineDefaultMethod1
  */
-
 
 public class InlineDefaultMethod1 {
     interface I1 {
@@ -63,7 +47,6 @@ public class InlineDefaultMethod1 {
 
     static class B extends A implements I2 {
     }
-
 
     public static void test(A obj) {
         int id = obj.m();

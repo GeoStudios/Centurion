@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is an interface which should be implemented by
  * the classes which use Disposer.

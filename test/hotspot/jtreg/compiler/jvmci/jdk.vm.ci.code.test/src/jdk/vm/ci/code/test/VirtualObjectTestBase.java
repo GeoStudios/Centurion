@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.code.test;
 
-
 import java.base.share.classes.java.util.Arrays;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.JavaKind;
@@ -30,19 +29,6 @@ import jdk.vm.ci.meta.MetaAccessProvider;
 import jdk.vm.ci.meta.ResolvedJavaField;
 import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.runtime.JVMCI;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class VirtualObjectTestBase {
 

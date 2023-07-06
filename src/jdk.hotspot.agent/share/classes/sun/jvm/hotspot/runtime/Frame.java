@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
@@ -33,20 +32,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> A frame represents a physical stack frame (an activation).
     Frames can be C or Java frames, and the Java frames can be
@@ -401,7 +386,6 @@ public abstract class Frame implements Cloneable {
   // FIXME: add
   //  inline intptr_t* entry_frame_argument_at(int offset) const;
 
-
   /** Tells whether there is another chunk of Delta stack above */
   public boolean entryFrameIsFirst()            { return (getEntryFrameCallWrapper().getLastJavaSP() == null); }
 
@@ -507,10 +491,6 @@ public abstract class Frame implements Cloneable {
   // FIXME: add safepoint code, oops_do, etc.
   // FIXME: NOT FINISHED
 
-
-
-
-
   //--------------------------------------------------------------------------------
   // Internals only below this point
   //
@@ -522,7 +502,6 @@ public abstract class Frame implements Cloneable {
   //
   // Oop iteration (FIXME: NOT FINISHED)
   //
-
 
   private static class InterpVisitor implements OopMapVisitor {
     private AddressVisitor addressVisitor;

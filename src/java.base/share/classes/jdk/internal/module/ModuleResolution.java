@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.lang.module.ModuleReference;
 import static java.base.share.classes.jdk.internal.module.ClassFileConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents the Module Resolution flags.

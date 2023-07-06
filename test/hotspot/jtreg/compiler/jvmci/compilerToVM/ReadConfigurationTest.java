@@ -21,26 +21,12 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.VMField;
 import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
 import jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
 import jdk.vm.ci.hotspot.HotSpotVMConfigStore;
 import jdk.vm.ci.hotspot.VMIntrinsicMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -56,8 +42,6 @@ import jdk.vm.ci.hotspot.VMIntrinsicMethod;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.ReadConfigurationTest
  */
-
-
 
 public class ReadConfigurationTest {
     public static void main(String args[]) {

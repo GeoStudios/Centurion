@@ -21,23 +21,9 @@
 
 package jit.t.t111;
 
-
 import nsk.share.GoldChecker;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -55,9 +41,6 @@ import java.io.StringWriter;
  *      -Dtest.src=${test.src}
  *      jit.t.t111.t111
  */
-
-
-
 
 // THIS TEST IS LINE NUMBER SENSITIVE
 

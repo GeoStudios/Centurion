@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Image;
 import java.awt.Insets;
@@ -53,20 +52,6 @@ import java.desktop.share.classes.javax.swing.text.Element;
 import java.desktop.share.classes.javax.swing.text.Position;
 import java.desktop.share.classes.javax.swing.text.StyledDocument;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A display area for a short text string or an image,
@@ -259,7 +244,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         this("", null, LEADING);
     }
 
-
     /**
      * Returns the L&amp;F object that renders this component.
      *
@@ -268,7 +252,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public LabelUI getUI() {
         return (LabelUI)ui;
     }
-
 
     /**
      * Sets the L&amp;F object that renders this component.
@@ -286,7 +269,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Resets the UI property to a value from the current look and feel.
      *
@@ -295,7 +277,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public void updateUI() {
         setUI((LabelUI) UIManager.getUI(this));
     }
-
 
     /**
      * Returns a string that specifies the name of the l&amp;f class
@@ -310,7 +291,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         return uiClassID;
     }
 
-
     /**
      * Returns the text string that the label displays.
      *
@@ -320,7 +300,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public String getText() {
         return text;
     }
-
 
     /**
      * Defines the single line of text this component will display.  If
@@ -364,7 +343,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
             repaint();
         }
     }
-
 
     /**
      * Returns the graphic image (glyph, icon) that the label displays.
@@ -427,7 +405,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Returns the icon used by the label when it's disabled.
      * If no disabled icon has been set this will forward the call to
@@ -451,7 +428,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
         return disabledIcon;
     }
-
 
     /**
      * Set the icon to be displayed if this JLabel is "disabled"
@@ -482,7 +458,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Specify a keycode that indicates a mnemonic key.
      * This property is used when the label is part of a larger component.
@@ -510,7 +485,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Specifies the displayedMnemonic as a char value.
      *
@@ -523,7 +497,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
             setDisplayedMnemonic(vk);
         }
     }
-
 
     /**
      * Return the keycode that indicates a mnemonic key.
@@ -619,7 +592,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Verify that key is a legal value for the
      * verticalAlignment or verticalTextPosition properties.
@@ -641,7 +613,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
     /**
      * Returns the amount of space between the text and the icon
      * displayed in this label.
@@ -653,7 +624,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public int getIconTextGap() {
         return iconTextGap;
     }
-
 
     /**
      * If both the icon and text properties are set, this property
@@ -678,8 +648,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         }
     }
 
-
-
     /**
      * Returns the alignment of the label's contents along the Y axis.
      *
@@ -695,7 +663,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public int getVerticalAlignment() {
         return verticalAlignment;
     }
-
 
     /**
      * Sets the alignment of the label's contents along the Y axis.
@@ -723,7 +690,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         firePropertyChange("verticalAlignment", oldValue, verticalAlignment);
         repaint();
     }
-
 
     /**
      * Returns the alignment of the label's contents along the X axis.
@@ -776,7 +742,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         repaint();
     }
 
-
     /**
      * Returns the vertical position of the label's text,
      * relative to its image.
@@ -793,7 +758,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public int getVerticalTextPosition() {
         return verticalTextPosition;
     }
-
 
     /**
      * Sets the vertical position of the label's text,
@@ -827,7 +791,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         repaint();
     }
 
-
     /**
      * Returns the horizontal position of the label's text,
      * relative to its image.
@@ -845,7 +808,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
     public int getHorizontalTextPosition() {
         return horizontalTextPosition;
     }
-
 
     /**
      * Sets the horizontal position of the label's text,
@@ -878,7 +840,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         repaint();
     }
 
-
     /**
      * This is overridden to return false if the current Icon's Image is
      * not equal to the passed in Image <code>img</code>.
@@ -899,7 +860,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
         return super.imageUpdate(img, infoflags, x, y, w, h);
     }
 
-
     /**
      * See readObject() and writeObject() in JComponent for more
      * information about serialization in Swing.
@@ -915,7 +875,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
             }
         }
     }
-
 
     /**
      * Returns a string representation of this JLabel. This method
@@ -1144,7 +1103,6 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
             }
             return relationSet;
         }
-
 
         /* AccessibleText ---------- */
 

@@ -21,7 +21,6 @@
 
 package nsk.jdi.StackFrame.getValues;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -116,7 +102,6 @@ public class getvalues002 {
         logHandler.complain(sHeader3 + message);
     }
 
-
     //  ************************************************    test parameters
 
     private String debuggeeName =
@@ -168,7 +153,6 @@ public class getvalues002 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -207,7 +191,6 @@ public class getvalues002 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -219,7 +202,6 @@ public class getvalues002 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -340,7 +322,6 @@ public class getvalues002 {
                     break label1;
                 }
 
-
                 log2("     getting current StackFrame object at second breakpoint");
                 try {
                     stackFrame = thread2.frame(0);
@@ -393,7 +374,6 @@ public class getvalues002 {
         }
         return testExitCode;
     }
-
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
@@ -450,7 +430,6 @@ public class getvalues002 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

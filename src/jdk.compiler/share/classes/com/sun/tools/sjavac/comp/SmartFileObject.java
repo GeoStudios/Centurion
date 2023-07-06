@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-
 import java.io.*;
 import java.net.URI;
 import java.nio.file.NoSuchFileException;
@@ -30,20 +29,6 @@ import javax.lang.model.element.NestingKind;
 import javax.tools.JavaFileObject;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The SmartFileObject will return an outputstream that cache the written data

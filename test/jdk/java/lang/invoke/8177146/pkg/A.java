@@ -21,21 +21,6 @@
 
 package pkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class A {
     protected String m1() {
         return this.getClass().getSimpleName();

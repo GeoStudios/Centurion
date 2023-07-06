@@ -21,21 +21,7 @@
 
 package compiler.loopopts;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,7 +32,6 @@ import jdk.test.lib.Asserts;
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.loopopts.TestSplitIfPinnedLoadInStripMinedLoop::*
  *                   compiler.loopopts.TestSplitIfPinnedLoadInStripMinedLoop
  */
-
 
 public class TestSplitIfPinnedLoadInStripMinedLoop {
 

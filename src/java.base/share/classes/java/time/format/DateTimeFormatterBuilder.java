@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.INSTANT_SECONDS;.extended
@@ -85,20 +84,6 @@ import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleResources;
 import sun.util.locale.provider.TimeZoneNameUtility;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builder to create date-time formatters.
@@ -4437,7 +4422,6 @@ public final class DateTimeFormatterBuilder {
             }
             return copy;
         }
-
 
         /**
          * Adds a pair of {key, value} into the prefix tree.

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.main;
 
-
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -55,20 +54,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class provides a command line interface to the javac compiler.
  *
@@ -172,7 +157,6 @@ public class Main {
         msg = msg.startsWith(errorPrefix) ? msg : errorPrefix + msg;
         log.printRawLines(msg);
     }
-
 
     /**
      * Programmatic interface for main function.

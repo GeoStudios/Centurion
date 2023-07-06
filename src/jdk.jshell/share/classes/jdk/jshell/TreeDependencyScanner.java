@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.IdentifierTree;
 import com.sun.source.tree.ImportTree;
@@ -35,20 +34,6 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 import javax.lang.model.element.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Search a compiler API parse tree for dependencies.
@@ -121,7 +106,6 @@ class TreeDependencyScanner extends TreeScanner<Void, Set<String>> {
     public Void visitImport(ImportTree node, Set<String> p) {
         return null;
     }
-
 
     // -- Actual Symbol names ---
 

@@ -21,22 +21,7 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A two-way Map between "natives" (Strings), which correspond to

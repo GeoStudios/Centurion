@@ -21,7 +21,6 @@
 
 package vm.mlvm.tools;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -30,19 +29,6 @@ import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.LabeledStatementTree;
 import com.sun.source.util.TreePathScanner;
 import com.sun.source.util.Trees;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StratumAPTreeVisitor extends TreePathScanner<Object, Trees> {
     public static final String LABEL_PREFIX = "Stratum_";

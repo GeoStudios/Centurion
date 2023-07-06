@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect.spi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
 import jdk.jdi.share.classes.com.sun.jdi.connect.TransportTimeoutException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A transport service for connections between a debugger and

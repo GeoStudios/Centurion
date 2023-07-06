@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.GSSException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.jgss.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the mechanism independent part of a GSS-API
@@ -197,7 +182,6 @@ public class GSSHeader {
 
          return mechTokenSize;
         */
-
 
     }
 

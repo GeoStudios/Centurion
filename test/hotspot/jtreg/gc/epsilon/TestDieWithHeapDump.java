@@ -21,23 +21,9 @@
 
 package gc.epsilon;
 
-
 import java.io.*;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestDieWithHeapDump
@@ -46,7 +32,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver gc.epsilon.TestDieWithHeapDump
  */
-
 
 public class TestDieWithHeapDump {
 

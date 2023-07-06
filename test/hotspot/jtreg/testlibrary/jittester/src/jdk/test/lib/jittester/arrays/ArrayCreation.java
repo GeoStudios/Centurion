@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.arrays;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
@@ -30,19 +29,6 @@ import jdk.test.lib.jittester.Literal;
 import jdk.test.lib.jittester.VariableDeclaration;
 import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ArrayCreation extends IRNode {
     private final VariableDeclaration variable;

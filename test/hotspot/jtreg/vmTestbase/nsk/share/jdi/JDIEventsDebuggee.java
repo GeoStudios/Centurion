@@ -21,23 +21,9 @@
 
 package nsk.share.jdi;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Subclasses of this class generate events and if needed

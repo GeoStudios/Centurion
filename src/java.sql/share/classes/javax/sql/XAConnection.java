@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.javax.sql;
 
-
 import java.sql.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object that provides support for distributed transactions. An

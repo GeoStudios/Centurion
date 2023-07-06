@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.x86;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.*;
@@ -32,20 +31,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Specialization of and implementation of abstract methods of the
     Frame class for the x86 family of CPUs. */
@@ -105,7 +90,6 @@ public class X86Frame extends Frame {
     }
   }
 
-
   // an additional field beyond sp and pc:
   Address raw_fp; // frame pointer
   private Address raw_unextendedSP;
@@ -151,7 +135,6 @@ public class X86Frame extends Frame {
     // Frame must be fully constructed before this call
     adjustForDeopt();
 }
-
 
   public X86Frame(Address raw_sp, Address raw_fp, Address pc) {
     initFrame(raw_sp, raw_fp, pc, null, null);

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.util.*;
 import java.net.*;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import sun.swing.text.html.FrameEditorPaneTag;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implements a FrameView, intended to support the HTML
  * &lt;FRAME&gt; tag.  Supports the frameborder, scrolling,
@@ -53,7 +38,6 @@ import sun.swing.text.html.FrameEditorPaneTag;
  */
 
 class FrameView extends ComponentView implements HyperlinkListener {
-
 
     JEditorPane htmlPane;
     JScrollPane scroller;
@@ -129,7 +113,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         return (JEditorPane) c;
     }
 
-
     /**
      * Sets the parent view for the FrameView.
      * Also determines if the FrameView should be editable
@@ -145,7 +128,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         }
         super.setParent(parent);
     }
-
 
     /**
      * Also determines if the FrameView should be editable
@@ -165,7 +147,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         }
         super.paint(g, allocation);
     }
-
 
     /**
      * If the marginwidth or marginheight attributes have been specified,
@@ -221,7 +202,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         }
     }
 
-
     /**
      * This method creates the JScrollPane.  The scrollbar policy is determined by
      * the scrolling attribute.  If not defined, the default is "auto" which
@@ -256,7 +236,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         scroller.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
     }
 
-
     /**
      * Finds the outermost FrameSetView.  It then
      * returns that FrameSetView's container.
@@ -277,7 +256,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         return null;
     }
 
-
     /**
      * Returns true if this frame is contained within
      * a nested frameset.
@@ -286,7 +264,6 @@ class FrameView extends ComponentView implements HyperlinkListener {
         FrameSetView parent = (FrameSetView)getParent();
         return (parent.getParent() instanceof FrameSetView);
     }
-
 
     /**
      * Notification of a change relative to a

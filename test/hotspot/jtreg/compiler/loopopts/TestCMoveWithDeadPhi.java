@@ -21,21 +21,7 @@
 
 package compiler.loopopts;
 
-
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import jdk.test.lib.Utils;
  * @run main/othervm -XX:CompileCommand=compileonly,compiler.loopopts.TestCMoveWithDeadPhi::test
  *                   compiler.loopopts.TestCMoveWithDeadPhi
  */
-
-
 
 public class TestCMoveWithDeadPhi {
 

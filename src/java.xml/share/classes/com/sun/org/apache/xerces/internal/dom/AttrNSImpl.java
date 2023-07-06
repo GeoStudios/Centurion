@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * AttrNSImpl inherits from AttrImpl and adds namespace support.
@@ -285,7 +268,6 @@ public class AttrNSImpl
         }
         return localName;
     }
-
 
     /**
      * @see org.w3c.dom.TypeInfo#getTypeName()

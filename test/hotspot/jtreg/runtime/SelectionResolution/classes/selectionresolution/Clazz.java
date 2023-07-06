@@ -21,23 +21,9 @@
 
 package selectionresolution;
 
-
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Clazz extends ClassConstruct {
 

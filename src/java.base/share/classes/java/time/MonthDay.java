@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
 import java.base.share.classes.java.io.DataInput;
@@ -45,20 +44,6 @@ import java.base.share.classes.java.time.temporal.TemporalQuery;
 import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A month-day in the ISO-8601 calendar system, such as {@code --12-03}.

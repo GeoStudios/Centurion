@@ -21,25 +21,10 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
 import utils.LogCompilation.src.main.java.util.ArrayDeque;
 import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.LogCompilation.src.main.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Representation of a compilation scope in a compilation log. This class is a

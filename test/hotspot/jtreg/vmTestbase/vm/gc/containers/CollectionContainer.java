@@ -21,24 +21,10 @@
 
 package vm.gc.containers;
 
-
 import java.util.Collection;
 import java.util.Iterator;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class updates collection by removal of random elements

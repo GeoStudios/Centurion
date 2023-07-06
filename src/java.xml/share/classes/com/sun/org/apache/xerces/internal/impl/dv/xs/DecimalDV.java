@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
@@ -29,27 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.Validat
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.XSDecimal;
 import java.base.share.classes.java.util.Objects;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Represent the schema type "decimal"

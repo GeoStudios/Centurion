@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class specifies an exceptional condition that occurred
  * in the DTM module.

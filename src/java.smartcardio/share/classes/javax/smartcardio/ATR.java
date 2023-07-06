@@ -21,22 +21,7 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Smart Card's answer-to-reset bytes. A Card's ATR object can be obtained

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -38,20 +37,6 @@ import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code NumberFormat} is the abstract base class for all number
@@ -1198,7 +1183,6 @@ public abstract class NumberFormat extends Format  {
     // ID for backward compatibility.
     @java.io.Serial
     static final long serialVersionUID = -2308460125733713944L;
-
 
     //
     // class for AttributedCharacterIterator attributes

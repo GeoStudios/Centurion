@@ -21,23 +21,8 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.point;
 
-
 import jdk.crypto.ec.share.classes.sun.security.util.math.ImmutableIntegerModuloP;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Elliptic curve point represented using affine coordinates (x, y). This class

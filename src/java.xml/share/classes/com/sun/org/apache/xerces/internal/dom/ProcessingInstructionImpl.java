@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Processing Instructions (PIs) permit documents to carry
@@ -161,8 +144,6 @@ public class ProcessingInstructionImpl
         setNodeValue(data);
     } // setData(String)
 
-
-
    /**
      * Returns the absolute base URI of this node or null if the implementation
      * wasn't able to obtain an absolute URI. Note: If the URI is malformed, a
@@ -177,6 +158,5 @@ public class ProcessingInstructionImpl
         }
         return ownerNode.getBaseURI();
     }
-
 
 } // class ProcessingInstructionImpl

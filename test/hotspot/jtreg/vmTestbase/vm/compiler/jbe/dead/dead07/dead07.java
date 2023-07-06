@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.dead.dead07;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.dead.dead07;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead07.dead07
  */
-
 
 /* -- Test the elimination of dead assignment to static variable within an IF statement
       Example:

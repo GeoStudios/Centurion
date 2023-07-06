@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Receive notification of the logical content of a document.
  *
@@ -107,7 +91,6 @@ public interface ContentHandler
      */
     void setDocumentLocator (Locator locator);
 
-
     /**
      * Receive notification of the beginning of a document.
      *
@@ -165,7 +148,6 @@ public interface ContentHandler
     void endDocument()
         throws SAXException;
 
-
     /**
      * Begin the scope of a prefix-URI Namespace mapping.
      *
@@ -207,7 +189,6 @@ public interface ContentHandler
     void startPrefixMapping (String prefix, String uri)
         throws SAXException;
 
-
     /**
      * End the scope of a prefix-URI mapping.
      *
@@ -226,7 +207,6 @@ public interface ContentHandler
      */
     void endPrefixMapping (String prefix)
         throws SAXException;
-
 
     /**
      * Receive notification of the beginning of an element.
@@ -296,7 +276,6 @@ public interface ContentHandler
                               String qName, Attributes atts)
         throws SAXException;
 
-
     /**
      * Receive notification of the end of an element.
      *
@@ -321,7 +300,6 @@ public interface ContentHandler
     void endElement (String uri, String localName,
                             String qName)
         throws SAXException;
-
 
     /**
      * Receive notification of character data.
@@ -369,7 +347,6 @@ public interface ContentHandler
     void characters (char[] ch, int start, int length)
         throws SAXException;
 
-
     /**
      * Receive notification of ignorable whitespace in element content.
      *
@@ -398,7 +375,6 @@ public interface ContentHandler
     void ignorableWhitespace (char[] ch, int start, int length)
         throws SAXException;
 
-
     /**
      * Receive notification of a processing instruction.
      *
@@ -423,7 +399,6 @@ public interface ContentHandler
      */
     void processingInstruction (String target, String data)
         throws SAXException;
-
 
     /**
      * Receive notification of a skipped entity.

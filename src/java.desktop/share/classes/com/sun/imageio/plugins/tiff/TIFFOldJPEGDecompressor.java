@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -30,20 +29,6 @@ import javax.imageio.stream.MemoryCacheImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code TIFFDecompressor} for "Old JPEG" compression.
@@ -421,7 +406,6 @@ public class TIFFOldJPEGDecompressor extends TIFFJPEGDecompressor {
                     baos.write((byte)i); // Quantization table ID
                 }
             }
-
 
             // DRI (optional).
             f = tim.getTIFFField(BaselineTIFFTagSet.TAG_JPEG_RESTART_INTERVAL);

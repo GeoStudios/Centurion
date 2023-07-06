@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates that an annotated field or method is part of the {@linkplain

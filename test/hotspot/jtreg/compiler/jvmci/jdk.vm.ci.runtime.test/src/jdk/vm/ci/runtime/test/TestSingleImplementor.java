@@ -21,23 +21,9 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import org.junit.Assert;
 import org.junit.Test;
 import jdk.vm.ci.meta.ResolvedJavaType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -52,10 +38,6 @@ import jdk.vm.ci.meta.ResolvedJavaType;
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestSingleImplementor
  */
-
-
-
-
 
 public class TestSingleImplementor extends TypeUniverse {
 

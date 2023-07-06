@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
-
 import javax.naming.*;
 import javax.naming.spi.ResolveResult;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This class contains information required to continue
@@ -247,7 +232,6 @@ public class Continuation extends ResolveResult {
         setErrorAux(resObj, remainingName);
     }
 
-
     /**
      * Form that accepts a String name instead of a Name name.
 
@@ -326,7 +310,6 @@ public class Continuation extends ResolveResult {
 
         setContinue(resObj, relname, currCtx, PartialCompositeContext._NNS_NAME);
     }
-
 
     /**
      * Sets this Continuation with the supplied data, and set remaining name
@@ -415,7 +398,6 @@ public class Continuation extends ResolveResult {
     public void setContinue(Object obj, Object currCtx) {
         setContinue(obj, null, (Context)currCtx);
     }
-
 
     /**
      * Sets this Continuation to process a linkRef.

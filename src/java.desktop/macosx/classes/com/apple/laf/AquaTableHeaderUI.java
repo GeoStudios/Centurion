@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.util.Enumeration;
 import javax.swing.*;
@@ -32,20 +31,6 @@ import javax.swing.table.*;
 import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator;
 import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator.Property;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaTableHeaderUI extends BasicTableHeaderUI {
     private int originalHeaderAlignment;

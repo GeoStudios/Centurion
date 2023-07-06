@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import sun.awt.AppContext;
 import java.awt.*;
 import java.awt.event.*;
@@ -39,20 +38,6 @@ import java.lang.ref.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.desktop.share.classes.javax.swing.text.html.parser.ParserDelegator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Swing JEditorPane text component supports different kinds
@@ -1553,7 +1538,6 @@ public class HTMLEditorKit extends StyledEditorKit implements Accessible {
      */
     public static final String  IMG_BORDER = "html-image-border";
 
-
     /** HTML used when inserting tables. */
     private static final String INSERT_TABLE_HTML = "<table border=1><tr><td></td></tr></table>";
 
@@ -1610,7 +1594,6 @@ public class HTMLEditorKit extends StyledEditorKit implements Accessible {
     private boolean foundLink = false;
     private int prevHypertextOffset = -1;
     private Object linkNavigationTag;
-
 
     /**
      * An abstract Action providing some convenience methods that may
@@ -1734,7 +1717,6 @@ public class HTMLEditorKit extends StyledEditorKit implements Accessible {
             return lastMatch;
         }
     }
-
 
     /**
      * InsertHTMLTextAction can be used to insert an arbitrary string of HTML
@@ -2025,7 +2007,6 @@ public class HTMLEditorKit extends StyledEditorKit implements Accessible {
         /** True indicates the selection should be adjusted after an insert. */
         boolean adjustSelection;
     }
-
 
     /**
      * InsertHRAction is special, at actionPerformed time it will determine

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.net.java.net.SocketException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages count of total number of UDP sockets and ensures

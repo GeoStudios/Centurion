@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.base.share.classes.jdk.internal.misc.CDS;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Used by ModuleBootstrap for archiving the boot layer.

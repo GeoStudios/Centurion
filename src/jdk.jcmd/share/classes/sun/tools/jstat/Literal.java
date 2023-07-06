@@ -21,22 +21,6 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An Expression subclass that describes the constant operands of an
  * expression. Objects of this type are always leaves of an expression tree.

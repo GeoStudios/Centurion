@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import java.base.share.classes.java.time.DateTimeException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Framework-level interface defining read-write access to a temporal object,

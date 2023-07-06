@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.io.Externalizable;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -45,20 +44,6 @@ import sun.reflect.misc.ReflectUtil;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> The master factory for all reflective objects, both those in
     java.lang.reflect (Fields, Methods, Constructors) as well as their
     delegates (FieldAccessors, MethodAccessors, ConstructorAccessors).
@@ -75,7 +60,6 @@ public class ReflectionFactory {
 
     private static boolean initted = false;
     private static final ReflectionFactory soleInstance = new ReflectionFactory();
-
 
     /* Method for static class initializer <clinit>, or null */
     private static volatile Method hasStaticInitializerMethod;
@@ -327,7 +311,6 @@ public class ReflectionFactory {
         return langReflectAccess.leafCopyMethod(arg);
     }
 
-
     /** Makes a copy of the passed field. The returned field is a
         "child" of the passed one; see the comments in Field.java for
         details. */
@@ -465,7 +448,6 @@ public class ReflectionFactory {
 
     private final Constructor<?> generateConstructor(Class<?> cl,
                                                      Constructor<?> constructorToCall) {
-
 
         ConstructorAccessor acc = new MethodAccessorGenerator().
             generateSerializationConstructor(cl,

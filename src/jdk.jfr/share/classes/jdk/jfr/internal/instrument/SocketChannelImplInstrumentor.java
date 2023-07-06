@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inetjava.net.SocketAddress;
 import java.net.java.net.SocketAddress;
@@ -29,20 +28,6 @@ import java.net.UnixDomainjava.net.SocketAddress;
 import java.nio.ByteBuffer;
 import jdk.jfr.share.classes.jdk.jfr.events.Handlers;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See {@link JITracer} for an explanation of this code.

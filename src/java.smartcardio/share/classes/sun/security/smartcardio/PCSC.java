@@ -21,22 +21,7 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
-
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Access to native PC/SC functions and definition of PC/SC constants.

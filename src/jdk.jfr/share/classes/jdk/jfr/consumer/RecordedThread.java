@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recorded thread.

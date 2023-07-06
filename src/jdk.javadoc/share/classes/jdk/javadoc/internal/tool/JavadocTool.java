@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Paths;
@@ -49,20 +48,6 @@ import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Position;
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This class could be the main entry point for Javadoc when Javadoc is used as a

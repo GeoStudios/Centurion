@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -119,7 +104,6 @@ public class ErrorMessages_fr extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "Mod\u00E8le ''{0}'' d\u00E9j\u00E0 d\u00E9fini dans cette feuille de style."},
-
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -696,10 +680,8 @@ public class ErrorMessages_fr extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "La valeur du param\u00E8tre {0} doit \u00EAtre un objet Java valide"},
 
-
         {ErrorMsg.COMPILE_STDIN_ERR,
         "L'option -i doit \u00EAtre utilis\u00E9e avec l'option -o."},
-
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -724,8 +706,6 @@ public class ErrorMessages_fr extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "SYNTAXE \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <jarfile>]\n      [-x] [-n <iterations>] {-u <document_url> | <document>}\n      <class> [<param1>=<value1> ...]\n\n   utilise le translet <class> pour transformer un document XML\n   sp\u00E9cifi\u00E9 comme <document>. Le translet <class> est soit dans\n   la variable d'environnement CLASSPATH de l'utilisateur, soit dans un fichier <jarfile> indiqu\u00E9 en option.\nOPTIONS\n   -j <jarfile>    indique un fichier JAR \u00E0 partir duquel charger le translet\n   -x              active la sortie de messages de d\u00E9bogage suppl\u00E9mentaires\n   -n <iterations> ex\u00E9cute la transformation <iterations> fois et\n                   affiche les informations de profilage\n   -u <document_url> sp\u00E9cifie le document d'entr\u00E9e XML comme URL\n"},
-
-
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -983,7 +963,6 @@ public class ErrorMessages_fr extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "Erreur XSLTC interne : une instruction ayant fait partie d'un bloc de code ex\u00E9cutable d\u00E9limit\u00E9 est toujours r\u00E9f\u00E9renc\u00E9e dans la m\u00E9thode d'origine."
         },
-
 
         /*
          * Note to translators:  This message describes an internal error in the

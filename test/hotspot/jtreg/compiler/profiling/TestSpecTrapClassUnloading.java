@@ -21,21 +21,7 @@
 
 package compiler.profiling;
 
-
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import java.lang.reflect.Method;
  *                   -Xmx512M
  *                   compiler.profiling.TestSpecTrapClassUnloading
  */
-
-
 
 public class TestSpecTrapClassUnloading {
     static class B {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -42,20 +41,6 @@ import java.desktop.share.classes.javax.imageio.event.IIOReadUpdatejava.util.Lis
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract superclass for parsing and decoding of images.  This
@@ -1814,7 +1799,6 @@ public abstract class ImageReader {
         l.add(elt);
         return l;
     }
-
 
     // Remove an element from a list, discarding the list if the
     // resulting list is empty, and return the list or null.

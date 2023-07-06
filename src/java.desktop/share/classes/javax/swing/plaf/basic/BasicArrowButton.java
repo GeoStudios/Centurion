@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Color;
@@ -31,20 +30,6 @@ import java.awt.geom.Path2D;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JButton object that draws a scaled Arrow in one of the cardinal directions.

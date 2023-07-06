@@ -21,24 +21,10 @@
 
 package compiler.lib.ir_framework;
 
-
 import compiler.lib.ir_framework.driver.IRViolationException;
 import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This annotation is used to define a constraint/rule/check on the resulting IR of a test method (method with

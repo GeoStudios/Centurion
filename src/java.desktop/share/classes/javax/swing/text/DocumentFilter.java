@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <code>DocumentFilter</code>, as the name implies, is a filter for the
  * <code>Document</code> mutation methods. When a <code>Document</code>
@@ -136,7 +120,6 @@ public class DocumentFilter {
                         AttributeSet attrs) throws BadLocationException {
         fb.replace(offset, length, text, attrs);
     }
-
 
     /**
      * Used as a way to circumvent calling back into the Document to

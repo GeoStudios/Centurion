@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.management.share.classes.javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an unresolved role: a role not retrieved from a relation due
@@ -334,7 +319,6 @@ public class RoleUnresolved implements Serializable {
         in.defaultReadObject();
       }
     }
-
 
     /**
      * Serializes a {@link RoleUnresolved} to an {@link ObjectOutputStream}.

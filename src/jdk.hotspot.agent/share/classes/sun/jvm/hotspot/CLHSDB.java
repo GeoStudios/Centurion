@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CLHSDB {
 
@@ -82,7 +67,6 @@ public class CLHSDB {
             connect(debugServerName);
         }
 
-
         CommandProcessor.DebuggerInterface di = new CommandProcessor.DebuggerInterface() {
                 public HotSpotAgent getAgent() {
                     return agent;
@@ -115,7 +99,6 @@ public class CLHSDB {
                     }
                 }
             };
-
 
         BufferedReader in =
             new BufferedReader(new InputStreamReader(System.in));

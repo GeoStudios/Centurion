@@ -21,27 +21,10 @@
 
 package java.naming.share.classes.com.sun.naming.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A NamedWeakReference is a WeakReference with an immutable string name.
  *
  */
-
 
 class NamedWeakReference<T> extends java.lang.ref.WeakReference<T> {
 

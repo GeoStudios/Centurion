@@ -21,30 +21,14 @@
 
 package test.java.lang.invoke;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @bug 8164102
  * @run main/othervm -ea -esa test.java.lang.invoke.CountedLoopIterationCountsTest
  */
-
-
 
 public class CountedLoopIterationCountsTest {
 

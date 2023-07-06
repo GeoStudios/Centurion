@@ -21,7 +21,6 @@
 
 package javax.xml.parsers.ptests;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static javax.xml.parsers.ptests.ParserTestConst.GOLDEN_DIR;.extended
 import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;.extended
@@ -61,19 +60,6 @@ import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @bug 8080907 8169778

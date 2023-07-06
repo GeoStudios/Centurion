@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
-
 import java.util.StringTokenizer;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import com.sun.imageio.plugins.tiff.TIFFFieldNode;
 import com.sun.imageio.plugins.tiff.TIFFIFD;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class representing a field in a TIFF 6.0 Image File Directory.
@@ -1266,7 +1251,6 @@ public final class TIFFField implements Cloneable {
     public long[] getAsRational(int index) {
         return ((long[][])data)[index];
     }
-
 
     /**
      * Returns a {@code String} containing a human-readable

@@ -21,26 +21,11 @@
 
 package demo.share.jfc.SampleTree;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GraphicsEnvironment;
 import java.util.Random;
 import javax.swing.tree.DefaultMutableTreeNode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -49,10 +34,6 @@ import javax.swing.tree.DefaultMutableTreeNode;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * DynamicTreeNode illustrates one of the possible ways in which dynamic

@@ -21,21 +21,7 @@
 
 package MyPackage;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -44,7 +30,6 @@ import java.io.PrintStream;
  * @compile AddModuleExportsAndOpensTest.java
  * @run main/othervm/native -agentlib:AddModuleExportsAndOpensTest MyPackage.AddModuleExportsAndOpensTest
  */
-
 
 public class AddModuleExportsAndOpensTest {
 

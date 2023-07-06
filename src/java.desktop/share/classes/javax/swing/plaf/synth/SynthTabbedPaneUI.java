@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Component;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicTabbedPaneUI;
 import java.desktop.share.classes.javax.swing.text.View;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -188,11 +173,9 @@ public class SynthTabbedPaneUI extends BasicTabbedPaneUI
         this.tabStyle = SynthLookAndFeel.updateStyle(tabContext, this);
         tabInsets = tabStyle.getInsets(tabContext, null);
 
-
         tabAreaContext = getContext(c, Region.TABBED_PANE_TAB_AREA, ENABLED);
         this.tabAreaStyle = SynthLookAndFeel.updateStyle(tabAreaContext, this);
         tabAreaInsets = tabAreaStyle.getInsets(tabAreaContext, null);
-
 
         tabContentContext = getContext(c, Region.TABBED_PANE_CONTENT, ENABLED);
         this.tabContentStyle = SynthLookAndFeel.updateStyle(tabContentContext,
@@ -713,7 +696,6 @@ public class SynthTabbedPaneUI extends BasicTabbedPaneUI
                                   textRect, mnemIndex);
         }
     }
-
 
     private void paintContentBorder(SynthContext ss, Graphics g,
                                       int tabPlacement, int selectedIndex) {

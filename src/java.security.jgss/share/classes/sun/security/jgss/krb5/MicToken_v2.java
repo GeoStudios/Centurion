@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the new format of GSS MIC tokens, as specified

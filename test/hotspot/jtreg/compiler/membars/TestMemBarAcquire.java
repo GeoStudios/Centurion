@@ -21,21 +21,6 @@
 
 package compiler.membars;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestMemBarAcquire
  * @bug 8048879
@@ -43,7 +28,6 @@ package compiler.membars;
  * @run main/othervm -XX:-TieredCompilation -XX:-BackgroundCompilation
  *                   compiler.membars.TestMemBarAcquire
  */
-
 
 public class TestMemBarAcquire {
     private volatile static Object defaultObj = new Object();

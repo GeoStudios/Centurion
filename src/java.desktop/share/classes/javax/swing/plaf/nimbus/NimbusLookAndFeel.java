@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.awt.BorderLayout;
 import static java.awt.BorderLayout.*;.extended
 import java.desktop.share.classes.javax.swing.JComponent;
@@ -52,20 +51,6 @@ import java.desktop.share.classes.javax.swing.plaf.synth.SynthIcon;
 import sun.swing.plaf.GTKKeybindings;
 import sun.swing.plaf.WindowsKeybindings;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The NimbusLookAndFeel class.</p>
@@ -123,7 +108,6 @@ public class NimbusLookAndFeel extends SynthLookAndFeel {
             }
         });
     }
-
 
     /** Called by UIManager when this look and feel is uninstalled. */
     @Override public void uninitialize() {

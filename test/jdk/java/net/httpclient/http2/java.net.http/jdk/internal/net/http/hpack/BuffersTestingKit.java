@@ -21,26 +21,12 @@
 
 package jdk.internal.net.http.hpack;
 
-
 import java.nio.ByteBuffer;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import static java.nio.ByteBuffer.allocate;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class BuffersTestingKit {
 

@@ -21,23 +21,8 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Collection;
 import jdk.jshell.share.classes.jdk.jshell.Key.TypeDeclKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Snippet for a type definition (a class, interface, enum, or annotation

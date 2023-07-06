@@ -21,7 +21,6 @@
 
 package jdk.test.failurehandler.action;
 
-
 import jdk.test.failurehandler.ProcessInfoGatherer;
 import jdk.test.failurehandler.EnvironmentInfoGatherer;
 import jdk.test.failurehandler.HtmlSection;
@@ -30,19 +29,6 @@ import java.io.PrintWriter;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ActionSet implements ProcessInfoGatherer, EnvironmentInfoGatherer {
     private static final String ENVIRONMENT_PROPERTY = "environment";
@@ -57,7 +43,6 @@ public class ActionSet implements ProcessInfoGatherer, EnvironmentInfoGatherer {
     private final String name;
     private final List<SimpleAction> environmentActions;
     private final List<PatternAction> processActions;
-
 
     public ActionSet(ActionHelper helper, PrintWriter log, String name) {
         this.helper = helper;
@@ -112,7 +97,6 @@ public class ActionSet implements ProcessInfoGatherer, EnvironmentInfoGatherer {
         }
         return value.split(" ");
     }
-
 
     @Override
     public void gatherProcessInfo(HtmlSection section, long pid) {

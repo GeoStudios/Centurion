@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.awt.image.MultiResolutionImage;
@@ -31,20 +30,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MultiResolutionToolkitImage extends ToolkitImage implements MultiResolutionImage {
 

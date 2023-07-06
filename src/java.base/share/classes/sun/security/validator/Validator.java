@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.validator;
 
-
 import java.util.*;
 import java.security.AlgorithmConstraints;
 import java.security.KeyStore;
 import java.security.cert.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Validator abstract base class. Concrete classes are instantiated by calling

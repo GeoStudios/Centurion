@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code kind} of an element.
  *

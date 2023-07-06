@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.lang.ref.SoftReference;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
@@ -35,20 +34,6 @@ import jdk.jdi.share.classes.com.sun.jdi.Location;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.tools.jdi.JDWP.Method.VariableTable;
 import jdk.jdi.share.classes.com.sun.tools.jdi.JDWP.Method.VariableTableWithGeneric;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents methods with method bodies.

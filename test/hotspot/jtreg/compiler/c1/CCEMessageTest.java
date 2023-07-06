@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8225644
@@ -43,7 +28,6 @@ package compiler.c1;
  * @run main/othervm compiler.c1.CCEMessageTest
  * @run main/othervm -Xcomp -XX:TieredStopAtLevel=1 compiler.c1.CCEMessageTest
  */
-
 
 public class CCEMessageTest {
     public static void main(String... args) {

@@ -21,7 +21,6 @@
 
 package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
@@ -50,20 +49,6 @@ import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LinuxDebBundler extends LinuxPackageBundler {
 

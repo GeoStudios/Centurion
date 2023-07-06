@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import sun.security.util.IOUtils;
 import sun.security.util.KnownOIDs;
 import sun.security.util.ObjectIdentifier;
 import sun.security.x509.InvalidityDateExtension;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An exception that indicates an X.509 certificate is revoked. A

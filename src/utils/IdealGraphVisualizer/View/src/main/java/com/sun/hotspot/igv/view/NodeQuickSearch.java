@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
@@ -40,20 +39,6 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.NotifyDescriptor.Message;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

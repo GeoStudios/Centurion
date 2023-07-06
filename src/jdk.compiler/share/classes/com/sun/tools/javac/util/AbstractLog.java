@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import javax.tools.JavaFileObject;
@@ -32,20 +31,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Note;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.SimpleDiagnosticPosition;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  A base class for error logs. Reports errors and warnings, and

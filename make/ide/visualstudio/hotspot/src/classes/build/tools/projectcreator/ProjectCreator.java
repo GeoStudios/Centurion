@@ -21,56 +21,6 @@
 
 package build.tools.projectcreator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ProjectCreator {
 
    public static void usage() {

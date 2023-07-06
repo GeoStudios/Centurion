@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TransportConstants {
     /** Transport magic number: "JRMI"*/
     public static final int Magic = 0x4a524d49;

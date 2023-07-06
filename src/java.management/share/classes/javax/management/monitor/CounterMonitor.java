@@ -21,27 +21,12 @@
 
 package java.management.share.classes.javax.management.monitor;
 
-
 import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;.extended
 import java.lang.System.Logger.Level;
 import java.management.share.classes.javax.management.ObjectName;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 import static java.management.share.classes.javax.management.monitor.Monitor.NumericalType.*;.extended
 import static java.management.share.classes.javax.management.monitor.MonitorNotification.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines a monitor MBean designed to observe the values of a counter

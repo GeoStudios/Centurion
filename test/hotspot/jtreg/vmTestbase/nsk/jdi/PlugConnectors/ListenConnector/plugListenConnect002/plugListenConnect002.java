@@ -21,7 +21,6 @@
 
 package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect002;
 
-
 import nsk.jdi.PlugConnectors.java.util.ListenConnector.plugjava.util.ListenConnect002.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -95,10 +81,6 @@ import java.io.*;
  *      -debugee.vmkind=java
  *      -transport.address=dynamic
  */
-
-
-
-
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
@@ -172,7 +154,6 @@ public class plugListenConnect002 {
         return result;
     }
 
-
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;
 
@@ -187,7 +168,6 @@ public class plugListenConnect002 {
         logAlways("==> nsk/jdi/PlugConnectors/ListenConnector/plugListenConnect002 test...");
         logOnVerbose
             ("==> Test checks that expected pluggable listening connector is created properly.");
-
 
         VirtualMachineManager virtualMachineManager = Bootstrap.virtualMachineManager();
         if (virtualMachineManager == null) {
@@ -237,7 +217,6 @@ public class plugListenConnect002 {
             logOnError(errorLogPrefix + "Expected connector = " + checkedPlugListenConnector);
             testResult = STATUS_FAILED;
         }
-
 
         ListeningConnector referencePlugListenConnector = new PlugListenConnector002();
 

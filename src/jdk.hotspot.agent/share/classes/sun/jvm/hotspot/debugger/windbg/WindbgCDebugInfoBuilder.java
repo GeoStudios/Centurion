@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WindbgCDebugInfoBuilder
   implements DebugVC50SubsectionTypes, DebugVC50TypeLeafIndices, DebugVC50TypeEnums, DebugVC50SymbolTypes, DebugVC50MemberAttributes, CVAttributes, AccessControl {
@@ -414,7 +399,6 @@ class WindbgCDebugInfoBuilder
         }
         }
 
-
         if (!iter.typeStringDone()) {
           iter.typeStringNext();
         }
@@ -617,7 +601,6 @@ class WindbgCDebugInfoBuilder
 
     return db;
   }
-
 
   //----------------------------------------------------------------------
   // Internals only below this point

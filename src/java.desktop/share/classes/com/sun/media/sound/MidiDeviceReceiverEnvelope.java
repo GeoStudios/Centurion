@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiDeviceReceiver;
 import javax.sound.midi.MidiMessage;
 import javax.sound.midi.Receiver;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class which allows to convert {@code Receiver}

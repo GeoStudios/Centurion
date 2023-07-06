@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /** DefaultNodeIterator implements a NodeIterator, which iterates a
  *  DOM tree in the expected depth first way.
@@ -304,7 +286,6 @@ public class NodeIteratorImpl implements NodeIterator {
         // if hasSibling, return sibling
         result = node.getNextSibling();
         if (result != null) return result;
-
 
         // return parent's 1st sibling.
         Node parent = node.getParentNode();

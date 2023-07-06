@@ -21,7 +21,6 @@
 
 package lib.jdb;
 
-
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
 import java.io.Closeable;
@@ -33,19 +32,6 @@ import java.util.concurrent.TimeoutException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class to run java debuggee and parse agent listening transport/address.

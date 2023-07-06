@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.*;
 import java.util.stream.Collectors;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
@@ -55,20 +54,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpressionSt
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This pass translates away some syntactic sugar: inner classes,
  *  class literals, assertions, foreach loops, etc.
@@ -548,7 +533,6 @@ public class Lower extends TreeTranslator {
                 .prepend(make.VarDef(mapVar, mapVarInit));
         }
     }
-
 
 /**************************************************************************
  * Tree building blocks
@@ -1963,7 +1947,6 @@ public class Lower extends TreeTranslator {
         make_at(pos);
         return makeUnary(NOT, make.Ident(assertDisabledSym));
     }
-
 
 /**************************************************************************
  * Building blocks for let expressions

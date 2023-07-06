@@ -21,21 +21,6 @@
 
 package nsk.share.gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CircularLinkedList {
         private int objectSize;
         private LinkedMemoryObject root;

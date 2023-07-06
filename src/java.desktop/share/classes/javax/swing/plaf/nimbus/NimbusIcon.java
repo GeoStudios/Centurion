@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.JMenu;
 import java.desktop.share.classes.javax.swing.JToolBar;
@@ -35,20 +34,6 @@ import java.awt.Component;
 import java.awt.Graphics2D;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An icon that delegates to a painter.

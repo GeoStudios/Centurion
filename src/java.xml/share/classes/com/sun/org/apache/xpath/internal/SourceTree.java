@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This object represents a Source Tree, and any associated

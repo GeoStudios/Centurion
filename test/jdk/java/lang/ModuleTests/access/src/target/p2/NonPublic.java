@@ -21,21 +21,6 @@
 
 package p2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class NonPublic {
 
     // public constructor

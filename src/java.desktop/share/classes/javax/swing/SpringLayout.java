@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -30,20 +29,6 @@ import java.awt.Insets;
 import java.awt.LayoutManager2;
 import java.awt.Rectangle;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>SpringLayout</code> lays out the children of its associated container
@@ -199,7 +184,6 @@ public class SpringLayout implements LayoutManager2 {
     private final Spring cyclicReference = Spring.constant(Spring.UNSET);
     private Set<Spring> cyclicSprings;
     private Set<Spring> acyclicSprings;
-
 
     /**
      * Specifies the top edge of a component's bounding rectangle.

@@ -21,25 +21,11 @@
 
 package nsk.jdi.ClassUnloadRequest.addClassExclusionFilter;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Debugger checks up assertion: <br>

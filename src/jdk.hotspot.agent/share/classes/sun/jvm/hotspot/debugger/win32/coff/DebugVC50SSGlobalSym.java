@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstGlobalSym" subsection in Visual C++ 5.0 debug
     information. This class provides access to the symbols via
     iterators; it does not instantiate objects to represent symbols

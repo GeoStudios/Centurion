@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import java.util.Hashtable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.CharArrayReader;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An entity is described in a DTD using the ENTITY construct.
@@ -126,7 +111,6 @@ class Entity implements DTDConstants {
     public String getString() {
         return new String(data);
     }
-
 
     static Hashtable<String, Integer> entityTypes = new Hashtable<String, Integer>();
 

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Traverses and prints the stack traces for all Java threads in the
     remote VM */
 public class StackTrace {

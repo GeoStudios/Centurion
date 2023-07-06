@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
@@ -70,20 +69,6 @@ import static java.lang.invoke.MethodHandles.permuteArguments;.extended
 import static java.lang.invoke.MethodHandles.tryFinally;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
 import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SharedUtils {
 
@@ -360,7 +345,6 @@ public class SharedUtils {
         }
         return permuteArguments(mh, newType, reorder);
     }
-
 
     static MethodHandle swapArguments(MethodHandle mh, int firstArg, int secondArg) {
         MethodType mtype = mh.type();

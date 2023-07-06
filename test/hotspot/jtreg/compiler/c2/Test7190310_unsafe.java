@@ -21,24 +21,10 @@
 
 package compiler.c2;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,9 +35,6 @@ import java.lang.reflect.Field;
  *
  * @run main/othervm -Xbatch compiler.c2.Test7190310_unsafe
  */
-
-
-
 
 public class Test7190310_unsafe {
 

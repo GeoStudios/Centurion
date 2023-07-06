@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
@@ -31,20 +30,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AbstractPosixTerminal extends AbstractTerminal {
 

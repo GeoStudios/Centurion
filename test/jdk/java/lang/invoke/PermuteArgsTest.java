@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import org.testng.annotations.Test;
 import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 import java.lang.invoke.MethodHandle;
@@ -38,19 +37,6 @@ import static java.lang.invoke.MethodHandles.lookup;.extended
 import static java.lang.invoke.MethodHandles.permuteArguments;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @summary unit tests for method handles which permute their arguments
  * @library /test/lib /java/lang/invoke/common
@@ -62,10 +48,6 @@ import static java.lang.invoke.MethodType.methodType;.extended
  * java -DPermuteArgsTest.{VERBOSE=true,MAX_ARITY=5} test.java.lang.invoke.PermuteArgsTest
  * java test.java.lang.invoke.PermuteArgsTest list3I[2,0,1] listJLJ[2,0,1]
  */
-
-
-
-
 
 public class PermuteArgsTest {
     private static final Class<?> CLASS = PermuteArgsTest.class;

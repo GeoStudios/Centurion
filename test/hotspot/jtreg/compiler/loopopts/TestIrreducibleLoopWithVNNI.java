@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8230185
@@ -46,7 +31,6 @@ package compiler.loopopts;
  *      -XX:CompileCommand=compileonly,compiler.loopopts.TestIrreducibleLoopWithVNNI::*
  *      compiler.loopopts.TestIrreducibleLoopWithVNNI
  */
-
 
 public class TestIrreducibleLoopWithVNNI {
     public static boolean condition = false;

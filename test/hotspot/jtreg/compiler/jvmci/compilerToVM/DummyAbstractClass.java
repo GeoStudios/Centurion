@@ -21,21 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 abstract class DummyAbstractClass implements DummyInterface {
     public abstract int dummyAbstractFunction();
 }

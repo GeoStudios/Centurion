@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.UniqueType;
@@ -30,20 +29,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
 import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface models all javac entities that can be used to represent constant pool entries.

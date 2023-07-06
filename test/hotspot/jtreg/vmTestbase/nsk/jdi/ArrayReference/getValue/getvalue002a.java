@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayReference.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getvalue002a {
     public static void main (String argv[]) {

@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8220416
@@ -44,9 +29,6 @@ package compiler.c2;
  * @run main/othervm -Xbatch -XX:-TieredCompilation -XX:+IgnoreUnrecognizedVMOptions -XX:+AlwaysIncrementalInline
  *                   -XX:CompileOnly=compiler.c2.CompareKlassPointersTest::test compiler.c2.CompareKlassPointersTest
  */
-
-
-
 
 public class CompareKlassPointersTest {
 

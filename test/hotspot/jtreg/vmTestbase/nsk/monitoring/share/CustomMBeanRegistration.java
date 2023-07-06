@@ -21,21 +21,7 @@
 
 package nsk.monitoring.share;
 
-
 import javax.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>CustomMBeanRegistration</code> class is a dummy implementation of

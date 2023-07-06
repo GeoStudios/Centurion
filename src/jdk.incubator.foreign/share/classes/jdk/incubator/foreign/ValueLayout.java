@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import java.lang.constant.Constable;
 import java.lang.constant.ConstantDescs;
 import java.lang.constant.DynamicConstantDesc;
@@ -30,20 +29,6 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.OptionalLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A value layout. A value layout is used to model the memory layout associated with values of basic data types, such as <em>integral</em> types

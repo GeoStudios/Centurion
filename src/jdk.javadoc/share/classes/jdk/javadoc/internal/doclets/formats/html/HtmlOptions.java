@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -34,20 +33,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.DocLint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Storage for all options supported by the

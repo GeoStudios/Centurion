@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -33,27 +32,10 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class converts SAX-like event to SAX events for
@@ -325,14 +307,12 @@ public final class ToTextSAXHandler extends ToSAXHandler
     {
     }
 
-
     /**
      * @see org.xml.sax.ext.LexicalHandler#startEntity(String)
      */
     public void startEntity(String arg0) throws SAXException
     {
     }
-
 
     /**
      * From XSLTC
@@ -351,7 +331,6 @@ public final class ToTextSAXHandler extends ToSAXHandler
     {
         super.startElement(elementName);
     }
-
 
     /**
      * From XSLTC
@@ -405,7 +384,6 @@ public final class ToTextSAXHandler extends ToSAXHandler
         // do nothing
     }
 
-
     public boolean startPrefixMapping(
         String prefix,
         String uri,
@@ -416,13 +394,11 @@ public final class ToTextSAXHandler extends ToSAXHandler
         return false;
     }
 
-
     public void startPrefixMapping(String prefix, String uri)
         throws org.xml.sax.SAXException
     {
         // no namespace support for HTML
     }
-
 
     public void namespaceAfterStartElement(
         final String prefix,

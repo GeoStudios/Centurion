@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.text.*;
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to perform rendering of the glyphs.

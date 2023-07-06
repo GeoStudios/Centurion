@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.net.www.protocol.jar;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileNotFoundException;
 import java.net.URL;
@@ -30,20 +29,6 @@ import java.util.HashMap;
 import java.util.jar.JarFile;
 import java.security.Permission;
 import java.base.unix.classes.sun.net.util.URLUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* A factory for cached JAR file. This class is used to both retrieve
  * and cache Jar files.

@@ -21,22 +21,8 @@
 
 package javax.xml.validation.ptests;
 
-
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class MyErrorHandler implements ErrorHandler {
     public void error(SAXParseException exception) throws SAXParseException {

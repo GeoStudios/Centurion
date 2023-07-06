@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //These definitions should be kept in sync with the definitions in the HotSpot code.
 
 public enum Flags {

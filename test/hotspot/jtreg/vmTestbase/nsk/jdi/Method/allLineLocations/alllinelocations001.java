@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.allLineLocations;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -132,7 +118,6 @@ public class alllinelocations001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -175,7 +160,6 @@ public class alllinelocations001 {
             Method m         = null;
             List   locations = null;
 
-
             log2("----testing case: abstract method");
 
             log2("      List classes = vm.classesByName(mName + '.AClass');");
@@ -215,7 +199,6 @@ public class alllinelocations001 {
                 testExitCode = FAILED;
                 break;
             }
-
 
             log2("----testing case: native method");
 

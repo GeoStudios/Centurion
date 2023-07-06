@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class LiteralNeverIndexedWriter extends IndexNameValueWriter {
 
     LiteralNeverIndexedWriter() {

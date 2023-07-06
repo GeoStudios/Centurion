@@ -21,22 +21,8 @@
 
 package gc.g1.plab.lib;
 
-
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This application is part of PLAB Resize test.

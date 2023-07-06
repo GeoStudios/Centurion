@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.function.Predicate;
@@ -30,20 +29,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
 import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Token.Tag;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class that defines codes/utilities for Java source tokens
  *  returned from lexical analysis.

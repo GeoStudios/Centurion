@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.name;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class name001 {
     final static String FIELD_NAME[] = {

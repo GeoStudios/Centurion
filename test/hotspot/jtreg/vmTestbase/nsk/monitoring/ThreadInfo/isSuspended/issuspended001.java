@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadInfo.isSuspended;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class issuspended001 {
     private static Wicket mainEntrance = new Wicket();

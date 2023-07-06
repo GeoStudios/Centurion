@@ -21,31 +21,14 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-
 import java.io.FilterOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 public class UnsyncBufferedOutputStream extends FilterOutputStream {
 

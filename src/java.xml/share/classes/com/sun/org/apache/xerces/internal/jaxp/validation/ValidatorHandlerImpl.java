@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -89,20 +88,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Attributes2;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.EntityResolver2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Implementation of ValidatorHandler for W3C XML Schemas and

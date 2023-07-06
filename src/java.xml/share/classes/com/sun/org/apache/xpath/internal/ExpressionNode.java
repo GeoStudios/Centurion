@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import javax.xml.transform.SourceLocator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * A class that implements this interface can construct expressions,

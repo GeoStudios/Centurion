@@ -21,56 +21,6 @@
 
 package build.tools.symbolgenerator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Write reflexive transitive closure of the given modules along their requires transitive edges into
  * file <version>/system-modules in the specified directory.

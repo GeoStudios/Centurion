@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The annotation interface {@code java.lang.annotation.Repeatable} is
  * used to indicate that the annotation interface whose declaration it

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface is implemented by components that have a single
@@ -100,7 +85,6 @@ public interface RootPaneContainer
      */
     JRootPane getRootPane();
 
-
     /**
      * The "contentPane" is the primary container for application
      * specific components.  Applications should add children to
@@ -120,7 +104,6 @@ public interface RootPaneContainer
      */
     void setContentPane(Container contentPane);
 
-
     /**
      * Returns the contentPane.
      *
@@ -128,7 +111,6 @@ public interface RootPaneContainer
      * @see #setContentPane
      */
     Container getContentPane();
-
 
     /**
      * A Container that manages the contentPane and in some cases a menu bar.
@@ -149,7 +131,6 @@ public interface RootPaneContainer
      */
     void setLayeredPane(JLayeredPane layeredPane);
 
-
     /**
      * Returns the layeredPane.
      *
@@ -157,7 +138,6 @@ public interface RootPaneContainer
      * @see #setLayeredPane
      */
     JLayeredPane getLayeredPane();
-
 
     /**
      * The glassPane is always the first child of the rootPane
@@ -177,7 +157,6 @@ public interface RootPaneContainer
      * @see JRootPane#setGlassPane
      */
     void setGlassPane(Component glassPane);
-
 
     /**
      * Returns the glassPane.

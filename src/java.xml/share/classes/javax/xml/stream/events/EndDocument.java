@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A marker interface for the end of the document
  *

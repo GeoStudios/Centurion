@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.net.www;
 
-
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.sun.net.ProgressSource;
 import java.base.share.classes.sun.net.www.http.ChunkedInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MeteredStream extends FilterInputStream {
 

@@ -21,23 +21,9 @@
 
 package compiler.unsafe;
 
-
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,10 +36,6 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.JdkInternalMiscUnsafeAccessTestInt
  * @run testng/othervm -Diters=20000                         compiler.unsafe.JdkInternalMiscUnsafeAccessTestInt
  */
-
-
-
-
 
 public class JdkInternalMiscUnsafeAccessTestInt {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -173,7 +155,6 @@ public class JdkInternalMiscUnsafeAccessTestInt {
             int x = UNSAFE.getIntVolatile(base, offset);
             assertEquals(x, 0x89ABCDEF, "putVolatile int value");
         }
-
 
         // Lazy
         {

@@ -21,21 +21,6 @@
 
 package nsk.share.runner;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Marker interface to signify that run params are needed.
  */

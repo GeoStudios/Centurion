@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetClassLoaderClasses;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class clsldrclss002 extends DebugeeClass {
 

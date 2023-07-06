@@ -21,25 +21,11 @@
 
 package nsk.monitoring.ThreadMXBean.ThreadInfo.RunningThread.RunningThread001;
 
-
 import java.lang.management.*;
 import nsk.share.runner.*;
 import nsk.monitoring.share.*;
 import nsk.monitoring.share.thread.*;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -53,8 +39,6 @@ import nsk.share.TestFailure;
  *      nsk.monitoring.ThreadMXBean.ThreadInfo.RunningThread.RunningThread001.RunningThread001
  *      -scenarioType=running
  */
-
-
 
 /**
  * This test starts huge number of threads of different types. Each

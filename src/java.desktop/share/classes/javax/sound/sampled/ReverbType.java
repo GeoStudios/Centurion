@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code ReverbType} class provides methods for accessing various
  * reverberation settings to be applied to an audio signal.

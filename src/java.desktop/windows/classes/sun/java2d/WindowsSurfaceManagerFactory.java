@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d;
 
-
 import java.awt.GraphicsConfiguration;
 import java.desktop.windows.classes.sun.awt.image.BufImgVolatileSurfaceManager;
 import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
@@ -30,20 +29,6 @@ import java.desktop.windows.classes.sun.java2d.d3d.D3DGraphicsConfig;
 import java.desktop.windows.classes.sun.java2d.d3d.D3DVolatileSurfaceManager;
 import java.desktop.windows.classes.sun.java2d.opengl.WGLGraphicsConfig;
 import java.desktop.windows.classes.sun.java2d.opengl.WGLVolatileSurfaceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The SurfaceManagerFactory that creates VolatileSurfaceManager

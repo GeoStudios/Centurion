@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.allMethods;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the allmethods001 JDI test.
@@ -51,7 +37,6 @@ public class allmethods001a {
         package_prefix = "nsk.jdi.ReferenceType.allMethods.";
 //        package_prefix = "";    //  for DEBUG without package
     static String checked_class_name = package_prefix + "allmethods001aClassForCheck";
-
 
     private static void print_log_on_verbose(String message) {
         if ( verbose_mode ) {
@@ -206,7 +191,6 @@ abstract class allmethods001aClassForCheck extends allmethods001aSuperClassForCh
 
     // static initializer
     static {}
-
 
 }
 

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Defines a DTD filter that acts as both a receiver and an emitter

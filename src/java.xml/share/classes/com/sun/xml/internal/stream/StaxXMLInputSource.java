@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamReader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

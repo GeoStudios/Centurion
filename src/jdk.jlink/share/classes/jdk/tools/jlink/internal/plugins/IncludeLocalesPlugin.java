@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.util.AbstractMap;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -50,20 +49,6 @@ import sun.util.cldr.CLDRBaseLocaleDataMetaInfo;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleProviderAdapter.Type;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Plugin to explicitly specify the locale data included in jdk.localedata

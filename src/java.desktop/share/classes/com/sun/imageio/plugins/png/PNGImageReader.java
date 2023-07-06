@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.png;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.color.ColorSpace;
@@ -57,20 +56,6 @@ import java.desktop.share.classes.com.sun.imageio.plugins.common.ReaderUtil;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.SubImageInputStream;
 import java.io.ByteArrayOutputStream;
 import java.desktop.share.classes.com.sun.awt.image.ByteInterleavedRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class PNGImageDataEnumeration implements Enumeration<InputStream> {
 

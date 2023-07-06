@@ -21,22 +21,7 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.rmi.RemoteException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>SkeletonNotFoundException</code> is thrown if the

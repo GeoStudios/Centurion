@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.com.sun.nio.ch.DirectBuffer;
 import java.base.share.classes.com.sun.security.jca.JCAUtil;
 import java.base.share.classes.com.sun.security.util.ArrayUtil;
@@ -50,20 +49,6 @@ import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents ciphers in GaloisCounter (GCM) mode.
@@ -617,7 +602,6 @@ abstract class GaloisCounterMode extends CipherSpi {
         byte[] originalOut = null;
         int originalOutOfs = 0;
 
-
         GCMEngine(SymmetricCipher blockCipher) {
             blockSize = blockCipher.getBlockSize();
             byte[] subkeyH = new byte[blockSize];
@@ -808,7 +792,6 @@ abstract class GaloisCounterMode extends CipherSpi {
             return resultLen;
         }
 
-
         /**
          * This segments large data into smaller chunks so hotspot will start
          * using GCTR and GHASH intrinsics sooner.  This is a problem for app
@@ -828,7 +811,6 @@ abstract class GaloisCounterMode extends CipherSpi {
             len += op.update(in, inOfs + len, inLen - len, out, outOfs + len);
             return len;
         }
-
 
         /**
          * This segments large data into smaller chunks so hotspot will start
@@ -1328,7 +1310,6 @@ abstract class GaloisCounterMode extends CipherSpi {
             }
             return 0;
         }
-
 
         // Put the src data into the ibuffer
         @Override

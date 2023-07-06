@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.util.Eventjava.util.ListenerProxy;
 import java.desktop.share.classes.java.awt.AWTEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which extends the {@code EventListenerProxy}

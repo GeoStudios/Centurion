@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetAvailableProcessors;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Debuggee class for this test. */
 public class getavailproc001 extends DebugeeClass {

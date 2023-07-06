@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicSliderUI;
 import java.awt.Graphics;
 import java.awt.Dimension;
@@ -30,20 +29,6 @@ import java.awt.Color;
 import java.beans.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Java L&amp;F implementation of SliderUI.

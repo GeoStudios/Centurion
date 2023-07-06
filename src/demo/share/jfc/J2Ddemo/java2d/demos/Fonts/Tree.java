@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Fonts;
 
-
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.RED;.extended
@@ -32,20 +31,6 @@ import java.awt.Graphics2D;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Transformation of characters.

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.AWTKeyStroke;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.awt.Component;
@@ -29,20 +28,6 @@ import java.awt.Container;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class implementing XEmbed protocol handling routines(client side)

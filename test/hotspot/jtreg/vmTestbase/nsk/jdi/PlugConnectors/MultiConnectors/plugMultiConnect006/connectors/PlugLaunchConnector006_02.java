@@ -21,32 +21,16 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect006.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple LaunchingConnector with default arguments of all types used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
  */
-
-
 
 public class PlugLaunchConnector006_02 extends PlugConnectors implements LaunchingConnector {
 
@@ -110,7 +94,6 @@ public class PlugLaunchConnector006_02 extends PlugConnectors implements Launchi
 
         return plugLaunchConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
-
 
     public PlugLaunchConnector006_02() {
 

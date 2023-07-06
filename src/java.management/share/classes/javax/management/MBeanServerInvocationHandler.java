@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
 import com.sun.jmx.mbeanserver.MXBeanProxy;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationHandler;
@@ -29,20 +28,6 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.base.share.classes.java.util.Arrays;
 import java.util.WeakHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>{@link InvocationHandler} that forwards methods in an MBean's

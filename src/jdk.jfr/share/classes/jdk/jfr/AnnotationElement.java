@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -36,20 +35,6 @@ import java.util.StringJoiner;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.TypeLibrary;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes event metadata, such as labels, descriptions and units.

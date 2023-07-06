@@ -21,23 +21,9 @@
 
 package gc.g1.unloading.check;
 
-
 import gc.g1.unloading.check.cleanup.CleanupAction;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Superclass for assertion.

@@ -21,26 +21,11 @@
 
 package jdk.management.agent.share.classes.sun.management.jdp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.UUID;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A packet to broadcasts JMX URL

@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The subclass of {@link SQLException} thrown when an instance where a retry
  * of the same operation would fail unless the cause of the {@code SQLException}

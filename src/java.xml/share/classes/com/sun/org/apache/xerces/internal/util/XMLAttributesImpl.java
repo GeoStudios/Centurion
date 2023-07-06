@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.util.Objects;
 import java.xml.share.classes.com.sun.xml.internal.stream.XMLBufferjava.util.Listener;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The XMLAttributesImpl class is an implementation of the XMLAttributes
@@ -1055,7 +1040,6 @@ implements XMLAttributes, XMLBufferListener {
         }
     }
 
-
     /**
      * Returns the prefix of the attribute at the specified index.
      *
@@ -1129,8 +1113,6 @@ implements XMLAttributes, XMLBufferListener {
         int index = getIndex(qName);
         return index != -1 ? fAttributes[index].augs : null;
     }
-
-
 
     /**
      * Look up an augmentations by attributes index.
@@ -1264,7 +1246,6 @@ implements XMLAttributes, XMLBufferListener {
 
         /** Specified. */
         public boolean specified;
-
 
         /**
          * Augmentations information for this attribute.

@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventSet.resume;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the resume008 JDI test.

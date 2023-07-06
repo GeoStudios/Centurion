@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import sun.util.locale.provider.CalendarDataUtility;
@@ -33,20 +32,6 @@ import sun.util.calendar.Era;
 import sun.util.calendar.Gregorian;
 import sun.util.calendar.LocalGregorianCalendar;
 import sun.util.calendar.ZoneInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code JapaneseImperialCalendar} implements a Japanese

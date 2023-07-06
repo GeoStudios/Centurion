@@ -21,21 +21,7 @@
 
 package vm.runtime.defmeth.shared.data.method.body;
 
-
 import vm.runtime.defmeth.shared.data.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents method body.

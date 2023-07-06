@@ -21,22 +21,7 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.rmi.RemoteException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Channel {
 

@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import javax.swing.*;
 import javax.swing.table.*;
 import javax.swing.tree.*;
@@ -39,20 +38,6 @@ import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XMBeanNotifications extends JTable implements NotificationListener {

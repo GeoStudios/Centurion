@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * @xerces.internal
@@ -82,7 +65,6 @@ public class ElementImpl extends DefaultElement {
         this(line, column, -1);
     }
 
-
     public ElementImpl(String prefix, String localpart, String rawname,
             String uri, int line, int column, int offset) {
         super(prefix, localpart, rawname, uri, Node.ELEMENT_NODE);
@@ -100,7 +82,6 @@ public class ElementImpl extends DefaultElement {
         this(prefix, localpart, rawname, uri, line, column, -1);
     }
 
-
     //
     // org.w3c.dom.Node methods
     //
@@ -109,16 +90,13 @@ public class ElementImpl extends DefaultElement {
         return schemaDOM;
     }
 
-
     public Node getParentNode() {
         return schemaDOM.relations[row][0];
     }
 
-
     public boolean hasChildNodes() {
         return parentRow != -1;
     }
-
 
     public Node getFirstChild() {
         if (parentRow == -1) {
@@ -126,7 +104,6 @@ public class ElementImpl extends DefaultElement {
         }
         return schemaDOM.relations[parentRow][1];
     }
-
 
     public Node getLastChild() {
         if (parentRow == -1) {
@@ -144,14 +121,12 @@ public class ElementImpl extends DefaultElement {
         return schemaDOM.relations[parentRow][i-1];
     }
 
-
     public Node getPreviousSibling() {
         if (col == 1) {
             return null;
         }
         return schemaDOM.relations[row][col-1];
     }
-
 
     public Node getNextSibling() {
         if (col == schemaDOM.relations[row].length-1) {
@@ -160,17 +135,13 @@ public class ElementImpl extends DefaultElement {
         return schemaDOM.relations[row][col+1];
     }
 
-
     public NamedNodeMap getAttributes() {
         return new NamedNodeMapImpl(attrs);
     }
 
-
     public boolean hasAttributes() {
         return (attrs.length != 0);
     }
-
-
 
     //
     // org.w3c.dom.Element methods
@@ -179,7 +150,6 @@ public class ElementImpl extends DefaultElement {
     public String getTagName() {
         return rawname;
     }
-
 
     public String getAttribute(String name) {
 
@@ -191,7 +161,6 @@ public class ElementImpl extends DefaultElement {
         return "";
     }
 
-
     public Attr getAttributeNode(String name) {
         for (int i=0; i<attrs.length; i++) {
             if (attrs[i].getName().equals(name)) {
@@ -200,7 +169,6 @@ public class ElementImpl extends DefaultElement {
         }
         return null;
     }
-
 
     public String getAttributeNS(String namespaceURI, String localName) {
         for (int i=0; i<attrs.length; i++) {
@@ -211,7 +179,6 @@ public class ElementImpl extends DefaultElement {
         return "";
     }
 
-
     public Attr getAttributeNodeNS(String namespaceURI, String localName) {
         for (int i=0; i<attrs.length; i++) {
             if (attrs[i].getName().equals(localName) && nsEquals(attrs[i].getNamespaceURI(), namespaceURI)) {
@@ -220,7 +187,6 @@ public class ElementImpl extends DefaultElement {
         }
         return null;
     }
-
 
     public boolean hasAttribute(String name) {
         for (int i=0; i<attrs.length; i++) {
@@ -231,7 +197,6 @@ public class ElementImpl extends DefaultElement {
         return false;
     }
 
-
     public boolean hasAttributeNS(String namespaceURI, String localName) {
         for (int i=0; i<attrs.length; i++) {
             if (attrs[i].getName().equals(localName) && nsEquals(attrs[i].getNamespaceURI(), namespaceURI)) {
@@ -240,7 +205,6 @@ public class ElementImpl extends DefaultElement {
         }
         return false;
     }
-
 
     public void setAttribute(String name, String value) {
         for (int i=0; i<attrs.length; i++) {

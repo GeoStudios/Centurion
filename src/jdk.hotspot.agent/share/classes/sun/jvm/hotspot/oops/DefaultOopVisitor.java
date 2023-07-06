@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** A DefaultOopVisitor implements basic no-op OopVisitor
     functionality except that the setObj() and getObj() methods are
     implemented properly. */

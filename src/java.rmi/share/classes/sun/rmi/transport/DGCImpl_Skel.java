@@ -21,22 +21,7 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Skeleton to dispatch DGC methods.

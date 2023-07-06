@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -70,20 +69,6 @@ import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.range;.extended
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.translate;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A reader for terminal applications. It supports custom tab-completion,
  * saveable command history, and command line editing.
@@ -95,7 +80,6 @@ public class LineReaderImpl implements LineReader, Flushable
     public static final char NULL_MASK = 0;
 
     public static final int TAB_WIDTH = 4;
-
 
     public static final String DEFAULT_WORDCHARS = "*?_-.[]~=/&;!#$%^(){}<>";
     public static final String DEFAULT_REMOVE_SUFFIX_CHARS = " \t\n;&|";
@@ -212,10 +196,8 @@ public class LineReaderImpl implements LineReader, Flushable
     protected int searchIndex = -1;
     protected boolean doAutosuggestion;
 
-
     // Reading buffers
     protected final BindingReader bindingReader;
-
 
     /**
      * VI character find
@@ -1302,7 +1284,6 @@ public class LineReaderImpl implements LineReader, Flushable
         return VICMD.equals(keyMap);
     }
 
-
     //
     // Movement
     //
@@ -1341,7 +1322,6 @@ public class LineReaderImpl implements LineReader, Flushable
         }
         return true;
     }
-
 
     //
     // Word movement
@@ -3058,7 +3038,6 @@ public class LineReaderImpl implements LineReader, Flushable
         return true;
     }
 
-
     //
     // History Control
     //
@@ -4678,7 +4657,6 @@ public class LineReaderImpl implements LineReader, Flushable
         return getString(ORIGINAL_GROUP_NAME, DEFAULT_ORIGINAL_GROUP_NAME);
     }
 
-
     protected Comparator<String> getGroupComparator() {
         return Comparator.<String>comparingInt(s -> getOthersGroupName().equals(s) ? 1 : getOriginalGroupName().equals(s) ? -1 : 0)
                 .thenComparing(String::toLowerCase, Comparator.naturalOrder());
@@ -5431,7 +5409,6 @@ public class LineReaderImpl implements LineReader, Flushable
         print("\n");
         redrawLine();
     }
-
 
     //
     // Actions

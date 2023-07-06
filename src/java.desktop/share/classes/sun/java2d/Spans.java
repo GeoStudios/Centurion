@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.util.Comparator;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Maintains a list of half-open intervals, called Spans.

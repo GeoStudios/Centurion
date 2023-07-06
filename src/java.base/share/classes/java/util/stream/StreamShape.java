@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An enum describing the known shape specializations for stream abstractions.
  * Each will correspond to a specific subinterface of {@link BaseStream}

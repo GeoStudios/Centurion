@@ -21,22 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines notification handler results.
  *

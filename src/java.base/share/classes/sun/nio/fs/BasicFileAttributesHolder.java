@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import java.nio.file.attribute.BasicFileAttributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implemented by objects that may hold or cache the attributes of a file.

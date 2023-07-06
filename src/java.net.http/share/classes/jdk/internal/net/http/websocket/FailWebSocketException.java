@@ -21,22 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.PROTOCOL_ERROR;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Used as a marker for protocol issues in the incoming data, so that the

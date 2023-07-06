@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.AddressVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface RawHeapVisitor extends AddressVisitor {
   /** This is called at the beginning of the iteration to provide the

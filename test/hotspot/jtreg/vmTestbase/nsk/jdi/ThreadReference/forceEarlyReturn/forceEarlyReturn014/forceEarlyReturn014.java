@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn014;
 
-
 import java.io.PrintStream;
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import nsk.share.Consts;
 import nsk.share.jdi.ForceEarlyReturnDebugger;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -77,8 +63,6 @@ import nsk.share.jdi.ForceEarlyReturnDebugger;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 public class forceEarlyReturn014 extends ForceEarlyReturnDebugger {
     public static void main(String argv[]) {

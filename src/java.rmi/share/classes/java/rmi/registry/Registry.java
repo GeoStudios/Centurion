@@ -21,26 +21,11 @@
 
 package java.rmi.share.classes.java.rmi.registry;
 
-
 import java.rmi.share.classes.java.rmi.AccessException;
 import java.rmi.share.classes.java.rmi.AlreadyBoundException;
 import java.rmi.share.classes.java.rmi.NotBoundException;
 import java.rmi.share.classes.java.rmi.Remote;
 import java.rmi.share.classes.java.rmi.RemoteException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>Registry</code> is a remote interface to a simple remote

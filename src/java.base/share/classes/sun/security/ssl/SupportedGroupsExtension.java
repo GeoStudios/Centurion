@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.AlgorithmConstraints;
@@ -39,20 +38,6 @@ import static java.base.share.classes.sun.security.ssl.SSLExtension.EE_SUPPORTED
 import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
 import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the "supported_groups" extensions [RFC 4492/7919].

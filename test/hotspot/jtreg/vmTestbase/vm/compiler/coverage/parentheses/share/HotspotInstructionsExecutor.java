@@ -21,7 +21,6 @@
 
 package vm.compiler.coverage.parentheses.share;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Field;
@@ -30,19 +29,6 @@ import jdk.internal.org.objectweb.asm.MethodVisitor;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import java.lang.reflect.Method;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class convert instructions sequence to java class file, load it to same JVM and then execute.

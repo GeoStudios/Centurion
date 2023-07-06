@@ -21,27 +21,12 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
 import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.util.regex.*;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.Monitor;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.VmIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for processing command line arguments and providing method

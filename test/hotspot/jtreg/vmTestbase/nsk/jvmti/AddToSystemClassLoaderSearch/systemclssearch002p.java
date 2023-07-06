@@ -21,23 +21,9 @@
 
 package nsk.jvmti.AddToSystemClassLoaderSearch;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Positive superclass for debuggee class. */
 public class systemclssearch002p {

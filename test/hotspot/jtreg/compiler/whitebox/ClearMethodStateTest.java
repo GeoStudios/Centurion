@@ -21,21 +21,6 @@
 
 package compiler.whitebox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test ClearMethodStateTest
  * @bug 8006683 8007288 8022832
@@ -52,7 +37,6 @@ package compiler.whitebox;
  *                   -XX:+WhiteBoxAPI -XX:+PrintCompilation -XX:-UseCounterDecay
  *                   compiler.whitebox.ClearMethodStateTest
  */
-
 
 public class ClearMethodStateTest extends CompilerWhiteBoxTest {
 
@@ -75,7 +59,6 @@ public class ClearMethodStateTest extends CompilerWhiteBoxTest {
         // to prevent inlining of #method
         WHITE_BOX.testSetDontInlineMethod(method, true);
     }
-
 
     /**
      * Tests {@code WB::clearMethodState()} by calling it before/after

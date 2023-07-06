@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.BufferedInputStream;
 import java.base.share.classes.java.io.DataInputStream;
 import java.base.share.classes.java.io.File;
@@ -43,20 +42,6 @@ import jdk.internal.util.StaticProperty;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleServiceProviderPool;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a currency. Currencies are identified by their ISO 4217 currency
@@ -143,7 +128,6 @@ public final class Currency implements Serializable {
      * Set from currency data tables.
      */
     private final transient int numericCode;
-
 
     // class data: instance map
 
@@ -280,7 +264,6 @@ public final class Currency implements Serializable {
      */
     private static final int SYMBOL = 0;
     private static final int DISPLAYNAME = 1;
-
 
     /**
      * Constructs a {@code Currency} instance. The constructor is private
@@ -830,7 +813,6 @@ public final class Currency implements Serializable {
      */
     private static void replaceCurrencyData(CurrencyProperty prop) {
 
-
         String ctry = prop.country;
         String code = prop.currencyCode;
         int numeric = prop.numericCode;
@@ -838,7 +820,6 @@ public final class Currency implements Serializable {
         int entry = numeric << NUMERIC_CODE_SHIFT;
 
         int index = SpecialCaseEntry.indexOf(code, fraction, numeric);
-
 
         // If a new entry changes the numeric code/dfd of an existing
         // currency code, update it in the sc list at the respective
@@ -1026,7 +1007,6 @@ public final class Currency implements Serializable {
             return -1;
         }
 
-
         // convert the special case entry to sc arrays index
         private static int toIndex(int tableEntry) {
             return (tableEntry & SPECIAL_CASE_COUNTRY_INDEX_MASK) - SPECIAL_CASE_COUNTRY_INDEX_DELTA;
@@ -1066,7 +1046,6 @@ public final class Currency implements Serializable {
         }
 
     }
-
 
     /*
      * Used to represent an entry of the properties file that

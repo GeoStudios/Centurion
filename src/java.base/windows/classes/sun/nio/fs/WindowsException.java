@@ -21,24 +21,9 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.io.java.io.java.io.java.io.IOException;
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Internal exception thrown when a Win32 calls fails.

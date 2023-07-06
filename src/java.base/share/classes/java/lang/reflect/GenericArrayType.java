@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * {@code GenericArrayType} represents an array type whose component
  * type is either a parameterized type or a type variable.

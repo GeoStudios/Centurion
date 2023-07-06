@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface {@code DocAttribute} is a tagging interface which a printing
  * attribute class implements to indicate the attribute denotes a setting for a

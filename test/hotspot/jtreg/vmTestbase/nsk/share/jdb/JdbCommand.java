@@ -21,21 +21,6 @@
 
 package nsk.share.jdb;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents list of commands of <code>jdb</code> from JDK1.4:
  *

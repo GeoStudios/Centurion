@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.Stable;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.lang.reflect.Modifier;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_invokeStatic;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A var handle form containing a set of member name, one for each operation.

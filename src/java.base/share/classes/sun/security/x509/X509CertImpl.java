@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.BufferedReader;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -39,20 +38,6 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.security.provider.X509Factory;
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The X509CertImpl class represents an X.509 certificate. These certificates
@@ -865,7 +850,6 @@ public class X509CertImpl extends X509Certificate implements DerEncoder {
             return null;
         }
     }
-
 
     /**
      * Gets the subject distinguished name from the certificate.

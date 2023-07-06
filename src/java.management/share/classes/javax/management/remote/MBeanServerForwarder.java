@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import java.management.share.classes.javax.management.MBeanServer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An object of this class implements the MBeanServer interface and

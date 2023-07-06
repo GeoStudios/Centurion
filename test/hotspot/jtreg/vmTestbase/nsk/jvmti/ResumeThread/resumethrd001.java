@@ -21,23 +21,9 @@
 
 package nsk.jvmti.ResumeThread;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class resumethrd001 extends DebugeeClass {
 

@@ -21,26 +21,11 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.nio.ByteBuffer;
 import javax.crypto.MacSpi;
 import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.security.spec.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of the HMAC-SHA1 algorithm.

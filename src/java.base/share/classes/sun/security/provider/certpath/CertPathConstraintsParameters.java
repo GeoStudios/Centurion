@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.base.share.classes.java.security.Key;
 import java.security.cert.TrustAnchor;
 import java.security.cert.X509Certificate;
@@ -29,20 +28,6 @@ import java.util.Date;
 import java.util.Set;
 import java.base.share.classes.sun.security.util.ConstraintsParameters;
 import java.base.share.classes.sun.security.validator.Validator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains parameters for checking certificates against

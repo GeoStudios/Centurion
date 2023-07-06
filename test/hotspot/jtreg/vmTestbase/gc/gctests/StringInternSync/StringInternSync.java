@@ -21,7 +21,6 @@
 
 package gc.gctests.StringInternSync;
 
-
 import java.util.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.concurrent.locks.ReadWriteLock;
@@ -32,19 +31,6 @@ import nsk.share.gc.*;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.gc.gp.MemoryStrategyAware;
 import nsk.share.gc.gp.string.RandomStringProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import nsk.share.gc.gp.string.RandomStringProducer;
  *      gc.gctests.StringInternSync.StringInternSync
  *      -ms low
  */
-
-
 
 public class StringInternSync extends ThreadedGCTest implements MemoryStrategyAware {
 

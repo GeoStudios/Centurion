@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
-
 import java.sql.*;
 import javax.sql.*;
 import javax.naming.*;
@@ -31,20 +30,6 @@ import java.util.*;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.SyncProvider;
 import javax.sql.rowset.spi.SyncProviderException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard implementation of the <code>JoinRowSet</code>
@@ -119,7 +104,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
      */
     private WebRowSet wrs;
 
-
     /**
      * Constructor for <code>JoinRowSetImpl</code> class. Configures various internal data
      * structures to provide mechanisms required for <code>JoinRowSet</code> interface
@@ -181,7 +165,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
             if(cRowset.size() == 0){
                 throw new SQLException(resBundle.handleGetObject("joinrowsetimpl.emptyrowset").toString());
             }
-
 
             try {
                 int matchColumnCount = 0;
@@ -362,7 +345,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
      } //end if
 
    }
-
 
     /**
      * Adds the given <code>RowSet</code> objects to the <code>JOIN</code> relationship
@@ -570,7 +552,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
        }  //end if
     }
 
-
     /**
      * This checks for a match column for
      * whether it exists or not.
@@ -626,7 +607,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
                 // For three rowsets two (valid) entries should be there in vecJoinType
 
                 // Maintain vecRowSetsInJoin = vecJoinType + 1
-
 
                 if( (vecRowSetsInJOIN.size() - vecJoinType.size() ) == 2 ) {
                    // we are going to add next rowset and setJoinType has not been set
@@ -745,7 +725,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
                                          "#"+
                                          cRowset.getTableName());
 
-
                                     rsmd.setColumnType(p, crsInternal.getMetaData().getColumnType(p));
                                     rsmd.setAutoIncrement(p, crsInternal.getMetaData().isAutoIncrement(p));
                                     rsmd.setCaseSensitive(p, crsInternal.getMetaData().isCaseSensitive(p));
@@ -765,7 +744,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
                                     //don't do ++colc in the above statement
                                 } //end if
                             } //end for
-
 
                             // append the rowset crsTemp, with data from second rowset
                             for(int q=1;
@@ -913,7 +891,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
           } //end while
         } //end for
 
-
         // now remove the last ","
         strWhereClause = strWhereClause.substring
              (0, strWhereClause.lastIndexOf(','));
@@ -947,7 +924,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
         return strWhereClause;
     }
 
-
     /**
      * Moves the cursor down one row from its current position and
      * returns <code>true</code> if the new cursor position is a
@@ -972,7 +948,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
         return crsInternal.next();
     }
 
-
     /**
      * Releases the current contents of this rowset, discarding  outstanding
      * updates.  The rowset contains no rows after the method
@@ -985,7 +960,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
     public void close() throws SQLException {
         crsInternal.close();
     }
-
 
     /**
      * Reports whether the last column read was SQL <code>NULL</code>.
@@ -1971,7 +1945,6 @@ public class JoinRowSetImpl extends WebRowSetImpl implements JoinRowSet {
     public boolean first() throws SQLException {
         return crsInternal.first();
     }
-
 
     /**
      * Moves this <code>JoinRowSetImpl</code> object's cursor to the last row

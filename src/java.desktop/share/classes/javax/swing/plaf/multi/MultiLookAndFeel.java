@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf.multi;
 
-
 import java.util.Vector;
 import java.lang.reflect.Method;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>A multiplexing look and feel that allows more than one UI

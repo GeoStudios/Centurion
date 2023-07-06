@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LocaleData meta info SPI

@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.base.share.classes.java.util.Locale;
@@ -34,20 +33,6 @@ import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnection;
 import java.naming.share.classes.com.sun.jndi.ldap.pool.PoolCallback;
 import java.naming.share.classes.com.sun.jndi.ldap.sasl.LdapSasl;
 import java.naming.share.classes.com.sun.jndi.ldap.sasl.SaslInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LDAP (RFC-1777) and LDAPv3 (RFC-2251) compliant client
@@ -116,7 +101,6 @@ public final class LdapClient implements PooledConnection {
     }
 
     private static final String DISCONNECT_OID = "1.3.6.1.4.1.1466.20036";
-
 
     // ----------------------- instance fields ------------------------
     boolean isLdapv3;         // Used by LdapCtx
@@ -1124,7 +1108,6 @@ public final class LdapClient implements PooledConnection {
                 if (isLdapv3) encodeControls(ber, reqCtls);
             ber.endSeq();
 
-
         LdapRequest req = conn.writeRequest(ber, curMsgId);
 
         return processReply(req, res, LDAP_REP_MODRDN);
@@ -1224,8 +1207,6 @@ public final class LdapClient implements PooledConnection {
 
         return res;     // Done with operation
     }
-
-
 
     ////////////////////////////////////////////////////////////////////////////
     //
@@ -1434,7 +1415,6 @@ public final class LdapClient implements PooledConnection {
         null
     };
 
-
     /*
      * Generate an error message from the LDAP error code and error diagnostic.
      * The message format is:
@@ -1468,7 +1448,6 @@ public final class LdapClient implements PooledConnection {
         }
         return message;
     }
-
 
     ////////////////////////////////////////////////////////////////////////////
     //
@@ -1578,7 +1557,6 @@ public final class LdapClient implements PooledConnection {
             notifyUnsolicited(e);
         }
     }
-
 
     private void notifyUnsolicited(Object e) {
         Vector<LdapCtx> unsolicitedCopy;

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.FileChooserDemo;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -71,20 +70,6 @@ import javax.swing.plaf.basic.BasicFileChooserUI;
 import java.io.File;
 import static javax.swing.JFileChooser.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -92,10 +77,6 @@ import static javax.swing.JFileChooser.*;.extended
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  *
@@ -110,7 +91,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
     private final List<SupportedLaF> supportedLaFs =
             new ArrayList<SupportedLaF>();
     private static SupportedLaF nimbusLaF;
-
 
     private static class SupportedLaF {
 
@@ -292,7 +272,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
         group4.add(singleSelectionRadioButton);
         group4.add(multiSelectionRadioButton);
 
-
         // Create show button
         showButton = new JButton("Show FileChooser");
         showButton.addActionListener(this);
@@ -391,7 +370,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
         control4.add(multiSelectionRadioButton);
         control4.add(Box.createRigidArea(vpad20));
         control4.add(Box.createGlue());
-
 
         // ********************************************************
         // **************** Look & Feel Switch ********************
@@ -503,7 +481,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
         fullDescription += ")";
         return fullDescription;
     }
-
 
     private class WizardDialog extends JDialog implements ActionListener {
 
@@ -648,7 +625,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
         return resultString;
     }
 
-
     /** An ActionListener that listens to the radio buttons. */
     private class OptionListener implements ActionListener {
 
@@ -744,7 +720,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
         }
     }
 
-
     private class FilePreviewer extends JComponent implements
             PropertyChangeListener {
 
@@ -839,7 +814,6 @@ public class FileChooserDemo extends JPanel implements ActionListener {
                     ex);
         }
     }
-
 
     private static class InsetPanel extends JPanel {
 

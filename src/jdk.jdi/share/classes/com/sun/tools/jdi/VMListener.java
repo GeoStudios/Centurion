@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface VMListener extends EventListener {
     boolean vmSuspended(VMAction action);

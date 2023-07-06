@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.color;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import sun.java2d.cmm.Profile;
 import sun.java2d.cmm.ProfileDeferralInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code ICC_ProfileRGB} class is a subclass of the {@code ICC_Profile}

@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Point;
@@ -33,20 +32,6 @@ import java.desktop.macosx.classes.sun.awt.LightweightFrame;
 import java.desktop.macosx.classes.sun.awt.OverrideNativeWindowHandle;
 import java.desktop.macosx.classes.sun.swing.JLightweightFrame;
 import java.desktop.macosx.classes.sun.swing.SwingAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LWLightweightFramePeer extends LWWindowPeer implements OverrideNativeWindowHandle {
 

@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
@@ -32,20 +31,6 @@ import java.security.jgss.share.classes.sun.security.krb5.internal.ktab.KeyTab;
 import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CCacheOutputStream;
 import javax.crypto.spec.DESKeySpec;
 import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates the concept of an EncryptionKey. An encryption
@@ -447,7 +432,6 @@ public class EncryptionKey
             for (int i = 0; i < keyValue.length; i++)
                 keyValue[i] = 0;
     }
-
 
     /**
      * Parse (unmarshal) an Encryption key from a DER input stream.  This form

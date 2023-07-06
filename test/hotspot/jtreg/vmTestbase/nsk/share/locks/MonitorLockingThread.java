@@ -21,21 +21,6 @@
 
 package nsk.share.locks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *  Thread intended to hold given lock until method releaseLock() not called
  *

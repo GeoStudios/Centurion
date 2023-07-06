@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.java.util.java.util.java.util.List;
 import javax.xml.XMLConstants;
@@ -39,28 +38,10 @@ import java.xml.crypto.share.classes.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * Useful static DOM utility methods.

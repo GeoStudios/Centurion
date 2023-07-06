@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.PolicyQualifierInfo;
 import java.util.Collections;
@@ -31,20 +30,6 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * PolicyInformation is the class that contains a specific certificate policy

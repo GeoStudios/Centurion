@@ -21,24 +21,9 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.EditorTopComponent;
 import org.openide.util.HelpCtx;
 import org.openide.util.actions.CallableSystemAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

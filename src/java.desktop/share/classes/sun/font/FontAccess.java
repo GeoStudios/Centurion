@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.peer.FontPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class FontAccess {
 

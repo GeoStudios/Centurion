@@ -21,22 +21,7 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
 import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when the opening handshake has failed.

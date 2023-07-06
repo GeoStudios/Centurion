@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -44,20 +43,6 @@ import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.TimeZoneNameUtility;
 import sun.util.spi.CalendarProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Calendar} class is an abstract class that provides methods

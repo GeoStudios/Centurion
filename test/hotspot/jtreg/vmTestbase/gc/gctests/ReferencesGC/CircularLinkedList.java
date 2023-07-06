@@ -21,21 +21,6 @@
 
 package gc.gctests.ReferencesGC;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class node {
     byte [] arr;
     node next;

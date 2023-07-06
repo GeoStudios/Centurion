@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.desktop.share.classes.javax.sound.sampled.AudioInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code SoundbankResource} represents any audio resource stored in a

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.cldr;
 
-
 import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;.extended
 import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
@@ -33,20 +32,6 @@ import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
 import java.base.share.classes.sun.util.locale.provider.LocaleResources;
 import java.base.share.classes.sun.util.locale.provider.CalendarDataProviderImpl;
 import java.base.share.classes.sun.util.locale.provider.CalendarDataUtility;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the

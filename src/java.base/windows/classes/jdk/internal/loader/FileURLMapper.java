@@ -21,24 +21,9 @@
 
 package java.base.windows.classes.jdk.internal.loader;
 
-
 import java.net.URL;
 import java.io.File;
 import sun.net.www.ParseUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * (Windows) Platform specific handling for file: URLs . In particular deals

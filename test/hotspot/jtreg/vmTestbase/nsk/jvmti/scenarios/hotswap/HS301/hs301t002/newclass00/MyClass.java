@@ -21,21 +21,6 @@
 
 package nsk.jvmti.scenarios.hotswap.HS301.hs301t002;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MyClass {
   public int size=100;
   public static int count=0;

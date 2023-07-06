@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.CopyOption;
@@ -34,20 +33,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
 import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unix implementation of Path#copyTo and Path#moveTo methods.

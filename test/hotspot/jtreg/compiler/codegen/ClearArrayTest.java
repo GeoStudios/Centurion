@@ -21,28 +21,12 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8260716
  * @summary Test for correct code generation by the JIT
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,*ClearArrayTest.test -XX:+UnlockDiagnosticVMOptions -XX:-IdealizeClearArrayNode compiler.codegen.ClearArrayTest
  */
-
 
 public class ClearArrayTest {
     static int[] f1;

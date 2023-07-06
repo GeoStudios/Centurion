@@ -21,26 +21,12 @@
 
 package nsk.jdi.ObjectReference.referenceType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -145,7 +131,6 @@ public class referencetype004 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -185,7 +170,6 @@ public class referencetype004 {
 
             List classes  = null;
 
-
             classes     = vm.classesByName(className);
             testedClass = (ReferenceType) classes.get(0);
 
@@ -193,7 +177,6 @@ public class referencetype004 {
 
             log2("......ReferenceType testedClass = classObjRef.referenceType();");
             testedClass = classObjRef.referenceType();
-
 
             log2(".......check up on equality testedClass.name() to String testedClassName");
             if (!testedClass.name().equals(testedClassName)) {
@@ -214,7 +197,6 @@ public class referencetype004 {
                 log3("ERROR: Exception : " + e);
                 testExitCode = FAILED;
             }
-
 
             log2(".......check up on equality ReferenceType classObjRef.referenceType() to testedClass");
             ReferenceType testedClass1 = classObjRef.referenceType();

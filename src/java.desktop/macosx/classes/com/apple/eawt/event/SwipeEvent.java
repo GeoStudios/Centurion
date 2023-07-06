@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Event indicating a swipe was performed by the user.
  *

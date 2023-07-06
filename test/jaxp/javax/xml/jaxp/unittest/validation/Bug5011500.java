@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.InputStreamReader;
 import javax.xml.parsers.SAXParserFactory;
@@ -36,19 +35,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

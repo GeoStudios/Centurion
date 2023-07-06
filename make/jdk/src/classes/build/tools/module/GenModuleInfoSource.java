@@ -21,56 +21,6 @@
 
 package build.tools.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A build tool to extend the module-info.java in the source tree for
  * platform-specific exports, opens, uses, and provides and write to
@@ -206,7 +156,6 @@ public class GenModuleInfoSource {
             writer.println("}");
         }
     }
-
 
     class ModuleInfo {
         final Map<String, Statement> exports = new HashMap<>();
@@ -361,7 +310,6 @@ public class GenModuleInfoSource {
                 .forEach(mn -> statement.addTarget(mn));
         }
 
-
         void print(PrintWriter writer) {
             // print unqualified exports
             exports.entrySet().stream()
@@ -397,7 +345,6 @@ public class GenModuleInfoSource {
                 .forEach(e -> writer.println(e.getValue()));
         }
 
-
         private void parse(Path file) throws IOException {
             Parser parser = new Parser(file);
             parser.run();
@@ -415,7 +362,6 @@ public class GenModuleInfoSource {
             }
             process(parser, true);
         }
-
 
         private void process(Parser parser, boolean extraFile) throws IOException {
             // no duplicate statement local in each file

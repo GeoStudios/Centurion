@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
-
 import java.sql.SQLException;
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.FilteredRowSet;
@@ -29,20 +28,6 @@ import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.JoinRowSet;
 import javax.sql.rowset.WebRowSet;
 import javax.sql.rowset.RowSetFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the implementation specific class for the
@@ -62,7 +47,6 @@ public  final class RowSetFactoryImpl implements RowSetFactory {
     public FilteredRowSet createFilteredRowSet() throws SQLException {
         return new com.sun.rowset.FilteredRowSetImpl();
     }
-
 
     public JdbcRowSet createJdbcRowSet() throws SQLException {
         return new com.sun.rowset.JdbcRowSetImpl();

@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.ch;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.Inetjava.net.SocketAddress;
@@ -40,26 +39,8 @@ import java.security.PrivilegedActionException;
 import java.security.SecureRandom;
 import java.util.Random;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
-
 
 /**
  * A simple Pipe implementation based on a socket connection.

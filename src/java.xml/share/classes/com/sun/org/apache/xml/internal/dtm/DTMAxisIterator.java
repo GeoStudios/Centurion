@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * This class iterates over a single XPath Axis, and returns node handles.
@@ -58,7 +41,6 @@ public interface DTMAxisIterator extends Cloneable
    * @return The next node handle in the iteration, or END.
    */
   int next();
-
 
   /**
    * Resets the iterator to the last start node.

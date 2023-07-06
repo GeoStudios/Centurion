@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Thrown from accessors of numeric leaves if the type of the numeric
     leaf does not match the return type of the specified accessor (for
     example, a floating-point numeric leaf accessed as an int). */

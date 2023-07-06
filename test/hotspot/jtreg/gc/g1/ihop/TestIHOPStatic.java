@@ -21,7 +21,6 @@
 
 package gc.g1.ihop;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -29,19 +28,6 @@ import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Utils;
 import gc.g1.ihop.lib.IhopUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestIHOPStatic
@@ -57,9 +43,6 @@ import gc.g1.ihop.lib.IhopUtils;
  * @modules java.management
  * @run driver/timeout=240 gc.g1.ihop.TestIHOPStatic
  */
-
-
-
 
 /**
  * The test starts the AppIHOP multiple times varying setting of MaxHeapSize,

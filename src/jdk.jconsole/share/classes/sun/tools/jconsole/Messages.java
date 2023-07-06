@@ -21,22 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Class that contains localized messages.
  *

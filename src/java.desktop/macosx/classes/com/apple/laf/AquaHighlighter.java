@@ -21,34 +21,14 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.UIResource;
 import javax.swing.text.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //  Based on 1.3.1's AquaHighlighter, with the main difference that an inactive selection should be gray
 //  rather than a darker version of the current highlight color.
-
-
-
-
-
 
 public class AquaHighlighter extends DefaultHighlighter implements UIResource {
     private static final RecyclableSingleton<LayerPainter> instance = new RecyclableSingleton<LayerPainter>() {
@@ -72,7 +52,6 @@ public class AquaHighlighter extends DefaultHighlighter implements UIResource {
         public Color getColor() {
             return selectionColor == null ? super.getColor() : selectionColor;
         }
-
 
         protected Color getInactiveSelectionColor() {
             if (disabledSelectionColor != null) return disabledSelectionColor;

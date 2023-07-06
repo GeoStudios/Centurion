@@ -21,27 +21,12 @@
 
 package jdk.jdi.windows.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.windows.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.spi.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * An AttachingConnector that uses the SharedMemoryTransportService

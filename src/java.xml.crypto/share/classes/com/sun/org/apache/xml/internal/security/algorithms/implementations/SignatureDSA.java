@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.Key;
@@ -41,27 +40,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 public class SignatureDSA extends SignatureAlgorithmSpi {
 

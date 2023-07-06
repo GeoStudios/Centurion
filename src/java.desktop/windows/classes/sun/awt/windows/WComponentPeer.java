@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -69,20 +68,6 @@ import java.desktop.windows.classes.sun.java2d.d3d.D3DSurfaceData;
 import java.desktop.windows.classes.sun.java2d.opengl.OGLSurfaceData;
 import java.desktop.windows.classes.sun.java2d.pipe.Region;
 import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class WComponentPeer extends WObjectPeer
     implements ComponentPeer, DropTargetPeer
@@ -460,7 +445,6 @@ public abstract class WComponentPeer extends WObjectPeer
 
         surfaceData = mgr.createScreenSurface(gc, this, numBackBuffers, isResize);
     }
-
 
     /**
      * Multi-buffer version of replaceSurfaceData.  This version is called
@@ -1106,10 +1090,8 @@ public abstract class WComponentPeer extends WObjectPeer
         isAccelCapable = false;
     }
 
-
     native void setRectangularShape(int lox, int loy, int hix, int hiy,
                      Region region);
-
 
     // REMIND: Temp workaround for issues with using HW acceleration
     // in the browser on Vista when DWM is enabled.

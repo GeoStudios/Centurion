@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is responsible for scanning the declarations found

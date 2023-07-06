@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.base.share.classes.sun.security.util.KnownOIDs;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.security.cert.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the <code>PolicyNode</code> interface.

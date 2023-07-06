@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.PrintStream;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleDescriptor;
@@ -44,20 +43,6 @@ import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
 import java.base.share.classes.jdk.internal.loader.ClassLoaders;
 import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper class for creating and updating modules. This class is intended to

@@ -21,22 +21,8 @@
 
 package gc.arguments;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestUnrecognizedVMOptionsHandling
@@ -48,7 +34,6 @@ import jdk.test.lib.process.ProcessTools;
  *          java.management
  * @run driver gc.arguments.TestUnrecognizedVMOptionsHandling
  */
-
 
 public class TestUnrecognizedVMOptionsHandling {
 

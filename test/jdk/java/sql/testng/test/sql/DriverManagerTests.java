@@ -21,7 +21,6 @@
 
 package test.sql;
 
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -45,19 +44,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import util.StubDriver;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DriverManagerTests {
 

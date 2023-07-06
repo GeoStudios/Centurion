@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Abstraction over named fields and indices of arrays. Call
     toString() on a FieldIdentifier to get a printable name for the
     field. */

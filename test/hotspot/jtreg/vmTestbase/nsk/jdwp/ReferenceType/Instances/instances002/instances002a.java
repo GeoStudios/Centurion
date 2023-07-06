@@ -21,21 +21,7 @@
 
 package nsk.jdwp.ReferenceType.Instances.instances002;
 
-
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TestClass {
 

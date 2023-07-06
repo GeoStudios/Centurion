@@ -21,24 +21,9 @@
 
 package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
 
-
 import java.lang.ref.Cleaner;
 import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandomSpi;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Native PRNG implementation for Windows using the Microsoft Crypto API.

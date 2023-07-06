@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.text.Collator;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of <code>RowSorter</code> that provides sorting and
@@ -536,7 +521,6 @@ public abstract class DefaultRowSorter<M, I> extends RowSorter<M> {
         }
         return index;
     }
-
 
     private boolean isUnsorted() {
         List<? extends SortKey> keys = getSortKeys();
@@ -1247,7 +1231,6 @@ public abstract class DefaultRowSorter<M, I> extends RowSorter<M> {
         }
     }
 
-
     /**
      * <code>DefaultRowSorter.ModelWrapper</code> is responsible for providing
      * the data that gets sorted by <code>DefaultRowSorter</code>.  You
@@ -1348,7 +1331,6 @@ public abstract class DefaultRowSorter<M, I> extends RowSorter<M> {
         public abstract I getIdentifier(int row);
     }
 
-
     /**
      * RowFilter.Entry implementation that delegates to the ModelWrapper.
      * getFilterEntry(int) creates the single instance of this that is
@@ -1381,7 +1363,6 @@ public abstract class DefaultRowSorter<M, I> extends RowSorter<M> {
             return getModelWrapper().getIdentifier(modelIndex);
         }
     }
-
 
     /**
      * Row is used to handle the actual sorting by way of Comparable.  It

@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @key randomness
@@ -47,7 +32,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.SubExactINonConstantTest
  */
-
 
 public class SubExactINonConstantTest {
     public static void main(String[] args) {

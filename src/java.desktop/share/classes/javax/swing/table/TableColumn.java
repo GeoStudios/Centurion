@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.awt.Component;
 import java.beans.BeanProperty;
 import java.beans.PropertyChangejava.util.Listener;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.JLabel;
 import java.desktop.share.classes.javax.swing.JTable;
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  A <code>TableColumn</code> represents all the attributes of a column in a
@@ -351,7 +336,6 @@ public class TableColumn implements Serializable {
         this.identifier = identifier;
         firePropertyChange("identifier", old, identifier);
     }
-
 
     /**
      *  Returns the <code>identifier</code> object for this column.

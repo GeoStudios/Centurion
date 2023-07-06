@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.datatransfer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ToolkitThreadBlockedHandler {
     void lock();
     void unlock();

@@ -21,27 +21,12 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.text.*;
 import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The LayoutControlPanel contains controls for setting an
@@ -127,7 +112,6 @@ public class LayoutControlPanel extends JPanel implements SwingConstants {
         add(Box.createGlue());
     }
 
-
     class OrientationChangeListener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
             if( !e.getActionCommand().equals("OrientationChanged") ){
@@ -203,7 +187,6 @@ public class LayoutControlPanel extends JPanel implements SwingConstants {
         }
     }
 
-
     // Text Position Listener
     class TextPositionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -241,7 +224,6 @@ public class LayoutControlPanel extends JPanel implements SwingConstants {
             demo.repaint();
         }
     }
-
 
     // Label Alignment Listener
     class LabelAlignmentListener implements  ActionListener {

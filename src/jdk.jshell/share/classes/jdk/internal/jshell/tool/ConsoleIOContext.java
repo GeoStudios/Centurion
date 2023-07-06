@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Documentation;
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.QualifiedNames;
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Suggestion;
@@ -85,20 +84,6 @@ import jdk.jshell.share.classes.jdk.jshell.Snippet;
 import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.CompletionInfo;
 import jdk.jshell.share.classes.jdk.jshell.VarSnippet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ConsoleIOContext extends IOContext {
 

@@ -21,7 +21,6 @@
 
 package jdk.test;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -34,19 +33,6 @@ import java.security.Policy;
 import java.security.ProtectionDomain;
 import java.util.CSM.Result;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test invokes StackWalker::getCallerClass via static reference,

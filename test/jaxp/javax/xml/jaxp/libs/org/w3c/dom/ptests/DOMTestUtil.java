@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
 import java.io.File;
@@ -31,19 +30,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class defines the path constant and common method

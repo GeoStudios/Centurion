@@ -21,22 +21,8 @@
 
 package compiler.compilercontrol.share.method;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a method in CompileControl method signature

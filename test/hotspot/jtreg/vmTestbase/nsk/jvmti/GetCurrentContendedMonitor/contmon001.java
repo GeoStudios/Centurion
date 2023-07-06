@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetCurrentContendedMonitor;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class contmon001 {
 
@@ -145,7 +131,6 @@ public class contmon001 {
         return getRes();
     }
 }
-
 
 class contmon001a extends Thread {
     private volatile boolean flag = true;

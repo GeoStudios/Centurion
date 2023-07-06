@@ -21,25 +21,11 @@
 
 package metaspace.stressHierarchy.common.classloader;
 
-
 import java.net.URLClassLoader;
 import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
 import metaspace.stressHierarchy.common.generateHierarchy.NodeDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This classloader tries to load each class itself before forwarding to parent.
@@ -94,7 +80,5 @@ public class StressClassloader extends URLClassLoader {
     public String toString() {
         return "StressClassloader@" + className;
     }
-
-
 
 }

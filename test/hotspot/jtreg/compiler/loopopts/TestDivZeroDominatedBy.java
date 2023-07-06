@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @key stress randomness
@@ -47,7 +32,6 @@ package compiler.loopopts;
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:CompileOnly=compiler/loopopts/TestDivZeroDominatedBy::test
  *                   -XX:+UnlockDiagnosticVMOptions -XX:+StressGCM compiler.loopopts.TestDivZeroDominatedBy
  */
-
 
 public class TestDivZeroDominatedBy {
 

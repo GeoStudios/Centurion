@@ -21,27 +21,12 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import javax.naming.CommunicationException;
 import javax.naming.NamingException;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class LdapRequest {
 

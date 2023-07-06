@@ -21,27 +21,12 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
-
 import java.util.Hashtable;
 import java.util.Enumeration;
 import javax.naming.*;
 import javax.naming.spi.Resolver;
 import javax.naming.spi.ResolveResult;
 import javax.naming.spi.NamingManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * PartialCompositeContext implements Context operations on
@@ -59,7 +44,6 @@ import javax.naming.spi.NamingManager;
   * one of the subclasses of PartialCompositeContext.
   *
   */
-
 
 public abstract class PartialCompositeContext implements Context, Resolver {
     protected static final int _PARTIAL = 1;
@@ -127,7 +111,6 @@ public abstract class PartialCompositeContext implements Context, Resolver {
     protected Hashtable<?,?> p_getEnvironment() throws NamingException {
         return getEnvironment();
     }
-
 
 // ------ implementations of methods in Resolver and Context
 // ------ using corresponding p_ methods provided by subclass
@@ -494,7 +477,6 @@ public abstract class PartialCompositeContext implements Context, Resolver {
         }
         return res;
     }
-
 
 // ------ internal methods used by PartialCompositeContext
 

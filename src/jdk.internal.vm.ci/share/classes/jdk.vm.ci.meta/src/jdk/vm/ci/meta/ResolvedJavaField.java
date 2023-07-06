@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.reflect.AnnotatedElement;
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a reference to a resolved Java field. Fields, like methods and types, are resolved

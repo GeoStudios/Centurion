@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import javax.xml.transform.Result;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
@@ -44,28 +43,10 @@ import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * Implementation of a JAXP1.1 TransformerHandler
@@ -235,7 +216,6 @@ public class TransformerHandlerImpl implements TransformerHandler, DeclHandler {
             _lexHandler = (LexicalHandler) _handler;
             _dtdHandler = (DTDHandler) _handler;
             _declHandler = (DeclHandler) _handler;
-
 
             // Set document URI
             _dom.setDocumentURI(_systemId);
@@ -514,7 +494,6 @@ public class TransformerHandlerImpl implements TransformerHandler, DeclHandler {
             _declHandler.internalEntityDecl(name, value);
         }
     }
-
 
    /** Implementation of the reset() method
     *

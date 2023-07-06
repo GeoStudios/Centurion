@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.SyntheticRepository;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The repository maintains informations about class interdependencies, e.g.,
@@ -54,7 +39,6 @@ public abstract class Repository {
     private static com.sun.org.apache.bcel.internal.util.Repository repository
             = SyntheticRepository.getInstance();
 
-
     /**
      * @return currently used repository instance
      */
@@ -62,14 +46,12 @@ public abstract class Repository {
         return repository;
     }
 
-
     /**
      * Sets repository instance to be used for class loading
      */
     public static void setRepository( final com.sun.org.apache.bcel.internal.util.Repository rep ) {
         repository = rep;
     }
-
 
     /**
      * Lookups class somewhere found on your CLASSPATH, or whereever the
@@ -83,7 +65,6 @@ public abstract class Repository {
         return repository.loadClass(class_name);
     }
 
-
     /**
      * Tries to find class source using the internal repository instance.
      *
@@ -96,14 +77,12 @@ public abstract class Repository {
         return repository.loadClass(clazz);
     }
 
-
     /**
      * Clear the repository.
      */
     public static void clearCache() {
         repository.clear();
     }
-
 
     /**
      * Adds clazz to repository if there isn't an equally named class already in there.
@@ -116,7 +95,6 @@ public abstract class Repository {
         return old;
     }
 
-
     /**
      * Removes class with given (fully qualified) name from repository.
      */
@@ -124,14 +102,12 @@ public abstract class Repository {
         repository.removeClass(repository.findClass(clazz));
     }
 
-
     /**
      * Removes given class from repository.
      */
     public static void removeClass( final JavaClass clazz ) {
         repository.removeClass(clazz);
     }
-
 
     /**
      * @return list of super classes of clazz in ascending order, i.e.,
@@ -141,7 +117,6 @@ public abstract class Repository {
     public static JavaClass[] getSuperClasses( final JavaClass clazz ) throws ClassNotFoundException {
         return clazz.getSuperClasses();
     }
-
 
     /**
      * @return list of super classes of clazz in ascending order, i.e.,
@@ -154,7 +129,6 @@ public abstract class Repository {
         return getSuperClasses(jc);
     }
 
-
     /**
      * @return all interfaces implemented by class and its super
      * classes and the interfaces that those interfaces extend, and so on.
@@ -166,7 +140,6 @@ public abstract class Repository {
         return clazz.getAllInterfaces();
     }
 
-
     /**
      * @return all interfaces implemented by class and its super
      * classes and the interfaces that extend those interfaces, and so on
@@ -176,7 +149,6 @@ public abstract class Repository {
     public static JavaClass[] getInterfaces( final String class_name ) throws ClassNotFoundException {
         return getInterfaces(lookupClass(class_name));
     }
-
 
     /**
      * Equivalent to runtime "instanceof" operator.
@@ -189,7 +161,6 @@ public abstract class Repository {
         return clazz.instanceOf(super_class);
     }
 
-
     /**
      * @return true, if clazz is an instance of super_class
      * @throws ClassNotFoundException if either clazz or super_class
@@ -200,7 +171,6 @@ public abstract class Repository {
         return instanceOf(lookupClass(clazz), lookupClass(super_class));
     }
 
-
     /**
      * @return true, if clazz is an instance of super_class
      * @throws ClassNotFoundException if super_class can't be found
@@ -210,7 +180,6 @@ public abstract class Repository {
         return instanceOf(clazz, lookupClass(super_class));
     }
 
-
     /**
      * @return true, if clazz is an instance of super_class
      * @throws ClassNotFoundException if clazz can't be found
@@ -219,7 +188,6 @@ public abstract class Repository {
             throws ClassNotFoundException {
         return instanceOf(lookupClass(clazz), super_class);
     }
-
 
     /**
      * @return true, if clazz is an implementation of interface inter
@@ -231,7 +199,6 @@ public abstract class Repository {
         return clazz.implementationOf(inter);
     }
 
-
     /**
      * @return true, if clazz is an implementation of interface inter
      * @throws ClassNotFoundException if clazz, inter, or any superclasses
@@ -242,7 +209,6 @@ public abstract class Repository {
         return implementationOf(lookupClass(clazz), lookupClass(inter));
     }
 
-
     /**
      * @return true, if clazz is an implementation of interface inter
      * @throws ClassNotFoundException if inter or any superclasses
@@ -252,7 +218,6 @@ public abstract class Repository {
             throws ClassNotFoundException {
         return implementationOf(clazz, lookupClass(inter));
     }
-
 
     /**
      * @return true, if clazz is an implementation of interface inter

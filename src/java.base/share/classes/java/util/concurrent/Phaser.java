@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicReference;
 import java.base.share.classes.java.util.concurrent.locks.LockSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -51,9 +36,6 @@ import java.base.share.classes.java.util.concurrent.locks.LockSupport;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A reusable synchronization barrier, similar in functionality to

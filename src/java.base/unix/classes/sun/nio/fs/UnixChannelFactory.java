@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.nio.channels.*;
 import java.io.FileDescriptor;
@@ -33,20 +32,6 @@ import java.base.unix.classes.sun.nio.ch.ThreadPool;
 import java.base.unix.classes.sun.nio.ch.SimpleAsynchronousFileChannelImpl;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
 import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for FileChannels and AsynchronousFileChannels

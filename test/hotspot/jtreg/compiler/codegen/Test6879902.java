@@ -21,21 +21,7 @@
 
 package compiler.codegen;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -44,8 +30,6 @@ import java.base.share.classes.java.util.Arrays;
  *
  * @run main compiler.codegen.Test6879902
  */
-
-
 
 public class Test6879902 {
     public static void main(String[] args) {

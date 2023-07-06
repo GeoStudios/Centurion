@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.multi;
 
-
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.plaf.TextUI;
 import java.lang.String;
@@ -39,20 +38,6 @@ import java.awt.Dimension;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.javax.accessibility.Accessible;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A multiplexing UI used to combine <code>TextUI</code>s.

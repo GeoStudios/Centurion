@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.util.Arrays;
 import static java.base.share.classes.sun.security.provider.ByteArrayAccess.*;.extended
 import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The MD4 class is used to compute an MD4 message digest over a given

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.io.Serializable;
 import java.lang.management.MemoryUsage;
 import java.base.share.classes.java.util.Arrays;
@@ -32,20 +31,6 @@ import java.management.share.classes.javax.management.openmbean.OpenMBeanAttribu
 import java.management.share.classes.javax.management.openmbean.OpenMBeanOperationInfoSupport;
 import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfoSupport;
 import java.management.share.classes.javax.management.openmbean.OpenType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Javadoc imports:
 
@@ -493,7 +478,6 @@ public interface Descriptor extends Serializable, Cloneable
     void setField(String fieldName, Object fieldValue)
         throws RuntimeOperationsException;
 
-
     /**
      * Returns all of the fields contained in this descriptor as a string array.
      *
@@ -508,7 +492,6 @@ public interface Descriptor extends Serializable, Cloneable
      * @see #setFields
      */
     String[] getFields();
-
 
     /**
      * Returns all the field names in the descriptor.
@@ -576,7 +559,6 @@ public interface Descriptor extends Serializable, Cloneable
     void setFields(String[] fieldNames, Object[] fieldValues)
         throws RuntimeOperationsException;
 
-
     /**
      * <p>Returns a descriptor which is equal to this descriptor.
      * Changes to the returned descriptor will have no effect on this
@@ -589,7 +571,6 @@ public interface Descriptor extends Serializable, Cloneable
      * @return A descriptor which is equal to this descriptor.
      */
     Object clone() throws RuntimeOperationsException;
-
 
     /**
      * Returns true if all of the fields have legal values given their

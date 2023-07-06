@@ -21,26 +21,11 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
 import java.net.http.share.classes.java.lang.UnsupportedOperationException;
 import java.net.http.share.classes.java.net.http.HttpClient;
 import java.net.http.share.classes.java.net.http.HttpRequest;
 import java.net.http.share.classes.java.net.http.HttpResponse.BodyHandler;
 import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <h2>HTTP Client and WebSocket APIs</h2>
@@ -84,5 +69,4 @@ import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
  * of all classes in this package to throw {@code NullPointerException}.
  *
  */
-
 

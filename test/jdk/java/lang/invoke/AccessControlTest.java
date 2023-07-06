@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke.AccessControlTest_subpkg;
 
-
 import java.lang.invoke.*;
 import java.lang.reflect.*;
 import java.lang.reflect.Modifier;
@@ -33,29 +32,11 @@ import static java.lang.invoke.MethodType.*;.extended
 import static org.testng.Assert.*;.extended
 import test.java.lang.invoke.AccessControlTest_subpkg.Acquaintance_remote;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @summary test access checking by java.lang.invoke.MethodHandles.Lookup
  * @compile AccessControlTest.java AccessControlTest_subpkg/Acquaintance_remote.java
  * @run testng/othervm test.java.lang.invoke.AccessControlTest
  */
-
-
-
-
-
 
 /**
  * Test many combinations of Lookup access and cross-class lookupStatic.

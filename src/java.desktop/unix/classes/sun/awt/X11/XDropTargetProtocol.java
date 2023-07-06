@@ -21,24 +21,9 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class for drop protocols on X11 systems.
@@ -94,7 +79,6 @@ abstract class XDropTargetProtocol {
     public final void unregisterEmbeddedDropSite(long embedded) {
         removeEmbedderRegistryEntry(embedded);
     }
-
 
     /* The caller must hold AWT_LOCK. */
     public abstract boolean isProtocolSupported(long window);
@@ -164,7 +148,6 @@ abstract class XDropTargetProtocol {
 
         return true;
     }
-
 
     /* True iff the previous notification was MotionEvent and it was
        forwarded to the browser. */

@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.data.method.body.ReturnNewInstanceBody;
 import vm.runtime.defmeth.shared.data.method.body.ReturnNullBody;
 import vm.runtime.defmeth.shared.data.method.param.NewInstanceParam;
@@ -43,19 +42,6 @@ import vm.runtime.defmeth.shared.data.method.param.StringParam;
 import vm.runtime.defmeth.shared.data.Clazz;
 import vm.runtime.defmeth.shared.data.Interface;
 import vm.runtime.defmeth.shared.data.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Visitor for vm.runtime.defmeth.shared.data.* class hierarchy.

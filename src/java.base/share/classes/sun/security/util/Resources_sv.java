@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents the <code>ResourceBundle</code>
  * for javax.security.auth and sun.security.
@@ -168,7 +152,6 @@ public class Resources_sv extends java.util.ListResourceBundle {
         {"unable.to.instantiate.Subject.based.policy",
                 "kan inte instansiera subjektbaserad policy"}
     };
-
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

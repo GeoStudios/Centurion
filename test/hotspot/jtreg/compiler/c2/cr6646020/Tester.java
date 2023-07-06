@@ -21,21 +21,6 @@
 
 package compiler.c2.cr6646020;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6646020
@@ -44,12 +29,10 @@ package compiler.c2.cr6646020;
  * @run main compiler.c2.cr6646020.Tester
  */
 
-
 /* Complexity upper bound: 3361 ops */
 
 class Tester_Class_0 {
     static byte var_1;
-
 
     public Tester_Class_0()
     {
@@ -91,9 +74,6 @@ class Tester_Class_0 {
         double var_12 = 1.2183900219527627E308;
         var_9 <<= (false ? !false : false) ? '\\' : 'D';
     }
-
-
-
 
     private final long func_0()
     {
@@ -161,7 +141,6 @@ class Tester_Class_0 {
     }
 }
 
-
 final class Tester_Class_1 extends Tester_Class_0 {
     static Object var_13;
     final static boolean var_14 = false | (false ? false : true);
@@ -173,7 +152,6 @@ final class Tester_Class_1 extends Tester_Class_0 {
     final static byte var_20 = 123;
     static byte var_21 = var_1 = (var_1 = var_20);
     final static float var_22 = 1.5415572E38F;
-
 
     public Tester_Class_1()
     {
@@ -194,10 +172,6 @@ final class Tester_Class_1 extends Tester_Class_0 {
         var_13 = (((new Tester_Class_1[var_21 |= (new char[var_20])[var_21]])[var_21]).var_15 = (new String[var_21][var_20][var_20])[var_21 >>= (byte)(int)var_22]);
         var_15 = "m";
     }
-
-
-
-
 
     protected final static Tester_Class_0 func_0(final char arg_0, boolean arg_1)
     {
@@ -392,7 +366,6 @@ final class Tester_Class_1 extends Tester_Class_0 {
     }
 }
 
-
 class Tester_Class_2 extends Tester_Class_0 {
     final int var_43 = 1600723343;
     static long var_44 = ~1297640037857117184L;
@@ -400,7 +373,6 @@ class Tester_Class_2 extends Tester_Class_0 {
     double var_46;
     static float var_47 = 7.9423827E37F;
     static Tester_Class_1[][] var_48;
-
 
     public Tester_Class_2()
     {
@@ -417,9 +389,6 @@ class Tester_Class_2 extends Tester_Class_0 {
         double var_49 = var_46 = false ? (var_47 *= (var_46 = var_43)) : Tester_Class_1.var_20;
         var_49 += 'k';
     }
-
-
-
 
     public String toString()
     {
@@ -443,7 +412,6 @@ class Tester_Class_2 extends Tester_Class_0 {
     }
 }
 
-
 class Tester_Class_3 extends Tester_Class_0 {
     byte var_50;
     int var_51;
@@ -452,7 +420,6 @@ class Tester_Class_3 extends Tester_Class_0 {
     long var_54;
     static short var_55;
     short var_56;
-
 
     public Tester_Class_3()
     {
@@ -482,9 +449,6 @@ class Tester_Class_3 extends Tester_Class_0 {
         Tester_Class_2.var_47 -= Tester_Class_1.var_20;
         Tester_Class_2.var_47 %= '[';
     }
-
-
-
 
     static Object func_0(final Tester_Class_0 arg_0, String arg_1, final float arg_2, final long arg_3)
     {
@@ -568,7 +532,6 @@ public class Tester {
     static short var_73 = (Tester_Class_3.var_53 &= (Tester_Class_3.var_53 ^= Tester_Class_3.var_53)) ? (short)(byte)(Tester_Class_3.var_55 = Tester_Class_1.var_20) : (Tester_Class_3.var_55 = Tester_Class_1.var_20);
     final static short var_74 = (Tester_Class_3.var_53 &= Tester_Class_3.var_53) ? (Tester_Class_3.var_53 ? var_73 : var_73++) : (var_73 *= (Tester_Class_1.var_21 |= var_73));
     float var_75;
-
 
     protected final Tester_Class_2 func_0()
     {
@@ -776,7 +739,6 @@ public class Tester {
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
 
-
         public static String print(Object arg)
         {
             return print_r(new java.util.Stack(), arg);
@@ -900,5 +862,4 @@ public class Tester {
         }
     }
 }
-
 

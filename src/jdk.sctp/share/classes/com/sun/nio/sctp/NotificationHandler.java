@@ -21,22 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A handler for consuming notifications from the SCTP stack.
  *

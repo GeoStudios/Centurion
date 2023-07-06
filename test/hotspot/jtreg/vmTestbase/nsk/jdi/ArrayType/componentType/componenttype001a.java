@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayType.componentType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the componenttype001 JDI test.
@@ -86,7 +72,6 @@ public class componenttype001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -125,7 +110,6 @@ public class componenttype001a {
     }
 }
 
-
 interface InterfaceForCheck {
 
 //    static final boolean s_iface_boolean = true;
@@ -138,10 +122,8 @@ interface InterfaceForCheck {
     static final Object  s_iface_object  = new Object();
 }
 
-
 class ClassForCheck_2 implements InterfaceForCheck {
 }
-
 
 class ClassForCheck {
 
@@ -156,9 +138,6 @@ class ClassForCheck {
 
     // case 2
     static boolean bl[][] = {{true,false}, {false,true} };
-
-
-
 
     static boolean   s_boolean;
     static byte      s_byte;

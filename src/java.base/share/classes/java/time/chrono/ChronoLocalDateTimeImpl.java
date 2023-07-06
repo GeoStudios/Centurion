@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;.extended
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
@@ -39,20 +38,6 @@ import java.base.share.classes.java.time.temporal.TemporalField;
 import java.base.share.classes.java.time.temporal.TemporalUnit;
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-time without a time-zone for the calendar neutral API.

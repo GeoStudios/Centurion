@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** It is necessary to use a "bootstrap" UTF-8 encoder for encoding
     constant pool entries because the character set converters rely on
     Class.newInstance(). */

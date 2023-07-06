@@ -21,7 +21,6 @@
 
 package test;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -30,19 +29,6 @@ import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic test case for Module::addXXXX methods
@@ -87,7 +73,6 @@ public class Main {
             assertTrue(false);
         } catch (IllegalCallerException expected) { }
     }
-
 
     /**
      * Test Module::addExports
@@ -160,7 +145,6 @@ public class Main {
         thisModule.addOpens("test", m4);
         p4.C.tryNewInstance(test.C.class);  // should succeed
 
-
         // m3 does not open p3 to m4
         assertFalse(m3.isOpen("p3", m4));
         try {
@@ -168,13 +152,11 @@ public class Main {
             assertTrue(false);
         } catch (IllegalAccessException expected) { }
 
-
         // m3 opens p3 to test => test allowed to open m3/p3 to m4
         assertTrue(m3.isOpen("p3", thisModule));
         m3.addOpens("p3", m4);
         assertTrue(m3.isOpen("p3", m4));
         p4.C.tryNewInstance(p3.C.class);   // should succeed
-
 
         // attempt to update m4 to open package to m3
         try {
@@ -182,7 +164,6 @@ public class Main {
             assertTrue(false);
         } catch (IllegalCallerException expected) { }
     }
-
 
     /**
      * Test Module::addUses

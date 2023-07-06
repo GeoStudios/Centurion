@@ -21,26 +21,12 @@
 
 package nsk.jdi.Field.type;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class type002 {
     final static int TOTAL_FIELDS = 25;

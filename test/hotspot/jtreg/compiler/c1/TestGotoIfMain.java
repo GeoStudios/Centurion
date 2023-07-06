@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8218721
@@ -44,7 +29,6 @@ package compiler.c1;
  *                   -XX:CompileCommand=compileonly,compiler.c1.TestGotoIf::test*
  *                   compiler.c1.TestGotoIfMain
  */
-
 
 public class TestGotoIfMain {
     public static void main(String[] args) {

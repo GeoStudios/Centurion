@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of event type.
@@ -74,7 +59,6 @@ public final class PlatformEventType extends Type {
     private boolean markForInstrumentation;
     private boolean registered = true;
     private boolean committable = enabled && registered;
-
 
     // package private
     PlatformEventType(String name, long id, boolean isJDK, boolean dynamicSettings) {

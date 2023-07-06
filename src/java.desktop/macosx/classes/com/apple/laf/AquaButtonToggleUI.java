@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaButtonToggleUI extends AquaButtonUI {
     // Create PLAF

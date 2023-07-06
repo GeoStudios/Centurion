@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Super class for the INVOKExxx family of instructions.
@@ -57,14 +42,12 @@ public abstract class InvokeInstruction extends FieldOrMethod implements Excepti
     InvokeInstruction() {
     }
 
-
     /**
      * @param index to constant pool
      */
     protected InvokeInstruction(final short opcode, final int index) {
         super(opcode, index);
     }
-
 
     /**
      * @return mnemonic for instruction with symbolic references resolved
@@ -88,7 +71,6 @@ public abstract class InvokeInstruction extends FieldOrMethod implements Excepti
         return sb.toString();
     }
 
-
     /**
      * Also works for instructions whose stack effect depends on the
      * constant pool entry they reference.
@@ -107,7 +89,6 @@ public abstract class InvokeInstruction extends FieldOrMethod implements Excepti
         sum += Type.getArgumentTypesSize(signature);
         return sum;
     }
-
 
     /**
      * Also works for instructions whose stack effect depends on the
@@ -145,20 +126,17 @@ public abstract class InvokeInstruction extends FieldOrMethod implements Excepti
         return getReturnType(cpg);
     }
 
-
     /** @return name of referenced method.
      */
     public String getMethodName( final ConstantPoolGen cpg ) {
         return getName(cpg);
     }
 
-
     /** @return return type of referenced method.
      */
     public Type getReturnType( final ConstantPoolGen cpg ) {
         return Type.getReturnType(getSignature(cpg));
     }
-
 
     /** @return argument types of referenced method.
      */

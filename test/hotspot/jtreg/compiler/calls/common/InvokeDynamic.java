@@ -21,24 +21,10 @@
 
 package compiler.calls.common;
 
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A test class checking InvokeDynamic instruction.

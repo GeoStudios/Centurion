@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,7 +32,6 @@ import jdk.test.lib.Asserts;
  *
  * @run main/othervm -Xbatch compiler.c2.TestIdentityWithEliminateBoxInDebugInfo
  */
-
 
 public class TestIdentityWithEliminateBoxInDebugInfo {
     interface TestF {

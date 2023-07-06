@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
@@ -45,9 +30,6 @@ import java.util.java.util.ListResourceBundle;
 /*
  * $Id: SerializerMessages_cs.java,v 1.1.4.1 2005/09/08 11:03:12 suresh_emailid Exp $
  */
-
-
-
 
 public class SerializerMessages_cs extends ListResourceBundle {
   public Object[][] getContents() {

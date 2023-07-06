@@ -21,7 +21,6 @@
 
 package gc.g1;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.regex.Pattern;
@@ -30,19 +29,6 @@ import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestMixedGCLiveThreshold
@@ -54,8 +40,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.g1.TestMixedGCLiveThreshold
  */
-
-
 
 public class TestMixedGCLiveThreshold {
     private static final String pattern = "Remembered Set Tracking update regions total ([0-9]+), selected ([0-9]+)$";

@@ -21,7 +21,6 @@
 
 package java.management.rmi.share.classes.javax.management.remote.rmi;
 
-
 import com.sun.jmx.remote.internal.ClientCommunicatorAdmin;
 import com.sun.jmx.remote.internal.Clientjava.util.ListenerInfo;
 import com.sun.jmx.remote.internal.ClientNotifForwarder;
@@ -104,20 +103,6 @@ import sun.rmi.server.UnicastRef2;
 import sun.rmi.transport.LiveRef;
 import java.io.NotSerializableException;
 import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>A connection to a remote RMI connector.  Usually, such
@@ -297,7 +282,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
             final Map<String, Object> usemap =
                     new HashMap<String, Object>((this.env==null) ?
                         Collections.emptyMap() : this.env);
-
 
             if (environment != null) {
                 EnvHelp.checkAttributes(environment);
@@ -945,7 +929,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
             }
         }
 
-
         public void setAttribute(ObjectName name,
                 Attribute attribute)
                 throws InstanceNotFoundException,
@@ -1003,7 +986,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
             }
         }
 
-
         public Object invoke(ObjectName name,
                              String operationName,
                              Object[] params,
@@ -1039,7 +1021,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
                 popDefaultClassLoader(old);
             }
         }
-
 
         public String getDefaultDomain()
         throws IOException {
@@ -1090,7 +1071,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
                 popDefaultClassLoader(old);
             }
         }
-
 
         public boolean isInstanceOf(ObjectName name,
                 String className)
@@ -1961,8 +1941,6 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
 
        The byte code below encodes the following class, compiled using
        J2SE 1.4.2 with the -g:none option.
-
-        
 
         import java.lang.reflect.Method;
         import java.rmi.Remote;

@@ -21,23 +21,9 @@
 
 package nsk.jdi.StepRequest.size;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the size002 JDI test.
@@ -125,12 +111,10 @@ public class size002a {
                                 break;
                 }
 
-
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
-
 
             }
 

@@ -21,22 +21,8 @@
 
 package compiler.compilercontrol.share.pool.subpack;
 
-
 import compiler.compilercontrol.share.pool.MethodHolder;
 import compiler.compilercontrol.share.pool.SubMethodHolder;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a clone of the c.c.s.pool.sub.Klass used to test pattern matching

@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.OutputStream;
 import java.io.Writer;
 import java.io.UnsupportedEncodingException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Default serializer factory can construct serializers for the three
@@ -57,9 +42,7 @@ final class SerializerFactoryImpl
     extends SerializerFactory
 {
 
-
     private final String _method;
-
 
     SerializerFactoryImpl( String method )
     {
@@ -73,7 +56,6 @@ final class SerializerFactoryImpl
         }
     }
 
-
     public Serializer makeSerializer( OutputFormat format )
     {
         Serializer serializer;
@@ -82,8 +64,6 @@ final class SerializerFactoryImpl
         serializer.setOutputFormat( format );
         return serializer;
     }
-
-
 
     public Serializer makeSerializer( Writer writer,
                                       OutputFormat format )
@@ -95,7 +75,6 @@ final class SerializerFactoryImpl
         return serializer;
     }
 
-
     public Serializer makeSerializer( OutputStream output,
                                       OutputFormat format )
         throws UnsupportedEncodingException
@@ -106,7 +85,6 @@ final class SerializerFactoryImpl
         serializer.setOutputByteStream( output );
         return serializer;
     }
-
 
     private Serializer getSerializer( OutputFormat format )
     {
@@ -124,11 +102,9 @@ final class SerializerFactoryImpl
         }
     }
 
-
     protected String getSupportedMethod()
     {
         return _method;
     }
-
 
 }

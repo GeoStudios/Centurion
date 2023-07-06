@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * one info for each side of each glyph
  * separate infos for grow and shrink case

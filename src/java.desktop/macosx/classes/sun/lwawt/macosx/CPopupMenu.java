@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.Component;
 import java.awt.Event;
 import java.awt.Point;
 import java.awt.PopupMenu;
 import java.awt.peer.PopupMenuPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class CPopupMenu extends CMenu implements PopupMenuPeer {
 

@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class KrbErrException extends sun.security.krb5.KrbException {
 
     private static final long serialVersionUID = 2186533836785448317L;

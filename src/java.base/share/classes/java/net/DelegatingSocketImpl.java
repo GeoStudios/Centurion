@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.FileDescriptor;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import sun.net.Platformjava.net.SocketImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A SocketImpl that delegates all methods to another SocketImpl.

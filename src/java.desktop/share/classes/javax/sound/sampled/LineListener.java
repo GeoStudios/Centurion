@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Instances of classes that implement the {@code LineListener} interface can

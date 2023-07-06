@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * FASTORE -  Store into float array
@@ -55,7 +38,6 @@ public class FASTORE extends ArrayInstruction implements StackConsumer {
     public FASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.FASTORE);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

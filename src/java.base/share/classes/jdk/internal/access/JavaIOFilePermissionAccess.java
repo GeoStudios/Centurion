@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.io.FilePermission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JavaIOFilePermissionAccess {
 

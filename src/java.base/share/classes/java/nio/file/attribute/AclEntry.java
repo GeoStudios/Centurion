@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import java.base.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An entry in an access control list (ACL).

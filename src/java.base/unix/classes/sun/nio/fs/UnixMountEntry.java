@@ -21,22 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents an entry in the mount table.
  */

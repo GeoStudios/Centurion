@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;.extended
 import java.io.File;
@@ -34,19 +33,6 @@ import javax.xml.transform.stream.StreamSource;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
-
 import compiler.intrinsics.bmi.TestTzcntI;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,8 +38,6 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseCountTrailingZerosInstruction
  *      compiler.intrinsics.bmi.verifycode.TZcntTestI
  */
-
-
 
 public class TZcntTestI extends BmiIntrinsicBase.BmiTestCase_x64 {
 

@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This interface is the root of listener interfaces that
   * handle {@code NamingEvent}s.

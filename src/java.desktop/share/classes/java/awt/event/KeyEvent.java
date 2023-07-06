@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.Toolkit;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event which indicates that a keystroke occurred in a component.
@@ -1520,7 +1505,6 @@ public class KeyEvent extends InputEvent {
         }
         return buf.toString();
     }
-
 
     /**
      * Returns whether the key in this event is an "action" key.

@@ -21,7 +21,6 @@
 
 package javax.xml.transform.ptests;
 
-
 import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNull;.extended
@@ -40,19 +39,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for SAXParserFactory API

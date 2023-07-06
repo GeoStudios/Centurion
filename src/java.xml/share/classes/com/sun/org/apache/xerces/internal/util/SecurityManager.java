@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import jdk.xml.internal.JdkConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a container for parser settings that relate to security, or

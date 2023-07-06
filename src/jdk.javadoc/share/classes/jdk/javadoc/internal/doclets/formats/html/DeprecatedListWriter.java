@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import com.sun.source.doctree.DeprecatedTree;
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
@@ -34,20 +33,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Depre
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate File to list all the deprecated classes and class members with the

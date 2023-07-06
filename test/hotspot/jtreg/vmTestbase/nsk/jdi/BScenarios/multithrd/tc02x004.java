@@ -21,7 +21,6 @@
 
 package nsk.jdi.BScenarios.multithrd;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -31,19 +30,6 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test is from the group of so-called Borland's scenarios and

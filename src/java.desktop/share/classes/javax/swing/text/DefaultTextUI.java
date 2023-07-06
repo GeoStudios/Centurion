@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicTextUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

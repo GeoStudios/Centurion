@@ -21,23 +21,9 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class DummyClass extends DummyAbstractClass {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

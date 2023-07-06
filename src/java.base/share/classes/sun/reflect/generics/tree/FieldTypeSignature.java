@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.reflect.generics.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Common superinterface for nodes that represent a (possibly generic)
  * type.

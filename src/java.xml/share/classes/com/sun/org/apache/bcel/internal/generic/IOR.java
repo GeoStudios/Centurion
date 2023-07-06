@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IOR - Bitwise OR int
@@ -53,7 +36,6 @@ public class IOR extends ArithmeticInstruction {
     public IOR() {
         super(com.sun.org.apache.bcel.internal.Const.IOR);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

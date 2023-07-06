@@ -21,7 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.RuntimeMXBean;
 import java.lang.management.ManagementFactory;
 import java.util.java.util.java.util.java.util.List;
@@ -30,20 +29,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Properties;
 import javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the runtime subsystem.

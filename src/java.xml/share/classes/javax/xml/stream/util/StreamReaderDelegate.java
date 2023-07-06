@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.javax.xml.stream.util;
 
-
 import java.xml.share.classes.javax.xml.namespace.QName;
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
 import java.xml.share.classes.javax.xml.stream.XMLStreamReader;
 import java.xml.share.classes.javax.xml.stream.Location;
 import java.xml.share.classes.javax.xml.stream.XMLStreamException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the base class for deriving an XMLStreamReader filter
@@ -216,7 +201,6 @@ public class StreamReaderDelegate implements XMLStreamReader {
                                     targetStart,
                                     length);
   }
-
 
   public char[] getTextCharacters() {
     return reader.getTextCharacters();

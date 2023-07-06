@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.common;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A functional interface that allows to request cancellation
  * of a task - which may or may not have already started.

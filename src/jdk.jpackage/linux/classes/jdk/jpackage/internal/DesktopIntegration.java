@@ -21,7 +21,6 @@
 
 package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
-
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.File;
@@ -54,20 +53,6 @@ import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.FILE_ASSOCIATIONS;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper to create files for desktop integration.

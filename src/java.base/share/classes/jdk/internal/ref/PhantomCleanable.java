@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.ref;
 
-
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
 import java.lang.ref.PhantomReference;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * PhantomCleanable subclasses efficiently encapsulate cleanup state and

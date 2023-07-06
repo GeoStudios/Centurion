@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AttributeMap inherits from NamedNodeMapImpl and extends it to deal with the
@@ -115,7 +100,6 @@ public class AttributeMap extends NamedNodeMapImpl {
             // replacing an Attribute with itself does nothing
             return arg;
         }
-
 
         // set owner
         argn.ownerNode = ownerNode;
@@ -253,7 +237,6 @@ public class AttributeMap extends NamedNodeMapImpl {
     Node safeRemoveNamedItem(String name) {
         return internalRemoveNamedItem(name, false);
     }
-
 
     /**
      * NON-DOM: Remove the node object
@@ -525,7 +508,6 @@ public class AttributeMap extends NamedNodeMapImpl {
         }
     } // cloneContent():AttributeMap
 
-
     /**
      * Move specified attributes from the given map to this one
      */
@@ -544,7 +526,6 @@ public class AttributeMap extends NamedNodeMapImpl {
             }
         }
     } // moveSpecifiedAttributes(AttributeMap):void
-
 
     /**
      * Get this AttributeMap in sync with the given "defaults" map.

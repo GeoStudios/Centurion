@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.isSynthetic;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class issynthetic001a {
     public static void main (String argv[]) {

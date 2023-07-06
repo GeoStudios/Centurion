@@ -21,31 +21,14 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: KeyInfo.java,v 1.7 2005/05/10 16:35:34 mullan Exp $
  */
-
-
 
 /**
  * A representation of the XML <code>KeyInfo</code> element as defined in

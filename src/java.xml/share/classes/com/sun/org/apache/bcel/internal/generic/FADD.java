@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * FADD - Add floats
@@ -55,7 +38,6 @@ public class FADD extends ArithmeticInstruction {
     public FADD() {
         super(com.sun.org.apache.bcel.internal.Const.FADD);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

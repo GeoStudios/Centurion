@@ -21,26 +21,12 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.Operator;
 import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ArithmeticOperatorFactory extends Factory<Operator> {
     private final Rule<Operator> rule;

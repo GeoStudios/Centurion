@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Utility class for assembling {@link Completion} objects.
  *
@@ -59,7 +43,6 @@ public class Completions {
         public String getValue() {
             return value;
         }
-
 
         public String getMessage() {
             return message;

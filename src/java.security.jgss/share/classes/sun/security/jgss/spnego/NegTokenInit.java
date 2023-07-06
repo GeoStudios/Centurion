@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spnego;
 
-
 import java.io.*;
 import java.util.*;
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.security.jgss.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the SPNEGO NegTokenInit token

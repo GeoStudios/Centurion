@@ -21,7 +21,6 @@
 
 package P.Q;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,19 +31,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import jdk.test.lib.Utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmti
@@ -54,11 +40,6 @@ import jdk.test.lib.Utils;
  * @compile HiddenClassSigTest.java
  * @run main/othervm/native -agentlib:HiddenClassSigTest P.Q.HiddenClassSigTest
  */
-
-
-
-
-
 
 interface HCInterf<T> {
     String hcMethod(T t);

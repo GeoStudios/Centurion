@@ -21,21 +21,6 @@
 
 package gc.g1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8218880
  * @summary Test that issuing a periodic collection while the GC locker is

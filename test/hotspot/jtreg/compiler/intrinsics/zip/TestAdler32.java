@@ -21,23 +21,9 @@
 
 package compiler.intrinsics.zip;
 
-
 import java.nio.ByteBuffer;
 import java.util.zip.Adler32;
 import java.util.zip.Checksum;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.util.zip.Checksum;
  *
  * @run main/othervm/timeout=600 -Xbatch compiler.intrinsics.zip.TestAdler32 -m
  */
-
-
 
 public class TestAdler32 {
     public static void main(String[] args) {

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A mixer is an audio device with one or more lines. It need not be designed
  * for mixing audio signals. A mixer that actually mixes audio has multiple

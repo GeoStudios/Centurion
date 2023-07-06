@@ -21,7 +21,6 @@
 
 package jdk.unsupported.share.classes.sun.misc;
 
-
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.misc.VM;
 import jdk.internal.reflect.CallerSensitive;
@@ -29,20 +28,6 @@ import jdk.internal.reflect.Reflection;
 import java.lang.invoke.MethodHandles;
 import java.lang.reflect.Field;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of methods for performing low-level, unsafe operations.
@@ -403,7 +388,6 @@ public final class Unsafe {
         theInternalUnsafe.putDouble(address, x);
     }
 
-
     /**
      * Fetches a native pointer from a given memory address.  If the address is
      * zero, or does not point into a block obtained from {@link
@@ -437,7 +421,6 @@ public final class Unsafe {
     public void putAddress(long address, long x) {
         theInternalUnsafe.putAddress(address, x);
     }
-
 
     /// wrappers for malloc, realloc, free:
 
@@ -857,7 +840,6 @@ public final class Unsafe {
         return theInternalUnsafe.pageSize();
     }
 
-
     /// random trusted operations from JNI:
 
     /**
@@ -1194,7 +1176,6 @@ public final class Unsafe {
     public Object getAndSetObject(Object o, long offset, Object newValue) {
         return theInternalUnsafe.getAndSetReference(o, offset, newValue);
     }
-
 
     /**
      * Ensures that loads before the fence will not be reordered with loads and

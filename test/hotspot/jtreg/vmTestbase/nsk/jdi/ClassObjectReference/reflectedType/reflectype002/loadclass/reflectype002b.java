@@ -21,23 +21,7 @@
 
 package nsk.jdi.ClassObjectReference.reflectedType;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the reflectedType() method of ClassObjectReference interface for UNLOADED class
-
 
 class reflectype002b {}

@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graal.filters;
 
-
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.filter.AbstractFilter;
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Connection;
@@ -31,20 +30,6 @@ import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.OutputSlot;
 import utils.IdealGraphVisualizer.Graal.src.main.java.util.HashSet;
 import utils.IdealGraphVisualizer.Graal.src.main.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GraalCFGFilter extends AbstractFilter {
 

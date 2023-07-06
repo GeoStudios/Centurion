@@ -21,21 +21,6 @@
 
 package nsk.jvmti.SetNativeMethodPrefix;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Binder {
     static { System.loadLibrary("SetNativeMethodPrefix001"); }
 

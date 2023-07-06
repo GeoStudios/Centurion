@@ -21,26 +21,12 @@
 
 package nsk.jdi.Locatable.location;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -124,7 +110,6 @@ public class location006 {
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
-
 
         if (argsHandler.verbose()) {
             debuggee = binder.bindToDebugee(debuggeeName + " -vbs");  // *** tp

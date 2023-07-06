@@ -21,22 +21,7 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A handler which is invoked to process HTTP exchanges. Each

@@ -21,24 +21,9 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import java.desktop.windows.classes.com.sun.java.awt.Window;
 import javax.swing.JWindow;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which tags a window with a particular semantic usage,

@@ -21,26 +21,12 @@
 
 package jdk.internal.net.http.hpack;
 
-
 import java.nio.ByteBuffer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //
 // THIS IS NOT A TEST

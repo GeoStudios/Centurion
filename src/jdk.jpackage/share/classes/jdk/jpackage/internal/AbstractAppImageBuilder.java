@@ -21,7 +21,6 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
@@ -31,20 +30,6 @@ import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.SOURCE_DIR;.extended
 import jdk.jpackage.share.classes.jdk.jpackage.internal.resources.ResourceLocator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * AbstractAppImageBuilder

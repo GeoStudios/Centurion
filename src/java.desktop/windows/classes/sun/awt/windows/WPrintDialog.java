@@ -21,25 +21,10 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.print.PrinterJob;
 import java.desktop.windows.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 class WPrintDialog extends Dialog {

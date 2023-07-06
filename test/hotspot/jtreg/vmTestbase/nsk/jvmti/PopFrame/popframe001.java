@@ -21,22 +21,8 @@
 
 package nsk.jvmti.PopFrame;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks that a frame can be popped and<br>

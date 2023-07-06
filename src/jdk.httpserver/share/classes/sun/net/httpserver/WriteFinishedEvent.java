@@ -21,22 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class WriteFinishedEvent extends Event {
     WriteFinishedEvent (ExchangeImpl t) {
         super (t);

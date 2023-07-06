@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
 import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
@@ -29,20 +28,6 @@ import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import javax.security.auth.kerberos.ServicePermission;
 import java.security.Provider;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Krb5 Mechanism plug in for JGSS
@@ -223,7 +208,6 @@ public final class Krb5MechFactory implements MechanismFactory {
         throws GSSException {
         return new Krb5Context(caller, exportedContext);
     }
-
 
     public Oid getMechanismOid() {
         return GSS_KRB5_MECH_OID;

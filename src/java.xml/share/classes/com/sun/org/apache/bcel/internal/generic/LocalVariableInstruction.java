@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract super class for instructions dealing with local variables.
@@ -53,11 +38,9 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
     private short cTag = -1; // compact version, such as ILOAD_0
     private short canonTag = -1; // canonical tag such as ILOAD
 
-
     private boolean wide() {
         return n > Const.MAX_BYTE;
     }
-
 
     /**
      * Empty constructor needed for Instruction.readInstruction.
@@ -70,14 +53,12 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         this.cTag = c_tag;
     }
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Also used by IINC()!
      */
     LocalVariableInstruction() {
     }
-
 
     /**
      * @param opcode Instruction opcode
@@ -90,7 +71,6 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         canonTag = opcode;
         setIndex(n);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -111,7 +91,6 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         }
     }
 
-
     /**
      * Long output format:
      *
@@ -130,7 +109,6 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         }
         return super.toString(verbose) + " " + n;
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -159,7 +137,6 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         }
     }
 
-
     /**
      * @return local variable index (n) referred by this instruction.
      */
@@ -167,7 +144,6 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
     public final int getIndex() {
         return n;
     }
-
 
     /**
      * Set the local variable index.
@@ -195,13 +171,11 @@ public abstract class LocalVariableInstruction extends Instruction implements Ty
         }
     }
 
-
     /** @return canonical tag for instruction, e.g., ALOAD for ALOAD_0
      */
     public short getCanonicalTag() {
         return canonTag;
     }
-
 
     /**
      * Returns the type associated with the instruction -

@@ -21,7 +21,6 @@
 
 package xpath;
 
-
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -34,19 +33,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

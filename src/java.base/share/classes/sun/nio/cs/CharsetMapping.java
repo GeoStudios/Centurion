@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -31,20 +30,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.*;
 import java.base.share.classes.java.security.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CharsetMapping {
     public static final char UNMAPPABLE_DECODING = '\uFFFD';

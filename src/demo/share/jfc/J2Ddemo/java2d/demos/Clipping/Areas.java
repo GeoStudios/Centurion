@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Area;
@@ -31,20 +30,6 @@ import javax.swing.*;
 import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import static java.awt.Color.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Areas class demonstrates the CAG (Constructive Area Geometry)
@@ -75,7 +60,6 @@ public class Areas extends ControlsSurface {
         p2.lineTo(w * .75f, h);
         p2.lineTo(w * .25f, h * .5f);
         p2.closePath();
-
 
         Area area = new Area(p1);
         g2.setColor(YELLOW);
@@ -147,7 +131,6 @@ public class Areas extends ControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new Areas());
     }
-
 
     static final class DemoControls extends CustomControls implements
             ActionListener {

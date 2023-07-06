@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.hoist.hoist04;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.hoist.hoist04;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.hoist.hoist04.hoist04
  */
-
 
 // hoist04.java
 

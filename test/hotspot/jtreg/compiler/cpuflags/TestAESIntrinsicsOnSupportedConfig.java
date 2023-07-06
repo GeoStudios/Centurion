@@ -21,25 +21,11 @@
 
 package compiler.cpuflags;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
 import static jdk.test.lib.cli.CommandLineOptionTest.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,8 +40,6 @@ import static jdk.test.lib.cli.CommandLineOptionTest.*;.extended
  *                   -XX:+WhiteBoxAPI -Xbatch
  *                   compiler.cpuflags.TestAESIntrinsicsOnSupportedConfig
  */
-
-
 
 public class TestAESIntrinsicsOnSupportedConfig extends AESIntrinsicsBase {
 

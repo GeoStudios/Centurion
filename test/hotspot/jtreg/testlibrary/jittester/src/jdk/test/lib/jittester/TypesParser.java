@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
@@ -42,19 +41,6 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.jittester.functions.FunctionInfo;
 import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class used for parsing included classes file and excluded methods file

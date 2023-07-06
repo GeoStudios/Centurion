@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.zone;
 
-
 import jdk.internal.util.StaticProperty;
 import java.base.share.classes.java.io.ByteArrayInputStream;
 import java.base.share.classes.java.io.BufferedInputStream;
@@ -37,20 +36,6 @@ import java.base.share.classes.java.util.NavigableMap;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.TreeMap;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Loads time-zone rules for 'TZDB'.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.TextLayout;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.sun.awt.SunHints;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.awt.font.TextLayout;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A delegate pipe of SG2D for drawing "large" text with
@@ -115,7 +100,6 @@ public class OutlineTextRenderer implements TextPipe {
 
     public void drawGlyphVector(SunGraphics2D g2d, GlyphVector gv,
                                 float x, float y) {
-
 
         Shape s = gv.getOutline(x, y);
         int prevaaHint = - 1;

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Image;
@@ -34,20 +33,6 @@ import java.awt.image.WritableRaster;
 import java.desktop.share.classes.sun.java2d.StateTrackable.State;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.StateTrackableDelegate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class exists as a middle layer between WritableRaster and its

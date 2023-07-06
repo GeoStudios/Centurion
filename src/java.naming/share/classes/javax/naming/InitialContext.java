@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.spi.NamingManager;
 import com.sun.naming.internal.ResourceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the starting context for performing naming operations.

@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up <code>com.sun.jdi.VirtualMachine.redefineClasses()</code>.

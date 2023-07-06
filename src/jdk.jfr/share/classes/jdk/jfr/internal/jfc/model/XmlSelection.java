@@ -21,23 +21,8 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.StringJoiner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Corresponds to <selection>
 final class XmlSelection extends XmlInput {

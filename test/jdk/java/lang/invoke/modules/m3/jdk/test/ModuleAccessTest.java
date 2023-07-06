@@ -21,7 +21,6 @@
 
 package jdk.test;
 
-
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -38,19 +37,6 @@ import java.util.stream.Stream;
 import e1.CrackM5Access;
 import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ModuleAccessTest {
     static ModuleLookup m3;

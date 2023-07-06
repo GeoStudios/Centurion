@@ -21,25 +21,11 @@
 
 package nsk.jvmti.Allocate.alloc001;
 
-
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
 import jtreg.SkippedException;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -64,9 +50,6 @@ import java.io.File;
  * @requires os.family != "aix"
  * @run main/native nsk.jvmti.Allocate.alloc001.alloc001
  */
-
-
-
 
 class Test {
     static {

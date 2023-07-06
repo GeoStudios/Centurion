@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MemoryAddressImpl;
@@ -29,20 +28,6 @@ import java.io.PrintStream;
 import java.lang.invoke.VarHandle;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class BufferLayout {
     static final VarHandle VH_LONG = MemoryLayouts.JAVA_LONG.varHandle(long.class);

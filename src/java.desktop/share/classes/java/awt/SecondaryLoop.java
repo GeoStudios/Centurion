@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A helper interface to run the nested event loop.
  * <p>

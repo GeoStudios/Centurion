@@ -21,26 +21,11 @@
 
 package jit.Arrays.ArrayTests;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // srm 961012
 // Test if array stores and reads are correct for
 // integral types and floating points
-
 
 /*
  * @test
@@ -52,8 +37,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.Arrays.ArrayTests.ArrayTests
  */
-
-
 
 public class ArrayTests  {
   int base_array[];
@@ -184,7 +167,6 @@ public class ArrayTests  {
 
     return res;
   }
-
 
   public static void main (String s[]) {
     boolean res = true;

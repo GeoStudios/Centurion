@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Hann windowed sinc interpolation resampler with anti-alias filtering.
  *

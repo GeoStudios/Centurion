@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -31,20 +30,6 @@ import javax.swing.text.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.CommandProcessor;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A JPanel subclass containing a scrollable text area displaying the
     debugger's console, if it has one. This should not be created for
@@ -61,7 +46,6 @@ public class CommandProcessorPanel extends JPanel {
     private static final boolean DEBUGGING = false;
 
     ByteArrayOutputStream baos = new ByteArrayOutputStream(10240);
-
 
     public CommandProcessorPanel(CommandProcessor cp) {
 

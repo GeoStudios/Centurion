@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The baseclass for a binary operation.
@@ -76,7 +61,6 @@ public class Operation extends Expression implements ExpressionOwner
     m_left.fixupVariables(vars, globalsSize);
     m_right.fixupVariables(vars, globalsSize);
   }
-
 
   /**
    * Tell if this expression or it's subexpressions can traverse outside

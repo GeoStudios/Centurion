@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.image.*;
 import sun.awt.image.MultiResolutionCachedImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An image filter that "disables" an image by turning

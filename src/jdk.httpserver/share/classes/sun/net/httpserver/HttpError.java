@@ -21,22 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A Http error
  */

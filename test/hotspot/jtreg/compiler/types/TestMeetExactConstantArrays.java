@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8075587
@@ -43,7 +28,6 @@ package compiler.types;
  *
  * @run main/othervm compiler.types.TestMeetExactConstantArrays
  */
-
 
 public class TestMeetExactConstantArrays {
     public abstract static class NumbersHolder {

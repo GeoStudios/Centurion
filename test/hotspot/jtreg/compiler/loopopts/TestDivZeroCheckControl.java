@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8229496
@@ -54,7 +39,6 @@ package compiler.loopopts;
  *                   -XX:CompileCommand=dontinline,compiler.loopopts.TestDivZeroCheckControl::test*
  *                   compiler.loopopts.TestDivZeroCheckControl
  */
-
 
 public class TestDivZeroCheckControl {
 

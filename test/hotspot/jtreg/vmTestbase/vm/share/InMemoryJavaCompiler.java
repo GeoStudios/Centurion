@@ -21,7 +21,6 @@
 
 package vm.share;
 
-
 import javax.tools.FileObject;
 import javax.tools.ForwardingJavaFileManager;
 import javax.tools.JavaCompiler;
@@ -38,19 +37,6 @@ import java.util.HashMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class InMemoryJavaCompiler {
 

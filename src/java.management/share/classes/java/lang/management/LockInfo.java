@@ -21,24 +21,9 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import javax.management.openmbean.CompositeData;
 import java.management.share.classes.java.util.concurrent.locks.*;
 import sun.management.LockInfoCompositeData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Information about a <em>lock</em>.  A lock can be a built-in object monitor,

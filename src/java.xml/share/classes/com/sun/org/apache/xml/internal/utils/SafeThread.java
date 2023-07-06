@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.util.concurrent.atomic.AtomicInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a safe thread that does not inherit thread-locals and runs only

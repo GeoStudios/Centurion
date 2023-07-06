@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.io.*;
 import java.net.*;
 import javax.net.ssl.*;
@@ -34,20 +33,6 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.stream.Stream;
 import com.sun.net.httpserver.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ExchangeImpl {
 
@@ -198,7 +183,6 @@ class ExchangeImpl {
         }
         return uos;
     }
-
 
     /* returns the place holder stream, which is the stream
      * returned from the 1st call to getResponseBody()

@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.com.sun.naming.internal;
 
-
 import java.naming.share.classes.com.sun.security.util.SecurityProperties;
 import javax.naming.Reference;
 import java.io.ObjectInputFilter;
 import java.io.ObjectInputFilter.FilterInfo;
 import java.io.ObjectInputFilter.Status;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the filter that validates object factories classes instantiated

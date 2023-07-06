@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * An XMLLocator implementation used for schema error reporting.

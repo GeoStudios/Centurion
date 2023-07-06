@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadInfo.getLockOwnerName;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getlockownername001 {
     public static void main(String[] argv) {

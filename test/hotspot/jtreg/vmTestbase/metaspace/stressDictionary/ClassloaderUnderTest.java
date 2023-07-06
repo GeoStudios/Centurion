@@ -21,21 +21,6 @@
 
 package metaspace.stressDictionary;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ClassloaderUnderTest extends ClassLoader {
 
     private static boolean isParallelCapable;

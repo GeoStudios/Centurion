@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.runtime.src.jdk.vm.ci.runtime;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.runtime.src.jdk.vm.ci.code.CompilationRequest;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.runtime.src.jdk.vm.ci.code.CompilationRequestResult;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JVMCICompiler {
     int INVOCATION_ENTRY_BCI = -1;

@@ -21,23 +21,8 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.compiler.share.classes.javax.tools.JavaFileManager.Location;
 import java.util.concurrent.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Standard locations of file objects.

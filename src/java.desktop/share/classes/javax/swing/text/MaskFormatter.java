@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.*;
 import java.text.*;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>MaskFormatter</code> is used to format and edit strings. The behavior
@@ -201,7 +186,6 @@ public class MaskFormatter extends DefaultFormatter {
 
     /** Indicates if the value contains the literal characters. */
     private boolean containsLiteralChars;
-
 
     /**
      * Creates a MaskFormatter with no mask.
@@ -661,7 +645,6 @@ public class MaskFormatter extends DefaultFormatter {
         return sb.toString();
     }
 
-
     /**
      * Subclassed to update the internal representation of the mask after
      * the default read operation has completed.
@@ -836,7 +819,6 @@ public class MaskFormatter extends DefaultFormatter {
         return super.canReplace(rh);
     }
 
-
     //
     // Interal classes used to represent the mask.
     //
@@ -924,7 +906,6 @@ public class MaskFormatter extends DefaultFormatter {
         }
     }
 
-
     /**
      * Used to represent a fixed character in the mask.
      */
@@ -944,7 +925,6 @@ public class MaskFormatter extends DefaultFormatter {
         }
     }
 
-
     /**
      * Represents a number, uses <code>Character.isDigit</code>.
      */
@@ -954,7 +934,6 @@ public class MaskFormatter extends DefaultFormatter {
                     super.isValidCharacter(aChar));
         }
     }
-
 
     /**
      * Represents a character, lower case letters are mapped to upper case
@@ -971,7 +950,6 @@ public class MaskFormatter extends DefaultFormatter {
         }
     }
 
-
     /**
      * Represents a character, upper case letters are mapped to lower case
      * using <code>Character.toLowerCase</code>.
@@ -987,7 +965,6 @@ public class MaskFormatter extends DefaultFormatter {
         }
     }
 
-
     /**
      * Represents either a character or digit, uses
      * <code>Character.isLetterOrDigit</code>.
@@ -999,7 +976,6 @@ public class MaskFormatter extends DefaultFormatter {
         }
     }
 
-
     /**
      * Represents a letter, uses <code>Character.isLetter</code>.
      */
@@ -1009,7 +985,6 @@ public class MaskFormatter extends DefaultFormatter {
                      super.isValidCharacter(aChar));
         }
     }
-
 
     /**
      * Represents a hex character, 0-9a-fA-F. a-f is mapped to A-F

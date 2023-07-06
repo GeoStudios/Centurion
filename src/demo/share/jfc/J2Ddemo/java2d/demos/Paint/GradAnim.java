@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -37,20 +36,6 @@ import java.awt.geom.Point2D;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JComboBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * GradientPaint animation.
@@ -204,7 +189,6 @@ public class GradAnim extends AnimatingControlsSurface {
         g2.drawLine(x1.getInt(), y1.getInt(), x2.getInt(), y2.getInt());
     }
 
-
     public final class animval {
 
         float curval;
@@ -267,7 +251,6 @@ public class GradAnim extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new GradAnim());
     }
-
 
     class DemoControls extends CustomControls implements ActionListener {
 

@@ -21,22 +21,8 @@
 
 package gc.gctests.StringInternGC;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm -XX:+ExplicitGCInvokesConcurrent gc.gctests.StringInternGC.StringInternGC
  */
-
-
 
 /**
  * Test that strings returned by String.intern() can be collected.
@@ -76,7 +60,6 @@ public class StringInternGC extends ThreadedGCTest {
                                 sb.append((char) LocalRandom.nextInt(Integer.MAX_VALUE));
                         return sb.toString();
                 }
-
 
                 public void run() {
                         long currentTime = System.currentTimeMillis();

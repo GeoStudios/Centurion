@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
-
 import java.awt.Image;
 import java.awt.PopupMenu;
 import java.awt.Toolkit;
@@ -49,20 +48,6 @@ import javax.swing.JMenuBar;
 import sun.awt.AWTAccessor;
 import sun.lwawt.LWWindowPeer;
 import sun.lwawt.macosx.CPlatformWindow;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Application} class allows you to integrate your Java application with the native Mac OS X environment.

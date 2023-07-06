@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.dnd.DnDConstants;
@@ -32,20 +31,6 @@ import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.io.Serial;
 import java.desktop.unix.classes.sun.awt.dnd.SunDragSourceContextPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -73,7 +58,6 @@ class XMouseDragGestureRecognizer extends MouseDragGestureRecognizer {
      */
 
     protected static int motionThreshold;
-
 
     protected static final int ButtonMask = InputEvent.BUTTON1_DOWN_MASK |
                                             InputEvent.BUTTON2_DOWN_MASK |
@@ -208,7 +192,6 @@ class XMouseDragGestureRecognizer extends MouseDragGestureRecognizer {
     public void mouseDragged(MouseEvent e) {
         if (!events.isEmpty()) { // gesture pending
             int dop = mapDragOperationFromModifiers(e);
-
 
             if (dop == DnDConstants.ACTION_NONE) {
                 return;

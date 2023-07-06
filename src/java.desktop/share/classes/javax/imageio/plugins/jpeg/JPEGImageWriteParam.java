@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.jpeg;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.imageio.ImageWriteParam;
 import com.sun.imageio.plugins.jpeg.JPEG;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class adds the ability to set JPEG quantization and Huffman

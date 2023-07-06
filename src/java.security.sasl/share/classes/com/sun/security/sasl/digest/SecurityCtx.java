@@ -21,22 +21,7 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.digest;
 
-
 import javax.security.sasl.SaslException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface used for classes implementing integrity checking and privacy

@@ -21,21 +21,6 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface redefclass023j {
     public int getValue();
 }

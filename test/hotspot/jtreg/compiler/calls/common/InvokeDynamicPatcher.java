@@ -21,7 +21,6 @@
 
 package compiler.calls.common;
 
-
 import jdk.internal.org.objectweb.asm.ClassReader;
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -39,19 +38,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which patch InvokeDynamic class bytecode with invokydynamic

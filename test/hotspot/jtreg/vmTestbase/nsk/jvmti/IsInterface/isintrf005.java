@@ -21,21 +21,7 @@
 
 package nsk.jvmti.IsInterface;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isintrf005 {
 

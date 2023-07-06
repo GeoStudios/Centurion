@@ -21,23 +21,9 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import jdk.test.lib.Asserts;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents method compilation state

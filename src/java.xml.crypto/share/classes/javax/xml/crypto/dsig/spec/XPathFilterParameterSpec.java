@@ -21,32 +21,15 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: XPathFilterParameterSpec.java,v 1.4 2005/05/10 16:40:17 mullan Exp $
  */
-
-
 
 /**
  * Parameters for the <a href="http://www.w3.org/TR/xmldsig-core/#sec-XPath">

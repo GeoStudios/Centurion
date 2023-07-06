@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.auth.callback;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p> Implementations of this interface are passed to a
  * {@code CallbackHandler}, allowing underlying security services

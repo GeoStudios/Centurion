@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -79,5 +63,4 @@ package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
 */
-
 

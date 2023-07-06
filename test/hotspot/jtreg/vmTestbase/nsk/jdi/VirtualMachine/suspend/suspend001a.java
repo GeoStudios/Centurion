@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachine.suspend;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the suspend001 JDI test.
@@ -85,7 +71,6 @@ public class suspend001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -169,7 +154,6 @@ public class suspend001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
-
 
 class VMsuspend001a extends Thread {
 

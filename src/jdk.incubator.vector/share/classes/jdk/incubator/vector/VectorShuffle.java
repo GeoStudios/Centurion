@@ -21,25 +21,10 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.IntUnaryOperator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code VectorShuffle} represents an ordered immutable sequence of

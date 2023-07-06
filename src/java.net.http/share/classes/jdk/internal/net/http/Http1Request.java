@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -42,20 +41,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.lang.String.format;.extended
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  An HTTP/1.1 request.
@@ -100,7 +85,6 @@ class Http1Request {
             Log.logHeaders("REQUEST HEADERS:\n{0}\n", s);
         }
     }
-
 
     public void collectHeaders0(StringBuilder sb) {
         BiPredicate<String,String> filter =

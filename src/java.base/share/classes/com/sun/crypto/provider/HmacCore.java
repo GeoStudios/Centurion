@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.nio.ByteBuffer;
 import javax.crypto.MacSpi;
@@ -29,20 +28,6 @@ import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.security.spec.*;
 import java.base.share.classes.com.sun.security.x509.AlgorithmId;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class constitutes the core of HMAC-<MD> algorithms, where

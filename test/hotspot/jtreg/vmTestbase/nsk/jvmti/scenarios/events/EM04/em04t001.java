@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.events.EM04;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class em04t001 extends DebugeeClass {
 

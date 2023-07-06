@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a primitive type.  These include
  * {@code boolean}, {@code byte}, {@code short}, {@code int},

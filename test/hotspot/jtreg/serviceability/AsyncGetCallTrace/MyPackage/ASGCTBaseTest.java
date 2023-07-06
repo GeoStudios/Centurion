@@ -21,21 +21,6 @@
 
 package MyPackage;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @summary Verifies that AsyncGetCallTrace is call-able and provides sane information.

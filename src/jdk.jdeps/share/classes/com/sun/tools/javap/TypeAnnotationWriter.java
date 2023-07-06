@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.TypeAnnotation;
@@ -36,20 +35,6 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jdeps.share.classes.com.sun.tools.javac.util.StringUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotate instructions with details about type annotations.

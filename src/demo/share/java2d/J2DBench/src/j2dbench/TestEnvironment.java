@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench;
 
-
 import java.awt.Canvas;
 import java.awt.Image;
 import java.awt.Graphics;
@@ -33,20 +32,6 @@ import java.awt.Toolkit;
 import java.util.Hashtable;
 import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -54,11 +39,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 public class TestEnvironment implements Node.Visitor {
     static Group globaloptroot;

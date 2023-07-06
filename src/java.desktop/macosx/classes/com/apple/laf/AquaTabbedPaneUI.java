@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.AffineTransform;
@@ -33,20 +32,6 @@ import javax.swing.text.View;
 import sun.swing.SwingUtilities2;
 import java.desktop.macosx.classes.com.apple.laf.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaTabbedPaneUI extends AquaTabbedPaneCopyFromBasicUI {
     private static final int kSmallTabHeight = 20; // height of a small tab

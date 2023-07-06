@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** MidiDevice that can use reference counting for open/close.
  * This interface is intended to be used by MidiSystem.getTransmitter() and

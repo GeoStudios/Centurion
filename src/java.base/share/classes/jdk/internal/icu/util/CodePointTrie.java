@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.util;
 
-
 import java.base.share.classes.jdk.internal.icu.impl.ICUBinary;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,26 +30,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import static java.base.share.classes.jdk.internal.icu.impl.NormalizerImpl.UTF16Plus;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // created: 2018may04 Markus W. Scherer
-
-
-
-
-
 
 /**
  * Immutable Unicode code point trie.

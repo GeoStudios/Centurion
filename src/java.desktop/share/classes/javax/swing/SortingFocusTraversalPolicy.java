@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.util.*;
@@ -29,20 +28,6 @@ import java.awt.FocusTraversalPolicy;
 import sun.util.logging.PlatformLogger;
 import sun.security.action.GetPropertyAction;
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FocusTraversalPolicy that determines traversal order by sorting the

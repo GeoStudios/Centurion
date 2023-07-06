@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.EnumMap;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.Spliterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Flags corresponding to characteristics of streams and operations. Flags are
@@ -240,7 +225,6 @@ enum StreamOpFlag {
      * Construction of the columns is performed using a simple builder for
      * non-zero values.
      */
-
 
     // The following flags correspond to characteristics on Spliterator
     // and the values MUST be equal.

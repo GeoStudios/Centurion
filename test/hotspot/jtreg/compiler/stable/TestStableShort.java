@@ -21,22 +21,8 @@
 
 package compiler.stable;
 
-
 import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStableShort
@@ -68,9 +54,6 @@ import java.lang.reflect.InvocationTargetException;
  *                                 -XX:+FoldStableValues
  *                                 compiler.stable.TestStableShort
  */
-
-
-
 
 public class TestStableShort {
     static final boolean isStableEnabled    = StableConfiguration.isStableEnabled;

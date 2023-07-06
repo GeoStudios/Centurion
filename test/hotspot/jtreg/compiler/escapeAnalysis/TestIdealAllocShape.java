@@ -21,28 +21,12 @@
 
 package compiler.escapeAnalysis;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8242895
  * @summary full loop unroll before EA creates phis between allocs projs and init
  * @run main/othervm -Xbatch -XX:CompileCommand=dontinline,*DataA.m1 compiler.escapeAnalysis.TestIdealAllocShape
  */
-
 
 public class TestIdealAllocShape {
     static volatile DataA f1;

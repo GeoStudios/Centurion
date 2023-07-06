@@ -21,24 +21,10 @@
 
 package vm.runtime.defmeth.shared.data.method;
 
-
 import vm.runtime.defmeth.shared.Printer;
 import vm.runtime.defmeth.shared.data.method.body.MethodBody;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import vm.runtime.defmeth.shared.data.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents default method - non-abstract method in an interface.

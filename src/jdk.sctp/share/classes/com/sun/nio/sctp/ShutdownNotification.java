@@ -21,22 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Notification emitted when a peers shutdowns an the association.
  *

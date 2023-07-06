@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This describes the interface to Characters events.
  * All text events get reported as Characters events.

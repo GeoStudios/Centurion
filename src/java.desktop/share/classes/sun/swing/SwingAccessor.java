@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.awt.*;
 import java.lang.invoke.MethodHandles;
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The SwingAccessor utility class.

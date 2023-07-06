@@ -21,21 +21,7 @@
 
 package nsk.share.gc.lock;
 
-
 import nsk.share.gc.gp.GarbageProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Locker represents a way to lock a resource

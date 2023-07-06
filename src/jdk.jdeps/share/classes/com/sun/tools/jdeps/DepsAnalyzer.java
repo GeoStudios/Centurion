@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -39,20 +38,6 @@ import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.CLASS;.e
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.VERBOSE;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
 import static java.util.stream.Collectors.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Dependency Analyzer.

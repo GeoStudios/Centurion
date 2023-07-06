@@ -21,23 +21,9 @@
 
 package gc.stress;
 
-
 import java.util.Random;
 import gc.CriticalNative;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test CriticalNativeStressEpsilon

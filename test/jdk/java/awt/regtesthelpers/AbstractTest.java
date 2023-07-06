@@ -21,21 +21,6 @@
 
 package test.java.awt.regtesthelpers;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>This is the base class for automatic main tests.
  * <p>When using jtreg you would include this class into
@@ -51,7 +36,6 @@ package test.java.awt.regtesthelpers;
  * import test.java.awt.regtesthelpers.AbstractTest;
  * into the java source.
  */
-
 
 public abstract class AbstractTest
 {

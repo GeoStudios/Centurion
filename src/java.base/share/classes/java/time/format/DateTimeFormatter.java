@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
@@ -58,20 +57,6 @@ import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import sun.util.locale.provider.TimeZoneNameUtility;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Formatter for printing and parsing date-time objects.

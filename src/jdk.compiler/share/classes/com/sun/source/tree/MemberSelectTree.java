@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import javax.lang.model.element.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node for a member access expression.

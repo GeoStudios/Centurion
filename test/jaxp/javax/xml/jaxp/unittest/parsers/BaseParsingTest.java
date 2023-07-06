@@ -21,7 +21,6 @@
 
 package parsers;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.StringReader;
 import javax.xml.parsers.DocumentBuilder;
@@ -43,19 +42,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -113,7 +99,6 @@ public class BaseParsingTest {
             {getDOMParser(DocumentBuilderFactory.newInstance(DOM_IMPL, null), isNSAware)}
         };
     }
-
 
     /**
      * Creates NamespaceAware parsers using old and new factory methods.

@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.events;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.events.Event;
 import java.xml.share.classes.com.sun.org.w3c.dom.events.EventTarget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * EventImpl is an implementation of the basic "generic" DOM Level 2 Event

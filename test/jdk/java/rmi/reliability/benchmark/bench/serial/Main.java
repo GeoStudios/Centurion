@@ -21,7 +21,6 @@
 
 package bench.serial;
 
-
 import bench.ConfigFormatException;
 import bench.Harness;
 import bench.HtmlReporter;
@@ -38,19 +37,6 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.Timer;
 import java.util.TimerTask;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -81,8 +67,6 @@ import java.util.TimerTask;
 
 // The -Xss2m supplies additional stack space, as bench.serial.ClassDesc
 // consumes a considerable amount of stack.
-
-
 
 /**
  * Object serialization benchmark mainline.

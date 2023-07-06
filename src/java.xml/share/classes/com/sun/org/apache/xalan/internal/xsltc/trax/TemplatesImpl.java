@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
@@ -61,27 +60,9 @@ import javax.xml.transform.URIResolver;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: TemplatesImpl.java,v 1.8 2007/03/26 20:12:27 spericas Exp $
  */
-
-
-
-
 
 /**
  * @LastModified: May 2021
@@ -224,7 +205,6 @@ public final class TemplatesImpl implements Templates, Serializable {
         }
     }
 
-
     /**
      * Create an XSLTC template object from the bytecodes.
      * The bytecodes for the translet and auxiliary classes, plus the name of
@@ -304,7 +284,6 @@ public final class TemplatesImpl implements Templates, Serializable {
 
         _tfactory = new TransformerFactoryImpl();
     }
-
 
     /**
      *  This is to fix bugzilla bug 22438
@@ -421,7 +400,6 @@ public final class TemplatesImpl implements Templates, Serializable {
     protected synchronized String getTransletName() {
         return _name;
     }
-
 
     /**
      * Creates a module layer with one module that is defined to the given class

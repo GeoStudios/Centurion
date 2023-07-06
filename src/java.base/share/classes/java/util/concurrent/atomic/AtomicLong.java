@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.concurrent.atomic;
 
-
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.util.function.LongBinaryOperator;
 import java.base.share.classes.java.util.function.LongUnaryOperator;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -51,9 +36,6 @@ import jdk.internal.misc.Unsafe;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A {@code long} value that may be updated atomically.  See the

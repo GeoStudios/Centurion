@@ -21,21 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestBigObj
  * @bug 6845368

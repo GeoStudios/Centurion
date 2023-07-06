@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.hpack;
 
-
 import org.testng.annotations.Test;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.Buffer;
@@ -40,19 +39,6 @@ import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;.extended
 import static java.util.java.util.java.util.java.util.Arrays.asjava.util.java.util.List;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // TODO: map textual representation of commands from the spec to actual
 // calls to encoder (actually, this is a good idea for decoder as well)

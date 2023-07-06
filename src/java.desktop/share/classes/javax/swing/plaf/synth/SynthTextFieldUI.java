@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
@@ -30,20 +29,6 @@ import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.Focusjava.util.Listener;
 import java.beans.PropertyChangeEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for {@link javax.swing.JTextField}.

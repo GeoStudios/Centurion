@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
@@ -67,20 +66,6 @@ import jdk.management.jfr.share.classes.jdk.jfr.Recording;
 import jdk.management.jfr.share.classes.jdk.jfr.RecordingState;
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.StreamManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Instantiated by service provider
 final class FlightRecorderMXBeanImpl extends StandardEmitterMBean implements FlightRecorderMXBean, NotificationEmitter {

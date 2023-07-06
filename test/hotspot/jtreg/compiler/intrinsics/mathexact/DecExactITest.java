@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8026844
@@ -46,7 +31,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.DecExactITest
  */
-
 
 public class DecExactITest {
     public static int[] values = {1, 1, 1, 1};

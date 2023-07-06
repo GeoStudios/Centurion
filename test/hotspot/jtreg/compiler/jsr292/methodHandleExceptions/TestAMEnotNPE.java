@@ -21,7 +21,6 @@
 
 package compiler.jsr292.methodHandleExceptions;
 
-
 import p.Dok;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Handle;
@@ -44,19 +43,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.LLOAD;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8025260 8016839 8046171
@@ -76,10 +62,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
 // and then resulted in IllegalAccessError, the private method is skipped and the invocation
 // will either succeed or fail based on what other implementations are found in the inheritance
 // hierarchy. This is explained for each test below.
-
-
-
-
 
 public class TestAMEnotNPE {
 

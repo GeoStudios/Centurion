@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import java.base.share.classes.java.time.DateTimeException;
 import java.base.share.classes.java.time.chrono.Chronology;
 import java.base.share.classes.java.time.format.ResolverStyle;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A field of date-time, such as month-of-year or minute-of-hour.
@@ -363,6 +348,5 @@ public interface TemporalField {
      */
     @Override
     String toString();
-
 
 }

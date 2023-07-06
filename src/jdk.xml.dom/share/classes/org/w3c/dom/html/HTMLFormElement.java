@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>FORM</code> element encompasses behavior similar to a collection
  * and an element. It provides direct access to the contained input elements

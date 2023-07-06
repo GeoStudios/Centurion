@@ -21,7 +21,6 @@
 
 package jdk.jartool.share.classes.sun.security.tools.jarsigner;
 
-
 import java.io.*;
 import java.net.UnknownHostException;
 import java.security.cert.CertPathValidatorException;
@@ -57,20 +56,6 @@ import jdk.jartool.share.classes.sun.security.validator.Validator;
 import jdk.jartool.share.classes.sun.security.validator.ValidatorException;
 import jdk.jartool.share.classes.sun.security.x509.*;
 import jdk.jartool.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>The jarsigner utility.
@@ -2351,7 +2336,6 @@ public class Main {
         System.out.println(rb.getString("jarsigner.")+message);
         System.exit(1);
     }
-
 
     void error(String message, Throwable e) {
         System.out.println(rb.getString("jarsigner.")+message);

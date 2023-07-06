@@ -21,22 +21,8 @@
 
 package jit.t.t069;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t069.t069
  */
-
-
 
 // Dup, dup_x2, and dup2_x2.
 

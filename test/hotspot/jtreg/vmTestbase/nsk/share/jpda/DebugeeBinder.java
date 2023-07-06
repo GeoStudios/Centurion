@@ -21,24 +21,10 @@
 
 package nsk.share.jpda;
 
-
 import nsk.share.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides debugger with ability to launch
@@ -180,7 +166,6 @@ public class DebugeeBinder extends Log.Logger implements Finalizable {
             }
         }
     }
-
 
     /**
      * Make preperation for IOPipe connection before starting debugee VM process.

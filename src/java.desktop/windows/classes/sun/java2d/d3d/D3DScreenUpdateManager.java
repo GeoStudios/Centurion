@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -45,20 +44,6 @@ import java.desktop.windows.classes.sun.java2d.SurfaceData;
 import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
 import java.desktop.windows.classes.sun.java2d.d3d.D3DSurfaceData.D3DWindowSurfaceData;
 import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class handles rendering to the screen with the D3D pipeline.

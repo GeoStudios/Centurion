@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code StreamTokenizer} class takes an input stream and

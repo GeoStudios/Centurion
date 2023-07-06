@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security.interfaces;
 
-
 import java.base.share.classes.java.security.PrivateKey;
 import java.base.share.classes.java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface for an elliptic curve private key as defined by

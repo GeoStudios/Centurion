@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.string;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8054307
@@ -45,7 +30,6 @@ package compiler.intrinsics.string;
  * @build java.base/java.lang.Helper
  * @run main compiler.intrinsics.string.TestHasNegatives
  */
-
 
 /*
  * @summary Validates StringCoding.hasNegatives intrinsic with a small

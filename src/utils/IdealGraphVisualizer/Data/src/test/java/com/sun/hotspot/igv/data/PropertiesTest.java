@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
-
 import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.InvertPropertyMatcher;
 import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.PropertyMatcher;
 import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.PropertySelector;
@@ -32,26 +31,10 @@ import utils.IdealGraphVisualizer.Data.src.test.java.util.Collection;
 import utils.IdealGraphVisualizer.Data.src.test.java.util.Iterator;
 import junit.framework.TestCase;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  */
 public class PropertiesTest extends TestCase {
-
-
 
     public PropertiesTest(String testName) {
         super(testName);
@@ -137,7 +120,6 @@ public class PropertiesTest extends TestCase {
         Property result = instance.selectSingle(matcher);
         assertEquals(result, new Property(n, v));
 
-
         called[0] = false;
         PropertyMatcher matcher2 = new PropertyMatcher() {
 
@@ -153,7 +135,6 @@ public class PropertiesTest extends TestCase {
                 return false;
             }
         };
-
 
         Property result2 = instance.selectSingle(matcher2);
         assertTrue(result2 == null);
@@ -219,7 +200,6 @@ public class PropertiesTest extends TestCase {
         empty.add(b);
         assertTrue(a.equals(empty));
     }
-
 
     /**
      * Test the multiple argument constructors.

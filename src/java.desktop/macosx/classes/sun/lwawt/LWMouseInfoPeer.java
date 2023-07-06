@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Point;
 import java.awt.Window;
 import java.awt.peer.MouseInfoPeer;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LWMouseInfoPeer implements MouseInfoPeer {
 

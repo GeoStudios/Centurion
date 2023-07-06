@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.hoist.hoist03;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,8 +31,6 @@ package vm.compiler.jbe.hoist.hoist03;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.hoist.hoist03.hoist03
  */
-
-
 
 // hoist03.java
 
@@ -101,7 +84,6 @@ public class hoist03 {
         }
     }
 
-
     // Code fragment after the invariant expression is hoisted out of the loop.
     void fopt() {
         int k = 0;
@@ -112,7 +94,6 @@ public class hoist03 {
             }
         }
     }
-
 
     // Check Loop Hoisting results
     boolean eCheck() {

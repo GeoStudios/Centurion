@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.bmp;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.imageio.ImageWriteParam;
 import com.sun.imageio.plugins.bmp.BMPConstants;
 import com.sun.imageio.plugins.bmp.BMPCompressionTypes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of {@code ImageWriteParam} for encoding images in

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.MidiChannel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A MidiChannel proxy object used for external access to synthesizer internal

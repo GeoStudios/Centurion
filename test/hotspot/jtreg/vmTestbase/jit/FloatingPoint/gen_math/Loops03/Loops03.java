@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Loops03;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.FloatingPoint.gen_math.Loops03.Loops03
  */
 
-
-
 public class Loops03
 {
 
@@ -59,11 +43,9 @@ public class Loops03
    public static void main (String args[])
    {
 
-
         double x;
         double r1, r2, r3, r4, r5, r6, r7;
         double Error = 0.001;
-
 
         Loops03 ll;
         ll = new Loops03();
@@ -92,7 +74,6 @@ public class Loops03
         double er1 = Math.abs(sum - 0.411);
         double er2 = Math.abs(prod - 1.465);
         double errrr = Math.sqrt(er1 * er1 + er2 * er2);
-
 
         ll.Echeck(errrr,Error);
 
@@ -124,9 +105,5 @@ public class Loops03
         }
 
    }
-
-
-
-
 
 }

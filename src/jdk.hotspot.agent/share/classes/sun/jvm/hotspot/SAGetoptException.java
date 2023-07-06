@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class SAGetoptException extends IllegalArgumentException {
 
     public SAGetoptException(String message) {

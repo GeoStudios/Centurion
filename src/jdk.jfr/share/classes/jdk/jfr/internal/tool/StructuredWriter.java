@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.PrintWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class StructuredWriter {
     private final PrintWriter out;

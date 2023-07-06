@@ -21,25 +21,11 @@
 
 package nsk.jdi.ArrayReference.setValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setvalue001 {
     final static int HALF = 9;
@@ -225,7 +211,6 @@ public class setvalue001 {
                 }
                 log.display("debuger> " + i + " field: sample " + sample
                           + " has been set to index " + j);
-
 
                 // Get the Value from the correspondent index
                 try {

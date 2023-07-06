@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFEQ;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
@@ -57,20 +56,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import jdk.xml.internal.JdkXmlFeatures;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Nov 2017
@@ -471,8 +456,6 @@ class FunctionCall extends Expression {
         throw new TypeCheckError(this);
     }
 
-
-
     public Type typeCheckConstructor(SymbolTable stable) throws TypeCheckError{
         final List<Constructor<?>> constructors = findConstructors();
         if (constructors == null) {
@@ -537,7 +520,6 @@ class FunctionCall extends Expression {
 
         throw new TypeCheckError(ErrorMsg.ARGUMENT_CONVERSION_ERR, getMethodSignature(argsType));
     }
-
 
     /**
      * Type check a call to an external (Java) method.
@@ -736,7 +718,6 @@ class FunctionCall extends Expression {
         }
     }
 
-
     /**
      * Translate a function call. The compiled code will leave the function's
      * return value on the JVM's stack.
@@ -864,7 +845,6 @@ class FunctionCall extends Expression {
 
             final String clazz = _chosenMethod.getDeclaringClass().getName();
             Class<?>[] paramTypes = _chosenMethod.getParameterTypes();
-
 
             // Generate call to Module.addReads:
             //   <TransletClass>.class.getModule().addReads(
@@ -1062,7 +1042,6 @@ class FunctionCall extends Expression {
 
         return result;
     }
-
 
     /**
      * Compute the JVM signature for the class.

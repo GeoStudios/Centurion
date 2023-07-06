@@ -21,24 +21,9 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.text.ParseException;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Corresponds <condition>
 final class XmlCondition extends XmlExpression implements ControlElement {

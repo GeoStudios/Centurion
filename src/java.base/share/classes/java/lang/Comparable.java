@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface imposes a total ordering on the objects of each class that

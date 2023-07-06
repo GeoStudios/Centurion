@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.stress.compiler.deoptimize;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -31,19 +30,6 @@ import vm.mlvm.meth.share.RandomArgumentsGen;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.MultiThreadedTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -74,7 +60,6 @@ import vm.mlvm.share.MultiThreadedTest;
  *      -threadsExtra 2
  */
 
-
 /*
  * @test
  * @key stress
@@ -94,10 +79,6 @@ import vm.mlvm.share.MultiThreadedTest;
  *      -threadsPerCpu 2
  *      -threadsExtra 2
  */
-
-
-
-
 
 // TODO: check deopt using vm.mlvm.share.comp framework
 public class Test extends MultiThreadedTest {

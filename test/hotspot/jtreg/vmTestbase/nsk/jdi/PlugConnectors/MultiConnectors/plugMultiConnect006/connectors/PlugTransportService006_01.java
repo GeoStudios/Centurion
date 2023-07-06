@@ -21,32 +21,16 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect006.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple TransportService used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
  */
-
-
 
 public class PlugTransportService006_01 extends PlugTransportService {
 

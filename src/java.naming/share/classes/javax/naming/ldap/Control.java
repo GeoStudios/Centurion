@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This interface represents an LDAPv3 control as defined in
   * <A HREF="http://www.ietf.org/rfc/rfc2251.txt">RFC 2251</A>.

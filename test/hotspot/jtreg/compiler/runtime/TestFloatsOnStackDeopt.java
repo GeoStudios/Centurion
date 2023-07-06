@@ -21,21 +21,6 @@
 
 package compiler.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary testing deoptimization on safepoint with floating point values on stack

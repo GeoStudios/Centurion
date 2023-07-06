@@ -21,7 +21,6 @@
 
 package demo.share.jfc.Font2DTest;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
@@ -63,20 +62,6 @@ import javax.imageio.*;
 import javax.swing.*;
 import static java.awt.RenderingHints.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -84,11 +69,6 @@ import static java.awt.RenderingHints.*;.extended
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 /**
  * FontPanel.java
@@ -699,7 +679,6 @@ public final class FontPanel extends JPanel implements AdjustmentListener {
 
         }
 
-
         /// If textToUse is set to range drawing, then convert
         /// int to hex string and prepends 0s to make it length 4
         /// Otherwise line number was fed; simply return number + 1 converted to String
@@ -866,7 +845,6 @@ public final class FontPanel extends JPanel implements AdjustmentListener {
               drawStart = 0;
               verticalBar.setValue(drawStart);
             }
-
 
             /// Change the status bar if not printing...
             if ( !isPrinting ) {

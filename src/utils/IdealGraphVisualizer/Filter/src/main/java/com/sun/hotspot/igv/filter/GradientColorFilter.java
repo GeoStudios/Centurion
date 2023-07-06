@@ -21,27 +21,12 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
-
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.Diagram;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.Figure;
 import utils.IdealGraphVisualizer.Filter.src.main.java.awt.*;
 import utils.IdealGraphVisualizer.Filter.src.main.java.awt.geom.AffineTransform;
 import utils.IdealGraphVisualizer.Filter.src.main.java.awt.image.Raster;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Filter that colors nodes using a customizable color gradient, based on how

@@ -21,25 +21,11 @@
 
 package compiler.testlibrary.intrinsics;
 
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Verifier {
     enum VerificationStrategy {

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implementors are notified when the app becomes the foreground app and when it
  * is no longer the foreground app. This notification is useful for hiding and

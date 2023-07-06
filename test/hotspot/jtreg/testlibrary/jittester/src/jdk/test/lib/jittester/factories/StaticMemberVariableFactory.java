@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.StaticMemberVariable;
@@ -31,19 +30,6 @@ import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class StaticMemberVariableFactory extends Factory<StaticMemberVariable> {
     private final Type type;

@@ -21,22 +21,8 @@
 
 package nsk.share.gc.lock;
 
-
 import nsk.share.TestBug;
 import nsk.share.gc.lock.Locker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CriticalSectionLocker represents a way to lock a resource

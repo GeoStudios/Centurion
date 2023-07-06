@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.access.foreign;
 
-
 import java.io.FileDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This proxy interface is required to allow instances of the {@code FileChannelImpl.Unmapper} interface (which is a non-public class

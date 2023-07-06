@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents an entry in the exports table of the Module attribute.
@@ -61,7 +43,6 @@ public final class ModuleExports implements Cloneable, Node {
     private final int exportsFlags;
     private final int exportsToCount;
     private final int[] exportsToIndex;  // points to CONSTANT_Module_info
-
 
     /**
      * Construct object from file stream.
@@ -78,7 +59,6 @@ public final class ModuleExports implements Cloneable, Node {
             exportsToIndex[i] = file.readUnsignedShort();
         }
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -109,7 +89,6 @@ public final class ModuleExports implements Cloneable, Node {
         }
     }
 
-
     /**
      * @return String representation
      */
@@ -117,7 +96,6 @@ public final class ModuleExports implements Cloneable, Node {
     public String toString() {
         return "exports(" + exportsIndex + ", " + exportsFlags + ", " + exportsToCount + ", ...)";
     }
-
 
     /**
      * @return Resolved string representation
@@ -134,7 +112,6 @@ public final class ModuleExports implements Cloneable, Node {
         }
         return buf.substring(0, buf.length()-1); // remove the last newline
     }
-
 
     /**
      * @return deep copy of this object

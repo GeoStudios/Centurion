@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.Vector;
 import java.util.Enumeration;
 import java.util.Properties;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * The implementation class for CompoundName and CompositeName.

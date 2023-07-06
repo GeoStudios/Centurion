@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A name with value pair.
  *

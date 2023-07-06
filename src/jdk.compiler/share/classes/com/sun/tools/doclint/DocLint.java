@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.doclint;
 
-
 import java.util.ServiceLoader;
 import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
 import jdk.compiler.share.classes.com.sun.source.util.Plugin;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base class for the DocLint service used by javac.

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.options;
 
-
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -31,20 +30,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.CopyFile;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Transformer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Sjavac options can be classified as:
@@ -307,7 +292,6 @@ public enum Option {
         }
     };
 
-
     public final String arg;
 
     final String description;
@@ -363,7 +347,6 @@ public enum Option {
     public boolean hasOption() {
         return arg.endsWith(":") || arg.endsWith("=");
     }
-
 
     /**
      * Process current argument of argIter.

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.MouseEvent;
@@ -31,20 +30,6 @@ import java.awt.event.ActionEvent;
 import javax.swing.plaf.basic.*;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XButtonPeer extends XComponentPeer implements ButtonPeer {
     private boolean pressed;
@@ -70,7 +55,6 @@ public class XButtonPeer extends XComponentPeer implements ButtonPeer {
         focusInsets = new Insets(0,0,0,0);
         contentAreaInsets = new Insets(3,3,3,3);
     }
-
 
     public  XButtonPeer(Button target) {
         super(target);
@@ -154,7 +138,6 @@ public class XButtonPeer extends XComponentPeer implements ButtonPeer {
         }
     }
 
-
     // NOTE: This method is called by privileged threads.
     //       DO NOT INVOKE CLIENT CODE ON THIS THREAD!
     public void action(final long when, final int modifiers) {
@@ -162,7 +145,6 @@ public class XButtonPeer extends XComponentPeer implements ButtonPeer {
                                   ((Button)target).getActionCommand(),
                                   when, modifiers));
     }
-
 
     public void focusGained(FocusEvent e) {
         super.focusGained(e);
@@ -200,7 +182,6 @@ public class XButtonPeer extends XComponentPeer implements ButtonPeer {
 
               break;
 
-
         }
     }
 
@@ -235,7 +216,6 @@ public class XButtonPeer extends XComponentPeer implements ButtonPeer {
             textRect = new Rectangle();
             viewRect = new Rectangle();
             iconRect = new Rectangle();
-
 
             viewRect.width = size.width - (contentAreaInsets.left+contentAreaInsets.right);
             viewRect.height = size.height - (contentAreaInsets.top+contentAreaInsets.bottom);

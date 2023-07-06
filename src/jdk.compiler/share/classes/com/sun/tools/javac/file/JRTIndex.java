@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.ref.SoftReference;
@@ -44,20 +43,6 @@ import java.util.Set;
 import javax.tools.FileObject;
 import jdk.compiler.share.classes.com.sun.tools.javac.file.RelativePath.RelativeDirectory;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A package-oriented index into the jrt: filesystem.
@@ -96,7 +81,6 @@ public class JRTIndex {
             return false;
         }
     }
-
 
     /**
      * The jrt: file system.

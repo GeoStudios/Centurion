@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Insets;
@@ -31,20 +30,6 @@ import java.util.Map;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements Theme Support for Windows XP.

@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.RepaintArea;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code RepaintArea} is a geometric construct created for the

@@ -21,22 +21,8 @@
 
 package nsk.jdi.VMOutOfMemoryException.VMOutOfMemoryException001;
 
-
 import nsk.share.Consts;
 import nsk.share.jdi.AbstractJDIDebuggee;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This test verifies that a VMOutOfMemoryException is thrown when the debugge runs out of memory.

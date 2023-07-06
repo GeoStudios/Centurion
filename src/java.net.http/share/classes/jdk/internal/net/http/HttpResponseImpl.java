@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.nio.ByteBuffer;
@@ -34,20 +33,6 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.share.classes.jdk.internal.net.http.websocket.RawChannel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The implementation class for HttpResponse

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
 import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
@@ -41,20 +40,6 @@ import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SessionTicketExtension is an implementation of RFC 5077 with some internals
@@ -483,7 +468,6 @@ final class SessionTicketExtension {
             }
         }
     }
-
 
     private static final class T12SHSessionTicketProducer
             extends SupportedGroups implements HandshakeProducer {

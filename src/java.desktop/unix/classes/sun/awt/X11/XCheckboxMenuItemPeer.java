@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class XCheckboxMenuItemPeer extends XMenuItemPeer
         implements CheckboxMenuItemPeer {
@@ -93,7 +78,6 @@ final class XCheckboxMenuItemPeer extends XMenuItemPeer
                 }
             });
     }
-
 
     /************************************************
      *

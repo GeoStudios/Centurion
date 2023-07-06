@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inet6Address;
 import java.net.InetAddress;
@@ -35,20 +34,6 @@ import java.util.ResourceBundle;
 import jdk.jdi.share.classes.com.sun.jdi.connect.TransportTimeoutException;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A transport service based on a TCP connection between the

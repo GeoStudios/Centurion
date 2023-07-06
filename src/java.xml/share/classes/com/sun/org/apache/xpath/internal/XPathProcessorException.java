@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Derived from XPathException in order that XPath processor
@@ -61,7 +44,6 @@ public class XPathProcessorException extends XPathException
   {
     super(message);
   }
-
 
   /**
    * Create an XPathProcessorException object that holds

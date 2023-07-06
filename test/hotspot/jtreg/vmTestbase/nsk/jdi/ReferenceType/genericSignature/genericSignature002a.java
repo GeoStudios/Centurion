@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.genericSignature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for
@@ -92,7 +78,6 @@ public class genericSignature002a {
     GS002_Interf07<GS002_Class00, GS002_Interf02> GS002_Interf07_Obj = new GS002_Class07();
     GS002_Interf08 GS002_Interf08_Obj = new GS002_Class08();
 
-
     public static void main (String argv[]) {
 
         argsHandler = new ArgumentHandler(argv);
@@ -122,7 +107,6 @@ public class genericSignature002a {
     }
 } // end of genericSignature002a class
 
-
 // non generic interfaces:
 
 interface GS002_Interf01 {}
@@ -142,8 +126,6 @@ interface GS002_Interf06<I extends GS002_Class00 & GS002_Interf02> {}
 interface GS002_Interf07<I1 extends GS002_Class00 & GS002_Interf02, I2 extends GS002_Interf02> {}
 
 interface GS002_Interf08 extends GS002_Interf03<GS002_Class00> {}
-
-
 
 // Auxiliary classes
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Interruptedjava.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.nio.ByteBuffer;
 import javax.crypto.AEADBadTagException;
 import java.base.share.classes.javax.crypto.BadPaddingException;
 import javax.net.ssl.SSLHandshakeException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for SSL/(D)TLS transportation.

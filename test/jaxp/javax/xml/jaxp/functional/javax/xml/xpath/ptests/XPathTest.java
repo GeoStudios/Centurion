@@ -21,7 +21,6 @@
 
 package javax.xml.xpath.ptests;
 
-
 import static javax.xml.xpath.XPathConstants.BOOLEAN;.extended
 import static javax.xml.xpath.XPathConstants.NODE;.extended
 import static javax.xml.xpath.XPathConstants.NODESET;.extended
@@ -50,19 +49,6 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for XPath API.
@@ -125,7 +111,6 @@ public class XPathTest {
     public void testCheckXPath01() throws XPathExpressionException {
         assertEquals(xpath.evaluate(EXPRESSION_NAME_A, document, STRING), "6");
     }
-
 
     /**
      * Test for XPath.compile(java.lang.String expression) and then
@@ -193,7 +178,6 @@ public class XPathTest {
     public void testCheckXPath07() throws XPathExpressionException {
         assertEquals(xpath.compile(EXPRESSION_NAME_B).evaluate(document, STRING), "");
     }
-
 
     /**
      * Test for XPath.evaluate(java.lang.String expression, java.lang.Object
@@ -298,7 +282,6 @@ public class XPathTest {
     public void testCheckXPath16() throws XPathExpressionException {
         assertEquals(xpath.evaluate(EXPRESSION_NAME_A, document, NUMBER), 6d);
     }
-
 
     /**
      * XPath.evaluate(java.lang.String expression, java.lang.Object item, QName

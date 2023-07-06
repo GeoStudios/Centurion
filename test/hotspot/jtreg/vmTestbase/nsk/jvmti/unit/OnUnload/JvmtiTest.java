@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.OnUnload;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTest {
 

@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests.text;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -52,20 +51,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.Result;
 import demo.share.java2d.J2DBench.src.j2dbench.Test;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -73,11 +58,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 public abstract class TextTests extends Test {
     public static boolean hasGraphics2D;
@@ -289,7 +269,6 @@ public abstract class TextTests extends Test {
         }
         return s.substring(0, len);
     }
-
 
     static HashMap strcache = new HashMap(tscripts.length);
     private static String getSimpleString(Object key) {

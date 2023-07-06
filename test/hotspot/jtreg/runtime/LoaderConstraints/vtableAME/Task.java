@@ -21,19 +21,4 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Task extends C { }

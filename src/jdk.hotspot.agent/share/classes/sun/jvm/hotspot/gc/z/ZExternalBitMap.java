@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
 import java.util.HashMap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Discontiguous bitmap for ZGC. */
 public class ZExternalBitMap implements BitMapInterface {

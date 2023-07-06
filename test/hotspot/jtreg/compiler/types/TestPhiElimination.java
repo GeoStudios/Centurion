@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8150804
@@ -44,7 +29,6 @@ package compiler.types;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.types.TestPhiElimination
  */
-
 
 public class TestPhiElimination {
     /*

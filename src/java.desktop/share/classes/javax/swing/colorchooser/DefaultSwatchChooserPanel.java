@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
@@ -32,20 +31,6 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard color swatch chooser.
@@ -228,7 +213,6 @@ class DefaultSwatchChooserPanel extends AbstractColorChooserPanel {
 
     }
 
-
     private class RecentSwatchKeyListener extends KeyAdapter {
         public void keyPressed(KeyEvent e) {
             if (KeyEvent.VK_SPACE == e.getKeyCode()) {
@@ -406,7 +390,6 @@ class SwatchPanel extends JPanel {
 
     protected void initColors() {
 
-
     }
 
     public String getToolTipText(MouseEvent e) {
@@ -439,9 +422,6 @@ class SwatchPanel extends JPanel {
         return colors[ (row * numSwatches.width) + column ]; // (STEVE) - change data orientation here
     }
 
-
-
-
 }
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
@@ -451,7 +431,6 @@ class RecentSwatchPanel extends SwatchPanel {
         numSwatches = new Dimension( 5, 7 );
         gap = new Dimension(1, 1);
     }
-
 
     protected void initColors() {
         Color defaultRecentColor = UIManager.getColor("ColorChooser.swatchesDefaultRecentColor", getLocale());
@@ -474,7 +453,6 @@ class RecentSwatchPanel extends SwatchPanel {
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 class MainSwatchPanel extends SwatchPanel {
-
 
     protected void initValues() {
         swatchSize = UIManager.getDimension("ColorChooser.swatchesSwatchSize", getLocale());

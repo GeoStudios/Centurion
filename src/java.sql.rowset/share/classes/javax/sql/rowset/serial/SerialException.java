@@ -21,22 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
-
 import java.sql.SQLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates and an error with the serialization or de-serialization of

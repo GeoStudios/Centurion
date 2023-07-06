@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IALOAD - Load int from array
@@ -56,7 +39,6 @@ public class IALOAD extends ArrayInstruction implements StackProducer {
     public IALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.IALOAD);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

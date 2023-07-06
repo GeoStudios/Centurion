@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.math.BigInteger;
 import java.base.share.classes.java.security.*;
 import java.util.Collections;
@@ -30,20 +29,6 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.crypto.spec.DHParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Predefined default DH ephemeral parameters.

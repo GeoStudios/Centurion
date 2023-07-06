@@ -21,56 +21,6 @@
 
 package build.tools.pandocfilter.json;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class JSONObject implements JSONValue {
     public static class Field {
         private final String name;

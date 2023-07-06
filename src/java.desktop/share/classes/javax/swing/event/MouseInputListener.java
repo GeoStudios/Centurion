@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.awt.event.Mousejava.util.Listener;
 import java.awt.event.MouseMotionjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A listener implementing all the methods in both the {@code MouseListener} and

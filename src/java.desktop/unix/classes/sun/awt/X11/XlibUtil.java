@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Dimension;
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
@@ -33,20 +32,6 @@ import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
 import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class is a collection of utility methods that operate

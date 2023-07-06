@@ -21,21 +21,6 @@
 
 package compiler.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8073154
@@ -46,7 +31,6 @@ package compiler.print;
  * @summary Verify that c1's LIR that contains ProfileType node could be dumped
  *          without a crash disregard to an exact class knowledge.
  */
-
 
 public class TestProfileReturnTypePrinting {
     private static final int ITERATIONS = 1_000_000;

@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.locationsOfLine_ssi.locationsOfLine_ssi002;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.TestBug;
 import nsk.share.jdi.sde.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -89,8 +75,6 @@ import nsk.share.jdi.sde.*;
  *      -testClassPath ${test.class.path}
  *      -testWorkDir .
  */
-
-
 
 public class locationsOfLine_ssi002 extends SDEDebugger {
     public static void main(String argv[]) {

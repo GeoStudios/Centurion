@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.jdk.internal.shellsupport.doc;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -85,20 +84,6 @@ import com.sun.tools.javac.api.JavacTaskImpl;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
 import com.sun.tools.javac.util.Pair;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**Helper to find javadoc and resolve @inheritDoc.
  */

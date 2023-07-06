@@ -21,7 +21,6 @@
 
 package selectionresolution;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
@@ -29,19 +28,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PRIVATE;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PROTECTED;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Constructs classes and interfaces based on the information from a
@@ -188,7 +174,6 @@ public class ClassBuilder extends Builder {
         mod += getExtensibility();
         return mod;
     }
-
 
     /**
      * Convert ClassData access type to ASM

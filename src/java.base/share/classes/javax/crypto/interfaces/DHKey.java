@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.crypto.interfaces;
 
-
 import java.base.share.classes.javax.crypto.spec.DHParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface to a Diffie-Hellman key.

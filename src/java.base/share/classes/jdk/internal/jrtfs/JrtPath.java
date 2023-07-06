@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.io.File;
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
@@ -44,20 +43,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import static java.nio.file.StandardOpenOption.*;.extended
 import static java.nio.file.StandardCopyOption.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for Path implementation of jrt file systems.

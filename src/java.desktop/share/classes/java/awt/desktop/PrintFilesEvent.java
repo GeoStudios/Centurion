@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
 import java.desktop.share.classes.java.awt.Desktop;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.HeadlessException;
 import java.desktop.share.classes.java.io.File;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Event sent when the app is asked to print a list of files.

@@ -21,26 +21,12 @@
 
 package nsk.jdi.Connector._bounds_;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up the methods:                                                  <br>

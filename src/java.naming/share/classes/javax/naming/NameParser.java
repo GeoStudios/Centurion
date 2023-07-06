@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This interface is used for parsing names from a hierarchical
   * namespace.  The NameParser contains knowledge of the syntactic

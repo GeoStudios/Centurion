@@ -21,26 +21,11 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
-
 import java.nio.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import javax.smartcardio.*;
 import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CardChannel implementation.

@@ -21,7 +21,6 @@
 
 package sun.hotspot.tools.ctw;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.lang.management.ManagementFactory;
@@ -30,19 +29,6 @@ import java.nio.file.Paths;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CompileTheWorld {
     // in case when a static constructor changes System::out and System::err

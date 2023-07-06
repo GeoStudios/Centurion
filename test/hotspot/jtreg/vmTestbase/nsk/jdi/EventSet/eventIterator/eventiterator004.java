@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventSet.eventIterator;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -202,7 +188,6 @@ public class eventiterator004 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -215,7 +200,6 @@ public class eventiterator004 extends JDIBase {
             log2("waiting for VMStartEvent");
             getEventSet();
             check();
-
 
             if (eventIterator.nextEvent() instanceof VMStartEvent) {
                 log2("VMStartEvent received; test begins");

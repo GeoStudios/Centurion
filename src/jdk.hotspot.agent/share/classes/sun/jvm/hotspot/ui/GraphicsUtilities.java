@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.util.Random;
 import javax.swing.*;
 import javax.swing.border.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Useful utilities for drawing graphics */
 
@@ -149,7 +134,6 @@ public class GraphicsUtilities {
     int y = (int)((containerDimension.height - sz.height) * random.nextFloat());
     component.setLocation(x, y);
   }
-
 
   public static Border newBorder(int size) {
     return BorderFactory.createEmptyBorder(size, size, size, size);

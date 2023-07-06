@@ -21,23 +21,8 @@
 
 package jdk.sctp.unix.classes.sun.nio.ch.sctp;
 
-
 import com.sun.nio.sctp.Association;
 import com.sun.nio.sctp.ShutdownNotification;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of ShutdownNotification

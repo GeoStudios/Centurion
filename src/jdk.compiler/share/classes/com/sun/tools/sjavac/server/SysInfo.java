@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class used to report information about the system
@@ -47,8 +32,6 @@ import java.io.Serializable;
  * risk.  This code and its internal interfaces are subject to change
  * or deletion without notice.</b></p>
  */
-
-
 
 /**
  *  <p><b>This is NOT part of any supported API.

@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.failedToInitialize;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the failedToInitialize() method of ReferenceType interface for UNLOADED class
-
 
 class failedtoinit002b {}

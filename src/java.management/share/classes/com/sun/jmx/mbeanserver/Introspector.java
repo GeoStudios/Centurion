@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import java.lang.annotation.Annotation;
 import java.lang.ref.SoftReference;
 import java.lang.reflect.AnnotatedElement;
@@ -52,20 +51,6 @@ import javax.management.AttributeNotFoundException;
 import javax.management.openmbean.CompositeData;
 import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
 import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains the methods for performing all the tests needed to verify
@@ -372,7 +357,6 @@ public class Introspector {
      *  PRIVATE METHODS
      * ------------------------------------------
      */
-
 
     /**
      * Try to find the MBean interface corresponding to the class aName

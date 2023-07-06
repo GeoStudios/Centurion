@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.misc;
 
-
 import java.io.EOFException;
 import java.security.AllPermission;
 import java.security.AccessController;
@@ -40,20 +39,6 @@ import java.lang.reflect.Modifier;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Trampoline {
     static {
@@ -262,7 +247,6 @@ public final class MethodUtil extends SecureClassLoader {
         }
     }
 
-
     /*
      * Bounce through the trampoline.
      */
@@ -310,7 +294,6 @@ public final class MethodUtil extends SecureClassLoader {
         }
     }
 
-
     protected synchronized Class<?> loadClass(String name, boolean resolve)
         throws ClassNotFoundException
     {
@@ -333,7 +316,6 @@ public final class MethodUtil extends SecureClassLoader {
         return c;
     }
 
-
     protected Class<?> findClass(final String name)
         throws ClassNotFoundException
     {
@@ -355,7 +337,6 @@ public final class MethodUtil extends SecureClassLoader {
 
         throw new ClassNotFoundException(name);
     }
-
 
     /*
      * Define the proxy classes
